@@ -6,9 +6,9 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,668);
 assert.equal(ids.size,668,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.5.0');
-assert.deepEqual(data.coverage,{renal:101,safety:28,catalog:539});
-assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.3.0'&&d.entryType==='renal'&&d.id!=='captopril').length,30);
+assert.equal(data.version,'0.6.0');
+assert.deepEqual(data.coverage,{renal:113,safety:28,catalog:527});
+assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.3.0'&&d.entryType==='renal'&&d.id!=='captopril'&&d.updatedInVersion!=='0.6.0').length,30);
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -78,7 +78,7 @@ assert.equal(drug('cetirizine-oral').modalities.ckd.tables[0].rows[1].dose,'No m
 assert.equal(drug('metoclopramide').modalities.pd.tables[0].rows[0].dose,'5 mg PO twice daily; maximum 10 mg/day');
 assert.equal(drug('warfarin').review.sourceCheckedAt,null);
 assert.equal(drug('ibuprofen').sharedGuidanceId,'systemic-nsaid');
-assert.match(data.referenceScope.pnfStatus,/not identified/);
+assert.match(data.referenceScope.pnfStatus,/British National Formulary/);
 const html=readFileSync(new URL('./dist/index.html',import.meta.url),'utf8');
 const embedded=JSON.parse(html.match(/<script id="renalrounds-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.deepEqual(embedded,data,'Embedded offline data must match export');
@@ -89,7 +89,7 @@ assert.equal(docs.guide,readFileSync(new URL('./dist/EDITORIAL_GUIDE.md',import.
 assert.equal(docs.changelog,readFileSync(new URL('./dist/CHANGELOG.md',import.meta.url),'utf8'));
 assert.ok(existsSync(new URL('./dist/.nojekyll',import.meta.url)));
 const before=JSON.parse(readFileSync(new URL('./baseline_v03.json',import.meta.url),'utf8'));
-for(const [id,modalities] of Object.entries(before))if(!['captopril','amlodipine'].includes(id))assert.deepEqual(drug(id).modalities,modalities,`${id}: unrelated v0.3 regimen changed`);
+for(const [id,modalities] of Object.entries(before))if(!['captopril','amlodipine','losartan','valsartan','candesartan','irbesartan','telmisartan','bisoprolol','enalapril','ramipril','clonidine','hydralazine','methyldopa','indapamide'].includes(id))assert.deepEqual(drug(id).modalities,modalities,`${id}: unrelated v0.3 regimen changed`);
 const pkFields=['halfLife','renalHalfLife','volumeOfDistribution','proteinBinding'];
 let pkCount=0,fullCount=0;
 for(const d of data.drugs){
@@ -119,7 +119,7 @@ assert.equal(drug('bisoprolol').pharmacokinetics.dialysability.ihd.status,'remov
 assert.equal(drug('carvedilol').pharmacokinetics.dialysability.ihd.status,'negligible');
 assert.equal(drug('ramipril').pharmacokinetics.dialysability.ihd.status,'source_difference');
 assert.equal(drug('warfarin').pharmacokinetics.status,'not_curated');
-assert.equal(drug('losartan').entryType,'catalog');assert.equal(drug('losartan').review.sourceCheckedAt,null);assert.equal(drug('losartan').pharmacokinetics.status,'source_summary');
+assert.equal(drug('losartan').entryType,'renal');assert.equal(drug('losartan').review.sourceCheckedAt,'2026-10-29');assert.equal(drug('losartan').pharmacokinetics.status,'source_summary');
 assert.ok(existsSync(new URL('./dist/pk.js',import.meta.url)));
-console.log(`PASS: 668 records, 101 renal profiles, 28 safety notes, 539 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Original 70 profiles retained; only captopril/amlodipine modality content changed since v0.3. PK provenance, units/context, ESRF distinctions and explicit RRT gaps checked. Standalone data/documents match sources.`);
+console.log(`PASS: 668 records, 113 renal profiles, 28 safety notes, 527 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Original 70 profiles retained; captopril/amlodipine plus the 12 v0.6 profiles are the only modality changes since v0.3. PK provenance, units/context, ESRF distinctions and explicit RRT gaps checked. Standalone data/documents match sources.`);
 console.log('Software/data integrity checks do not establish clinical validity. Independent clinical review remains pending.');
