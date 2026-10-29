@@ -30,11 +30,11 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 }
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
-const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v07.json'));
-assert.equal(data.version,'0.8.0');assert.equal(data.clinicalDataVersion,'0.7.0');
-assert.deepEqual(data.drugs,old.drugs);assert.deepEqual(data.sources,old.sources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);assert.deepEqual(data.sourceConflicts,old.sourceConflicts);
+const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
+assert.equal(data.version,'0.9.0');assert.equal(data.clinicalDataVersion,'0.9.0');
+assert.deepEqual(data.calculatorSources,old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
 assert.equal(data.calculatorSources.length,6);
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/calculator.js')),'Calculator values must not be persisted, exported or sent');
 assert.match(read('./dist/app.js'),/!\$\('#calculator'\)\.open/,'Drug-search shortcut must not run over the calculator');
-console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; unchanged v0.7 clinical records; embedded calculator and no persistence/export/network path.');
+console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path.');

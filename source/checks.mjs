@@ -6,8 +6,8 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,668);
 assert.equal(ids.size,668,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.8.0');
-assert.deepEqual(data.coverage,{renal:133,safety:28,catalog:507});
+assert.equal(data.version,'0.9.0');
+assert.deepEqual(data.coverage,{renal:218,safety:28,catalog:422});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -73,7 +73,7 @@ assert.equal(drug('etelcalcetide').modalities.pd.status,'not_indicated');
 assert.equal(drug('cinacalcet').modalities.ckd.status,'not_indicated');
 assert.equal(drug('cetirizine-oral').modalities.ckd.tables[0].rows[1].dose,'No more than 5 mg PO once daily');
 assert.equal(drug('metoclopramide').modalities.pd.tables[0].rows[0].dose,'5 mg PO twice daily; maximum 10 mg/day');
-assert.equal(drug('warfarin').review.sourceCheckedAt,null);
+assert.equal(drug('warfarin').review.sourceCheckedAt,'2026-10-29');
 assert.equal(drug('ibuprofen').sharedGuidanceId,'systemic-nsaid');
 assert.match(data.referenceScope.pnfStatus,/British National Formulary/);
 const html=readFileSync(new URL('./dist/index.html',import.meta.url),'utf8');
@@ -86,7 +86,7 @@ assert.equal(docs.guide,readFileSync(new URL('./dist/EDITORIAL_GUIDE.md',import.
 assert.equal(docs.changelog,readFileSync(new URL('./dist/CHANGELOG.md',import.meta.url),'utf8'));
 assert.ok(existsSync(new URL('./dist/.nojekyll',import.meta.url)));
 const before=JSON.parse(readFileSync(new URL('./baseline_v03.json',import.meta.url),'utf8'));
-for(const [id,modalities] of Object.entries(before))if(![...data.releaseChanges.newRenalIds,'captopril','amlodipine','losartan','valsartan','candesartan','irbesartan','telmisartan','bisoprolol','enalapril','ramipril','clonidine','hydralazine','methyldopa','indapamide'].includes(id))for(const k of ['ckd','ihd','pd','crrt'])assert.deepEqual(drug(id).modalities[k],modalities[k],`${id}/${k}: unrelated v0.3 regimen changed`);
+for(const [id,modalities] of Object.entries(before))if(![...data.clinicalUpdates.newRenalIds,...data.releaseChanges.newRenalIds,'captopril','amlodipine','losartan','valsartan','candesartan','irbesartan','telmisartan','bisoprolol','enalapril','ramipril','clonidine','hydralazine','methyldopa','indapamide'].includes(id))for(const k of ['ckd','ihd','pd','crrt'])assert.deepEqual(drug(id).modalities[k],modalities[k],`${id}/${k}: unrelated v0.3 regimen changed`);
 const pkFields=['halfLife','renalHalfLife','volumeOfDistribution','proteinBinding'];
 let pkCount=0,fullCount=0;
 for(const d of data.drugs){
@@ -98,7 +98,7 @@ for(const d of data.drugs){
  if(['halfLife','volumeOfDistribution','proteinBinding'].every(k=>p[k].status==='sourced')&&p.dialysability.ihd.value!==null)fullCount++;
  for(const k of ['crrt','sled']){assert.equal(p.dialysability[k].status,'not_curated','Never infer circuit clearance from protein binding/Vd');assert.equal(p.dialysability[k].value,null);}
 }
-assert.equal(pkCount,53);assert.equal(fullCount,40);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
+assert.equal(pkCount,66);assert.equal(fullCount,52);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
 const cap=drug('captopril'),am=drug('amlodipine');
 assert.equal(cap.entryType,'renal');assert.match(cap.kidneyMetric,/CrCl.*1.73/);
 assert.match(cap.modalities.ckd.tables[0].indication,/TOTAL daily/);
@@ -115,8 +115,8 @@ assert.match(am.modalities.ckd.tables[0].rows[0].dose,/5 mg.*maximum 10 mg/);
 assert.equal(drug('bisoprolol').pharmacokinetics.dialysability.ihd.status,'removed');
 assert.equal(drug('carvedilol').pharmacokinetics.dialysability.ihd.status,'negligible');
 assert.equal(drug('ramipril').pharmacokinetics.dialysability.ihd.status,'source_difference');
-assert.equal(drug('warfarin').pharmacokinetics.status,'not_curated');
+assert.equal(drug('warfarin').pharmacokinetics.status,'source_summary');
 assert.equal(drug('losartan').entryType,'renal');assert.equal(drug('losartan').review.sourceCheckedAt,'2026-10-29');assert.equal(drug('losartan').pharmacokinetics.status,'source_summary');
 assert.ok(existsSync(new URL('./dist/pk.js',import.meta.url)));
-console.log(`PASS: 668 records, 133 renal profiles, 28 safety notes, 507 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
+console.log(`PASS: 668 records, 218 renal profiles, 28 safety notes, 422 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
 console.log('Software/data integrity checks do not establish clinical validity. Independent clinical review remains pending.');
