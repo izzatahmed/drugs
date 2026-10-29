@@ -1,0 +1,4927 @@
+{
+  "allopurinol": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Gout · initial dose",
+            "rows": [
+              {
+                "context": ">60",
+                "dose": "100 mg PO daily (usual initial dose)"
+              },
+              {
+                "context": ">30–60",
+                "dose": "50 mg PO daily"
+              },
+              {
+                "context": ">15–30",
+                "dose": "50 mg PO every other day"
+              },
+              {
+                "context": "5–15",
+                "dose": "50 mg PO twice weekly"
+              },
+              {
+                "context": "<5",
+                "dose": "50 mg PO once weekly"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "allopurinol"
+        ]
+      },
+      "ihd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "alogliptin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "25 mg PO once daily"
+              },
+              {
+                "context": "30 to <60",
+                "dose": "12.5 mg PO once daily"
+              },
+              {
+                "context": "<30",
+                "dose": "6.25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "alogliptin-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "ESRD on HD",
+                "dose": "6.25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "No relationship to HD timing required.",
+        "sourceIds": [
+          "alogliptin-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "US label: not studied in patients undergoing PD.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "amoxicillin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Symptomatic Enterococcus UTI",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "500 mg PO every 8 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "500 mg PO every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Severe infection / selected outpatient CAP",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "1 g PO every 8 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "1 g PO every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "amoxicillin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Enterococcus UTI",
+            "rows": [
+              {
+                "context": "High-flux IHD",
+                "dose": "500 mg PO once now, then every evening"
+              }
+            ]
+          },
+          {
+            "indication": "Severe infection / selected CAP",
+            "rows": [
+              {
+                "context": "High-flux IHD",
+                "dose": "500 mg PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "amoxicillin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Enterococcus UTI",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "500 mg PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Severe infection / selected CAP",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "1 g PO every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Limited data; UCSF local expert opinion.",
+        "sourceIds": [
+          "amoxicillin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "amoxicillin-clavulanate": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Most indications (immediate release)",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "875/125 mg PO every 12 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "500/125 mg PO every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500/125 mg PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "amoxicillin-clavulanate",
+          "augmentin-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Most indications",
+            "rows": [
+              {
+                "context": "High-flux IHD",
+                "dose": "500/125 mg PO once now, then every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "UCSF regimen. Label dialysis supplementation differs; reconcile with local policy.",
+        "sourceIds": [
+          "amoxicillin-clavulanate",
+          "augmentin-label"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Most indications",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "500/125 mg PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "amoxicillin-clavulanate",
+          "augmentin-label"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "apixaban": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Stroke prevention in nonvalvular AF · US label",
+            "rows": [
+              {
+                "context": "Fewer than 2 reduction criteria",
+                "dose": "5 mg PO twice daily"
+              },
+              {
+                "context": "At least 2 reduction criteria",
+                "dose": "2.5 mg PO twice daily"
+              }
+            ]
+          },
+          {
+            "indication": "Acute adult DVT / PE · US label",
+            "rows": [
+              {
+                "context": "Initial 7 days",
+                "dose": "10 mg PO twice daily"
+              },
+              {
+                "context": "After initial 7 days",
+                "dose": "5 mg PO twice daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "apixaban"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "US label dialysis recommendations rely on pharmacokinetic data; dialysis patients were not enrolled in efficacy/safety trials. Similar clinical outcomes are unknown. No automatic regimen is assigned; specialist and local-label review required.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No CRRT regimen curated.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Do not extrapolate intermittent-HD pharmacokinetics to PD. No PD regimen curated.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "atenolol": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Maximum oral dose · not starting doses",
+            "rows": [
+              {
+                "context": "15–35",
+                "dose": "Maximum 50 mg PO daily"
+              },
+              {
+                "context": "<15",
+                "dose": "Maximum 25 mg PO daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "atenolol-label",
+          "atenolol-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US label · supervised dosing",
+            "rows": [
+              {
+                "context": "After each HD session",
+                "dose": "25 or 50 mg PO after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "Hospital supervision advised: marked falls in blood pressure can occur.",
+        "sourceIds": [
+          "atenolol-label",
+          "atenolol-pdr"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "atrasentan": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US primary IgAN · selected adult regimen",
+            "rows": [
+              {
+                "context": "Eligible non-dialysis patient",
+                "dose": "0.75 mg PO once daily"
+              },
+              {
+                "context": "eGFR <30",
+                "dose": "No automatic regimen: specialist assessment of limited clinical evidence"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "atrasentan-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "ESRD pharmacokinetics are unknown in the checked US label; no dialysis regimen assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "azithromycin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Community-acquired pneumonia · ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Community-acquired pneumonia · non-ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO once, then 250 mg every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "azithromycin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Community-acquired pneumonia · ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Community-acquired pneumonia · non-ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO once, then 250 mg every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "azithromycin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Community-acquired pneumonia · ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Community-acquired pneumonia · non-ICU",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO once, then 250 mg every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "azithromycin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "budesonide-targeted": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US Tarpeyo · eligible primary IgAN",
+            "rows": [
+              {
+                "context": "Treatment course",
+                "dose": "16 mg PO once daily for a 9-month course"
+              },
+              {
+                "context": "Final 2 weeks on discontinuation",
+                "dose": "Reduce to 8 mg PO once daily for final 2 weeks"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "budesonide-igan-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No HD regimen curated; the pivotal trial enrolled non-dialysis patients with eGFR ≥35.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "canagliflozin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US renal dosing",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "Usual initiation 100 mg PO daily; product-specific escalation requires eligibility"
+              },
+              {
+                "context": "30 to <60",
+                "dose": "Maximum 100 mg PO daily"
+              },
+              {
+                "context": "<30",
+                "dose": "Do not initiate. Adults already taking it with albuminuria >300 mg/day may continue 100 mg daily for labelled cardiorenal benefit"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "canagliflozin-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Dialysis patients were not enrolled in efficacy/safety trials; no regimen assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "cefazolin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Uncomplicated Gram-positive infection",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "1 g IV every 8 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "1 g IV every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Complicated Gram-positive / Gram-negative infection",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "2 g IV every 8 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "2 g IV every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cefazolin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "High-flux IHD",
+                "dose": "2 g IV once now and after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "Alternative for stable three-times-weekly HD: 2 g / 2 g / 3 g after HD; 3 g precedes the 72-hour interval.",
+        "sourceIds": [
+          "cefazolin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "2 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cefazolin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "cefepime": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Non-severe infection · short infusion",
+            "rows": [
+              {
+                "context": ">60",
+                "dose": "2 g IV every 12 h"
+              },
+              {
+                "context": "30–60",
+                "dose": "2 g IV every 24 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "1 g IV every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Severe infection / meningitis / febrile neutropenia / Pseudomonas · short infusion",
+            "rows": [
+              {
+                "context": ">60",
+                "dose": "2 g IV every 8 h"
+              },
+              {
+                "context": "30–60",
+                "dose": "2 g IV every 12 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "2 g IV every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cefepime",
+          "cefepime-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF high-flux regimen",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "2 g IV once now and after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "DIFFERENT SOURCE REGIMENS: US label uses 1 g day 1, then 500 mg every 24 h (1 g every 24 h for febrile neutropenia), after HD on dialysis days. Choose an approved local protocol; do not combine regimens.",
+        "sourceIds": [
+          "cefepime",
+          "cefepime-label"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "1 g IV every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Extended infusion requires ID/pharmacy guidance.",
+        "sourceIds": [
+          "cefepime",
+          "cefepime-label"
+        ]
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Systemic IV therapy · not intraperitoneal",
+            "rows": [
+              {
+                "context": "CAPD",
+                "dose": "Usual indication-specific unit dose (500 mg, 1 g or 2 g) IV every 48 h"
+              }
+            ]
+          }
+        ],
+        "notes": "US label Table 2; verify the unit dose against the normal-function regimen. APD and intraperitoneal peritonitis dosing are not curated.",
+        "sourceIds": [
+          "cefepime-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "cefiderocol": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US adult regimen · all infusions over 3 h",
+            "rows": [
+              {
+                "context": "≥120",
+                "dose": "2 g IV every 6 h"
+              },
+              {
+                "context": "60–119",
+                "dose": "2 g IV every 8 h"
+              },
+              {
+                "context": "30–59",
+                "dose": "1.5 g IV every 8 h"
+              },
+              {
+                "context": "15–29",
+                "dose": "1 g IV every 8 h"
+              },
+              {
+                "context": "<15",
+                "dose": "0.75 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cefiderocol-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US label · 3 h infusion",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "0.75 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Give immediately after HD on dialysis days.",
+        "sourceIds": [
+          "cefiderocol-label"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US CRRT initial dosing · 3 h infusions",
+            "rows": [
+              {
+                "context": "Effluent ≤2 L/h",
+                "dose": "1.5 g IV every 12 h"
+              },
+              {
+                "context": "2.1–3 L/h",
+                "dose": "2 g IV every 12 h"
+              },
+              {
+                "context": "3.1–4 L/h",
+                "dose": "1.5 g IV every 8 h"
+              },
+              {
+                "context": "≥4.1 L/h",
+                "dose": "2 g IV every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "CVVH/CVVHD/CVVHDF; residual renal function may require individualisation. Verify exact flow boundaries in source.",
+        "sourceIds": [
+          "cefiderocol-label"
+        ],
+        "settingMeasure": "US label · CVVH/CVVHD/CVVHDF · delivered effluent flow in L/h"
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ceftazidime-avibactam": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US adult renal adjustment · 2 h infusion",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "Usual adult regimen; see full label"
+              },
+              {
+                "context": "31–50",
+                "dose": "1.25 g IV every 8 h"
+              },
+              {
+                "context": "16–30",
+                "dose": "0.94 g IV every 12 h"
+              },
+              {
+                "context": "6–15",
+                "dose": "0.94 g IV every 24 h"
+              },
+              {
+                "context": "≤5",
+                "dose": "0.94 g IV every 48 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ceftazidime-avibactam-pdr",
+          "ceftazidime-avibactam-maker"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "PDR: use the estimated-CrCl regimen and give after HD on dialysis days. Residual CrCl is needed; no single dose is selected automatically.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ceftriaxone": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard systemic dosing",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "UTI",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / enterococcal endocarditis (with ampicillin)",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ceftriaxone"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard systemic dosing",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "UTI",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / enterococcal endocarditis (with ampicillin)",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "No haemodialysis adjustment in the cited guidance.",
+        "sourceIds": [
+          "ceftriaxone"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard systemic dosing",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "UTI",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / enterococcal endocarditis (with ampicillin)",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "2 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ceftriaxone"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "cephalexin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Gram-negative bloodstream infection · selected oral therapy",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "1 g PO every 6 h"
+              },
+              {
+                "context": "30–50",
+                "dose": "1 g PO every 8 h"
+              },
+              {
+                "context": "15–29",
+                "dose": "1 g PO every 12 h"
+              },
+              {
+                "context": "<15",
+                "dose": "500 mg PO every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cephalexin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Gram-negative bloodstream infection",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500 mg PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "cephalexin"
+        ]
+      },
+      "crrt": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "UCSF lists no continuous-HD data.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ciprofloxacin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard dosing",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "400 mg IV every 12 h OR 500 mg PO every 12 h"
+              },
+              {
+                "context": "30–50",
+                "dose": "400 mg IV every 12 h OR 500 mg PO every 12 h"
+              },
+              {
+                "context": "<30",
+                "dose": "400 mg IV every 24 h OR 500 mg PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Pseudomonas / Gram-negative bloodstream infection",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "400 mg IV every 8 h OR 750 mg PO every 12 h"
+              },
+              {
+                "context": "30–50",
+                "dose": "400 mg IV every 12 h OR 500 mg PO every 12 h"
+              },
+              {
+                "context": "<30",
+                "dose": "400 mg IV every 24 h OR 500 mg PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ciprofloxacin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "400 mg IV OR 500 mg PO every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ciprofloxacin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "400 mg IV every 8 h OR 500 mg PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ciprofloxacin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "clindamycin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Uncomplicated infection",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV every 8 h OR 450 mg PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Necrotising soft-tissue / group A streptococcal infection / PID",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "900 mg IV every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "clindamycin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Uncomplicated infection",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV every 8 h OR 450 mg PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Necrotising soft-tissue / group A streptococcal infection / PID",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "900 mg IV every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "clindamycin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Uncomplicated infection",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV every 8 h OR 450 mg PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Necrotising soft-tissue / group A streptococcal infection / PID",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "900 mg IV every 8 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "clindamycin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "colchicine": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Gout prophylaxis · selected US tablet guidance",
+            "rows": [
+              {
+                "context": "CrCl ≥30",
+                "dose": "No routine renal reduction; monitor closely"
+              },
+              {
+                "context": "CrCl <30",
+                "dose": "Start 0.3 mg PO daily; any increase requires monitoring"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "colchicine-pdr",
+          "colchicine-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Gout prophylaxis",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "0.3 mg PO twice weekly"
+              }
+            ]
+          },
+          {
+            "indication": "Gout flare treatment",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "0.6 mg PO once; do not repeat within 2 weeks"
+              }
+            ]
+          }
+        ],
+        "notes": "Do not use flare treatment if already receiving colchicine prophylaxis in renal impairment.",
+        "sourceIds": [
+          "colchicine-pdr",
+          "colchicine-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "dabigatran": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US NVAF · renal adjustment",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "Usual indication-specific regimen; check interactions"
+              },
+              {
+                "context": "15–30",
+                "dose": "75 mg PO twice daily under US guidance"
+              },
+              {
+                "context": "<15",
+                "dose": "Manufacturer provides no dose"
+              }
+            ]
+          },
+          {
+            "indication": "UK adult renal restriction",
+            "rows": [
+              {
+                "context": "CrCl <30",
+                "dose": "Contraindicated; US 75 mg twice-daily advice must not be transferred to UK prescribing"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "dabigatran-pdr",
+          "dabigatran-uk"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No manufacturer dialysis dose supplied. Dialysis removal in overdose is not a maintenance regimen.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "dapagliflozin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US PDR · HF / CKD",
+            "rows": [
+              {
+                "context": "≥25",
+                "dose": "10 mg PO once daily"
+              },
+              {
+                "context": "<25",
+                "dose": "Do not initiate; established therapy may continue at 10 mg daily under the source conditions"
+              }
+            ]
+          },
+          {
+            "indication": "UK product SmPC · initiation eligibility",
+            "rows": [
+              {
+                "context": "≥15",
+                "dose": "No renal dose reduction; usual regimen 10 mg PO daily. Experience starting below 25 is limited"
+              },
+              {
+                "context": "<15",
+                "dose": "Do not initiate"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "dapagliflozin-pdr",
+          "dapagliflozin-uk"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "PDR: no dialysis efficacy/safety trial data; no routine dialysis regimen assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No PD regimen curated.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "daprodustat": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "Historical US label was not indicated for CKD anaemia in patients not on dialysis.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Historical US start · on dialysis ≥4 months, not receiving ESA",
+            "rows": [
+              {
+                "context": "Hb <9 g/dL",
+                "dose": "4 mg PO daily"
+              },
+              {
+                "context": "Hb 9–10 g/dL",
+                "dose": "2 mg PO daily"
+              },
+              {
+                "context": "Hb >10 g/dL",
+                "dose": "1 mg PO daily"
+              }
+            ]
+          }
+        ],
+        "notes": "Prior ESA treatment needs a different conversion table; do not use this table for conversion.",
+        "sourceIds": [
+          "daprodustat-label",
+          "daprodustat-market"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "daptomycin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF selected adult regimen",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "8–10 mg/kg IV every 24 h"
+              },
+              {
+                "context": "<30",
+                "dose": "8–10 mg/kg IV every 48 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "daptomycin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "High-flux IHD",
+                "dose": "8–10 mg/kg IV once now and after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "Unstable HD schedule: UCSF alternative 8–10 mg/kg IV every 48 h.",
+        "sourceIds": [
+          "daptomycin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "6–8 mg/kg IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Not evaluated for CVVH. Flow >2.5 L/h may require higher doses with ID/pharmacy.",
+        "sourceIds": [
+          "daptomycin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "difelikefalin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "The curated injectable product is indicated for adults undergoing HD, not non-dialysis CKD.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult moderate/severe CKD-associated pruritus",
+            "rows": [
+              {
+                "context": "At end of each HD treatment",
+                "dose": "0.5 micrograms/kg IV bolus using target dry body weight"
+              }
+            ]
+          }
+        ],
+        "notes": "Give into the venous line after blood is no longer circulating through the dialyser; follow rinse-back/flush instructions.",
+        "sourceIds": [
+          "difelikefalin-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Not studied in PD; US label does not recommend use in this population.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "doxycycline": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF adult regimen",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "100 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "doxycycline"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF adult regimen",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "100 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "doxycycline"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF adult regimen",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "100 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "doxycycline"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "dulaglutide": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Renal adjustment only",
+            "rows": [
+              {
+                "context": "Renal impairment / ESRD",
+                "dose": "No adjustment; use the usual product-specific initiation and titration"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "dulaglutide-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No renal adjustment is recommended in ESRD, but US label advises caution. No dialysis-outcome claim is made.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "duloxetine": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Renal eligibility",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "No renal adjustment; use indication-specific dose"
+              },
+              {
+                "context": "<30",
+                "dose": "Avoid use"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "duloxetine-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Avoid in kidney failure under the cited guidance; no HD regimen.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "No PD regimen assigned; avoid in severe renal impairment under this source.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "edoxaban": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US NVAF",
+            "rows": [
+              {
+                "context": ">95",
+                "dose": "Do not use for NVAF; reduced efficacy"
+              },
+              {
+                "context": ">50 to 95",
+                "dose": "60 mg PO once daily"
+              },
+              {
+                "context": "15–50",
+                "dose": "30 mg PO once daily"
+              },
+              {
+                "context": "<15",
+                "dose": "Use not recommended"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "edoxaban-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Use is not recommended at CrCl <15; no HD regimen assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "empagliflozin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult HF / eligible CKD",
+            "rows": [
+              {
+                "context": "eGFR ≥20",
+                "dose": "10 mg PO once daily"
+              },
+              {
+                "context": "eGFR <20",
+                "dose": "Not enrolled at initiation in cited efficacy/safety trials; no initiation dose supplied here"
+              }
+            ]
+          },
+          {
+            "indication": "Glycaemic control in type 2 diabetes",
+            "rows": [
+              {
+                "context": "eGFR ≥30",
+                "dose": "10 mg PO once daily; may increase to 25 mg if tolerated"
+              },
+              {
+                "context": "eGFR <30",
+                "dose": "Not recommended for glucose lowering"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "empagliflozin"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Trials did not enrol patients already on dialysis. No initiation regimen provided here; specialist review required.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "No CRRT regimen curated.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No PD initiation regimen provided; specialist review required.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "enoxaparin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "VTE prophylaxis in acutely ill medical adults",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "40 mg SC once daily"
+              },
+              {
+                "context": "<30 · non-dialysis",
+                "dose": "30 mg SC once daily"
+              }
+            ]
+          },
+          {
+            "indication": "Inpatient acute DVT ± PE (label regimen with warfarin)",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "1 mg/kg SC every 12 h OR 1.5 mg/kg SC once daily"
+              },
+              {
+                "context": "<30 · non-dialysis",
+                "dose": "1 mg/kg SC once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "enoxaparin"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "A routine IHD regimen has not been curated. Do not apply the non-dialysis <30 band as an approved dialysis regimen.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Systemic VTE treatment and circuit anticoagulation are different indications; no CRRT regimen curated.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "eplerenone": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US renal eligibility",
+            "rows": [
+              {
+                "context": "≤30 · all indications",
+                "dose": "Contraindicated"
+              },
+              {
+                "context": ">30 to <50 · hypertension",
+                "dose": "Contraindicated"
+              },
+              {
+                "context": ">30 to <50 · HF",
+                "dose": "PDR guideline regimen: 25 mg PO every other day for first 4 weeks, then 25 mg daily if appropriate"
+              },
+              {
+                "context": "≥50",
+                "dose": "No renal adjustment; use indication-specific regimen"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "eplerenone-pdr",
+          "eplerenone-label"
+        ]
+      },
+      "ihd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Contraindicated at CrCl ≤30. HD does not remove eplerenone.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ertapenem": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Selected adult infections",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "1 g IV every 24 h"
+              },
+              {
+                "context": "≤30",
+                "dose": "500 mg IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ertapenem",
+          "ertapenem-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF daily regimen",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500 mg IV once now, then every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "Post-HD-only regimens require specialist approval because of toxicity risk. The US label specifies a 150 mg post-HD supplement if the daily dose was given within 6 hours before HD.",
+        "sourceIds": [
+          "ertapenem",
+          "ertapenem-label"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ertapenem",
+          "ertapenem-label"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ertugliflozin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes · US PDR",
+            "rows": [
+              {
+                "context": "≥45",
+                "dose": "5 mg PO once daily initially; may increase to 15 mg daily"
+              },
+              {
+                "context": "<45",
+                "dose": "Use not recommended"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ertugliflozin-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Not recommended in kidney failure; no HD dose assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "exenatide-ir": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Byetta only",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "No renal adjustment; usual product titration"
+              },
+              {
+                "context": "30–50",
+                "dose": "Use cautiously, especially when increasing 5 to 10 micrograms"
+              },
+              {
+                "context": "<30 / ESRD",
+                "dose": "Not recommended"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "exenatide-pdr",
+          "exenatide-label"
+        ]
+      },
+      "ihd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Byetta is not recommended in ESRD on HD.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Not recommended in ESRD.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "febuxostat": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US gout renal dosing",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "No renal adjustment to usual 40/80 mg daily regimen"
+              },
+              {
+                "context": "15–29",
+                "dose": "Maximum 40 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "febuxostat-pdr",
+          "febuxostat-label"
+        ]
+      },
+      "ihd": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "US label: not studied in end-stage renal impairment on dialysis.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "ferric-citrate": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Iron-deficiency anaemia · adult CKD not on dialysis",
+            "rows": [
+              {
+                "context": "Initial dose",
+                "dose": "1 tablet PO three times daily with meals"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ferric-citrate-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Hyperphosphataemia · adult CKD on dialysis",
+            "rows": [
+              {
+                "context": "Initial dose",
+                "dose": "2 tablets PO three times daily with meals"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ferric-citrate-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Hyperphosphataemia · adult CKD on dialysis",
+            "rows": [
+              {
+                "context": "Initial dose",
+                "dose": "2 tablets PO three times daily with meals"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "ferric-citrate-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "finerenone": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US starting dose · eligible CKD with T2DM/T1DM or HF with LVEF ≥40%",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "20 mg PO once daily"
+              },
+              {
+                "context": "25 to <60",
+                "dose": "10 mg PO once daily"
+              },
+              {
+                "context": "<25",
+                "dose": "Initiation not recommended"
+              }
+            ]
+          },
+          {
+            "indication": "US target dose · after monitoring and titration",
+            "rows": [
+              {
+                "context": "CKD with T2DM / T1DM",
+                "dose": "20 mg PO daily"
+              },
+              {
+                "context": "HF · eGFR ≥60 at initiation",
+                "dose": "40 mg PO daily"
+              },
+              {
+                "context": "HF · eGFR 25 to <60 at initiation",
+                "dose": "20 mg PO daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "finerenone-label",
+          "finerenone-uk",
+          "pdr-oct2026"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No dialysis initiation regimen assigned; specialist review required.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No PD regimen assigned.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "fluconazole": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Oropharyngeal infection · maintenance",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "100 mg IV/PO every 24 h"
+              },
+              {
+                "context": "10–50",
+                "dose": "50 mg IV/PO every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "25 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Oesophageal infection · maintenance",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "200 mg IV/PO every 24 h"
+              },
+              {
+                "context": "10–50",
+                "dose": "100 mg IV/PO every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "50 mg IV/PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "fluconazole"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Oropharyngeal infection",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "100 mg IV/PO once now, then after HD"
+              }
+            ]
+          },
+          {
+            "indication": "Oesophageal infection",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "200 mg IV/PO once now, then after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "fluconazole"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Oropharyngeal infection",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "200 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Oesophageal infection",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "400 mg IV/PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "These recommendations are for CVVHD, not evaluated for CVVH.",
+        "sourceIds": [
+          "fluconazole"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "gabapentin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Label renal dose ranges · match indication and titrate",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "900–3,600 mg/day PO in 3 doses"
+              },
+              {
+                "context": ">30–59",
+                "dose": "400–1,400 mg/day PO in 2 doses"
+              },
+              {
+                "context": ">15–29",
+                "dose": "200–700 mg PO once daily"
+              },
+              {
+                "context": "15",
+                "dose": "100–300 mg PO once daily"
+              },
+              {
+                "context": "<15",
+                "dose": "Reduce the 15 mL/min daily dose in proportion to CrCl"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "gabapentin"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [
+          {
+            "indication": "Immediate release · label",
+            "rows": [
+              {
+                "context": "After each 4-hour HD",
+                "dose": "Maintenance based on residual CrCl PLUS a matched post-HD supplement"
+              }
+            ]
+          }
+        ],
+        "notes": "Post-HD supplements of 125 / 150 / 200 / 250 / 350 mg correspond to the label dose columns. Open Table 1 to select the matched dose; these are not interchangeable options.",
+        "sourceIds": [
+          "gabapentin"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "levetiracetam": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult maintenance · IR oral / IV",
+            "rows": [
+              {
+                "context": ">80",
+                "dose": "Usual indication-specific maintenance"
+              },
+              {
+                "context": "50–80",
+                "dose": "500–1,000 mg every 12 h"
+              },
+              {
+                "context": "30–49",
+                "dose": "250–750 mg every 12 h"
+              },
+              {
+                "context": "<30",
+                "dose": "250–500 mg every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "levetiracetam-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult maintenance · IR / IV",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500–1,000 mg every 24 h PLUS 250–500 mg after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "levetiracetam-pdr"
+        ]
+      },
+      "crrt": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "PDR provides a generic CRRT range without delivered-treatment settings. No universal CRRT dose assigned here.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "PDR adult maintenance · IR / IV",
+            "rows": [
+              {
+                "context": "PD",
+                "dose": "500–1,000 mg every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Individualise to residual function and seizure control; this is not a loading dose.",
+        "sourceIds": [
+          "levetiracetam-pdr"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "levofloxacin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UTI",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "500 mg IV/PO every 24 h"
+              },
+              {
+                "context": "20–49",
+                "dose": "500 mg once, then 250 mg IV/PO every 24 h"
+              },
+              {
+                "context": "<20",
+                "dose": "500 mg once, then 250 mg IV/PO every 48 h"
+              }
+            ]
+          },
+          {
+            "indication": "Other indications, including Gram-negative bloodstream infection",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "750 mg IV/PO every 24 h"
+              },
+              {
+                "context": "20–49",
+                "dose": "750 mg IV/PO every 48 h"
+              },
+              {
+                "context": "<20",
+                "dose": "750 mg once, then 500 mg IV/PO every 48 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "levofloxacin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500 mg once, then 250 mg IV/PO every 48 h"
+              }
+            ]
+          },
+          {
+            "indication": "Pneumonia / GNR bloodstream / Pseudomonas",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "750 mg once, then 500 mg IV/PO every 48 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "levofloxacin"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "750 mg IV/PO once, then 250 mg IV/PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Pneumonia / GNR bloodstream / Pseudomonas",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "750 mg IV/PO once, then 500 mg IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "levofloxacin"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "linagliptin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "Renal impairment",
+                "dose": "5 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "linagliptin"
+        ]
+      },
+      "ihd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "linezolid": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Selected systemic bacterial infections",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "linezolid"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Selected systemic bacterial infections",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "linezolid"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Selected systemic bacterial infections",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "600 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "linezolid"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "liraglutide": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Victoza renal adjustment only",
+            "rows": [
+              {
+                "context": "Renal impairment",
+                "dose": "No adjustment; use product-specific usual titration"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "liraglutide-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Limited ESRD experience; no dialysis regimen is automatically assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "lisinopril": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Initial adult dose",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "No renal adjustment to usual initiation"
+              },
+              {
+                "context": "10–30 · hypertension",
+                "dose": "5 mg PO daily"
+              },
+              {
+                "context": "10–30 · HF / acute MI",
+                "dose": "2.5 mg PO daily"
+              },
+              {
+                "context": "<10",
+                "dose": "2.5 mg PO daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "lisinopril-pdr",
+          "lisinopril-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Initial adult dose",
+            "rows": [
+              {
+                "context": "HD",
+                "dose": "2.5 mg PO once daily; titrate individually"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "lisinopril-pdr",
+          "lisinopril-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "meropenem": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard · short infusion",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "1 g IV every 8 h"
+              },
+              {
+                "context": "26–50",
+                "dose": "1 g IV every 12 h"
+              },
+              {
+                "context": "10–25",
+                "dose": "500 mg IV every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg IV every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / cystic fibrosis · short infusion",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "2 g IV every 8 h"
+              },
+              {
+                "context": "26–50",
+                "dose": "2 g IV every 12 h"
+              },
+              {
+                "context": "10–25",
+                "dose": "1 g IV every 12 h"
+              },
+              {
+                "context": "<10",
+                "dose": "1 g IV every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "meropenem"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500 mg IV once now, then every evening"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / cystic fibrosis",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "1 g IV once now, then every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "meropenem"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "1 g IV every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Meningitis / cystic fibrosis",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "2 g IV every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "Discuss flow rates >2 L/h with ID/pharmacy.",
+        "sourceIds": [
+          "meropenem"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "metformin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Renal eligibility · not a titration schedule",
+            "rows": [
+              {
+                "context": "≥45",
+                "dose": "No renal restriction from this threshold alone; use formulation-specific dosing"
+              },
+              {
+                "context": "30 to <45",
+                "dose": "Do not initiate. If already taking, reassess benefit versus risk"
+              },
+              {
+                "context": "<30",
+                "dose": "Contraindicated; discontinue"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "metformin"
+        ]
+      },
+      "ihd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Contraindicated in kidney failure with eGFR <30. No maintenance-dialysis treatment regimen.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "No CRRT treatment regimen curated. RRT does not establish eligibility for metformin.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "avoid",
+        "tables": [],
+        "notes": "Contraindicated in kidney failure with eGFR <30. No PD treatment regimen.",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "metronidazole": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": ">10",
+                "dose": "500 mg IV/PO every 8 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg IV/PO every 12 h"
+              }
+            ]
+          },
+          {
+            "indication": "Intra-abdominal infection (excluding C. difficile)",
+            "rows": [
+              {
+                "context": "All renal-function bands",
+                "dose": "500 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "metronidazole"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "Dialysis regimen",
+                "dose": "500 mg IV/PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Intra-abdominal infection (excluding C. difficile)",
+            "rows": [
+              {
+                "context": "Dialysis regimen",
+                "dose": "500 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "metronidazole"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Standard",
+            "rows": [
+              {
+                "context": "Dialysis regimen",
+                "dose": "500 mg IV/PO every 8 h"
+              }
+            ]
+          },
+          {
+            "indication": "Intra-abdominal infection (excluding C. difficile)",
+            "rows": [
+              {
+                "context": "Dialysis regimen",
+                "dose": "500 mg IV/PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "metronidazole"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "nirmatrelvir-ritonavir": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Eligible adult COVID-19 · 5-day course · US label",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "300 mg nirmatrelvir + 100 mg ritonavir PO twice daily"
+              },
+              {
+                "context": "30 to <60",
+                "dose": "150 mg nirmatrelvir + 100 mg ritonavir PO twice daily"
+              },
+              {
+                "context": "<30 · day 1",
+                "dose": "300 mg nirmatrelvir + 100 mg ritonavir PO ONCE"
+              },
+              {
+                "context": "<30 · days 2–5",
+                "dose": "150 mg nirmatrelvir + 100 mg ritonavir PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "paxlovid-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Day 1",
+            "rows": [
+              {
+                "context": "HD",
+                "dose": "300 mg nirmatrelvir + 100 mg ritonavir PO once"
+              }
+            ]
+          },
+          {
+            "indication": "Days 2–5",
+            "rows": [
+              {
+                "context": "HD",
+                "dose": "150 mg nirmatrelvir + 100 mg ritonavir PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "On HD days administer after the session. This is a 5-day total course, not a recurring HD regimen.",
+        "sourceIds": [
+          "paxlovid-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "nitrofurantoin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Cystitis treatment",
+            "rows": [
+              {
+                "context": ">60",
+                "dose": "100 mg PO every 12 h"
+              },
+              {
+                "context": "<60",
+                "dose": "Limited data in this source; consider an alternative"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "nitrofurantoin"
+        ]
+      },
+      "ihd": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "Limited dialysis data in UCSF guidance; consider alternatives.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "Limited dialysis data in UCSF guidance; consider alternatives.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "patiromer": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult hyperkalaemia · initial regimen",
+            "rows": [
+              {
+                "context": "Serum-potassium guided",
+                "dose": "8.4 g PO once daily initially; maximum 25.2 g daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "patiromer-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No HD-specific protocol curated; do not replace urgent dialysis or emergency hyperkalaemia care with this entry.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "pregabalin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Example ONLY: indication requiring 150 mg/day at normal function",
+            "rows": [
+              {
+                "context": "≥60",
+                "dose": "150 mg/day PO in 2–3 doses"
+              },
+              {
+                "context": "30–60",
+                "dose": "75 mg/day PO in 2–3 doses"
+              },
+              {
+                "context": "15–30",
+                "dose": "25–50 mg/day PO in 1–2 doses"
+              },
+              {
+                "context": "<15",
+                "dose": "25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "pregabalin"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [
+          {
+            "indication": "Immediate-release label",
+            "rows": [
+              {
+                "context": "After each 4-hour HD",
+                "dose": "Renally adjusted daily dose PLUS a matched supplemental dose"
+              }
+            ]
+          }
+        ],
+        "notes": "For a 25 mg once-daily regimen: 25–50 mg supplement; 25–50 mg daily: 50–75 mg supplement; 50–75 mg daily: 75–100 mg supplement; 75 mg daily: 100–150 mg supplement. Confirm Table 2.",
+        "sourceIds": [
+          "pregabalin"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "rivaroxaban": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US NVAF · selected non-dialysis dosing",
+            "rows": [
+              {
+                "context": ">50",
+                "dose": "20 mg PO daily with evening meal"
+              },
+              {
+                "context": "15–50",
+                "dose": "15 mg PO daily with evening meal"
+              },
+              {
+                "context": "<15",
+                "dose": "No automatic regimen assigned; specialist/local-label review"
+              }
+            ]
+          },
+          {
+            "indication": "US acute DVT/PE",
+            "rows": [
+              {
+                "context": "CrCl ≥15",
+                "dose": "15 mg PO twice daily for 21 days, then 20 mg daily; take with food"
+              },
+              {
+                "context": "CrCl <15",
+                "dose": "Avoid use"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "rivaroxaban-pdr",
+          "rivaroxaban-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Clinical outcomes in ESRD/HD are uncertain and indication dependent. No automatic HD dose assigned.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "rosuvastatin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult lipid lowering",
+            "rows": [
+              {
+                "context": "Mild / moderate renal impairment",
+                "dose": "No renal adjustment; indication-based adult range 5–40 mg PO daily"
+              },
+              {
+                "context": "CLcr <30 · not on HD",
+                "dose": "Start 5 mg PO daily; maximum 10 mg daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "rosuvastatin"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "The label severe-impairment cap explicitly excludes HD. This starter entry does not assign a dialysis dose or determine whether a statin should be initiated.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sacubitril-valsartan": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult HF · initial renal adjustment",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "No renal reduction to the usual starting dose"
+              },
+              {
+                "context": "<30",
+                "dose": "Start at half the usual recommended starting dose; use the full adult product algorithm"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sacubitril-valsartan-pdr",
+          "sacubitril-valsartan-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Unlikely to be removed by HD because of protein binding; this does not establish a validated dialysis dose.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "saxagliptin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes · US PDR",
+            "rows": [
+              {
+                "context": "≥45",
+                "dose": "2.5 or 5 mg PO daily according to the usual regimen"
+              },
+              {
+                "context": "<45",
+                "dose": "2.5 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "saxagliptin-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "2.5 mg PO once daily; give after HD"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "saxagliptin-pdr"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "semaglutide-sc": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Ozempic SC only",
+            "rows": [
+              {
+                "context": "Renal impairment, including kidney failure",
+                "dose": "No renal adjustment; follow the injection-specific initiation and titration schedule"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "semaglutide-label",
+          "semaglutide-maker"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "US renal PK includes kidney failure; this does not establish all dialysis outcomes or an automatic patient-specific dose. Use the product titration with specialist review.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sevelamer-carbonate": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "This US Renvela indication is CKD on dialysis. Non-dialysis uses require separate jurisdiction-specific guidance.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US binder-naive adult dialysis patient",
+            "rows": [
+              {
+                "context": "Phosphate >5.5 to <7.5 mg/dL",
+                "dose": "0.8 g PO three times daily with meals"
+              },
+              {
+                "context": "Phosphate ≥7.5 mg/dL",
+                "dose": "1.6 g PO three times daily with meals"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sevelamer-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US binder-naive adult dialysis patient",
+            "rows": [
+              {
+                "context": "Phosphate >5.5 to <7.5 mg/dL",
+                "dose": "0.8 g PO three times daily with meals"
+              },
+              {
+                "context": "Phosphate ≥7.5 mg/dL",
+                "dose": "1.6 g PO three times daily with meals"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sevelamer-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sitagliptin": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "≥45",
+                "dose": "100 mg PO once daily"
+              },
+              {
+                "context": "30 to <45",
+                "dose": "50 mg PO once daily"
+              },
+              {
+                "context": "<30",
+                "dose": "25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sitagliptin"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "ESRD on HD",
+                "dose": "25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "May administer without regard to dialysis timing.",
+        "sourceIds": [
+          "sitagliptin"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Type 2 diabetes",
+            "rows": [
+              {
+                "context": "ESRD on PD",
+                "dose": "25 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "May administer without regard to dialysis timing.",
+        "sourceIds": [
+          "sitagliptin"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sodium-zirconium-cyclosilicate": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US non-dialysis adult regimen",
+            "rows": [
+              {
+                "context": "Initial correction",
+                "dose": "10 g PO three times daily for up to 48 h"
+              },
+              {
+                "context": "Maintenance",
+                "dose": "Usually 10 g daily; titrate per potassium and full label"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "szc-label"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US chronic haemodialysis",
+            "rows": [
+              {
+                "context": "Initial regimen",
+                "dose": "5 g PO once daily on NON-dialysis days only"
+              }
+            ]
+          }
+        ],
+        "notes": "Consider 10 g initial dose on non-dialysis days if K >6.5 mEq/L; this does not replace emergency management. Reassess pre-HD potassium after the long interval.",
+        "sourceIds": [
+          "szc-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sparsentan": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult IgAN · selected regimen",
+            "rows": [
+              {
+                "context": "eGFR ≥30",
+                "dose": "200 mg PO daily for 14 days, then 400 mg daily as tolerated"
+              },
+              {
+                "context": "eGFR <30",
+                "dose": "UK SmPC: not recommended; limited clinical experience"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sparsentan-label",
+          "sparsentan-uk"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No dialysis regimen curated; do not extrapolate from the IgAN trial.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "spironolactone": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "HF initial dosing · selected US label guidance",
+            "rows": [
+              {
+                "context": ">50 and K ≤5.0 mEq/L",
+                "dose": "25 mg PO once daily initially"
+              },
+              {
+                "context": "30–50",
+                "dose": "Consider 25 mg PO every other day initially"
+              },
+              {
+                "context": "<30",
+                "dose": "No regimen assigned here; specialist risk assessment required"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "spironolactone-label"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "Do not derive a routine HD regimen from these non-dialysis HF starting doses.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "sucroferric-oxyhydroxide": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "The curated adult US indication is CKD on dialysis.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult CKD on dialysis · initial dose",
+            "rows": [
+              {
+                "context": "With meals",
+                "dose": "One 500 mg iron chewable tablet PO three times daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sucroferric-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult CKD on dialysis · initial dose",
+            "rows": [
+              {
+                "context": "With meals",
+                "dose": "One 500 mg iron chewable tablet PO three times daily"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "sucroferric-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "tenapanor-phosphate": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "The curated US phosphate indication is CKD on dialysis; non-dialysis phosphate use is not included.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult dialysis hyperphosphataemia · labelled add-on setting",
+            "rows": [
+              {
+                "context": "Initial dose",
+                "dose": "30 mg PO twice daily just before first and last meals"
+              }
+            ]
+          }
+        ],
+        "notes": "Do not take immediately before HD; take before the next meal after dialysis.",
+        "sourceIds": [
+          "tenapanor-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Adult CKD on dialysis · labelled add-on setting",
+            "rows": [
+              {
+                "context": "PD initial dose",
+                "dose": "30 mg PO twice daily just before first and last meals"
+              }
+            ]
+          }
+        ],
+        "notes": "Monitor phosphate and GI tolerability; label indication is CKD on dialysis.",
+        "sourceIds": [
+          "tenapanor-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "tirzepatide": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Mounjaro · renal adjustment only",
+            "rows": [
+              {
+                "context": "Renal impairment, including ESRD",
+                "dose": "Use usual product-specific titration without a renal dose reduction"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "tirzepatide-label",
+          "tirzepatide-uk"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No renal PK adjustment including ESRD in US/UK information; severe-impairment experience is limited. Dialysis care needs individual tolerability review.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "tramadol-ir": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Immediate-release renal adjustment",
+            "rows": [
+              {
+                "context": "≥30",
+                "dose": "No renal adjustment to usual regimen; use the lowest appropriate dose"
+              },
+              {
+                "context": "<30",
+                "dose": "Interval every 12 h; maximum 200 mg/day"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "tramadol-pdr"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Immediate-release only",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "Use the renally adjusted regimen; no routine dialysis-day replacement dose"
+              }
+            ]
+          }
+        ],
+        "notes": "Only about 7% is removed by HD in cited PDR guidance.",
+        "sourceIds": [
+          "tramadol-pdr"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "tmp-smx": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Skin / soft-tissue infection or UTI",
+            "rows": [
+              {
+                "context": ">30",
+                "dose": "1 DS tablet PO every 12 h"
+              },
+              {
+                "context": "15–30",
+                "dose": "1 DS tablet PO every 24 h"
+              },
+              {
+                "context": "<15",
+                "dose": "1 SS tablet PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "tmp-smx"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Skin / soft-tissue infection or UTI",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "1 SS tablet PO once now, then every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "tmp-smx"
+        ]
+      },
+      "crrt": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Skin / soft-tissue infection or UTI",
+            "rows": [
+              {
+                "context": "CVVHD",
+                "dose": "1 DS tablet PO every 12 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "tmp-smx"
+        ]
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "vadadustat": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "not_indicated",
+        "tables": [],
+        "notes": "US label: not indicated for CKD anaemia in patients not on dialysis.",
+        "sourceIds": []
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US anaemia of CKD · dialysis ≥3 months",
+            "rows": [
+              {
+                "context": "Initial dose",
+                "dose": "300 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "May give without regard to dialysis type or timing. Titrate by Hb using the full label.",
+        "sourceIds": [
+          "vadadustat-label"
+        ]
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US anaemia of CKD · dialysis ≥3 months",
+            "rows": [
+              {
+                "context": "PD initial dose",
+                "dose": "300 mg PO once daily"
+              }
+            ]
+          }
+        ],
+        "notes": "Label states dosing is independent of dialysis type/timing.",
+        "sourceIds": [
+          "vadadustat-label"
+        ]
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "valacyclovir": {
+    "addedInVersion": "0.1.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "Primary varicella / herpes zoster",
+            "rows": [
+              {
+                "context": "≥50",
+                "dose": "1 g PO every 8 h"
+              },
+              {
+                "context": "30–49",
+                "dose": "1 g PO every 12 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "1 g PO every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg PO every 24 h"
+              }
+            ]
+          },
+          {
+            "indication": "Initial orolabial / genital HSV",
+            "rows": [
+              {
+                "context": "≥50",
+                "dose": "1 g PO every 12 h"
+              },
+              {
+                "context": "30–49",
+                "dose": "1 g PO every 12 h"
+              },
+              {
+                "context": "10–29",
+                "dose": "1 g PO every 24 h"
+              },
+              {
+                "context": "<10",
+                "dose": "500 mg PO every 24 h"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "valacyclovir"
+        ]
+      },
+      "ihd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "UCSF regimen",
+            "rows": [
+              {
+                "context": "IHD",
+                "dose": "500 mg PO every evening"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "valacyclovir"
+        ]
+      },
+      "crrt": {
+        "status": "insufficient_data",
+        "tables": [],
+        "notes": "UCSF: insufficient data; contact ID pharmacy.",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  },
+  "voclosporin": {
+    "addedInVersion": "0.2.0",
+    "modalities": {
+      "ckd": {
+        "status": "summarized",
+        "tables": [
+          {
+            "indication": "US lupus nephritis · initial dosing",
+            "rows": [
+              {
+                "context": "Baseline eGFR >45",
+                "dose": "23.7 mg PO twice daily with MMF and corticosteroids"
+              },
+              {
+                "context": "Baseline eGFR ≤45",
+                "dose": "Not recommended unless benefit exceeds risk"
+              },
+              {
+                "context": "Severe baseline impairment, if specialist elects use",
+                "dose": "US starting dose 15.8 mg PO twice daily; specialist decision only"
+              }
+            ]
+          }
+        ],
+        "notes": "",
+        "sourceIds": [
+          "voclosporin-label",
+          "voclosporin-uk"
+        ]
+      },
+      "ihd": {
+        "status": "specialist",
+        "tables": [],
+        "notes": "No dialysis regimen curated; toxicity monitoring cannot be replaced by an eGFR band.",
+        "sourceIds": []
+      },
+      "crrt": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "pd": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      },
+      "sled": {
+        "status": "not_curated",
+        "tables": [],
+        "notes": "",
+        "sourceIds": []
+      }
+    }
+  }
+}
