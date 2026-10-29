@@ -1,8 +1,8 @@
 # RenalRounds — editorial guide
 
-Version 0.4.0 · 29 October 2026 · Adult draft inventory and reference
+Version 0.8.0 · 29 October 2026 · Adult draft inventory and reference
 
-This release contains 668 indexed drug/formulation entries: 113 sourced renal profiles, 28 shared safety-note records and 527 renal-dose-pending catalog records. Every entry awaits independent nephrologist and renal-pharmacist review. It is not a comprehensive formulary or an approved prescribing system.
+This release contains 668 indexed drug/formulation entries: 133 sourced renal profiles, 28 shared safety-note records and 507 renal-dose-pending catalog records. Every entry awaits independent nephrologist and renal-pharmacist review. It is not a comprehensive formulary or an approved prescribing system.
 
 ## Data model
 
@@ -36,7 +36,7 @@ Allowed modality statuses:
 ## Present limits
 
 - Adult selected indications only. Not a complete interaction, adverse-effect, contraindication or prescribing monograph.
-- Most PD and all SLED entries remain gaps. UCSF CRRT content applies to specified CVVHD assumptions only. Cefiderocol is separately based on the US label effluent-flow table for CVVH/CVVHD/CVVHDF. Do not apply one source’s assumptions to the other.
+- Most PD and PIRRT/SLED entries remain gaps; 16 selected prescription-specific PIRRT summaries are included. UCSF CRRT content applies to specified CVVHD assumptions only. Cefiderocol is separately based on the US label effluent-flow table for CVVH/CVVHD/CVVHDF. Do not apply one source’s assumptions to the other.
 - No patient-specific dose engine, AKI calculator, paediatric regimens, hepatic adjustment, pregnancy guidance or transplant protocols.
 - US labels and institutional US guidance are not a substitute for the approved local product information.
 - Brand aliases are examples, not an exhaustive brand index. A search miss is never evidence of safety.
@@ -49,7 +49,7 @@ Each monograph links its exact source. The collection uses UCSF Infectious Disea
 
 ## Application and data checks
 
-Run `python3 build_data.py` and `python3 build_standalone.py` to rebuild the bundled application, then `node checks.mjs` for data integrity, reference resolution, all-entry draft status and key search/boundary safeguards. Browser checks must additionally cover mobile layout, generic/brand searching, no-result state, modality selection, favourites, text size and source links. These checks validate the software/data structure; they do not constitute clinical validation.
+Run `python3 build_data.py`, `python3 release_v06.py`, `python3 release_v07.py`, `python3 release_v08.py` and `python3 build_standalone.py` in order, then `node checks.mjs` and `node checks_v07.mjs` for data integrity, reference resolution, all-entry draft status and key search/boundary safeguards. Browser checks must additionally cover mobile layout, generic/brand searching, no-result state, modality selection, favourites, text size and source links. These checks validate the software/data structure; they do not constitute clinical validation.
 
 ## Version 0.2 reference comparison and expansion
 
@@ -75,7 +75,7 @@ The user clarified that the intended reference is the British National Formulary
 
 Every record has `pharmacokinetics`: `halfLife`, `renalHalfLife`, `volumeOfDistribution`, `proteinBinding`, and a `dialysability` object for IHD, PD, CRRT and SLED. Each field has a value (or null), status, context and source IDs. The PK object has its own source-check date. A blank dose-review date on a catalog record can therefore coexist with a sourced PK summary; it does not mean a renal regimen has been checked.
 
-27 cardiovascular/BP medicines have PK summaries; 15 have all four core reference items (half-life, Vd, binding and an IHD removal statement). Others retain explicit gaps. No profile has independent clinical approval. `updatedInVersion` records expanded pre-existing drugs separately from `addedInVersion`.
+At the v0.4 release, 27 cardiovascular/BP medicines had PK summaries; 15 had all four core reference items (half-life, Vd, binding and an IHD removal statement). Others retain explicit gaps. No profile has independent clinical approval. `updatedInVersion` records expanded pre-existing drugs separately from `addedInVersion`.
 
 Reference half-life is distinct from renal/ESRF half-life and from duration of action or an extended-release dosing interval. Preserve the drug/analyte, route, population and Vd method. Do not convert L to L/kg without an appropriate patient weight or confuse plasma binding with erythrocyte binding. `not_reported` means absent from the checked source; `not_curated` means no field review; a guideline's `unknown` is its own evidence statement.
 
@@ -88,3 +88,11 @@ Captopril was promoted from catalog-only to a renal profile. The UK oral-solutio
 ## v0.6 source selection
 
 Use REFERENCE_DIRECTORY.json and the in-app References view. BNF/labels support product-specific prescribing; professional guidelines and measured PK studies support renal decisions; institutional protocols retain their dialysis assumptions; ASN education and NKF patient pages provide context or safety information. An ERA directory listing is not evidence that every linked guideline has been reviewed. New cardiovascular renal tables cite the individual SmPCs, not a blanket ASN/ERA/NKF endorsement. No source type automatically establishes clinical approval.
+
+## v0.7 supplied-reference rules
+
+Use SOURCE_AUDIT.json for file hashes, edition dates, review scope and conflicts. PDF metadata is not a clinical revision date. Each imported numeric table has an individual source/page record; continued pages are retained. Handbook PK is historical and cannot establish a current dialysis replacement dose. Do not collapse “not dialysed” into measured zero clearance or carry conventional-HD conclusions into modern high-flux therapy. Categorical removal is not a numeric supplemental-dose recommendation. Read product route and analyte before using PK. The supplied PDFs remain research inputs outside the public package. Selected summaries are original condensations; full monographs are not republished.
+
+## v0.8 eGFR calculator
+
+The calculator is a separate tool, not a prescribing rule. Clinical data remain version 0.7.0. CKD-EPI 2021 creatinine is the default. MDRD is a legacy IDMS comparison without the original race multiplier, not a newly refitted race-free MDRD equation. Preserve visible equation/units, correct SI conversion and the difference between indexed eGFR, non-indexed GFR and Cockcroft–Gault CrCl. Do not transfer the result into a drug-dose threshold automatically. Optional Mosteller BSA estimates must not be confused with lean/adjusted dosing weight. Check quantified IDMS-standardized creatinine within the laboratory reportable range. Standard estimates are withheld for AKI/changing creatinine, dialysis, pregnancy and children. No CKD diagnosis or stage is assigned from one reading. Calculator entries clear on close and have no persistence or export. Formula/arithmetic checks are not independent clinical approval. See CALCULATOR.md and checks_calculator.mjs.

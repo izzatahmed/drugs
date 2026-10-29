@@ -88,5 +88,55 @@
     "access": "Individual checked documents are linked on each drug.",
     "use": "Indication, formulation, renal limits, PK and label removal statements. Local authorisations and renal protocols can differ.",
     "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "upload-0",
+    "organisation": "User-supplied reference",
+    "title": "Renal Drug Handbook, 5th edition",
+    "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+    "role": "Selected PK/removal fields only; historical reference, not a current formulary",
+    "access": "Published June 2018; copyright 2019. Selected sections reviewed; full-file clinical review not claimed.",
+    "use": "Original PDF remains a research input. Citations use page locators and the supplied-file checksum; original PDF is not in the GitHub package.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "upload-1",
+    "organisation": "User-supplied reference",
+    "title": "KDIGO drug-dosing clinical update",
+    "url": "https://doi.org/10.1038/ki.2011.322",
+    "role": "Foundational principles; read with KDIGO 2024 medication guidance",
+    "access": "Kidney International 2011; 80:1122–1137. Selected sections reviewed; full-file clinical review not claimed.",
+    "use": "Original PDF remains a research input. Citations use page locators and the supplied-file checksum; original PDF is not in the GitHub package.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "upload-2",
+    "organisation": "User-supplied reference",
+    "title": "BC Renal common oral antimicrobial dosage adjustments",
+    "url": "https://www.bcrenal.ca/",
+    "role": "Comparison source; broad indications and older schedules require reconciliation",
+    "access": "February 2018; approved May 2017 version 1. Selected sections reviewed; full-file clinical review not claimed.",
+    "use": "Original PDF remains a research input. Citations use page locators and the supplied-file checksum; original PDF is not in the GitHub package.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "upload-3",
+    "organisation": "User-supplied reference",
+    "title": "Nebraska CRRT/PIRRT antimicrobial recommendations",
+    "url": "https://www.unmc.edu/intmed/_documents/id/asp/final_crrt_pirrt_abxrecommendations_2023.pdf",
+    "role": "CVVHD flow tables and prescription-specific PIRRT recommendations; metadata is not a clinical revision date",
+    "access": "2023 filename; PDF created April 2026; no revision date printed. Selected sections reviewed; full-file clinical review not claimed.",
+    "use": "Original PDF remains a research input. Citations use page locators and the supplied-file checksum; original PDF is not in the GitHub package.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "upload-4",
+    "organisation": "User-supplied reference",
+    "title": "Nebraska renal antimicrobial protocol MP01 Attachment A",
+    "url": "https://www.unmc.edu/intmed/_documents/id/asp/dose-nm-anti-infective-renal-dosing-guidelines.pdf",
+    "role": "Selected adult CKD/IHD/systemic PD rows; excludes paediatric rows and IP peritonitis regimens",
+    "access": "P&T approval April 2026; PDF created August 2026. Selected sections reviewed; full-file clinical review not claimed.",
+    "use": "Original PDF remains a research input. Citations use page locators and the supplied-file checksum; original PDF is not in the GitHub package.",
+    "sourceCheckedAt": "2026-10-29"
   }
 ]

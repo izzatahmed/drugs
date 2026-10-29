@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.8.0 — 29 October 2026
+
+- Added an adult eGFR calculator accessible beside quick search and in the sidebar. Race-free CKD-EPI 2021 creatinine is the default; IDMS MDRD is labelled legacy with its historical race multiplier omitted.
+- Added mg/dL and µmol/L inputs with automatic value conversion when the unit changes; estimates update as inputs change. Values are not capped at 60 or 90.
+- Optional height/weight produces Mosteller BSA and non-indexed eGFR in mL/min, separately labelled from mL/min/1.73 m². This is not a CrCl calculator and selects no medicine dose.
+- Invalid/incomplete entries remove any previous estimate. No result is produced for children, AKI/changing creatinine, dialysis or pregnancy. Calculator values clear on close and are not stored, exported or transmitted.
+- Verified CKD-EPI arithmetic against NKF Table S1 reference cases; added legacy MDRD and BSA arithmetic, unit-equivalence and validation checks.
+- All 668 drug records, 241 existing drug/source records, PK, doses, conflicts and review states are unchanged from clinical-data version 0.7.0. Software version 0.8.0 does not imply clinical approval.
+
+# Changelog
+
+## v0.7.0 — 29 October 2026
+
+- Reviewed selected sections of five supplied references; original PDFs are not redistributed.
+- Promoted 20 existing catalog entries to selected adult renal profiles: acyclovir, amphotericin-b-deoxycholate, aztreonam, cefadroxil, cefdinir, cefoxitin, cefpodoxime, ceftaroline, cefuroxime, clarithromycin, ethambutol, famciclovir, flucytosine, fosfomycin, ganciclovir, liposomal-amphotericin-b, phenoxymethylpenicillin, tigecycline, valganciclovir, voriconazole.
+- Added 26 historical fifth-edition handbook PK/removal summaries with individual PDF page locators and visible 2018 (©2019) labels. Modern high-flux removal and continuous therapies are not inferred from historical conventional-HD categories.
+- Added 16 prescription-specific PIRRT summaries and four CVVHD profiles. Retained session/flow assumptions, indication, infusion and dose timing. Existing CKD/IHD/PD/CRRT tables on previously curated renal entries are unchanged.
+- Retained six source disagreements/ambiguities, including oral cefuroxime label intervals, clarithromycin PD, flucytosine PD timing, valganciclovir formulation/analyte issues, levofloxacin PIRRT and piperacillin/tazobactam PD removal.
+- 668 indexed entries: 133 renal profiles, 28 shared safety notes and 507 renal-dose-pending catalog records. 53 PK profiles; 40 contain all four core items.
+- These are selected source summaries. Independent clinical approval and BNF monograph reconciliation remain pending.
+
+# Changelog
+
 ## v0.6.0 — 29 October 2026
 
 - Corrected the reference clarification: BNF means British National Formulary. No separate PNF reference remains requested; BNF monograph reconciliation is still pending access.
