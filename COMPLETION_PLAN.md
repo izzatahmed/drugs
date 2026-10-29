@@ -1,16 +1,17 @@
-# Clinical completion plan · software v0.8.0 / drug data v0.7.0
+# RenalRounds v0.9.0 · 29 October 2026
 
-668 indexed drug/formulation entries: 133 renal profiles, 28 shared safety notes and 507 renal-dose-pending catalog entries. 53 source-based PK profiles, including 26 historical handbook summaries. No entry has independent clinical approval.
+This cumulative release adds 85 selected adult renal profiles and 13 historical PK profiles. The 668-entry inventory now contains 218 partial renal profiles, 28 shared safety notes and 422 renal-dose-pending catalog entries. There are 66 PK profiles, 52 with all four core items. No independent clinical approval is recorded.
 
-## Next clinical work
+Readable text: default clinical text is 16 px. A− / percentage reset / A+ select 100%, 115%, 130% or 150%, including renal tables and PK values. The preference persists when browser storage is available. Old enlarged-text preferences migrate to 115%.
 
-1. Confirm the local adult formulary and prioritise common rounds drugs, oral/parenteral formulations and OTC products.
-2. Complete each indication/route-specific kidney-function table using current product information and licensed references. CrCl, indexed eGFR and CKD stage are not substitutes for each other.
-3. Reconcile the six issues in SOURCE_AUDIT.json with a renal pharmacist. Do not fill continuous-PD schedules from intermittent-HD wording or mix parent/prodrug analytes.
-4. Replace or corroborate historical handbook PK with contemporary measured evidence. Preserve analyte, Vd units, conventional versus high-flux HD and within/between-session half-lives.
-5. Complete IHD, systemic PD and CRRT/PIRRT evidence separately. Record delivered modality, session length, dialysate/effluent flows, residual function, loading, infusion duration, timing and TDM requirements. No intraperitoneal peritonitis regimen is implied.
-6. Obtain authorised BNF (British National Formulary) and PDR monograph access for comparison. BNF verification is not claimed; the supplied handbook is a different reference.
-7. Record independent nephrologist and renal-pharmacist review, names, dates and resolution of source conflicts before a clinical release.
-8. After GitHub upload, verify HTTPS offline reopen and update activation on a physical phone.
+New guidance includes remaining selected anti-infectives, all 24 indexed psychiatry entries (selected renal statements only), warfarin, nebivolol, olmesartan, digoxin, selected diabetes agents, bone medicines and prucalopride. Exact route, product, indication, dose units, loading versus maintenance and renal measure remain visible. Some profiles contain monitoring, caution or insufficient-data statements rather than numeric doses.
 
-CURATION_QUEUE.json records field/modality gaps for every entry. “Summarized” means a selected source summary, potentially nonnumeric; it does not mean a complete or approved prescribing monograph. Unknown, not reported and not curated remain separate.
+The adult CKD-EPI 2021 / legacy MDRD calculator is retained. It does not select a drug dose; CrCl, indexed eGFR and non-indexed eGFR must not be interchanged automatically.
+
+Source differences retained: minocycline oral daily limit versus institutional high dosing; IV posaconazole vehicle restriction; lamivudine label versus institutional practice; emtricitabine NIH/FDC-derived advice; dated EXBLIFEP measure ambiguity; VABOMERE historical MDRD equation. Paliperidone ER starting alternatives differ between products; only the linked label's table is selected.
+
+This is not a completed formulary. REMAINING_MEDICATIONS.json lists 450 entries without drug-specific renal profiles, including 28 shared safety notes. Every renal profile also requires formulation/indication/RRT completion and independent nephrology plus renal-pharmacy review. Missing dialysis information is not extrapolated from CKD, another modality or PK. BNF monograph comparison remains pending.
+
+## Completion work
+
+Use CURATION_QUEUE.json for field-by-field status and REMAINING_MEDICATIONS.json for the remaining renal-profile inventory. Agree the local adult formulary and prioritise common rounds/OTC agents, then check each exact product and indication against current authorised information and licensed references. Reconcile conflicting doses and kidney-function measures. Complete IHD, systemic PD, CRRT and prescription-specific PIRRT/SLED separately; intraperitoneal peritonitis regimens require their own review. Record independent sign-off before clinical release. Current-source checks and software verification do not confer clinical approval.
