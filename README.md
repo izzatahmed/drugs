@@ -1,45 +1,61 @@
-# RenalRounds 0.4.0 — GitHub Pages package
+# RenalRounds v0.5.0 — cumulative GitHub Pages package
 
-## Update your GitHub copy
+Adult renal drug reference for CKD, IHD, PD, CRRT and SLED. Clinical content remains draft; this release improves the software and completion workflow. It does not add, clinically approve or recheck drug guidance.
 
-1. Extract this ZIP. Upload its extracted contents to your repository; do not upload only the ZIP.
-2. Keep index.html at the repository root. Replace the old index.html to update the app. Editing database.json alone does not update the embedded data.
-3. Commit the files to your publishing branch.
-4. In Settings → Pages, choose Deploy from a branch, select main (or your branch) and /(root), then Save.
-5. Open the Pages URL GitHub displays on your phone. Repository visibility/Pages availability depends on your plan.
-6. If an old version appears, refresh and check the release number in About / Coverage & sources (v0.4.0).
+## Update the active site
 
-index.html embeds all code, styling and data. It has no build step or external runtime dependencies. It can also run in a browser that opens local HTML/JavaScript; phone file-preview applications may not execute it. Source links need internet. No service-worker installation is included. No patient data or analytics are collected.
+The active site is https://izzatahmed.github.io/drugs/ .
 
-## This release
+1. Extract this ZIP. In the existing drugs repository, choose **Add file → Upload files**. Upload the extracted root files; do not upload the ZIP itself or a containing folder.
+2. Replace **index.html** at the publishing root. Upload **sw.js**, **manifest.webmanifest**, all icon files and **.nojekyll** alongside it. The documents, database and completion queue are included for maintenance. Upload source/ too if you want the editable source in the repository.
+3. Commit to the branch/folder already configured for GitHub Pages. No Pages-setting change is needed for the existing site.
+4. Open the site and refresh. Verify **ADULTS · v0.5** at the top or release **0.5.0** in About. If a previous RenalRounds service worker controls the site, use **Check for update → Load available update**.
+5. Wait for **Offline ready · cached v0.5.0**. Open captopril or amlodipine. On a real phone, switch to airplane mode and reopen the exact site URL to verify the saved copy. External source links still need internet.
 
-668 indexed drugs/formulations: 101 renal profiles, 28 shared safety-note records and 539 renal-dose-pending catalog records.
+GitHub deployment can take several minutes. Check your repository's Pages deployment status if v0.5 does not appear. Editing database.json alone does not update index.html: data are embedded when built.
 
-Captopril now has a sourced renal profile and amlodipine has expanded adult hypertension dosing. Pharmacokinetic summaries are available for 27 BP/cardiovascular medicines; 15 have reference half-life, Vd, binding and an IHD removal statement. Other values distinguish not reported, unknown and not yet curated. PK-only records do not acquire a renal dose automatically. Use Content → PK available.
+The ZIP is cumulative. No older ZIP or patches are needed. GitHub account writes have not been performed for you.
 
-Reference/ESRF half-lives, active metabolites, distribution-volume methods/units and dialysis modalities are kept distinct. Source-specific differences remain explicit. Captopril's UK table is TOTAL daily mg, not mg per dose or mL. No RRT supplement is calculated.
+## Changes
 
-All clinical content remains draft and requires independent renal-pharmacist/nephrologist review. This is not a complete or approved prescribing formulary. PNF title/edition remains unidentified; BNF monograph comparison remains pending; only individually linked PDR monographs are represented as consulted. See EDITORIAL_GUIDE.md, CHANGELOG.md and VERIFICATION.md.
+- Bounded phone result list, Open reference shortcut, return-to-search button and keyboard dismissal.
+- Cached search keys and direct drug lookup; explicit spelling suggestions require a selection.
+- Setting filter for existing sourced summaries; original route, content, OTC, category and favourites filters remain.
+- Completion dashboard with modality/PK counts, downloadable 668-drug queue and completion plan.
+- Scoped offline cache, cached-release status and deliberate update activation.
+- Add-to-home-screen manifest/icons, copy selected-drug link and selected-setting print layout.
 
-## Files and rebuilding
+## Clinical completion
 
-- index.html: the only required runtime file.
-- .nojekyll: disables Jekyll processing.
-- database.json: structured export, including PK field provenance and explicit gaps.
-- EDITORIAL_GUIDE.md, CHANGELOG.md, VERIFICATION.md: scope, change history and validation limits.
-- SHA256SUMS.txt: root-file checksums.
-- source/: editable source and scripts; no access credentials, Site identity or Git metadata.
+668 indexed entries: 101 renal profiles, 28 shared safety notes and 539 renal-dose-pending catalog records. 27 have source-based PK profiles; 15 have all four core PK items. Every clinical field/source remains unchanged from v0.4.0 and every entry awaits independent nephrology and renal-pharmacy approval. A searchable record is not a completed prescribing monograph.
 
-With Python 3 and Node.js, run from inside source/:
+See **COMPLETION_PLAN.md**, **CURATION_QUEUE.json** and **EDITORIAL_GUIDE.md**. The completion queue distinguishes uncurated, unknown, not reported, specialist and summarized fields. No dose is inferred across modalities or from PK parameters. PNF title/edition remains unidentified; BNF monograph comparison is pending; only individually linked PDR material has been consulted.
+
+## Offline behavior
+
+index.html still embeds all search code, styling and clinical data. It can run by itself in a browser that opens local HTML/JavaScript; phone file previews may not run JavaScript. Optional manifest/icons need their companion files. On HTTPS, sw.js saves a versioned copy of index.html scoped to the app directory (for this site, /drugs/). It does not control other GitHub Pages repositories or cache external clinical sources.
+
+Once controlled, page reopens use the saved release until a new worker is installed and **Load available update** is selected. Source-check dates stay visible and are never advanced by a software update. Browser storage can be cleared/evicted; the status bar confirms current readiness. No patient data, analytics or background clinical-update feed is collected.
+
+## Source and rebuilding
+
+Python 3 and Node.js are sufficient; no package install or network is required. From source/:
 
     python3 build_data.py
+    python3 release_v05.py
     python3 build_standalone.py
     node checks.mjs
+    node checks_v05.mjs
 
-Copy source/dist/index.html to the repository root for the next release. Rebuild the ZIP with:
+Run release_v05.py after build_data.py for this software release. Copy the generated runtime files from source/dist/ to the repository root together. Source/dist/ also contains the editable app.js, pk.js, workflow.js, offline.js, styles.css and icons. Standalone HTML builds them into one entry point.
 
-    python3 package_github.py /absolute/path/RenalRounds_GitHub.zip
+To rebuild the cumulative ZIP:
 
-GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.5.zip
 
-The preview is updated separately. Your GitHub copy is not updated until you upload the new index.html. Direct GitHub account upload was not performed in this session.
+Checks prove software/data integrity, not clinical validity. See VERIFICATION.md for test coverage and remaining HTTPS/physical-phone checks.
+
+Official references for hosting/offline implementation:
+
+- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers

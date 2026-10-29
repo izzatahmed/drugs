@@ -1,3 +1,15 @@
+# Changelog
+
+## v0.5.0 — 29 October 2026
+
+Software and completion-workflow release; clinical drug content and source-check dates are unchanged from v0.4.0.
+
+- Bounded mobile result list, immediate open-result control, return-to-search button and keyboard dismissal.
+- Cached name/alias search keys, direct drug lookup and explicit spelling suggestions that require selection.
+- Modality filter for existing sourced summaries and an in-app completion dashboard.
+- Scoped offline cache, visible cached release, explicit refresh/update controls; optional installation manifest.
+- Drug-level completion queue, release plan, link sharing and print layout.
+
 # RenalRounds release 0.4.0
 
 29 October 2026
