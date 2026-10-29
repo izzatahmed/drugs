@@ -1,0 +1,52 @@
+[
+  {
+    "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+    "title": "Renal Drug Handbook, 5th edition",
+    "editionOrDate": "Published June 2018; copyright 2019",
+    "pages": 1109,
+    "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+    "selectedUse": "Selected PK/removal fields only; historical reference, not a current formulary",
+    "sourceReceived": "2026-10-29",
+    "reviewScope": "Selected sections only; not a full clinical review of every page."
+  },
+  {
+    "fileName": "KDIGO-DrugDosingReportFinal.pdf",
+    "title": "KDIGO drug-dosing clinical update",
+    "editionOrDate": "Kidney International 2011; 80:1122–1137",
+    "pages": 16,
+    "sha256": "fc677826cdad42777ba4c3b20c8cc17d97e517400efd5fc0f45a93b53e877a4d",
+    "selectedUse": "Foundational principles; read with KDIGO 2024 medication guidance",
+    "sourceReceived": "2026-10-29",
+    "reviewScope": "Selected sections only; not a full clinical review of every page."
+  },
+  {
+    "fileName": "Common_Oral_Antimicrobial_Therapy_Dosage_Adjustment.pdf",
+    "title": "BC Renal common oral antimicrobial dosage adjustments",
+    "editionOrDate": "February 2018; approved May 2017 version 1",
+    "pages": 2,
+    "sha256": "3a5bd18f3a79613410e0429631bf822840424ff444ac6a706531987b3c0a7c68",
+    "selectedUse": "Comparison source; broad indications and older schedules require reconciliation",
+    "sourceReceived": "2026-10-29",
+    "reviewScope": "Selected sections only; not a full clinical review of every page."
+  },
+  {
+    "fileName": "final_crrt_pirrt_abxrecommendations_2023.pdf",
+    "title": "Nebraska CRRT/PIRRT antimicrobial recommendations",
+    "editionOrDate": "2023 filename; PDF created April 2026; no revision date printed",
+    "pages": 18,
+    "sha256": "f1b249a31c3c12899c997bcc791ea3d1267865c0d33061e868f2cae815cf9307",
+    "selectedUse": "CVVHD flow tables and prescription-specific PIRRT recommendations; metadata is not a clinical revision date",
+    "sourceReceived": "2026-10-29",
+    "reviewScope": "Selected sections only; not a full clinical review of every page."
+  },
+  {
+    "fileName": "dose-nm-anti-infective-renal-dosing-guidelines.pdf",
+    "title": "Nebraska renal antimicrobial protocol MP01 Attachment A",
+    "editionOrDate": "P&T approval April 2026; PDF created August 2026",
+    "pages": 71,
+    "sha256": "a3a5ec05580f383e130584a4be38575d00be207fb722423571b8fc53fd4830ed",
+    "selectedUse": "Selected adult CKD/IHD/systemic PD rows; excludes paediatric rows and IP peritonitis regimens",
+    "sourceReceived": "2026-10-29",
+    "reviewScope": "Selected sections only; not a full clinical review of every page."
+  }
+]

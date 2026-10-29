@@ -11,7 +11,7 @@ def safe_json(obj):
 
 html=(ROOT/'app-shell.html').read_text()
 css=(DIST/'styles.css').read_text()
-js=(DIST/'pk.js').read_text()+'\n'+(DIST/'app.js').read_text()+'\n'+(DIST/'workflow.js').read_text()+'\ninit();\n'+(DIST/'offline.js').read_text()
+js=(DIST/'pk.js').read_text()+'\n'+(DIST/'app.js').read_text()+'\n'+(DIST/'workflow.js').read_text()+'\n'+(DIST/'renal-math.js').read_text()+'\n'+(DIST/'calculator.js').read_text()+'\ninit();\n'+(DIST/'offline.js').read_text()
 assert '</script' not in js.lower()
 data=json.loads((DIST/'database.json').read_text())
 docs={'guide':(DIST/'EDITORIAL_GUIDE.md').read_text(),'changelog':(DIST/'CHANGELOG.md').read_text(),'plan':(DIST/'COMPLETION_PLAN.md').read_text()}
