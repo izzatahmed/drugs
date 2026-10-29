@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.3.0",
-  "version": "0.5.0",
+  "schemaVersion": "1.4.0",
+  "version": "0.6.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -8,15 +8,15 @@
   "referenceScope": {
     "bnfEdition": "92 (September 2026)",
     "bnfStatus": "Monographs inaccessible; comparison pending. Edition existence checked with publisher only.",
-    "pnfStatus": "PNF title/edition not identified; no PNF comparison claimed.",
+    "pnfStatus": "Clarified by the user: the intended reference is the British National Formulary (BNF), not a separate PNF.",
     "pdrStatus": "Continuously updated digital reference; only specifically linked summaries and update material have been accessed.",
     "newEntries": 0,
-    "updatedEntries": 0
+    "updatedEntries": 12
   },
   "coverage": {
-    "renal": 101,
+    "renal": 113,
     "safety": 28,
-    "catalog": 539
+    "catalog": 527
   },
   "pharmacokineticCoverage": {
     "profiles": 27,
@@ -1420,6 +1420,30 @@
       "url": "https://www.ukkidney.org/sites/default/files/documents/FINAL%20VERSION%20-%20UKKA%20Management%20of%20blood%20pressure%20guideline-Jan%202025_4.pdf",
       "section": "Appendix D, printed p.76: HDF/high-flux, PD and ESRF half-life columns; reviewed against page image",
       "type": "Renal society clinical guideline",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "bisoprolol-renal-uk",
+      "title": "UK SmPC · Bisoprolol fumarate tablets · renal dosing",
+      "url": "https://www.medicines.org.uk/emc/product/13705/smpc",
+      "section": "4.2: adult indication and renal doses; 4.3–4.4: restrictions and monitoring",
+      "type": "UK product information",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "valsartan-hypertension-uk",
+      "title": "UK SmPC · Valsartan tablets · adult hypertension",
+      "url": "https://www.medicines.org.uk/emc/product/8181/smpc",
+      "section": "4.2: adult indication and renal doses; 4.3–4.4: restrictions and monitoring",
+      "type": "UK product information",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "kdigo-2024-medications",
+      "title": "KDIGO 2024 · Medication management and stewardship",
+      "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "section": "Chapter 4; practice points 4.1.2–4.1.3, 4.2.1–4.2.5 and 4.3.1",
+      "type": "International clinical practice guideline",
       "accessed": "2026-10-29"
     }
   ],
@@ -11961,29 +11985,47 @@
         "Zebeta"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Beta-1 selective blocker",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; severe renal threshold <20 for hypertension/angina",
+      "summary": "Hypertension/angina and heart failure have different initiation schedules. At CrCl <20, the hypertension/angina dose must not exceed 10 mg daily.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Hypertension / stable angina · renal limit",
+              "rows": [
+                {
+                  "context": "Adult reference regimen",
+                  "dose": "Usually start 5 mg PO once daily; usual 10 mg daily, general maximum 20 mg/day"
+                },
+                {
+                  "context": "CrCl <20",
+                  "dose": "Individualise starting dose and titration; maximum 10 mg/day"
+                }
+              ]
+            }
+          ],
+          "notes": "Stable HFrEF instead starts at 1.25 mg daily with its own slow titration, maximum 10 mg daily; additional renal caution is required. Do not use the hypertension start for HFrEF.",
+          "sourceIds": [
+            "bisoprolol-renal-uk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Measured high-flux removal is retained in the PK panel, but the study does not define a universal IHD dose or supplement.",
+          "sourceIds": [
+            "bisoprolol-renal-uk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -12004,18 +12046,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor pulse, BP and conduction. Initiation requires clinical stability; severe renal HFrEF experience is limited. Avoid abrupt withdrawal.",
+      "sourceIds": [
+        "bisoprolol-renal-uk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bisoprolol",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -12094,7 +12138,7 @@
         },
         "notes": "This study does not define a universal supplement or PD/CRRT prescription."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "bivalirudin",
@@ -14584,29 +14628,53 @@
         "Atacand"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Angiotensin II receptor blocker",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Renal impairment; limited experience at CrCl <15 mL/min",
+      "summary": "For adult hypertension with renal impairment, including HD, start 4 mg once daily and titrate carefully.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · renal starting dose",
+              "rows": [
+                {
+                  "context": "Renal impairment, including very severe impairment",
+                  "dose": "Initial 4 mg PO once daily; titrate to BP response"
+                }
+              ]
+            }
+          ],
+          "notes": "General hypertension maximum is 32 mg daily; it is not a renal target. Experience at CrCl <15 is limited.",
+          "sourceIds": [
+            "candesartan-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · IHD",
+              "rows": [
+                {
+                  "context": "IHD",
+                  "dose": "Initial 4 mg PO once daily; titrate with close BP monitoring"
+                }
+              ]
+            }
+          ],
+          "notes": "HD may increase sensitivity to BP lowering; no supplemental amount is assigned.",
+          "sourceIds": [
+            "candesartan-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -14627,18 +14695,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor creatinine and potassium. Heart-failure use follows a separate titration/eligibility assessment. The 8 mg source tablet score is not intended to make equal doses; use a suitable strength.",
+      "sourceIds": [
+        "candesartan-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Candesartan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -14717,7 +14787,7 @@
         },
         "notes": ""
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "cangrelor",
@@ -21867,30 +21937,44 @@
         "Catapres"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Transdermal · verify exact local product",
+      "drugClass": "Central alpha-2 agonist",
+      "formulation": "Oral tablets only · transdermal dosing not curated",
       "routes": [
         "Oral",
         "Transdermal"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Individual response and degree of renal impairment; no fixed CrCl table",
+      "summary": "Oral clonidine needs individual renal adjustment and monitoring. Routine HD does not require a replacement dose.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The label requires dose adjustment to renal impairment and BP response but does not supply numeric CKD bands. No fixed renal starting dose is assigned.",
+          "sourceIds": [
+            "clonidine-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Oral clonidine · IHD supplement only",
+              "rows": [
+                {
+                  "context": "Routine IHD",
+                  "dose": "No routine post-HD supplemental dose; maintenance remains individually adjusted"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "clonidine-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -21911,18 +21995,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor BP, pulse and sedation. Abrupt withdrawal can cause rebound hypertension. These oral recommendations do not apply to a transdermal patch.",
+      "sourceIds": [
+        "clonidine-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Clonidine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -21998,7 +22084,7 @@
         },
         "notes": ""
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "clopidogrel",
@@ -30792,29 +30878,61 @@
         "Vasotec"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "ACE inhibitor",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; exact source inequalities retained",
+      "summary": "The selected renal table gives initial TOTAL daily amounts. Dialysis and non-dialysis days need distinct assessment.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult renal table · INITIAL TOTAL daily amount",
+              "rows": [
+                {
+                  "context": "30 < CrCl <80",
+                  "dose": "Initial total 5–10 mg/day PO"
+                },
+                {
+                  "context": "10 < CrCl ≤30",
+                  "dose": "Initial total 2.5 mg/day PO"
+                },
+                {
+                  "context": "CrCl ≤10, not on dialysis",
+                  "dose": "The source row specifies dialysis-day dosing; no non-dialysis prescription is inferred"
+                }
+              ]
+            }
+          ],
+          "notes": "The upper band excludes exact CrCl 80; verify the full source at boundaries. Reduce dose and/or extend interval according to response.",
+          "sourceIds": [
+            "enalapril-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult renal table · dialysis-day INITIAL amount",
+              "rows": [
+                {
+                  "context": "Haemodialysis",
+                  "dose": "Initial total 2.5 mg PO on dialysis days"
+                }
+              ]
+            }
+          ],
+          "notes": "Adjust non-dialysis-day dosing to BP response. Enalaprilat is dialysable. The table does not specify a universal post-HD supplement or a dialysis-day-only maintenance plan.",
+          "sourceIds": [
+            "enalapril-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -30835,18 +30953,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor BP, potassium and renal function; check membrane-related reactions. Full hypertension/HF titration differs. This is oral enalapril, not IV enalaprilat.",
+      "sourceIds": [
+        "enalapril-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Enalapril",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -30925,7 +31045,7 @@
         },
         "notes": "Enalaprilat exposure and effective half-life increase with significant renal impairment. Vd is not reported in this checked SmPC."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "enalaprilat",
@@ -41633,24 +41753,26 @@
         "Apresoline"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Direct arterial vasodilator",
+      "formulation": "Oral tablets only · IV dosing not curated",
       "routes": [
         "Oral",
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl <30 mL/min or serum creatinine >2.5 mg/dL (221 micromol/L)",
+      "summary": "In moderate/severe renal impairment, adjust the oral dose or interval to avoid accumulation; the label provides no fixed reduction factor.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "For CrCl <30 mL/min or creatinine >2.5 mg/dL, adapt dose or interval to clinical response. A numeric renal regimen has not been established by this source summary.",
+          "sourceIds": [
+            "hydralazine-pk"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -41677,18 +41799,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Oral source only; IV regimens remain uncurated. Monitor BP/tachycardia and fluid retention. Review lupus/ANCA vasculitis risk and the full product-specific dose limits.",
+      "sourceIds": [
+        "hydralazine-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Hydralazine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -41764,7 +41888,7 @@
         },
         "notes": "No dialysis-removal estimate is assigned from protein binding or distribution."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "hydrochlorothiazide",
@@ -44485,29 +44609,47 @@
         "Natrilix"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Thiazide-like diuretic",
+      "formulation": "Oral · 2.5 mg tablet only, not 1.5 mg SR",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; checked 2.5 mg tablet contraindicated below 30",
+      "summary": "The selected 2.5 mg tablet is contraindicated at CrCl <30 mL/min. Do not transfer its dose to the 1.5 mg sustained-release product.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · 2.5 mg tablet only",
+              "rows": [
+                {
+                  "context": "Normal or only minimally impaired renal function",
+                  "dose": "2.5 mg PO once daily in the morning; do not increase above 2.5 mg/day"
+                },
+                {
+                  "context": "CrCl <30",
+                  "dose": "Contraindicated in the selected UK product information"
+                }
+              ]
+            }
+          ],
+          "notes": "Intermediate CKD eligibility requires review of the full source; no band-wide safety claim is made for CrCl ≥30.",
+          "sourceIds": [
+            "indapamide-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Severe renal failure is contraindicated in the checked product. No IHD regimen is supplied.",
+          "sourceIds": [
+            "indapamide-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -44528,18 +44670,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Check sodium, potassium, magnesium and kidney function. Do not generalise this product restriction to every thiazide-like drug.",
+      "sourceIds": [
+        "indapamide-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Indapamide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -44615,7 +44759,7 @@
         },
         "notes": "Vd and dialytic removal are not reported in this checked source."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "indomethacin",
@@ -46429,29 +46573,53 @@
         "Avapro"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Angiotensin II receptor blocker",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal reduction; lower initial dose considered in HD",
+      "summary": "No CKD dose reduction is required in the label; consider a 75 mg starting dose in HD.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · CKD",
+              "rows": [
+                {
+                  "context": "Renal impairment, not HD",
+                  "dose": "Usual 150 mg PO once daily; may increase to 300 mg once daily by response"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "irbesartan-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · IHD starting dose",
+              "rows": [
+                {
+                  "context": "IHD",
+                  "dose": "Consider initial 75 mg PO once daily; individualise subsequent titration"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "irbesartan-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -46472,18 +46640,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Review volume status and monitor BP, potassium and renal function. The diabetic renal-disease indication has its own treatment context; no PD/CRRT regimen is inferred.",
+      "sourceIds": [
+        "irbesartan-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Irbesartan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -46562,7 +46732,7 @@
         },
         "notes": "The checked SmPC reports no significant PK change in renal impairment or HD."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "iron-dextran",
@@ -52254,29 +52424,57 @@
         "Cozaar"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Angiotensin II receptor blocker",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No initial renal adjustment in checked UK SmPC",
+      "summary": "Adult hypertension: usual 50 mg once daily; initial renal reduction is not required, including HD. Volume depletion can require a lower start.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · initial renal adjustment",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "Usual start 50 mg PO once daily; titrate to 100 mg once daily by response"
+                },
+                {
+                  "context": "Intravascular volume depletion",
+                  "dose": "Consider starting 25 mg PO once daily"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "losartan-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · IHD",
+              "rows": [
+                {
+                  "context": "IHD",
+                  "dose": "No initial renal dose reduction; use the individually titrated once-daily regimen"
+                }
+              ]
+            }
+          ],
+          "notes": "No post-HD replacement amount is assigned.",
+          "sourceIds": [
+            "losartan-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -52297,18 +52495,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Correct volume depletion and monitor BP, potassium and kidney function. Heart-failure titration differs. Do not combine routinely with ACE inhibitors; review potassium-raising drugs. This is not a complete contraindication list.",
+      "sourceIds": [
+        "losartan-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Losartan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -52387,7 +52587,7 @@
         },
         "notes": "Parent and active-metabolite kinetics differ; do not use the parent half-life as the duration of effect."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "lubiprostone",
@@ -55721,29 +55921,33 @@
         "Aldomet"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Central antihypertensive",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Renal elimination; no numeric CrCl bands in checked SmPC",
+      "summary": "Renal impairment may require smaller doses. Dialysis removal can allow hypertension to recur after treatment.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Reduced kidney function can increase response to smaller doses; the source does not provide numeric renal bands or a fixed reduction factor.",
+          "sourceIds": [
+            "methyldopa-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Dialysis removes methyldopa and BP may rise afterward; no numeric replacement or maintenance schedule is supplied here.",
+          "sourceIds": [
+            "methyldopa-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -55764,18 +55968,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Review BP, sedation, blood counts and liver function according to the full label. Product contraindications include active liver disease; a dialysis replacement dose is not guessed.",
+      "sourceIds": [
+        "methyldopa-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Methyldopa",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -55851,7 +56057,7 @@
         },
         "notes": "Renal clearance matters. Vd, protein-binding percentage and a numeric ESKD half-life are not reported in this checked SmPC."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "methylprednisolone",
@@ -71588,29 +71794,61 @@
         "Altace"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "ACE inhibitor",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; source range boundaries overlap at 30 and 60",
+      "summary": "Starting and maximum DAILY amounts fall with renal impairment; the label supplies a separate regimen for haemodialysed hypertension.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult renal table · DAILY amounts",
+              "rows": [
+                {
+                  "context": "CrCl ≥60",
+                  "dose": "Initial 2.5 mg/day PO; maximum 10 mg/day"
+                },
+                {
+                  "context": "CrCl 30–60 (source wording)",
+                  "dose": "Initial 2.5 mg/day PO; maximum 5 mg/day"
+                },
+                {
+                  "context": "CrCl 10–30 (source wording)",
+                  "dose": "Initial 1.25 mg/day PO; maximum 5 mg/day"
+                }
+              ]
+            }
+          ],
+          "notes": "Source bands overlap at 30 and 60; check the original/local rule before selecting a boundary. No CrCl <10 non-dialysis dose is assigned.",
+          "sourceIds": [
+            "ramipril-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Hypertension in haemodialysed adults",
+              "rows": [
+                {
+                  "context": "IHD",
+                  "dose": "Initial 1.25 mg/day PO; maximum 5 mg/day; give a few hours after HD on treatment days"
+                }
+              ]
+            }
+          ],
+          "notes": "This is a daily regimen, not a thrice-weekly-only prescription. Preserve the parent/metabolite removal distinctions in the PK panel.",
+          "sourceIds": [
+            "ramipril-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -71631,18 +71869,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor BP, potassium and renal function; check extracorporeal membrane compatibility. Other indications and hepatic impairment have separate initiation/limits.",
+      "sourceIds": [
+        "ramipril-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ramipril",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -71722,7 +71962,7 @@
         },
         "notes": "Renal impairment reduces ramiprilat clearance. A separate numeric ESKD half-life and Vd are not provided here."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "ranolazine",
@@ -81694,29 +81934,57 @@
         "Micardis"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Angiotensin II receptor blocker",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Mild/moderate versus severe renal impairment; no numeric boundary supplied",
+      "summary": "Mild/moderate renal impairment needs no adjustment; severe impairment or HD warrants a lower 20 mg starting dose.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · renal adjustment",
+              "rows": [
+                {
+                  "context": "Mild or moderate renal impairment",
+                  "dose": "Usual effective 40 mg PO once daily; some respond to 20 mg; maximum 80 mg daily"
+                },
+                {
+                  "context": "Severe renal impairment",
+                  "dose": "Recommended lower start: 20 mg PO once daily; individualise titration"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "telmisartan-pk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · IHD",
+              "rows": [
+                {
+                  "context": "IHD",
+                  "dose": "Recommended lower start: 20 mg PO once daily"
+                }
+              ]
+            }
+          ],
+          "notes": "Experience is limited. A non-removal statement is not a CRRT maintenance regimen.",
+          "sourceIds": [
+            "telmisartan-pk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -81737,18 +82005,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor BP, creatinine and potassium. Cardiovascular prevention uses a different indication-specific dose. Hepatic impairment has separate limits.",
+      "sourceIds": [
+        "telmisartan-pk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Telmisartan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -81827,7 +82097,7 @@
         },
         "notes": "The checked label states elimination half-life is unchanged in renal impairment. No CRRT dose is inferred from the haemofiltration statement."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "tenapanor-phosphate",
@@ -87941,29 +88211,47 @@
         "Diovan"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Angiotensin II receptor blocker",
+      "formulation": "Oral · tablets, adult hypertension only",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; >10 restriction in checked UK SmPC",
+      "summary": "Adult hypertension dosing is unchanged at CrCl >10. Evidence in CrCl <10 and dialysis is limited in the selected label.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Adult hypertension · tablets",
+              "rows": [
+                {
+                  "context": "CrCl >10",
+                  "dose": "Start 80 mg PO once daily; titrate to 160 mg, then maximum 320 mg once daily if needed"
+                },
+                {
+                  "context": "CrCl <10",
+                  "dose": "Use cautiously; no validated numeric renal regimen supplied here"
+                }
+              ]
+            }
+          ],
+          "notes": "The label does not explicitly allocate exact CrCl 10. Confirm the boundary. This table is not the heart-failure or post-MI regimen.",
+          "sourceIds": [
+            "valsartan-hypertension-uk"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The SmPC describes insufficient experience in dialysis and advises caution. No numeric IHD dose is selected.",
+          "sourceIds": [
+            "valsartan-hypertension-uk"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -87984,18 +88272,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor BP, potassium and renal function; correct sodium/volume depletion. Hepatic impairment has separate limits. Avoid dual RAAS blockade unless specifically reviewed.",
+      "sourceIds": [
+        "valsartan-hypertension-uk"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Valsartan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-29",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Selected adult oral renal guidance only. Source summaries may be monitoring advice rather than numeric doses. Other indications, routes, interactions and RRT prescriptions require separate review.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected UK product information; verify local product instructions and authorised indications.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -88074,7 +88364,7 @@
         },
         "notes": "The checked SmPC identifies limited safe-use experience at CrCl <10 mL/min or on dialysis; non-removal is not evidence of eligibility."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.6.0"
     },
     {
       "id": "vancomycin",
@@ -90812,5 +91102,103 @@
       }
     }
   ],
-  "softwareReleaseDate": "2026-10-29"
+  "softwareReleaseDate": "2026-10-29",
+  "referenceResources": [
+    {
+      "id": "bnf",
+      "organisation": "BNF · British National Formulary",
+      "title": "BNF on NICE",
+      "url": "https://bnf.nice.org.uk/",
+      "role": "Licensed medicines reference",
+      "access": "Monograph access blocked in this environment; reconciliation pending.",
+      "use": "UK prescribing/renal information where accessible. Product SmPCs are identified separately and are not labelled BNF-verified.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "kdigo",
+      "organisation": "KDIGO",
+      "title": "2024 CKD guideline · Chapter 4",
+      "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+      "role": "Clinical guideline",
+      "access": "Medication-management practice points reviewed.",
+      "use": "GFR-based adjustment, monitoring, OTC review and medication reconciliation. Does not supply every drug-specific RRT regimen.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "asn",
+      "organisation": "ASN · American Society of Nephrology",
+      "title": "Kidney News · Pharmacokinetics and Kidney Clearance: A Nephrologist’s Role in Drug Safety and Toxicology",
+      "url": "https://www.asn-online.org/publications/kidneynews/archives/2024/KN_2024_08_aug.pdf",
+      "role": "Professional education",
+      "access": "Linda Awdishu, August 2024, pages 13–14; reviewed for principles.",
+      "use": "Explains altered disposition and prescription-dependent dialysis removal; not a comprehensive drug-by-drug dosing formulary.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "era",
+      "organisation": "ERA · European Renal Association",
+      "title": "ERA Guidance and ERBP practice documents",
+      "url": "https://www.era-online.org/era-guidance/",
+      "role": "Guideline and practice-document directory",
+      "access": "Indexed directory reviewed; direct portal access blocked. Linked documents are not all reviewed.",
+      "use": "Find topic-specific guidelines, practice documents and journal guidance; individual recommendations require source-level checking.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "nkf",
+      "organisation": "NKF · National Kidney Foundation",
+      "title": "Medication dosing and kidney disease",
+      "url": "https://www.kidney.org/kidney-topics/medication-dosing-and-kidney-disease",
+      "role": "Patient medication education",
+      "access": "Page updated 26 June 2026; reviewed.",
+      "use": "Safety education and reasons for dose review; not a numerical dialysis dosing table.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "nkf-otc",
+      "organisation": "NKF · National Kidney Foundation",
+      "title": "Safe medicine use with CKD",
+      "url": "https://www.kidney.org/kidney-topics/safe-medicine-use-chronic-kidney-disease",
+      "role": "Patient / OTC safety guidance",
+      "access": "Page updated 21 April 2025; reviewed.",
+      "use": "Supports shared medicine-safety notes. Drug-specific doses and RRT removal need additional evidence.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "ukka",
+      "organisation": "UK Kidney Association",
+      "title": "Blood pressure on dialysis · 2025 guideline",
+      "url": "https://www.ukkidney.org/sites/default/files/documents/FINAL%20VERSION%20-%20UKKA%20Management%20of%20blood%20pressure%20guideline-Jan%202025_4.pdf",
+      "role": "Dialysis clinical guideline",
+      "access": "Selected Appendix D PK/removal material reviewed for v0.4.",
+      "use": "Selected ESRF half-lives and modality-specific removal categories; analytes, dialysis methods and source disagreement remain explicit.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "ucsf",
+      "organisation": "UCSF Infectious Diseases Management Program",
+      "title": "Antimicrobial dosing in IHD and continuous HD",
+      "url": "https://idmp.ucsf.edu/antimicrobial-dosing-intermittent-continuous-hemodialysis",
+      "role": "Institutional dosing protocol",
+      "access": "Prescription assumptions and selected drug tables reviewed.",
+      "use": "IHD assumes high-flux; continuous-HD recommendations assume CVVHD at 2 L/h and residual native GFR <10. Do not apply universally to CRRT/PD/SLED.",
+      "sourceCheckedAt": "2026-10-29"
+    },
+    {
+      "id": "labels",
+      "organisation": "Product information · emc / DailyMed",
+      "title": "UK SmPC and US label sources",
+      "url": "https://www.medicines.org.uk/emc/",
+      "role": "Product-specific prescribing information",
+      "access": "Individual checked documents are linked on each drug.",
+      "use": "Indication, formulation, renal limits, PK and label removal statements. Local authorisations and renal protocols can differ.",
+      "sourceCheckedAt": "2026-10-29"
+    }
+  ],
+  "drugStewardship": {
+    "sourceIds": [
+      "kdigo-2024-medications"
+    ],
+    "text": "Review kidney function, indication, interactions and OTC products; monitor relevant electrolytes and drug levels. When creatinine estimates are unreliable or precision is critical, consider creatinine–cystatin C estimates or measured GFR. Adjust decisions when kidney function or distribution volume is changing."
+  }
 }

@@ -2,7 +2,7 @@
 
 Version 0.4.0 · 29 October 2026 · Adult draft inventory and reference
 
-This release contains 668 indexed drug/formulation entries: 101 sourced renal profiles, 28 shared safety-note records and 539 renal-dose-pending catalog records. Every entry awaits independent nephrologist and renal-pharmacist review. It is not a comprehensive formulary or an approved prescribing system.
+This release contains 668 indexed drug/formulation entries: 113 sourced renal profiles, 28 shared safety-note records and 527 renal-dose-pending catalog records. Every entry awaits independent nephrologist and renal-pharmacist review. It is not a comprehensive formulary or an approved prescribing system.
 
 ## Data model
 
@@ -67,7 +67,7 @@ Route metadata and the OTC filter are inventory aids; OTC availability varies by
 
 The 30 additional renal profiles cover selected antimicrobial, allergy, GI, cardiovascular, lipid, transplant and calcimimetic medicines. Shared OTC guidance is attributed to the National Kidney Foundation and Kidney Care UK, kept separate from numeric prescribing tables and stored once. The existing 70 profiles’ modality records are retained unchanged.
 
-The requested PNF title/edition has not been identified. No PNF verification is claimed. BNF reconciliation remains pending; PDR access is recorded only for individually consulted profiles.
+The user clarified that the intended reference is the British National Formulary (BNF), not a separate PNF. BNF reconciliation remains pending; PDR access is recorded only for individually consulted profiles.
 
 `build_standalone.py` embeds the dataset, CSS, JavaScript, icon and these notes into one `index.html`. No network fetch is required for search. Content is static until a checked release is rebuilt and uploaded. The GitHub package has the generated index at its root and contains no Site identity, Git metadata, access credentials or patient data.
 
@@ -84,3 +84,7 @@ UKKA 2025 Appendix D (printed page 76) supplies selected ESRF and PD entries. It
 The beta-blocker high-flux study (eight adults, crossover design) measured atenolol, metoprolol, bisoprolol and carvedilol. Recovery and arterial–venous clearance methods gave different results. Values in mL/min are not percentages of a dose removed. No RRT supplement is generated. CRRT/SLED removal remains uncurated and is not inferred from IHD, protein binding or Vd.
 
 Captopril was promoted from catalog-only to a renal profile. The UK oral-solution table retains indexed CrCl units and **total daily** starting/maximal amounts, with frequency chosen separately; values are mg, not mL. Amlodipine now has a UK adult hypertension starting dose (5 mg daily) and maximum (10 mg daily), with no renal dose reduction. All other v0.3 modality records are retained.
+
+## v0.6 source selection
+
+Use REFERENCE_DIRECTORY.json and the in-app References view. BNF/labels support product-specific prescribing; professional guidelines and measured PK studies support renal decisions; institutional protocols retain their dialysis assumptions; ASN education and NKF patient pages provide context or safety information. An ERA directory listing is not evidence that every linked guideline has been reviewed. New cardiovascular renal tables cite the individual SmPCs, not a blanket ASN/ERA/NKF endorsement. No source type automatically establishes clinical approval.
