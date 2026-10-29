@@ -1,16 +1,21 @@
-# v0.5.0 software verification — 29 October 2026
+# v0.6.0 verification — 29 October 2026
 
-Clinical coverage is unchanged from v0.4.0: 668 records, 101 renal profiles, 28 shared safety-note records, 539 renal-dose-pending catalog records; 27 PK profiles, 15 with four core PK items. All await independent clinical approval.
+Clinical content remains draft: 668 records, 113 renal profiles, 28 shared safety notes and 527 renal-dose-pending catalog records. PK coverage remains 27 profiles, 15 with four core PK items. Independent clinical approval is pending for every record.
 
-## Passed
+## Clinical-source work in this release
 
-- Original checks.mjs: record/source integrity, review state, modality status, original clinical regressions, explicit PK gaps, embedded database/documents.
-- checks_v05.mjs: SHA-256 fingerprint of every drug field, source and shared safety note matches v0.4.0; all 668 queue records match source statuses.
-- Actual search functions: generic/brand/case matches, deliberate spelling suggestions, setting/PK/latest-clinical filters. 1,000 queries completed in about 158–300 ms across observed runs on the development container; this is not a phone benchmark.
-- Actual service-worker code under deterministic network/cache tests: install, offline navigation to root/index, explicit update activation, wrong-version, incomplete-bundle checksum and 404 rejection, isolation from other path caches and external sites.
-- Browser: app startup, spelling suggestion without automatic substitution, hidden exact-match recovery, dashboard totals, setting navigation, mobile open-reference shortcut, captopril/amlodipine and modality selection.
-- 320/390/430 px phone frames: document widths 305/375/415 px (scrollbar excluded); no horizontal overflow, bounded results and correctly positioned open reference.
+Twelve catalog records were promoted to renal profiles: bisoprolol, candesartan, clonidine, enalapril, hydralazine, indapamide, irbesartan, losartan, methyldopa, ramipril, telmisartan and valsartan. Individual UK product information was reviewed; source links remain on each profile. Eight new CKD tables and one product-specific restriction/reference table were added; clonidine, hydralazine and methyldopa retain nonnumeric specialist advice. Seven new IHD summary panels include explicit starting/initial or supplement advice. No new PD/CRRT/SLED dose was extrapolated.
+
+BNF is clarified as British National Formulary. Direct BNF access returned 403; reconciliation is pending. ERA's indexed guidance directory was reviewed but direct access returned 403; linked documents are not all reviewed. ASN Kidney News August 2024 pages 13–14, NKF medication safety pages and KDIGO 2024 medication-management practice points were reviewed for their stated educational/guideline roles. The reference directory does not imply ASN/ERA/NKF approval of the new drug tables.
+
+## Passed checks
+
+- General checks.mjs: record/source integrity, review state, explicit PK/modality gaps, original regimen regressions and embedded data/documents.
+- checks_v06.mjs: SHA-256 fingerprints match all 656 unrelated clinical records, every existing source and all 668 PK records from v0.5; twelve updated records are explicitly allowlisted.
+- New checks preserve initial TOTAL daily amounts, ramipril boundary overlaps and daily/HD timing, enalapril dialysis/non-dialysis distinction, bisoprolol indication differences, indapamide product restriction, absent numeric clonidine/hydralazine/methyldopa bands and valsartan dialysis uncertainty.
+- Actual search/filter functions, spelling suggestion behavior, completion queue and reference-directory export consistency. Browser startup, new enalapril/irbesartan CKD/HD tables, five further updated HD panels and the full reference directory were checked. At 320/390 px phone widths, the directory showed all 9 cards with no horizontal overflow (content widths 256/326 px).
+- Actual worker logic in simulated network/cache tests: offline reopen, explicit update activation, checksum/wrong-release/404 rejection and cache isolation across repository paths.
 
 ## Limits
 
-The HTTP-only preview cannot activate a service worker. HTTPS installation/update and airplane-mode reopen on the actual GitHub Pages site require testing after this package is uploaded. Physical-device installation, operating-system cache eviction, clinical validity, licensed-reference reconciliation and independent clinical sign-off have not been established by software checks. Source links require internet. No clinical content was expanded or rechecked in this software release.
+Software checks do not establish clinical validity. No independent nephrologist/renal-pharmacist approval, licensed BNF reconciliation, full interaction monograph, physical-phone installation or HTTPS airplane-mode test is claimed. The internal HTTP preview cannot activate the offline worker; check on the user's GitHub Pages site after upload. Source links require internet. Numerical gaps are retained and not inferred from PK parameters.

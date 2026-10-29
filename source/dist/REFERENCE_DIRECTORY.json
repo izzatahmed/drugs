@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bnf",
+    "organisation": "BNF · British National Formulary",
+    "title": "BNF on NICE",
+    "url": "https://bnf.nice.org.uk/",
+    "role": "Licensed medicines reference",
+    "access": "Monograph access blocked in this environment; reconciliation pending.",
+    "use": "UK prescribing/renal information where accessible. Product SmPCs are identified separately and are not labelled BNF-verified.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "kdigo",
+    "organisation": "KDIGO",
+    "title": "2024 CKD guideline · Chapter 4",
+    "url": "https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf",
+    "role": "Clinical guideline",
+    "access": "Medication-management practice points reviewed.",
+    "use": "GFR-based adjustment, monitoring, OTC review and medication reconciliation. Does not supply every drug-specific RRT regimen.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "asn",
+    "organisation": "ASN · American Society of Nephrology",
+    "title": "Kidney News · Pharmacokinetics and Kidney Clearance: A Nephrologist’s Role in Drug Safety and Toxicology",
+    "url": "https://www.asn-online.org/publications/kidneynews/archives/2024/KN_2024_08_aug.pdf",
+    "role": "Professional education",
+    "access": "Linda Awdishu, August 2024, pages 13–14; reviewed for principles.",
+    "use": "Explains altered disposition and prescription-dependent dialysis removal; not a comprehensive drug-by-drug dosing formulary.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "era",
+    "organisation": "ERA · European Renal Association",
+    "title": "ERA Guidance and ERBP practice documents",
+    "url": "https://www.era-online.org/era-guidance/",
+    "role": "Guideline and practice-document directory",
+    "access": "Indexed directory reviewed; direct portal access blocked. Linked documents are not all reviewed.",
+    "use": "Find topic-specific guidelines, practice documents and journal guidance; individual recommendations require source-level checking.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "nkf",
+    "organisation": "NKF · National Kidney Foundation",
+    "title": "Medication dosing and kidney disease",
+    "url": "https://www.kidney.org/kidney-topics/medication-dosing-and-kidney-disease",
+    "role": "Patient medication education",
+    "access": "Page updated 26 June 2026; reviewed.",
+    "use": "Safety education and reasons for dose review; not a numerical dialysis dosing table.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "nkf-otc",
+    "organisation": "NKF · National Kidney Foundation",
+    "title": "Safe medicine use with CKD",
+    "url": "https://www.kidney.org/kidney-topics/safe-medicine-use-chronic-kidney-disease",
+    "role": "Patient / OTC safety guidance",
+    "access": "Page updated 21 April 2025; reviewed.",
+    "use": "Supports shared medicine-safety notes. Drug-specific doses and RRT removal need additional evidence.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "ukka",
+    "organisation": "UK Kidney Association",
+    "title": "Blood pressure on dialysis · 2025 guideline",
+    "url": "https://www.ukkidney.org/sites/default/files/documents/FINAL%20VERSION%20-%20UKKA%20Management%20of%20blood%20pressure%20guideline-Jan%202025_4.pdf",
+    "role": "Dialysis clinical guideline",
+    "access": "Selected Appendix D PK/removal material reviewed for v0.4.",
+    "use": "Selected ESRF half-lives and modality-specific removal categories; analytes, dialysis methods and source disagreement remain explicit.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "ucsf",
+    "organisation": "UCSF Infectious Diseases Management Program",
+    "title": "Antimicrobial dosing in IHD and continuous HD",
+    "url": "https://idmp.ucsf.edu/antimicrobial-dosing-intermittent-continuous-hemodialysis",
+    "role": "Institutional dosing protocol",
+    "access": "Prescription assumptions and selected drug tables reviewed.",
+    "use": "IHD assumes high-flux; continuous-HD recommendations assume CVVHD at 2 L/h and residual native GFR <10. Do not apply universally to CRRT/PD/SLED.",
+    "sourceCheckedAt": "2026-10-29"
+  },
+  {
+    "id": "labels",
+    "organisation": "Product information · emc / DailyMed",
+    "title": "UK SmPC and US label sources",
+    "url": "https://www.medicines.org.uk/emc/",
+    "role": "Product-specific prescribing information",
+    "access": "Individual checked documents are linked on each drug.",
+    "use": "Indication, formulation, renal limits, PK and label removal statements. Local authorisations and renal protocols can differ.",
+    "sourceCheckedAt": "2026-10-29"
+  }
+]

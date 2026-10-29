@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "generatedAt": "2026-10-29",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -2518,12 +2518,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "specialist",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -3165,12 +3165,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -4804,12 +4804,12 @@
         "Oral",
         "Transdermal"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "specialist",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -6965,12 +6965,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -9570,11 +9570,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -10279,12 +10279,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "avoid",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -10761,12 +10761,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -12151,12 +12151,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -12988,12 +12988,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "specialist",
+        "ihd": "specialist",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -16857,12 +16857,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -19300,12 +19300,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -20813,12 +20813,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "specialist",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"

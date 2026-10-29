@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.6.0 — 29 October 2026
+
+- Corrected the reference clarification: BNF means British National Formulary. No separate PNF reference remains requested; BNF monograph reconciliation is still pending access.
+- Expanded 12 existing catalog entries: bisoprolol, candesartan, clonidine, enalapril, hydralazine, indapamide, irbesartan, losartan, methyldopa, ramipril, telmisartan and valsartan. They are source-based drafts, not independently approved monographs.
+- 113 renal profiles, 28 shared safety notes and 527 renal-dose-pending catalog records; total remains 668. PK coverage remains 27 profiles, with 15 having four core PK items.
+- Added explicit HD advice where supplied by the cited label. No new PD, CRRT or SLED regimen was inferred. Clonidine, hydralazine and methyldopa retain nonnumeric renal guidance where the label gives no fixed regimen.
+- Kept indication/route differences, source cutoff gaps and initial-versus-maximum daily amounts visible. Existing drug/PK data outside the 12 promoted entries are unchanged.
+- Added a role-labelled directory of BNF, KDIGO, ASN, ERA, NKF, UKKA, UCSF and product-information resources. Portal discovery and patient education are distinguished from drug-specific prescribing evidence.
+
+# Changelog
+
 ## v0.5.0 — 29 October 2026
 
 Software and completion-workflow release; clinical drug content and source-check dates are unchanged from v0.4.0.
