@@ -1,28 +1,16 @@
-# RenalRounds completion plan — v0.6.0
+# Clinical completion plan · software v0.8.0 / drug data v0.7.0
 
-The software is functional; the clinical formulary is incomplete. This release expands 12 existing cardiovascular entries with selected UK-label renal guidance. All 668 entries still await independent clinical approval. Use CURATION_QUEUE.json or the in-app Completion dashboard to track each field separately.
+668 indexed drug/formulation entries: 133 renal profiles, 28 shared safety notes and 507 renal-dose-pending catalog entries. 53 source-based PK profiles, including 26 historical handbook summaries. No entry has independent clinical approval.
 
-## Current scope
+## Next clinical work
 
-- 668 searchable drug/formulation entries; 113 renal profiles, 28 shared safety notes and 527 renal-dose-pending catalog records.
-- 27 PK profiles; 15 include all four core items (reference half-life, Vd, binding and an IHD-removal statement).
-- Some existing renal profiles contain monitoring guidance rather than numeric doses. A summarized modality does not cover every indication or prescription.
-- PD, CRRT and SLED coverage is incomplete. No dosing is extrapolated from other modalities or PK parameters.
+1. Confirm the local adult formulary and prioritise common rounds drugs, oral/parenteral formulations and OTC products.
+2. Complete each indication/route-specific kidney-function table using current product information and licensed references. CrCl, indexed eGFR and CKD stage are not substitutes for each other.
+3. Reconcile the six issues in SOURCE_AUDIT.json with a renal pharmacist. Do not fill continuous-PD schedules from intermittent-HD wording or mix parent/prodrug analytes.
+4. Replace or corroborate historical handbook PK with contemporary measured evidence. Preserve analyte, Vd units, conventional versus high-flux HD and within/between-session half-lives.
+5. Complete IHD, systemic PD and CRRT/PIRRT evidence separately. Record delivered modality, session length, dialysate/effluent flows, residual function, loading, infusion duration, timing and TDM requirements. No intraperitoneal peritonitis regimen is implied.
+6. Obtain authorised BNF (British National Formulary) and PDR monograph access for comparison. BNF verification is not claimed; the supplied handbook is a different reference.
+7. Record independent nephrologist and renal-pharmacist review, names, dates and resolution of source conflicts before a clinical release.
+8. After GitHub upload, verify HTTPS offline reopen and update activation on a physical phone.
 
-## Completion sequence
-
-1. Agree the adult local formulary and routes; prioritize cardiovascular drugs, antimicrobials, anticoagulants, diabetes medicines, analgesics and OTC products.
-2. For each formulation/indication, curate the licensed standard regimen and CKD source bands with the exact function measure, units, boundaries and maximum dose. Separate loading from maintenance doses.
-3. Curate IHD, PD, CRRT and SLED independently. Record membrane, session length, timing, supplement evidence, CRRT modality/effluent and residual kidney function. Preserve source disagreement.
-4. Complete half-life (analyte and population), Vd (L versus L/kg and method), protein binding and measured or explicitly qualified removal. Record not reported/unknown when evidence does not supply a value.
-5. Reconcile licensed references. BNF has been clarified as the British National Formulary; obtain authorised BNF/PDR monograph access as appropriate. Use the role-labelled reference directory for additional renal evidence. No licensed-reference comparison may be claimed without actual access.
-6. Record an independent nephrologist and renal-pharmacist review, reviewer identity, date and reconciled source version. Resolve every high-risk discrepancy before approving that monograph.
-7. Recheck the priority formulary on a defined schedule and after label/safety updates. Archive releases and retain field-level source provenance.
-
-## Release gates
-
-Clinical release requires approved entries covering the agreed local formulary, explicit unresolved gaps, reviewed renal/RRT regimens and documented ownership of source updates. A larger searchable catalog alone does not satisfy these gates. v0.6.0 passes software/data checks only; the new clinical summaries still require independent review.
-
-## Upload and mobile acceptance
-
-Upload all root files from the cumulative ZIP to the existing drugs repository. Preserve index.html, sw.js, manifest.webmanifest, icon.svg and .nojekyll together. Refresh the site, check v0.6.0 in the header, wait for Offline ready, then test an airplane-mode reopen on a real phone. Check captopril, amlodipine, brand search, favourites and the selected RRT tab. Source links require internet. Updating cached data never counts as a new clinical source check.
+CURATION_QUEUE.json records field/modality gaps for every entry. “Summarized” means a selected source summary, potentially nonnumeric; it does not mean a complete or approved prescribing monograph. Unknown, not reported and not curated remain separate.

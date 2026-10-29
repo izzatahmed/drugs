@@ -1,21 +1,37 @@
-# v0.6.0 verification — 29 October 2026
+# v0.8.0 verification — 29 October 2026
 
-Clinical content remains draft: 668 records, 113 renal profiles, 28 shared safety notes and 527 renal-dose-pending catalog records. PK coverage remains 27 profiles, 15 with four core PK items. Independent clinical approval is pending for every record.
+Drug content remains version 0.7.0 and independently unapproved. Software 0.8.0 adds the adult calculator only. See CALCULATOR.md for equations, scope and source links.
 
-## Clinical-source work in this release
+- checks.mjs and checks_v07.mjs retain previous clinical/source, search/filter, embedded-data and simulated service-worker safeguards.
+- checks_calculator.mjs compares every drug/source and shared guidance with the complete v0.7 baseline; verifies all eight NKF Table S1 numeric cases in both units, MDRD scalar examples, BSA/de-indexing, splice continuity, input limits and excluded settings.
+- Browser QA covers calculation, equation switch, SI conversion, result removal for invalid/missing fields, exclusion of dialysis/AKI/pregnancy, optional BSA, close/reset and 320/390-pixel layouts.
+- ZIP CRC/root SHA-256 checks and a fresh extraction rebuild verify that the packaged runtime matches the source.
 
-Twelve catalog records were promoted to renal profiles: bisoprolol, candesartan, clonidine, enalapril, hydralazine, indapamide, irbesartan, losartan, methyldopa, ramipril, telmisartan and valsartan. Individual UK product information was reviewed; source links remain on each profile. Eight new CKD tables and one product-specific restriction/reference table were added; clonidine, hydralazine and methyldopa retain nonnumeric specialist advice. Seven new IHD summary panels include explicit starting/initial or supplement advice. No new PD/CRRT/SLED dose was extrapolated.
+Clinical approval, BNF reconciliation, completion of remaining drug records, physical-phone testing and HTTPS offline installation/update verification remain pending. No automatic drug-dose selection is implemented. Below is the previous drug-source verification record, retained as historical context.
 
-BNF is clarified as British National Formulary. Direct BNF access returned 403; reconciliation is pending. ERA's indexed guidance directory was reviewed but direct access returned 403; linked documents are not all reviewed. ASN Kidney News August 2024 pages 13–14, NKF medication safety pages and KDIGO 2024 medication-management practice points were reviewed for their stated educational/guideline roles. The reference directory does not imply ASN/ERA/NKF approval of the new drug tables.
+# v0.7.0 verification — 29 October 2026
 
-## Passed checks
+668 indexed records: 133 selected renal profiles, 28 shared safety notes and 507 renal-dose-pending catalog records. 53 source-based PK profiles; 40 contain all four core items. Every entry remains independently unapproved.
 
-- General checks.mjs: record/source integrity, review state, explicit PK/modality gaps, original regimen regressions and embedded data/documents.
-- checks_v06.mjs: SHA-256 fingerprints match all 656 unrelated clinical records, every existing source and all 668 PK records from v0.5; twelve updated records are explicitly allowlisted.
-- New checks preserve initial TOTAL daily amounts, ramipril boundary overlaps and daily/HD timing, enalapril dialysis/non-dialysis distinction, bisoprolol indication differences, indapamide product restriction, absent numeric clonidine/hydralazine/methyldopa bands and valsartan dialysis uncertainty.
-- Actual search/filter functions, spelling suggestion behavior, completion queue and reference-directory export consistency. Browser startup, new enalapril/irbesartan CKD/HD tables, five further updated HD panels and the full reference directory were checked. At 320/390 px phone widths, the directory showed all 9 cards with no horizontal overflow (content widths 256/326 px).
-- Actual worker logic in simulated network/cache tests: offline reopen, explicit update activation, checksum/wrong-release/404 rejection and cache isolation across repository paths.
+## Source review scope
 
-## Limits
+Selected sections of five supplied PDFs were reviewed, not every monograph in the handbook. Individual imported source pages, continued pages, file hashes, edition/date and six source disagreements are recorded in SOURCE_AUDIT.json and sources[].suppliedDocument. PK table crops were visually inspected for all 26 handbook additions; dialysis-category text was checked separately. Superscript references were distinguished from digits, ceftaroline total-L Vd from L/kg, conventional HD from high-flux, and the adjacent anephric column from CVVHD flow columns. Current oral cefuroxime and oral/IV voriconazole labels were checked to reconcile specific source differences. A source check is not independent clinical validation.
 
-Software checks do not establish clinical validity. No independent nephrologist/renal-pharmacist approval, licensed BNF reconciliation, full interaction monograph, physical-phone installation or HTTPS airplane-mode test is claimed. The internal HTTP preview cannot activate the offline worker; check on the user's GitHub Pages site after upload. Source links require internet. Numerical gaps are retained and not inferred from PK parameters.
+## Automated checks
+
+- checks.mjs checks all drug/source IDs, approved-review state, schema, embedded data/document equality, unchanged pre-existing CKD/IHD/PD/CRRT tables and clinically important original edge cases.
+- checks_v07.mjs compares against the full v0.6 baseline: 621 unrelated records and all 27 existing PK summaries are unchanged; the 47 changed records cover the declared additions. Existing source records and shared guidance remain unchanged.
+- Specific regressions cover Vd units/superscripts, high-flux uncertainty, unknown versus not-curated removal, oral versus IV restrictions, daily versus post-session HD, withheld continuous-PD schedules, TMP component units, PIRRT source/page/session/timing and CVVHD flow columns.
+- Actual app search functions cover brand/exact-name ordering, spelling suggestions, setting/PK/latest filters and queue/reference exports. The 668-drug completion queue matches the final data.
+- Actual service-worker logic is exercised with simulated network/caches: install, offline reopen, deliberate update activation, wrong-release/checksum/404 rejection and per-path cache isolation.
+- ZIP CRC and root SHA-256 checksums are verified. A fresh extraction rebuild is compared with the packaged runtime/data/documents.
+
+## Browser checks
+
+The managed HTTP preview displayed the final release. Cefuroxime showed the current oral-label table and source-disagreement notice. At 320- and 390-pixel iframe widths, ceftaroline/meropenem search, PK and PIRRT sections had no horizontal page overflow. Ceftaroline Vd displayed 20.3 L; meropenem displayed the 3–4-hour infusion/timing note and prescription conditions. These are responsive-browser checks, not physical-phone performance or bedside validation.
+
+## Remaining checks and limitations
+
+Independent nephrologist and renal-pharmacist review, full formulary/indication coverage, authorised BNF monograph comparison and resolution of retained source conflicts remain incomplete. The historical PK additions are clearly dated 2018 (©2019). No modern circuit clearance or supplemental dose was calculated from PK properties. No intraperitoneal peritonitis regimen is implied.
+
+The internal HTTP preview cannot activate the offline worker. Check HTTPS installation, airplane-mode reopen, update activation and storage persistence on a physical phone after GitHub upload. External clinical source links need internet. Software checks cannot establish clinical validity.
