@@ -10,8 +10,8 @@ def safe_json(obj):
     return json.dumps(obj,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('\u2028','\\u2028').replace('\u2029','\\u2029')
 
 html=(ROOT/'app-shell.html').read_text()
-css=(DIST/'styles.css').read_text()+'\n'+(DIST/'readability.css').read_text()
-js=(DIST/'pk.js').read_text()+'\n'+(DIST/'app.js').read_text()+'\n'+(DIST/'workflow.js').read_text()+'\n'+(DIST/'renal-math.js').read_text()+'\n'+(DIST/'calculator.js').read_text()+'\ninit();\n'+(DIST/'offline.js').read_text()
+css=(DIST/'styles.css').read_text()+'\n'+(DIST/'readability.css').read_text()+'\n'+(DIST/'interface.css').read_text()
+js=(DIST/'pk.js').read_text()+'\n'+(DIST/'app.js').read_text()+'\n'+(DIST/'workflow.js').read_text()+'\n'+(DIST/'renal-math.js').read_text()+'\n'+(DIST/'calculator.js').read_text()+'\n'+(DIST/'interface.js').read_text()+'\ninit();\n'+(DIST/'offline.js').read_text()
 assert '</script' not in js.lower()
 data=json.loads((DIST/'database.json').read_text())
 docs={'guide':(DIST/'EDITORIAL_GUIDE.md').read_text(),'changelog':(DIST/'CHANGELOG.md').read_text(),'plan':(DIST/'COMPLETION_PLAN.md').read_text()}

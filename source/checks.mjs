@@ -6,8 +6,8 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,668);
 assert.equal(ids.size,668,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.9.0');
-assert.deepEqual(data.coverage,{renal:218,safety:28,catalog:422});
+assert.equal(data.version,'0.10.0');
+assert.deepEqual(data.coverage,{renal:258,safety:28,catalog:382});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -19,7 +19,7 @@ for(const d of data.drugs){
   assert.ok(d.routes.length);
   assert.ok(['renal','safety','catalog'].includes(d.entryType));
   if(d.entryType==='catalog'){assert.equal(d.sourceIds.length,0);assert.equal(d.review.sourceCheckedAt,null);for(const m of Object.values(d.modalities)){assert.equal(m.tables.length,0);assert.equal(m.status,'not_curated');}}
-  else{assert.ok(d.sourceIds.length);assert.equal(d.review.sourceCheckedAt,'2026-10-29');}
+  else{assert.ok(d.sourceIds.length);assert.ok(['2026-10-29','2026-10-30'].includes(d.review.sourceCheckedAt));}
   if(d.entryType==='safety'){assert.ok(data.sharedGuidance[d.sharedGuidanceId]);for(const m of Object.values(d.modalities))assert.equal(m.tables.length,0);}
   assert.equal(d.referenceChecks.bnf.status,'comparison_pending','Never imply unavailable BNF monographs were checked');
   if(d.referenceChecks.pdr.status==='accessed')assert.ok(d.sourceIds.some(id=>refs.get(id).type==='PDR digital monograph'));
@@ -36,7 +36,7 @@ for(const d of data.drugs){
     }
   }
 }
-for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.equal(s.accessed,'2026-10-29');}
+for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.ok(['2026-10-29','2026-10-30'].includes(s.accessed));}
 const drug=id=>data.drugs.find(d=>d.id===id);
 assert.match(drug('sitagliptin').kidneyMetric,/eGFR.*1.73/);
 assert.deepEqual(drug('sitagliptin').modalities.ckd.tables[0].rows.map(x=>x.context),['≥45','30 to <45','<30']);
@@ -86,7 +86,7 @@ assert.equal(docs.guide,readFileSync(new URL('./dist/EDITORIAL_GUIDE.md',import.
 assert.equal(docs.changelog,readFileSync(new URL('./dist/CHANGELOG.md',import.meta.url),'utf8'));
 assert.ok(existsSync(new URL('./dist/.nojekyll',import.meta.url)));
 const before=JSON.parse(readFileSync(new URL('./baseline_v03.json',import.meta.url),'utf8'));
-for(const [id,modalities] of Object.entries(before))if(![...data.clinicalUpdates.newRenalIds,...data.releaseChanges.newRenalIds,'captopril','amlodipine','losartan','valsartan','candesartan','irbesartan','telmisartan','bisoprolol','enalapril','ramipril','clonidine','hydralazine','methyldopa','indapamide'].includes(id))for(const k of ['ckd','ihd','pd','crrt'])assert.deepEqual(drug(id).modalities[k],modalities[k],`${id}/${k}: unrelated v0.3 regimen changed`);
+for(const [id,modalities] of Object.entries(before))if(![...data.drugs.filter(d=>d.updatedInVersion).map(d=>d.id),...data.clinicalUpdates.newRenalIds,...data.releaseChanges.newRenalIds,'captopril','amlodipine','losartan','valsartan','candesartan','irbesartan','telmisartan','bisoprolol','enalapril','ramipril','clonidine','hydralazine','methyldopa','indapamide'].includes(id))for(const k of ['ckd','ihd','pd','crrt'])assert.deepEqual(drug(id).modalities[k],modalities[k],`${id}/${k}: unrelated v0.3 regimen changed`);
 const pkFields=['halfLife','renalHalfLife','volumeOfDistribution','proteinBinding'];
 let pkCount=0,fullCount=0;
 for(const d of data.drugs){
@@ -94,11 +94,11 @@ for(const d of data.drugs){
  assert.deepEqual(Object.keys(p.dialysability),['ihd','pd','crrt','sled']);
  const facts=[...pkFields.map(k=>p[k]),...Object.values(p.dialysability)];
  for(const f of facts){assert.ok(f&&f.status);assert.ok(Array.isArray(f.sourceIds));f.sourceIds.forEach(id=>assert.ok(refs.has(id),`${d.id}: missing PK source ${id}`));if(f.value!==null)assert.ok(f.sourceIds.length,`${d.id}: unsourced PK value`);if(['not_reported','not_curated'].includes(f.status))assert.equal(f.value,null);}
- if(p.status==='source_summary'){pkCount++;assert.equal(p.sourceCheckedAt,'2026-10-29');assert.ok(p.halfLife.value);}else{assert.equal(p.sourceCheckedAt,null);facts.forEach(f=>assert.equal(f.value,null));}
+ if(p.status==='source_summary'){pkCount++;assert.ok(['2026-10-29','2026-10-30'].includes(p.sourceCheckedAt));assert.ok(p.halfLife.value);}else{assert.equal(p.sourceCheckedAt,null);facts.forEach(f=>assert.equal(f.value,null));}
  if(['halfLife','volumeOfDistribution','proteinBinding'].every(k=>p[k].status==='sourced')&&p.dialysability.ihd.value!==null)fullCount++;
  for(const k of ['crrt','sled']){assert.equal(p.dialysability[k].status,'not_curated','Never infer circuit clearance from protein binding/Vd');assert.equal(p.dialysability[k].value,null);}
 }
-assert.equal(pkCount,66);assert.equal(fullCount,52);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
+assert.equal(pkCount,69);assert.equal(fullCount,55);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
 const cap=drug('captopril'),am=drug('amlodipine');
 assert.equal(cap.entryType,'renal');assert.match(cap.kidneyMetric,/CrCl.*1.73/);
 assert.match(cap.modalities.ckd.tables[0].indication,/TOTAL daily/);
@@ -118,5 +118,5 @@ assert.equal(drug('ramipril').pharmacokinetics.dialysability.ihd.status,'source_
 assert.equal(drug('warfarin').pharmacokinetics.status,'source_summary');
 assert.equal(drug('losartan').entryType,'renal');assert.equal(drug('losartan').review.sourceCheckedAt,'2026-10-29');assert.equal(drug('losartan').pharmacokinetics.status,'source_summary');
 assert.ok(existsSync(new URL('./dist/pk.js',import.meta.url)));
-console.log(`PASS: 668 records, 218 renal profiles, 28 safety notes, 422 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
+console.log(`PASS: 668 records, 258 renal profiles, 28 safety notes, 382 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
 console.log('Software/data integrity checks do not establish clinical validity. Independent clinical review remains pending.');
