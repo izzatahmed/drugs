@@ -18,6 +18,7 @@ function environment(saved={},deny=false){
  vm.runInContext(themeBoot,context);vm.runInContext(script,context);
  return {storage,nodes,dialogs,root,context,node,run:s=>vm.runInContext(s,context)};
 }
+const filterTest=environment();filterTest.node('#filters-toggle').click();assert.equal(filterTest.node('#filter-panel').open,true);assert.equal(filterTest.node('#filters-toggle').attrs['aria-expanded'],'true');filterTest.node('#filters-toggle').click();assert.equal(filterTest.node('#filter-panel').open,false);
 const env=environment();assert.equal(env.root.dataset.theme,'light');env.node('#theme-toggle').click();assert.equal(env.root.dataset.theme,'dark');assert.equal(env.storage.get('renalrounds-theme'),'dark');assert.equal(env.node('#theme-toggle').attrs['aria-pressed'],'true');
 const reload=environment(Object.fromEntries(env.storage));assert.equal(reload.root.dataset.theme,'dark');reload.node('#theme-toggle').click();assert.equal(reload.root.dataset.theme,'light');
 const blocked=environment({},true);blocked.node('#theme-toggle').click();assert.equal(blocked.root.dataset.theme,'dark','Storage denial must not break manual theme changes');
@@ -35,6 +36,6 @@ for(const [saved,deny,expected] of [[{},false,'100%'],[{'renalrounds-large-text'
  const e=environment(saved,deny);vm.runInContext(textCode,e.context);vm.runInContext(boot,e.context);assert.equal(e.node('#font-reset').textContent,expected);
  e.run('applyTextSize(3);saveTextSize()');assert.equal(e.node('#font-reset').textContent,'150%');assert.equal(e.node('#font-toggle').disabled,true);e.run('applyTextSize(0)');assert.equal(e.node('#font-reset').textContent,'100%');
 }
-assert.ok(shell.indexOf('<section class="search-area"')<shell.indexOf('<div class="reader-toolbar"'));
+assert.ok(shell.indexOf('<div class="reader-toolbar"')<shell.indexOf('<div class="search-box"'));assert.match(shell,/<div class="search-row">[\s\S]*?id="filters-toggle"[\s\S]*?id="clear-filters"[\s\S]*?<\/div><details id="filter-panel"/);
 assert.ok(!/<header class="topbar"|<section class="intro"|class="draft-notice"/.test(shell));assert.equal((shell.match(/class="dialog-back"/g)||[]).length,4);
 console.log('PASS: actual theme startup/toggle, persisted choice, storage-denied fallback, no OS theme path; medicine/setting/filter back history and dialog closure; calculator exclusion; text preference migration/clamping and search-first structure.');
