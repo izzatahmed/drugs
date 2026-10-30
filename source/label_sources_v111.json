@@ -1,0 +1,317 @@
+{
+  "morphine": {
+    "spl_version": 27,
+    "published_date": "Oct 16, 2026",
+    "title": "MORPHINE SULFATE INJECTION, SOLUTION [HOSPIRA, INC.]",
+    "setid": "be420e8b-bcb0-49b5-bb4d-1df8b9959809",
+    "xmlSha256": "b632fb11c9742599cdf1ca3577826fba126fa7cadb6e3fc9589b07d8114607a7",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/be420e8b-bcb0-49b5-bb4d-1df8b9959809.xml",
+    "drugId": "morphine"
+  },
+  "hydromorphone": {
+    "spl_version": 12,
+    "published_date": "May 20, 2026",
+    "title": "DILAUDID (HYDROMORPHONE HYDROCHLORIDE) TABLET DILAUDID (HYDROMORPHONE HYDROCHLORIDE) SOLUTION [RHODES PHARMACEUTICALS LLC]",
+    "setid": "d6b40e39-a57e-402c-b4f6-7041e832f837",
+    "xmlSha256": "017f6b7e6eceeab27d52145b0c45488b6b1a59adc2f2569242812a808479d0dd",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d6b40e39-a57e-402c-b4f6-7041e832f837.xml",
+    "drugId": "hydromorphone"
+  },
+  "oxycodone": {
+    "spl_version": 30,
+    "published_date": "Apr 30, 2026",
+    "title": "ROXICODONE (OXYCODONE HYDROCHLORIDE) TABLET [SPECGX LLC]",
+    "setid": "5a8157d3-ba20-4abf-b0d4-6ad141b31d63",
+    "xmlSha256": "953077444e91f3435c9228e2d3a0512ac7f0f0631cd4356acf9286cfb7f0b22b",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5a8157d3-ba20-4abf-b0d4-6ad141b31d63.xml",
+    "drugId": "oxycodone"
+  },
+  "fentanyl": {
+    "spl_version": 35,
+    "published_date": "Aug 25, 2026",
+    "title": "FENTANYL CITRATE INJECTION, SOLUTION [HOSPIRA, INC.]",
+    "setid": "bfa8018a-4cbc-434b-e09e-782872b0340a",
+    "xmlSha256": "5e4e2c27dc21decc70be01e413b51e4c377da5be99c899ec7fe6567045bf7e68",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/bfa8018a-4cbc-434b-e09e-782872b0340a.xml",
+    "drugId": "fentanyl"
+  },
+  "buprenorphine": {
+    "spl_version": 32,
+    "published_date": "May 13, 2026",
+    "title": "BUTRANS (BUPRENORPHINE) PATCH, EXTENDED RELEASE [KNOA PHARMA LLC]",
+    "setid": "794aa355-66de-41b8-aedf-f2c40f6bc664",
+    "xmlSha256": "902d1f4aa5faea61c285176f02f70b1bfe62784b70591e8137810d295b1094b9",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/794aa355-66de-41b8-aedf-f2c40f6bc664.xml",
+    "drugId": "buprenorphine"
+  },
+  "codeine": {
+    "spl_version": 25,
+    "published_date": "Dec 31, 2025",
+    "title": "CODEINE SULFATE TABLET [HIKMA PHARMACEUTICALS USA INC.]",
+    "setid": "010905f9-3bcb-4b50-9fe8-a3ad0010f14c",
+    "xmlSha256": "03340c075a40efc1630988633be5b7c7b3d2ba6e14ef201067c46bae34b731dc",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/010905f9-3bcb-4b50-9fe8-a3ad0010f14c.xml",
+    "drugId": "codeine"
+  },
+  "meperidine": {
+    "spl_version": 38,
+    "published_date": "Jul 22, 2026",
+    "title": "DEMEROL (MEPERIDINE HYDROCHLORIDE) INJECTION, SOLUTION [HOSPIRA, INC.]",
+    "setid": "b31d1308-28c3-43f4-e0a6-2f3ed76b8975",
+    "xmlSha256": "76c12aca47ccb98dca8af0e91027f13e3a32f6503da64a2ab518231cb7463783",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b31d1308-28c3-43f4-e0a6-2f3ed76b8975.xml",
+    "drugId": "pethidine-meperidine"
+  },
+  "methadone": {
+    "spl_version": 22,
+    "published_date": "Sep 29, 2026",
+    "title": "METHADONE HYDROCHLORIDE TABLET [VISTAPHARM, LLC]",
+    "setid": "c54baaee-8ea4-45f5-a5c8-bb84cf86832f",
+    "xmlSha256": "47d07746e854903329ecadbf01789a9972e439e55e3ddd3d5d1882ef5d4130ef",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/c54baaee-8ea4-45f5-a5c8-bb84cf86832f.xml",
+    "drugId": "methadone"
+  },
+  "lacosamide": {
+    "spl_version": 63,
+    "published_date": "May 13, 2026",
+    "title": "VIMPAT (LACOSAMIDE) TABLET, FILM COATED VIMPAT (LACOSAMIDE) INJECTION VIMPAT (LACOSAMIDE) SOLUTION [UCB, INC.]",
+    "setid": "9e79b42c-38a3-4b2c-a196-a5a1948250e2",
+    "xmlSha256": "e7827a592222a8d6ef75c968ca17b3b2a03efde2f63a95dad74b4440d4120ebf",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9e79b42c-38a3-4b2c-a196-a5a1948250e2.xml",
+    "drugId": "lacosamide"
+  },
+  "lamotrigine": {
+    "spl_version": 45,
+    "published_date": "Aug 20, 2026",
+    "title": "LAMICTAL (LAMOTRIGINE) TABLET LAMICTAL (LAMOTRIGINE) TABLET, FOR SUSPENSION LAMICTAL ODT (LAMOTRIGINE) TABLET, ORALLY DISINTEGRATING LAMICTAL (LAMOTRIGINE) KIT [GLAXOSMITHKLINE LLC]",
+    "setid": "d7e3572d-56fe-4727-2bb4-013ccca22678",
+    "xmlSha256": "8f685ccbdae666918ed3e8afc758097c9a149f691565aff1cd9ac30096b34ae5",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d7e3572d-56fe-4727-2bb4-013ccca22678.xml",
+    "drugId": "lamotrigine"
+  },
+  "oxcarbazepine": {
+    "spl_version": 39,
+    "published_date": "Dec 18, 2025",
+    "title": "TRILEPTAL (OXCARBAZEPINE) TABLET, FILM COATED TRILEPTAL (OXCARBAZEPINE) SUSPENSION [NOVARTIS PHARMACEUTICALS CORPORATION]",
+    "setid": "4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b",
+    "xmlSha256": "62faa5a3746a9c757e14f602ffd2beb517d0138c42f7e81e439827049b73b005",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b.xml",
+    "drugId": "oxcarbazepine"
+  },
+  "topiramate": {
+    "spl_version": 31,
+    "published_date": "Oct 06, 2026",
+    "title": "TOPAMAX (TOPIRAMATE) TABLET, COATED TOPAMAX (TOPIRAMATE) CAPSULE, COATED PELLETS [JANSSEN PHARMACEUTICALS, INC.]",
+    "setid": "21628112-0c47-11df-95b3-498d55d89593",
+    "xmlSha256": "84c705f9cab4f0162d8fa0bc27d6e2214d7a79be6d99ca2255ae535b8d718889",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/21628112-0c47-11df-95b3-498d55d89593.xml",
+    "drugId": "topiramate"
+  },
+  "phenytoin": {
+    "spl_version": 3,
+    "published_date": "Apr 10, 2025",
+    "title": "DILANTIN (EXTENDED PHENYTOIN SODIUM) CAPSULE, EXTENDED RELEASE [VIATRIS SPECIALTY LLC]",
+    "setid": "86dd27d1-9cee-48ae-b55d-e2d2f7dbc593",
+    "xmlSha256": "d6159290b612e3bde963836b0fa821df1f8c7160930e89aa700a58120ae128f2",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/86dd27d1-9cee-48ae-b55d-e2d2f7dbc593.xml",
+    "drugId": "phenytoin"
+  },
+  "valproic-acid": {
+    "spl_version": 23,
+    "published_date": "Oct 26, 2026",
+    "title": "VALPROIC ACID SOLUTION [PAI HOLDINGS, LLC DBA PAI PHARMA]",
+    "setid": "7d5cb52e-37dd-4dfa-a6f4-09f9548846c6",
+    "xmlSha256": "31113cad966f9ace6d0b6e1da9fb199ab2e0f01ffedeaa39ba94a97615db8793",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7d5cb52e-37dd-4dfa-a6f4-09f9548846c6.xml",
+    "drugId": "valproate"
+  },
+  "pramipexole": {
+    "spl_version": 12,
+    "published_date": "Aug 18, 2026",
+    "title": "PRAMIPEXOLE DIHYDROCHLORIDE TABLET [STRIDES PHARMA SCIENCE LIMITED]",
+    "setid": "fb2260d6-204c-4d25-a331-0f8340d83a6e",
+    "xmlSha256": "62ff819f81c51a0d8b18f822fbcb0b92584df3f6ad0dd9c1510e01d2f52a8008",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fb2260d6-204c-4d25-a331-0f8340d83a6e.xml",
+    "drugId": "pramipexole"
+  },
+  "ropinirole": {
+    "spl_version": 22,
+    "published_date": "Sep 30, 2026",
+    "title": "ROPINIROLE TABLET, FILM COATED [ALEMBIC PHARMACEUTICALS INC.]",
+    "setid": "6d1a0f9f-5fa0-43fa-83b9-0d18a129fd0c",
+    "xmlSha256": "27b82fd33ab33b5f8a4c69a3c20a4d5bb438971016a2fe2620c03f74eec68d1b",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6d1a0f9f-5fa0-43fa-83b9-0d18a129fd0c.xml",
+    "drugId": "ropinirole"
+  },
+  "amantadine": {
+    "spl_version": 10,
+    "published_date": "Feb 02, 2026",
+    "title": "AMANTADINE HYDROCHLORIDE CAPSULE [STRIDES PHARMA INC.]",
+    "setid": "e4d8f36f-d668-4728-8dca-b1c22bd9aedb",
+    "xmlSha256": "a7fc44d65657d01476d69d54bac29fb0ca0795e12ed120c2ad2969d70becac18",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e4d8f36f-d668-4728-8dca-b1c22bd9aedb.xml",
+    "drugId": "amantadine"
+  },
+  "memantine": {
+    "spl_version": 7,
+    "published_date": "Sep 23, 2026",
+    "title": "MEMANTINE (MEMANTINE HYDROCHLORIDE) SOLUTION [APOTEX CORP.]",
+    "setid": "4076d3ef-d0a9-96c5-1a15-812c1e42929c",
+    "xmlSha256": "d10db48d24a7a9ced810d76eccc6ce0485bcb831e863643999b798ec9d73e9a4",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4076d3ef-d0a9-96c5-1a15-812c1e42929c.xml",
+    "drugId": "memantine"
+  },
+  "rivastigmine": {
+    "spl_version": 2,
+    "published_date": "Nov 21, 2025",
+    "title": "RIVASTIGMINE TARTRATE CAPSULE [AMERICAN HEALTH PACKAGING]",
+    "setid": "52781229-ee82-43f9-a113-4419a611978d",
+    "xmlSha256": "063d7bc2e377d002ba54b3126124799ad8112fcd6032e645f373f241d7ae7184",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/52781229-ee82-43f9-a113-4419a611978d.xml",
+    "drugId": "rivastigmine"
+  },
+  "clonazepam": {
+    "spl_version": 6,
+    "published_date": "Dec 02, 2025",
+    "title": "KLONOPIN (CLONAZEPAM) TABLET [H2-PHARMA, LLC]",
+    "setid": "cfa0d79a-843c-4b88-95a1-e9511d649ca1",
+    "xmlSha256": "3d55efda019db57d67c619fc31806dce5a11ea71f02456d5e91cb8aa7804c438",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cfa0d79a-843c-4b88-95a1-e9511d649ca1.xml",
+    "drugId": "clonazepam"
+  },
+  "lorazepam": {
+    "spl_version": 15,
+    "published_date": "Sep 18, 2026",
+    "title": "ATIVAN (LORAZEPAM) INJECTION [HIKMA PHARMACEUTICALS USA INC.]",
+    "setid": "5fc0e987-61c9-40c4-b0d5-fcea07c8733e",
+    "xmlSha256": "876161cfa1374675381f334dd8f5dc7dc977c3f3105ea6cdb523bb65395d257f",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5fc0e987-61c9-40c4-b0d5-fcea07c8733e.xml",
+    "drugId": "lorazepam"
+  },
+  "midazolam": {
+    "spl_version": 15,
+    "published_date": "Aug 31, 2026",
+    "title": "MIDAZOLAM HYDROCHLORIDE INJECTION, SOLUTION [HERITAGE PHARMACEUTICALS INC. D/B/A AVET PHARMACEUTICALS INC.]",
+    "setid": "8b690f5c-2923-4c34-a8f7-11af5f546b62",
+    "xmlSha256": "79912eace59323de6000ca47aed1b6edb0550d05f7ca22c69713ab01c251f28d",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b690f5c-2923-4c34-a8f7-11af5f546b62.xml",
+    "drugId": "midazolam"
+  },
+  "tizanidine": {
+    "spl_version": 2,
+    "published_date": "Jan 05, 2026",
+    "title": "ZANAFLEX (TIZANIDINE HYDROCHLORIDE) CAPSULE ZANAFLEX (TIZANIDINE HYDROCHLORIDE) TABLET [LEGACY PHARMA USA, INC.]",
+    "setid": "60c27d35-7349-4fc6-86ad-70fffdbe3e08",
+    "xmlSha256": "e5948ac3f53eaa3aa2364ea7a50e828ddafcf5743933b25163d677dd91c54202",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/60c27d35-7349-4fc6-86ad-70fffdbe3e08.xml",
+    "drugId": "tizanidine"
+  },
+  "phenobarbital": {
+    "spl_version": 1,
+    "published_date": "Aug 31, 2026",
+    "title": "PHENOBARBITAL TABLET [CHARTWELL RX, LLC]",
+    "setid": "74428144-fb24-40a5-a670-3b876e2d116c",
+    "xmlSha256": "fde91c01d21b251a0eb09f976858a7dc71fa643fc9f1426b19b47411fe198946",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/74428144-fb24-40a5-a670-3b876e2d116c.xml",
+    "drugId": "phenobarbital"
+  },
+  "brivaracetam": {
+    "spl_version": 27,
+    "published_date": "Aug 21, 2026",
+    "title": "BRIVIACT (BRIVARACETAM) TABLET, FILM COATED BRIVIACT (BRIVARACETAM) SOLUTION BRIVIACT (BRIVARACETAM) INJECTION, SUSPENSION [UCB, INC.]",
+    "setid": "3cf2f439-0e97-443e-8e33-25ecef616f6c",
+    "xmlSha256": "7a881412cb58e4bb1d3b5684ab1c4ebfd5964d5ef7a21ef8c22b31647ddb26fe",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3cf2f439-0e97-443e-8e33-25ecef616f6c.xml",
+    "drugId": "brivaracetam"
+  },
+  "entecavir": {
+    "spl_version": 19,
+    "published_date": "Sep 23, 2026",
+    "title": "ENTECAVIR TABLET, FILM COATED [CIPLA USA INC.]",
+    "setid": "d59e9ea4-09ea-47bd-af2f-39f7a2e2aceb",
+    "xmlSha256": "01e437a41d116feff8760e1ff481c1e6dc6511972e3eaf6ddde1e075fe8d1b5c",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d59e9ea4-09ea-47bd-af2f-39f7a2e2aceb.xml",
+    "drugId": "entecavir"
+  },
+  "cefixime": {
+    "spl_version": 14,
+    "published_date": "Nov 17, 2025",
+    "title": "CEFIXIME POWDER, FOR SUSPENSION CEFIXIME CAPSULE [LUPIN PHARMACEUTICALS, INC.]",
+    "setid": "6d68dbd9-7d75-4ff1-91db-79ff8ae879ec",
+    "xmlSha256": "0591478cb0472873c7a523f20df85ba5334c9fab7526942a2084fa0db7380250",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6d68dbd9-7d75-4ff1-91db-79ff8ae879ec.xml",
+    "drugId": "cefixime"
+  },
+  "delafloxacin": {
+    "spl_version": 21,
+    "published_date": "Aug 11, 2025",
+    "title": "BAXDELA (DELAFLOXACIN MEGLUMINE) TABLET BAXDELA (DELAFLOXACIN MEGLUMINE) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [MELINTA THERAPEUTICS, LLC]",
+    "setid": "fb77637a-88d9-4aea-958f-e270030ce30d",
+    "xmlSha256": "8fac969b12546fd6237e3c3b3948ba8067791377a837cc342e437c9642efe598",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fb77637a-88d9-4aea-958f-e270030ce30d.xml",
+    "drugId": "delafloxacin"
+  },
+  "sulbactam-durlobactam": {
+    "spl_version": 11,
+    "published_date": "Dec 09, 2025",
+    "title": "XACDURO (SULBACTAM AND DURLOBACTAM) KIT [LA JOLLA PHARMACEUTICAL COMPANY]",
+    "setid": "c0167aec-a89d-4e96-afe5-2ccf3e89fe72",
+    "xmlSha256": "01d6b21826563aac5d80c7ef8ea24cb1b659c97cca0cf6621dc9aa6f02fd2561",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/c0167aec-a89d-4e96-afe5-2ccf3e89fe72.xml",
+    "drugId": "sulbactam-durlobactam"
+  },
+  "imipenem-cilastatin-relebactam": {
+    "spl_version": 12,
+    "published_date": "Oct 23, 2026",
+    "title": "RECARBRIO (IMIPENEM ANHYDROUS, CILASTATIN, AND RELEBACTAM ANHYDROUS) INJECTION, POWDER, FOR SOLUTION [MERCK SHARP & DOHME LLC]",
+    "setid": "be32f468-738b-40df-a425-591e12f65159",
+    "xmlSha256": "a8cbccd8d882a2bd1d4df368c563684af94a7e37c902ecb6cebce0485996f74c",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/be32f468-738b-40df-a425-591e12f65159.xml",
+    "drugId": "imipenem-cilastatin-relebactam"
+  },
+  "eravacycline": {
+    "spl_version": 12,
+    "published_date": "Aug 17, 2026",
+    "title": "XERAVA (ERAVACYCLINE) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [TETRAPHASE PHARMACEUTICALS, INC.]",
+    "setid": "a4b188d4-f467-470c-ad7b-25ffbdd8862a",
+    "xmlSha256": "575c917b6b7205a7472a929abb7da011d156780b4b0c5d6cc6f46ddcf48f431b",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/a4b188d4-f467-470c-ad7b-25ffbdd8862a.xml",
+    "drugId": "eravacycline"
+  },
+  "molnupiravir": {
+    "spl_version": 27,
+    "published_date": "Jul 21, 2025",
+    "title": "LAGEVRIO (MOLNUPIRAVIR) CAPSULE [MERCK SHARP & DOHME LLC]",
+    "setid": "1b0da643-ab23-4a0b-a9ec-a434522446d0",
+    "xmlSha256": "df66164272e4cd1d02a0d61377f38e52450c13be96245d1494b6362d9c5b1741",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1b0da643-ab23-4a0b-a9ec-a434522446d0.xml",
+    "drugId": "molnupiravir"
+  },
+  "ofloxacin": {
+    "spl_version": 3,
+    "published_date": "Jun 23, 2026",
+    "title": "OFLOXACIN TABLET, FILM COATED [MODAVAR PHARMACEUTICALS LLC]",
+    "setid": "93ed9f70-b44f-496b-bdfc-c1bd5f1c260b",
+    "xmlSha256": "936fc983a0694098e1b17d9e3f91ad266d74e2b80a58b01248608a6a75d6202e",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/93ed9f70-b44f-496b-bdfc-c1bd5f1c260b.xml",
+    "drugId": "ofloxacin"
+  },
+  "trimethoprim": {
+    "spl_version": 6,
+    "published_date": "Dec 04, 2024",
+    "title": "TRIMETHOPRIM TABLET [LUPIN PHARMACEUTICALS,INC.]",
+    "setid": "249e938d-f181-47c4-a082-372d65462f33",
+    "xmlSha256": "3016767842ece37893aaa20221e8c8ba7e5f1fc96379b65b3c9ff0cd4c43c46f",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/249e938d-f181-47c4-a082-372d65462f33.xml",
+    "drugId": "trimethoprim"
+  },
+  "rezafungin": {
+    "spl_version": 5,
+    "published_date": "Aug 03, 2026",
+    "title": "REZZAYO (REZAFUNGIN) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [MELINTA THERAPEUTICS, LLC]",
+    "setid": "90073508-6dca-4d27-aa5a-ed837737c35b",
+    "xmlSha256": "b11728c727f9be7c726774edbf28e1be024eb82aad026874bc3bc13f6c804999",
+    "retrievalUrl": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/90073508-6dca-4d27-aa5a-ed837737c35b.xml",
+    "drugId": "rezafungin"
+  }
+}

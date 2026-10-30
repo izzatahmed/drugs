@@ -1,19 +1,19 @@
-# RenalRounds v0.11.0 — cumulative GitHub Pages package
+# RenalRounds v0.11.1 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference. This release reduces the upper controls and search area, moves review notices below the findings, and adds two partial institutional renal profiles plus 30 historical PK-only panels. The 668-entry inventory contains 260 partial renal profiles, 28 shared safety notes and 380 catalog entries without renal guidance. There are 99 PK profiles, including 69 historical handbook profiles; 55 contain all four core items, including qualified qualitative IHD statements from prior releases. This is an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference. This release adds the name/version to the compact top toolbar, 35 selected US-product renal profiles, 17 previously empty systemic PD schedules and eight IHD-removal label fields. The 668-entry inventory contains 295 partial renal profiles, 28 shared safety notes and 345 catalog entries without renal guidance. There are 99 PK profiles, including 69 historical handbook profiles; 63 contain all four core items, including qualified qualitative IHD statements from prior releases. This is an incomplete draft without independent clinical approval.
 
 ## Update the existing site
 
 1. Extract this cumulative ZIP. Upload all its contents to the existing repository publishing root, preserving folders and replacing matching files. Do not upload the ZIP itself or create another enclosing folder.
 2. Replace root index.html, sw.js, icons, manifest, database and documents together. Preserve source/ and its nested source/dist/ for maintenance. There is no separate top-level dist/ in this package. A workflow publishing another directory must use that configured output.
-3. Commit to the branch/folder configured for GitHub Pages and wait for deployment. Confirm v0.11 in the footer or Release 0.11.0 in Sources & scope.
-4. If an older offline copy remains active, open Database & offline status at the bottom, then Check for update → Load available update. Confirm cached v0.11.0 on HTTPS. Test reopening the exact URL on a physical phone in airplane mode; source links need internet.
+3. Commit to the branch/folder configured for GitHub Pages and wait for deployment. Confirm v0.11.1 in the footer or Release 0.11.1 in Sources & scope.
+4. If an older offline copy remains active, open Database & offline status at the bottom, then Check for update → Load available update. Confirm cached v0.11.1 on HTTPS. Test reopening the exact URL on a physical phone in airplane mode; source links need internet.
 
 Downloading this file does not update the live site. No GitHub writes have been performed. The root index embeds the full database and code: replacing JSON alone does not change the running app. No earlier ZIP or patch is required.
 
 ## Compact interface
 
-Smaller font/theme controls are uppermost, with the eGFR shortcut at the right. A shorter search box shares the next line with Filters and Clear filters. Phone filter controls use funnel and crossed-funnel icons; accessible labels and desktop text remain available. Filters start collapsed. Clear filters is disabled when inactive and resets route/content/setting/category/OTC choices while preserving the search query.
+Smaller font/theme controls are uppermost, RenalRounds v0.11.1 occupies the free centre, and the eGFR shortcut stays at the right. A shorter search box shares the next line with Filters and Clear filters. Phone filter controls use funnel and crossed-funnel icons; accessible labels and desktop text remain available. Filters start collapsed. Clear filters is disabled when inactive and resets route/content/setting/category/OTC choices while preserving the search query.
 
 Clinical text starts at 16 px, with 100%, 115%, 130% and 150% settings. These reading sizes are independent of the smaller controls. Day/night remains an explicit saved choice, independent of the system theme. Renal dosing leads each drug entry. Approval badges, informational missing-data notices, PK and secondary tools follow the findings; do-not-use warnings remain with the relevant setting.
 
@@ -21,13 +21,19 @@ The small fixed ↶ arrow returns through in-app medicine, setting, query/filter
 
 ## Medication expansion and limits
 
-This release enriches 32 existing indexed medicines: two partial renal profiles for omadacycline and telavancin from the supplied adult institutional protocol, plus 30 historical PK panels in pain/neurology. The new panels contain selected reference/renal half-life, Vd and protein binding. No new historical renal-dose table or dialysis-removal category is imported; those fields require current-source reconciliation. A PK panel does not constitute a renal prescribing monograph.
+This update adds 35 selected renal profiles (25 pain/neurology and 10 antimicrobials) and 17 systemic PD schedules, retaining every previously populated dose table. New numeric instructions include entecavir by indication/CrCl/HD/CAPD, amantadine IR weekly HD, indication-specific ropinirole HD, lacosamide maximum plus qualified HD supplement, oxcarbazepine initial TOTAL dose, topiramate indexed-CrCl reduction, memantine IR, combination-antibiotic renal bands, route-specific delafloxacin, ofloxacin and trimethoprim. Some profiles provide titration cautions rather than fixed numbers. Buprenorphine patch, lorazepam injection and cefixime withhold numeric selection because evidence or warnings need reconciliation.
 
-Online primary-source search and retrieval were unavailable for this batch. No new current-label verification is claimed. The antimicrobial protocol was approved April 2026; the supplied handbook is fifth edition, published 2018 (copyright 2019). Each selected PDF page and file checksum is recorded. Superscript references are separated from numeric values, and total Litres from L/kg. Source-check date does not change publication date.
+Search retrieval failed, but the official DailyMed API successfully supplied 35 product SPLs. Each source records exact product title, set ID, SPL version, publication date, API endpoint and XML checksum. Current US labels are product-specific and are not BNF review, local authorisation or independent approval. The selected phenobarbital label is for a marketed unapproved drug; molnupiravir is an EUA fact sheet. Supplied historical PK fields retain their dates; eight IHD fields now identify separate current label evidence. No new historical dose table is imported.
 
-Telavancin has differing institutional/older UK restrictions; its numeric regimen is withheld pending current product, indication and jurisdiction review. Omadacycline has a selected no-renal-reduction statement; no complete route/loading/RRT regimen is selected. Original uploaded PDFs are not redistributed.
+The supplied Nebraska protocol was approved April 2026. PD additions are systemic oral/IV treatment, not intraperitoneal peritonitis regimens. CAPD does not establish APD dosing. Full formulation, indication, local product and prescription-specific RRT coverage remains incomplete.
 
-REMAINING_MEDICATIONS.json lists 408 entries without drug-specific renal profiles: 380 catalog records plus 28 shared safety notes. Some catalog records now have PK panels. CURATION_QUEUE.json tracks every field and modality. Existing renal profiles also retain indication/formulation/RRT gaps; BNF comparison and independent nephrology plus renal-pharmacy approval remain pending.
+REMAINING_MEDICATIONS.json lists 373 entries without drug-specific renal profiles (345 catalog plus 28 shared safety). Existing profiles also retain gaps. Independent nephrology and renal-pharmacy approval remains pending.
+
+## Choose the download
+
+The cumulative ZIP contains the full current release, including all updates after v0.10 and the maintenance source tree. For an existing v0.10 or v0.11 installation, the smaller modified-files ZIP contains only files added or changed relative to the exact v0.10 cumulative ZIP, including updated source paths. Extract its contents directly into the existing publishing root, preserving paths and replacing matching files. No deletion is needed. It is not a complete standalone project. Both methods produce the same current files; do not apply both.
+
+After upload, check the top title/footer for v0.11.1. An older cached app needs Database & offline status → Check for update → Load available update.
 
 ## Calculator and privacy
 
@@ -46,12 +52,13 @@ Run from the extracted source/ folder with Python 3 and Node.js; no package inst
     python3 release_v09.py
     python3 release_v10.py
     python3 release_v11.py
+    python3 release_v111.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v11.mjs
+    node checks_v111.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.11.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.11.1_cumulative.zip
 
 Copy generated runtime/documents from source/dist/ to the publishing root together, or extract the new cumulative ZIP there. CSS/JS source assets remain in source/dist/ and are embedded by the builder into index.html. Earlier version checks are historical; use the four current checks above. SHA256SUMS.txt covers public root files.
 

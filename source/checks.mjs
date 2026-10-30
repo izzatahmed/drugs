@@ -6,8 +6,8 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,668);
 assert.equal(ids.size,668,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.11.0');
-assert.deepEqual(data.coverage,{renal:260,safety:28,catalog:380});
+assert.equal(data.version,'0.11.1');
+assert.deepEqual(data.coverage,{renal:295,safety:28,catalog:345});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -63,7 +63,7 @@ assert.equal(drug('cefiderocol').modalities.crrt.tables[0].rows.length,4);
 assert.match(drug('cefiderocol').modalities.crrt.settingMeasure,/effluent/);
 assert.equal(drug('cefiderocol').sourceIds.some(id=>refs.get(id).title.startsWith('UCSF')),false);
 const original=JSON.parse(readFileSync(new URL('./baseline_v02.json',import.meta.url),'utf8'));
-for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt'])assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);}
+for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt']){if(k==='pd'&&data.clinicalUpdates.newPDIds.includes(id)){assert.equal(old.modalities[k].tables.length,0);}else assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);};}
 for(const file of ['index.html','styles.css','app.js','database.json','EDITORIAL_GUIDE.md','CHANGELOG.md','icon.svg'])assert.ok(existsSync(new URL(`./dist/${file}`,import.meta.url)));
 for(const g of Object.values(data.sharedGuidance)){assert.ok(g.title&&g.text&&g.sourceIds.length);g.sourceIds.forEach(id=>assert.ok(refs.has(id)));}
 assert.deepEqual(drug('famotidine').routes,['Oral'],'Do not infer IV route from the word non-erosive');
@@ -98,7 +98,7 @@ for(const d of data.drugs){
  if(['halfLife','volumeOfDistribution','proteinBinding'].every(k=>p[k].status==='sourced')&&p.dialysability.ihd.value!==null)fullCount++;
  for(const k of ['crrt','sled']){assert.equal(p.dialysability[k].status,'not_curated','Never infer circuit clearance from protein binding/Vd');assert.equal(p.dialysability[k].value,null);}
 }
-assert.equal(pkCount,99);assert.equal(fullCount,55);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
+assert.equal(pkCount,99);assert.equal(fullCount,63);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
 const cap=drug('captopril'),am=drug('amlodipine');
 assert.equal(cap.entryType,'renal');assert.match(cap.kidneyMetric,/CrCl.*1.73/);
 assert.match(cap.modalities.ckd.tables[0].indication,/TOTAL daily/);
@@ -118,5 +118,5 @@ assert.equal(drug('ramipril').pharmacokinetics.dialysability.ihd.status,'source_
 assert.equal(drug('warfarin').pharmacokinetics.status,'source_summary');
 assert.equal(drug('losartan').entryType,'renal');assert.equal(drug('losartan').review.sourceCheckedAt,'2026-10-29');assert.equal(drug('losartan').pharmacokinetics.status,'source_summary');
 assert.ok(existsSync(new URL('./dist/pk.js',import.meta.url)));
-console.log(`PASS: 668 records, 260 renal profiles, 28 safety notes, 380 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
+console.log(`PASS: 668 records, 295 renal profiles, 28 safety notes, 345 dose-pending catalog entries; ${pkCount} source-based PK profiles (${fullCount} with all four core fields), ${data.sources.length} sources. Existing CKD/IHD/PD/CRRT regimens retained. PK provenance, units, ESRF distinctions and explicit circuit-removal gaps checked. Standalone data/documents match sources.`);
 console.log('Software/data integrity checks do not establish clinical validity. Independent clinical review remains pending.');
