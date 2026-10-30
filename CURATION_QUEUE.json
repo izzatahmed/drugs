@@ -1,5 +1,5 @@
 {
-  "version": "0.11.2",
+  "version": "0.11.3",
   "generatedAt": "2026-10-29",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
