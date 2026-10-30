@@ -31,7 +31,7 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
 const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
-assert.equal(data.version,'0.11.2');assert.equal(data.clinicalDataVersion,'0.11.2');
+assert.equal(data.version,'0.11.3');assert.equal(data.clinicalDataVersion,'0.11.2');
 assert.deepEqual(data.calculatorSources,old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
 assert.equal(data.calculatorSources.length,6);
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);

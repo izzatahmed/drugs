@@ -6,7 +6,7 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,668);
 assert.equal(ids.size,668,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.11.2');
+assert.equal(data.version,'0.11.3');
 assert.deepEqual(data.coverage,{renal:355,safety:28,catalog:285});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
