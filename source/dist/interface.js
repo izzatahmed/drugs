@@ -47,3 +47,6 @@ function goBack(){
 }
 document.addEventListener('click',e=>{if(e.target.closest('[data-app-back]'))goBack();});
 window.addEventListener('scroll',()=>{if(navigationCurrent&&!navigationRestoring)navigationCurrent.scroll=window.scrollY;},{passive:true});
+
+$('#filters-toggle').addEventListener('click',()=>{$('#filter-panel').open=!$('#filter-panel').open;$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open));});
+$('#filter-panel').addEventListener('toggle',()=>$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open)));

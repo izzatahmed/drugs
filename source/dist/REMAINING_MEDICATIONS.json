@@ -1,7 +1,7 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "notComplete": true,
-  "note": "Renal profiles also retain product/indication/RRT gaps. Independent clinical approval pending.",
+  "note": "PK-only panels do not constitute renal dosing guidance. Renal profiles also retain indication/formulation/RRT gaps; independent clinical approval remains pending.",
   "remaining": [
     {
       "id": "abatacept",
@@ -1636,12 +1636,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "omadacycline",
-      "name": "Omadacycline",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "omalizumab",
       "name": "Omalizumab",
       "category": "Allergy & respiratory",
@@ -2203,12 +2197,6 @@
       "id": "tapentadol",
       "name": "Tapentadol",
       "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "telavancin",
-      "name": "Telavancin",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {

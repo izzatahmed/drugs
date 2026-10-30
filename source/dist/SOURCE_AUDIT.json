@@ -129,6 +129,12 @@
       "issue": "The selected label explicitly prints indexed historical MDRD including a race coefficient; the app calculator omits race.",
       "action": "Retain the label-native metric and prohibit automatic transfer from the calculator.",
       "status": "clinical_reconciliation_pending"
+    },
+    {
+      "drug": "telavancin",
+      "issue": "Supplied 2026-approved institutional dose bands differ from UK restrictions reported in the historical 2018 handbook. Current authorised product and indication have not been reconciled.",
+      "action": "Numeric renal and dialysis dosing withheld; review renal safety, mortality warning and current local label before use.",
+      "status": "clinical_reconciliation_pending"
     }
   ],
   "changes": {
@@ -536,5 +542,85 @@
       "tamsulosin"
     ],
     "scope": "Selected adult product renal statements only; some are caution/insufficient-data summaries, not numeric regimens or approved monographs."
+  },
+  "v11Changes": {
+    "version": "0.11.0",
+    "changedIds": [
+      "amantadine",
+      "brivaracetam",
+      "buprenorphine",
+      "carbamazepine",
+      "clonazepam",
+      "codeine",
+      "diazepam",
+      "donepezil",
+      "fentanyl",
+      "hydromorphone",
+      "ketamine",
+      "lacosamide",
+      "lamotrigine",
+      "lorazepam",
+      "memantine",
+      "methadone",
+      "midazolam",
+      "morphine",
+      "omadacycline",
+      "oxcarbazepine",
+      "oxycodone",
+      "pethidine-meperidine",
+      "phenobarbital",
+      "phenytoin",
+      "pramipexole",
+      "rivastigmine",
+      "ropinirole",
+      "sumatriptan",
+      "telavancin",
+      "tizanidine",
+      "topiramate",
+      "valproate"
+    ],
+    "newRenalIds": [
+      "omadacycline",
+      "telavancin"
+    ],
+    "newPKIds": [
+      "morphine",
+      "hydromorphone",
+      "oxycodone",
+      "fentanyl",
+      "buprenorphine",
+      "codeine",
+      "pethidine-meperidine",
+      "methadone",
+      "lacosamide",
+      "lamotrigine",
+      "oxcarbazepine",
+      "topiramate",
+      "carbamazepine",
+      "phenytoin",
+      "valproate",
+      "pramipexole",
+      "ropinirole",
+      "amantadine",
+      "memantine",
+      "donepezil",
+      "rivastigmine",
+      "clonazepam",
+      "lorazepam",
+      "midazolam",
+      "diazepam",
+      "tizanidine",
+      "phenobarbital",
+      "brivaracetam",
+      "ketamine",
+      "sumatriptan"
+    ],
+    "scope": "Two partial institutional renal profiles; thirty historical PK panels, with new renal doses and RRT removal withheld pending current-source reconciliation."
+  },
+  "researchLimitations": {
+    "version": "0.11.0",
+    "onlinePrimarySourceLookup": "Unavailable during this batch; no new current-label verification claimed.",
+    "historicalPK": "Thirty selected fifth-edition tables checked against supplied PDF pages. No new dialysis-removal category or historical renal-dose table imported.",
+    "renalSources": "Supplied April-2026-approved adult institutional rows; complete current product reconciliation remains pending."
   }
 }
