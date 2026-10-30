@@ -1,0 +1,977 @@
+[
+  {
+    "id": "acetazolamide",
+    "pdfPage": 31,
+    "halfLife": "3–6 h",
+    "renalHalfLife": "26 h",
+    "proteinBinding": "70–90%",
+    "volumeOfDistribution": "0.2 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Unlikely dialysability. Dose as in GFR<10 mL/min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "adenosine",
+    "pdfPage": 41,
+    "halfLife": "<10 seconds",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "0%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "amiodarone",
+    "pdfPage": 74,
+    "halfLife": "20–100 days",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "96%",
+    "volumeOfDistribution": "60 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [
+      75
+    ],
+    "withheldFields": []
+  },
+  {
+    "id": "dobutamine",
+    "pdfPage": 349,
+    "halfLife": "2–4 minutes",
+    "renalHalfLife": null,
+    "proteinBinding": null,
+    "volumeOfDistribution": "0.12–0.28 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "dopamine",
+    "pdfPage": 355,
+    "halfLife": "2 minutes",
+    "renalHalfLife": null,
+    "proteinBinding": null,
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "esmolol",
+    "pdfPage": 408,
+    "halfLife": "9 minutes",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "55%",
+    "volumeOfDistribution": "1.9 L/kg",
+    "removalReference": {
+      "pd": "Dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "flecainide",
+    "pdfPage": 450,
+    "halfLife": "12–27 h",
+    "renalHalfLife": "19–26 h",
+    "proteinBinding": "32–58%",
+    "volumeOfDistribution": "8.31 L/kg",
+    "removalReference": {
+      "pd": "≈1% dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "≈1% dialysed. Dose as in GFR<10 mL/min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Minimal removal. Dose as in GFR=10–35 mL/min."
+    },
+    "additionalPdfPages": [
+      451
+    ],
+    "withheldFields": []
+  },
+  {
+    "id": "isosorbide-dinitrate",
+    "pdfPage": 563,
+    "halfLife": "0.5–1 h",
+    "renalHalfLife": null,
+    "proteinBinding": "<1%",
+    "volumeOfDistribution": "2–4 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "isosorbide-mononitrate",
+    "pdfPage": 564,
+    "halfLife": "1.5–5 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "<4%",
+    "volumeOfDistribution": "0.6 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "ivabradine",
+    "pdfPage": 570,
+    "halfLife": "2 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "70%",
+    "volumeOfDistribution": "100 L",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in GFR<15 mL/min.",
+      "hd": "Unlikely to be dialysed. Dose as in GFR<15 mL/min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<15 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "metolazone",
+    "pdfPage": 668,
+    "halfLife": "8–10 h",
+    "renalHalfLife": null,
+    "proteinBinding": "95%",
+    "volumeOfDistribution": "1.6 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "midodrine",
+    "pdfPage": 678,
+    "halfLife": "25 minutes (3 hours for active metabolite)",
+    "renalHalfLife": "Increased; active metabolite about 9 h",
+    "proteinBinding": "Negligible",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Dialysed. Initial dose, 2.5 mg if <70 kg, 5 mg if >70 kg. See ‘Other information’.",
+      "highFlux": "Dialysed. Initial dose, 2.5 mg if <70 kg, 5 mg if >70 kg. See ‘Other information’.",
+      "continuous": "Dialysed. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "minoxidil-systemic",
+    "pdfPage": 681,
+    "halfLife": "4.2 h",
+    "renalHalfLife": "8.9 h",
+    "proteinBinding": "0%",
+    "volumeOfDistribution": "2–3 L/kg",
+    "removalReference": {
+      "pd": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "continuous": "Dialysed. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "nicardipine",
+    "pdfPage": 726,
+    "halfLife": "8.6 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": ">99%",
+    "volumeOfDistribution": "0.8 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [
+      727
+    ],
+    "withheldFields": []
+  },
+  {
+    "id": "nitroglycerin",
+    "pdfPage": 504,
+    "halfLife": "1–4 minutes",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "30–60%",
+    "volumeOfDistribution": "2–3 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "prazosin",
+    "pdfPage": 843,
+    "halfLife": "2–4 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "97%",
+    "volumeOfDistribution": "1.2–1.5 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "propafenone",
+    "pdfPage": 858,
+    "halfLife": "2–10 h; 10–32 h in slow metabolisers",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": ">95%",
+    "volumeOfDistribution": "1.9–3 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "terazosin",
+    "pdfPage": 1004,
+    "halfLife": "9–12 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "90–94%",
+    "volumeOfDistribution": "0.5–0.9 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "verapamil",
+    "pdfPage": 1078,
+    "halfLife": "4.5–12 h",
+    "renalHalfLife": "Increased",
+    "proteinBinding": "90%",
+    "volumeOfDistribution": "3–6 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Dialysability minimal. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "carbimazole",
+    "pdfPage": 189,
+    "halfLife": "3–6.4 (methimazole) h",
+    "renalHalfLife": "Increased",
+    "proteinBinding": "Unbound (methimazole is 5%)",
+    "volumeOfDistribution": "0.5 (methimazole) L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "dexamethasone",
+    "pdfPage": 326,
+    "halfLife": "3.5–4.5 h",
+    "renalHalfLife": null,
+    "proteinBinding": "77%",
+    "volumeOfDistribution": "0.8–1 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Removal unlikely. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "fludrocortisone",
+    "pdfPage": 457,
+    "halfLife": "3.5 h; biological half-life 18–36 h",
+    "renalHalfLife": null,
+    "proteinBinding": "70–80%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "hydrocortisone",
+    "pdfPage": 514,
+    "halfLife": "Approx 100 minutes",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": ">90%",
+    "volumeOfDistribution": "0.4–0.7 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "continuous": "Unlikely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "levothyroxine",
+    "pdfPage": 608,
+    "halfLife": "6–7 days",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "99.97%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": [
+      "volumeOfDistribution"
+    ]
+  },
+  {
+    "id": "liothyronine",
+    "pdfPage": 613,
+    "halfLife": "24–48 h",
+    "renalHalfLife": null,
+    "proteinBinding": "<99%",
+    "volumeOfDistribution": "0.1–0.2 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "methylprednisolone",
+    "pdfPage": 666,
+    "halfLife": "2.4–3.5 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "40–60%",
+    "volumeOfDistribution": "1.2–1.5 L/kg",
+    "removalReference": {
+      "pd": "Dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "prednisolone",
+    "pdfPage": 844,
+    "halfLife": "2–4 h",
+    "renalHalfLife": "Increased",
+    "proteinBinding": "70–95 (saturable)",
+    "volumeOfDistribution": "1.3–1.7 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "repaglinide",
+    "pdfPage": 890,
+    "halfLife": "1 h",
+    "renalHalfLife": "2 h",
+    "proteinBinding": ">98%",
+    "volumeOfDistribution": "30 L",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "continuous": "Unlikely to be dialysed. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "vildagliptin",
+    "pdfPage": 1081,
+    "halfLife": "3 h",
+    "renalHalfLife": "Increased",
+    "proteinBinding": "9.3%",
+    "volumeOfDistribution": "71 L",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "continuous": "Not dialysed. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "alfacalcidol",
+    "pdfPage": 54,
+    "halfLife": "<3 h",
+    "renalHalfLife": null,
+    "proteinBinding": "Extensive plasma protein binding",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "calcitriol",
+    "pdfPage": 175,
+    "halfLife": "9–10 h",
+    "renalHalfLife": "18–20 h",
+    "proteinBinding": "99.9%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "calcium-acetate",
+    "pdfPage": 176,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": null,
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "cholecalciferol",
+    "pdfPage": 270,
+    "halfLife": "50 days",
+    "renalHalfLife": null,
+    "proteinBinding": "50–80%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Probably dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "Probably dialysed. Dose as in GFR<10 mL/min.",
+      "highFlux": "Probably dialysed. Dose as in GFR<10 mL/min.",
+      "continuous": "Probably dialysed. Dose as in GFR=10–30 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "lanthanum-carbonate",
+    "pdfPage": 591,
+    "halfLife": "36 h",
+    "renalHalfLife": null,
+    "proteinBinding": ">99.7%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "paricalcitol",
+    "pdfPage": 791,
+    "halfLife": "15 (oral 5–7) h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": ">99%",
+    "volumeOfDistribution": "17–25 L (6 L in haemodialysis patients)",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "sodium-bicarbonate",
+    "pdfPage": 944,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": "0%",
+    "volumeOfDistribution": "Dependent on the physical state of the patient at the time. L/kg",
+    "removalReference": {
+      "pd": "Dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "bisacodyl",
+    "pdfPage": 147,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": "Negligible",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "domperidone",
+    "pdfPage": 352,
+    "halfLife": "7–9 h",
+    "renalHalfLife": "20.8 h",
+    "proteinBinding": ">90%",
+    "volumeOfDistribution": "5.7 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "granisetron",
+    "pdfPage": 506,
+    "halfLife": "4–5 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "≈65%",
+    "volumeOfDistribution": "3 L/kg",
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function. Company recommend timing HD for greater than 2 hours after granisetron dose.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function. Company recommends timing HD for greater than 2 hours after granisetron dose.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "hyoscine-butylbromide",
+    "pdfPage": 519,
+    "halfLife": "8 h",
+    "renalHalfLife": null,
+    "proteinBinding": "10%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "prochlorperazine",
+    "pdfPage": 852,
+    "halfLife": "6–9 h",
+    "renalHalfLife": null,
+    "proteinBinding": "96%",
+    "volumeOfDistribution": "23 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unlikely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "promethazine",
+    "pdfPage": 857,
+    "halfLife": "5–14 h",
+    "renalHalfLife": null,
+    "proteinBinding": "76–93%",
+    "volumeOfDistribution": "13.5 L/kg",
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "ursodeoxycholic-acid",
+    "pdfPage": 1059,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": "96–98%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "acetylcysteine",
+    "pdfPage": 32,
+    "halfLife": "2–6 h",
+    "renalHalfLife": null,
+    "proteinBinding": "50%",
+    "volumeOfDistribution": "0.33–0.47 L/kg",
+    "removalReference": {
+      "pd": "Likely to be dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Likely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "aminophylline",
+    "pdfPage": 72,
+    "halfLife": "4–12 h (theophylline)",
+    "renalHalfLife": "Unchanged (theophylline)",
+    "proteinBinding": "40–60 (theophylline)",
+    "volumeOfDistribution": "0.4–0.7 (theophylline) L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min. Monitor blood levels. See 'Other information'.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min. Monitor blood levels. See 'Other information'.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min. Monitor blood levels. See 'Other information'.",
+      "continuous": "Not dialysed. Dose as in GFR=10–20 mL/min. Monitor blood levels. See 'Other information'."
+    },
+    "additionalPdfPages": [
+      73,
+      1012
+    ],
+    "withheldFields": []
+  },
+  {
+    "id": "chlorphenamine",
+    "pdfPage": 222,
+    "halfLife": "12–43 h",
+    "renalHalfLife": null,
+    "proteinBinding": "About 70%",
+    "volumeOfDistribution": "3 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "ipratropium",
+    "pdfPage": 555,
+    "halfLife": "1.6 h",
+    "renalHalfLife": null,
+    "proteinBinding": "<20%",
+    "volumeOfDistribution": "4.6 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "salbutamol-albuterol",
+    "pdfPage": 923,
+    "halfLife": "4–6 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "10%",
+    "volumeOfDistribution": "2–2.5 L/kg",
+    "removalReference": {
+      "pd": "Unknown dialysability. Dose as in normal renal function.",
+      "hd": "Unknown dialysability. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unknown dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "theophylline",
+    "pdfPage": 1012,
+    "halfLife": "3–12 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": "35–60%",
+    "volumeOfDistribution": "0.3–0.7 L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Dialysed. Dose as in GFR<10 mL/ min.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "terbutaline",
+    "pdfPage": 1006,
+    "halfLife": "16–20 h",
+    "renalHalfLife": null,
+    "proteinBinding": "15–25%",
+    "volumeOfDistribution": "0.9–1.5 L/kg",
+    "removalReference": {
+      "pd": "Likely dialysability. Dose as in normal renal function.",
+      "hd": "Likely dialysability. Dose as in normal renal function.",
+      "highFlux": "Likely dialysability. Dose as in normal renal function.",
+      "continuous": "Likely dialysability. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "folic-acid",
+    "pdfPage": 471,
+    "halfLife": "2.5 h",
+    "renalHalfLife": null,
+    "proteinBinding": "70%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Dialysed. Dose as in normal renal function.",
+      "hd": "Dialysed. Dose as in normal renal function.",
+      "highFlux": "Dialysed. Dose as in normal renal function.",
+      "continuous": "Dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "clopidogrel",
+    "pdfPage": 253,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": "98%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unlikely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": [
+      "halfLife"
+    ]
+  },
+  {
+    "id": "aprepitant",
+    "pdfPage": 96,
+    "halfLife": "9–13 h",
+    "renalHalfLife": "Unchanged",
+    "proteinBinding": ">95%",
+    "volumeOfDistribution": "66 L",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "palonosetron",
+    "pdfPage": 779,
+    "halfLife": "40 h",
+    "renalHalfLife": null,
+    "proteinBinding": "62%",
+    "volumeOfDistribution": "6.9–7.9 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unlikely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "misoprostol",
+    "pdfPage": 685,
+    "halfLife": "20–40 minutes",
+    "renalHalfLife": "40–80 minutes (as misoprostol acid)",
+    "proteinBinding": "<90 (as misoprostol acid)",
+    "volumeOfDistribution": "858 L",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unknown dialysability. Dose as in normal renal function.",
+      "continuous": "Unlikely to be dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "formoterol",
+    "pdfPage": 474,
+    "halfLife": "8 h",
+    "renalHalfLife": null,
+    "proteinBinding": "61–64%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "highFlux": "Unlikely to be dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "nystatin",
+    "pdfPage": 746,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": null,
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in normal renal function.",
+      "hd": "Not dialysed. Dose as in normal renal function.",
+      "highFlux": "Not dialysed. Dose as in normal renal function.",
+      "continuous": "Not dialysed. Dose as in normal renal function."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "hydroxychloroquine",
+    "pdfPage": 517,
+    "halfLife": null,
+    "renalHalfLife": null,
+    "proteinBinding": "30–40%",
+    "volumeOfDistribution": "Large L/kg",
+    "removalReference": {
+      "pd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "hd": "Not dialysed. Dose as in GFR<10 mL/ min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in GFR=10–30 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": [
+      "halfLife"
+    ]
+  },
+  {
+    "id": "mesalazine",
+    "pdfPage": 656,
+    "halfLife": "0.6 h",
+    "renalHalfLife": null,
+    "proteinBinding": "40–50%",
+    "volumeOfDistribution": null,
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "highFlux": "Unknown dialysability. Dose as in GFR<10 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  },
+  {
+    "id": "sulfasalazine",
+    "pdfPage": 967,
+    "halfLife": "18 h",
+    "renalHalfLife": null,
+    "proteinBinding": "95–99%",
+    "volumeOfDistribution": "5.9–9.1 L/kg",
+    "removalReference": {
+      "pd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "hd": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "highFlux": "Unlikely to be dialysed. Dose as in GFR<10 mL/min.",
+      "continuous": "Unknown dialysability. Dose as in GFR=10–20 mL/min."
+    },
+    "additionalPdfPages": [],
+    "withheldFields": []
+  }
+]

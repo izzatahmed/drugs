@@ -6,15 +6,16 @@ const script=read('./dist/interface.js'),app=read('./dist/app.js'),shell=read('.
 const themeBoot=shell.match(/<script>(try\{document\.documentElement\.dataset\.theme=[\s\S]*?)<\/script>/)[1];
 function environment(saved={},deny=false){
  const storage=new Map(Object.entries(saved)),nodes=new Map(),handlers={},dialogs=[],root={dataset:{},style:{setProperty(k,v){this[k]=v;}}};
- const node=id=>{if(!nodes.has(id))nodes.set(id,{value:id.includes('filter')?'all':'',checked:false,textContent:'',disabled:false,attrs:{},setAttribute(k,v){this.attrs[k]=v;},addEventListener(k,f){this[k]=f;}});return nodes.get(id);};
+ const node=id=>{if(!nodes.has(id))nodes.set(id,{value:id.includes('filter')?'all':'',checked:false,textContent:'',disabled:false,focus(){this.focused=true;},attrs:{},setAttribute(k,v){this.attrs[k]=v;},addEventListener(k,f){this[k]=f;}});return nodes.get(id);};
  const document={documentElement:root,body:{classList:{toggle(){}}},querySelector:q=>q==='meta[name="theme-color"]'?node('meta'):node(q),querySelectorAll:()=>dialogs,addEventListener:(e,f)=>handlers[e]=f};
  const localStorage={getItem:k=>{if(deny)throw Error('blocked');return storage.get(k)??null;},setItem:(k,v)=>{if(deny)throw Error('blocked');storage.set(k,v);}};
  const window={innerWidth:390,scrollY:80,scrollTo({top}){this.scrollY=top;},addEventListener(){}};
  const context=vm.createContext({document,window,localStorage,JSON,console});
  vm.runInContext(`const $=q=>document.querySelector(q);function storageSet(k,v){try{localStorage.setItem(k,v);return true;}catch{return false;}}
  let db={},selected=null,mode='ckd',category='all',view='all',listLimit=60,renderKey=null,returnedToSearch=false;
- function renderResults(){const q=$('#search').value;selected=q==='a'?'abacavir':q==='am'?'amikacin':q.startsWith('aml')?'amlodipine':q==='captopril'?'captopril':selected;renderMonograph();}
+ function renderResults(){const q=$('#search').value;selected=!q?null:q==='a'?'abacavir':q==='am'?'amikacin':q.startsWith('aml')?'amlodipine':q==='captopril'?'captopril':selected;renderMonograph();}
  function renderMonograph(){}function openSelected(){window.scrollY=600;}function backToSearch(){returnedToSearch=true;}`,context);
+ vm.runInContext(app.match(/function resetFilters\(\)\{[^\n]+/)[0],context);
  vm.runInContext(themeBoot,context);vm.runInContext(script,context);
  return {storage,nodes,dialogs,root,context,node,run:s=>vm.runInContext(s,context)};
 }
@@ -39,3 +40,11 @@ for(const [saved,deny,expected] of [[{},false,'100%'],[{'renalrounds-large-text'
 assert.ok(shell.indexOf('<div class="reader-toolbar"')<shell.indexOf('<div class="search-box"'));assert.match(shell,/<div class="search-row">[\s\S]*?id="filters-toggle"[\s\S]*?id="clear-filters"[\s\S]*?<\/div><details id="filter-panel"/);
 assert.ok(!/<header class="topbar"|<section class="intro"|class="draft-notice"/.test(shell));assert.equal((shell.match(/class="dialog-back"/g)||[]).length,4);
 console.log('PASS: actual theme startup/toggle, persisted choice, storage-denied fallback, no OS theme path; medicine/setting/filter back history and dialog closure; calculator exclusion; text preference migration/clamping and search-first structure.');
+
+const home=environment({'renalrounds-theme':'dark','renalrounds-reader-level':'3','renalrounds-favourites':'["amlodipine"]'});
+home.run('renderResults()');home.node('#search').value='captopril';home.run("mode='ihd';category='Cardiovascular';view='new';renderResults()");home.node('#route-filter').value='Oral';home.run('renderResults()');home.node('#filter-panel').open=true;home.node('#results').scrollTop=400;
+let prevented=false;home.node('#home-link').click({preventDefault(){prevented=true;}});
+assert.ok(prevented);assert.equal(home.run('selected'),null);assert.equal(home.run('mode'),'ckd');assert.equal(home.run('category'),'all');assert.equal(home.run('view'),'all');assert.equal(home.node('#search').value,'');assert.equal(home.node('#route-filter').value,'all');assert.equal(home.node('#filter-panel').open,false);assert.equal(home.node('#filters-toggle').attrs['aria-expanded'],'false');assert.equal(home.node('#results').scrollTop,0);assert.equal(home.run('window.scrollY'),0);assert.equal(home.node('#search').focused,true);
+assert.equal(home.root.dataset.theme,'dark');assert.equal(home.storage.get('renalrounds-reader-level'),'3');assert.equal(home.storage.get('renalrounds-favourites'),'["amlodipine"]');home.run('goBack()');assert.equal(home.run('selected'),'captopril');assert.equal(home.run('mode'),'ihd');assert.equal(home.node('#search').value,'captopril');assert.equal(home.node('#route-filter').value,'Oral');
+assert.match(shell,/<a id="home-link"[^>]*href="\.\/"[^>]*aria-label="RenalRounds v0\.11\.2 — Home"/);
+console.log('PASS: Home click resets browsing state, scroll and focus, preserves reader preferences/favourites, and Back restores the previous medicine/filters/setting.');
