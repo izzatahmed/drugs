@@ -44,3 +44,26 @@ html[data-theme="dark"] :is(.context-notice strong,.dose-note strong){color:var(
 
 /* The title is also a keyboard-accessible Home link. */
 .program-title{pointer-events:auto;text-decoration:none;border-radius:4px;padding:2px 3px}.program-title:hover{color:var(--teal)}.program-title:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+/* v0.11.3 · phone back control, calculator layout, CrCl table, error-report link. */
+.mono-back{display:none}
+@media(max-width:760px){.nav-back{display:none!important}.mono-back{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 12px 4px 8px;margin:0 10px 0 0;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--teal);font:inherit;font-size:var(--caption,13px);font-weight:600;letter-spacing:0;text-transform:none;cursor:pointer;flex-shrink:0}.mono-back span{font-family:Arial,sans-serif;font-size:20px;line-height:1}.mono-overline{display:flex;align-items:center;flex-wrap:wrap;gap:6px}main{padding-bottom:24px!important}}
+#calculator{overflow:hidden}
+#calculator .calculator-body{overflow:auto;flex:1 1 auto;min-height:0}
+#renal-calculator-form [hidden]{display:none!important}
+.calc-measure{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:10px;padding:3px;margin:0 0 8px;background:var(--surface-raised,#f2f6f4)}
+.calc-measure legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.calc-measure label{display:flex;align-items:center;justify-content:center;gap:6px;min-height:42px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;text-align:center;padding:4px 8px}
+.calc-measure input{position:absolute;opacity:0;pointer-events:none}
+.calc-measure label:has(input:checked){background:var(--teal);color:#fff}
+html[data-theme="dark"] .calc-measure label:has(input:checked){color:#101b20}
+.calc-measure label:has(input:focus-visible){outline:2px solid var(--teal);outline-offset:2px}
+.calc-measure-hint{font-size:12px;color:var(--muted);margin:0 0 14px}
+.calc-crcl-table{width:100%;border-collapse:collapse;margin:8px 0;font-size:14px}
+.calc-crcl-table th,.calc-crcl-table td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left}
+.calc-crcl-table td{font-variant-numeric:tabular-nums;white-space:nowrap}
+.calc-crcl-table thead th{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.calc-crcl-table tbody th{font-weight:500}
+.calc-crcl-table strong{font-size:17px}
+.report-link{display:inline-flex;align-items:center;min-height:38px;padding:6px 10px;border:1px solid var(--line);border-radius:7px;color:var(--teal);text-decoration:none;font-size:var(--caption,11px);margin-left:4px}
+.report-link:hover{text-decoration:underline}
+@media print{.mono-back,.report-link{display:none!important}}

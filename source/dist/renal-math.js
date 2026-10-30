@@ -44,3 +44,48 @@ const RenalMath = Object.freeze({
     return {ok:true, equation:input.equation, indexed, absolute, bsa, scrMgDl:scr, warnings};
   }
 });
+
+// Cockcroft–Gault creatinine clearance (mL/min, not indexed). Separate from the eGFR equations above.
+const CrClMath = Object.freeze({
+  idealBodyWeight(heightCm, female) {
+    // Devine: 50 kg (male) / 45.5 kg (female) + 2.3 kg per inch over 5 ft (152.4 cm).
+    return (female ? 45.5 : 50) + 2.3 * (heightCm - 152.4) / 2.54;
+  },
+  compute(input) {
+    const fail = (field, message) => ({ok:false, field, message});
+    const number = value => value === null || value === undefined || String(value).trim() === '' ? NaN : Number(value);
+    if (input.context === 'dialysis') return fail('calc-context', 'No creatinine clearance is calculated during dialysis. Use the drug’s modality-specific IHD, PD, CRRT or PIRRT guidance and assess residual function separately.');
+    if (input.context === 'aki') return fail('calc-context', 'No result: Cockcroft–Gault assumes stable creatinine and is unreliable in AKI or changing creatinine.');
+    if (input.context === 'pregnancy') return fail('calc-context', 'No result: Cockcroft–Gault is not suitable for assessing kidney function in pregnancy. Use obstetric/renal guidance.');
+    if (input.context !== 'stable') return fail('calc-context', 'Choose the clinical setting. This calculator is for stable kidney function outside pregnancy and dialysis.');
+    const age = number(input.age);
+    if (!Number.isFinite(age) || age < 18 || age > 120) return fail('calc-age', 'Enter an adult age from 18 to 120 years. This calculator does not cover children.');
+    if (!['female', 'male'].includes(input.sex)) return fail('calc-sex', 'Choose the sex parameter used by the published equation.');
+    const scr = RenalMath.toMgDl(number(input.creatinine), input.unit);
+    if (!Number.isFinite(scr) || scr <= 0) return fail('calc-creatinine', 'Enter a positive, quantified serum creatinine and check its units. Do not enter a result reported only as less than or greater than an assay limit.');
+    const weight = number(input.weight);
+    if (!Number.isFinite(weight) || weight < 10 || weight > 500) return fail('calc-weight', 'Enter actual body weight in kg (10–500). Cockcroft–Gault requires weight.');
+    const female = input.sex === 'female';
+    const height = number(input.height);
+    const hasHeight = String(input.height ?? '').trim() !== '';
+    if (hasHeight && (!Number.isFinite(height) || height < 50 || height > 250)) return fail('calc-height', 'Enter height in cm (50–250), or leave it blank to show actual-weight CrCl only.');
+    const cg = kg => (140 - age) * kg / (72 * scr) * (female ? 0.85 : 1);
+    const actual = cg(weight);
+    let ibw = null, adjbw = null, ideal = null, adjusted = null;
+    const warnings = [];
+    if (hasHeight) {
+      ibw = this.idealBodyWeight(height, female);
+      if (height < 152.4) warnings.push('Height below 152 cm: the Devine ideal-body-weight formula was not designed for short stature; interpret ideal and adjusted results cautiously.');
+      if (ibw > 0) {
+        ideal = cg(ibw);
+        if (weight > ibw) { adjbw = ibw + 0.4 * (weight - ibw); adjusted = cg(adjbw); }
+        else warnings.push('Actual weight is at or below ideal body weight, so an adjusted-weight result is not shown.');
+        if (weight >= 1.3 * ibw) warnings.push('Actual weight is at least 130% of ideal: actual-weight CrCl may overestimate clearance. Use the weight your drug label or local protocol specifies.');
+      } else { ibw = null; }
+    }
+    if (![actual, ideal ?? 1, adjusted ?? 1].every(Number.isFinite) || actual <= 0) return fail('calc-creatinine', 'No finite estimate could be calculated. Recheck the values and units.');
+    if (scr < 0.2 || scr > 20) warnings.push('Unusual creatinine value: verify the units and laboratory report.');
+    if (scr < 0.7 && age >= 65) warnings.push('Low creatinine in an older adult may reflect low muscle mass and overstate clearance. This app does not round creatinine up; follow your local protocol.');
+    return {ok:true, actual, ideal, adjusted, ibw, adjbw, weight, scrMgDl:scr, warnings};
+  }
+});
