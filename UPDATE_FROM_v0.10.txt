@@ -1,16 +1,16 @@
-RenalRounds v0.11.1 — modified files since v0.10
+RenalRounds v0.11.2 — modified files since v0.10
 
 This is an update, not a complete project. Use with the exact v0.10 cumulative
-package or the v0.11 package derived from it. Extract all folders/files into the
+package or the v0.11/v0.11.1 packages derived from it. Extract all folders/files into the
 existing publishing root, preserve paths and replace matching files. Do not add
 another enclosing folder or upload the ZIP itself. No deletion is required.
 
 Included source/ paths keep the maintained code consistent. This patch contains
-the v0.11 compact UI/PK update AND v0.11.1 name/renal-dosing additions. You do not
+all v0.11/v0.11.1 updates AND the v0.11.2 Home/handbook expansion. You do not
 need to apply v0.11 first. The cumulative ZIP is the alternative for a fresh
 install or an uncertain base. Do not apply both packages.
 
-After GitHub Pages redeploys, confirm v0.11.1 at the top/footer. If an old offline
+After GitHub Pages redeploys, confirm v0.11.2 at the top/footer. If an old offline
 copy remains, use Database & offline status → Check for update → Load available
 update. Clinical review remains pending; read README.md and SOURCE_AUDIT.md.
 
