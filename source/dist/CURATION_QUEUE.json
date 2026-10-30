@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "generatedAt": "2026-10-29",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -463,11 +463,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -816,11 +816,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -2776,11 +2776,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -4351,11 +4351,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -5576,11 +5576,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -5707,11 +5707,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -6032,11 +6032,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -6483,24 +6483,24 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
-      "pkSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
+      "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
-        "halfLife": "not_curated",
-        "renalHalfLife": "not_curated",
-        "volumeOfDistribution": "not_curated",
-        "proteinBinding": "not_curated"
+        "halfLife": "sourced",
+        "renalHalfLife": "not_reported",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
       },
       "removal": {
-        "ihd": "not_curated",
+        "ihd": "limited",
         "pd": "not_curated",
         "crrt": "not_curated",
         "sled": "not_curated"
@@ -6741,11 +6741,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -7959,11 +7959,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -7991,14 +7991,14 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "avoid",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "avoid",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8376,11 +8376,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -9118,11 +9118,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -9828,11 +9828,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -11181,11 +11181,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -11247,11 +11247,11 @@
         "Oral",
         "Rectal"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -11602,12 +11602,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "avoid",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -11764,11 +11764,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -12183,11 +12183,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -12247,11 +12247,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -13441,14 +13441,14 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "avoid",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "avoid",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13569,11 +13569,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -13956,11 +13956,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -14827,11 +14827,11 @@
         "Oral",
         "Transdermal"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "insufficient_data",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -15117,12 +15117,12 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -15503,12 +15503,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -15794,12 +15794,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
@@ -16569,11 +16569,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -16793,11 +16793,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -17468,11 +17468,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -18173,11 +18173,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -18237,11 +18237,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -18655,11 +18655,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -18848,14 +18848,14 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "specialist",
+        "ihd": "specialist",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "specialist",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19139,24 +19139,24 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
-      "pkSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
+      "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
-        "halfLife": "not_curated",
-        "renalHalfLife": "not_curated",
-        "volumeOfDistribution": "not_curated",
-        "proteinBinding": "not_curated"
+        "halfLife": "sourced",
+        "renalHalfLife": "not_reported",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
       },
       "removal": {
-        "ihd": "not_curated",
+        "ihd": "limited",
         "pd": "not_curated",
         "crrt": "not_curated",
         "sled": "not_curated"
@@ -19783,11 +19783,11 @@
       "routes": [
         "Inhaled"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -20008,11 +20008,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -20105,24 +20105,24 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
-      "pkSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
+      "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
-        "halfLife": "not_curated",
-        "renalHalfLife": "not_curated",
-        "volumeOfDistribution": "not_curated",
-        "proteinBinding": "not_curated"
+        "halfLife": "sourced",
+        "renalHalfLife": "not_reported",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
       },
       "removal": {
-        "ihd": "not_curated",
+        "ihd": "not_removed",
         "pd": "not_curated",
         "crrt": "not_curated",
         "sled": "not_curated"
@@ -20428,11 +20428,11 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -21007,12 +21007,12 @@
       "routes": [
         "Oral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "avoid",
         "crrt": "not_curated",
         "pd": "not_curated",
         "sled": "not_curated"

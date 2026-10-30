@@ -1,3 +1,62 @@
+# RenalRounds v0.10.0 · 30 October 2026
+
+Search is the first visible control. Large titles, introductory paragraphs and coverage blocks have been removed from above it. A compact text-size / manual day-night / eGFR toolbar follows search. Filters start collapsed. Renal dosing leads each drug entry; PK and secondary copy/print/coverage tools follow it. Sources, coverage and offline-update details are below the findings. A small fixed ↶ button returns through in-app medicine/setting/search history; each dialog also has a back arrow that closes the panel. It never leaves the app. Calculator inputs are excluded from navigation history and still clear on close.
+
+Day/night preference is saved independently of the system theme, with light as the first-use default. Text-size controls retain 100%, 115%, 130% and 150%. Enlarged tables stack on narrow phones. Favourites, theme and text size use browser-local preferences when storage is available; patient calculator inputs are not persisted.
+
+This release adds 40 selected adult renal profiles and 3 product-information PK panels. The inventory remains 668 entries: 258 partial renal profiles, 28 shared safety notes and 382 catalog entries without renal guidance. There are 69 PK profiles; 55 contain all four core items, including qualitative IHD product statements where expressly qualified. These are not all measured modern circuit-clearance studies.
+
+New additions include cardiovascular/diuretic/lipid drugs, 11 BPH/bladder agents, 6 allergy/respiratory agents and 8 GI/constipation agents. Some entries provide caution or insufficient-data guidance without numeric doses. Selected product labels/SmPCs were checked on 30 October; existing sources retain their original dates. BNF monograph reconciliation and independent clinical approval remain pending. All older drug regimens and PK panels are retained unchanged.
+
+Key distinctions: perindopril erbumine versus arginine strengths and unassigned exact cutoffs; fenofibrate product-specific starting doses and dialysis contraindication; mirabegron indexed MDRD measure; indexed CLcr wording for solifenacin/tamsulosin; IR versus ER trospium/tolterodine/oxybutynin; tiotropium capsules for inhalation only; aluminium toxicity risk with sucralfate. No CKD table is copied into missing RRT modalities.
+
+This remains incomplete: REMAINING_MEDICATIONS.json lists 410 entries without drug-specific renal profiles (382 catalog entries plus 28 shared safety notes). Existing renal profiles also retain indication, formulation and RRT gaps. No entry has independent clinical approval.
+
+## v0.10 selected source IDs
+
+- v10-alfuzosin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f2f42c98-4118-5f70-e053-2a95a90add02
+- v10-amiloride: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b70cf0c-45be-428f-b396-5001ed4e30fc
+- v10-bumetanide: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=551918e1-96c4-453a-870c-61b282882206
+- v10-chlorthalidone: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d07eea8b-361b-486a-a572-3bf4a257f431
+- v10-desloratadine: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fe374d0-c14b-4102-b568-eb79165fc7ef
+- v10-dexlansoprazole: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc3de800-bfad-4e2f-b664-d58a67550b2f
+- v10-diltiazem: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=73b3607a-99d0-44d8-92ef-0074684c9d7d
+- v10-doxazosin: https://www.medicines.org.uk/emc/product/3421/smpc
+- v10-dutasteride: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=468df1b8-1f82-4328-a549-0a716ad1266d
+- v10-felodipine: https://www.medicines.org.uk/emc/product/11604/smpc
+- v10-fenofibrate: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9cc2038d-750e-42dc-b818-c5642cf6a5ad
+- v10-finasteride: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77589cc3-c440-4695-800c-82a0e5128a6c
+- v10-gemfibrozil: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8bb442e-66dc-435e-830c-4ba3daa47c04
+- v10-hydroxyzine: https://www.medicines.org.uk/emc/product/101010/smpc
+- v10-labetalol: https://www.medicines.org.uk/emc/product/2647/smpc
+- v10-lactulose: https://www.medicines.org.uk/emc/product/2796/smpc
+- v10-levocetirizine: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60ae7e0e-281c-40a3-a0d3-259b843ddaaa
+- v10-linaclotide: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09beda19-56d6-4a56-afdc-9a77b70b2ef3
+- v10-lubiprostone: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fd683a5-87ff-42b8-a8c8-fff81625f67f
+- v10-macrogol-polyethylene-glycol: https://www.medicines.org.uk/emc/product/257/smpc
+- v10-mirabegron: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b71b939e-8cb1-492c-8311-28f75dc4c682
+- v10-montelukast: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97cc4e1e-e0fd-4bb5-8f9e-b8573f5230e5
+- v10-nifedipine: https://www.medicines.org.uk/emc/product/3367/smpc
+- v10-oxybutynin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7db4ab81-b379-4a6d-b469-95eb9e184b56
+- v10-pantoprazole: https://www.medicines.org.uk/emc/product/14643/smpc
+- v10-perindopril: https://www.medicines.org.uk/emc/product/14520/smpc
+- v10-pitavastatin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f11ee80-871e-4f13-e063-6394a90af19d
+- v10-propranolol: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1791ef4d-b609-41c8-b4ef-15bff752ddd7
+- v10-rabeprazole: https://www.medicines.org.uk/emc/product/14539/smpc
+- v10-roflumilast: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30dd6eae-6435-cae1-e063-6294a90a003b
+- v10-silodosin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aac3314b-af8c-400e-ba91-0cf2b95e70dd
+- v10-simvastatin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f94e5e28-f0b1-700a-e053-6394a90adb7b
+- v10-solifenacin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0b8f111-1d76-4b04-9e2f-9fca9e5a0b00
+- v10-sucralfate: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd25eb96-29ea-48b2-bdee-c2ea98f216b8
+- v10-tamsulosin: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a242c8dc-576e-4a1f-a9e7-a05d7ebc0e0a
+- v10-tiotropium: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=496b38ee-45b6-4bb2-a35e-9023c3b73719
+- v10-tolterodine: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd6c8b3d-a52a-4418-aa9c-0297db6c0807
+- v10-torsemide: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6055317-8826-df85-e053-2a95a90a5378
+- v10-trospium: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=801f2143-6816-4f34-b65d-16bb2cf07975
+- v10-vibegron: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25f21d25-14f8-4fda-91f6-7aa8b68aa1c8
+
+## Prior source audit
+
 # RenalRounds v0.9.0 · 29 October 2026
 
 This cumulative release adds 85 selected adult renal profiles and 13 historical PK profiles. The 668-entry inventory now contains 218 partial renal profiles, 28 shared safety notes and 422 renal-dose-pending catalog entries. There are 66 PK profiles, 52 with all four core items. No independent clinical approval is recorded.
