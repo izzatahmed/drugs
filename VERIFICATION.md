@@ -1,7 +1,7 @@
-# v0.9.0 software and source-integrity verification
+# v0.10 verification
 
-The package provides checks.mjs, checks_v09.mjs and checks_calculator.mjs. They check schema/source integrity, exact retention of unrelated v0.8 records and prior PK/regimens, source-specific high-consequence formulation/units/timing distinctions, embedded data/documents, indexed remaining-work exports, search/filter behaviour and calculator arithmetic against published NKF examples and independent MDRD calculations.
+Run checks.mjs, checks_v10.mjs, checks_interface.mjs and checks_calculator.mjs after the full ordered build. They verify schema/source provenance, unchanged v0.9 records and prior PK/regimens, selected high-consequence thresholds/formulations/units, remaining-work exports, actual search functions, in-app navigation history, manual theme persistence/fallback, text control logic, calculator arithmetic and privacy, embedded documents/data, and actual service-worker offline/update/cache-isolation contracts.
 
-Browser QA measures actual clinical font sizes at each text setting, tests increase/decrease/reset and reload persistence, checks 320/390-px layouts at 150%, and exercises drug navigation and the retained calculator. A clean extracted package is rebuilt and compared byte-for-byte with source/dist; root SHA256 sums and ZIP CRC are checked. These checks establish software behaviour and provenance consistency, not clinical validity. Physical-phone installation and hosted HTTPS offline update checks remain pending after upload.
+Browser checks cover search-first order, collapsed filters, day/night toggling and reload persistence, back navigation through drugs/settings and dialog closure, enlarged clinical fonts, narrow phone overflow and the retained calculator. Fresh extraction/build and byte comparison verify package reproducibility; ZIP CRC and root SHA256 sums are checked.
 
-Independent clinical approval, BNF comparison, full renal/RRT coverage, source reconciliation and local product authorisation remain pending. See COMPLETION_PLAN.md and REMAINING_MEDICATIONS.json.
+Software and arithmetic checks do not establish clinical validity. BNF reconciliation, complete clinical coverage and independent approval remain pending. A physical phone and hosted HTTPS offline installation/update require verification after GitHub upload.

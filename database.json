@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -14,13 +14,13 @@
     "updatedEntries": 47
   },
   "coverage": {
-    "renal": 218,
+    "renal": 258,
     "safety": 28,
-    "catalog": 422
+    "catalog": 382
   },
   "pharmacokineticCoverage": {
-    "profiles": 66,
-    "allFourCoreFields": 52
+    "profiles": 69,
+    "allFourCoreFields": 55
   },
   "sharedGuidance": {
     "acetaminophen": {
@@ -3549,6 +3549,326 @@
       "section": "2.5; alternative product initial dose, not merged into selected table",
       "type": "Product prescribing information",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "v10-nifedipine",
+      "title": "Nifedipine · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/3367/smpc",
+      "section": "4.2 renal impairment; Adanif XL",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-felodipine",
+      "title": "Felodipine · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/11604/smpc",
+      "section": "4.2 renal impairment; Pinefeld XL",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-diltiazem",
+      "title": "Diltiazem · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=73b3607a-99d0-44d8-92ef-0074684c9d7d",
+      "section": "8.6; selected ER tablets",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-doxazosin",
+      "title": "Doxazosin · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/3421/smpc",
+      "section": "4.2, 4.3, 4.9, 5.2; Doxadura XL",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-labetalol",
+      "title": "Labetalol · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/2647/smpc",
+      "section": "4.4 kidney insufficiency; selected oral tablets",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-propranolol",
+      "title": "Propranolol · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1791ef4d-b609-41c8-b4ef-15bff752ddd7",
+      "section": "Precautions; impaired renal function",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-perindopril",
+      "title": "Perindopril · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/14520/smpc",
+      "section": "4.2 renal table; perindopril erbumine product",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-fenofibrate",
+      "title": "Fenofibrate · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9cc2038d-750e-42dc-b818-c5642cf6a5ad",
+      "section": "2.3, 4, 8.6; 48/145-mg tablets",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-pitavastatin",
+      "title": "Pitavastatin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f11ee80-871e-4f13-e063-6394a90af19d",
+      "section": "2.3, 8.6; renal starting dose and maximum",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-simvastatin",
+      "title": "Simvastatin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f94e5e28-f0b1-700a-e053-6394a90adb7b",
+      "section": "2.4; renal starting dose",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-gemfibrozil",
+      "title": "Gemfibrozil · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8bb442e-66dc-435e-830c-4ba3daa47c04",
+      "section": "Contraindications; Precautions, Kidney Function",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-torsemide",
+      "title": "Torsemide · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6055317-8826-df85-e053-2a95a90a5378",
+      "section": "2.1, 4, 5, 10, 12.3; selected oral renal-oedema regimen",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-bumetanide",
+      "title": "Bumetanide · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=551918e1-96c4-453a-870c-61b282882206",
+      "section": "Contraindications; progressive renal disease",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-amiloride",
+      "title": "Amiloride · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b70cf0c-45be-428f-b396-5001ed4e30fc",
+      "section": "Contraindications, impaired renal function",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-chlorthalidone",
+      "title": "Chlorthalidone · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d07eea8b-361b-486a-a572-3bf4a257f431",
+      "section": "Contraindications and warnings, renal disease",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-silodosin",
+      "title": "Silodosin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aac3314b-af8c-400e-ba91-0cf2b95e70dd",
+      "section": "2.1–2.2; renal reduction and contraindication",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-mirabegron",
+      "title": "Mirabegron · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b71b939e-8cb1-492c-8311-28f75dc4c682",
+      "section": "Adult renal table; indexed MDRD eGFR",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-solifenacin",
+      "title": "Solifenacin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0b8f111-1d76-4b04-9e2f-9fca9e5a0b00",
+      "section": "2.2, 8.6; source prints indexed CLcr",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-trospium",
+      "title": "Trospium · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=801f2143-6816-4f34-b65d-16bb2cf07975",
+      "section": "2; IR tablet renal regimen",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-tamsulosin",
+      "title": "Tamsulosin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a242c8dc-576e-4a1f-a9e7-a05d7ebc0e0a",
+      "section": "8.6, 10, 12.3; renal statement and capsule kinetics",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-tolterodine",
+      "title": "Tolterodine · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd6c8b3d-a52a-4418-aa9c-0297db6c0807",
+      "section": "2.2; selected ER capsules",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-vibegron",
+      "title": "Vibegron · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25f21d25-14f8-4fda-91f6-7aa8b68aa1c8",
+      "section": "8.6; eGFR 15 to <90 and ESRD restriction",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-alfuzosin",
+      "title": "Alfuzosin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f2f42c98-4118-5f70-e053-2a95a90add02",
+      "section": "8.6; limited severe-renal safety data",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-finasteride",
+      "title": "Finasteride · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77589cc3-c440-4695-800c-82a0e5128a6c",
+      "section": "8.7 renal impairment; BPH product",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-dutasteride",
+      "title": "Dutasteride · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=468df1b8-1f82-4328-a549-0a716ad1266d",
+      "section": "8.6 renal impairment",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-oxybutynin",
+      "title": "Oxybutynin · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7db4ab81-b379-4a6d-b469-95eb9e184b56",
+      "section": "8.6; ER renal studies absent",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-levocetirizine",
+      "title": "Levocetirizine · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60ae7e0e-281c-40a3-a0d3-259b843ddaaa",
+      "section": "Dose adjustment for renal impairment; selected oral tablets",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-desloratadine",
+      "title": "Desloratadine · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fe374d0-c14b-4102-b568-eb79165fc7ef",
+      "section": "2.5; adult renal initial regimen",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-tiotropium",
+      "title": "Tiotropium · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=496b38ee-45b6-4bb2-a35e-9023c3b73719",
+      "section": "2, 5.6, 8.6; LupinHaler inhalation powder",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-hydroxyzine",
+      "title": "Hydroxyzine · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/101010/smpc",
+      "section": "4.2 renal reduction and 4.4 precautions",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-montelukast",
+      "title": "Montelukast · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97cc4e1e-e0fd-4bb5-8f9e-b8573f5230e5",
+      "section": "8.7; renal adjustment and unknown dialysis removal",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-roflumilast",
+      "title": "Roflumilast · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30dd6eae-6435-cae1-e063-6294a90a003b",
+      "section": "8.7 and 10.2; oral renal statement",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-pantoprazole",
+      "title": "Pantoprazole · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/14643/smpc",
+      "section": "4.2 and 5.2; 20-mg gastro-resistant product",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-rabeprazole",
+      "title": "Rabeprazole · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/14539/smpc",
+      "section": "4.2; renal adjustment statement",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-dexlansoprazole",
+      "title": "Dexlansoprazole · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc3de800-bfad-4e2f-b664-d58a67550b2f",
+      "section": "12.3 renal PK expectation; 5.2 TIN",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-lactulose",
+      "title": "Lactulose · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/2796/smpc",
+      "section": "4.2; renal/hepatic populations",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-macrogol-polyethylene-glycol",
+      "title": "Macrogol / polyethylene glycol · selected product renal information",
+      "url": "https://www.medicines.org.uk/emc/product/257/smpc",
+      "section": "4.2 renal insufficiency; selected Movicol Plain",
+      "type": "UK SmPC",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-linaclotide",
+      "title": "Linaclotide · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09beda19-56d6-4a56-afdc-9a77b70b2ef3",
+      "section": "12.3; renal clearance expectation",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-lubiprostone",
+      "title": "Lubiprostone · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fd683a5-87ff-42b8-a8c8-fff81625f67f",
+      "section": "12.3; single-dose renal/HD PK study",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "v10-sucralfate",
+      "title": "Sucralfate · selected product renal information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd25eb96-29ea-48b2-bdee-c2ea98f216b8",
+      "section": "Special populations; chronic renal failure/dialysis",
+      "type": "Product prescribing information",
+      "accessed": "2026-10-30"
     }
   ],
   "drugs": [
@@ -5531,23 +5851,25 @@
         "Uroxatral"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Alpha-1 blocker · ER",
+      "formulation": "Oral extended-release tablets only",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; severe <30 in source",
+      "summary": "Use cautiously in severe renal impairment; exposure increases.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "CrCl <30 has limited safety data. No fixed renal reduction is specified in this selected ER product. Review postural BP, interactions, hepatic restrictions and the full BPH regimen.",
+          "sourceIds": [
+            "v10-alfuzosin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -5574,18 +5896,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "CrCl <30 has limited safety data. No fixed renal reduction is specified in this selected ER product. Review postural BP, interactions, hepatic restrictions and the full BPH regimen.",
+      "sourceIds": [
+        "v10-alfuzosin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Alfuzosin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -5650,7 +5974,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "alirocumab",
@@ -7013,23 +7338,35 @@
         "Midamor"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Potassium-sparing diuretic",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected label lists renal contraindications and a major hyperkalaemia risk.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Anuria, acute/chronic renal insufficiency, or diabetic nephropathy",
+                  "dose": "Contraindicated in this selected label"
+                }
+              ]
+            }
+          ],
+          "notes": "The label separately flags BUN >30 mg/dL or creatinine >1.5 mg/dL for careful, frequent electrolyte/renal monitoring. These are not eGFR dosing bands or permission to override a contraindication.",
+          "sourceIds": [
+            "v10-amiloride"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -7056,18 +7393,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The label separately flags BUN >30 mg/dL or creatinine >1.5 mg/dL for careful, frequent electrolyte/renal monitoring. These are not eGFR dosing bands or permission to override a contraindication.",
+      "sourceIds": [
+        "v10-amiloride"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Amiloride",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -7132,7 +7471,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "aminocaproic-acid",
@@ -15679,24 +16019,39 @@
         "Burinex"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Loop diuretic",
+      "formulation": "Oral tablets only",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Selected oral label requires response-based use and renal surveillance.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Anuria",
+                  "dose": "Contraindicated"
+                },
+                {
+                  "context": "Progressive renal disease during treatment",
+                  "dose": "Marked BUN/creatinine rise or development of oliguria indicates discontinuation in this label"
+                }
+              ]
+            }
+          ],
+          "notes": "No numeric renal-band regimen is assigned. Select indication, route-specific dose and monitoring separately; IV dosing is not covered.",
+          "sourceIds": [
+            "v10-bumetanide"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -15723,18 +16078,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "No numeric renal-band regimen is assigned. Select indication, route-specific dose and monitoring separately; IV dosing is not covered.",
+      "sourceIds": [
+        "v10-bumetanide"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bumetanide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -15799,7 +16156,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "buprenorphine",
@@ -23307,23 +23665,35 @@
         "Chlortalidone"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Thiazide-like diuretic",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Use cautiously in severe renal disease; accumulation and azotaemia may occur.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Anuria",
+                  "dose": "Contraindicated"
+                }
+              ]
+            }
+          ],
+          "notes": "No automatic eGFR-based ineffectiveness cutoff or fixed severe-CKD dose is inferred from this label. Select the clinical indication and monitor electrolytes, volume and kidney function.",
+          "sourceIds": [
+            "v10-chlorthalidone"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -23350,18 +23720,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "No automatic eGFR-based ineffectiveness cutoff or fixed severe-CKD dose is inferred from this label. Select the clinical indication and monitor electrolytes, volume and kidney function.",
+      "sourceIds": [
+        "v10-chlorthalidone"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Chlorthalidone",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -23437,7 +23809,7 @@
         },
         "notes": "The checked label states renal dysfunction does not alter PK, but this is not a drug-eligibility or CKD dosing statement. No removal inference is made from erythrocyte binding."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "cholecalciferol",
@@ -28815,23 +29187,35 @@
         "Clarinex"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Second-generation antihistamine",
+      "formulation": "Oral tablets · adults",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected adult label recommends a less frequent starting dose.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Adult renal impairment · initial",
+                  "dose": "5 mg PO every other day"
+                }
+              ]
+            }
+          ],
+          "notes": "Starting regimen only. Choose formulation and indication separately; paediatric renal recommendations cannot be made from this source.",
+          "sourceIds": [
+            "v10-desloratadine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -28858,18 +29242,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Starting regimen only. Choose formulation and indication separately; paediatric renal recommendations cannot be made from this source.",
+      "sourceIds": [
+        "v10-desloratadine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Desloratadine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -28934,7 +29320,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "desmopressin",
@@ -29361,23 +29748,25 @@
         "Dexilant"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Proton pump inhibitor",
+      "formulation": "Oral delayed-release capsules",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Renal PK is not expected to change, but renal-impairment studies were not conducted for this product.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "This selected generic label reports a PK expectation, not a numeric renal-band prescription. Select the delayed-release regimen separately and assess suspected PPI-associated tubulointerstitial nephritis. No dialysis course is inferred.",
+          "sourceIds": [
+            "v10-dexlansoprazole"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -29404,18 +29793,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "This selected generic label reports a PK expectation, not a numeric renal-band prescription. Select the delayed-release regimen separately and assess suspected PPI-associated tubulointerstitial nephritis. No dialysis course is inferred.",
+      "sourceIds": [
+        "v10-dexlansoprazole"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dexlansoprazole",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -29480,7 +29871,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "dexmedetomidine",
@@ -30685,24 +31077,35 @@
         "Tildiem"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Non-dihydropyridine calcium-channel blocker · ER",
+      "formulation": "Oral extended-release tablets only",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected ER-tablet label requires no renal adjustment.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the indication and exact release product. This does not cover IV rate-control dosing. Assess conduction, heart failure and interactions.",
+          "sourceIds": [
+            "v10-diltiazem"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -30729,18 +31132,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the indication and exact release product. This does not cover IV rate-control dosing. Assess conduction, heart failure and interactions.",
+      "sourceIds": [
+        "v10-diltiazem"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Diltiazem",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -30819,7 +31224,7 @@
         },
         "notes": "This product-specific PK summary does not supply a dialysis dose or a measured dialytic removal value."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "diphenhydramine",
@@ -32508,23 +32913,35 @@
         "Cardura"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Alpha-1 blocker · XL",
+      "formulation": "Oral prolonged release · Doxadura XL",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Usual doses can generally be used in renal impairment in this XL SmPC.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No routine renal reduction to the selected XL regimen"
+                }
+              ]
+            }
+          ],
+          "notes": "Monitor postural BP. XL and immediate-release regimens differ. The source contraindicates monotherapy in overflow bladder or anuria, with or without progressive renal insufficiency.",
+          "sourceIds": [
+            "v10-doxazosin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -32551,18 +32968,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Monitor postural BP. XL and immediate-release regimens differ. The source contraindicates monotherapy in overflow bladder or anuria, with or without progressive renal insufficiency.",
+      "sourceIds": [
+        "v10-doxazosin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Doxazosin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -32574,60 +32993,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": false,
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "22 h",
+          "context": "XL product reference; renal PK comparison in the SmPC used immediate-release tablets.",
+          "sourceIds": [
+            "v10-doxazosin"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "No numeric renal half-life curated from the selected label.",
+          "sourceIds": [
+            "v10-doxazosin"
+          ]
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "1 L/kg",
+          "context": "XL product reference; renal PK comparison in the SmPC used immediate-release tablets.",
+          "sourceIds": [
+            "v10-doxazosin"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "About 98%",
+          "context": "Selected product plasma binding reference; unbound fraction can vary with clinical state.",
+          "sourceIds": [
+            "v10-doxazosin"
+          ]
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "limited",
+            "value": "Dialysis not recommended for overdose in the selected SmPC",
+            "context": "Product-information statement; no modern circuit clearance percentage or post-HD supplement is implied.",
+            "sourceIds": [
+              "v10-doxazosin"
+            ]
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "XL product reference; renal PK comparison in the SmPC used immediate-release tablets. Source access is not independent clinical approval."
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "doxercalciferol",
@@ -33614,23 +34045,35 @@
         "Avodart"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "5-alpha-reductase inhibitor",
+      "formulation": "Oral capsules",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal adjustment is necessary in the selected capsule label.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the full BPH regimen and review product warnings separately. Do not transfer to an unreviewed fixed combination.",
+          "sourceIds": [
+            "v10-dutasteride"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -33657,18 +34100,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the full BPH regimen and review product warnings separately. Do not transfer to an unreviewed fixed combination.",
+      "sourceIds": [
+        "v10-dutasteride"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dutasteride",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -33733,7 +34178,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "eculizumab",
@@ -39001,23 +39447,35 @@
         "Plendil"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Dihydropyridine calcium-channel blocker · XL",
+      "formulation": "Oral prolonged release · Pinefeld XL",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal reduction is specified, with caution in severe impairment.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified; use caution in severe impairment"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the full XL regimen separately. Different prolonged-release preparations are not assumed interchangeable.",
+          "sourceIds": [
+            "v10-felodipine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -39044,18 +39502,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the full XL regimen separately. Different prolonged-release preparations are not assumed interchangeable.",
+      "sourceIds": [
+        "v10-felodipine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Felodipine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -39120,7 +39580,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "fenofibrate",
@@ -39130,29 +39591,47 @@
         "Lipanthyl"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Fibrate · selected tablet formulation",
+      "formulation": "Oral · 48/145-mg fenofibrate tablets",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "eGFR · mL/min/1.73 m²",
+      "summary": "The selected 48/145-mg product requires a lower renal start and is contraindicated below eGFR 30.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "eGFR 30 to <60",
+                  "dose": "Start 48 mg PO daily; increase only after renal function and triglyceride response review"
+                },
+                {
+                  "context": "eGFR <30, ESRD or dialysis",
+                  "dose": "Contraindicated in this selected product"
+                }
+              ]
+            }
+          ],
+          "notes": "Product formulations/strengths differ. This is an initial dose, not a universal maintenance prescription; monitor renal function and muscle toxicity.",
+          "sourceIds": [
+            "v10-fenofibrate"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Contraindicated in patients receiving dialysis in this selected label.",
+          "sourceIds": [
+            "v10-fenofibrate"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -39161,10 +39640,12 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Contraindicated in patients receiving dialysis in this selected label.",
+          "sourceIds": [
+            "v10-fenofibrate"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -39173,18 +39654,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Product formulations/strengths differ. This is an initial dose, not a universal maintenance prescription; monitor renal function and muscle toxicity.",
+      "sourceIds": [
+        "v10-fenofibrate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fenofibrate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -39249,7 +39732,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "fentanyl",
@@ -40730,23 +41214,35 @@
         "Propecia"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "5-alpha-reductase inhibitor",
+      "formulation": "Oral · selected BPH product",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal adjustment is required in the selected BPH label.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the full indication-specific regimen and product; a renal statement does not validate a different strength, fixed combination or dialysis prescription.",
+          "sourceIds": [
+            "v10-finasteride"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -40773,18 +41269,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the full indication-specific regimen and product; a renal statement does not validate a different strength, fixed combination or dialysis prescription.",
+      "sourceIds": [
+        "v10-finasteride"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Finasteride",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -40849,7 +41347,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "finerenone",
@@ -44190,23 +44689,35 @@
         "Lopid"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Fibrate",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Severe renal dysfunction is contraindicated; renal deterioration has been reported at higher baseline creatinine.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Severe renal dysfunction",
+                  "dose": "Contraindicated; this label does not define a numeric severe-renal cutoff"
+                }
+              ]
+            }
+          ],
+          "notes": "Baseline creatinine >2 mg/dL is a separate renal-deterioration warning, not an interchangeable eGFR threshold. Review alternative treatment and interacting drugs; no numeric renal prescription is assigned.",
+          "sourceIds": [
+            "v10-gemfibrozil"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -44233,18 +44744,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Baseline creatinine >2 mg/dL is a separate renal-deterioration warning, not an interchangeable eGFR threshold. Review alternative treatment and interacting drugs; no numeric renal prescription is assigned.",
+      "sourceIds": [
+        "v10-gemfibrozil"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gemfibrozil",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -44309,7 +44822,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "gentamicin",
@@ -47122,23 +47636,35 @@
         "Vistaril"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Sedating antihistamine",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Moderate/severe impairment requires a reduction in TOTAL daily dosing.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Moderate/severe renal impairment",
+                  "dose": "Reduce the selected TOTAL daily dose by 50%"
+                }
+              ]
+            }
+          ],
+          "notes": "The selected SmPC does not give numeric renal-category cutoffs here. Select indication and reference dose separately; use the lowest effective dose for the shortest duration and review QT, sedation and anticholinergic risks.",
+          "sourceIds": [
+            "v10-hydroxyzine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -47165,18 +47691,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The selected SmPC does not give numeric renal-category cutoffs here. Select indication and reference dose separately; use the lowest effective dose for the shortest duration and review QT, sedation and anticholinergic risks.",
+      "sourceIds": [
+        "v10-hydroxyzine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Hydroxyzine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -47241,7 +47769,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "hyoscine-butylbromide",
@@ -52737,24 +53266,25 @@
         "Trandate"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Alpha / beta blocker",
+      "formulation": "Oral tablets only",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Kidney insufficiency may require a lower dose in the selected oral SmPC.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Individualise to BP, pulse and tolerance. No numeric CrCl schedule is given. Oral advice does not choose an IV emergency regimen.",
+          "sourceIds": [
+            "v10-labetalol"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -52781,18 +53311,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Individualise to BP, pulse and tolerance. No numeric CrCl schedule is given. Oral advice does not choose an IV emergency regimen.",
+      "sourceIds": [
+        "v10-labetalol"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Labetalol",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -52857,7 +53389,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "lacosamide",
@@ -52995,24 +53528,35 @@
         "Duphalac"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral / Rectal · verify exact local product",
+      "drugClass": "Osmotic laxative",
+      "formulation": "Oral solution sachets · 10 g/15 mL selected product",
       "routes": [
-        "Oral",
-        "Rectal"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No special renal dosage recommendation exists in this selected SmPC.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal insufficiency",
+                  "dose": "No special renal dose recommendation specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select constipation versus hepatic-encephalopathy dosing separately. Titrate to clinical effect and monitor fluid/electrolyte disturbance with excessive diarrhoea.",
+          "sourceIds": [
+            "v10-lactulose"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -53039,18 +53583,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select constipation versus hepatic-encephalopathy dosing separately. Titrate to clinical effect and monitor fluid/electrolyte disturbance with excessive diarrhoea.",
+      "sourceIds": [
+        "v10-lactulose"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lactulose",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -53115,7 +53661,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "lamivudine",
@@ -54528,29 +55075,55 @@
         "Xyzal"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Second-generation antihistamine",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Adult renal function changes dose frequency; ESRD/HD use is prohibited.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CrCl 50–80",
+                  "dose": "2.5 mg PO daily"
+                },
+                {
+                  "context": "CrCl 30–50",
+                  "dose": "2.5 mg PO every other day"
+                },
+                {
+                  "context": "CrCl 10–30",
+                  "dose": "2.5 mg PO twice weekly, once every 3–4 days"
+                },
+                {
+                  "context": "CrCl <10 or HD",
+                  "dose": "Do not use"
+                }
+              ]
+            }
+          ],
+          "notes": "The source bands overlap at exact 50 and 30; reconcile the local product at boundaries. Adult tablet guidance only; it does not validate paediatric or all OTC products.",
+          "sourceIds": [
+            "v10-levocetirizine"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Patients undergoing HD should not receive the selected levocetirizine product.",
+          "sourceIds": [
+            "v10-levocetirizine"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -54571,18 +55144,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The source bands overlap at exact 50 and 30; reconcile the local product at boundaries. Adult tablet guidance only; it does not validate paediatric or all OTC products.",
+      "sourceIds": [
+        "v10-levocetirizine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Levocetirizine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -54647,7 +55222,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "levodopa-carbidopa",
@@ -55271,23 +55847,35 @@
         "Constella"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Guanylate cyclase-C agonist",
+      "formulation": "Oral capsules",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Renal impairment is not expected to affect clearance of the oral peptide or active metabolite.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal effect on clearance expected at recommended oral dosing in this label"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the adult constipation/IBS indication and dose separately. Plasma exposure is not quantifiable; no numeric systemic half-life or dialysis-removal value is inferred. Review obstruction and diarrhoea/volume depletion.",
+          "sourceIds": [
+            "v10-linaclotide"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -55314,18 +55902,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the adult constipation/IBS indication and dose separately. Plasma exposure is not quantifiable; no numeric systemic half-life or dialysis-removal value is inferred. Review obstruction and diarrhoea/volume depletion.",
+      "sourceIds": [
+        "v10-linaclotide"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Linaclotide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -55390,7 +55980,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "linagliptin",
@@ -57181,23 +57772,25 @@
         "Amitiza"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Chloride-channel activator",
+      "formulation": "Oral capsules",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected label describes limited single-dose renal evidence.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The renal study included eight HD patients with CrCl <20 after one 24-microgram dose; exposure does not establish a complete chronic-HD regimen. Choose CIC/OIC versus IBS-C treatment and hepatic adjustments separately; no fixed renal course is assigned.",
+          "sourceIds": [
+            "v10-lubiprostone"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -57224,18 +57817,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The renal study included eight HD patients with CrCl <20 after one 24-microgram dose; exposure does not establish a complete chronic-HD regimen. Choose CIC/OIC versus IBS-C treatment and hepatic adjustments separately; no fixed renal course is assigned.",
+      "sourceIds": [
+        "v10-lubiprostone"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lubiprostone",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -57300,7 +57895,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "macitentan",
@@ -57439,23 +58035,35 @@
         "MiraLAX"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Osmotic laxative · selected electrolyte product",
+      "formulation": "Oral macrogol/electrolyte powder · Movicol Plain 13.7 g",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected macrogol/electrolyte product requires no renal dose change.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal insufficiency",
+                  "dose": "No renal dose change for constipation or faecal impaction in this product"
+                }
+              ]
+            }
+          ],
+          "notes": "This is Movicol Plain 13.7-g powder with electrolytes, not every PEG product or bowel-preparation solution. Select the course separately and assess fluid, sodium/potassium and cardiovascular considerations.",
+          "sourceIds": [
+            "v10-macrogol-polyethylene-glycol"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -57482,18 +58090,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "This is Movicol Plain 13.7-g powder with electrolytes, not every PEG product or bowel-preparation solution. Select the course separately and assess fluid, sodium/potassium and cardiovascular considerations.",
+      "sourceIds": [
+        "v10-macrogol-polyethylene-glycol"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Macrogol%20/%20polyethylene%20glycol",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -57558,7 +58168,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "magnesium-citrate",
@@ -62651,29 +63262,51 @@
         "Myrbetriq"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Beta-3 agonist · ER",
+      "formulation": "Oral extended-release tablets · adult OAB",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "MDRD eGFR · mL/min/1.73 m²",
+      "summary": "Adult ER-tablet renal starting doses and maxima.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "MDRD eGFR 30–89",
+                  "dose": "Start 25 mg PO daily; maximum 50 mg daily"
+                },
+                {
+                  "context": "MDRD eGFR 15–29",
+                  "dose": "25 mg PO daily; maximum 25 mg daily"
+                },
+                {
+                  "context": "eGFR <15 or requiring dialysis",
+                  "dose": "Not recommended"
+                }
+              ]
+            }
+          ],
+          "notes": "Selected adult ER tablets, not granules/paediatric treatment. Monitor BP and interactions. Match the source MDRD measure; do not automatically transfer a CKD-EPI or CrCl result.",
+          "sourceIds": [
+            "v10-mirabegron"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Not recommended in patients requiring dialysis in the selected adult label.",
+          "sourceIds": [
+            "v10-mirabegron"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -62682,10 +63315,12 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Not recommended in patients requiring dialysis in the selected adult label.",
+          "sourceIds": [
+            "v10-mirabegron"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -62694,18 +63329,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Selected adult ER tablets, not granules/paediatric treatment. Monitor BP and interactions. Match the source MDRD measure; do not automatically transfer a CKD-EPI or CrCl result.",
+      "sourceIds": [
+        "v10-mirabegron"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Mirabegron",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -62770,7 +63407,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "mirtazapine",
@@ -63183,23 +63821,35 @@
         "Singulair"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Leukotriene receptor antagonist",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal adjustment is recommended in the selected label.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal insufficiency",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "HD and PD removal are unknown in the source; no dialysis dose is inferred. Select the adult respiratory indication and review the full neuropsychiatric warning.",
+          "sourceIds": [
+            "v10-montelukast"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -63226,18 +63876,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "HD and PD removal are unknown in the source; no dialysis dose is inferred. Select the adult respiratory indication and review the full neuropsychiatric warning.",
+      "sourceIds": [
+        "v10-montelukast"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Montelukast",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -63302,7 +63954,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "morphine",
@@ -64828,23 +65481,35 @@
         "Procardia"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Dihydropyridine calcium-channel blocker · XL",
+      "formulation": "Oral prolonged release · Adanif XL",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "The selected prolonged-release product requires no renal reduction.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment to the selected XL regimen"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the hypertension/angina regimen and monitor BP. This is not an immediate-release or emergency BP-lowering regimen.",
+          "sourceIds": [
+            "v10-nifedipine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -64871,18 +65536,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the hypertension/angina regimen and monitor BP. This is not an immediate-release or emergency BP-lowering regimen.",
+      "sourceIds": [
+        "v10-nifedipine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Nifedipine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -64962,7 +65629,7 @@
         },
         "notes": "Formulation matters. The conventional-formulation half-life does not select a modified-release dosing interval."
       },
-      "updatedInVersion": "0.4.0"
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "nilotinib",
@@ -68559,24 +69226,25 @@
         "Ditropan"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral / Transdermal · verify exact local product",
+      "drugClass": "Antimuscarinic · ER",
+      "formulation": "Oral extended-release tablets only",
       "routes": [
-        "Oral",
-        "Transdermal"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal-impairment studies are available for this ER product.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "insufficient_data",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "A numeric CKD or dialysis regimen is not inferred. Review the exact release/route product, retention risk, cognitive and other antimuscarinic effects.",
+          "sourceIds": [
+            "v10-oxybutynin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -68603,18 +69271,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "A numeric CKD or dialysis regimen is not inferred. Review the exact release/route product, retention risk, cognitive and other antimuscarinic effects.",
+      "sourceIds": [
+        "v10-oxybutynin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Oxybutynin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -68679,7 +69349,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "oxycodone",
@@ -69748,30 +70419,53 @@
         "Controloc"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Proton pump inhibitor",
+      "formulation": "Oral gastro-resistant tablets · selected 20-mg product",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal reduction is required, including dialysis, in this selected SmPC.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment to the selected gastro-resistant product"
+                }
+              ]
+            }
+          ],
+          "notes": "Select indication/duration separately. This does not establish a combination H. pylori course or an IV regimen. Review PPI-associated kidney injury and the complete safety label.",
+          "sourceIds": [
+            "v10-pantoprazole"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected RRT statement",
+              "rows": [
+                {
+                  "context": "Dialysis · selected SmPC statement",
+                  "dose": "No renal dose reduction specified"
+                }
+              ]
+            }
+          ],
+          "notes": "The source states this includes dialysis patients. No numeric course or extra post-HD dose is selected.",
+          "sourceIds": [
+            "v10-pantoprazole"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -69792,18 +70486,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select indication/duration separately. This does not establish a combination H. pylori course or an IV regimen. Review PPI-associated kidney injury and the complete safety label.",
+      "sourceIds": [
+        "v10-pantoprazole"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pantoprazole",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -69868,7 +70564,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "paracetamol-iv",
@@ -71341,29 +72038,61 @@
         "Coversyl"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "ACE inhibitor · erbumine",
+      "formulation": "Oral perindopril erbumine · selected UK table",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min as printed in selected SmPC",
+      "summary": "Selected erbumine renal table; arginine-salt strengths differ.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CrCl ≥60",
+                  "dose": "4 mg PO daily"
+                },
+                {
+                  "context": "CrCl >30 to <60",
+                  "dose": "2 mg PO daily"
+                },
+                {
+                  "context": "CrCl >15 to <30",
+                  "dose": "2 mg PO every other day"
+                }
+              ]
+            }
+          ],
+          "notes": "These are selected erbumine-product amounts, not arginine-salt strengths. The printed table leaves exact 30 and 15 unassigned; verify local product advice at these boundaries. Monitor BP, potassium and renal function.",
+          "sourceIds": [
+            "v10-perindopril"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected RRT statement",
+              "rows": [
+                {
+                  "context": "HD with CrCl <15",
+                  "dose": "2 mg PO on the dialysis day, after dialysis"
+                }
+              ]
+            }
+          ],
+          "notes": "Selected SmPC statement; non-dialysis-day dosing is not specified here. Check the local product and complete schedule, dialysis membrane and hypotension risk.",
+          "sourceIds": [
+            "v10-perindopril"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -71384,18 +72113,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "These are selected erbumine-product amounts, not arginine-salt strengths. The printed table leaves exact 30 and 15 unassigned; verify local product advice at these boundaries. Monitor BP, potassium and renal function.",
+      "sourceIds": [
+        "v10-perindopril"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Perindopril",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -71460,7 +72191,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "pethidine-meperidine",
@@ -72619,29 +73351,57 @@
         "Livalo"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Statin",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "eGFR · mL/min/1.73 m²",
+      "summary": "Moderate/severe impairment and HD require lower initial and maximum doses.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "eGFR 15–59",
+                  "dose": "Start 1 mg PO daily; maximum 2 mg daily"
+                },
+                {
+                  "context": "Mild impairment",
+                  "dose": "No renal dose adjustment recommended"
+                }
+              ]
+            }
+          ],
+          "notes": "The eGFR <15 non-HD population is not assigned here. Myopathy and drug interactions require review; some interactions impose a lower maximum.",
+          "sourceIds": [
+            "v10-pitavastatin"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected RRT statement",
+              "rows": [
+                {
+                  "context": "ESRD on HD",
+                  "dose": "Start 1 mg PO daily; maximum 2 mg daily"
+                }
+              ]
+            }
+          ],
+          "notes": "A daily regimen; no post-session supplement is selected. A label dosing option does not establish whether statin initiation is indicated for this patient.",
+          "sourceIds": [
+            "v10-pitavastatin"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -72662,18 +73422,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The eGFR <15 non-HD population is not assigned here. Myopathy and drug interactions require review; some interactions impose a lower maximum.",
+      "sourceIds": [
+        "v10-pitavastatin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitavastatin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -72738,7 +73500,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "plazomicin",
@@ -75789,24 +76552,25 @@
         "Inderal"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Nonselective beta blocker",
+      "formulation": "Oral immediate-release tablets only",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Use cautiously in impaired renal function; no fixed renal schedule is selected.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The selected immediate-release oral label advises caution. Select the indication, dose and titration separately; do not abruptly stop chronic therapy or transfer this statement to IV/long-acting regimens.",
+          "sourceIds": [
+            "v10-propranolol"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -75833,18 +76597,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The selected immediate-release oral label advises caution. Select the indication, dose and titration separately; do not abruptly stop chronic therapy or transfer this statement to IV/long-acting regimens.",
+      "sourceIds": [
+        "v10-propranolol"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Propranolol",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -75909,7 +76675,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "propylthiouracil",
@@ -76772,23 +77539,35 @@
         "Aciphex"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Proton pump inhibitor",
+      "formulation": "Oral gastro-resistant tablets",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal adjustment is required in the selected SmPC.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the indication, strength and duration separately. A PPI renal statement does not validate the doses of companion H. pylori antibiotics.",
+          "sourceIds": [
+            "v10-rabeprazole"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -76815,18 +77594,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the indication, strength and duration separately. A PPI renal statement does not validate the doses of companion H. pylori antibiotics.",
+      "sourceIds": [
+        "v10-rabeprazole"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rabeprazole",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -76891,7 +77672,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "raltegravir",
@@ -79674,23 +80456,35 @@
         "Daliresp"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "PDE-4 inhibitor · oral",
+      "formulation": "Oral tablets only",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "No renal adjustment is necessary in the selected oral label.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment specified"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the COPD indication and regimen separately. This is not a rescue bronchodilator; review weight, psychiatric and hepatic precautions. Oral product, not topical roflumilast.",
+          "sourceIds": [
+            "v10-roflumilast"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -79717,18 +80511,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the COPD indication and regimen separately. This is not a rescue bronchodilator; review weight, psychiatric and hepatic precautions. Oral product, not topical roflumilast.",
+      "sourceIds": [
+        "v10-roflumilast"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Roflumilast",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -79793,7 +80589,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "romiplostim",
@@ -82664,23 +83461,43 @@
         "Urorec"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Alpha-1 blocker",
+      "formulation": "Oral capsules · adult BPH",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Selected adult BPH capsule renal doses.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CrCl >50 to 80",
+                  "dose": "No renal reduction to the usual 8-mg-daily regimen with a meal"
+                },
+                {
+                  "context": "CrCl 30–50",
+                  "dose": "4 mg PO daily with a meal"
+                },
+                {
+                  "context": "CrCl <30",
+                  "dose": "Contraindicated"
+                }
+              ]
+            }
+          ],
+          "notes": "The label also describes mild impairment as 50–80, overlapping at exact 50; the displayed reduced band follows its 30–50 instruction. Confirm local product at that boundary. Monitor orthostatic effects and interactions.",
+          "sourceIds": [
+            "v10-silodosin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -82707,18 +83524,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The label also describes mild impairment as 50–80, overlapping at exact 50; the displayed reduced band follows its 30–50 instruction. Confirm local product at that boundary. Monitor orthostatic effects and interactions.",
+      "sourceIds": [
+        "v10-silodosin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Silodosin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -82783,7 +83602,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "simeticone",
@@ -82921,23 +83741,39 @@
         "Zocor"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Statin",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Severe renal impairment requires a lower start and close monitoring.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CrCl 15–29",
+                  "dose": "Start 5 mg PO daily, using a product that permits this strength"
+                },
+                {
+                  "context": "Mild/moderate impairment",
+                  "dose": "No renal adjustment recommended"
+                }
+              ]
+            }
+          ],
+          "notes": "Starting dose only. Below CrCl 15 and dialysis are not assigned here. Review myopathy, interacting drugs and the full lipid indication.",
+          "sourceIds": [
+            "v10-simvastatin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -82964,18 +83800,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Starting dose only. Below CrCl 15 and dialysis are not assigned here. Review myopathy, interacting drugs and the full lipid indication.",
+      "sourceIds": [
+        "v10-simvastatin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Simvastatin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -83040,7 +83878,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "sirolimus",
@@ -84665,23 +85504,35 @@
         "Vesicare"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Antimuscarinic",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CLcr · mL/min/1.73 m² as printed in selected label",
+      "summary": "Severe renal impairment limits the maximum dose.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CLcr <30 mL/min/1.73 m², as printed",
+                  "dose": "Do not exceed 5 mg PO once daily"
+                }
+              ]
+            }
+          ],
+          "notes": "The label prints an indexed CrCl measure; do not silently replace it with absolute mL/min. Review urinary/gastric retention, QT and antimuscarinic effects. No dialysis regimen is assigned.",
+          "sourceIds": [
+            "v10-solifenacin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -84708,18 +85559,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The label prints an indexed CrCl measure; do not silently replace it with absolute mL/min. Review urinary/gastric retention, QT and antimuscarinic effects. No dialysis regimen is assigned.",
+      "sourceIds": [
+        "v10-solifenacin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solifenacin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -84784,7 +85637,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "sotalol",
@@ -85484,29 +86338,33 @@
         "Carafate"
       ],
       "category": "Gastrointestinal",
-      "drugClass": "Gastrointestinal",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Mucosal protective agent · aluminium-containing",
+      "formulation": "Oral tablets",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Absorbed aluminium can accumulate in CKD and dialysis; use cautiously.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The label describes aluminium toxicity in renal impairment. Review aluminium-containing co-products and binding interactions; no routine numeric CKD or dialysis prescription is selected.",
+          "sourceIds": [
+            "v10-sucralfate"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Impaired aluminium excretion and accumulation/toxicity are concerns. The aluminium membrane statement is not a quantitative removal estimate for the whole sucralfate product.",
+          "sourceIds": [
+            "v10-sucralfate"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -85515,10 +86373,12 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Impaired aluminium excretion and accumulation/toxicity are concerns. The aluminium membrane statement is not a quantitative removal estimate for the whole sucralfate product.",
+          "sourceIds": [
+            "v10-sucralfate"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -85527,18 +86387,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The label describes aluminium toxicity in renal impairment. Review aluminium-containing co-products and binding interactions; no routine numeric CKD or dialysis prescription is selected.",
+      "sourceIds": [
+        "v10-sucralfate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sucralfate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -85603,7 +86465,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "sucroferric-oxyhydroxide",
@@ -86673,23 +87536,39 @@
         "Omnic"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Alpha-1 blocker",
+      "formulation": "Oral capsules · BPH",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CLcr · mL/min/1.73 m² as printed in label",
+      "summary": "No renal reduction is required in studied patients; ESRD is unstudied.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Studied renal impairment",
+                  "dose": "No renal adjustment to the selected capsule regimen"
+                },
+                {
+                  "context": "CLcr <10 mL/min/1.73 m²",
+                  "dose": "ESRD not studied; no regimen assigned here"
+                }
+              ]
+            }
+          ],
+          "notes": "BPH product, not a hypertension prescription. The source uses indexed CLcr; dialysis dosing is not established by a no-adjustment statement. Monitor postural effects and interactions.",
+          "sourceIds": [
+            "v10-tamsulosin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -86716,18 +87595,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "BPH product, not a hypertension prescription. The source uses indexed CLcr; dialysis dosing is not established by a no-adjustment statement. Monitor postural effects and interactions.",
+      "sourceIds": [
+        "v10-tamsulosin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tamsulosin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -86739,60 +87620,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": false,
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Apparent 9–13 h in healthy volunteers; 14–15 h in target population",
+          "context": "Absorption-controlled capsule half-life; IR/IV elimination half-life differs. Vd is steady-state apparent Vd after IV administration in healthy adult men.",
+          "sourceIds": [
+            "v10-tamsulosin"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "No numeric renal half-life curated from the selected label.",
+          "sourceIds": [
+            "v10-tamsulosin"
+          ]
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "16 L",
+          "context": "Absorption-controlled capsule half-life; IR/IV elimination half-life differs. Vd is steady-state apparent Vd after IV administration in healthy adult men.",
+          "sourceIds": [
+            "v10-tamsulosin"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "94–99%",
+          "context": "Selected product plasma binding reference; unbound fraction can vary with clinical state.",
+          "sourceIds": [
+            "v10-tamsulosin"
+          ]
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "limited",
+            "value": "Dialysis unlikely to benefit overdose, per label",
+            "context": "Product-information statement; no modern circuit clearance percentage or post-HD supplement is implied.",
+            "sourceIds": [
+              "v10-tamsulosin"
+            ]
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Absorption-controlled capsule half-life; IR/IV elimination half-life differs. Vd is steady-state apparent Vd after IV administration in healthy adult men. Source access is not independent clinical approval."
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "tapentadol",
@@ -89476,23 +90369,39 @@
         "Spiriva"
       ],
       "category": "Allergy & respiratory",
-      "drugClass": "Allergy & respiratory",
-      "formulation": "Inhaled · verify exact local product",
+      "drugClass": "Long-acting muscarinic antagonist · inhaled",
+      "formulation": "Inhaled powder capsules via LupinHaler only · DO NOT SWALLOW",
       "routes": [
         "Inhaled"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min; monitoring threshold <60",
+      "summary": "No renal reduction is specified, but anticholinergic monitoring is important.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No renal dose adjustment to the selected inhaled regimen"
+                },
+                {
+                  "context": "CrCl <60",
+                  "dose": "Monitor closely for anticholinergic adverse effects"
+                }
+              ]
+            }
+          ],
+          "notes": "Capsule contents are for inhalation through the specified device, never swallowing. Other devices/strengths are separate; severe-renal exposure data are limited.",
+          "sourceIds": [
+            "v10-tiotropium"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -89519,18 +90428,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Capsule contents are for inhalation through the specified device, never swallowing. Other devices/strengths are separate; severe-renal exposure data are limited.",
+      "sourceIds": [
+        "v10-tiotropium"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tiotropium",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -89595,7 +90506,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "tirofiban",
@@ -90395,23 +91307,39 @@
         "Detrol"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Antimuscarinic · ER",
+      "formulation": "Oral extended-release capsules only",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Severe impairment requires a lower ER-capsule dose.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "CrCl 10–30",
+                  "dose": "2 mg PO once daily"
+                },
+                {
+                  "context": "CrCl <10",
+                  "dose": "Not recommended; not studied"
+                }
+              ]
+            }
+          ],
+          "notes": "Extended release only. Immediate-release dose/frequency differs. Swallow whole; check interactions and antimuscarinic/QT risks. No dialysis prescription is selected.",
+          "sourceIds": [
+            "v10-tolterodine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -90438,18 +91366,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Extended release only. Immediate-release dose/frequency differs. Swallow whole; check interactions and antimuscarinic/QT risks. No dialysis prescription is selected.",
+      "sourceIds": [
+        "v10-tolterodine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tolterodine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -90514,7 +91444,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "tolvaptan",
@@ -90782,24 +91713,39 @@
         "Demadex"
       ],
       "category": "Cardiovascular",
-      "drugClass": "Cardiovascular",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Loop diuretic",
+      "formulation": "Oral tablets · renal oedema only",
       "routes": [
-        "Oral",
-        "Parenteral"
+        "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Source-specific renal category; no automatic calculator transfer",
+      "summary": "Selected initial regimen for oedema associated with chronic renal failure.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Renal oedema · initial",
+                  "dose": "20 mg PO once daily; individualise upward by approximately doubling if response is inadequate"
+                },
+                {
+                  "context": "Anuria",
+                  "dose": "Contraindicated"
+                }
+              ]
+            }
+          ],
+          "notes": "Doses above 200 mg/day are not adequately studied, not an endorsed target. Monitor volume, renal function and electrolytes. No fixed HD/PD prescription is inferred.",
+          "sourceIds": [
+            "v10-torsemide"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -90826,18 +91772,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Doses above 200 mg/day are not adequately studied, not an endorsed target. Monitor volume, renal function and electrolytes. No fixed HD/PD prescription is inferred.",
+      "sourceIds": [
+        "v10-torsemide"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Torsemide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -90849,60 +91797,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": false,
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "About 3.5 h",
+          "context": "Normal-adult reference; Vd also described in mild/moderate renal failure. Reduced tubular delivery can reduce diuretic response.",
+          "sourceIds": [
+            "v10-torsemide"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "No numeric renal half-life curated from the selected label.",
+          "sourceIds": [
+            "v10-torsemide"
+          ]
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "12–15 L",
+          "context": "Normal-adult reference; Vd also described in mild/moderate renal failure. Reduced tubular delivery can reduce diuretic response.",
+          "sourceIds": [
+            "v10-torsemide"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": ">99%",
+          "context": "Selected product plasma binding reference; unbound fraction can vary with clinical state.",
+          "sourceIds": [
+            "v10-torsemide"
+          ]
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "not_removed",
+            "value": "Not dialysable in selected label",
+            "context": "Product-information statement; no modern circuit clearance percentage or post-HD supplement is implied.",
+            "sourceIds": [
+              "v10-torsemide"
+            ]
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "No modality-specific removal value curated.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Normal-adult reference; Vd also described in mild/moderate renal failure. Reduced tubular delivery can reduce diuretic response. Source access is not independent clinical approval."
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "tramadol-extended-release",
@@ -92161,23 +93121,39 @@
         "Sanctura"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Antimuscarinic · IR",
+      "formulation": "Oral immediate-release tablets only",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Selected immediate-release tablet dose is reduced in severe impairment.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "Usual adult IR reference",
+                  "dose": "20 mg PO twice daily, fasting at least 1 h before meals"
+                },
+                {
+                  "context": "CrCl <30",
+                  "dose": "20 mg PO once daily at bedtime"
+                }
+              ]
+            }
+          ],
+          "notes": "Immediate-release only: ER capsules have different renal restrictions. The severe-CKD row is not a validated dialysis schedule. Monitor antimuscarinic effects and age-related tolerance.",
+          "sourceIds": [
+            "v10-trospium"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -92204,18 +93180,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Immediate-release only: ER capsules have different renal restrictions. The severe-CKD row is not a validated dialysis schedule. Monitor antimuscarinic effects and age-related tolerance.",
+      "sourceIds": [
+        "v10-trospium"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trospium",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -92280,7 +93258,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "turmeric-curcumin-supplements",
@@ -94739,29 +95718,47 @@
         "Gemtesa"
       ],
       "category": "Urology & other medicines",
-      "drugClass": "Urology & other medicines",
-      "formulation": "Oral · verify exact local product",
+      "drugClass": "Beta-3 agonist",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "eGFR · mL/min/1.73 m²",
+      "summary": "The selected product needs no renal reduction down to eGFR 15; lower values are unstudied.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal guidance",
+              "rows": [
+                {
+                  "context": "eGFR 15 to <90",
+                  "dose": "No renal adjustment specified"
+                },
+                {
+                  "context": "eGFR <15, with or without HD",
+                  "dose": "Not recommended; not studied"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the full OAB regimen separately. Check retention risk and digoxin interaction. No PD or prescription-specific HD schedule is inferred.",
+          "sourceIds": [
+            "v10-vibegron"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The label has not studied eGFR <15 with or without HD and does not recommend use in that population.",
+          "sourceIds": [
+            "v10-vibegron"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -94782,18 +95779,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the full OAB regimen separately. Check retention risk and digoxin interaction. No PD or prescription-specific HD schedule is inferred.",
+      "sourceIds": [
+        "v10-vibegron"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vibegron",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only the displayed product, route and renal statement are curated. Other formulations, indications and missing RRT prescriptions remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected adult product information; local authorisation and independent clinical approval remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -94858,7 +95857,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.10.0"
     },
     {
       "id": "vildagliptin",
@@ -96952,7 +97952,7 @@
       "updatedInVersion": "0.9.0"
     }
   ],
-  "softwareReleaseDate": "2026-10-29",
+  "softwareReleaseDate": "2026-10-30",
   "referenceResources": [
     {
       "id": "bnf",
@@ -97353,7 +98353,7 @@
       "tmp-smx"
     ]
   },
-  "clinicalDataVersion": "0.9.0",
+  "clinicalDataVersion": "0.10.0",
   "calculatorSources": [
     {
       "title": "NIDDK · adult CKD-EPI equations",
@@ -97393,196 +98393,96 @@
     }
   ],
   "clinicalUpdates": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "changedIds": [
-      "abacavir",
-      "alendronate",
-      "amikacin",
-      "amitriptyline",
-      "aripiprazole",
-      "artemether-lumefantrine",
-      "artesunate",
-      "atovaquone",
-      "aztreonam-avibactam",
-      "benzylpenicillin",
-      "bupropion",
-      "buspirone",
-      "cefepime-enmetazobactam",
-      "cefotetan",
-      "ceftobiprole",
-      "ceftolozane-tazobactam",
-      "citalopram",
-      "clozapine",
-      "colistimethate-sodium",
-      "dalbavancin",
-      "dapsone",
-      "darunavir",
-      "denosumab",
-      "desvenlafaxine",
-      "digoxin",
-      "dolutegravir",
-      "emtricitabine",
-      "escitalopram",
-      "exenatide-extended-release",
-      "fidaxomicin",
-      "flucloxacillin",
-      "fluoxetine",
-      "foscarnet",
-      "gentamicin",
-      "glimepiride",
-      "glipizide",
-      "haloperidol",
-      "ibandronate",
-      "imipenem-cilastatin",
-      "isavuconazonium",
-      "isoniazid",
-      "itraconazole",
-      "lamivudine",
-      "letermovir",
-      "lithium",
-      "maribavir",
-      "melatonin",
-      "meropenem-vaborbactam",
-      "minocycline",
-      "mirtazapine",
-      "moxifloxacin",
-      "nebivolol",
-      "nortriptyline",
-      "olanzapine",
-      "olmesartan",
-      "oxacillin",
-      "paliperidone",
-      "paroxetine",
-      "pentamidine",
-      "pioglitazone",
-      "polymyxin-b",
-      "posaconazole",
-      "prucalopride",
-      "pyrazinamide",
-      "quetiapine",
-      "raltegravir",
-      "rifabutin",
-      "rifampicin",
-      "risperidone",
-      "ritonavir",
-      "semaglutide-oral",
-      "sertraline",
-      "sulfadiazine",
-      "tedizolid",
-      "teicoplanin",
-      "tenofovir-alafenamide",
-      "tenofovir-disoproxil",
-      "tobramycin",
-      "trazodone",
-      "vancomycin",
-      "venlafaxine",
-      "warfarin",
-      "zidovudine",
-      "zolpidem",
-      "zopiclone"
+      "alfuzosin",
+      "amiloride",
+      "bumetanide",
+      "chlorthalidone",
+      "desloratadine",
+      "dexlansoprazole",
+      "diltiazem",
+      "doxazosin",
+      "dutasteride",
+      "felodipine",
+      "fenofibrate",
+      "finasteride",
+      "gemfibrozil",
+      "hydroxyzine",
+      "labetalol",
+      "lactulose",
+      "levocetirizine",
+      "linaclotide",
+      "lubiprostone",
+      "macrogol-polyethylene-glycol",
+      "mirabegron",
+      "montelukast",
+      "nifedipine",
+      "oxybutynin",
+      "pantoprazole",
+      "perindopril",
+      "pitavastatin",
+      "propranolol",
+      "rabeprazole",
+      "roflumilast",
+      "silodosin",
+      "simvastatin",
+      "solifenacin",
+      "sucralfate",
+      "tamsulosin",
+      "tiotropium",
+      "tolterodine",
+      "torsemide",
+      "trospium",
+      "vibegron"
     ],
     "newRenalIds": [
-      "abacavir",
-      "alendronate",
-      "amikacin",
-      "amitriptyline",
-      "aripiprazole",
-      "artemether-lumefantrine",
-      "artesunate",
-      "atovaquone",
-      "aztreonam-avibactam",
-      "benzylpenicillin",
-      "bupropion",
-      "buspirone",
-      "cefepime-enmetazobactam",
-      "cefotetan",
-      "ceftobiprole",
-      "ceftolozane-tazobactam",
-      "citalopram",
-      "clozapine",
-      "colistimethate-sodium",
-      "dalbavancin",
-      "dapsone",
-      "darunavir",
-      "denosumab",
-      "desvenlafaxine",
-      "digoxin",
-      "dolutegravir",
-      "emtricitabine",
-      "escitalopram",
-      "exenatide-extended-release",
-      "fidaxomicin",
-      "flucloxacillin",
-      "fluoxetine",
-      "foscarnet",
-      "gentamicin",
-      "glimepiride",
-      "glipizide",
-      "haloperidol",
-      "ibandronate",
-      "imipenem-cilastatin",
-      "isavuconazonium",
-      "isoniazid",
-      "itraconazole",
-      "lamivudine",
-      "letermovir",
-      "lithium",
-      "maribavir",
-      "melatonin",
-      "meropenem-vaborbactam",
-      "minocycline",
-      "mirtazapine",
-      "moxifloxacin",
-      "nebivolol",
-      "nortriptyline",
-      "olanzapine",
-      "olmesartan",
-      "oxacillin",
-      "paliperidone",
-      "paroxetine",
-      "pentamidine",
-      "pioglitazone",
-      "polymyxin-b",
-      "posaconazole",
-      "prucalopride",
-      "pyrazinamide",
-      "quetiapine",
-      "raltegravir",
-      "rifabutin",
-      "rifampicin",
-      "risperidone",
-      "ritonavir",
-      "semaglutide-oral",
-      "sertraline",
-      "sulfadiazine",
-      "tedizolid",
-      "teicoplanin",
-      "tenofovir-alafenamide",
-      "tenofovir-disoproxil",
-      "tobramycin",
-      "trazodone",
-      "vancomycin",
-      "venlafaxine",
-      "warfarin",
-      "zidovudine",
-      "zolpidem",
-      "zopiclone"
+      "alfuzosin",
+      "amiloride",
+      "bumetanide",
+      "chlorthalidone",
+      "desloratadine",
+      "dexlansoprazole",
+      "diltiazem",
+      "doxazosin",
+      "dutasteride",
+      "felodipine",
+      "fenofibrate",
+      "finasteride",
+      "gemfibrozil",
+      "hydroxyzine",
+      "labetalol",
+      "lactulose",
+      "levocetirizine",
+      "linaclotide",
+      "lubiprostone",
+      "macrogol-polyethylene-glycol",
+      "mirabegron",
+      "montelukast",
+      "nifedipine",
+      "oxybutynin",
+      "pantoprazole",
+      "perindopril",
+      "pitavastatin",
+      "propranolol",
+      "rabeprazole",
+      "roflumilast",
+      "silodosin",
+      "simvastatin",
+      "solifenacin",
+      "sucralfate",
+      "tamsulosin",
+      "tiotropium",
+      "tolterodine",
+      "torsemide",
+      "trospium",
+      "vibegron"
     ],
     "newPKIds": [
-      "warfarin",
-      "glimepiride",
-      "glipizide",
-      "pioglitazone",
-      "sertraline",
-      "quetiapine",
-      "mirtazapine",
-      "olanzapine",
-      "nebivolol",
-      "olmesartan",
-      "digoxin",
-      "ibandronate",
-      "minocycline"
+      "doxazosin",
+      "torsemide",
+      "tamsulosin"
     ],
-    "scope": "Selected adult source statements/regimens; not full monograph or independent clinical approval."
+    "scope": "Selected adult product renal statements only; some are caution/insufficient-data summaries, not numeric regimens or approved monographs."
   }
 }
