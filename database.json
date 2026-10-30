@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -14,12 +14,12 @@
     "updatedEntries": 47
   },
   "coverage": {
-    "renal": 258,
+    "renal": 260,
     "safety": 28,
-    "catalog": 382
+    "catalog": 380
   },
   "pharmacokineticCoverage": {
-    "profiles": 69,
+    "profiles": 99,
     "allFourCoreFields": 55
   },
   "sharedGuidance": {
@@ -3869,6 +3869,468 @@
       "section": "Special populations; chronic renal failure/dialysis",
       "type": "Product prescribing information",
       "accessed": "2026-10-30"
+    },
+    {
+      "id": "nm11-omadacycline",
+      "title": "Nebraska adult antimicrobial protocol · Omadacycline",
+      "url": "https://www.unmc.edu/intmed/_documents/id/asp/dose-nm-anti-infective-renal-dosing-guidelines.pdf#page=43",
+      "section": "Supplied protocol, adult row on PDF p43; P&T approval April 2026. No paediatric or unlisted RRT schedule inferred.",
+      "type": "Supplied institutional protocol",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "dose-nm-anti-infective-renal-dosing-guidelines.pdf",
+        "sha256": "a3a5ec05580f383e130584a4be38575d00be207fb722423571b8fc53fd4830ed",
+        "pdfPage": 43,
+        "editionOrDate": "P&T approval April 2026; PDF created August 2026"
+      }
+    },
+    {
+      "id": "nm11-telavancin",
+      "title": "Nebraska adult antimicrobial protocol · Telavancin",
+      "url": "https://www.unmc.edu/intmed/_documents/id/asp/dose-nm-anti-infective-renal-dosing-guidelines.pdf#page=51",
+      "section": "Supplied protocol, adult row on PDF p51; P&T approval April 2026. No paediatric or unlisted RRT schedule inferred.",
+      "type": "Supplied institutional protocol",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "dose-nm-anti-infective-renal-dosing-guidelines.pdf",
+        "sha256": "a3a5ec05580f383e130584a4be38575d00be207fb722423571b8fc53fd4830ed",
+        "pdfPage": 51,
+        "editionOrDate": "P&T approval April 2026; PDF created August 2026"
+      }
+    },
+    {
+      "id": "rdh5-v11-telavancin",
+      "title": "Renal Drug Handbook 5th · Telavancin · PDF p991 (printed 972)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition (2018, copyright 2019), supplied PDF p991: renal restrictions, dialysis and baseline-AKI mortality warning. Current authorised product not verified.",
+      "type": "Supplied historical product comparison",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 991,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-morphine",
+      "title": "Renal Drug Handbook 5th · Morphine · PDF p695 (printed 676)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p695. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 695,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-hydromorphone",
+      "title": "Renal Drug Handbook 5th · Hydromorphone · PDF p515 (printed 496)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p515. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 515,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-oxycodone",
+      "title": "Renal Drug Handbook 5th · Oxycodone · PDF p774 (printed 755)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p774. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 774,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-fentanyl",
+      "title": "Renal Drug Handbook 5th · Fentanyl · PDF p438 (printed 419)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p438. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 438,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-buprenorphine",
+      "title": "Renal Drug Handbook 5th · Buprenorphine · PDF p166 (printed 147)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p166. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 166,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-codeine",
+      "title": "Renal Drug Handbook 5th · Codeine · PDF p267 (printed 248)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p267. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 267,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-pethidine-meperidine",
+      "title": "Renal Drug Handbook 5th · Pethidine / meperidine · PDF p811 (printed 792)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p811. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 811,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-methadone",
+      "title": "Renal Drug Handbook 5th · Methadone · PDF p660 (printed 641)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p660. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 660,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-lacosamide",
+      "title": "Renal Drug Handbook 5th · Lacosamide · PDF p585 (printed 566)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p585. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 585,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-lamotrigine",
+      "title": "Renal Drug Handbook 5th · Lamotrigine · PDF p588 (printed 569)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p588. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 588,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-oxcarbazepine",
+      "title": "Renal Drug Handbook 5th · Oxcarbazepine · PDF p771 (printed 752)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p771. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 771,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-topiramate",
+      "title": "Renal Drug Handbook 5th · Topiramate · PDF p1036 (printed 1017)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p1036. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 1036,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-carbamazepine",
+      "title": "Renal Drug Handbook 5th · Carbamazepine · PDF p187 (printed 168)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p187. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 187,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-phenytoin",
+      "title": "Renal Drug Handbook 5th · Phenytoin · PDF p819 (printed 800)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p819. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 819,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-valproate",
+      "title": "Renal Drug Handbook 5th · Valproate · PDF p950 (printed 931)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p950. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 950,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-pramipexole",
+      "title": "Renal Drug Handbook 5th · Pramipexole · PDF p839 (printed 820)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p839. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 839,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-ropinirole",
+      "title": "Renal Drug Handbook 5th · Ropinirole · PDF p915 (printed 896)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p915. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 915,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-amantadine",
+      "title": "Renal Drug Handbook 5th · Amantadine · PDF p67 (printed 48)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p67. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 67,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-memantine",
+      "title": "Renal Drug Handbook 5th · Memantine · PDF p648 (printed 629)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p648. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 648,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-donepezil",
+      "title": "Renal Drug Handbook 5th · Donepezil · PDF p354 (printed 335)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p354. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 354,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-rivastigmine",
+      "title": "Renal Drug Handbook 5th · Rivastigmine · PDF p911 (printed 892)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p911. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 911,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-clonazepam",
+      "title": "Renal Drug Handbook 5th · Clonazepam · PDF p251 (printed 232)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p251. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 251,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-lorazepam",
+      "title": "Renal Drug Handbook 5th · Lorazepam · PDF p628 (printed 609)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p628. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 628,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-midazolam",
+      "title": "Renal Drug Handbook 5th · Midazolam · PDF p676 (printed 657)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p676. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 676,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-diazepam",
+      "title": "Renal Drug Handbook 5th · Diazepam · PDF p333 (printed 314)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p333. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 333,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-tizanidine",
+      "title": "Renal Drug Handbook 5th · Tizanidine · PDF p1027 (printed 1008)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p1027. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 1027,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-phenobarbital",
+      "title": "Renal Drug Handbook 5th · Phenobarbital · PDF p814 (printed 795)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p814. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 814,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-brivaracetam",
+      "title": "Renal Drug Handbook 5th · Brivaracetam · PDF p160 (printed 141)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p160. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 160,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-ketamine",
+      "title": "Renal Drug Handbook 5th · Ketamine · PDF p572 (printed 553)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p572. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 572,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
+    },
+    {
+      "id": "rdh5-v11-sumatriptan",
+      "title": "Renal Drug Handbook 5th · Sumatriptan · PDF p972 (printed 953)",
+      "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
+      "section": "Historical fifth edition, published 2018 (copyright 2019), supplied PDF p972. Publisher-listing link is not this supplied PDF. Selected fields only; current product reconciliation pending.",
+      "type": "Supplied historical PK reference",
+      "accessed": "2026-10-30",
+      "suppliedDocument": {
+        "fileName": "The_Renal_Drug_Handbook_The_Ultimate.pdf",
+        "sha256": "f918bdcd99034cb93b5a24dbc7bf626bdb1fc831dcbb0d85e0f57ceecff83c20",
+        "pdfPage": 972,
+        "editionOrDate": "Published June 2018; copyright 2019"
+      }
     }
   ],
   "drugs": [
@@ -6946,7 +7408,7 @@
         "Symmetrel"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiparkinson agent",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -7012,60 +7474,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "15 h",
+          "context": "Historical normal/reference column. Historical ESRF column; this is not an on-dialysis half-life or a modern release-product dose rule.",
+          "sourceIds": [
+            "rdh5-v11-amantadine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "500 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical ESRF column; this is not an on-dialysis half-life or a modern release-product dose rule.",
+          "sourceIds": [
+            "rdh5-v11-amantadine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "5–10 L/kg",
+          "context": "Historical ESRF column; this is not an on-dialysis half-life or a modern release-product dose rule.",
+          "sourceIds": [
+            "rdh5-v11-amantadine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "67%",
+          "context": "Historical plasma binding reference. Historical ESRF column; this is not an on-dialysis half-life or a modern release-product dose rule.",
+          "sourceIds": [
+            "rdh5-v11-amantadine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical ESRF column; this is not an on-dialysis half-life or a modern release-product dose rule."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "ambrisentan",
@@ -15615,7 +16089,7 @@
         "Briviact"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -15682,60 +16156,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "9 h",
+          "context": "Historical normal/reference column. The 1 following 9.8 is a superscript reference. The cited renal study described severe impairment without dialysis; the table column must not be treated as an on-HD value.",
+          "sourceIds": [
+            "rdh5-v11-brivaracetam"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "9.8 h in source table",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The 1 following 9.8 is a superscript reference. The cited renal study described severe impairment without dialysis; the table column must not be treated as an on-HD value.",
+          "sourceIds": [
+            "rdh5-v11-brivaracetam"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.5 L/kg",
+          "context": "The 1 following 9.8 is a superscript reference. The cited renal study described severe impairment without dialysis; the table column must not be treated as an on-HD value.",
+          "sourceIds": [
+            "rdh5-v11-brivaracetam"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "<20%",
+          "context": "Historical plasma binding reference. The 1 following 9.8 is a superscript reference. The cited renal study described severe impairment without dialysis; the table column must not be treated as an on-HD value.",
+          "sourceIds": [
+            "rdh5-v11-brivaracetam"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The 1 following 9.8 is a superscript reference. The cited renal study described severe impairment without dialysis; the table column must not be treated as an on-HD value."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "budesonide-targeted",
@@ -16167,7 +16653,7 @@
         "Butrans"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral / Parenteral / Transdermal · verify exact local product",
       "routes": [
         "Oral",
@@ -16235,60 +16721,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "20–25 h; transdermal 30 h",
+          "context": "Historical normal/reference column. Mixed formulation reference. The source describes prolonged decline after patch removal; this is not a universal duration of effect or opioid-conversion rule.",
+          "sourceIds": [
+            "rdh5-v11-buprenorphine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Mixed formulation reference. The source describes prolonged decline after patch removal; this is not a universal duration of effect or opioid-conversion rule.",
+          "sourceIds": [
+            "rdh5-v11-buprenorphine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2.5 L/kg",
+          "context": "Mixed formulation reference. The source describes prolonged decline after patch removal; this is not a universal duration of effect or opioid-conversion rule.",
+          "sourceIds": [
+            "rdh5-v11-buprenorphine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "96%",
+          "context": "Historical plasma binding reference. Mixed formulation reference. The source describes prolonged decline after patch removal; this is not a universal duration of effect or opioid-conversion rule.",
+          "sourceIds": [
+            "rdh5-v11-buprenorphine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Mixed formulation reference. The source describes prolonged decline after patch removal; this is not a universal duration of effect or opioid-conversion rule."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "bupropion",
@@ -18339,7 +18837,7 @@
         "Tegretol"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -18405,60 +18903,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "5–26 h",
+          "context": "Historical normal/reference column. Historical reference; formulation, induction and active-metabolite exposure require separate assessment.",
+          "sourceIds": [
+            "rdh5-v11-carbamazepine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference; formulation, induction and active-metabolite exposure require separate assessment.",
+          "sourceIds": [
+            "rdh5-v11-carbamazepine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.8–1.9 L/kg",
+          "context": "Historical reference; formulation, induction and active-metabolite exposure require separate assessment.",
+          "sourceIds": [
+            "rdh5-v11-carbamazepine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "70–80%",
+          "context": "Historical plasma binding reference. Historical reference; formulation, induction and active-metabolite exposure require separate assessment.",
+          "sourceIds": [
+            "rdh5-v11-carbamazepine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference; formulation, induction and active-metabolite exposure require separate assessment."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "carbimazole",
@@ -25622,7 +26132,7 @@
         "Klonopin"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Benzodiazepine",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -25688,60 +26198,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "20–60 h",
+          "context": "Historical normal/reference column. Historical reference; no renal starting dose, titration or sedative safety conclusion is assigned.",
+          "sourceIds": [
+            "rdh5-v11-clonazepam"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference; no renal starting dose, titration or sedative safety conclusion is assigned.",
+          "sourceIds": [
+            "rdh5-v11-clonazepam"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3 L/kg",
+          "context": "Historical reference; no renal starting dose, titration or sedative safety conclusion is assigned.",
+          "sourceIds": [
+            "rdh5-v11-clonazepam"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "86%",
+          "context": "Historical plasma binding reference. Historical reference; no renal starting dose, titration or sedative safety conclusion is assigned.",
+          "sourceIds": [
+            "rdh5-v11-clonazepam"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference; no renal starting dose, titration or sedative safety conclusion is assigned."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "clonidine",
@@ -26294,7 +26816,7 @@
       "name": "Codeine",
       "aliases": [],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -26360,60 +26882,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2.5–4 h",
+          "context": "Historical normal/reference column. Codeine-phosphate monograph; parent and morphine/metabolite kinetics are separate. No renal safety conclusion or regimen is assigned.",
+          "sourceIds": [
+            "rdh5-v11-codeine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "13 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Codeine-phosphate monograph; parent and morphine/metabolite kinetics are separate. No renal safety conclusion or regimen is assigned.",
+          "sourceIds": [
+            "rdh5-v11-codeine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3–4 L/kg",
+          "context": "Codeine-phosphate monograph; parent and morphine/metabolite kinetics are separate. No renal safety conclusion or regimen is assigned.",
+          "sourceIds": [
+            "rdh5-v11-codeine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "7%",
+          "context": "Historical plasma binding reference. Codeine-phosphate monograph; parent and morphine/metabolite kinetics are separate. No renal safety conclusion or regimen is assigned.",
+          "sourceIds": [
+            "rdh5-v11-codeine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Codeine-phosphate monograph; parent and morphine/metabolite kinetics are separate. No renal safety conclusion or regimen is assigned."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "colchicine",
@@ -30137,7 +30671,7 @@
         "Valium"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Benzodiazepine",
       "formulation": "Oral / Parenteral / Rectal · verify exact local product",
       "routes": [
         "Oral",
@@ -30205,60 +30739,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "24–48 h",
+          "context": "Historical normal/reference column. The monograph describes prolonged metabolite kinetics separately. Parent half-life is not a dosing interval.",
+          "sourceIds": [
+            "rdh5-v11-diazepam"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Increased; no numeric value in table",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The monograph describes prolonged metabolite kinetics separately. Parent half-life is not a dosing interval.",
+          "sourceIds": [
+            "rdh5-v11-diazepam"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.95–2 L/kg",
+          "context": "The monograph describes prolonged metabolite kinetics separately. Parent half-life is not a dosing interval.",
+          "sourceIds": [
+            "rdh5-v11-diazepam"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "95–99%",
+          "context": "Historical plasma binding reference. The monograph describes prolonged metabolite kinetics separately. Parent half-life is not a dosing interval.",
+          "sourceIds": [
+            "rdh5-v11-diazepam"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The monograph describes prolonged metabolite kinetics separately. Parent half-life is not a dosing interval."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "diclofenac-systemic",
@@ -32531,7 +33077,7 @@
         "Aricept"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Cholinesterase inhibitor",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -32597,60 +33143,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "70 h",
+          "context": "Historical normal/reference column. Historical parent reference. An unchanged table entry does not establish a complete renal prescribing or safety assessment.",
+          "sourceIds": [
+            "rdh5-v11-donepezil"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical parent reference. An unchanged table entry does not establish a complete renal prescribing or safety assessment.",
+          "sourceIds": [
+            "rdh5-v11-donepezil"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "12 L/kg",
+          "context": "Historical parent reference. An unchanged table entry does not establish a complete renal prescribing or safety assessment.",
+          "sourceIds": [
+            "rdh5-v11-donepezil"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "95%",
+          "context": "Historical plasma binding reference. Historical parent reference. An unchanged table entry does not establish a complete renal prescribing or safety assessment.",
+          "sourceIds": [
+            "rdh5-v11-donepezil"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical parent reference. An unchanged table entry does not establish a complete renal prescribing or safety assessment."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "dopamine",
@@ -39742,7 +40300,7 @@
         "Duragesic"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Parenteral / Transdermal · verify exact local product",
       "routes": [
         "Parenteral",
@@ -39809,60 +40367,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2–7 h",
+          "context": "Historical normal/reference column. Formulation and route affect disposition; do not apply this generic reference as a transdermal, transmucosal or infusion prescription.",
+          "sourceIds": [
+            "rdh5-v11-fentanyl"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Possibly increased",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Formulation and route affect disposition; do not apply this generic reference as a transdermal, transmucosal or infusion prescription.",
+          "sourceIds": [
+            "rdh5-v11-fentanyl"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "4 L/kg",
+          "context": "Formulation and route affect disposition; do not apply this generic reference as a transdermal, transmucosal or infusion prescription.",
+          "sourceIds": [
+            "rdh5-v11-fentanyl"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "80–85%",
+          "context": "Historical plasma binding reference. Formulation and route affect disposition; do not apply this generic reference as a transdermal, transmucosal or infusion prescription.",
+          "sourceIds": [
+            "rdh5-v11-fentanyl"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Formulation and route affect disposition; do not apply this generic reference as a transdermal, transmucosal or infusion prescription."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "ferric-carboxymaltose",
@@ -47121,7 +47691,7 @@
         "Dilaudid"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -47188,60 +47758,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2.5 h",
+          "context": "Historical normal/reference column. The binding value is the historical table value, not a contemporary product-specific estimate. Release formulation is not matched.",
+          "sourceIds": [
+            "rdh5-v11-hydromorphone"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The binding value is the historical table value, not a contemporary product-specific estimate. Release formulation is not matched.",
+          "sourceIds": [
+            "rdh5-v11-hydromorphone"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.99–1.45 L/kg",
+          "context": "The binding value is the historical table value, not a contemporary product-specific estimate. Release formulation is not matched.",
+          "sourceIds": [
+            "rdh5-v11-hydromorphone"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "7.1%",
+          "context": "Historical plasma binding reference. The binding value is the historical table value, not a contemporary product-specific estimate. Release formulation is not matched.",
+          "sourceIds": [
+            "rdh5-v11-hydromorphone"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The binding value is the historical table value, not a contemporary product-specific estimate. Release formulation is not matched."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "hydroxocobalamin",
@@ -53008,7 +53590,7 @@
         "Ketalar"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Dissociative anaesthetic",
       "formulation": "Parenteral · verify exact local product",
       "routes": [
         "Parenteral"
@@ -53074,60 +53656,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2–4 h",
+          "context": "Historical normal/reference column. The monograph describes IV-bolus disposition; no oral/intranasal product matching or infusion regimen is established.",
+          "sourceIds": [
+            "rdh5-v11-ketamine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The monograph describes IV-bolus disposition; no oral/intranasal product matching or infusion regimen is established.",
+          "sourceIds": [
+            "rdh5-v11-ketamine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "4 L/kg",
+          "context": "The monograph describes IV-bolus disposition; no oral/intranasal product matching or infusion regimen is established.",
+          "sourceIds": [
+            "rdh5-v11-ketamine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "20–50%",
+          "context": "Historical plasma binding reference. The monograph describes IV-bolus disposition; no oral/intranasal product matching or infusion regimen is established.",
+          "sourceIds": [
+            "rdh5-v11-ketamine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The monograph describes IV-bolus disposition; no oral/intranasal product matching or infusion regimen is established."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "ketorolac",
@@ -53399,7 +53993,7 @@
         "Vimpat"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -53466,60 +54060,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "13 h",
+          "context": "Historical normal/reference column. Historical parent reference; no renal dose or post-HD supplement is calculated from these fields.",
+          "sourceIds": [
+            "rdh5-v11-lacosamide"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical parent reference; no renal dose or post-HD supplement is calculated from these fields.",
+          "sourceIds": [
+            "rdh5-v11-lacosamide"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.6 L/kg",
+          "context": "Historical parent reference; no renal dose or post-HD supplement is calculated from these fields.",
+          "sourceIds": [
+            "rdh5-v11-lacosamide"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "<15%",
+          "context": "Historical plasma binding reference. Historical parent reference; no renal dose or post-HD supplement is calculated from these fields.",
+          "sourceIds": [
+            "rdh5-v11-lacosamide"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical parent reference; no renal dose or post-HD supplement is calculated from these fields."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "lactulose",
@@ -53864,7 +54470,7 @@
         "Lamictal"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -53930,60 +54536,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "24–35 h",
+          "context": "Historical normal/reference column. Interactions markedly change half-life in the monograph; the renal-column statement is not an on-dialysis measurement.",
+          "sourceIds": [
+            "rdh5-v11-lamotrigine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Interactions markedly change half-life in the monograph; the renal-column statement is not an on-dialysis measurement.",
+          "sourceIds": [
+            "rdh5-v11-lamotrigine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.92–1.22 L/kg",
+          "context": "Interactions markedly change half-life in the monograph; the renal-column statement is not an on-dialysis measurement.",
+          "sourceIds": [
+            "rdh5-v11-lamotrigine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "55%",
+          "context": "Historical plasma binding reference. Interactions markedly change half-life in the monograph; the renal-column statement is not an on-dialysis measurement.",
+          "sourceIds": [
+            "rdh5-v11-lamotrigine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Interactions markedly change half-life in the monograph; the renal-column statement is not an on-dialysis measurement."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "lansoprazole",
@@ -57471,7 +58089,7 @@
         "Ativan"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Benzodiazepine",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -57538,60 +58156,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "10–20 h",
+          "context": "Historical normal/reference column. Parent reference; formulation/excipient and metabolite assessments are separate. No IV or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-lorazepam"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "32–70 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Parent reference; formulation/excipient and metabolite assessments are separate. No IV or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-lorazepam"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.9–1.3 L/kg",
+          "context": "Parent reference; formulation/excipient and metabolite assessments are separate. No IV or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-lorazepam"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "85%",
+          "context": "Historical plasma binding reference. Parent reference; formulation/excipient and metabolite assessments are separate. No IV or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-lorazepam"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Parent reference; formulation/excipient and metabolite assessments are separate. No IV or oral regimen is selected."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "losartan",
@@ -59489,7 +60119,7 @@
         "Ebixa"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "NMDA receptor antagonist",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -59555,60 +60185,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "60–100 h",
+          "context": "Historical normal/reference column. The final digit after 156 in extracted text is superscript reference 1. No dialysis clearance estimate is inferred from this historical table.",
+          "sourceIds": [
+            "rdh5-v11-memantine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "117–156 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The final digit after 156 in extracted text is superscript reference 1. No dialysis clearance estimate is inferred from this historical table.",
+          "sourceIds": [
+            "rdh5-v11-memantine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "10 L/kg",
+          "context": "The final digit after 156 in extracted text is superscript reference 1. No dialysis clearance estimate is inferred from this historical table.",
+          "sourceIds": [
+            "rdh5-v11-memantine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "45%",
+          "context": "Historical plasma binding reference. The final digit after 156 in extracted text is superscript reference 1. No dialysis clearance estimate is inferred from this historical table.",
+          "sourceIds": [
+            "rdh5-v11-memantine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The final digit after 156 in extracted text is superscript reference 1. No dialysis clearance estimate is inferred from this historical table."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "menthol-topical",
@@ -60575,7 +61217,7 @@
       "name": "Methadone",
       "aliases": [],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -60642,60 +61284,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "13–47 h",
+          "context": "Historical normal/reference column. Historical reference; wide variability and the selected clinical context require separate dose/titration assessment.",
+          "sourceIds": [
+            "rdh5-v11-methadone"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference; wide variability and the selected clinical context require separate dose/titration assessment.",
+          "sourceIds": [
+            "rdh5-v11-methadone"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3–6 L/kg",
+          "context": "Historical reference; wide variability and the selected clinical context require separate dose/titration assessment.",
+          "sourceIds": [
+            "rdh5-v11-methadone"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "60–90%",
+          "context": "Historical plasma binding reference. Historical reference; wide variability and the selected clinical context require separate dose/titration assessment.",
+          "sourceIds": [
+            "rdh5-v11-methadone"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference; wide variability and the selected clinical context require separate dose/titration assessment."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "methimazole",
@@ -62452,7 +63106,7 @@
         "Versed"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Benzodiazepine",
       "formulation": "Oral / Parenteral / Nasal · verify exact local product",
       "routes": [
         "Oral",
@@ -62520,60 +63174,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2–7 h",
+          "context": "Historical normal/reference column. Parent reference only; active-metabolite and infusion disposition are not represented by this half-life alone.",
+          "sourceIds": [
+            "rdh5-v11-midazolam"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Parent reference only; active-metabolite and infusion disposition are not represented by this half-life alone.",
+          "sourceIds": [
+            "rdh5-v11-midazolam"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.7–1.2 L/kg",
+          "context": "Parent reference only; active-metabolite and infusion disposition are not represented by this half-life alone.",
+          "sourceIds": [
+            "rdh5-v11-midazolam"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "96–98%",
+          "context": "Historical plasma binding reference. Parent reference only; active-metabolite and infusion disposition are not represented by this half-life alone.",
+          "sourceIds": [
+            "rdh5-v11-midazolam"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Parent reference only; active-metabolite and infusion disposition are not represented by this half-life alone."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "midodrine",
@@ -63965,7 +64631,7 @@
         "Oramorph"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -64032,60 +64698,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2–3 h",
+          "context": "Historical normal/reference column. Parent reference only; the monograph describes active morphine metabolites separately. An unchanged parent half-life does not establish unchanged opioid dosing needs.",
+          "sourceIds": [
+            "rdh5-v11-morphine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Parent reference only; the monograph describes active morphine metabolites separately. An unchanged parent half-life does not establish unchanged opioid dosing needs.",
+          "sourceIds": [
+            "rdh5-v11-morphine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3–5 L/kg",
+          "context": "Parent reference only; the monograph describes active morphine metabolites separately. An unchanged parent half-life does not establish unchanged opioid dosing needs.",
+          "sourceIds": [
+            "rdh5-v11-morphine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "20–35%",
+          "context": "Historical plasma binding reference. Parent reference only; the monograph describes active morphine metabolites separately. An unchanged parent half-life does not establish unchanged opioid dosing needs.",
+          "sourceIds": [
+            "rdh5-v11-morphine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Parent reference only; the monograph describes active morphine metabolites separately. An unchanged parent half-life does not establish unchanged opioid dosing needs."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "moxifloxacin",
@@ -67703,24 +68381,36 @@
         "Nuzyra"
       ],
       "category": "Antimicrobials",
-      "drugClass": "Antimicrobials",
-      "formulation": "Oral / Parenteral · verify exact local product",
+      "drugClass": "Aminomethylcycline antibiotic",
+      "formulation": "Oral / IV · selected adult protocol statement",
       "routes": [
         "Oral",
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min as specified in the institutional protocol",
+      "summary": "The selected adult institutional protocol specifies no renal reduction.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Selected adult renal statement",
+              "rows": [
+                {
+                  "context": "Adult renal impairment",
+                  "dose": "No renal dose adjustment specified in this protocol"
+                }
+              ]
+            }
+          ],
+          "notes": "Select the full indication, route-specific loading and maintenance regimen with ID/pharmacy. Current product-label reconciliation is pending; no universal dialysis schedule is inferred.",
+          "sourceIds": [
+            "nm11-omadacycline"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -67747,18 +68437,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Select the full indication, route-specific loading and maintenance regimen with ID/pharmacy. Current product-label reconciliation is pending; no universal dialysis schedule is inferred.",
+      "sourceIds": [
+        "nm11-omadacycline"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Omadacycline",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "The displayed renal statement is partial. A full indication/formulation regimen and missing IHD/PD/CRRT/PIRRT prescriptions are not inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected supplied-source adult statement only; current local product and independent clinical review remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -67823,7 +68515,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "omalizumab",
@@ -69098,7 +69791,7 @@
         "Trileptal"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -69164,60 +69857,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Parent 1.3–2.3 h; active metabolite 9 h",
+          "context": "Historical normal/reference column. Binding refers to the metabolite. The source distinguishes parent and metabolite half-lives; the Vd row does not further resolve the analyte.",
+          "sourceIds": [
+            "rdh5-v11-oxcarbazepine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Parent unchanged; active metabolite 16–19 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Binding refers to the metabolite. The source distinguishes parent and metabolite half-lives; the Vd row does not further resolve the analyte.",
+          "sourceIds": [
+            "rdh5-v11-oxcarbazepine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.7–0.8 L/kg",
+          "context": "Binding refers to the metabolite. The source distinguishes parent and metabolite half-lives; the Vd row does not further resolve the analyte.",
+          "sourceIds": [
+            "rdh5-v11-oxcarbazepine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "40–60% (metabolite)",
+          "context": "Historical plasma binding reference. Binding refers to the metabolite. The source distinguishes parent and metabolite half-lives; the Vd row does not further resolve the analyte.",
+          "sourceIds": [
+            "rdh5-v11-oxcarbazepine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Binding refers to the metabolite. The source distinguishes parent and metabolite half-lives; the Vd row does not further resolve the analyte."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "oxybutynin",
@@ -69360,7 +70065,7 @@
         "Oxynorm"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -69426,60 +70131,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2–4 h; modified release 4.5 h",
+          "context": "Historical normal/reference column. The source distinguishes modified-release half-life. Its Vd is printed as 6.31, not a superscript-reference 6.3.",
+          "sourceIds": [
+            "rdh5-v11-oxycodone"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3–5 h; modified release 5.5 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The source distinguishes modified-release half-life. Its Vd is printed as 6.31, not a superscript-reference 6.3.",
+          "sourceIds": [
+            "rdh5-v11-oxycodone"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "1.2–6.31 L/kg",
+          "context": "The source distinguishes modified-release half-life. Its Vd is printed as 6.31, not a superscript-reference 6.3.",
+          "sourceIds": [
+            "rdh5-v11-oxycodone"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "45%",
+          "context": "Historical plasma binding reference. The source distinguishes modified-release half-life. Its Vd is printed as 6.31, not a superscript-reference 6.3.",
+          "sourceIds": [
+            "rdh5-v11-oxycodone"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The source distinguishes modified-release half-life. Its Vd is printed as 6.31, not a superscript-reference 6.3."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "oxymetazoline-nasal",
@@ -72201,7 +72918,7 @@
         "Demerol"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Opioid analgesic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -72268,60 +72985,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "3–6 h",
+          "context": "Historical normal/reference column. Parent reference; the monograph describes active norpethidine separately. No opioid regimen or toxicity-clearance conclusion is inferred.",
+          "sourceIds": [
+            "rdh5-v11-pethidine-meperidine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "7–32 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Parent reference; the monograph describes active norpethidine separately. No opioid regimen or toxicity-clearance conclusion is inferred.",
+          "sourceIds": [
+            "rdh5-v11-pethidine-meperidine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "4.17 L/kg",
+          "context": "Parent reference; the monograph describes active norpethidine separately. No opioid regimen or toxicity-clearance conclusion is inferred.",
+          "sourceIds": [
+            "rdh5-v11-pethidine-meperidine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "60–80%",
+          "context": "Historical plasma binding reference. Parent reference; the monograph describes active norpethidine separately. No opioid regimen or toxicity-clearance conclusion is inferred.",
+          "sourceIds": [
+            "rdh5-v11-pethidine-meperidine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Parent reference; the monograph describes active norpethidine separately. No opioid regimen or toxicity-clearance conclusion is inferred."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "phenobarbital",
@@ -72330,7 +73059,7 @@
         "Phenobarbitone"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -72397,60 +73126,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "75–120 h",
+          "context": "Historical normal/reference column. Historical reference column, not a measured on-dialysis half-life or a toxicity-treatment protocol.",
+          "sourceIds": [
+            "rdh5-v11-phenobarbital"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference column, not a measured on-dialysis half-life or a toxicity-treatment protocol.",
+          "sourceIds": [
+            "rdh5-v11-phenobarbital"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "1 L/kg",
+          "context": "Historical reference column, not a measured on-dialysis half-life or a toxicity-treatment protocol.",
+          "sourceIds": [
+            "rdh5-v11-phenobarbital"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "45–60%",
+          "context": "Historical plasma binding reference. Historical reference column, not a measured on-dialysis half-life or a toxicity-treatment protocol.",
+          "sourceIds": [
+            "rdh5-v11-phenobarbital"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference column, not a measured on-dialysis half-life or a toxicity-treatment protocol."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "phenoxymethylpenicillin",
@@ -72745,7 +73486,7 @@
         "Epanutin"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -72812,60 +73553,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "7–42 h",
+          "context": "Historical normal/reference column. Historical reference binding does not establish the unbound fraction in an individual patient. No free concentration or renal dose is inferred.",
+          "sourceIds": [
+            "rdh5-v11-phenytoin"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference binding does not establish the unbound fraction in an individual patient. No free concentration or renal dose is inferred.",
+          "sourceIds": [
+            "rdh5-v11-phenytoin"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.52–1.19 L/kg",
+          "context": "Historical reference binding does not establish the unbound fraction in an individual patient. No free concentration or renal dose is inferred.",
+          "sourceIds": [
+            "rdh5-v11-phenytoin"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "90%",
+          "context": "Historical plasma binding reference. Historical reference binding does not establish the unbound fraction in an individual patient. No free concentration or renal dose is inferred.",
+          "sourceIds": [
+            "rdh5-v11-phenytoin"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference binding does not establish the unbound fraction in an individual patient. No free concentration or renal dose is inferred."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "pioglitazone",
@@ -74577,7 +75330,7 @@
         "Mirapex"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Dopamine agonist",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -74643,60 +75396,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "8–14 h",
+          "context": "Historical normal/reference column. Vd explicitly says total Litres despite the generic L/kg row heading; it is not 400–500 L/kg.",
+          "sourceIds": [
+            "rdh5-v11-pramipexole"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "36 h",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Vd explicitly says total Litres despite the generic L/kg row heading; it is not 400–500 L/kg.",
+          "sourceIds": [
+            "rdh5-v11-pramipexole"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "400–500 L",
+          "context": "Vd explicitly says total Litres despite the generic L/kg row heading; it is not 400–500 L/kg.",
+          "sourceIds": [
+            "rdh5-v11-pramipexole"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "<20%",
+          "context": "Historical plasma binding reference. Vd explicitly says total Litres despite the generic L/kg row heading; it is not 400–500 L/kg.",
+          "sourceIds": [
+            "rdh5-v11-pramipexole"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Vd explicitly says total Litres despite the generic L/kg row heading; it is not 400–500 L/kg."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "prasugrel",
@@ -80198,7 +80963,7 @@
         "Exelon"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Cholinesterase inhibitor",
       "formulation": "Oral / Transdermal · verify exact local product",
       "routes": [
         "Oral",
@@ -80265,60 +81030,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "1 h",
+          "context": "Historical normal/reference column. Reference table is not matched to transdermal kinetics; no patch or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-rivastigmine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Reference table is not matched to transdermal kinetics; no patch or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-rivastigmine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "1.8–2.7 L/kg",
+          "context": "Reference table is not matched to transdermal kinetics; no patch or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-rivastigmine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "40%",
+          "context": "Historical plasma binding reference. Reference table is not matched to transdermal kinetics; no patch or oral regimen is selected.",
+          "sourceIds": [
+            "rdh5-v11-rivastigmine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Reference table is not matched to transdermal kinetics; no patch or oral regimen is selected."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "rizatriptan",
@@ -80855,7 +81632,7 @@
         "Requip"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Dopamine agonist",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -80921,60 +81698,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "6 h",
+          "context": "Historical normal/reference column. The source contains distinct Parkinson disease, restless-leg and modified-release regimens; none is selected from these PK fields.",
+          "sourceIds": [
+            "rdh5-v11-ropinirole"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
+          "status": "not_reported",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The source contains distinct Parkinson disease, restless-leg and modified-release regimens; none is selected from these PK fields.",
+          "sourceIds": [
+            "rdh5-v11-ropinirole"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "8 L/kg",
+          "context": "The source contains distinct Parkinson disease, restless-leg and modified-release regimens; none is selected from these PK fields.",
+          "sourceIds": [
+            "rdh5-v11-ropinirole"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "10–40%",
+          "context": "Historical plasma binding reference. The source contains distinct Parkinson disease, restless-leg and modified-release regimens; none is selected from these PK fields.",
+          "sourceIds": [
+            "rdh5-v11-ropinirole"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The source contains distinct Parkinson disease, restless-leg and modified-release regimens; none is selected from these PK fields."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "rosuvastatin",
@@ -87016,7 +87805,7 @@
         "Imitrex"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Triptan",
       "formulation": "Oral / Parenteral / Nasal · verify exact local product",
       "routes": [
         "Oral",
@@ -87084,60 +87873,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2 h",
+          "context": "Historical normal/reference column. Vd explicitly says total Litres, not L/kg. Route/formulation-specific PK and renal dosing remain separate.",
+          "sourceIds": [
+            "rdh5-v11-sumatriptan"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Probably unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Vd explicitly says total Litres, not L/kg. Route/formulation-specific PK and renal dosing remain separate.",
+          "sourceIds": [
+            "rdh5-v11-sumatriptan"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "170 L",
+          "context": "Vd explicitly says total Litres, not L/kg. Route/formulation-specific PK and renal dosing remain separate.",
+          "sourceIds": [
+            "rdh5-v11-sumatriptan"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "14–21%",
+          "context": "Historical plasma binding reference. Vd explicitly says total Litres, not L/kg. Route/formulation-specific PK and renal dosing remain separate.",
+          "sourceIds": [
+            "rdh5-v11-sumatriptan"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Vd explicitly says total Litres, not L/kg. Route/formulation-specific PK and renal dosing remain separate."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "tacrolimus",
@@ -88145,23 +88946,26 @@
         "Vibativ"
       ],
       "category": "Antimicrobials",
-      "drugClass": "Antimicrobials",
-      "formulation": "Parenteral · verify exact local product",
+      "drugClass": "Lipoglycopeptide antibiotic",
+      "formulation": "IV telavancin · numeric regimen withheld",
       "routes": [
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min as specified in the institutional protocol",
+      "summary": "Renal adjustment and product-specific restrictions require reconciliation before selecting a numeric regimen.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The supplied protocol changes dosing at CrCl 30–50 and 10–29, and reports no data below 10 or on HD. The historical 2018 handbook reports a different UK restriction below CrCl 30/dialysis and a mortality signal in patients with baseline AKI. A current indication- and jurisdiction-specific label has not been verified in this batch, so its numeric renal table is withheld.",
+          "sourceIds": [
+            "nm11-telavancin",
+            "rdh5-v11-telavancin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -88188,18 +88992,21 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "The supplied protocol changes dosing at CrCl 30–50 and 10–29, and reports no data below 10 or on HD. The historical 2018 handbook reports a different UK restriction below CrCl 30/dialysis and a mortality signal in patients with baseline AKI. A current indication- and jurisdiction-specific label has not been verified in this batch, so its numeric renal table is withheld.",
+      "sourceIds": [
+        "nm11-telavancin",
+        "rdh5-v11-telavancin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Telavancin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "The displayed renal statement is partial. A full indication/formulation regimen and missing IHD/PD/CRRT/PIRRT prescriptions are not inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Selected supplied-source adult statement only; current local product and independent clinical review remain pending.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -88264,7 +89071,18 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.11.0",
+      "evidenceNotes": [
+        {
+          "title": "Source and jurisdiction limits",
+          "text": "Supplied 2026-approved institutional dose bands differ from UK restrictions reported in the historical 2018 handbook. Current authorised product and indication have not been reconciled. Numeric renal and dialysis dosing withheld; review renal safety, mortality warning and current local label before use.",
+          "sourceIds": [
+            "nm11-telavancin",
+            "rdh5-v11-telavancin"
+          ]
+        }
+      ]
     },
     {
       "id": "telmisartan",
@@ -90788,7 +91606,7 @@
         "Zanaflex"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Alpha-2 agonist · muscle relaxant",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -90854,60 +91672,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2.4 h",
+          "context": "Historical normal/reference column. Historical reference; numeric renal dosing and interaction reconciliation remain uncurated.",
+          "sourceIds": [
+            "rdh5-v11-tizanidine"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Increased; no numeric value in table",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Historical reference; numeric renal dosing and interaction reconciliation remain uncurated.",
+          "sourceIds": [
+            "rdh5-v11-tizanidine"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "2.4 L/kg",
+          "context": "Historical reference; numeric renal dosing and interaction reconciliation remain uncurated.",
+          "sourceIds": [
+            "rdh5-v11-tizanidine"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "30%",
+          "context": "Historical plasma binding reference. Historical reference; numeric renal dosing and interaction reconciliation remain uncurated.",
+          "sourceIds": [
+            "rdh5-v11-tizanidine"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Historical reference; numeric renal dosing and interaction reconciliation remain uncurated."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "tobramycin",
@@ -91584,7 +92414,7 @@
         "Topamax"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral · verify exact local product",
       "routes": [
         "Oral"
@@ -91650,60 +92480,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "20–30 h",
+          "context": "Historical normal/reference column. The source qualifier about enzyme-inducing antiepileptics must not be discarded or used to calculate a dose ratio.",
+          "sourceIds": [
+            "rdh5-v11-topiramate"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "48–60 h; source also lists 12–15 h with an enzyme-inducing antiepileptic",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. The source qualifier about enzyme-inducing antiepileptics must not be discarded or used to calculate a dose ratio.",
+          "sourceIds": [
+            "rdh5-v11-topiramate"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.55–0.8 L/kg",
+          "context": "The source qualifier about enzyme-inducing antiepileptics must not be discarded or used to calculate a dose ratio.",
+          "sourceIds": [
+            "rdh5-v11-topiramate"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "9–17%",
+          "context": "Historical plasma binding reference. The source qualifier about enzyme-inducing antiepileptics must not be discarded or used to calculate a dose ratio.",
+          "sourceIds": [
+            "rdh5-v11-topiramate"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. The source qualifier about enzyme-inducing antiepileptics must not be discarded or used to calculate a dose ratio."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "torsemide",
@@ -94700,7 +95542,7 @@
         "Epilim"
       ],
       "category": "Pain & neurology",
-      "drugClass": "Pain & neurology",
+      "drugClass": "Antiepileptic",
       "formulation": "Oral / Parenteral · verify exact local product",
       "routes": [
         "Oral",
@@ -94767,60 +95609,72 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-10-30",
+        "historical": true,
+        "evidenceDate": "2018 (copyright 2019)",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "6–15 h",
+          "context": "Historical normal/reference column. Sodium-valproate reference. The digit after 0.4 in extracted text is superscript reference 1, not a Vd of 0.41. No free concentration is inferred.",
+          "sourceIds": [
+            "rdh5-v11-valproate"
+          ]
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "Unchanged",
+          "context": "Historical renal/ESRF column; not an on-dialysis estimate. Sodium-valproate reference. The digit after 0.4 in extracted text is superscript reference 1, not a Vd of 0.41. No free concentration is inferred.",
+          "sourceIds": [
+            "rdh5-v11-valproate"
+          ],
+          "basis": "handbook_normal_esrf_columns"
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "0.1–0.4 L/kg",
+          "context": "Sodium-valproate reference. The digit after 0.4 in extracted text is superscript reference 1, not a Vd of 0.41. No free concentration is inferred.",
+          "sourceIds": [
+            "rdh5-v11-valproate"
+          ]
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "90–95%",
+          "context": "Historical plasma binding reference. Sodium-valproate reference. The digit after 0.4 in extracted text is superscript reference 1, not a Vd of 0.41. No free concentration is inferred.",
+          "sourceIds": [
+            "rdh5-v11-valproate"
+          ]
         },
         "dialysability": {
           "ihd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "pd": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "crrt": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           },
           "sled": {
             "status": "not_curated",
             "value": null,
-            "context": "Modality-specific removal data have not been curated.",
+            "context": "The historical category has not been reconciled with contemporary modality-specific evidence; not imported in this batch.",
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Historical 2018 PK fields only. Renal dose schedules and dialysis-removal categories are withheld pending current-source verification. Sodium-valproate reference. The digit after 0.4 in extracted text is superscript reference 1, not a Vd of 0.41. No free concentration is inferred."
+      },
+      "updatedInVersion": "0.11.0"
     },
     {
       "id": "valsartan",
@@ -98231,6 +99085,12 @@
       "issue": "The selected label explicitly prints indexed historical MDRD including a race coefficient; the app calculator omits race.",
       "action": "Retain the label-native metric and prohibit automatic transfer from the calculator.",
       "status": "clinical_reconciliation_pending"
+    },
+    {
+      "drug": "telavancin",
+      "issue": "Supplied 2026-approved institutional dose bands differ from UK restrictions reported in the historical 2018 handbook. Current authorised product and indication have not been reconciled.",
+      "action": "Numeric renal and dialysis dosing withheld; review renal safety, mortality warning and current local label before use.",
+      "status": "clinical_reconciliation_pending"
     }
   ],
   "releaseChanges": {
@@ -98353,7 +99213,7 @@
       "tmp-smx"
     ]
   },
-  "clinicalDataVersion": "0.10.0",
+  "clinicalDataVersion": "0.11.0",
   "calculatorSources": [
     {
       "title": "NIDDK · adult CKD-EPI equations",
@@ -98393,96 +99253,83 @@
     }
   ],
   "clinicalUpdates": {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "changedIds": [
-      "alfuzosin",
-      "amiloride",
-      "bumetanide",
-      "chlorthalidone",
-      "desloratadine",
-      "dexlansoprazole",
-      "diltiazem",
-      "doxazosin",
-      "dutasteride",
-      "felodipine",
-      "fenofibrate",
-      "finasteride",
-      "gemfibrozil",
-      "hydroxyzine",
-      "labetalol",
-      "lactulose",
-      "levocetirizine",
-      "linaclotide",
-      "lubiprostone",
-      "macrogol-polyethylene-glycol",
-      "mirabegron",
-      "montelukast",
-      "nifedipine",
-      "oxybutynin",
-      "pantoprazole",
-      "perindopril",
-      "pitavastatin",
-      "propranolol",
-      "rabeprazole",
-      "roflumilast",
-      "silodosin",
-      "simvastatin",
-      "solifenacin",
-      "sucralfate",
-      "tamsulosin",
-      "tiotropium",
-      "tolterodine",
-      "torsemide",
-      "trospium",
-      "vibegron"
+      "amantadine",
+      "brivaracetam",
+      "buprenorphine",
+      "carbamazepine",
+      "clonazepam",
+      "codeine",
+      "diazepam",
+      "donepezil",
+      "fentanyl",
+      "hydromorphone",
+      "ketamine",
+      "lacosamide",
+      "lamotrigine",
+      "lorazepam",
+      "memantine",
+      "methadone",
+      "midazolam",
+      "morphine",
+      "omadacycline",
+      "oxcarbazepine",
+      "oxycodone",
+      "pethidine-meperidine",
+      "phenobarbital",
+      "phenytoin",
+      "pramipexole",
+      "rivastigmine",
+      "ropinirole",
+      "sumatriptan",
+      "telavancin",
+      "tizanidine",
+      "topiramate",
+      "valproate"
     ],
     "newRenalIds": [
-      "alfuzosin",
-      "amiloride",
-      "bumetanide",
-      "chlorthalidone",
-      "desloratadine",
-      "dexlansoprazole",
-      "diltiazem",
-      "doxazosin",
-      "dutasteride",
-      "felodipine",
-      "fenofibrate",
-      "finasteride",
-      "gemfibrozil",
-      "hydroxyzine",
-      "labetalol",
-      "lactulose",
-      "levocetirizine",
-      "linaclotide",
-      "lubiprostone",
-      "macrogol-polyethylene-glycol",
-      "mirabegron",
-      "montelukast",
-      "nifedipine",
-      "oxybutynin",
-      "pantoprazole",
-      "perindopril",
-      "pitavastatin",
-      "propranolol",
-      "rabeprazole",
-      "roflumilast",
-      "silodosin",
-      "simvastatin",
-      "solifenacin",
-      "sucralfate",
-      "tamsulosin",
-      "tiotropium",
-      "tolterodine",
-      "torsemide",
-      "trospium",
-      "vibegron"
+      "omadacycline",
+      "telavancin"
     ],
     "newPKIds": [
-      "doxazosin",
-      "torsemide",
-      "tamsulosin"
+      "morphine",
+      "hydromorphone",
+      "oxycodone",
+      "fentanyl",
+      "buprenorphine",
+      "codeine",
+      "pethidine-meperidine",
+      "methadone",
+      "lacosamide",
+      "lamotrigine",
+      "oxcarbazepine",
+      "topiramate",
+      "carbamazepine",
+      "phenytoin",
+      "valproate",
+      "pramipexole",
+      "ropinirole",
+      "amantadine",
+      "memantine",
+      "donepezil",
+      "rivastigmine",
+      "clonazepam",
+      "lorazepam",
+      "midazolam",
+      "diazepam",
+      "tizanidine",
+      "phenobarbital",
+      "brivaracetam",
+      "ketamine",
+      "sumatriptan"
     ],
-    "scope": "Selected adult product renal statements only; some are caution/insufficient-data summaries, not numeric regimens or approved monographs."
+    "scope": "Two partial institutional renal profiles; thirty historical PK panels, with new renal doses and RRT removal withheld pending current-source reconciliation."
+  },
+  "researchLimitations": {
+    "version": "0.11.0",
+    "onlinePrimarySourceLookup": "Unavailable during this batch; no new current-label verification claimed.",
+    "historicalPK": "Thirty selected fifth-edition tables checked against supplied PDF pages. No new dialysis-removal category or historical renal-dose table imported.",
+    "renalSources": "Supplied April-2026-approved adult institutional rows; complete current product reconciliation remains pending."
   }
 }
