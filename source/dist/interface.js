@@ -48,5 +48,16 @@ function goBack(){
 document.addEventListener('click',e=>{if(e.target.closest('[data-app-back]'))goBack();});
 window.addEventListener('scroll',()=>{if(navigationCurrent&&!navigationRestoring)navigationCurrent.scroll=window.scrollY;},{passive:true});
 
+// Home clears the browsing context while preserving reader preferences/favourites.
+function goHome(){
+ [...document.querySelectorAll('dialog[open]')].forEach(dialog=>dialog.close());
+ selected=null;mode='ckd';resetFilters();$('#search').value='';renderKey=null;
+ $('#filter-panel').open=false;$('#filters-toggle').setAttribute('aria-expanded','false');
+ renderResults();$('#results').scrollTop=0;window.scrollTo({top:0,behavior:'instant'});
+ $('#search').focus({preventScroll:true});
+ if(db)navigationCurrent=navigationSnapshot();
+}
+$('#home-link').addEventListener('click',event=>{event.preventDefault();goHome();});
+
 $('#filters-toggle').addEventListener('click',()=>{$('#filter-panel').open=!$('#filter-panel').open;$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open));});
 $('#filter-panel').addEventListener('toggle',()=>$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open)));

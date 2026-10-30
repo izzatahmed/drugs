@@ -41,3 +41,6 @@ html[data-theme="dark"] #calculator .calc-grid label,html[data-theme="dark"] #ca
 @media(max-width:350px){.reader-toolbar{gap:4px}.reader-toolbar .font-controls button{min-width:28px;padding:2px 3px}.reader-toolbar .font-controls #font-reset{min-width:35px}.reader-toolbar .theme-toggle{min-width:28px;padding:2px 5px}.reader-toolbar .calculator-launch{padding:2px 6px}.program-title{font-size:11px}}
 
 html[data-theme="dark"] :is(.context-notice strong,.dose-note strong){color:var(--teal)!important}
+
+/* The title is also a keyboard-accessible Home link. */
+.program-title{pointer-events:auto;text-decoration:none;border-radius:4px;padding:2px 3px}.program-title:hover{color:var(--teal)}.program-title:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
