@@ -1,7 +1,7 @@
 {
-  "version": "0.11.0",
+  "version": "0.11.1",
   "notComplete": true,
-  "note": "PK-only panels do not constitute renal dosing guidance. Renal profiles also retain indication/formulation/RRT gaps; independent clinical approval remains pending.",
+  "note": "Renal profiles also retain product/indication/RRT gaps. Independent clinical approval pending.",
   "remaining": [
     {
       "id": "abatacept",
@@ -98,12 +98,6 @@
       "name": "Aluminium hydroxide",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only"
-    },
-    {
-      "id": "amantadine",
-      "name": "Amantadine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "ambrisentan",
@@ -316,21 +310,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "brivaracetam",
-      "name": "Brivaracetam",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "budesonide-inhaled",
       "name": "Budesonide (inhaled)",
       "category": "Allergy & respiratory",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "buprenorphine",
-      "name": "Buprenorphine",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -424,12 +406,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "cefixime",
-      "name": "Cefixime",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "cefoperazone-sulbactam",
       "name": "Cefoperazone / sulbactam",
       "category": "Antimicrobials",
@@ -502,12 +478,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "clonazepam",
-      "name": "Clonazepam",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "clopidogrel",
       "name": "Clopidogrel",
       "category": "Anticoagulation & haematology",
@@ -517,12 +487,6 @@
       "id": "clotrimazole-topical",
       "name": "Clotrimazole topical",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "codeine",
-      "name": "Codeine",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -571,12 +535,6 @@
       "id": "dasatinib",
       "name": "Dasatinib",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "delafloxacin",
-      "name": "Delafloxacin",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -754,12 +712,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "entecavir",
-      "name": "Entecavir",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "enzalutamide",
       "name": "Enzalutamide",
       "category": "Oncology",
@@ -781,12 +733,6 @@
       "id": "eptifibatide",
       "name": "Eptifibatide",
       "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "eravacycline",
-      "name": "Eravacycline",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -847,12 +793,6 @@
       "id": "evolocumab",
       "name": "Evolocumab",
       "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "fentanyl",
-      "name": "Fentanyl",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1042,12 +982,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "hydromorphone",
-      "name": "Hydromorphone",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "hydroxocobalamin",
       "name": "Hydroxocobalamin",
       "category": "Anticoagulation & haematology",
@@ -1117,12 +1051,6 @@
       "id": "imatinib",
       "name": "Imatinib",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "imipenem-cilastatin-relebactam",
-      "name": "Imipenem / cilastatin / relebactam",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1270,18 +1198,6 @@
       "reason": "Shared safety note only"
     },
     {
-      "id": "lacosamide",
-      "name": "Lacosamide",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "lamotrigine",
-      "name": "Lamotrigine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "lansoprazole",
       "name": "Lansoprazole",
       "category": "OTC & medicine safety",
@@ -1354,12 +1270,6 @@
       "reason": "Shared safety note only"
     },
     {
-      "id": "lorazepam",
-      "name": "Lorazepam",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "macitentan",
       "name": "Macitentan",
       "category": "Urology & other medicines",
@@ -1414,12 +1324,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "memantine",
-      "name": "Memantine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "menthol-topical",
       "name": "Menthol (topical)",
       "category": "OTC & medicine safety",
@@ -1435,12 +1339,6 @@
       "id": "mesalazine",
       "name": "Mesalazine",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "methadone",
-      "name": "Methadone",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1486,12 +1384,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "midazolam",
-      "name": "Midazolam",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "midodrine",
       "name": "Midodrine",
       "category": "Cardiovascular",
@@ -1519,18 +1411,6 @@
       "id": "misoprostol",
       "name": "Misoprostol",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "molnupiravir",
-      "name": "Molnupiravir",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "morphine",
-      "name": "Morphine",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1624,12 +1504,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "ofloxacin",
-      "name": "Ofloxacin",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "olaparib",
       "name": "Olaparib",
       "category": "Oncology",
@@ -1663,18 +1537,6 @@
       "id": "oxaliplatin",
       "name": "Oxaliplatin",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "oxcarbazepine",
-      "name": "Oxcarbazepine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "oxycodone",
-      "name": "Oxycodone",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1762,28 +1624,10 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "pethidine-meperidine",
-      "name": "Pethidine / meperidine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "phenobarbital",
-      "name": "Phenobarbital",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "phenylephrine-oral",
       "name": "Phenylephrine (oral)",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only"
-    },
-    {
-      "id": "phenytoin",
-      "name": "Phenytoin",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "piperacillin",
@@ -1825,12 +1669,6 @@
       "id": "potassium-containing-salt-substitutes",
       "name": "Potassium-containing salt substitutes",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "pramipexole",
-      "name": "Pramipexole",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1948,12 +1786,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "rezafungin",
-      "name": "Rezafungin",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "ribociclib",
       "name": "Ribociclib",
       "category": "Oncology",
@@ -1984,12 +1816,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "rivastigmine",
-      "name": "Rivastigmine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "rizatriptan",
       "name": "Rizatriptan",
       "category": "Pain & neurology",
@@ -2005,12 +1831,6 @@
       "id": "romosozumab",
       "name": "Romosozumab",
       "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ropinirole",
-      "name": "Ropinirole",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -2164,12 +1984,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "sulbactam-durlobactam",
-      "name": "Sulbactam / durlobactam",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "sulfasalazine",
       "name": "Sulfasalazine",
       "category": "Gastrointestinal",
@@ -2266,12 +2080,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "tizanidine",
-      "name": "Tizanidine",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "tocilizumab",
       "name": "Tocilizumab",
       "category": "Transplant & immunology",
@@ -2287,12 +2095,6 @@
       "id": "tolvaptan",
       "name": "Tolvaptan",
       "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "topiramate",
-      "name": "Topiramate",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -2323,12 +2125,6 @@
       "id": "triamterene",
       "name": "Triamterene",
       "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "trimethoprim",
-      "name": "Trimethoprim",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -2371,12 +2167,6 @@
       "id": "ursodeoxycholic-acid",
       "name": "Ursodeoxycholic acid",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "valproate",
-      "name": "Valproate",
-      "category": "Pain & neurology",
       "reason": "Renal-dose curation pending"
     },
     {
