@@ -90,16 +90,6 @@
     "sourceCheckedAt": "2026-10-29"
   },
   {
-    "id": "upload-0",
-    "organisation": "CRC Press (Taylor & Francis)",
-    "title": "Renal Drug Handbook, 5th edition",
-    "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
-    "role": "Historical reference being replaced",
-    "access": "Cited by page number; the original document is not redistributed.",
-    "use": "No longer used for dose tables. Some pharmacokinetic values still cite it and are being rebuilt from current labels.",
-    "sourceCheckedAt": "2026-10-29"
-  },
-  {
     "id": "upload-1",
     "organisation": "KDIGO",
     "title": "KDIGO drug-dosing clinical update",

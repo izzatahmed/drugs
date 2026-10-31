@@ -1,3 +1,21 @@
+# RenalRounds v0.12.3 · 31 October 2026
+
+- **Pharmacokinetics rebuilt from current product information.** The 128 profiles that still quoted the Renal Drug Handbook (5th ed., 2018) now quote the current US FDA label, or the EMA product information (vildagliptin) or UK SmPC (teicoplanin, domperidone, carbimazole, hyoscine butylbromide, alfacalcidol, colecalciferol) where there is no US label. Each value shows the label sentence it came from: 247 half-life / Vd / binding values and 81 dialysis-removal statements.
+- Values that a current label does not state are left blank and marked "being rebuilt"; the old handbook figures were not carried over. Metabolite values are labelled (e.g. oxcarbazepine MHD, sulfasalazine/sulfapyridine, mesalamine/N-acetyl-5-ASA).
+- The Renal Drug Handbook is no longer cited anywhere in the app. PK coverage: 144 profiles, 45 with all four core items.
+- Dose tables unchanged (drug content version stays 0.12.1).
+
+## Earlier release record
+
+# RenalRounds v0.12.2 · 31 October 2026
+
+- **Pregnancy and lactation** now covers 588 of 669 entries, quoted from each medicine's current US FDA label (matched by active ingredient and route). Legacy FDA letters appear only where a label still prints one; the TGA (Australian) category appears once a reviewer enters it.
+- **Reference checks:** every entry shows BNF, Lexidrugs, UpToDate, MIMS (Australia) and a JFDA product check, each "Not yet checked" until a named reviewer records Agrees / Differs / Not listed. These references are used for verification only; their text is not reproduced.
+- **Review workflow:** completed review sheets are imported with `import_review.py`; approved entries then show "Reviewed by … on …".
+- No dose table changed in this release.
+
+## Earlier release record
+
 # RenalRounds v0.12.1 · 31 October 2026
 
 - **Vancomycin, gentamicin, amikacin and tobramycin** now have numeric dosing: US label renal methods, Nebraska Medicine/UNMC renal and haemodialysis protocols (vancomycin: 20 mg/kg load, 750 mg after each session, adjusted by pre-dialysis level), and systemic PD doses.
