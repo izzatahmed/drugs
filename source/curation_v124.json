@@ -1,0 +1,620 @@
+{
+ "digoxin": {
+  "label": "extra/lanoxin_tab.json",
+  "brand": "LANOXIN tablets",
+  "kidneyMetric": "Corrected CrCl (mL/min per 70 kg) and lean body weight",
+  "summary": "Once-daily maintenance dose by corrected CrCl and lean body weight (US label Table 3); not removed by dialysis.",
+  "considerations": "Base the dose on lean body weight and corrected CrCl, then adjust to clinical response and serum digoxin concentrations. Steady state takes 7–19 days depending on renal function.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Maintenance dose, micrograms once daily (tablets) · US label Table 3",
+      "rows": [
+       {
+        "context": "Corrected CrCl 10 mL/min",
+        "dose": "40 kg: 62.5*; 50 kg: 125; 60 kg: 125; 70 kg: 187.5; 80 kg: 187.5; 90 kg: 187.5; 100 kg: 250 mcg (lean body weight) · steady state ≈19 days"
+       },
+       {
+        "context": "Corrected CrCl 20 mL/min",
+        "dose": "40 kg: 125; 50 kg: 125; 60 kg: 125; 70 kg: 187.5; 80 kg: 187.5; 90 kg: 250; 100 kg: 250 mcg (lean body weight) · steady state ≈16 days"
+       },
+       {
+        "context": "Corrected CrCl 30 mL/min",
+        "dose": "40 kg: 125; 50 kg: 125; 60 kg: 187.5; 70 kg: 187.5; 80 kg: 250; 90 kg: 250; 100 kg: 312.5 mcg (lean body weight) · steady state ≈14 days"
+       },
+       {
+        "context": "Corrected CrCl 40 mL/min",
+        "dose": "40 kg: 125; 50 kg: 187.5; 60 kg: 187.5; 70 kg: 250; 80 kg: 250; 90 kg: 312.5; 100 kg: 312.5 mcg (lean body weight) · steady state ≈13 days"
+       },
+       {
+        "context": "Corrected CrCl 50 mL/min",
+        "dose": "40 kg: 125; 50 kg: 187.5; 60 kg: 187.5; 70 kg: 250; 80 kg: 250; 90 kg: 312.5; 100 kg: 312.5 mcg (lean body weight) · steady state ≈12 days"
+       },
+       {
+        "context": "Corrected CrCl 60 mL/min",
+        "dose": "40 kg: 125; 50 kg: 187.5; 60 kg: 250; 70 kg: 250; 80 kg: 312.5; 90 kg: 312.5; 100 kg: 375 mcg (lean body weight) · steady state ≈11 days"
+       },
+       {
+        "context": "Corrected CrCl 70 mL/min",
+        "dose": "40 kg: 187.5; 50 kg: 187.5; 60 kg: 250; 70 kg: 250; 80 kg: 312.5; 90 kg: 375; 100 kg: 375 mcg (lean body weight) · steady state ≈10 days"
+       },
+       {
+        "context": "Corrected CrCl 80 mL/min",
+        "dose": "40 kg: 187.5; 50 kg: 187.5; 60 kg: 250; 70 kg: 312.5; 80 kg: 312.5; 90 kg: 375; 100 kg: 437.5 mcg (lean body weight) · steady state ≈9 days"
+       },
+       {
+        "context": "Corrected CrCl 90 mL/min",
+        "dose": "40 kg: 187.5; 50 kg: 250; 60 kg: 250; 70 kg: 312.5; 80 kg: 375; 90 kg: 437.5; 100 kg: 437.5 mcg (lean body weight) · steady state ≈8 days"
+       },
+       {
+        "context": "Corrected CrCl 100 mL/min",
+        "dose": "40 kg: 187.5; 50 kg: 250; 60 kg: 312.5; 70 kg: 312.5; 80 kg: 375; 90 kg: 437.5; 100 kg: 500 mcg (lean body weight) · steady state ≈7 days"
+       }
+      ]
+     },
+     {
+      "indication": "Loading dose, if needed (adults) · US label Table 1",
+      "rows": [
+       {
+        "context": "Adults",
+        "dose": "10–15 mcg/kg in total: half first, then ¼ every 6–8 h twice, assessing response and toxicity before each dose"
+       }
+      ]
+     }
+    ],
+    "notes": "Corrected CrCl is per 70 kg or 1.73 m²; the label estimates it in men as (140 − age) ÷ SCr, × 0.85 in women. * = about 30% below the calculated dose: check a level and increase if needed. Alternative: maintenance = loading dose × (14 + CrCl/5) ÷ 100. Reduce the dose when lean weight is a small fraction of total body mass (obesity, oedema). Levels <0.5 ng/mL are associated with diminished efficacy and >2 ng/mL with toxicity; adverse reactions may increase above 1.2 ng/mL. Doses come from studies in heart failure.",
+    "ev": [
+     "Table 3 provides the recommended (once daily) maintenance dose for adults and pediatric patients over 10 years old (to be given once daily) according to lean body weight and renal function",
+     "Recommended doses approximately 30 percent lower than the calculated dose are designated with an *",
+     "Total Maintenance Dose = Loading Dose (i.e., Peak Body Stores) x % Daily Loss/100 (% Daily Loss = 14 + Creatinine clearance/5)",
+     "Serum digoxin levels less than 0.5 ng/mL have been associated with diminished efficacy, while levels above 2 ng/mL have been associated with increased toxicity without increased benefit",
+     "As digoxin serum levels increase above 1.2 ng/mL, there is a potential for increase in adverse reactions"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Not removed by dialysis: give no supplement after haemodialysis. The label dose table stops at CrCl 10 mL/min, so the maintenance dose in dialysis patients is individualised from serum levels (half-life 3.5–5 days in anuria).",
+    "ev": [
+     "Digoxin is not effectively removed from the body by dialysis, exchange transfusion, or during cardiopulmonary bypass because most of the drug is bound to extravascular tissues",
+     "The half-life in anuric patients is prolonged to 3.5-5 days"
+    ]
+   },
+   "pd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The label states digoxin is not effectively removed by dialysis (modality not specified). No PD dose is given; individualise from serum levels.",
+    "ev": [
+     "Digoxin is not effectively removed from the body by dialysis because of its large extravascular volume of distribution"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.5–2 days (normal renal function)",
+    "ev": "In healthy volunteers with normal renal function, digoxin has a half-life of 1.5-2 days",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "3.5–5 days (anuric)",
+    "ev": "The half-life in anuric patients is prolonged to 3.5-5 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈475–500 L (follows lean body weight)",
+    "ev": "Digoxin is concentrated in tissues and therefore has a large apparent volume of distribution (approximately 475-500 L)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈25%",
+    "ev": "Approximately 25% of digoxin in the plasma is bound to protein",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not effectively removed by dialysis (label)",
+    "ev": "Digoxin is not effectively removed from the body by dialysis, exchange transfusion, or during cardiopulmonary bypass because most of the drug is bound to extravascular tissues",
+    "status": "not_removed"
+   },
+   "pd": {
+    "value": "Not effectively removed by dialysis (label; modality not specified)",
+    "ev": "Digoxin is not effectively removed from the body by dialysis because of its large extravascular volume of distribution",
+    "status": "not_removed"
+   }
+  }
+ },
+ "omeprazole": {
+  "label": "preg/omeprazole.json",
+  "brand": "Omeprazole",
+  "promote": false,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with chronic renal impairment (creatinine clearance between 10 and 62 mL/min/1.73 m2), the disposition of omeprazole was very similar to that in healthy subjects, although there was a slight increase in bioavailability"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment stated; not readily dialyzable, so no supplement after HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Omeprazole is extensively protein bound and is, therefore, not readily dialyzable"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.5–1 h",
+    "ev": "In healthy subjects the plasma half-life is 0.5 to 1 hour, and the total body clearance is 500 to 600 mL/min",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Disposition similar to healthy subjects (CrCl 10–62 mL/min)",
+    "ev": "In patients with chronic renal impairment (creatinine clearance between 10 and 62 mL/min/1.73 m2), the disposition of omeprazole was very similar to that in healthy subjects, although there was a slight increase in bioavailability",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈95%",
+    "ev": "Protein binding is approximately 95%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not readily dialyzable (label)",
+    "ev": "Omeprazole is extensively protein bound and is, therefore, not readily dialyzable",
+    "status": "not_removed"
+   }
+  }
+ },
+ "esomeprazole": {
+  "label": "preg/esomeprazole.json",
+  "brand": "Esomeprazole magnesium",
+  "promote": true,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The pharmacokinetics of esomeprazole magnesium delayed-release capsules in patients with renal impairment are not expected to be altered relative to healthy subjects as less than 1% of esomeprazole is excreted unchanged in urine"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment; not expected to be removed by dialysis, so no supplement after HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Since esomeprazole is extensively protein bound, it is not expected to be removed by dialysis"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈1–1.5 h",
+    "ev": "The plasma elimination half-life of esomeprazole is approximately 1 to 1.5 hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Not expected to change (<1% excreted unchanged)",
+    "ev": "The pharmacokinetics of esomeprazole magnesium delayed-release capsules in patients with renal impairment are not expected to be altered relative to healthy subjects as less than 1% of esomeprazole is excreted unchanged in urine",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈16 L (steady state)",
+    "ev": "The apparent volume of distribution at steady state in healthy subjects is approximately 16 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97%",
+    "ev": "Esomeprazole is 97% bound to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not expected to be removed by dialysis (label)",
+    "ev": "Since esomeprazole is extensively protein bound, it is not expected to be removed by dialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "lansoprazole": {
+  "label": "preg/lansoprazole.json",
+  "brand": "Lansoprazole",
+  "promote": true,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Therefore, the pharmacokinetics of lansoprazole were not clinically different in patients with mild, moderate or severe renal impairment compared to healthy subjects with normal renal function"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment; not removed by haemodialysis, so no supplement after HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Lansoprazole is not removed from the circulation by hemodialysis"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.5 ± 1.0 h",
+    "ev": "In healthy subjects, the mean (±SD) plasma half-life was 1.5 (±1.0) hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Shortened; PK not clinically different in renal impairment",
+    "ev": "Patients with renal impairment had a shortened elimination half-life and decreased total AUC (free and bound)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97%",
+    "ev": "Lansoprazole is 97% bound to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed by hemodialysis (label)",
+    "ev": "Lansoprazole is not removed from the circulation by hemodialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "pantoprazole": {
+  "label": "preg/pantoprazole.json",
+  "brand": "PROTONIX delayed-release",
+  "promote": false,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with severe renal impairment, pharmacokinetic parameters for pantoprazole were similar to those of healthy subjects"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment; not removed by haemodialysis, so no supplement after HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Pantoprazole is not removed by hemodialysis"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "about one hour (terminal)",
+    "ev": "Following oral or intravenous administration, the serum concentration of pantoprazole declines biexponentially, with a terminal elimination half-life of approximately one hour",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Similar to healthy subjects (severe renal impairment)",
+    "ev": "In patients with severe renal impairment, pharmacokinetic parameters for pantoprazole were similar to those of healthy subjects",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈11–23.6 L",
+    "ev": "The apparent volume of distribution of pantoprazole is approximately 11 to 23.6 L, distributing mainly in extracellular fluid",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈98%",
+    "ev": "The serum protein binding of pantoprazole is about 98%, primarily to albumin",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed by hemodialysis (label)",
+    "ev": "Pantoprazole is not removed by hemodialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "rabeprazole": {
+  "label": "preg/rabeprazole.json",
+  "brand": "ACIPHEX",
+  "promote": false,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In 10 patients with stable end-stage renal disease requiring maintenance hemodialysis (creatinine clearance ≤5 mL/min/1.73 m 2 ), no clinically significant differences were observed in the pharmacokinetics of rabeprazole after a single 20 mg dose of ACIPHEX delayed-release tablets when compared to 10 healthy subjects"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment: PK in maintenance-HD patients similar to healthy subjects; not readily dialyzable"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In 10 patients with stable end-stage renal disease requiring maintenance hemodialysis (creatinine clearance ≤5 mL/min/1.73 m 2 ), no clinically significant differences were observed in the pharmacokinetics of rabeprazole after a single 20 mg dose of ACIPHEX delayed-release tablets when compared to 10 healthy subjects",
+     "Rabeprazole is extensively protein bound and is not readily dialyzable"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1–2 h",
+    "ev": "This relatively prolonged pharmacodynamic action compared to the short pharmacokinetic half-life (1 to 2 hours) reflects the sustained inactivation of the H + , K + ATPase",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "No clinically significant change in ESRD on haemodialysis",
+    "ev": "In 10 patients with stable end-stage renal disease requiring maintenance hemodialysis (creatinine clearance ≤5 mL/min/1.73 m 2 ), no clinically significant differences were observed in the pharmacokinetics of rabeprazole after a single 20 mg dose of ACIPHEX delayed-release tablets when compared to 10 healthy subjects",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "96.3%",
+    "ev": "Rabeprazole is 96.3% bound to human plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not readily dialyzable (label)",
+    "ev": "Rabeprazole is extensively protein bound and is not readily dialyzable",
+    "status": "not_removed"
+   }
+  }
+ },
+ "dexlansoprazole": {
+  "label": "preg/dexlansoprazole.json",
+  "brand": "DEXILANT",
+  "promote": false,
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "flag": "no_adjust",
+  "summary": "No renal dose adjustment at any level of kidney function (US label). Review the need for long-term acid suppression separately.",
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All adult indications · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR, including severe impairment",
+        "dose": "No dose adjustment: use the usual indication-specific dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Therefore, the pharmacokinetics of dexlansoprazole are not expected to be altered in patients with renal impairment, and no studies were conducted in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment expected (not studied); not expected to be removed by haemodialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Dexlansoprazole is not expected to be removed from the circulation by hemodialysis"
+    ]
+   },
+   "pd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "The US label has no peritoneal-dialysis data. It reports no renal dose adjustment at any level of kidney function and no removal by haemodialysis; a PD dose is not inferred.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "about one to two hours",
+    "ev": "Dexlansoprazole is eliminated with a half-life of approximately one to two hours in healthy subjects and in patients with symptomatic GERD",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Not expected to change (no parent drug in urine; not studied)",
+    "ev": "Renal Impairment Dexlansoprazole is extensively metabolized in the liver to inactive metabolites, and no parent drug is recovered in the urine following an oral dose of dexlansoprazole",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not expected to be removed by hemodialysis (label)",
+    "ev": "Dexlansoprazole is not expected to be removed from the circulation by hemodialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "vonoprazan": {
+  "label": "us/vonoprazan.json",
+  "brand": "VOQUEZNA",
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "not_curated",
+    "tables": [],
+    "notes": "No dialysis dose in the US label. On dialysis, exposure (AUC) was 1.3-fold that of normal renal function and only 0.94% of the dose appeared in the dialysate.",
+    "ev": [
+     "In subjects requiring dialysis (N=8), AUC 0-inf estimates were 1.3-fold greater compared to estimates from subjects with normal renal function",
+     "In patients requiring dialysis, vonoprazan was present in the dialysate and represented 0.94% of the dose administered"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "6.8–7.9 h (steady state)",
+    "ev": "t 1/2z (h) 7.7 (27.1) 7.9 (22.6) 6.8 (22.7)",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Exposure (AUC) 2.4× in severe impairment; 1.3× on dialysis",
+    "ev": "Compared to subjects with normal renal function, systemic exposure (AUC 0-inf ) was 1.7-, 1.3-, and 2.4-times greater in patients with mild, moderate, and severe renal impairment, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "782.7–1270.7 L (apparent oral, Vz/F)",
+    "ev": "V z /F (L) 1270.7 (26.6) 1114.0 (39.6) 782.7 (34.4)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "85–88%",
+    "ev": "Plasma protein binding of vonoprazan ranged from 85 to 88% in healthy subjects and was independent of concentration from 0.1 to 10 mcg/mL",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "0.94% of the dose in dialysate (negligible)",
+    "ev": "In patients requiring dialysis, vonoprazan was present in the dialysate and represented 0.94% of the dose administered",
+    "status": "negligible"
+   }
+  }
+ }
+}
