@@ -1,3 +1,13 @@
+# RenalRounds v0.14.0 · 1 November 2026
+
+- **Four classes in one release, from current US labels:** antimicrobials, pain & neurology, psychiatry, and allergy & respiratory.
+- **55 medicines that had no renal dosing are now renal profiles.** Examples: plazomicin (dose and interval by CrCl), cidofovir (contraindicated at CrCl ≤55 or SCr >1.5), Biktarvy (not recommended at CrCl 15–29; after dialysis on HD days), tinidazole (extra half dose after HD), nafcillin, sofosbuvir-velpatasvir and glecaprevir-pibrentasvir (no adjustment, including dialysis), streptomycin and tetracycline cautions; atogepant, ubrogepant and rimegepant renal limits; tapentadol ER and tramadol ER not for CrCl <30; inhaled and biologic respiratory medicines.
+- **Dialysis statements** added to about 25 existing profiles (e.g. fosfomycin after HD, voriconazole, raltegravir timing, foscarnet not recommended on HD, valganciclovir no HD dose), and about 146 entries gained half-life, protein binding, volume of distribution or dialysis-removal values.
+- Every table, statement and value quotes its label sentence; settings the label does not address stay "not curated". Existing curated content was not overwritten.
+- Coverage: 522 renal profiles, 121 catalog entries; PK 431 profiles (82 with all four core items). Drug content version 0.14.0.
+
+## Earlier release record
+
 # RenalRounds v0.13.0 · 1 November 2026
 
 - **Eight classes in one release, from current US labels:** diabetes & endocrine, anticoagulation & haematology, gastrointestinal, electrolytes & mineral metabolism, urology & pulmonary hypertension, gout, renal anaemia and specialist kidney therapies.
