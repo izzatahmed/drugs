@@ -1,0 +1,1466 @@
+{
+ "carboplatin": {
+  "meta": {
+   "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+   "splVersion": "1",
+   "effective": "2026-07-21",
+   "manufacturer": "Natco Pharma USA LLC",
+   "application": "ANDA077861",
+   "brand": "Carboplatin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0"
+  },
+  "windows": [
+   "ntities of protein-free, ultrafilterable platinum-containing species other than carboplatin are present in plasma. However, platinum from carboplatin becomes irreversibly bound to plasma proteins and is slowly eliminated with a minimum half-life of 5 days. The major route of elimination of carboplatin is renal excretion. Patients with creatinine clearances of approximately 60 mL/min or greater excrete 65% of the dose in the urine within 12 hours and 7",
+   "/m 2 to 500 mg/m 2 of carboplatin. The initial plasma half-life (alpha) was found to be 1.1 to 2 hours (n=6), and the post distribution plasma half-life (beta) was found to be 2.6 to 5.9 hours (n=6). The total body clearance, apparent volume of distribution and mean residence time for carboplatin are 4.4 L/h, 16 L and 3.5 hours, respectively. The C max values and areas under the plasma concentration versus time curves from 0 to infinity (AUC inf ) increase linearly with dose, although the increase was slightly more than dose proportional",
+   "get area under the concentration versus time curve (AUC in mg/m L•min), has been proposed by Calvert. In these studies, GFR was measured by 51Cr-EDTA clearance. CALVERT FORMULA FOR CARBOPLATIN DOSING Total Dose (mg) = (target AUC) × (GFR + 25) Note: With the Calvert formula, the total dose of carboplatin is calculated in mg,not mg/mm 2 The target AUC of 4 mg/mL•min to 6 mg/mL•min using single agent carboplatin appears to provide the most a",
+   "who received single agent carboplatin therapy, the incidence of severe leukopenia, neutropenia, or thrombocytopenia has been about 25% when the dosage modifications in the table below have been used. Baseline Creatinine Clearance Recommended Dose on Day 1 41 - 59 mL/min 250 mg/m 2 16 - 40 mL/min 200 mg/m 2 The data available for patients with severely impaired kidney function (creatinine clearance below 15 m L/min) are too limited to permit a recommendation for treatment. These dosing recommendations a"
+  ]
+ },
+ "cisplatin": {
+  "meta": {
+   "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+   "splVersion": "4",
+   "effective": "2026-06-24",
+   "manufacturer": "WG Critical Care, LLC",
+   "application": "NDA018057",
+   "brand": "Cisplatin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=508496cb-3441-46b3-a4fe-e0d440e6adc6"
+  },
+  "windows": [
+   "nd 2 hours after the end of a 3‑hour infusion, 90% of the plasma platinum is protein bound. The complexes between albumin and the platinum from cisplatin do not dissociate to a significant extent and are slowly eliminated with a minimum half-life of 5 days or more. Following cisplatin doses of 20 mg/m 2 to 120 mg/m 2 , platinum is present in tissues for as long as 180 days after the last administration. With the exception of intracerebral tumors, platinum conc",
+   "not cisplatin itself, becomes bound to several plasma proteins, including albumin, transferrin, and gamma globulin. Three hours after a bolus injection and 2 hours after the end of a 3‑hour infusion, 90% of the plasma platinum is protein bound. The complexes between albumin and the platinum from cisplatin do not dissociate to a significant extent and are slowly eliminated with a minimum half-life of 5 days or more. Following cisplatin dose",
+   "jection can cause severe renal toxicity, including acute renal failure. Severe renal toxicities are dose-related and cumulative. Ensure adequate hydration and monitor renal function and electrolytes. Consider dose reductions or alternative treatments in patients with renal impairment [see Dosage and Administration ( 2.1 ) and Warnings and Precautions ( 5.1 )]. • Peripheral Neuropathy: cisplatin for injection can cause dose-related peripheral neuropathy that becomes more severe wi",
+   "o nephrotoxicity [see Use in Specific Populations ( 8.5 , 8.6 )] . Ensure adequate hydration before, during, and after cisplatin for injection administration [see Dosage and Administration ( 2.1 )] . Measure serum creatinine, blood urea nitrogen, creatinine clearance, and serum electrolytes including magnesium prior to initiating therapy, and as clinically indicated. Consider magnesium supplementation as clinically needed. Consider alternative treatments or reduce the dose of cisplatin for injection for patients with baseline renal impairment or who develop sign"
+  ]
+ },
+ "oxaliplatin": {
+  "meta": {
+   "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+   "splVersion": "11",
+   "effective": "2026-08-24",
+   "manufacturer": "Gland Pharma Limited",
+   "application": "ANDA207325",
+   "brand": "Oxaliplatin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5"
+  },
+  "windows": [
+   "y. No platinum accumulation was observed in plasma ultrafiltrate following 85 mg/m 2 every two weeks. Elimination The decline of ultrafiltrable platinum concentrations from plasma is characterized by a long terminal elimination phase (t 1/2 γ ; 391 hour). Metabolism Oxaliplatin undergoes rapid and extensive nonenzymatic biotransformation. There is no evidence of cytochrome P450-mediated metabolism in vitro . Up to 17 platinum-containing derivatives h",
+   " plasma ultrafiltrate. After a single 2-hour intravenous infusion of oxaliplatin at a dose of 85 mg/m 2 , pharmacokinetic parameters expressed as ultrafiltrable platinum were Cmax of 0.814 mcg/mL and volume of distribution of 440 L. Interpatient and intrapatient variability in ultrafiltrable platinum exposure (AUC0-48hr) assessed over 3 cycles was 23% and 6%, respectively. Distribution At the end of a 2-hour infusion of oxali",
+   "e urine. The decline of ultrafiltrable platinum levels following oxaliplatin administration is triphasic, including two distribution phases (t 1/2α ; 0.43 hours and t 1/2β ; 16.8 hours). In patients, plasma protein binding of platinum is irreversible and is greater than 90%. The main binding proteins are albumin and gamma-globulins. Platinum also binds irreversibly and accumulates (approximately 2-fold) in erythrocytes, where it appears to have no relevant activity. No ",
+   " 65 mg/m 2 along with a dose reduction of fluorouracil to 300 mg/m 2 as an intravenous bolus and 500 mg/m 2 as a 22-hour continuous infusion. 2.3 Dose Modifications for Patients with Renal Impairment In patients with severe renal impairment (creatinine clearance [CLcr] less than 30 mL/min, calculated by the Cockcroft-Gault equation), reduce the oxaliplatin injection dose to 65 mg/m 2 [see Use in Specific Populations (8.6) , Clinical Pharmacology (12.3) ] . 2.4 Preparation and Administration Oxaliplatin is a cytotoxic drug. Follow applicable special handling and disposal procedure"
+  ]
+ },
+ "capecitabine": {
+  "meta": {
+   "setid": "0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+   "splVersion": "2",
+   "effective": "2026-07-21",
+   "manufacturer": "NorthStar RxLLC",
+   "application": "ANDA210203",
+   "brand": "Capecitabine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88"
+  },
+  "windows": [
+   " surgery in patients with colorectal cancer, the median ratio of concentration for the active metabolite fluorouracil in colorectal tumors to adjacent tissues was 2.9 (range: 0.9 to 8.0). Elimination The elimination half-lives of capecitabine and fluorouracil were approximately 0.75 hour. Metabolism Capecitabine undergoes metabolism by carboxylesterase and is hydrolyzed to 5’-DFCR. 5’-DFCR is subsequently converted to 5’-DFUR by cytidine deaminase. 5’-DFUR is then hydrolized by thymi",
+   "%, respectively. The mean C max and AUC 0-INF of fluorouracil were also decreased by 37 % and 12%, respectively. The T max of both capecitabine and fluorouracil was delayed by 1.5 hours. Distribution Plasma protein binding of capecitabine and its metabolites is less than 60% and is not concentration-dependent. Capecitabine was primarily bound to human albumin (approximately 35%). Following oral administration of capecitabine 7 days before surgery in patients with colorec",
+   "ess than three times the upper limit of normal), using the percent of current dose as shown in column 3 of Table 1 [see Warnings and Precautions (5.10) ]. 2.6 Dosage Modification For Renal Impairment Reduce the dose of capecitabine tablet by 25% for patients with creatinine clearance (CLcr) of 30 to 50 mL/min as determined by Cockcroft-Gault equation. A dosage has not been established in patients with severe renal impairment (CLcr <30 mL/min) [see Use in Specific Populations (8.6) ]. 2.7 Administration Round the recommended dosage for patients to",
+   " 2.6 Dosage Modification For Renal Impairment Reduce the dose of capecitabine tablet by 25% for patients with creatinine clearance (CLcr) of 30 to 50 mL/min as determined by Cockcroft-Gault equation. A dosage has not been established in patients with severe renal impairment (CLcr <30 mL/min) [see Use in Specific Populations (8.6) ]. 2.7 Administration Round the recommended dosage for patients to the nearest 150 mg dose to provide whole capecitabine tablets. Swallow capecitabine tablets w"
+  ]
+ },
+ "etoposide": {
+  "meta": {
+   "setid": "7499fc35-fae8-44ad-bbab-9a1a589bf3ee",
+   "splVersion": "23",
+   "effective": "2026-07-31",
+   "manufacturer": "H2-Pharma, LLC",
+   "application": "NDA020457",
+   "brand": "Etoposide",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7499fc35-fae8-44ad-bbab-9a1a589bf3ee"
+  },
+  "windows": [
+   "ean volume of distribution of etoposide at steady state was 18 to 29 liters. Etoposide enters the CSF poorly. In vitro, etoposide is 97% bound to human plasma proteins, primarily albumin. Elimination The terminal elimination half-life of etoposide ranges from 4 to 11 hours. Total body clearance values range from 33 to 48 mL/min. Metabolism Following intravenous administration of ETOPOPHOS, etoposide phosphate is completely converted to etoposide in plasma. Etoposide is",
+   " values increased linearly and etoposide did not accumulate in the plasma following daily administration for 4 to 5 days. Distribution Following administration of an injectable etoposide formulation, the mean volume of distribution of etoposide at steady state was 18 to 29 liters. Etoposide enters the CSF poorly. In vitro, etoposide is 97% bound to human plasma proteins, primarily albumin. Elimination The terminal elimination half-life of etoposide ranges from 4 to 11 hours. ",
+   " days. Distribution Following administration of an injectable etoposide formulation, the mean volume of distribution of etoposide at steady state was 18 to 29 liters. Etoposide enters the CSF poorly. In vitro, etoposide is 97% bound to human plasma proteins, primarily albumin. Elimination The terminal elimination half-life of etoposide ranges from 4 to 11 hours. Total body clearance values range from 33 to 48 mL/min. Metabolism Following intravenous administration of ETOP",
+   " 35 mg/m 2 per day administered intravenously over 5 minutes to 3.5 hours for 4 days, or • 50 mg/m 2 per day administered intravenously over 5 minutes to 3.5 hours for 5 days. 2.3 Dosage Modification In patients with a creatinine clearance (CLcr) 15-50 mL/min, administer 75% of the recommended dose. Data are not available in patients with CLcr less than 15 mL/min. Consider further dose reduction in these patients. 2.4 Preparation and Administration Preparation Reconstitute with Sterile Water fo",
+   "per day administered intravenously over 5 minutes to 3.5 hours for 5 days. 2.3 Dosage Modification In patients with a creatinine clearance (CLcr) 15-50 mL/min, administer 75% of the recommended dose. Data are not available in patients with CLcr less than 15 mL/min. Consider further dose reduction in these patients. 2.4 Preparation and Administration Preparation Reconstitute with Sterile Water for Injection, USP; 5% Dextrose Injection, USP; 0.9% Sodium Chloride"
+  ]
+ },
+ "hydroxyurea": {
+  "meta": {
+   "setid": "4b37d336-86da-4363-aef1-34a7d3ba973b",
+   "splVersion": "10",
+   "effective": "2026-02-02",
+   "manufacturer": "Nova Laboratories, Ltd.",
+   "application": "NDA216593",
+   "brand": "XROMI (hydroxyurea oral solution)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b"
+  },
+  "windows": [
+   "he method of administration and time of day. XROMI is a hazardous drug. Follow applicable special handling and disposal procedures [see Reference (15) ] . 2.3 Dosage Modifications in Renal Impairment Reduce the dose of XROMI by 50% in patients with creatinine clearance of less than 60 mL/min or with end-stage renal disease (ESRD) [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . Creatinine clearance were obtained using 24-hour urine collection. Table 2. Creatinine Clearance Creatinine Clearance (mL/m",
+   "he method of administration and time of day. XROMI is a hazardous drug. Follow applicable special handling and disposal procedures [see Reference (15) ] . 2.3 Dosage Modifications in Renal Impairment Reduce the dose of XROMI by 50% in patients with creatinine clearance of less than 60 mL/min or with end-stage renal disease (ESRD) [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . Creatinine clearance were obtained using 24-hour urine collection. Table 2. Creatinine Clearance Creatinine Clearance (mL/m",
+   "ine collection. Table 2. Creatinine Clearance Creatinine Clearance (mL/min) Recommended XROMI Initial Dose Greater than or equal to 60 15 mg/kg once daily Less than 60 or ESRD* 7.5 mg/kg once daily * On dialysis days, administer XROMI to patients with ESRD following hemodialysis Monitor the hematologic parameters closely in these patients. Table 1. Dosing Recommendation Based on Blood Count Dosing Regimen Dose Dose modification criteria Monitoring parameters Initial Recommen"
+  ]
+ },
+ "lenalidomide": {
+  "meta": {
+   "setid": "5fa97bf5-28a2-48f1-8955-f56012d296be",
+   "splVersion": "41",
+   "effective": "2023-03-24",
+   "manufacturer": "Celgene Corporation",
+   "application": "NDA021880",
+   "brand": "REVLIMID",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be"
+  },
+  "windows": [
+   "g to plasma proteins is approximately 30%. Lenalidomide is present in semen at 2 hours (1379 ng/ejaculate) and 24 hours (35 ng/ejaculate) after the administration of REVLIMID 25 mg daily. Elimination The mean half-life of lenalidomide is 3 hours in healthy subjects and 3 to 5 hours in patients with MM, MDS or MCL. Metabolism Lenalidomide undergoes limited metabolism. Unchanged lenalidomide is the predominant circulating component in humans. Two identified metabolites are 5-hydroxy-lenalidomide and N-acetyl-le",
+   "d to food intake. REVLIMID can be administered with or without food. The oral absorption rate of lenalidomide in patients with MCL is similar to that observed in patients with MM or MDS. Distribution In vitro [ 14 C]-lenalidomide binding to plasma proteins is approximately 30%. Lenalidomide is present in semen at 2 hours (1379 ng/ejaculate) and 24 hours (35 ng/ejaculate) after the administration of REVLIMID 25 mg daily. Elimination The mean half-life of lenalidomide is 3 h",
+   "n (Cockcroft-Gault) Dose in REVLIMID Combination Therapy for MM and MCL Dose in REVLIMID Combination Therapy for FL and MZL Dose in REVLIMID Maintenance Therapy Following Auto-HSCT for MM and for MDS CLcr 30 to 60 mL/min 10 mg once daily 10 mg once daily 5 mg once daily CLcr below 30 mL/min (not requiring dialysis) 15 mg every other day 5 mg once daily 2.5 mg once daily CLcr below 30 mL/min (requiring dialysis) 5 mg once daily. On dialysis days, administer the dose following dialysis. 5 mg once daily. On dialysis days, administer the dose following dialysis. 2.5 mg ",
+   "to-HSCT for MM and for MDS CLcr 30 to 60 mL/min 10 mg once daily 10 mg once daily 5 mg once daily CLcr below 30 mL/min (not requiring dialysis) 15 mg every other day 5 mg once daily 2.5 mg once daily CLcr below 30 mL/min (requiring dialysis) 5 mg once daily. On dialysis days, administer the dose following dialysis. 5 mg once daily. On dialysis days, administer the dose following dialysis. 2.5 mg once daily. On dialysis days, administer the dose following dialysis. REVLIMID Combination Therapy for MM: For CLcr "
+  ]
+ },
+ "pemetrexed": {
+  "meta": {
+   "setid": "2308f4e8-21c8-49c1-a5b8-deb8610bac6a",
+   "splVersion": "15",
+   "effective": "2026-02-20",
+   "manufacturer": "Eagle Pharmaceuticals, Inc.",
+   "application": "NDA209472",
+   "brand": "Pemetrexed",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2308f4e8-21c8-49c1-a5b8-deb8610bac6a"
+  },
+  "windows": [
+   " a steady-state volume of distribution of 16.1 L. In vitro studies indicated that pemetrexed is 81% bound to plasma proteins. Elimination The total systemic clearance of pemetrexed is 91.8 mL/min and the elimination half-life of pemetrexed is 3.5 hours in patients with normal renal function (creatinine clearance of 90 mL/min). As renal function decreases, the clearance of pemetrexed decreases and exposure (AUC) of pemetrexed increases. Metabolism Pemetrexed is not metabolized to an appreciable extent. Excretion Pemetrexed",
+   "exposure (AUC) and maximum plasma concentration (C max ) increased proportionally with increase of dose. The pharmacokinetics of pemetrexed did not change over multiple treatment cycles. Distribution Pemetrexed has a steady-state volume of distribution of 16.1 L. In vitro studies indicated that pemetrexed is 81% bound to plasma proteins. Elimination The total systemic clearance of pemetrexed is 91.8 mL/min and the elimination half-life of pemetrexed is 3.5 h",
+   "ed proportionally with increase of dose. The pharmacokinetics of pemetrexed did not change over multiple treatment cycles. Distribution Pemetrexed has a steady-state volume of distribution of 16.1 L. In vitro studies indicated that pemetrexed is 81% bound to plasma proteins. Elimination The total systemic clearance of pemetrexed is 91.8 mL/min and the elimination half-life of pemetrexed is 3.5 hours in patients with normal renal function (creatinine clearance of 90 mL/m",
+   ".1 , 14.2 )]. 10 OVERDOSAGE No drugs are approved for the treatment of pemetrexed overdose. Based on animal studies, administration of leucovorin may mitigate the toxicities of pemetrexed overdosage. It is not known whether pemetrexed is dialyzable. 11 DESCRIPTION Pemetrexed is a folate analog metabolic inhibitor. Pemetrexed diacid, the drug substance, has the chemical name N-[4-[2-(2-amino-4,7-dihydro-4-oxo-1H-pyrrolo[2,3-d]pyrimidin-5-yl)ethy",
+   "tration of ibuprofen cannot be avoided. 2.6 Dosage Modifications for Adverse Reactions Obtain complete blood count on Days 1, 8, and 15 of each cycle. Assess creatinine clearance prior to each cycle. Do not administer PEMFEXY if the creatinine clearance is less than 45 mL/min. Delay initiation of the next cycle of PEMFEXY until: Recovery of non-hematologic toxicity to Grade 0-2, Absolute neutrophil count (ANC) is 1500 cells/mm 3 or higher, and Platelet count is 100,000 ce",
+   "equation) of 45 mL/min or greater is 500 mg/m 2 as an intravenous infusion over 10 minutes, administered after pembrolizumab and prior to platinum chemotherapy, on Day 1 of each 21-day cycle. ( 2.1 ) The recommended dosage of PEMFEXY, administered as a single agent or with cisplatin, in patients with creatinine clearance of 45 mL/minute or greater, is 500 mg/m 2 as an intravenous infusion over 10 minutes on Day 1 of each 21-day cycle. ( 2.1 , 2.2 , 2.3 ) Initiate folic acid 400 mcg to 1000 mcg orally once daily beginning 7 days prior to the first dose of PEMFEXY and continue until 21 days after the last dose. ( 2.4 ) Administer v",
+   "tration of ibuprofen cannot be avoided. 2.6 Dosage Modifications for Adverse Reactions Obtain complete blood count on Days 1, 8, and 15 of each cycle. Assess creatinine clearance prior to each cycle. Do not administer PEMFEXY if the creatinine clearance is less than 45 mL/min. Delay initiation of the next cycle of PEMFEXY until: Recovery of non-hematologic toxicity to Grade 0-2, Absolute neutrophil count (ANC) is 1500 cells/mm 3 or higher, and Platelet count is 100,000 ce"
+  ]
+ },
+ "olaparib": {
+  "meta": {
+   "setid": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+   "splVersion": "38",
+   "effective": "2025-07-10",
+   "manufacturer": "AstraZeneca Pharmaceuticals LP",
+   "application": "NDA208558",
+   "brand": "LYNPARZA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+  },
+  "windows": [
+   "± standard deviation) apparent volume of distribution of olaparib is 158 ± 136 L following a single 300 mg dose of Lynparza. The protein binding of olaparib is approximately 82% in vitro. Elimination The mean (± standard deviation) terminal plasma half-life of olaparib is 14.9 ± 8.2 hours and the apparent plasma clearance is 7.4 ± 3.9 L/h following a single 300 mg dose of Lynparza. Metabolism Olaparib is metabolized by cytochrome P450 (CYP) 3A in vitro. Following an oral dose of radio",
+   "fat) with olaparib slowed the rate (t max delayed by 2.5 hours) of absorption, but did not significantly alter the extent of olaparib absorption (mean AUC increased by approximately 8%). Distribution The mean (± standard deviation) apparent volume of distribution of olaparib is 158 ± 136 L following a single 300 mg dose of Lynparza. The protein binding of olaparib is approximately 82% in vitro. Elimination The mean (± standard deviation) terminal plasma half-life of olaparib is 14.9 ± ",
+   "bsorption (mean AUC increased by approximately 8%). Distribution The mean (± standard deviation) apparent volume of distribution of olaparib is 158 ± 136 L following a single 300 mg dose of Lynparza. The protein binding of olaparib is approximately 82% in vitro. Elimination The mean (± standard deviation) terminal plasma half-life of olaparib is 14.9 ± 8.2 hours and the apparent plasma clearance is 7.4 ± 3.9 L/h following a single 300 mg dose of Lynparza. M",
+   "he Lynparza dose taken prior to initiating the CYP3A inhibitor [see Drug Interactions (7.2) and Clinical Pharmacology (12.3) ]. 2.5 Dosage Modifications for Renal Impairment Moderate Renal Impairment In patients with moderate renal impairment (CLcr 31-50 mL/min), reduce the Lynparza dosage to 200 mg orally twice daily [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ]. Table 1 Biomarker Testing for Patient Selection Where testing fails or tissue sample is unavailable/insufficient, or when ge",
+   "n=13), compared to those with normal renal function (CLcr ≥81 mL/min; n=12). There was no evidence of a relationship between the extent of plasma protein binding of olaparib and creatinine clearance. There are no data in patients with severe renal impairment or end-stage renal disease (CLcr ≤30 mL/min). Patients with Hepatic Impairment In a hepatic impairment trial, the mean AUC increased by 15% and the mean C max increased by 13% when olaparib was dosed in patients with mild hepatic impairment (Ch"
+  ]
+ },
+ "imatinib": {
+  "meta": {
+   "setid": "211ef2da-2868-4a77-8055-1cb2cd78e24b",
+   "splVersion": "41",
+   "effective": "2026-07-13",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA021588",
+   "brand": "Imatinib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b"
+  },
+  "windows": [
+   "es (68% of dose) and urine (13% of dose). Unchanged imatinib accounted for 25% of the dose (5% urine, 20% feces), the remainder being metabolites. Following oral administration in healthy volunteers, the elimination half-lives of imatinib and its major active metabolite, the N-demethyl derivative (CGP74588), are approximately 18 and 40 hours, respectively. Typically, clearance of imatinib in a 50-year-old patient weighing 50 kg is expected to be 8 L/h, while for a 50-year-old patient weighing 100 kg the clearance will increase to 14 L/h. The inter-pat",
+   "hange in the pharmacokinetics of imatinib on repeated dosing, and accumulation is 1.5- to 2.5-fold at steady state when Gleevec is dosed once daily. At clinically relevant concentrations of imatinib, binding to plasma proteins in in vitro experiments is approximately 95%, mostly to albumin and α1-acid glycoprotein. Elimination Metabolism CYP3A4 is the major enzyme responsible for metabolism of imatinib. Other cytochrome P450 enzymes, such as CYP1A2, CYP2D6, CYP2C9, a",
+   "ould be treated per the recommended dose. A 25% decrease in the recommended dose should be used for patients with severe hepatic impairment [see Use in Specific Populations (8.6)] . Renal Impairment: Patients with moderate renal impairment (creatinine clearance [CrCL] = 20-39 mL/min) should receive a 50% decrease in the recommended starting dose and future doses can be increased as tolerated. Doses greater than 600 mg are not recommended in patients with mild renal impairment (CrCL = 40-59 mL/min). For patients with moderate renal impairment doses greater than 400 mg are not recommended.",
+   "nt: Patients with moderate renal impairment (creatinine clearance [CrCL] = 20-39 mL/min) should receive a 50% decrease in the recommended starting dose and future doses can be increased as tolerated. Doses greater than 600 mg are not recommended in patients with mild renal impairment (CrCL = 40-59 mL/min). For patients with moderate renal impairment doses greater than 400 mg are not recommended. Imatinib should be used with caution in patients with severe renal impairment. A dose of 100 mg/day was tol",
+   "irment (CrCL = 40-59 mL/min). For patients with moderate renal impairment doses greater than 400 mg are not recommended. Imatinib should be used with caution in patients with severe renal impairment. A dose of 100 mg/day was tolerated in two patients with severe renal impairment [see Warnings and Precautions (5.3), Use in Specific Populations (8.7)]. 2.13 Dose Adjustment for Hepatotoxicity and Non-Hematologic Adverse Reactions If elevations in bilirubin greater than 3 times "
+  ]
+ },
+ "pomalidomide": {
+  "meta": {
+   "setid": "2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+   "splVersion": "26",
+   "effective": "2025-02-26",
+   "manufacturer": "Celgene Corporation",
+   "application": "NDA204026",
+   "brand": "POMALYST",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b25ef01-5c9e-11e1-b86c-0800200c9a66"
+  },
+  "windows": [
+   "ranges from 12% to 44% and is not concentration dependent. Pomalidomide is a substrate for P-gp. Elimination Pomalidomide has a mean total body clearance (CL/F) of 7-10 L/h in patients with MM or KS. Pomalidomide is eliminated with a median plasma half-life of 9.5 hours in healthy subjects and 7.5 hours in patients with MM or KS. Metabolism Pomalidomide is primarily metabolized in the liver by CYP1A2 and CYP3A4. Minor contributions from CYP2C19 and CYP2D6 were also observed in vitro . Excretion Following a ",
+   "600 calories from protein, carbohydrates, and fat, respectively) delays the T max by 2.5 hours, decreased mean plasma C max and AUC in healthy subjects by about 27% and 8%, respectively. Distribution Pomalidomide has a mean apparent volume of distribution (Vd/F) between 62 and 138 L at steady state in patients with MM or KS. Pomalidomide is distributed in semen of healthy subjects at a concentration of approximately 67% of plasma level at 4 hours postdose (~T max ) after 4 days of 2 mg once-dai",
+   "s with MM or KS. Pomalidomide is distributed in semen of healthy subjects at a concentration of approximately 67% of plasma level at 4 hours postdose (~T max ) after 4 days of 2 mg once-daily dosing. Human plasma protein binding of pomalidomide ranges from 12% to 44% and is not concentration dependent. Pomalidomide is a substrate for P-gp. Elimination Pomalidomide has a mean total body clearance (CL/F) of 7-10 L/h in patients with MM or KS. Pomalidomide is eliminated with a median plasma half-life",
+   "ion for Severe Renal Impairment on Hemodialysis Take POMALYST after completion of dialysis procedure on hemodialysis days [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . • For patients with MM with severe renal impairment requiring dialysis, reduce the recommended dosage to 3 mg orally daily. • For patients with KS with severe renal impairment requiring dialysis, reduce the recommended dosage to 4 mg orally daily. 2.8 Dosage Modification for Hepatic Impairment Multiple Myeloma For patien",
+   "ion for Severe Renal Impairment on Hemodialysis Take POMALYST after completion of dialysis procedure on hemodialysis days [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . • For patients with MM with severe renal impairment requiring dialysis, reduce the recommended dosage to 3 mg orally daily. • For patients with KS with severe renal impairment requiring dialysis, reduce the recommended dosage to 4 mg orally daily. 2.8 Dosage Modification for Hepatic Impairment Multiple Myeloma For patien",
+   "ong CYP1A2 inhibitor is unavoidable, reduce POMALYST dose to 2 mg [see Drug Interactions (7.1) and Clinical Pharmacology (12.3) ] . 2.7 Dosage Modification for Severe Renal Impairment on Hemodialysis Take POMALYST after completion of dialysis procedure on hemodialysis days [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . • For patients with MM with severe renal impairment requiring dialysis, reduce the recommended dosage to 3 mg orally daily."
+  ]
+ },
+ "bortezomib": {
+  "meta": {
+   "setid": "1521d321-e724-4ffc-adad-34bf4f44fac7",
+   "splVersion": "36",
+   "effective": "2025-08-28",
+   "manufacturer": "Takeda Pharmaceuticals America, Inc.",
+   "application": "NDA021602",
+   "brand": "VELCADE",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1521d321-e724-4ffc-adad-34bf4f44fac7"
+  },
+  "windows": [
+   "inistration of 1 mg/m 2 or 1.3 mg/m 2 to patients with multiple myeloma. The binding of bortezomib to human plasma proteins averaged 83% over the concentration range of 100 to 1000 ng/mL. Elimination The mean elimination half-life of bortezomib upon multiple dosing ranged from 40 to 193 hours after the 1 mg/m 2 dose and 76 to 108 hours after the 1.3 mg/m 2 dose. The mean total body clearances were 102 and 112 L/h following the first dose for doses of 1 mg/m 2 and 1.3 mg/m 2 , respectively",
+   "ion The mean distribution volume of bortezomib ranged from approximately 498 to 1884 L/m 2 following single- or repeat-dose administration of 1 mg/m 2 or 1.3 mg/m 2 to patients with multiple myeloma. The binding of bortezomib to human plasma proteins averaged 83% over the concentration range of 100 to 1000 ng/mL. Elimination The mean elimination half-life of bortezomib upon multiple dosing ranged from 40 to 193 hours after the 1 mg/m 2 dose and 76 to 108 hour",
+   "s in safety or effectiveness were observed between patients ≥age 65 and younger patients receiving VELCADE; but greater sensitivity of some older individuals cannot be ruled out. 8.6 Renal Impairment No starting dosage adjustment of VELCADE is recommended for patients with renal impairment. In patients requiring dialysis, VELCADE should be administered after the dialysis procedure [see Clinical Pharmacology (12.3) ] . 8.7 Hepatic Impairment No starting dosage adjustment of VELCADE is r",
+   "eiving VELCADE; but greater sensitivity of some older individuals cannot be ruled out. 8.6 Renal Impairment No starting dosage adjustment of VELCADE is recommended for patients with renal impairment. In patients requiring dialysis, VELCADE should be administered after the dialysis procedure [see Clinical Pharmacology (12.3) ] . 8.7 Hepatic Impairment No starting dosage adjustment of VELCADE is recommended for patients with mild hepatic impairment (total bilirubin ≤1× ULN and AST >ULN, o"
+  ]
+ },
+ "carfilzomib": {
+  "meta": {
+   "setid": "ea66eb30-e665-4693-99a1-a9d3b4bbe2d6",
+   "splVersion": "59",
+   "effective": "2025-06-18",
+   "manufacturer": "Onyx Pharmaceuticals, Inc.",
+   "application": "NDA202714",
+   "brand": "KYPROLIS",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6"
+  },
+  "windows": [
+   "y-state volume of distribution of a 20 mg/m 2 dose of carfilzomib was 28 L. Carfilzomib is 97% bound to human plasma proteins over the concentration range of 0.4 to 4 micromolar in vitro. Elimination Carfilzomib has a half-life of ≤ 1 hour on Day 1 of Cycle 1 following intravenous doses ≥ 15 mg/m 2 . The half-life was similar when administered either as a 30-minute infusion or a 2- to 10-minute infusion. The systemic clearance ranged from 151 to 263 L/hour. Metabolism Carfilzomib is rapidly met",
+   "o less than 10 × 10 9 /L, follow the same recommendations as above and consider 1 dose level reduction when restarting Kyprolis Renal Toxicity [see Warnings and Precautions (5.2) ] Recommended Action Serum creatinine greater than or equal to 2 × baseline, or Creatinine clearance less than 15 mL/min, or creatinine clearance decreases to less than or equal to 50% of baseline, or need for hemodialysis Withhold dose and continue monitoring renal function (serum creatinine or creatinine clearance) If attributable to Kyprolis, resume when renal function has recovered to within 25% of baseline; start at 1 dose level reduction If not attributable to Kypr",
+   " × ULN and any AST) hepatic impairment, reduce the dose of Kyprolis by 25% [see Use in Specific Populations (8.6) , Clinical Pharmacology (12.3) ] . 2.5 Recommended Dosage for End Stage Renal Disease For patients with end stage renal disease who are on hemodialysis, administer Kyprolis after the hemodialysis procedure. 2.6 Preparation and Administration Kyprolis vials contain no antimicrobial preservatives and are intended for single-dose only. The reconstituted solution contains carfilzomib at a concentration of "
+  ]
+ },
+ "bleomycin": {
+  "meta": {
+   "setid": "640602f9-a7df-46f0-a9b1-19c471008bee",
+   "splVersion": "3",
+   "effective": "2026-04-17",
+   "manufacturer": "Meitheal Pharmaceuticals Inc.",
+   "application": "ANDA205030",
+   "brand": "Bleomycin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee"
+  },
+  "windows": [
+   " patients with severely compromised renal function. Excretion The primary route of elimination is via the kidneys. About 65% of the administered intravenous dose is excreted in urine within 24 hours. In patients with normal renal function, plasma concentrations of bleomycin decline biexponentially with a mean terminal half-life of 2 hours following intravenous bolus administration. Total body clearance and renal clearance averaged 51 mL/min/m 2 and 23 mL/min/m 2 , respectively. Following intrapleural administration to patients with normal renal function, a lower percentage of ",
+   "e area under the bleomycin CSF concentration x time curve was 25% of the area of the bleomycin plasma concentration x time curve. Distribution Bleomycin is widely distributed throughout the body with a mean volume of distribution of 17.5 L/m 2 in patients following a 15 units/m 2 intravenous bolus dose. Protein binding of bleomycin has not been studied. Metabolism Bleomycin is inactivated by a cytosolic cysteine proteinase enzyme, bleomyci",
+   "g, the patient should be apprised of the potential hazard to the fetus. Women of childbearing potential should be advised to avoid becoming pregnant during therapy with bleomycin. PRECAUTIONS General Patients with creatinine clearance values of less than 50 mL/min should be treated with caution and their renal function should be carefully monitored during the administration of bleomycin. Lower doses of bleomycin may be required in these patients than those with normal renal function (see CLINICAL PHARMACOLOGY and DOSAGE AND ADMINISTRATION ). Carcinogenesis, Mutagenesis, Impairment o",
+   "adults. The volume of distribution and terminal half-life of bleomycin in children appears comparable to that in adults. Renal Insufficiency Renal insufficiency markedly alters bleomycin elimination. The terminal elimination half-life increases exponentially as the creatinine clearance decreases. Dosing reductions were proposed for patients with creatinine clearance values of <50 mL/min (see PRECAUTIONS and DOSAGE AND ADMINISTRATION ). Hepatic Insufficiency The effect of hepatic insufficienc"
+  ]
+ },
+ "gemcitabine": {
+  "meta": {
+   "setid": "c0b1b715-9ff8-43ca-9e49-465f1f380084",
+   "splVersion": "1",
+   "effective": "2025-07-23",
+   "manufacturer": "Meitheal Pharmaceuticals Inc.",
+   "application": "ANDA212129",
+   "brand": "Gemcitabine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0b1b715-9ff8-43ca-9e49-465f1f380084"
+  },
+  "windows": [
+   "ation of infusion result in changes in half-life and plasma concentrations. Table 15 shows plasma clearance and half-life of gemcitabine following short infusions for typical patients by age and sex. Gemcitabine half-life for short infusions ranged from 42 to 94 minutes, and for long infusions varied from 245 to 638 minutes, depending on age and sex, reflecting a greatly increased volume of distribution with longer infusions. Male and Female Patients Females have lo",
+   "s (<70 minutes) and long infusions (70 to 285 minutes). The total gemcitabine dose varied from 500 mg/m 2 to 3,600 mg/m 2 . Distribution The volume of distribution was increased with infusion length. Volume of distribution of gemcitabine was 50 L/m 2 following infusions lasting <70 minutes. For long infusions, the volume of distribution rose to 370 L/m 2 . Gemcitabine pharmacokinetics are linear and are described by a 2-compartment model. Population pharmacokinetic analyses of combined",
+   "scontinue gemcitabine for unexplained dyspnea or other evidence of severe pulmonary toxicity. ( 5.4 ) Hemolytic Uremic Syndrome (HUS): Monitor renal function prior to initiation and during treatment. Discontinue gemcitabine for HUS or severe renal impairment. ( 5.5 ) Hepatic Toxicity: Monitor hepatic function prior to initiation and during treatment. Discontinue gemcitabine for severe hepatic toxicity. ( 5.6 ) Embryo-Fetal Toxicity: Can cause fetal harm."
+  ]
+ },
+ "abemaciclib": {
+  "meta": {
+   "setid": "be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+   "splVersion": "31",
+   "effective": "2026-09-18",
+   "manufacturer": "ELI LILLY AND COMPANY",
+   "application": null,
+   "brand": "VERZENIO",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06"
+  },
+  "windows": [
+   "patients 65 years of age and older with ESR1 mutations treated with VERZENIO in combination with imlunestrant to determine whether they respond differently than younger patients. 8.6 Renal Impairment No dosage adjustment is required for patients with mild or moderate renal impairment (CLcr ≥30-89 mL/min, estimated by Cockcroft-Gault [C-G]). The pharmacokinetics of abemaciclib in patients with severe renal impairment (CLcr <30 mL/min, C-G), end stage renal disease, or in patients on dialysis is unknown [see Clinical Pharmacology (12.3)]",
+   " differently than younger patients. 8.6 Renal Impairment No dosage adjustment is required for patients with mild or moderate renal impairment (CLcr ≥30-89 mL/min, estimated by Cockcroft-Gault [C-G]). The pharmacokinetics of abemaciclib in patients with severe renal impairment (CLcr <30 mL/min, C-G), end stage renal disease, or in patients on dialysis is unknown [see Clinical Pharmacology (12.3)]. 8.7 Hepatic Impairment No dosage adjustments are necessary in patients with mild or moderate hepatic impairment (Child-Pugh A or B). Reduce the dosing frequency wh"
+  ]
+ },
+ "abiraterone": {
+  "meta": {
+   "setid": "445e70a1-25bd-8fc1-e063-6394a90a1a43",
+   "splVersion": "3",
+   "effective": "2026-06-16",
+   "manufacturer": "Golden State Medical Supply, Inc.",
+   "application": "NDA210308",
+   "brand": "Abiraterone acetate",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=445e70a1-25bd-8fc1-e063-6394a90a1a43"
+  },
+  "windows": [
+   ") to the human plasma proteins, albumin and alpha-1 acid glycoprotein. The apparent steady-state volume of distribution (mean ± SD) is 19,669 ± 13,358 L. Elimination In patients with metastatic CRPC, the mean terminal half-life of abiraterone in plasma (mean ± SD) is 12 ± 5 hours. Metabolism Following oral administration of 14 C-abiraterone acetate as capsules, abiraterone acetate is hydrolyzed to abiraterone (active metabolite). The conversion is likely through esterase acti",
+   "asting in healthy subjects. Abiraterone Acetate can be taken with or without food. Distribution Abiraterone is highly bound (>99%) to the human plasma proteins, albumin and alpha-1 acid glycoprotein. The apparent steady-state volume of distribution (mean ± SD) is 19,669 ± 13,358 L. Elimination In patients with metastatic CRPC, the mean terminal half-life of abiraterone in plasma (mean ± SD) is 12 ± 5 hours. Metabolism Following oral administration of 14 C-abiraterone acetate a",
+   "te 500 mg was administered with a high-fat meal (56-60% fat, 900-1,000 calories) compared to overnight fasting in healthy subjects. Abiraterone Acetate can be taken with or without food. Distribution Abiraterone is highly bound (>99%) to the human plasma proteins, albumin and alpha-1 acid glycoprotein. The apparent steady-state volume of distribution (mean ± SD) is 19,669 ± 13,358 L. Elimination In patients with metastatic CRPC, the mean terminal half-life of",
+   "nt, interruption of treatment and dosage adjustment may be required [see Dosage and Administration ( 2.3 ), Warnings and Precautions ( 5.3 ), and Clinical Pharmacology ( 12.3 )]. 8.7 Renal Impairment No dosage modification is recommended for patients with renal impairment [see Clinical Pharmacology ( 12.3 )] . 8.1 Pregnancy Risk Summary The safety and efficacy of Abiraterone Acetate have not been established in females. Based on findings from animal studies and the me"
+  ]
+ },
+ "anastrozole": {
+  "meta": {
+   "setid": "acbfaaa9-503c-4691-9828-76a7146ed6de",
+   "splVersion": "12",
+   "effective": "2026-03-02",
+   "manufacturer": "ANI Pharmaceuticals, Inc.",
+   "application": "NDA020541",
+   "brand": "ARIMIDEX",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de"
+  },
+  "windows": [
+   "abeled anastrozole was recovered in feces and urine. Hepatic metabolism accounts for approximately 85% of anastrozole elimination. Renal elimination accounts for approximately 10% of total clearance. The mean elimination half-life of anastrozole is 50 hours. Effect of Gender and Age Anastrozole pharmacokinetics have been investigated in postmenopausal female volunteers and patients with breast cancer. No age-related effects were seen over the range <50 ",
+   "tate plasma levels are approximately 3- to 4-fold higher than levels observed after a single dose of ARIMIDEX. Plasma concentrations approach steady-state levels at about 7 days of once daily dosing. Anastrozole is 40% bound to plasma proteins in the therapeutic range. Metabolism Metabolism of anastrozole occurs by N-dealkylation, hydroxylation and glucuronidation. Three metabolites of anastrozole (triazole, a glucuronide conjugate of hydroxy-anastrozole, and a gl",
+   " of anastrozole are not affected by age. 8.6 Renal Impairment Since only about 10% of anastrozole is excreted unchanged in the urine, the renal impairment does not influence the total body clearance. Dosage adjustment in patients with renal impairment is not necessary [see Dosage and Administration ( 2.1 ) and Clinical Pharmacology ( 12.3 )] . 8.7 Hepatic Impairment The plasma anastrozole concentrations in the subjects with hepatic cirrhosis were within the range "
+  ]
+ },
+ "letrozole": {
+  "meta": {
+   "setid": "3cc750a5-cc88-4b42-b4ab-a87e760f291d",
+   "splVersion": "9",
+   "effective": "2026-08-20",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA200161",
+   "brand": "Letrozole",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3cc750a5-cc88-4b42-b4ab-a87e760f291d"
+  },
+  "windows": [
+   "t is metabolized slowly to an inactive metabolite whose glucuronide conjugate is excreted renally, representing the major clearance pathway. About 90% of radiolabeled letrozole is recovered in urine. Letrozole's terminal elimination half-life is about 2 days and steady-state plasma concentration after daily 2.5 mg dosing is reached in 2-6 weeks. Plasma concentrations at steady state are 1.5 to 2 times higher than predicted from the concentrations measure",
+   "daily administration of 2.5 mg. These steady-state levels are maintained over extended periods, however, and continuous accumulation of letrozole does not occur. Letrozole is weakly protein bound and has a large volume of distribution (approximately 1.9 L/kg). Elimination Metabolism and Excretion: Metabolism to a pharmacologically-inactive carbinol metabolite (4,4'-methanol-bisbenzonitrile) and renal excretion of the glucuronide conjugate of this metaboli",
+   "red every other day. The effect of hepatic impairment on letrozole tablets exposure in noncirrhotic cancer patients with elevated bilirubin levels has not been determined. 2.6 Use in Renal Impairment No dosage adjustment is required for patients with renal impairment if creatinine clearance is greater than or equal to 10 mL/min [see Clinical Pharmacology (12.3) ] . 3 DOSAGE FORMS AND STRENGTHS 2.5 mg tablets: Yellow colored, film-coated, round shaped tablets debossed with one side 'N' and other side 'L'. 2.5 mg tablets. ( 3"
+  ]
+ },
+ "enzalutamide": {
+  "meta": {
+   "setid": "b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+   "splVersion": "24",
+   "effective": "2026-07-28",
+   "manufacturer": "Astellas Pharma US, Inc.",
+   "application": "NDA203415",
+   "brand": "XTANDI",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf"
+  },
+  "windows": [
+   "ound to plasma proteins. Elimination Enzalutamide is primarily eliminated by hepatic metabolism. The mean apparent clearance (CL/F) of enzalutamide after a single dose is 0.56 L/h (0.33 to 1.02 L/h). The mean terminal half-life (t 1/2 ) for enzalutamide after a single oral dose is 5.8 days (2.8 to 10.2 days). The mean terminal t 1/2 for N‑desmethyl enzalutamide is approximately 7.8 to 8.6 days. Metabolism Enzalutamide is metabolized by CYP2C8 and CYP3A4. CYP2C8 is primarily responsible for the formation ",
+   "pharmacokinetics following the administration of XTANDI with a high‑fat meal (approximately 150 calories from protein, 250 calories from carbohydrates, and 500 to 600 calories from fat). Distribution The mean (%CV) volume of distribution after a single oral dose is 110 L (29%). Enzalutamide is 97% to 98% bound to plasma proteins, primarily albumin. N-desmethyl enzalutamide is 95% bound to plasma proteins. Elimination Enzalutamide is primarily eliminated by hepatic me",
+   "pproximately 150 calories from protein, 250 calories from carbohydrates, and 500 to 600 calories from fat). Distribution The mean (%CV) volume of distribution after a single oral dose is 110 L (29%). Enzalutamide is 97% to 98% bound to plasma proteins, primarily albumin. N-desmethyl enzalutamide is 95% bound to plasma proteins. Elimination Enzalutamide is primarily eliminated by hepatic metabolism. The mean apparent clearance (CL/F) of enzalutamide after a single do",
+   "d clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out. 8.6 Renal Impairment No dosage modification is recommended for patients with mild to moderate renal impairment (creatinine clearance [CLcr] ≥ 30 mL/min). XTANDI has not been studied in patients with severe renal impairment (CLcr < 30 mL/min) or end-stage renal disease [see Clinical Pharmacology ( 12.3 )] . 8.7 Hepatic Impairment No dosage modificatio",
+   "f some older individuals cannot be ruled out. 8.6 Renal Impairment No dosage modification is recommended for patients with mild to moderate renal impairment (creatinine clearance [CLcr] ≥ 30 mL/min). XTANDI has not been studied in patients with severe renal impairment (CLcr < 30 mL/min) or end-stage renal disease [see Clinical Pharmacology ( 12.3 )] . 8.7 Hepatic Impairment No dosage modification is recommended for patients with mild, moderate, or severe hepatic impairment [see Clinical Pharmacology ( 12.3 )]"
+  ]
+ },
+ "osimertinib": {
+  "meta": {
+   "setid": "5e81b4a7-b971-45e1-9c31-29cea8c87ce7",
+   "splVersion": "37",
+   "effective": "2026-09-14",
+   "manufacturer": "ASTRAZENECA PHARMACEUTICALS LP",
+   "application": null,
+   "brand": "TAGRISSO",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7"
+  },
+  "windows": [
+   "ith pemetrexed and platinum-based chemotherapy did not include sufficient numbers of patients age 65 and over to determine whether they respond differently from younger patients. 8.6 Renal Impairment No dose adjustment is recommended in patients with creatinine clearance (CLcr) 15 - 89 mL/min, as estimated by Cockcroft-Gault. There is no recommended dose of TAGRISSO for patients with end-stage renal disease (CLcr <15 mL/min) [see Clinical Pharmacology (12.3)]. 8.7 Hepatic Impairment No dose adjustment is recommended in p",
+   "er they respond differently from younger patients. 8.6 Renal Impairment No dose adjustment is recommended in patients with creatinine clearance (CLcr) 15 - 89 mL/min, as estimated by Cockcroft-Gault. There is no recommended dose of TAGRISSO for patients with end-stage renal disease (CLcr <15 mL/min) [see Clinical Pharmacology (12.3)]. 8.7 Hepatic Impairment No dose adjustment is recommended in patients with mild to moderate hepatic impairment (Child-Pugh A and B or total bilirubin ≤ ULN and AST "
+  ]
+ },
+ "paclitaxel": {
+  "meta": {
+   "setid": "15dd51ed-29e8-468b-b6d1-21b1f84d6f2e",
+   "splVersion": "4",
+   "effective": "2023-11-01",
+   "manufacturer": "Teva Pharmaceuticals, Inc.",
+   "application": "NDA216338",
+   "brand": "Paclitaxel protein-bound (albumin-bound)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15dd51ed-29e8-468b-b6d1-21b1f84d6f2e"
+  },
+  "windows": [
+   "istribution Following protein bound paclitaxel administration to patients with solid tumors, paclitaxel is evenly distributed into blood cells and plasma and is highly bound to plasma proteins (94%). The total volume of distribution is approximately 1,741 L; the large volume of distribution indicates extensive extravascular distribution and/or tissue binding of paclitaxel. In a within-patient comparison study, the fraction of unbound paclitaxel in plasm",
+   "e no differences in terminal half-lives. Distribution Following protein bound paclitaxel administration to patients with solid tumors, paclitaxel is evenly distributed into blood cells and plasma and is highly bound to plasma proteins (94%). The total volume of distribution is approximately 1,741 L; the large volume of distribution indicates extensive extravascular distribution and/or tissue binding of paclitaxel. In a within-patient co",
+   "for Injectable Suspension (albumin-bound) dose is required for patients with mild to moderate renal impairment (estimated creatinine clearance 30 to <90 mL/min) [see Clinical Pharmacology ( 12.3 )] . There are insufficient data to permit dosage recommendations in patients with severe renal impairment or end stage renal disease (estimated creatinine clearance <30 mL/min). 8.7 Hepatic Impairment Paclitaxel Protein-Bound Particles for Injectable Suspension (albumin-bound) is not recommended for use in patients with total bilirubin > 5 x ULN or AST > 10 x ULN [see Dosag"
+  ]
+ },
+ "palbociclib": {
+  "meta": {
+   "setid": "89a142d5-7e61-48bf-9e77-e2cd124c4792",
+   "splVersion": "11",
+   "effective": "2026-07-06",
+   "manufacturer": "U.S. Pharmaceuticals",
+   "application": "NDA212436",
+   "brand": "IBRANCE",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792"
+  },
+  "windows": [
+   "bociclib in human plasma in vivo increased incrementally with worsening hepatic function. There was no obvious trend in the mean palbociclib f u in human plasma in vivo with worsening renal function. The geometric mean apparent volume of distribution (V z /F) was 2583 L with a coefficient of variation (CV) of 26%. Metabolism In vitro and in vivo studies indicated that palbociclib undergoes hepatic metabolism in humans. Following oral administration of a single 125 m",
+   "o 700 calories with 75 to 105, 250 to 350 and 175 to 245 calories from protein, carbohydrate, and fat, respectively), compared to IBRANCE tablets given under overnight fasted conditions. Distribution Binding of palbociclib to human plasma proteins in vitro was approximately 85%, with no concentration dependence over the concentration range of 500 ng/mL to 5000 ng/mL. The mean fraction unbound (f u ) of palbociclib in human plasma in vivo increased incrementally with worseni",
+   "ormal renal function. Peak palbociclib exposure (C max ) increased by 17%, 12%, and 15% for mild, moderate, and severe renal impairment, respectively, relative to subjects with normal renal function. The pharmacokinetics of palbociclib have not been studied in patients requiring hemodialysis [see Clinical Pharmacology (12.3) ] . 8.1 Pregnancy Risk Summary Based on findings from animal studies and its mechanism of action, IBRANCE can cause fetal harm when administered to a pregnant woman ",
+   "ion [see Clinical Pharmacology (12.3) ] . Review the Full Prescribing Information for the aromatase inhibitor or fulvestrant for dose modifications related to hepatic impairment. 8.7 Renal Impairment No dose adjustment is required in patients with mild, moderate, or severe renal impairment (CrCl >15 mL/min). Based on a pharmacokinetic trial in subjects with varying degrees of renal function, the total palbociclib exposure (AUC INF ) increased by 39%, 42%, and 31% with mild (60 mL/min ≤ CrCl <90 mL/min),"
+  ]
+ },
+ "ribociclib": {
+  "meta": {
+   "setid": "aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+   "splVersion": "28",
+   "effective": "2026-07-01",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA209092",
+   "brand": "KISQALI",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8"
+  },
+  "windows": [
+   " at steady-state following 600 mg dose of KISQALI in patients with advanced cancer. The steady state mean CL/F was 38.4 L/hr following the 400 mg dose of KISQALI in patients with early breast cancer. The mean apparent plasma terminal half-life of ribociclib ranged from 29.7 to 54.7 hours and mean CL/F of ribociclib ranged from 39.9 to 77.5 L/hr at 600 mg across studies in healthy adults. Following a single oral dose of radio-labeled ribociclib in healthy adults, 92% of the total admi",
+   "iclib C max or AUC inf . Distribution Ribociclib protein binding in vitro was approximately 70% and independent of concentration (10 to 10,000 ng/mL). The mean in vivo blood-to-plasma ratio was 1.04. The apparent volume of distribution at steady-state (Vss/F) was 1090 L. Metabolism Ribociclib undergoes extensive hepatic metabolism mainly via CYP3A4 in humans. Following oral administration of a single 600 mg dose of radio-labeled ribociclib to humans, the primary met",
+   " Review the Full Prescribing Information for the co-administered aromatase inhibitor or fulvestrant for dose modifications related to hepatic impairment. Dose Modification for Severe Renal Impairment The recommended starting dose is 200 mg KISQALI once daily for patients with severe renal impairment [see Use in Specific Populations (8.7), Clinical Pharmacology (12.3)] . Table 1: Recommended Dose Modification for Adverse Reactions Level KISQALI Dose Number of tablets Early breast cancer Starting "
+  ]
+ },
+ "rucaparib": {
+  "meta": {
+   "setid": "0295d202-1cfe-7659-e063-6294a90a476e",
+   "splVersion": "20",
+   "effective": "2026-10-16",
+   "manufacturer": "PHARMAAND GMBH",
+   "application": null,
+   "brand": "RUBRACA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0295d202-1cfe-7659-e063-6294a90a476e"
+  },
+  "windows": [
+   "recommended for patients with mild to moderate renal impairment (creatinine clearance [CLcr] between 30 and 89 mL/min, as estimated by the Cockcroft-Gault method) [see Clinical Pharmacology ( 12.3)]. Rubraca has not been studied in patients with CLcr < 30 mL/min or patients on dialysis. 8.7 Hepatic Impairment No dosage modification is recommended for patients with mild to moderate hepatic impairment (total bilirubin ≤ 3 x upper limit of normal [ULN] or AST > ULN) [see Clinical Phar"
+  ]
+ },
+ "zanubrutinib": {
+  "meta": {
+   "setid": "3e08fe23-d70e-424c-bc51-1222e320f902",
+   "splVersion": "25",
+   "effective": "2026-09-04",
+   "manufacturer": "BEONE MEDICINES USA, INC.",
+   "application": null,
+   "brand": "BRUKINSA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902"
+  },
+  "windows": [
+   " (57% and 38%, respectively) than patients <65 years of age (51% and 29%, respectively). No overall differences in effectiveness were observed between younger and older patients. 8.6 Renal Impairment No dosage modification is recommended in patients with mild, moderate, or severe renal impairment (CLcr ≥15 mL/min, estimated by Cockcroft-Gault). Monitor for BRUKINSA adverse reactions in patients on dialysis [see Clinical Pharmacology (12.3)]. 8.7 Hepatic Impairment Dosage modification of BRUKINSA is recommended in patients with severe hepat",
+   "een younger and older patients. 8.6 Renal Impairment No dosage modification is recommended in patients with mild, moderate, or severe renal impairment (CLcr ≥15 mL/min, estimated by Cockcroft-Gault). Monitor for BRUKINSA adverse reactions in patients on dialysis [see Clinical Pharmacology (12.3)]. 8.7 Hepatic Impairment Dosage modification of BRUKINSA is recommended in patients with severe hepatic impairment [see Dosage and Administration (2.2)]. The safety "
+  ]
+ },
+ "ibrutinib": {
+  "meta": {
+   "setid": "0dfd0279-ff17-4ea9-89be-9803c71bab44",
+   "splVersion": "65",
+   "effective": "2025-10-21",
+   "manufacturer": "Pharmacyclics LLC",
+   "application": "NDA217003",
+   "brand": "IMBRUVICA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0dfd0279-ff17-4ea9-89be-9803c71bab44"
+  },
+  "windows": [
+   "nce was 62 L/h in fasted conditions and 76 L/h in fed conditions. In line with the high first-pass effect, the apparent oral clearance is 2000 L/h in fasted conditions and 1000 L/h in fed conditions. The half-life of ibrutinib is 4 hours to 6 hours. Metabolism Metabolism is the main route of elimination for ibrutinib. It is metabolized to several metabolites primarily by cytochrome P450 (CYP) 3A and to a minor extent by CYP2D6. The active metab",
+   "east cancer resistance protein (BCRP). Distribution Reversible binding of ibrutinib to human plasma protein in vitro was 97.3% with no concentration dependence in the range of 50 ng/mL to 1000 ng/mL. The volume of distribution (V d ) was 683 L, and the apparent volume of distribution at steady state (V d,ss /F) was approximately 10,000 L. Elimination Intravenous clearance was 62 L/h in fasted conditions and 76 L/h in fed conditions. In lin",
+   " with administration of ibrutinib after overnight fasting. In vitro studies suggest that ibrutinib is not a substrate of p-glycoprotein (P-gp) or breast cancer resistance protein (BCRP). Distribution Reversible binding of ibrutinib to human plasma protein in vitro was 97.3% with no concentration dependence in the range of 50 ng/mL to 1000 ng/mL. The volume of distribution (V d ) was 683 L, and the apparent volume of distribution at steady state (V d,ss /F) was approxima",
+   "cs. Patients with Renal Impairment Mild and moderate renal impairment (creatinine clearance [CLcr] > 25 mL/min as estimated by Cockcroft-Gault equation) had no influence on the exposure of ibrutinib. No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis. Patients with Hepatic Impairment The AUC of ibrutinib increased 2.7-fold in subjects with mild hepatic impairment (Child-Pugh class A), 8.2-fold in subjects with moderate hepatic impairment (Child-P",
+   "h the remainder of the excreted dose being metabolites. Specific Populations Age and Sex Age and sex have no clinically meaningful effect on ibrutinib pharmacokinetics. Patients with Renal Impairment Mild and moderate renal impairment (creatinine clearance [CLcr] > 25 mL/min as estimated by Cockcroft-Gault equation) had no influence on the exposure of ibrutinib. No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis. Patients with Hepatic Impairment The AUC of ibrutinib increased 2.7-fold in subjects with",
+   "cs. Patients with Renal Impairment Mild and moderate renal impairment (creatinine clearance [CLcr] > 25 mL/min as estimated by Cockcroft-Gault equation) had no influence on the exposure of ibrutinib. No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis. Patients with Hepatic Impairment The AUC of ibrutinib increased 2.7-fold in subjects with mild hepatic impairment (Child-Pugh class A), 8.2-fold in subjects with moderate hepatic impairment (Child-P"
+  ]
+ },
+ "venetoclax": {
+  "meta": {
+   "setid": "b118a40d-6b56-cee3-10f6-ded821a97018",
+   "splVersion": "283",
+   "effective": "2026-05-20",
+   "manufacturer": "AbbVie Inc.",
+   "application": "NDA208573",
+   "brand": "VENCLEXTA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018"
+  },
+  "windows": [
+   "tration range of 1-30 micromolar (0.87-26 mcg/mL). The mean blood-to-plasma ratio was 0.57. The apparent volume of distribution (Vd ss /F) of venetoclax ranged from 256-321 L in patients. Elimination The terminal elimination half-life of venetoclax was approximately 26 hours. Metabolism Venetoclax is predominantly metabolized by CYP3A in vitro. The major metabolite identified in plasma, M27, has an inhibitory activity against BCL-2 that is at least 58-fold lower than ven",
+   "ion Venetoclax is highly bound to human plasma protein with unbound fraction in plasma <0.01 across a concentration range of 1-30 micromolar (0.87-26 mcg/mL). The mean blood-to-plasma ratio was 0.57. The apparent volume of distribution (Vd ss /F) of venetoclax ranged from 256-321 L in patients. Elimination The terminal elimination half-life of venetoclax was approximately 26 hours. Metabolism Venetoclax is predominantly metabolized by CYP3A in vitro. The major metabolite identified in plas",
+   "ion of VENCLEXTA following a dosage interruption. See Table 4 , Table 5 , and Table 6 for dose modifications of VENCLEXTA after interruption. The risk of TLS is a continuum based on multiple factors, particularly reduced renal function (creatinine clearance [CLcr] <80 mL/min) and tumor burden; splenomegaly may also increase the risk of TLS. Perform tumor burden assessments, including radiographic evaluation (e.g., CT scan), assess blood chemistry (potassium, uric acid, phosphorus, calcium"
+  ]
+ },
+ "vincristine": {
+  "meta": {
+   "setid": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+   "splVersion": "16",
+   "effective": "2026-02-17",
+   "manufacturer": "Hospira, Inc.",
+   "application": "ANDA071484",
+   "brand": "Vincristine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c"
+  },
+  "windows": [
+   " does not eliminate the need for the above mentioned supportive measures. Most of an intravenous dose of vincristine is excreted into the bile after rapid tissue binding (see CLINICAL PHARMACOLOGY ). Because only very small amounts of the drug appear in dialysate, hemodialysis is not likely to be helpful in cases of overdosage. An increase in the severity of side effects may be experienced by patients with liver disease that is severe enough to decrease biliary excretion. Enhanced fecal excretion of parenterally administer"
+  ]
+ },
+ "trastuzumab": {
+  "meta": {
+   "setid": "b6465b44-a6dd-f99c-d009-6851cf05169c",
+   "splVersion": "15",
+   "effective": "2026-06-26",
+   "manufacturer": "Biocon Biologics Inc.",
+   "application": "BLA761074",
+   "brand": "Trastuzumab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c"
+  },
+  "windows": [
+   "kinetic analysis, no clinically significant differences were observed in the pharmacokinetics of trastuzumab based on age (<65 (n = 1294); ≥65 (n = 288)), race (Asian (n = 264); non-Asian (n = 1324)) and renal impairment (mild (creatinine clearance [CLcr] 60 to 90 mL/min) (n = 636) or moderate (CLcr 30 to 60 mL/min) (n = 133)). The pharmacokinetics of trastuzumab products in patients with severe renal impairment, end-stage renal disease with or without hemodialysis, or hepatic impairment is unknown. Drug Interaction Studie"
+  ]
+ },
+ "rasburicase": {
+  "meta": {
+   "setid": "0ae10bc4-6b65-402f-9db5-2d7753054922",
+   "splVersion": "25",
+   "effective": "2026-07-30",
+   "manufacturer": "Sanofi-Aventis U.S. LLC",
+   "application": "BLA103946",
+   "brand": "ELITEK",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922"
+  },
+  "windows": [
+   " to 127 mL/kg in pediatric patients and from 75.8 to 138 mL/kg in adult patients, respectively. Minimal accumulation of rasburicase (<1.3-fold) was observed between days 1 and 5 of dosing. In adults, age, gender, baseline liver enzymes and creatinine clearance did not impact the pharmacokinetics of rasburicase. A cross-study comparison revealed that after administration of rasburicase at 0.15 or 0.20 mg/kg, the geometric mean values of body-weight normalized clearance were approximately 40% lower in Japane"
+  ]
+ },
+ "docetaxel": {
+  "meta": {
+   "setid": "4763744e-360e-4d37-be05-cce4114548cd",
+   "splVersion": "4",
+   "effective": "2025-07-15",
+   "manufacturer": "Avyxa Pharma, LLC",
+   "application": "NDA215813",
+   "brand": "Docetaxel",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4763744e-360e-4d37-be05-cce4114548cd"
+  },
+  "windows": [
+   "ect the protein binding of docetaxel. Elimination With extended plasma sampling up to 8 to 22 days post infusion, the estimated mean total body clearance was 18 L/h/m 2 (range of means: 14 to 23) and mean terminal elimination half-life was 116 hours (range of means: 92 to 135). Metabolism Docetaxel is metabolized by the CYP3A4 isoenzyme in vitro [see Drug Interactions (7) ]. Excretion In three cancer patients, urinary and fecal excretion account",
+   "es of 1 to 2 hours. Docetaxel's pharmacokinetic profile is consistent with a three-compartment pharmacokinetic model, with initial rapid distribution phase and the late (terminal) phase. Distribution Mean steady state volume of distribution was 113 L. Docetaxel is approximately 94% protein bound in vitro , mainly to α1-acid glycoprotein, albumin, and lipoproteins. In three cancer patients, the in vitro binding to plasma proteins was approximately",
+   "ile is consistent with a three-compartment pharmacokinetic model, with initial rapid distribution phase and the late (terminal) phase. Distribution Mean steady state volume of distribution was 113 L. Docetaxel is approximately 94% protein bound in vitro , mainly to α1-acid glycoprotein, albumin, and lipoproteins. In three cancer patients, the in vitro binding to plasma proteins was approximately 97%. Dexamethasone does not affect the protein binding"
+  ]
+ },
+ "doxorubicin": {
+  "meta": {
+   "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+   "splVersion": "28",
+   "effective": "2026-05-05",
+   "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+   "application": "NDA050629",
+   "brand": "Doxorubicin",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1fd148fb-0fbc-4b6f-b790-23546fb46a71"
+  },
+  "windows": [
+   " independent of plasma concentration of doxorubicin up to 1.1 µg/mL. Doxorubicin does not cross the blood brain barrier. Elimination Plasma clearance is ranges from 324 mL/min/m 2 to 809 mL/min/m 2 . The terminal half-life is 20 hours to 48 hours. Metabolism Doxorubicin is a substrate of CYP3A4, CYP2D6, and P-gp. Enzymatic reduction at the 7 position and cleavage of the daunosamine sugar yields aglycones which are accompanied by free radical ",
+   "ction. In four patients, doxorubicin demonstrated dose-independent pharmacokinetics across a dose range of 30 mg/m 2 to 70 mg/m 2 . Distribution The distribution half-life is approximately 5 minutes. Steady-state distribution volume ranges from 809 L/m 2 to 1214 L/m 2 . Binding of doxorubicin and its major metabolite, doxorubicinol, to plasma proteins is 75% and is independent of plasma concentration of doxorubicin up to 1.1 µg/mL. Doxorubicin does not cross the b",
+   "tribution The distribution half-life is approximately 5 minutes. Steady-state distribution volume ranges from 809 L/m 2 to 1214 L/m 2 . Binding of doxorubicin and its major metabolite, doxorubicinol, to plasma proteins is 75% and is independent of plasma concentration of doxorubicin up to 1.1 µg/mL. Doxorubicin does not cross the blood brain barrier. Elimination Plasma clearance is ranges from 324 mL/min/m 2 to 809 mL/min/m 2 . The terminal half-life is 20 hours t"
+  ]
+ },
+ "fluorouracil": {
+  "meta": {
+   "setid": "21af1777-87f7-4e40-9917-f1677e7ff1a5",
+   "splVersion": "6",
+   "effective": "2026-06-08",
+   "manufacturer": "Fresenius Kabi USA, LLC",
+   "application": "ANDA040278",
+   "brand": "Fluorouracil",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21af1777-87f7-4e40-9917-f1677e7ff1a5"
+  },
+  "windows": [
+   " the liver. The metabolites of fluorouracil (e.g., urea and α -fluoro-ß-alanine) are excreted in the urine over 3 to 4 hours. Following bolus intravenous injection of fluorouracil, as a single agent, the elimination half-life increased with dose from 8 to 20 minutes. 12.5 Pharmacogenomics The DPYD gene encodes the enzyme DPD, which is responsible for the catabolism of >80% of fluorouracil. Approximately 3-5% of White populations have partial DPD deficiency and 0"
+  ]
+ },
+ "dasatinib": {
+  "meta": {
+   "setid": "1931e73f-918c-4d69-9543-de9643513d05",
+   "splVersion": "10",
+   "effective": "2024-07-09",
+   "manufacturer": "Prasco Laboratories",
+   "application": "NDA021986",
+   "brand": "Dasatinib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1931e73f-918c-4d69-9543-de9643513d05"
+  },
+  "windows": [
+   "mg/m 2 once daily, taken with or without food. The pharmacokinetics showed dose proportionality with a dose-related increase in exposure. The mean T max was observed between 0.5 hours and 6 hours and the mean half-life was 2 hours to 5 hours. The geometric mean (CV%) of body weight normalized clearance in these 43 pediatric patients is 5.98 (41.5%) L/h/kg. In pediatric patients with a dosing regimen of 60 mg/m 2 , the model simulated geo",
+   "ose of 100 mg by 14%. The total calorie content of the high-fat meal was 985 kcal. The calories derived from fat, carbohydrates, and protein were 52%, 34%, and 14% for the high-fat meal. Distribution The apparent volume of distribution is 2505 L (CV% 93%). Binding of dasatinib to human plasma proteins in vitro was approximately 96% and of its active metabolite was 93%, with no concentration dependence over the range of 100 ng/mL to 500 ng/mL",
+   "gh-fat meal was 985 kcal. The calories derived from fat, carbohydrates, and protein were 52%, 34%, and 14% for the high-fat meal. Distribution The apparent volume of distribution is 2505 L (CV% 93%). Binding of dasatinib to human plasma proteins in vitro was approximately 96% and of its active metabolite was 93%, with no concentration dependence over the range of 100 ng/mL to 500 ng/mL. Dasatinib is a P-gp substrate in vitro . Elimination The mean terminal half-life of dasatinib is 3 hours to 5 hours. The me"
+  ]
+ },
+ "nilotinib": {
+  "meta": {
+   "setid": "6093952a-5248-45cb-ad17-33716a411146",
+   "splVersion": "42",
+   "effective": "2025-12-16",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA022068",
+   "brand": "Nilotinib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6093952a-5248-45cb-ad17-33716a411146"
+  },
+  "windows": [
+   " to be bioequivalent to a single dose administration of two 200 mg intact capsules. Distribution The blood-to-serum ratio of nilotinib is 0.68. Serum protein binding is approximately 98%. Elimination The mean (CV%) apparent elimination half-life is estimated to be approximately 17 hours (69%) and the mean (CV%) apparent clearance approximates 29 L/h (61%). Metabolism Nilotinib is primarily metabolized via CYP3A4-mediated oxidation and to a minor extent by CYP2C8. Nilotinib is the ma",
+   " applesauce and administered within 15 minutes was shown to be bioequivalent to a single dose administration of two 200 mg intact capsules. Distribution The blood-to-serum ratio of nilotinib is 0.68. Serum protein binding is approximately 98%. Elimination The mean (CV%) apparent elimination half-life is estimated to be approximately 17 hours (69%) and the mean (CV%) apparent clearance approximates 29 L/h (61%). Metabolism Nilotinib is pri"
+  ]
+ },
+ "tamoxifen": {
+  "meta": {
+   "setid": "1e6ff055-590c-41e6-9530-1fdf04cdbd02",
+   "splVersion": "2",
+   "effective": "2021-11-29",
+   "manufacturer": "Mayne Pharma",
+   "application": "NDA021807",
+   "brand": "Tamoxifen",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02"
+  },
+  "windows": [
+   " of 20 mg tamoxifen, an average peak plasma concentration of 40 ng/mL (range 35 to 45 ng/mL) occurred approximately 5 hours after dosing. The decline in plasma concentrations of tamoxifen is biphasic with a terminal elimination half-life of about 5 to 7 days. The average peak plasma concentration of N- desmethyl tamoxifen, the major metabolite, is 15 ng/mL (range 10 to 20 ng/mL). Chronic administration of 10 mg tamoxifen given twice daily for 3 months to"
+  ]
+ },
+ "atezolizumab": {
+  "meta": {
+   "setid": "6fa682c9-a312-4932-9831-f286908660ee",
+   "splVersion": "46",
+   "effective": "2026-10-13",
+   "manufacturer": "GENENTECH, INC.",
+   "application": null,
+   "brand": "TECENTRIQ",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee"
+  },
+  "windows": []
+ },
+ "nivolumab": {
+  "meta": {
+   "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+   "splVersion": "68",
+   "effective": "2026-08-12",
+   "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+   "application": "BLA125554",
+   "brand": "OPDIVO",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394"
+  },
+  "windows": [
+   "time in patients with completely resected melanoma, as the geometric mean population clearance is 24% lower in this patient population compared with patients with metastatic melanoma at steady state. The geometric mean elimination half-life (t 1/2 ) is 25 days (77.5%). Specific Populations The following factors had no clinically important effect on the clearance of nivolumab: age (29 to 87 years), weight (35 to 160 kg), sex, race, baseline LDH, PD-L1 expre",
+   " observed with a 60-minute infusion. Steady-state concentrations of nivolumab were reached by 12 weeks when administered at 3 mg/kg every 2 weeks, and systemic accumulation was 3.7-fold. Distribution The geometric mean volume of distribution at steady state (Vss) and coefficient of variation (CV%) is 6.8 L (27.3%). Elimination Nivolumab clearance (CL) decreases over time, with a mean maximal reduction from baseline values (CV%) of 24.5% (47.6%) resulting in a geometric mean steady-state clearance (CLss"
+  ]
+ },
+ "pembrolizumab": {
+  "meta": {
+   "setid": "9333c79b-d487-4538-a9f0-71b91a02b287",
+   "splVersion": "228",
+   "effective": "2026-07-10",
+   "manufacturer": "Merck Sharp & Dohme LLC",
+   "application": "BLA125514",
+   "brand": "KEYTRUDA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+  },
+  "windows": [
+   "roximately 23% lower [geometric mean, 195 mL/day (40%)] at steady state than that after the first dose [252 mL/day (37%)]; this decrease in clearance with time is not considered clinically important. The terminal half-life (t 1/2 ) is 22 days (32%). Specific Populations The following factors had no clinically important effect on the CL of pembrolizumab: age (range: 15 to 94 years), sex, race (89% White), renal impairment (eGFR ≥15 mL/min/",
+   "n ), and area under the plasma concentration versus time curve at steady state (AUC ss ) of pembrolizumab increased dose proportionally in the dose range: of 2 to 10 mg/kg every 3 weeks. Distribution The geometric mean value (CV%) for volume of distribution at steady state is 6.0 L (20%). Elimination Pembrolizumab clearance (CV%) is approximately 23% lower [geometric mean, 195 mL/day (40%)] at steady state than that after the first dose [252 mL/day (37%)]; this decrease in clea"
+  ]
+ },
+ "cetuximab": {
+  "meta": {
+   "setid": "8bc6397e-4bd8-4d37-a007-a327e4da34d9",
+   "splVersion": "58",
+   "effective": "2026-04-16",
+   "manufacturer": "ImClone LLC",
+   "application": "BLA125084",
+   "brand": "ERBITUX",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9"
+  },
+  "windows": [
+   " cetuximab reached steady-state levels by the third weekly infusion with mean peak and trough concentrations across studies ranging from 168 μg/mL to 235 μg/mL and 41 μg/mL to 85 μg/mL, respectively. The mean half-life of cetuximab was approximately 112 hours (63 to 230 hours). Specific Population Age, sex, race, hepatic and renal function had no clinically significant effect on the pharmacokinetics of cetuximab. Clearance of cetuximab increased 1.8-fold as body surface ar"
+  ]
+ },
+ "bevacizumab": {
+  "meta": {
+   "setid": "4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe",
+   "splVersion": "6",
+   "effective": "2026-08-21",
+   "manufacturer": "CELLTRION USA, Inc.",
+   "application": "BLA761268",
+   "brand": "Bevacizumab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe"
+  },
+  "windows": [
+   " dose of 5 mg/kg once every two weeks. Distribution The mean (% coefficient of variation [CV%]) central volume of distribution is 2.9 (22%) L. Elimination The mean (CV%) clearance is 0.23 (33) L/day. The estimated half-life is 20 days (11 to 50 days). Specific Populations The clearance of bevacizumab varied by body weight, sex, and tumor burden. After correcting for body weight, males had a higher bevacizumab clearance (0.26 L/day vs. 0.21 L/day)"
+  ]
+ },
+ "daratumumab": {
+  "meta": {
+   "setid": "a4d0efe9-5e54-467e-9eb4-56fa7d53b60b",
+   "splVersion": "46",
+   "effective": "2026-09-21",
+   "manufacturer": "JANSSEN BIOTECH, INC.",
+   "application": null,
+   "brand": "DARZALEX",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b"
+  },
+  "windows": []
+ },
+ "acalabrutinib": {
+  "meta": {
+   "setid": "dd4835ef-e1bc-4997-a399-1ffa2556fbfe",
+   "splVersion": "27",
+   "effective": "2026-02-19",
+   "manufacturer": "AstraZeneca Pharmaceuticals LP",
+   "application": "NDA210259",
+   "brand": "CALQUENCE",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd4835ef-e1bc-4997-a399-1ffa2556fbfe"
+  },
+  "windows": [
+   "ohydrate, 59 grams fat, and 39 grams protein) did not affect the mean AUC as compared to dosing under fasted conditions. Resulting C max decreased by 73% and T max was delayed 1-2 hours. Distribution Reversible binding to human plasma protein was 97.5% for acalabrutinib and 98.6% for ACP-5862. The in vitro mean blood-to-plasma ratio was 0.8 for acalabrutinib and 0.7 for ACP-5862. The geometric mean (% CV) steady-state volume of distribution (Vss) was approximately 101 (52%) L for acalabru"
+  ]
+ },
+ "melphalan": {
+  "meta": {
+   "setid": "2254450e-4803-b947-e063-6394a90a4624",
+   "splVersion": "2",
+   "effective": "2026-01-08",
+   "manufacturer": "Arthur Group LLC",
+   "application": "ANDA211463",
+   "brand": "Melphalan Hydrochloride",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2254450e-4803-b947-e063-6394a90a4624"
+  },
+  "windows": [
+   "alkylating agents, it is active against both resting and rapidly dividing tumor cells. Pharmacokinetics Following injection, drug plasma concentrations declined rapidly in a biexponential manner with distribution phase and terminal elimination phase half-lives of approximately 10 and 75 minutes, respectively. Estimates of average total body clearance varied among studies, but typical values of approximately 7 to 9 mL/min/kg (250 to 325 mL/min/m 2 ) were observed. One study has reported that on repeat dos",
+   "preciably after the third course. Mean (±SD) peak melphalan plasma concentrations in myeloma patients given IV melphalan at doses of 10 or 20 mg/m 2 were 1.2 ± 0.4 and 2.8 ± 1.9 mcg/mL, respectively. The steady-state volume of distribution of melphalan is 0.5 L/kg. Penetration into cerebrospinal fluid (CSF) is low. The average melphalan binding to plasma proteins is highly variable (range: 53% to 92%). Serum albumin is the major binding protein, accounting for",
+   "lan at doses of 10 or 20 mg/m 2 were 1.2 ± 0.4 and 2.8 ± 1.9 mcg/mL, respectively. The steady-state volume of distribution of melphalan is 0.5 L/kg. Penetration into cerebrospinal fluid (CSF) is low. The average melphalan binding to plasma proteins is highly variable (range: 53% to 92%). Serum albumin is the major binding protein, accounting for approximately 40% to 60% of the plasma protein binding, while α 1 -acid glycoprotein accounts for about 20% of the plasma protein binding. ",
+   "filgrastim) may shorten the period of pancytopenia. General supportive measures together with appropriate blood transfusions and antibiotics should be instituted as deemed necessary by the physician. This drug is not removed from plasma to any significant degree by hemodialysis or hemoperfusion. A pediatric patient survived a 254-mg/m 2 overdose treated with standard supportive care. DOSAGE AND ADMINISTRATION The usual IV dose is 16 mg/m 2 . Dosage reduction of up to 50% should be considere"
+  ]
+ },
+ "cyclophosphamide": {
+  "meta": {
+   "setid": "0afd2cc7-09e6-481a-afea-9d2e3742da46",
+   "splVersion": "7",
+   "effective": "2025-08-07",
+   "manufacturer": "BluePoint Laboratories",
+   "application": "NDA212501",
+   "brand": "Cyclophosphamide",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0afd2cc7-09e6-481a-afea-9d2e3742da46"
+  },
+  "windows": [
+   "f distribution of cyclophosphamide is 30 to 50 L. Cyclophosphamide is approximately 20% protein bound, with no dose dependent changes. Some metabolites are greater than 60% protein bound. Elimination The elimination half-life (t½) of cyclophosphamide ranges from 3 to 12 hours, and clearance (CL) ranges from 4 to 5.6 L/h. When cyclophosphamide was administered at 4 g/m2 (approximately 2 times the approved recommended dosage) over a 90-minute infusion, concentration-time da",
+   "ic response have not been fully characterized. 12.3 Pharmacokinetics Cyclophosphamide is a prodrug. Cyclophosphamide pharmacokinetics are linear over the approved recommended dose range. Distribution The volume of distribution of cyclophosphamide is 30 to 50 L. Cyclophosphamide is approximately 20% protein bound, with no dose dependent changes. Some metabolites are greater than 60% protein bound. Elimination The elimination half-life (t½) of cyclophosphami",
+   "netics Cyclophosphamide is a prodrug. Cyclophosphamide pharmacokinetics are linear over the approved recommended dose range. Distribution The volume of distribution of cyclophosphamide is 30 to 50 L. Cyclophosphamide is approximately 20% protein bound, with no dose dependent changes. Some metabolites are greater than 60% protein bound. Elimination The elimination half-life (t½) of cyclophosphamide ranges from 3 to 12 hours, and clearance (CL) ranges from 4 to 5.6 L/h. When cyclo",
+   " in patients with CLcr of 25 to 50 mL/min, by 77% in patients with CLcr of 10 to 24 mL/min and by 23% in the hemodialysis group (CLcr of < 10 mL/min) compared to the control group (CLcr ≥ 80 mL/min). Cyclophosphamide is dialyzable. Dialysis clearance averaged 104 mL/min, which is similar to the metabolic clearance of 95 mL/min for cyclophosphamide. A mean of 37% of the administered dose of cyclophosphamide was removed during a",
+   "activity. Prolonged apnea may occur with concurrent depolarizing muscle relaxants (e.g., succinylcholine). 8 USE IN SPECIFIC POPULATIONS Lactation: Advise not to breastfeed. ( 8.2 ) Renal Impairment: Monitor for toxicity in patients with moderate and severe renal impairment. ( 8.6 , 12.3 ) 8.1 Pregnancy Risk Summary Based on its mechanism of action and published reports of effects in pregnant patients or animals, Cyclophosphamide Injection can cause fetal harm when admi",
+   "th severe renal impairment, decreased renal excretion may result in increased plasma levels of cyclophosphamide and its metabolites, which may increase toxicity [see Clinical Pharmacology ( 12.3 ) ]. Monitor patients with severe renal impairment (creatinine clearance (CLcr) = 10 mL/min to 24 mL/min) for signs and symptoms of toxicity. Cyclophosphamide and its metabolites are dialyzable although there are probably quantitative differences depending upon the dialysis system. In patients requiring dialysis, consider using a consiste",
+   "h may increase toxicity [see Clinical Pharmacology ( 12.3 ) ]. Monitor patients with severe renal impairment (creatinine clearance (CLcr) = 10 mL/min to 24 mL/min) for signs and symptoms of toxicity. Cyclophosphamide and its metabolites are dialyzable although there are probably quantitative differences depending upon the dialysis system. In patients requiring dialysis, consider using a consistent interval between cyclophosphamide administration and dialysis should be considered. 8.7 Hepatic Impairment Patients with severe hepatic im",
+   "0 mL/min to 24 mL/min) for signs and symptoms of toxicity. Cyclophosphamide and its metabolites are dialyzable although there are probably quantitative differences depending upon the dialysis system. In patients requiring dialysis, consider using a consistent interval between cyclophosphamide administration and dialysis should be considered. 8.7 Hepatic Impairment Patients with severe hepatic impairment have reduced conversion of cyclophosphamide to the active 4-hydroxyl metabolite, potentially reducing efficacy [see Clinical Pharmacolo"
+  ]
+ },
+ "methotrexate": {
+  "meta": {
+   "setid": "0e30eaef-5a09-4104-8a11-c32933eadeab",
+   "splVersion": "17",
+   "effective": "2025-08-22",
+   "manufacturer": "Hospira, Inc.",
+   "application": "NDA011719",
+   "brand": "Methotrexate",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0e30eaef-5a09-4104-8a11-c32933eadeab"
+  },
+  "windows": [
+   "l half-life reported for methotrexate is approximately 3 to 10 hours for patients receiving treatment for psoriasis, or rheumatoid arthritis or low-dose antineoplastic therapy (less than 30 mg/m 2 ). Following intravenous administration of high-dose methotrexate, the terminal half-life is 8 hours to 15 hours. Metabolism Methotrexate undergoes hepatic and intracellular metabolism to polyglutamated forms that can be converted back to methotrexate by hydrolase enzymes. These polyglutamates act as inhibitors",
+   "rier-mediated active transport process. At serum concentrations greater than 100 micromolar, passive diffusion becomes a major pathway by which effective intracellular concentrations can be achieved. Methotrexate in serum is approximately 50% protein bound. Methotrexate may be displaced from plasma albumin by various compounds, including sulfonamides, salicylates, tetracyclines, chloramphenicol, and phenytoin. Methotrexate does not penetrate the blood-",
+   "ase because leucovorin is a substrate for glucarpidase. Hydration and urinary alkalinization may be necessary to prevent the precipitation of methotrexate and/or its metabolites in the renal tubules. Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination. However, effective clearance of methotrexate has been reported with acute, intermittent hemodialysis using a high-flux dialyzer. 11 DESCRIPTION Methotrexate is a folate analog metabolic inhibitor wi",
+   "ase because leucovorin is a substrate for glucarpidase. Hydration and urinary alkalinization may be necessary to prevent the precipitation of methotrexate and/or its metabolites in the renal tubules. Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination. However, effective clearance of methotrexate has been reported with acute, intermittent hemodialysis using a high-flux dialyzer. 11 DESCRIPTION Methotrexate is a folate analog metabolic inhibitor wi",
+   "eriatric Use Clinical studies of methotrexate did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. 8.6 Renal Impairment Methotrexate elimination is reduced in patients with renal impairment [creatinine clearance (CLcr) less than 90 mL/min, calculated using Cockcroft-Gault] [see Clinical Pharmacology (12.3) ] . Patients with renal impairment are at increased risk for methotrexate adverse reactions. Follow recommendations to promote methotrexate elimination and decrease ",
+   "airment Methotrexate elimination is reduced in patients with renal impairment [creatinine clearance (CLcr) less than 90 mL/min, calculated using Cockcroft-Gault] [see Clinical Pharmacology (12.3) ] . Patients with renal impairment are at increased risk for methotrexate adverse reactions. Follow recommendations to promote methotrexate elimination and decrease risk of acute kidney injury and other methotrexate toxicities in patients who are receiving intermediate- or high-dose regimen",
+   "ase because leucovorin is a substrate for glucarpidase. Hydration and urinary alkalinization may be necessary to prevent the precipitation of methotrexate and/or its metabolites in the renal tubules. Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination. However, effective clearance of methotrexate has been reported with acute, intermittent hemodialysis using a high-flux dialyzer. 11 DESCRIPTION Methotrexate is a folate analog metabolic inhibitor wi"
+  ]
+ },
+ "rituximab": {
+  "meta": {
+   "setid": "9af3ddc7-4217-417a-ac89-8704edc5bc44",
+   "splVersion": "16",
+   "effective": "2026-07-13",
+   "manufacturer": "Cephalon, Inc.",
+   "application": "BLA761088",
+   "brand": "Rituximab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9af3ddc7-4217-417a-ac89-8704edc5bc44"
+  },
+  "windows": [
+   " chemotherapy was similar to that seen with rituximab alone. Based on a population pharmacokinetic analysis of data from 298 NHL patients who received rituximab once weekly or once every three weeks, the estimated median terminal elimination half-life was 22 days (range, 6.1 to 52 days). Patients with higher CD19-positive cell counts or larger measurable tumor lesions at pretreatment had a higher clearance. However, dose adjustment for pretreatment CD19 count",
+   " 500 mg and 2 x 1000 mg doses, respectively. Based on a population pharmacokinetic analysis of data from 2005 RA patients who received rituximab, the estimated clearance of rituximab was 0.335 L/day; volume of distribution was 3.1 L and mean terminal elimination half-life was 18.0 days (range, 5.17 to 77.5 days). Age, weight and gender had no effect on the pharmacokinetics of rituximab in RA patients. Granulomatosis with Polyang",
+   "lating malignant cells ( ≥25,000/mm3) or high tumor burden, confers a greater risk of TLS. Administer aggressive intravenous hydration and anti-hyperuricemic therapy in patients at high risk for TLS. Correct electrolyte abnormalities, monitor renal function and fluid balance, and administer supportive care, including dialysis as indicated [ see Warnings and Precautions (5.8) ]. 5.6 Infections Serious, including fatal, bacterial, fungal, and new or reactivated viral infections can occur during and following the completion of rituximab "
+  ]
+ },
+ "sirolimus": {
+  "meta": {
+   "setid": "5908cd1a-fc5a-462f-99ed-1d8983e253c9",
+   "splVersion": "22",
+   "effective": "2026-03-26",
+   "manufacturer": "Mylan Pharmaceuticals Inc.",
+   "application": "NDA021110",
+   "brand": "Sirolimus",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5908cd1a-fc5a-462f-99ed-1d8983e253c9"
+  },
+  "windows": [
+   "n After a single dose of [ 14 C] sirolimus oral solution in healthy volunteers, the majority (91%) of radioactivity was recovered from the feces, and only a minor amount (2.2%) was excreted in urine. The mean ± SD terminal elimination half-life (t ½ ) of sirolimus after multiple dosing in stable renal transplant patients was estimated to be about 62 ± 16 hours. Sirolimus Concentrations (Chromatographic Equivalent) Observed in Phase 3 Clinical Studies The following sirolimus concentrations (chromatographic equivalent) were observed in phase 3 clinical studi",
+   "uated. Distribution The mean (± SD) blood-to-plasma ratio of sirolimus was 36 ± 18 in stable renal allograft patients, indicating that sirolimus is extensively partitioned into formed blood elements. The mean volume of distribution (Vss/F) of sirolimus is 12 ± 8 L/kg. Sirolimus is extensively bound (approximately 92%) to human plasma proteins, mainly serum albumin (97%), α 1 -acid glycoprotein, and lipoproteins. Metabolism Sirolimus is a substrate for both CYP3A4",
+   "s was 36 ± 18 in stable renal allograft patients, indicating that sirolimus is extensively partitioned into formed blood elements. The mean volume of distribution (Vss/F) of sirolimus is 12 ± 8 L/kg. Sirolimus is extensively bound (approximately 92%) to human plasma proteins, mainly serum albumin (97%), α 1 -acid glycoprotein, and lipoproteins. Metabolism Sirolimus is a substrate for both CYP3A4 and P-gp. Sirolimus is extensively metabolized in the intestinal wall and li",
+   "see Adverse Reactions (6) ]. General supportive measures should be followed in all cases of overdose. Based on the low aqueous solubility and high erythrocyte and plasma protein binding of sirolimus, it is anticipated that sirolimus is not dialyzable to any significant extent. In mice and rats, the acute oral LD 50 was greater than 800 mg/kg. 11 DESCRIPTION Sirolimus is an mTOR inhibitor immunosuppressive agent. Sirolimus is a macrocyclic lactone produced by Streptomyces ",
+   "s with severe hepatic impairment. It is not necessary to modify the sirolimus loading dose [ see Use in Specific Populations (8.6) , Clinical Pharmacology (12.3) ]. 2.8 Patients with Renal Impairment Dosage adjustment is not needed in patients with impaired renal function [ see Use in Specific Populations (8.7) ]. 3 DOSAGE FORMS AND STRENGTHS • Tablets: 0.5 mg, 1 mg, 2 mg ( 3.1 ). 3.1 Sirolimus Tablets • 0.5 mg, tan, triangular-shaped tablets marked \"RAPAMUNE 0.5 mg\" ",
+   "see Adverse Reactions (6) ]. General supportive measures should be followed in all cases of overdose. Based on the low aqueous solubility and high erythrocyte and plasma protein binding of sirolimus, it is anticipated that sirolimus is not dialyzable to any significant extent. In mice and rats, the acute oral LD 50 was greater than 800 mg/kg. 11 DESCRIPTION Sirolimus is an mTOR inhibitor immunosuppressive agent. Sirolimus is a macrocyclic lactone produced by Streptomyces "
+  ]
+ },
+ "everolimus": {
+  "meta": {
+   "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+   "splVersion": "67",
+   "effective": "2026-06-01",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA022334",
+   "brand": "Everolimus",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04"
+  },
+  "windows": [
+   " observed in cancer patients given AFINITOR 10 mg orally once daily. Plasma protein binding is approximately 74% both in healthy subjects and in patients with moderate hepatic impairment. Elimination The mean elimination half-life of everolimus is approximately 30 hours. Metabolism: Everolimus is a substrate of CYP3A4. Following oral administration, everolimus is the main circulating component in human blood. Six main metabolites of everolimus have been detected in ",
+   "e range of 5 to 5000 ng/mL, is 17% to 73%. The amount of everolimus confined to plasma is approximately 20% at blood concentrations observed in cancer patients given AFINITOR 10 mg orally once daily. Plasma protein binding is approximately 74% both in healthy subjects and in patients with moderate hepatic impairment. Elimination The mean elimination half-life of everolimus is approximately 30 hours. Metabolism: Everolimus is a substrate of CYP3A4. Following oral administration, everolimus is the main circulating",
+   "e parent substance was not detected in urine or feces. Specific Populations No relationship was apparent between oral clearance and age or sex in patients with cancer. Patients with Renal Impairment: No significant influence of creatinine clearance (25 to 178 mL/min) was detected on oral clearance (CL/F) of everolimus. Patients with Hepatic Impairment: Compared to normal subjects, there was a 1.8-fold, 3.2-fold, and 3.6-fold increase in AUC for subjects with mild (Child-Pugh class A), moderate (Child-Pugh class B)"
+  ]
+ },
+ "leflunomide": {
+  "meta": {
+   "setid": "320f63f2-fac3-4aee-aff8-85724e00ef52",
+   "splVersion": "27",
+   "effective": "2025-06-04",
+   "manufacturer": "sanofi-aventis U.S. LLC",
+   "application": "NDA020905",
+   "brand": "Leflunomide",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52"
+  },
+  "windows": [
+   "ibution Teriflunomide is extensively bound to plasma protein (>99%) and is mainly distributed in plasma. The volume of distribution is 11 L after a single intravenous (IV) administration. Elimination Teriflunomide, the active metabolite of leflunomide, has a median half-life of 18 to 19 days in healthy volunteers. The elimination of teriflunomide can be accelerated by administration of cholestyramine or activated charcoal. Without use of an accelerated drug elimination procedure, it may take up to 2 years to ",
+   "a high fat meal did not have a significant impact on teriflunomide plasma concentrations. Distribution Teriflunomide is extensively bound to plasma protein (>99%) and is mainly distributed in plasma. The volume of distribution is 11 L after a single intravenous (IV) administration. Elimination Teriflunomide, the active metabolite of leflunomide, has a median half-life of 18 to 19 days in healthy volunteers. The elimination of teriflunomide can be accelerated by administration ",
+   "oncentrations are dose proportional. Effect of food Coadministration of leflunomide tablets with a high fat meal did not have a significant impact on teriflunomide plasma concentrations. Distribution Teriflunomide is extensively bound to plasma protein (>99%) and is mainly distributed in plasma. The volume of distribution is 11 L after a single intravenous (IV) administration. Elimination Teriflunomide, the active metabolite of leflunomide, has a median h",
+   "s, 60.1% of the administered dose is excreted via feces (37.5%) and urine (22.6%). After an accelerated elimination procedure with cholestyramine, an additional 23.1% was recovered (mostly in feces). Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable. Specific Populations Gender. Gender has not been shown to cause a consistent change in the in vivo pharmacokinetics of teriflunomide. Smoking. A population based pharmacokinetic analysis of the clin",
+   "s, 60.1% of the administered dose is excreted via feces (37.5%) and urine (22.6%). After an accelerated elimination procedure with cholestyramine, an additional 23.1% was recovered (mostly in feces). Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable. Specific Populations Gender. Gender has not been shown to cause a consistent change in the in vivo pharmacokinetics of teriflunomide. Smoking. A population based pharmacokinetic analysis of the clin",
+   "the role of the liver in drug elimination/recycling, and the possible risk of increased hepatic toxicity, the use of ARAVA in patients with hepatic impairment is not recommended. 8.7 Renal Impairment Dedicated studies of the effect of renal impairment on leflunomide pharmacokinetics have not been conducted. Given that the kidney plays an important role in drug elimination, caution should be used when ARAVA is administered to these patients. 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy",
+   "s, 60.1% of the administered dose is excreted via feces (37.5%) and urine (22.6%). After an accelerated elimination procedure with cholestyramine, an additional 23.1% was recovered (mostly in feces). Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable. Specific Populations Gender. Gender has not been shown to cause a consistent change in the in vivo pharmacokinetics of teriflunomide. Smoking. A population based pharmacokinetic analysis of the clin"
+  ]
+ },
+ "tofacitinib": {
+  "meta": {
+   "setid": "253635c8-1ea7-41ba-b216-dea5e3305c47",
+   "splVersion": "3",
+   "effective": "2026-09-01",
+   "manufacturer": "Novadoz Pharmaceuticals LLC",
+   "application": "ANDA217299",
+   "brand": "Tofacitinib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=253635c8-1ea7-41ba-b216-dea5e3305c47"
+  },
+  "windows": [
+   "al resulted in no changes in AUC while C max was reduced by 32%. In clinical trials, tofacitinib tablets were administered without regard to meals [see Dosage and Administration (2.2) ]. Distribution After intravenous administration, the volume of distribution was 87 L. The protein binding of tofacitinib is approximately 40%. Tofacitinib binds predominantly to albumin and does not appear to bind to α1-acid glycoprotein. Tofacitinib distributes equally between red b",
+   "nical trials, tofacitinib tablets were administered without regard to meals [see Dosage and Administration (2.2) ]. Distribution After intravenous administration, the volume of distribution was 87 L. The protein binding of tofacitinib is approximately 40%. Tofacitinib binds predominantly to albumin and does not appear to bind to α1-acid glycoprotein. Tofacitinib distributes equally between red blood cells and plasma. Metabolism and Excretion Clearance",
+   "soriatic Arthritis, or Ankylosing Spondylitis Adults Tofacitinib Tablets Patients with Normal Renal and Hepatic Function a 5 mg twice daily Recommended Dosage in Patients with Renal Impairment (RI) b Mild RI (CLcr >50 and ≤80 mL/min) 5 mg twice daily Moderate RI (CLcr ≥30 and ≤50 mL/min) 5 mg once daily Severe RI (CLcr <30 mL/min) 5 mg once daily For patients undergoing hemodialysis, administer the dose after the dialysis session on dialysis days. If a dose was taken before the dialysis procedure, supplemental doses are not recommended after ",
+   "ed Dosage in Patients with Renal Impairment (RI) b Mild RI (CLcr >50 and ≤80 mL/min) 5 mg twice daily Moderate RI (CLcr ≥30 and ≤50 mL/min) 5 mg once daily Severe RI (CLcr <30 mL/min) 5 mg once daily For patients undergoing hemodialysis, administer the dose after the dialysis session on dialysis days. If a dose was taken before the dialysis procedure, supplemental doses are not recommended after dialysis. Recommended Dosage in Patients with Hepatic Impairment (HI) Mild HI (Child-Pugh A) 5 mg twice daily Moderate HI (Child-Pugh B) 5 mg once daily Severe HI (Child-Pugh C) Use of tofacitinib tablets is "
+  ]
+ },
+ "upadacitinib": {
+  "meta": {
+   "setid": "2966aec7-2ef0-923c-d8ff-fe1a957bf095",
+   "splVersion": "101",
+   "effective": "2026-06-30",
+   "manufacturer": "AbbVie Inc.",
+   "application": "NDA211675",
+   "brand": "RINVOQ",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095"
+  },
+  "windows": [
+   " immediate-release solution, upadacitinib was eliminated predominantly as the unchanged parent drug in urine (24%) and feces (38%). Approximately 34% of upadacitinib dose was excreted as metabolites. Upadacitinib mean terminal elimination half-life ranged from 8 to 14 hours. Specific Populations Body Weight, Gender, and Race Body weight, gender, race, and ethnicity did not have a clinically meaningful effect on upadacitinib exposure in adult patient populations. Pediatr",
+   " and C max by 39% to 60%). Coadministration of RINVOQ LQ with food is not expected to have a clinically relevant effect on upadacitinib exposure [see Dosage and Administration ( 2.2 )] . Distribution Upadacitinib is 52% bound to plasma proteins. Upadacitinib partitions similarly between plasma and blood cellular components with a blood to plasma ratio of 1.0. Elimination Metabolism Upadacitinib metabolism is mediated by mainly CYP3A4 with",
+   "f an adequate response is not achieved, consider increasing the dosage to 30 mg orally once daily. ( 2.5 ) Adults 65 Years of Age and Older : Recommended dosage of RINVOQ is 15 mg once daily. ( 2.5 ) Severe Renal Impairment : Recommended dosage of RINVOQ is 15 mg once daily. ( 2.12 ) Ulcerative Colitis Adults: The recommended induction dosage of RINVOQ is 45 mg once daily for 8 weeks. The recommended maintenance dosage of RINVOQ is 15 mg once daily. A maintenance dosage"
+  ]
+ },
+ "baricitinib": {
+  "meta": {
+   "setid": "7052c055-fedf-453b-86bc-01f5465eb157",
+   "splVersion": "3",
+   "effective": "2022-05-10",
+   "manufacturer": "Eli Lilly and Company",
+   "application": "",
+   "brand": "Baricitinib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7052c055-fedf-453b-86bc-01f5465eb157"
+  },
+  "windows": [
+   "adename Olumiant ® , see the FDA-approved package insert at http://pi.lilly.com/us/olumiant-uspi.pdf . Contraindications There are no known contraindications for baricitinib. Dosing Patient Selection Evaluate baseline eGFR, liver enzymes, and complete blood count to determine treatment suitability and dose. Monitor closely patients with abnormal baseline and post-baseline laboratory values. See Table 1 for dosage modifications for patients with laboratory abnormalities. Baricitinib is not recommended f",
+   "nitor closely patients with abnormal baseline and post-baseline laboratory values. See Table 1 for dosage modifications for patients with laboratory abnormalities. Baricitinib is not recommended for: Patients who are on dialysis, have end-stage renal disease (ESRD, EGFR <15 mL/min/1.73 m 2 ), or have acute kidney injury Patients with known active tuberculosis Recommended Dosage for Pediatric Patients Limited data informing baricitinib dosing in pediatric patients comes from ongo",
+   "nitor closely patients with abnormal baseline and post-baseline laboratory values. See Table 1 for dosage modifications for patients with laboratory abnormalities. Baricitinib is not recommended for: Patients who are on dialysis, have end-stage renal disease (ESRD, EGFR <15 mL/min/1.73 m 2 ), or have acute kidney injury Patients with known active tuberculosis Recommended Dosage for Pediatric Patients Limited data informing baricitinib dosing in pediatric patients comes from ongo"
+  ]
+ },
+ "apremilast": {
+  "meta": {
+   "setid": "f6b1f516-4972-4d82-bced-113e47b41cc5",
+   "splVersion": "38",
+   "effective": "2026-09-02",
+   "manufacturer": "Amgen, Inc",
+   "application": "NDA205437",
+   "brand": "OTEZLA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5"
+  },
+  "windows": [
+   "o , CYP metabolism of apremilast is primarily mediated by CYP3A4, with minor contributions from CYP1A2 and CYP2A6. Elimination The plasma clearance of apremilast is about 10 L/hr in healthy subjects, with a terminal elimination half-life of approximately 6-9 hours. Following oral administration of radiolabeled apremilast, about 58% and 39% of the radioactivity is recovered in urine and feces, respectively, with about 3% and 7% of the radioactive dose recovered",
+   " and AUC were increased by ~28% compared to fasted conditions. Therefore, OTEZLA XR may be taken without regard to meals. Distribution Human plasma protein binding of apremilast is approximately 68%. Mean apparent volume of distribution (Vd) is 87 L. Metabolism Following oral administration in humans, apremilast is a major circulating component (45%) followed by inactive metabolite M12 (39%), a glucuronide conjugate of O-demethylated apremilast.",
+   "a high-fat meal, OTEZLA XR t max was delayed by 3 hours and C max and AUC were increased by ~28% compared to fasted conditions. Therefore, OTEZLA XR may be taken without regard to meals. Distribution Human plasma protein binding of apremilast is approximately 68%. Mean apparent volume of distribution (Vd) is 87 L. Metabolism Following oral administration in humans, apremilast is a major circulating component (45%) followed by inactive metabolite M12 (39%), a ",
+   "ce daily ( 2.1 ) For patients weighing 20 kg to less than 50 kg : Recommended maintenance dosage is OTEZLA 20 mg twice daily ( 2.1 ) Dosage in Patients with Severe Renal Impairment : Adult Patients : For initial dosage titration, titrate using only morning schedule listed in Table 1 and skip afternoon doses. Recommended maintenance dosage is OTEZLA 30 mg once daily ( 2.3 ) Pediatric Patients 6 Years of Age and Older and Weighing at Least 20 kg with Psoriatic Arthritis or Moderate to Severe Plaque Psoriasis : For initial dosage titration, titrate using only morn",
+   "hedule listed in Table 1 and skip the PM doses. The recommended maintenance dosage in this group is OTEZLA 30 mg once daily [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . OTEZLA XR is not recommended for adult patients with severe renal impairment; the appropriate dosage for these patients has not been determined [see Use in Specific Populations (8.6) and Clinical Pharmacology (12.3) ] . Pediatric Patients 6 Years of Age and Older and Weighing"
+  ]
+ },
+ "avacopan": {
+  "meta": {
+   "setid": "c93cbc0b-29a3-46a5-9c85-41815ea5cf4a",
+   "splVersion": "16",
+   "effective": "2026-06-02",
+   "manufacturer": "ChemoCentryx, Inc.",
+   "application": "NDA214487",
+   "brand": "TAVNEOS",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c93cbc0b-29a3-46a5-9c85-41815ea5cf4a"
+  },
+  "windows": [
+   "to be 345 L. Elimination Based on population pharmacokinetic analysis, the estimated total apparent body clearance (CL/F) of avacopan is 16.3 L/h. Following a single dose of 30 mg avacopan with food, the mean elimination half-lives of avacopan and M1 are 97.6 hours and 55.6 hours, respectively, in healthy subjects. Metabolism CYP3A4 is the major enzyme responsible for the clearance of avacopan and for the formation and clearance of the major circulating metabolite M1, a mono-hydroxylated p",
+   " t max by approximately 4 hours (from 2.0 hours to 6.0 hours). Distribution The plasma protein binding (e.g., to albumin and α1-acid glycoprotein) of avacopan and metabolite M1 is greater than 99.9%. The apparent volume of distribution of avacopan is estimated to be 345 L. Elimination Based on population pharmacokinetic analysis, the estimated total apparent body clearance (CL/F) of avacopan is 16.3 L/h. Following a single dose of 30 mg avacopan with food, the mean el",
+   "by approximately 72% and 8%, respectively, and delays t max by approximately 4 hours (from 2.0 hours to 6.0 hours). Distribution The plasma protein binding (e.g., to albumin and α1-acid glycoprotein) of avacopan and metabolite M1 is greater than 99.9%. The apparent volume of distribution of avacopan is estimated to be 345 L. Elimination Based on population pharmacokinetic analysis, the estimated total apparent body clearance (CL/F) of avacopan is ",
+   " between 65-74 years and 24 were 75 years or older. No overall differences in safety or effectiveness were observed between geriatric patients and younger patients. 8.6 Patients with Renal Impairment No dose adjustment is required for patients with mild, moderate, or severe renal impairment [see Clinical Pharmacology (12.3) ] . TAVNEOS has not been studied in patients with ANCA-associated vasculitis who are on dialysis. 8.7 Patients with Hepatic Impairment No dosage adjustment is recomm",
+   "ric patients and younger patients. 8.6 Patients with Renal Impairment No dose adjustment is required for patients with mild, moderate, or severe renal impairment [see Clinical Pharmacology (12.3) ] . TAVNEOS has not been studied in patients with ANCA-associated vasculitis who are on dialysis. 8.7 Patients with Hepatic Impairment No dosage adjustment is recommended for patients with mild or moderate (as indicated by the Child-Pugh method) hepatic impairment [see Clinical Pharmacology (12."
+  ]
+ },
+ "tocilizumab": {
+  "meta": {
+   "setid": "1ab3207a-ebfe-4565-9ce5-3a1538815c83",
+   "splVersion": "5",
+   "effective": "2026-05-22",
+   "manufacturer": "Organon LLC",
+   "application": "BLA761354",
+   "brand": "Tocilizumab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ab3207a-ebfe-4565-9ce5-3a1538815c83"
+  },
+  "windows": [
+   "on tocilizumab serum concentrations, the half-life of tocilizumab is also concentration-dependent and varies depending on the serum concentration level. For intravenous administration in RA patients, the concentration-dependent apparent t 1/2 is up to 11 days for 4 mg per kg and up to 13 days for 8 mg per kg every 4 weeks in patients with RA at steady-state. For intravenous administration in GCA patients, the TCZ concentration-dependent apparent t 1/2 was 13.2 days following 6 mg/kg every 4 weeks. The t 1/2 of tocilizumab in children with PJIA is up to ",
+   "y of tocilizumab products have not been studied in patients with hepatic impairment, including patients with positive HBV and HCV serology [see Warnings and Precautions (5.8) ] . 8.7 Renal Impairment No dose adjustment is required in patients with mild or moderate renal impairment. Tocilizumab products have not been studied in patients with severe renal impairment [see Clinical Pharmacology (12.3) ] . 8.1 Pregnancy Risk Summary The available data with tocilizumab products from",
+   ", including patients with positive HBV and HCV serology [see Warnings and Precautions (5.8) ] . 8.7 Renal Impairment No dose adjustment is required in patients with mild or moderate renal impairment. Tocilizumab products have not been studied in patients with severe renal impairment [see Clinical Pharmacology (12.3) ] . 8.1 Pregnancy Risk Summary The available data with tocilizumab products from a pregnancy exposure registry, retrospective cohort study, pharmacovigilance, and pu"
+  ]
+ },
+ "anakinra": {
+  "meta": {
+   "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+   "splVersion": "24",
+   "effective": "2026-04-03",
+   "manufacturer": "Swedish Orphan Biovitrum AB (publ)",
+   "application": "BLA103950",
+   "brand": "KINERET",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de"
+  },
+  "windows": [
+   "was reduced by 16% and 50%, respectively. In severe renal insufficiency and end stage renal disease (creatinine clearance < 30 mL/min 1 ), mean plasma clearance declined by 70% and 75%, respectively. Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis. Based on these observations, a dose schedule change should be considered for subjects with severe renal insufficiency or end stage renal disease [see Dosage and Administration ( 2.2 )] . Patients wi",
+   "was reduced by 16% and 50%, respectively. In severe renal insufficiency and end stage renal disease (creatinine clearance < 30 mL/min 1 ), mean plasma clearance declined by 70% and 75%, respectively. Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis. Based on these observations, a dose schedule change should be considered for subjects with severe renal insufficiency or end stage renal disease [see Dosage and Administration ( 2.2 )] . Patients wi",
+   "ET for the treatment of patients with rheumatoid arthritis is 100 mg/day administered daily by subcutaneous injection. The dose should be administered at approximately the same time every day ( 2.1 ) Physicians should consider a dose of 100 mg of KINERET administered every other day for RA patients who have severe renal insufficiency or end stage renal disease (defined as creatinine clearance < 30 mL/min, as estimated from serum creatinine levels) ( 2.4 ) Cryopyrin-Associated Periodic Syndromes (CAPS) The recommended starting dose of KINERET is 1-2 mg/kg daily for NOMID patients. The dose can be individually adjusted to a maximum of 8 mg/kg da",
+   "ET for the treatment of patients with rheumatoid arthritis is 100 mg/day administered daily by subcutaneous injection. The dose should be administered at approximately the same time every day ( 2.1 ) Physicians should consider a dose of 100 mg of KINERET administered every other day for RA patients who have severe renal insufficiency or end stage renal disease (defined as creatinine clearance < 30 mL/min, as estimated from serum creatinine levels) ( 2.4 ) Cryopyrin-Associated Periodic Syndromes (CAPS) The recommended starting dose of KINERET is 1-2 mg/kg daily for NOMID patients. The dose can be individually adjusted to a maximum of 8 mg/kg da",
+   "was reduced by 16% and 50%, respectively. In severe renal insufficiency and end stage renal disease (creatinine clearance < 30 mL/min 1 ), mean plasma clearance declined by 70% and 75%, respectively. Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis. Based on these observations, a dose schedule change should be considered for subjects with severe renal insufficiency or end stage renal disease [see Dosage and Administration ( 2.2 )] . Patients wi"
+  ]
+ },
+ "azathioprine": {
+  "meta": {
+   "setid": "606101a0-6244-7eff-e053-2a91aa0acadd",
+   "splVersion": "6",
+   "effective": "2025-11-08",
+   "manufacturer": "Sebela Pharmaceuticals Inc.",
+   "application": "NDA016324",
+   "brand": "IMURAN",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=606101a0-6244-7eff-e053-2a91aa0acadd"
+  },
+  "windows": [
+   "gen sulfide. Structural Formula CLINICAL PHARMACOLOGY: Azathioprine is well absorbed following oral administration. Maximum serum radioactivity occurs at 1 to 2 hours after oral 35 S-azathioprine and decays with a half-life of 5 hours. This is not an estimate of the half-life of azathioprine itself, but is the decay rate for all 35 S-containing metabolites of the drug. Because of extensive metabolism, only a fraction of the radioa",
+   "lood levels are of little predictive value for therapy since the magnitude and duration of clinical effects correlate with thiopurine nucleotide levels in tissues rather than with plasma drug levels. Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable. See OVERDOSAGE . Azathioprine is metabolized to 6-mercaptopurine (6-MP). Both compounds are rapidly eliminated from blood and are oxidized or methylated in erythrocytes and liver; no azathioprine or",
+   "lood levels are of little predictive value for therapy since the magnitude and duration of clinical effects correlate with thiopurine nucleotide levels in tissues rather than with plasma drug levels. Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable. See OVERDOSAGE . Azathioprine is metabolized to 6-mercaptopurine (6-MP). Both compounds are rapidly eliminated from blood and are oxidized or methylated in erythrocytes and liver; no azathioprine or",
+   " LD 50 s for single doses of IMURAN in mice and rats are 2500 mg/kg and 400 mg/kg, respectively. Very large doses of this antimetabolite may lead to marrow hypoplasia, bleeding, infection, and death. About 30% of IMURAN is bound to serum proteins, but approximately 45% is removed during an 8-hour hemodialysis. 14 A single case has been reported of a renal transplant patient who ingested a single dose of 7500 mg IMURAN. The immediate toxic reactions were nausea, vomiting, and diarrhea, followed by mild leu"
+  ]
+ },
+ "belatacept": {
+  "meta": {
+   "setid": "c16ac648-d5d2-9f7d-8637-e2328572754e",
+   "splVersion": "15",
+   "effective": "2021-07-28",
+   "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+   "application": "BLA125288",
+   "brand": "NULOJIX",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c16ac648-d5d2-9f7d-8637-e2328572754e"
+  },
+  "windows": [
+   "ost-transplant. Population pharmacokinetic analyses in kidney transplant patients revealed that there was a trend toward higher clearance of belatacept with increasing body weight. Age, gender, race, renal function (measured by calculated glomerular filtration rate [GFR]), hepatic function (measured by albumin), diabetes, and concomitant dialysis did not affect the clearance of belatacept. Drug Interactions Mycophenolate Mofetil In a pharmacokinetic substudy of Studies 1 and 2, the plasma concentrations of MPA were measured in 41 patients who received fixed MMF doses of 500 to 1500 mg"
+  ]
+ },
+ "abatacept": {
+  "meta": {
+   "setid": "0836c6ac-ee37-5640-2fed-a3185a0b16eb",
+   "splVersion": "35",
+   "effective": "2025-11-13",
+   "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+   "application": "BLA125118",
+   "brand": "ORENCIA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb"
+  },
+  "windows": [
+   "bility of abatacept following subcutaneous administration relative to intravenous administration was 79%. Mean estimates for systemic clearance (0.28 mL/h/kg), volume of distribution (0.11 L/kg), and terminal half-life (14.3 days) were comparable between subcutaneous and intravenous administration. Study SC-2 was conducted to determine the effect of subcutaneous monotherapy use of ORENCIA on immunogenicity (without an intraven",
+   "2.4 mcg/mL), respectively. The bioavailability of abatacept following subcutaneous administration relative to intravenous administration was 79%. Mean estimates for systemic clearance (0.28 mL/h/kg), volume of distribution (0.11 L/kg), and terminal half-life (14.3 days) were comparable between subcutaneous and intravenous administration. Study SC-2 was conducted to determine the effect of subcutaneous monotherapy use of ORENCIA on"
+  ]
+ },
+ "adalimumab": {
+  "meta": {
+   "setid": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+   "splVersion": "1",
+   "effective": "2026-08-07",
+   "manufacturer": "A-S Medication Solutions",
+   "application": "BLA761118",
+   "brand": "Adalimumab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5"
+  },
+  "windows": [
+   "40, and 80 mg every other week and every week subcutaneous administration, adalimumab mean serum trough concentrations at steady state increased approximately proportionally with dose in RA patients. The mean terminal half-life was approximately 2 weeks, ranging from 10 to 20 days across studies. Healthy subjects and patients with RA displayed similar adalimumab pharmacokinetics. Adalimumab exposure in patients treated with 80 mg every other week is estimated to be comparable with that in pa"
+  ]
+ },
+ "anifrolumab": {
+  "meta": {
+   "setid": "d6203302-2128-41a7-b0b4-0e6c0704d4dc",
+   "splVersion": "16",
+   "effective": "2026-09-25",
+   "manufacturer": "ASTRAZENECA PHARMACEUTICALS LP",
+   "application": null,
+   "brand": "SAPHNELO",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6203302-2128-41a7-b0b4-0e6c0704d4dc"
+  },
+  "windows": []
+ },
+ "basiliximab": {
+  "meta": {
+   "setid": "1af01887-b69d-444b-91ed-ebfe12784440",
+   "splVersion": "19",
+   "effective": "2026-10-26",
+   "manufacturer": "NOVARTIS PHARMACEUTICALS CORPORATION",
+   "application": null,
+   "brand": "SIMULECT",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1af01887-b69d-444b-91ed-ebfe12784440"
+  },
+  "windows": []
+ },
+ "belimumab": {
+  "meta": {
+   "setid": "2fa3c528-1777-4628-8a55-a69dae2381a3",
+   "splVersion": "38",
+   "effective": "2026-08-21",
+   "manufacturer": "GlaxoSmithKline LLC",
+   "application": "BLA761043",
+   "brand": "BENLYSTA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3"
+  },
+  "windows": []
+ },
+ "eculizumab": {
+  "meta": {
+   "setid": "ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722",
+   "splVersion": "44",
+   "effective": "2026-07-08",
+   "manufacturer": "Alexion Pharmaceuticals Inc.",
+   "application": "BLA125166",
+   "brand": "SOLIRIS",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722"
+  },
+  "windows": [
+   "ent over the 600 mg to 1,200 mg dose range, with inter-individual variability of 21% to 38%. Distribution The eculizumab volume of distribution for a typical 70 kg patient was 5 L to 8 L. Elimination The half life of eculizumab ranged between 141 h and 882 h. Plasma exchange or infusion increased the clearance of eculizumab by approximately 6.01-fold and reduced the half-life to 90.2 h. Supplemental dosing is recommended when SOLIRIS is administered to p",
+   "acokinetic analyses showed that eculizumab pharmacokinetics were dose-linear and time-independent over the 600 mg to 1,200 mg dose range, with inter-individual variability of 21% to 38%. Distribution The eculizumab volume of distribution for a typical 70 kg patient was 5 L to 8 L. Elimination The half life of eculizumab ranged between 141 h and 882 h. Plasma exchange or infusion increased the clearance of eculizumab by approximately 6.01-fold and reduced the half-life to 90.2"
+  ]
+ },
+ "efgartigimod": {
+  "meta": {
+   "setid": "8aefc8e3-26d6-4ff6-aab9-a7542927e084",
+   "splVersion": "15",
+   "effective": "2026-05-13",
+   "manufacturer": "argenx US",
+   "application": "BLA761195",
+   "brand": "VYVGART",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8aefc8e3-26d6-4ff6-aab9-a7542927e084"
+  },
+  "windows": [
+   "dosage). Distribution The volume of distribution is 15 to 20L. Metabolism and Elimination Efgartigimod alfa-fcab is expected to be degraded by proteolytic enzymes into small peptides and amino acids. The terminal half-life is 80 to 120 hours (3 to 5 days). After a single intravenous dose of 10 mg/kg efgartigimod alfa-fcab in healthy subjects, less than 0.1% of the administered dose was recovered in urine. Specific Populations Age, Sex, and Race A popu",
+   "gimod alfa-fcab exhibits linear pharmacokinetics, and following single doses of efgartigimod alfa-fcab, exposures increase proportionally up to 50 mg/kg (5 times the recommended dosage). Distribution The volume of distribution is 15 to 20L. Metabolism and Elimination Efgartigimod alfa-fcab is expected to be degraded by proteolytic enzymes into small peptides and amino acids. The terminal half-life is 80 to 120 hours (3 to 5 days). Afte"
+  ]
+ },
+ "etanercept": {
+  "meta": {
+   "setid": "a002b40c-097d-47a5-957f-7a7b1807af7f",
+   "splVersion": "218",
+   "effective": "2026-05-11",
+   "manufacturer": "Immunex Corporation",
+   "application": "BLA103795",
+   "brand": "ENBREL",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f"
+  },
+  "windows": []
+ },
+ "inebilizumab": {
+  "meta": {
+   "setid": "834db232-afb0-4dcf-93e0-009ce8245c20",
+   "splVersion": "11",
+   "effective": "2026-09-21",
+   "manufacturer": "HORIZON THERAPEUTICS USA, INC.",
+   "application": null,
+   "brand": "UPLIZNA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=834db232-afb0-4dcf-93e0-009ce8245c20"
+  },
+  "windows": []
+ },
+ "infliximab": {
+  "meta": {
+   "setid": "dbf738c4-3fac-4422-a9d8-51d9c83a8789",
+   "splVersion": "7",
+   "effective": "2026-08-28",
+   "manufacturer": "Organon LLC",
+   "application": "BLA761054",
+   "brand": "Infliximab",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dbf738c4-3fac-4422-a9d8-51d9c83a8789"
+  },
+  "windows": [
+   " infliximab was distributed primarily within the vascular compartment. Pharmacokinetic results for single doses of 3 mg/kg to 10 mg/kg in RA, 5 mg/kg in CD, and 3 mg/kg to 5 mg/kg in Ps indicate that the median terminal half-life of infliximab is 7.7 to 9.5 days. Following an initial dose of infliximab, repeated infusions at 2 and 6 weeks resulted in predictable concentration-time profiles following each treatment. No systemic accumulation of infliximab occu"
+  ]
+ },
+ "iptacopan": {
+  "meta": {
+   "setid": "a76b5845-6e21-4d3b-ad07-cd8df1b60bee",
+   "splVersion": "6",
+   "effective": "2026-07-16",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA218276",
+   "brand": "FABHALTA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a76b5845-6e21-4d3b-ad07-cd8df1b60bee"
+  },
+  "windows": [
+   "in vitro at the relevant clinical plasma concentrations. After administration of iptacopan 200 mg twice daily, the apparent volume of distribution at steady state was approximately 288 L. Elimination The terminal half-life (t 1/2 ) of iptacopan at steady state is approximately 25 hours after administration of FABHALTA 200 mg twice daily. The apparent clearance of iptacopan at steady state is 8 L/h after administration of FABHALTA 200 mg twice daily. Metabolism Metabolism is a pre",
+   " the target Factor B in the systemic circulation. Iptacopan was 75% to 93% protein bound in vitro at the relevant clinical plasma concentrations. After administration of iptacopan 200 mg twice daily, the apparent volume of distribution at steady state was approximately 288 L. Elimination The terminal half-life (t 1/2 ) of iptacopan at steady state is approximately 25 hours after administration of FABHALTA 200 mg twice daily. The apparent clearance of iptacopan at steady ",
+   "xposure of iptacopan to a clinically meaningful degree. Distribution Iptacopan showed concentration-dependent plasma protein binding due to binding to the target Factor B in the systemic circulation. Iptacopan was 75% to 93% protein bound in vitro at the relevant clinical plasma concentrations. After administration of iptacopan 200 mg twice daily, the apparent volume of distribution at steady state was approximately 288 L. Elimination The term"
+  ]
+ },
+ "obinutuzumab": {
+  "meta": {
+   "setid": "df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda",
+   "splVersion": "23",
+   "effective": "2026-10-01",
+   "manufacturer": "GENENTECH, INC.",
+   "application": null,
+   "brand": "GAZYVA",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda"
+  },
+  "windows": []
+ },
+ "pegcetacoplan": {
+  "meta": {
+   "setid": "c23d89e9-b00b-4520-e053-2995a90a95af",
+   "splVersion": "14",
+   "effective": "2026-08-21",
+   "manufacturer": "Apellis Pharmaceuticals, Inc.",
+   "application": "NDA215014",
+   "brand": "Pegcetacoplan",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c23d89e9-b00b-4520-e053-2995a90a95af"
+  },
+  "windows": [
+   "n of pegcetacoplan is approximately 4.79 L (38%) and 4.58 L (29%) in patients with C3G or primary IC-MPGN, respectively. Elimination The estimated mean (CV%) of clearance (CL) is 0.36 L/day (30%) and median effective half-life of elimination (t 1/2 ) is 8.6 days in patients with PNH. The estimated mean (CV%) of clearance (CL) is 0.32 L/day (54%) and median t 1/2 is 10.2 days in patients with C3G. The estimated mean (CV%) of clearance (CL) is 0.3 L/day (51%) and median t 1/2 is 1",
+   "Week 4 to Week 26 and were maintained through Week 52 (Study APL2-C3G-310). Absorption The median T max of pegcetacoplan is between 108 and 144 hours (4.5 to 6 days) after a single dose. Distribution The mean (CV%) volume of distribution of pegcetacoplan is approximately 3.98 L (32%) in patients with PNH. The estimated mean (CV%) volume of distribution of pegcetacoplan is approximately 4.79 L (38%) and 4.58 L (29%) in patients with C3G or primary IC-MPGN, respectively. Elim"
+  ]
+ },
+ "ravulizumab": {
+  "meta": {
+   "setid": "a9a590d9-0217-43c7-908d-e62a71279791",
+   "splVersion": "19",
+   "effective": "2025-10-09",
+   "manufacturer": "Alexion Pharmaceuticals Inc.",
+   "application": "BLA761108",
+   "brand": "ULTOMIRIS",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791"
+  },
+  "windows": []
+ },
+ "mycophenolate-sodium": {
+  "meta": {
+   "setid": "bc98d9a1-b4e3-4085-a8ba-d3313246658a",
+   "splVersion": "3",
+   "effective": "2026-09-09",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA208315",
+   "brand": "Mycophenolic acid (enteric-coated)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc98d9a1-b4e3-4085-a8ba-d3313246658a"
+  },
+  "windows": [
+   "njugation by gut flora. MPA resulting from the deconjugation may then be reabsorbed and produce a second peak of MPA approximately 6 to 8 hours after mycophenolic acid delayed-release tablets dosing. The mean elimination half-life of MPA and MPAG ranged between 8 and 16 hours, and 13 and 17 hours, respectively. Food Effect Compared to the fasting state, administration of mycophenolic acid delayed-release tablets 720 mg with a high-fat meal (55 g fat, 1000 calories) had no effect on the systemic exposure (A",
+   "d dose-proportional pharmacokinetics over the dose-range (360 mg to 2,160 mg) evaluated. The absolute bioavailability of mycophenolic acid in stable renal transplant patients on cyclosporine was 72%. MPA is highly protein bound (greater than 98% bound to albumin). The predominant metabolite of MPA is the phenolic glucuronide (MPAG) which is pharmacologically inactive. A minor metabolite AcMPAG which is an acyl glucuronide of MPAG is also formed and has pharma"
+  ]
+ },
+ "ibuprofen": {
+  "meta": {
+   "setid": "0170876a-d8cd-4a2d-8397-db2acdf72ffb",
+   "splVersion": "3",
+   "effective": "2026-02-17",
+   "manufacturer": "A-S Medication Solutions",
+   "application": "ANDA202413",
+   "brand": "Ibuprofen tablets",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0170876a-d8cd-4a2d-8397-db2acdf72ffb"
+  },
+  "windows": [
+   "ontaining both aluminum hydroxide and magnesium hydroxide. Ibuprofen is rapidly metabolized and eliminated in the urine. The excretion of ibuprofen is virtually complete 24 hours after the last dose. The serum half-life is 1.8 to 2.0 hours. Studies have shown that following ingestion of the drug, 45% to 79% of the dose was recovered in the urine within 24 hours as metabolite A (25%), (+)-2-[ p -(2hydroxymethyl-propyl) phenyl] propionic",
+   "recovery to the pretreatment state. Advanced Renal Disease No information is available from controlled clinical studies regarding the use of Ibuprofen tablets in patients with advanced renal disease. Therefore, treatment with Ibuprofen tablets is not recommended in these patients with advanced renal disease. If Ibuprofen tablet therapy must be initiated, close monitoring of the patients renal function is advisable. Anaphylactoid Reactions As with other NSAIDs, anaphylactoid reactions may occur in patien",
+   "recovery to the pretreatment state. Advanced Renal Disease No information is available from controlled clinical studies regarding the use of Ibuprofen tablets in patients with advanced renal disease. Therefore, treatment with Ibuprofen tablets is not recommended in these patients with advanced renal disease. If Ibuprofen tablet therapy must be initiated, close monitoring of the patients renal function is advisable. Anaphylactoid Reactions As with other NSAIDs, anaphylactoid reactions may occur in patien"
+  ]
+ },
+ "naproxen": {
+  "meta": {
+   "setid": "0041b483-34db-49a6-8665-f87e286cd0b8",
+   "splVersion": "12",
+   "effective": "2026-05-19",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA078250",
+   "brand": "Naproxen",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0041b483-34db-49a6-8665-f87e286cd0b8"
+  },
+  "windows": [
+   "ce of naproxen is 0.13 mL/min/kg. Approximately 95% of the naproxen from any dose is excreted in the urine, primarily as naproxen (<1%), 6-0-desmethyl naproxen (<1%) or their conjugates (66% to 92%). The plasma half-life of the naproxen anion in humans ranges from 12 to 17 hours. The corresponding half-lives of both naproxen’s metabolites and conjugates are shorter than 12 hours, and their rates of excretion have been found to coincide closely with the rate of naproxen clear",
+   " are attained in 1 to 2 hours. The difference in rates between the two products is due to the increased aqueous solubility of the sodium salt of naproxen used in naproxen sodium tablets. Distribution Naproxen has a volume of distribution of 0.16 L/kg. At therapeutic levels naproxen is greater than 99% albumin-bound. At doses of naproxen greater than 500 mg/day there is less than proportional increase in plasma levels due to an increase in clearan",
+   "es between the two products is due to the increased aqueous solubility of the sodium salt of naproxen used in naproxen sodium tablets. Distribution Naproxen has a volume of distribution of 0.16 L/kg. At therapeutic levels naproxen is greater than 99% albumin-bound. At doses of naproxen greater than 500 mg/day there is less than proportional increase in plasma levels due to an increase in clearance caused by saturation of plasma protein binding at higher doses ",
+   "its are expected to outweigh risk of worsening heart failure. ( 5.5 ) Renal Toxicity : Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia. Avoid use of naproxen tablets and naproxen sodium tablets in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function. ( 5.6 ) Anaphylactic Reactions: Seek emergency help if an anaphylactic reaction occurs. ( 5.7 ) Exacerbation of Asthma Related to Aspirin Sensitivity: Naproxen tablets and naproxen sodium tablets ar"
+  ]
+ },
+ "celecoxib": {
+  "meta": {
+   "setid": "06076494-62ad-4f58-b8bb-7038fcfe3b12",
+   "splVersion": "13",
+   "effective": "2026-07-17",
+   "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+   "application": "ANDA205129",
+   "brand": "Celecoxib",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06076494-62ad-4f58-b8bb-7038fcfe3b12"
+  },
+  "windows": [
+   "e after oral administration up to 200 mg twice daily and less than proportional increase at higher doses. It has extensive distribution and high protein binding. It is primarily metabolized by CYP2C9 with a half-life of approximately 11 hours. Absorption Peak plasma levels of celecoxib occur approximately 3 hours after an oral dose. Under fasting conditions, both peak plasma levels (C max ) and area under the curve (AUC) are roughly dose-",
+   "subjects, celecoxib is highly protein bound (~97%) within the clinical dose range. In vitro studies indicate that celecoxib binds primarily to albumin and, to a lesser extent, α 1 -acid glycoprotein. The apparent volume of distribution at steady state (V ss /F) is approximately 400 L, suggesting extensive distribution into the tissues. Celecoxib is not preferentially bound to red blood cells. Elimination Metabolism Celecoxib metabolism is primarily mediated via CYP2C9. Three meta",
+   "esauce. There were no significant alterations in C max , T max or t 1/2 after administration of capsule contents on applesauce [ see Dosage and Administration (2) ]. Distribution In healthy subjects, celecoxib is highly protein bound (~97%) within the clinical dose range. In vitro studies indicate that celecoxib binds primarily to albumin and, to a lesser extent, α 1 -acid glycoprotein. The apparent volume of distribution at steady state (V ss /F) is approximately 40",
+   "fits are expected to outweigh risk of worsening heart failure ( 5.5 ) Renal Toxicity : Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia. Avoid use of celecoxib capsules in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function ( 5.6 ) Anaphylactic Reactions : Seek emergency help if an anaphylactic reaction occurs ( 5.7 ) Exacerbation of Asthma Related to Aspirin Sensitivity : Celecoxib capsules are contraindicated in patie"
+  ]
+ },
+ "meloxicam": {
+  "meta": {
+   "setid": "1ab45be4-b2b9-4374-95ab-620e0f90fb70",
+   "splVersion": "26",
+   "effective": "2026-04-29",
+   "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+   "application": "ANDA077918",
+   "brand": "Meloxicam tablets",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ab45be4-b2b9-4374-95ab-620e0f90fb70"
+  },
+  "windows": [
+   "nd in elderly female patients in comparison to elderly male patients. Sex Young females exhibited slightly lower plasma concentrations relative to young males. After single doses of 7.5 mg meloxicam, the mean elimination half-life was 19.5 hours for the female group as compared to 23.4 hours for the male group. At steady state, the data were similar (17.9 hours vs 21.4 hours). This pharmacokinetic difference due to gender is likely to be of little clinical importance. There was linearity of pharmacokinetic",
+   "s detected with concomitant administration of antacids. Based on these results, meloxicam can be administered without regard to timing of meals or concomitant administration of antacids. Distribution The mean volume of distribution (Vss) of meloxicam is approximately 10 L. Meloxicam is ~99.4% bound to human plasma proteins (primarily albumin) within the therapeutic dose range. The fraction of protein binding is independent of drug concentration, over the clinically re",
+   "ults, meloxicam can be administered without regard to timing of meals or concomitant administration of antacids. Distribution The mean volume of distribution (Vss) of meloxicam is approximately 10 L. Meloxicam is ~99.4% bound to human plasma proteins (primarily albumin) within the therapeutic dose range. The fraction of protein binding is independent of drug concentration, over the clinically relevant concentration range, but decreases to ~99% in",
+   "vere renal impairment have not been studied. The use of meloxicam in subjects with severe renal impairment is not recommended. In patients on hemodialysis, meloxicam should not exceed 7.5 mg per day. Meloxicam is not dialyzable [ see Dosage and Administration ( 2.1 ) and Clinical Pharmacology ( 12.3 ) ]. 8.1 Pregnancy Risk Summary Use of NSAIDs, including meloxicam, can cause premature closure of the fetal ductus arteriosus",
+   "0 kg. There was no additional benefit demonstrated by increasing the dose above 7.5 mg in clinical trials. Meloxicam Tablets, USP should not be used in children who weigh <60 kg. 2.5 Renal Impairment The use of Meloxicam Tablets, USP in subjects with severe renal impairment is not recommended. In patients on hemodialysis, the maximum dosage of Meloxicam Tablets, USP is 7.5 mg per day [ see Clinical Pharmacology ( 12.3 ) ]. 2.6 Non-Interchangeability with Other Formulations of Meloxicam Me",
+   "py with Meloxicam Tablets, USP, adjust the dose to suit an individual patient's needs. In adults, the maximum recommended daily oral dose of Meloxicam Tablets, USP is 15 mg regardless of formulation. In patients with hemodialysis, a maximum daily dosage of 7.5 mg is recommended [see Use in Specific Populations ( 8.7 ) and Clinical Pharmacology ( 12.3 ) ]. Meloxicam Tablets, USP may be taken without regard to timing of meals. 2.2 Osteoarthritis For the relief of the signs an",
+   "vere renal impairment have not been studied. The use of meloxicam in subjects with severe renal impairment is not recommended. In patients on hemodialysis, meloxicam should not exceed 7.5 mg per day. Meloxicam is not dialyzable [ see Dosage and Administration ( 2.1 ) and Clinical Pharmacology ( 12.3 ) ]. 8.1 Pregnancy Risk Summary Use of NSAIDs, including meloxicam, can cause premature closure of the fetal ductus arteriosus"
+  ]
+ },
+ "ketorolac": {
+  "meta": {
+   "setid": "014ba8d7-7ed3-4d4a-847a-22b65161117e",
+   "splVersion": "1",
+   "effective": "2021-07-01",
+   "manufacturer": "Proficient Rx LP",
+   "application": "ANDA204216",
+   "brand": "Ketorolac tromethamine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=014ba8d7-7ed3-4d4a-847a-22b65161117e"
+  },
+  "windows": [
+   "learance of the racemate in normal subjects, elderly individuals and in hepatically and renally impaired patients is outlined in Table 2 (see CLINICAL PHARMACOLOGY, Kinetics in Special Populations ). The half-life of the ketorolac tromethamine S-enantiomer was approximately 2.5 hours (SD±0.4) compared with 5 hours (SD±1.7) for the R-enantiomer. In other studies, the half-life for the racemate has been reported to lie within the range of 5 to 6 hours. Accumulation Ketorolac tromethamine administered as an IV bolus, every 6 hours, for 5 days",
+   " or renal disease develop, systemic manifestations occur (e.g., eosinophilia, rash etc.) or if abnormal liver tests persist or worsen, ketorolac tromethamine should be discontinued. Drug Interactions Ketorolac is highly bound to human plasma protein (mean 99.2%). There is no evidence in animal or human studies that ketorolac tromethamine induces or inhibits hepatic enzymes capable of metabolizing itself or other drugs. Warfarin, Digoxin, Salicylate, and Hepa",
+   "ARNINGS and PRECAUTIONS ). • Ketorolac Tromethamine Injection, USP is CONTRAINDICATED in the setting of coronary artery bypass graft (CABG) surgery (see CONTRAINDICATIONS and WARNINGS ). RENAL RISK • Ketorolac tromethamine is CONTRAINDICATED in patients with advanced renal impairment and in patients at risk for renal failure due to volume depletion (see WARNINGS ). RISK OF BLEEDING • Ketorolac tromethamine inhibits platelet function and is, therefore, CONTRAINDICATED in patients with suspected or confirmed cerebrovascular bleeding, patients wit",
+   "ARNINGS and PRECAUTIONS ). • Ketorolac Tromethamine Injection, USP is CONTRAINDICATED in the setting of coronary artery bypass graft (CABG) surgery (see CONTRAINDICATIONS and WARNINGS ). RENAL RISK • Ketorolac tromethamine is CONTRAINDICATED in patients with advanced renal impairment and in patients at risk for renal failure due to volume depletion (see WARNINGS ). RISK OF BLEEDING • Ketorolac tromethamine inhibits platelet function and is, therefore, CONTRAINDICATED in patients with suspected or confirmed cerebrovascular bleeding, patients wit"
+  ]
+ },
+ "diclofenac-systemic": {
+  "meta": {
+   "setid": "03c4f06f-6a49-4404-bf3b-0aafa33c81ef",
+   "splVersion": "1",
+   "effective": "2026-02-13",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA216548",
+   "brand": "Diclofenac",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03c4f06f-6a49-4404-bf3b-0aafa33c81ef"
+  },
+  "windows": [
+   "us metabolites. Because renal elimination is not a significant pathway of elimination for unchanged diclofenac, dosing adjustment in patients with mild to moderate renal dysfunction is not necessary. The terminal half-life of unchanged diclofenac is approximately 2 hours. Special Populations Pediatric: The pharmacokinetics of diclofenac sodium has not been investigated in pediatric patients. Race: Pharmacokinetic differences due to race have not been identified. Hepa",
+   "= 7] < 1 - Apparent Volume of Distribution (V/F; L/kg) [N = 56] 1.4 58 Terminal Half-life (hr) [N = 56] 2.3 48 Distribution The apparent volume of distribution (V/F) of diclofenac sodium is 1.4 L/kg. Diclofenac is more than 99% bound to human serum proteins, primarily to albumin. Serum protein binding is constant over the concentration range (0.15 to 105 mcg/mL) achieved with recommended doses. Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint ",
+   " diclofenac sodium delayed-release tablets compared to patients with normal hepatic function. Renal Impairment: Diclofenac pharmacokinetics has been investigated in subjects with renal insufficiency. No differences in the pharmacokinetics of diclofenac have been detected in studies of patients with renal impairment. In patients with renal impairment (inulin clearance 60 to 90, 30 to 60, and less than 30 mL/min; N = 6 in each group), area under the curve (AUC) values and elimination rate were comparable to those"
+  ]
+ },
+ "cimetidine": {
+  "meta": {
+   "setid": "06c0a509-026f-44e0-9975-a94a8de51d43",
+   "splVersion": "12",
+   "effective": "2026-07-15",
+   "manufacturer": "Mylan Pharmaceuticals Inc.",
+   "application": "ANDA074246",
+   "brand": "Cimetidine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43"
+  },
+  "windows": [
+   "ower esophageal sphincter (LES) pressure or the rate of gastric emptying. Pharmacokinetics Cimetidine tablets are rapidly absorbed after oral administration and peak levels occur in 45 to 90 minutes. The half-life of cimetidine tablets is approximately 2 hours. Blood concentrations remain above that required to provide 80% inhibition of basal gastric acid secretion for 4 to 5 hours following a dose of 300 mg. Following parenteral administration, most of th",
+   "this experience the recommended dosage is 300 mg every 12 hours orally. Should the patient’s condition require, the frequency of dosing may be increased to every 8 hours or even further with caution. In severe renal failure, accumulation may occur and the lowest frequency of dosing compatible with an adequate patient response should be used. When liver impairment is also present, further reductions in dosage may be necessary. Hemodialysis reduces the level of circulating cimetidine tablets. Ideally, the dosage schedule should be adjuste"
+  ]
+ },
+ "nizatidine": {
+  "meta": {
+   "setid": "e9957997-8b85-48a0-9bb3-b878cb223236",
+   "splVersion": "1",
+   "effective": "2025-01-02",
+   "manufacturer": "Epic Pharma, LLC",
+   "application": "ANDA076178",
+   "brand": "Nizatidine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236"
+  },
+  "windows": [
+   "following the dose. A concentration of 1,000 mcg/L is equivalent to 3 µmol/L; a dose of 300 mg is equivalent to 905 µmoles. Plasma concentrations 12 hours after administration are less than 10 mcg/L. The elimination half-life is 1 to 2 hours, plasma clearance is 40 to 60 L/h, and the volume of distribution is 0.8 to 1.5 L/kg. Because of the short half-life and rapid clearance of nizatidine, accumulation of the drug would not be expected ",
+   "ose of 300 mg is equivalent to 905 µmoles. Plasma concentrations 12 hours after administration are less than 10 mcg/L. The elimination half-life is 1 to 2 hours, plasma clearance is 40 to 60 L/h, and the volume of distribution is 0.8 to 1.5 L/kg. Because of the short half-life and rapid clearance of nizatidine, accumulation of the drug would not be expected in individuals with normal renal function who take either 300 mg once daily at bedtim",
+   "uals with clinically significant renal impairment, the amount and/or frequency of doses of nizatidine should be reduced in proportion to the severity of dysfunction ( see DOSAGE AND ADMINISTRATION ). Approximately 35% of nizatidine is bound to plasma protein, mainly to α 1 -acid glycoprotein. Warfarin, diazepam, acetaminophen, propantheline, phenobarbital, and propranolol did not affect plasma protein binding of nizatidine in vitro . Clinical Trials 1. A",
+   "ent for Patients With Moderate to Severe Renal Insufficiency The dose for patients with renal dysfunction should be reduced as follows: Active Duodenal Ulcer, GERD, and Benign Gastric Ulcer C cr Dose 20-50 mL/min 150 mg daily less than 20 mL/min 150 mg every other day Maintenance Therapy C cr Dose 20-50 mL/min 150 mg every other day less than 20 mL/min 150 mg every 3 days Some elderly patients may have creatinine clearances of less than 50 mL/min, and, based on pharmacokinetic data in patients with renal impairment, the dose for such patients should be reduced accordi"
+  ]
+ },
+ "loperamide": {
+  "meta": {
+   "setid": "03c907d5-87f8-47a6-9544-5a24f5272739",
+   "splVersion": "3",
+   "effective": "2026-01-05",
+   "manufacturer": "Advagen Pharma Ltd.,",
+   "application": "ANDA216876",
+   "brand": "Loperamide",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03c907d5-87f8-47a6-9544-5a24f5272739"
+  },
+  "windows": [
+   "peramide were similar for both formulations. Distribution Based on literature information, the plasma protein binding of loperamide is about 95%. Loperamide is a P-glycoprotein substrate. Elimination The apparent elimination half-life of loperamide is 10.8 hours with a range of 9.1 to 14.4 hours. Elimination of loperamide mainly occurs by oxidative N-demethylation. Metabolism In vitro loperamide is metabolized mainly by cytochrome P450 (CYP450) isozymes, CYP2C8 and CYP3A4, to form- N-demethy",
+   "ours after administration of the capsule and 2.5 hours after the liquid. The peak plasma concentrations of loperamide were similar for both formulations. Distribution Based on literature information, the plasma protein binding of loperamide is about 95%. Loperamide is a P-glycoprotein substrate. Elimination The apparent elimination half-life of loperamide is 10.8 hours with a range of 9.1 to 14.4 hours. Elimination of loperamide mainly occurs by oxi",
+   "c data are available in patients with renal impairment. Since it has been reported that the majority of the drug is metabolized and metabolites or the unchanged drug are excreted mainly in the feces, dosage adjustments in patients with renal impairment are not required. Geriatric Use No formal studies have been conducted to evaluate the pharmacokinetics of loperamide in elderly subjects. However, in two studies that enrolled elderly patients, there were no major di"
+  ]
+ },
+ "paracetamol-iv": {
+  "meta": {
+   "setid": "1c8fef8f-2ff5-4bea-bccb-90c2c8544c21",
+   "splVersion": "3",
+   "effective": "2026-04-23",
+   "manufacturer": "Camber Pharmaceuticals, Inc.",
+   "application": "ANDA216617",
+   "brand": "Acetaminophen injection",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c8fef8f-2ff5-4bea-bccb-90c2c8544c21"
+  },
+  "windows": [
+   "patients with severe hepatic impairment or severe active liver disease and should be used with caution in patients with hepatic impairment or active liver disease. ( 4 , 5.1 , 8.6 ) Renal Impairment: In cases of severe renal impairment, longer dosing intervals and a reduced total daily dose of acetaminophen may be warranted. ( 5.1 , 8.7 ) 8.1 Pregnancy Risk Summary Published epidemiological studies with oral acetaminophen use during pregnancy have not reported a clear association with acetaminophen use and birth defects",
+   " caution when administering acetaminophen in patients with the following conditions: hepatic impairment or active hepatic disease, in cases of alcoholism, chronic malnutrition, severe hypovolemia, or severe renal impairment (creatinine clearance ≤ 30 mL/min). ( 5.1 ) Discontinue acetaminophen injection immediately at the first appearance of skin rash and if symptoms associated with allergy or hypersensitivity occur. Do not use in patients with acetaminop"
+  ]
+ },
+ "magnesium-hydroxide": {
+  "meta": {
+   "setid": "2cee67dd-b71f-32b8-e063-6394a90ae864",
+   "splVersion": "3",
+   "effective": "2026-08-21",
+   "manufacturer": "Bayer HealthCare LLC.",
+   "application": "M007",
+   "brand": "Magnesium hydroxide",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2cee67dd-b71f-32b8-e063-6394a90ae864"
+  },
+  "windows": [
+   "ually produces bowel movement in 1/2 to 6 hours. Warnings Do not use Do not use if you have ever had an allergic reaction to this product or any of its ingredients Ask a doctor before use if you have Ask a doctor before use if you have kidney disease a magnesium-restricted diet stomach pain, nausea, or vomiting a sudden change in bowel habits that lasts over 14 days Ask a doctor or pharmacist before use if you are Ask a doctor or pharmacist before use if you are taking a pr"
+  ]
+ },
+ "aspirin": {
+  "meta": {
+   "setid": "03876c71-60ec-3280-e063-6294a90a62dc",
+   "splVersion": "2",
+   "effective": "2024-12-03",
+   "manufacturer": "H. E. BUTT GROCERY COMPANY",
+   "application": "M013",
+   "brand": "Aspirin (OTC)",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03876c71-60ec-3280-e063-6294a90a62dc"
+  },
+  "windows": [
+   "r had an allergic reaction to this product or any of its ingredients Ask a doctor before use if ■ stomach bleeding warning applies to you ■ you have a history of stomach problems, such as heartburn ■ you have high blood pressure, heart disease, liver cirrhosis, or kidney disease ■ you are taking a diuretic ■ you have asthma ■ you have a sodium-restricted diet Ask a doctor or pharmacist before use if you are Ask a doctor or pharmacist before use if you are taking a prescripti"
+  ]
+ },
+ "cyclosporine": {
+  "meta": {
+   "setid": "5e5926a7-1de0-4b54-a5c0-286b6200ff82",
+   "splVersion": "37",
+   "effective": "2026-07-10",
+   "manufacturer": "Novartis Pharmaceuticals Corporation",
+   "application": "NDA050573",
+   "brand": "Sandimmune",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e5926a7-1de0-4b54-a5c0-286b6200ff82"
+  },
+  "windows": [
+   "ns, the uptake by leukocytes and erythrocytes becomes saturated. In plasma, approximately 90% is bound to proteins, primarily lipoproteins. The disposition of cyclosporine from blood is biphasic with a terminal half-life of approximately 19 hours (range, 10 to 27 hours). Elimination is primarily biliary with only 6% of the dose excreted in the urine. Cyclosporine is extensively metabolized but there is no major metabolic pathway. Only 0.1% of the dose is excreted in",
+   "ately 33% to 47% is in plasma, 4% to 9% in lymphocytes, 5% to 12% in granulocytes, and 41% to 58% in erythrocytes. At high concentrations, the uptake by leukocytes and erythrocytes becomes saturated. In plasma, approximately 90% is bound to proteins, primarily lipoproteins. The disposition of cyclosporine from blood is biphasic with a terminal half-life of approximately 19 hours (range, 10 to 27 hours). Elimination is primarily biliary with only 6% of the dose excreted",
+   "e intravenous LD 50 is 148 mg/kg in mice, 104 mg/kg in rats, and 46 mg/kg in rabbits. General supportive measures and symptomatic treatment should be followed in all cases of cyclosporine overdosage. Cyclosporine is not dialyzable to any great extent, nor is it cleared well by charcoal hemoperfusion. If a cyclosporine overdose occurs, consider contacting the Poison Help line (1-800-222-1222) or a medical toxicologist for additional overdose management recommendations. DOSAGE AND ADMINISTRATION R"
+  ]
+ },
+ "diclofenac-gel": {
+  "meta": {
+   "setid": "0416ce03-c345-9d9e-e063-6294a90ad940",
+   "splVersion": "2",
+   "effective": "2026-01-13",
+   "manufacturer": "AvKARE",
+   "application": "ANDA212506",
+   "brand": "Diclofenac sodium",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0416ce03-c345-9d9e-e063-6294a90ad940"
+  },
+  "windows": [
+   "ation, occlusive dressings overlay, or exercise following product application. Therefore, concurrent use of diclofenac sodium topical solution under these conditions is not recommended. Distribution: Diclofenac is more than 99% bound to human serum proteins, primarily to albumin Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial f"
+  ]
+ },
+ "fluticasone-nasal": {
+  "meta": {
+   "setid": "0a3447a1-407c-40a8-99bb-7e9a86eb37df",
+   "splVersion": "4",
+   "effective": "2026-04-22",
+   "manufacturer": "Preferred Pharmaceuticals Inc.",
+   "application": "ANDA076504",
+   "brand": "Fluticasone Propionate",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a3447a1-407c-40a8-99bb-7e9a86eb37df"
+  },
+  "windows": [
+   "weakly and reversibly bound to erythrocytes and is not significantly bound to human transcortin. Elimination : Following intravenous dosing, fluticasone propionate showed polyexponential kinetics and had a terminal elimination half-life of approximately 7.8 hours. The total blood clearance of fluticasone propionate is high (average: 1,093 mL/min), with renal clearance accounting for less than 0.02% of the total. Metabolism : The only circulating metabolite de",
+   "lasma levels. Distribution : Following intravenous administration, the initial disposition phase for fluticasone propionate was rapid and consistent with its high lipid solubility and tissue binding. The volume of distribution averaged 4.2 L/kg. The percentage of fluticasone propionate bound to human plasma proteins averaged 99%. Fluticasone propionate is weakly and reversibly bound to erythrocytes and is not significantly bound to human tr"
+  ]
+ },
+ "lidocaine-topical": {
+  "meta": {
+   "setid": "015cea25-d323-43dd-a92f-593a8e4a2921",
+   "splVersion": "101",
+   "effective": "2025-08-07",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA212695",
+   "brand": "Lidocaine",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=015cea25-d323-43dd-a92f-593a8e4a2921"
+  },
+  "windows": [
+   "-l-acid glycoprotein. Lidocaine crosses the blood-brain and placental barriers, presumably by passive diffusion. Studies of lidocaine metabolism following intravenous bolus injections have shown that the elimination half-life of this agent is typically 1.5 to 2.0 hours. Because of the rapid rate at which lidocaine is metabolized, any condition that affects liver function may alter lidocaine kinetics. The half-life may be prolonged two-fold or more in patients with "
+  ]
+ },
+ "mycophenolate-mofetil": {
+  "meta": {
+   "setid": "37241e87-4af4-4dc3-a1aa-ea6f20d8dc40",
+   "splVersion": "51",
+   "effective": "2026-08-05",
+   "manufacturer": "Genentech, Inc.",
+   "application": "NDA050722",
+   "brand": "CellCept",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=37241e87-4af4-4dc3-a1aa-ea6f20d8dc40"
+  },
+  "windows": [
+   "d by 40% in the presence of food [see Dosage and Administration (2.1) ]. Distribution The mean (±SD) apparent volume of distribution of MPA in 12 healthy volunteers was approximately 3.6 (±1.5) L/kg. At clinically relevant concentrations, MPA is 97% bound to plasma albumin. The phenolic glucuronide metabolite of MPA (MPAG) is 82% bound to plasma albumin at MPAG concentration ranges that are normally seen in stable kidney transplant patients; however, at higher MPAG con",
+   "lete recovery of the administered dose, with 93% of the administered dose recovered in the urine and 6% recovered in feces. Most (about 87%) of the administered dose is excreted in the urine as MPAG. At clinically encountered concentrations, MPA and MPAG are usually not removed by hemodialysis. However, at high MPAG plasma concentrations (> 100 mcg/mL), small amounts of MPAG are removed. Increased plasma concentrations of MMF metabolites (MPA 50% increase and MPAG about a 3-fold to 6-fold "
+  ]
+ },
+ "tacrolimus": {
+  "meta": {
+   "setid": "213f6047-f897-48a7-b78a-45d7124f2f16",
+   "splVersion": "5",
+   "effective": "2026-07-16",
+   "manufacturer": "Major Pharmaceuticals",
+   "application": "ANDA090687",
+   "brand": "Tacrolimus",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=213f6047-f897-48a7-b78a-45d7124f2f16"
+  },
+  "windows": [
+   "limus to 6 healthy volunteers, the mean recovery of radiolabel was 77.8 ± 12.7%. Fecal elimination accounted for 92.4 ± 1.0% and the elimination half-life based on radioactivity was 48.1 ± 15.9 hours whereas it was 43.5 ± 11.6 hours based on tacrolimus concentrations. The mean clearance of radiolabel was 0.029 ± 0.015 L/hr/kg and clearance of tacrolimus was 0.029 ± 0.009 L/hr/kg. When administered PO, the mean recovery of the radiolabel was 94.9 ± 30.7%. Fecal el",
+   "sion, and peripheral edema; in one case of acute overdosage, transient urticaria and lethargy were observed. Based on the poor aqueous solubility and extensive erythrocyte and plasma protein binding, it is anticipated that tacrolimus is not dialyzable to any significant extent; there is no experience with charcoal hemoperfusion. The oral use of activated charcoal has been reported in treating acute overdoses, but experience has not been sufficient to warrant recommending i"
+  ]
+ }
+}

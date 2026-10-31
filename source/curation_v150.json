@@ -1,0 +1,3453 @@
+{
+ "carboplatin": {
+  "label": "preg/carboplatin.json",
+  "brand": "Carboplatin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Calvert formula",
+        "dose": "Total dose (mg) = target AUC × (GFR + 25)"
+       },
+       {
+        "context": "Baseline CrCl 41–59 mL/min",
+        "dose": "250 mg/m² on day 1"
+       },
+       {
+        "context": "Baseline CrCl 16–40 mL/min",
+        "dose": "200 mg/m² on day 1"
+       }
+      ]
+     }
+    ],
+    "notes": "Insufficient data below CrCl 16 in this table.",
+    "ev": [
+     "Total Dose (mg) = (target AUC) × (GFR + 25)",
+     "Baseline Creatinine Clearance Recommended Dose on Day 1 41 - 59 mL/min 250 mg/m 2 16 - 40 mL/min 200 mg/m 2"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≥5 days (protein-bound platinum)",
+    "ev": "is slowly eliminated with a minimum half-life of 5 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "16 L (apparent)",
+    "ev": "The total body clearance, apparent volume of distribution and mean residence time for carboplatin are 4.4 L/h, 16 L and 3.5 hours, respectively",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl / GFR (Calvert formula)",
+  "summary": "Dose by Calvert formula: total dose (mg) = target AUC × (GFR + 25). Single-agent table: CrCl 41–59 → 250 mg/m²; 16–40 → 200 mg/m²."
+ },
+ "cisplatin": {
+  "label": "preg/cisplatin.json",
+  "brand": "Cisplatin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Consider dose reductions or alternative treatments in renal impairment; check serum creatinine, BUN, CrCl and electrolytes including magnesium before starting.",
+    "ev": [
+     "Consider dose reductions or alternative treatments in patients with renal impairment",
+     "Measure serum creatinine, blood urea nitrogen, creatinine clearance, and serum electrolytes including magnesium prior to initiating therapy, and as clinically indicated"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≥5 days (albumin-bound platinum)",
+    "ev": "are slowly eliminated with a minimum half-life of 5 days or more",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "90% of plasma platinum",
+    "ev": "90% of the plasma platinum is protein bound",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Nephrotoxic: measure creatinine, CrCl and electrolytes before treatment; consider dose reduction or alternatives in renal impairment."
+ },
+ "oxaliplatin": {
+  "label": "preg/oxaliplatin.json",
+  "brand": "Oxaliplatin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Colorectal cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Reduce to 65 mg/m²"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with severe renal impairment (creatinine clearance [CLcr] less than 30 mL/min, calculated by the Cockcroft-Gault equation), reduce the oxaliplatin injection dose to 65 mg/m 2"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "391 h (terminal, ultrafiltrable platinum)",
+    "ev": "a long terminal elimination phase (t 1/2 γ ; 391 hour)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "440 L (ultrafiltrable platinum)",
+    "ev": "volume of distribution of 440",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 90% (irreversible)",
+    "ev": "plasma protein binding of platinum is irreversible and is greater than 90%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "CrCl <30: reduce the dose to 65 mg/m²."
+ },
+ "capecitabine": {
+  "label": "preg/capecitabine.json",
+  "brand": "Capecitabine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–50 mL/min",
+        "dose": "Reduce the dose by 25%"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Dose not established"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Reduce the dose of capecitabine tablet by 25% for patients with creatinine clearance (CLcr) of 30 to 50 mL/min as determined by Cockcroft-Gault equation",
+     "A dosage has not been established in patients with severe renal impairment (CLcr <30 mL/min)"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈0.75 h (capecitabine and fluorouracil)",
+    "ev": "The elimination half-lives of capecitabine and fluorouracil were approximately 0.75 hour",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "less than 60%",
+    "ev": "Plasma protein binding of capecitabine and its metabolites is less than 60%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Reduce the dose by 25% at CrCl 30–50; no established dose below 30."
+ },
+ "etoposide": {
+  "label": "preg/etoposide.json",
+  "brand": "Etoposide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 15–50 mL/min",
+        "dose": "75% of the recommended dose"
+       },
+       {
+        "context": "CrCl <15 mL/min",
+        "dose": "No data"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with a creatinine clearance (CLcr) 15-50 mL/min, administer 75% of the recommended dose",
+     "Data are not available in patients with CLcr less than 15 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "4–11 h (terminal)",
+    "ev": "The terminal elimination half-life of etoposide ranges from 4 to 11 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "18–29 L (steady state)",
+    "ev": "the mean volume of distribution of etoposide at steady state was 18 to 29 liters",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97% (in vitro)",
+    "ev": "In vitro, etoposide is 97% bound to human plasma proteins, primarily albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Give 75% of the dose at CrCl 15–50; no data below 15."
+ },
+ "hydroxyurea": {
+  "label": "preg/hydroxyurea.json",
+  "brand": "XROMI (hydroxyurea oral solution)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl <60 mL/min",
+        "dose": "Reduce the dose by 50%"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Reduce the dose of XROMI by 50% in patients with creatinine clearance of less than 60 mL/min or with end-stage renal disease (ESRD)"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD on haemodialysis",
+        "dose": "50% dose; give after haemodialysis on dialysis days"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Reduce the dose of XROMI by 50% in patients with creatinine clearance of less than 60 mL/min or with end-stage renal disease (ESRD)",
+     "On dialysis days, administer XROMI to patients with ESRD following hemodialysis"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Halve the dose at CrCl <60 or ESRD; on dialysis days give after haemodialysis."
+ },
+ "lenalidomide": {
+  "label": "preg/lenalidomide.json",
+  "brand": "REVLIMID",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MM / MCL combination · US label Table 3",
+      "rows": [
+       {
+        "context": "CrCl 30–60 mL/min",
+        "dose": "10 mg once daily"
+       },
+       {
+        "context": "CrCl <30, not on dialysis",
+        "dose": "15 mg every other day"
+       }
+      ]
+     },
+     {
+      "indication": "FL / MZL combination · US label Table 3",
+      "rows": [
+       {
+        "context": "CrCl 30–60 mL/min",
+        "dose": "10 mg once daily"
+       },
+       {
+        "context": "CrCl <30, not on dialysis",
+        "dose": "5 mg once daily"
+       }
+      ]
+     },
+     {
+      "indication": "MM maintenance / MDS · US label Table 3",
+      "rows": [
+       {
+        "context": "CrCl 30–60 mL/min",
+        "dose": "5 mg once daily"
+       },
+       {
+        "context": "CrCl <30, not on dialysis",
+        "dose": "2.5 mg once daily"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "CLcr 30 to 60 mL/min 10 mg once daily 10 mg once daily 5 mg once daily CLcr below 30 mL/min (not requiring dialysis) 15 mg every other day 5 mg once daily 2.5 mg once daily"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "On dialysis · US label Table 3",
+      "rows": [
+       {
+        "context": "MM / MCL or FL / MZL combination",
+        "dose": "5 mg once daily, after dialysis on dialysis days"
+       },
+       {
+        "context": "MM maintenance / MDS",
+        "dose": "2.5 mg once daily, after dialysis on dialysis days"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "CLcr below 30 mL/min (requiring dialysis) 5 mg once daily. On dialysis days, administer the dose following dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "3 h (healthy); 3–5 h (patients)",
+    "ev": "The mean half-life of lenalidomide is 3 hours in healthy subjects and 3 to 5 hours in patients with MM, MDS or MCL",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈30%",
+    "ev": "In vitro [ 14 C]-lenalidomide binding to plasma proteins is approximately 30%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Starting dose by CrCl and indication (label Table 3); on dialysis give after the session."
+ },
+ "pemetrexed": {
+  "label": "preg/pemetrexed.json",
+  "brand": "Pemetrexed",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥45 mL/min",
+        "dose": "500 mg/m² every 21 days"
+       },
+       {
+        "context": "CrCl <45 mL/min",
+        "dose": "Do not administer"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Do not administer PEMFEXY if the creatinine clearance is less than 45 mL/min",
+     "The recommended dosage of PEMFEXY, administered as a single agent or with cisplatin, in patients with creatinine clearance of 45 mL/minute or greater, is 500 mg/m 2 as an intravenous infusion over 10 minutes on Day 1 of each 21-day cycle"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not to be given at CrCl <45 mL/min.",
+    "ev": [
+     "Do not administer PEMFEXY if the creatinine clearance is less than 45 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "3.5 h (CrCl 90 mL/min)",
+    "ev": "the elimination half-life of pemetrexed is 3.5 hours in patients with normal renal function (creatinine clearance of 90 mL/min)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "16.1 L (steady state)",
+    "ev": "Pemetrexed has a steady-state volume of distribution of 16.1 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "81% (in vitro)",
+    "ev": "In vitro studies indicated that pemetrexed is 81% bound to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not known (label)",
+    "ev": "It is not known whether pemetrexed is dialyzable",
+    "status": "unknown"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Do not give if CrCl <45."
+ },
+ "olaparib": {
+  "label": "preg/olaparib.json",
+  "brand": "LYNPARZA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 31–50 mL/min",
+        "dose": "200 mg twice daily"
+       },
+       {
+        "context": "CrCl ≤30 mL/min or ESRD",
+        "dose": "No data"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with moderate renal impairment (CLcr 31-50 mL/min), reduce the Lynparza dosage to 200 mg orally twice daily",
+     "There are no data in patients with severe renal impairment or end-stage renal disease (CLcr ≤30 mL/min)"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "14.9 ± 8.2 h (terminal)",
+    "ev": "The mean (± standard deviation) terminal plasma half-life of olaparib is 14.9 ± 8.2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "158 ± 136 L (apparent)",
+    "ev": "The mean (± standard deviation) apparent volume of distribution of olaparib is 158 ± 136 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈82% (in vitro)",
+    "ev": "The protein binding of olaparib is approximately 82% in vitro",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl 31–50: 200 mg twice daily. No data at CrCl ≤30."
+ },
+ "imatinib": {
+  "label": "preg/imatinib.json",
+  "brand": "Imatinib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 40–59 mL/min",
+        "dose": "Doses above 600 mg not recommended"
+       },
+       {
+        "context": "CrCl 20–39 mL/min",
+        "dose": "50% of the starting dose; increase as tolerated"
+       },
+       {
+        "context": "CrCl <20 mL/min",
+        "dose": "Caution (100 mg/day tolerated in two patients)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with moderate renal impairment (creatinine clearance [CrCL] = 20-39 mL/min) should receive a 50% decrease in the recommended starting dose and future doses can be increased as tolerated",
+     "Doses greater than 600 mg are not recommended in patients with mild renal impairment (CrCL = 40-59 mL/min)",
+     "A dose of 100 mg/day was tolerated in two patients with severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈18 h (active metabolite 40 h)",
+    "ev": "the elimination half-lives of imatinib and its major active metabolite, the N-demethyl derivative (CGP74588), are approximately 18 and 40 hours, respectively",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈95%",
+    "ev": "binding to plasma proteins in in vitro experiments is approximately 95%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl 20–39: start at 50% of the dose; CrCl 40–59: max 600 mg; caution in severe impairment (100 mg/day tolerated in 2 patients)."
+ },
+ "pomalidomide": {
+  "label": "preg/pomalidomide.json",
+  "brand": "POMALYST",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Dose modification applies to severe renal impairment requiring dialysis (see dialysis tab).",
+    "ev": [
+     "For patients with MM with severe renal impairment requiring dialysis, reduce the recommended dosage to 3 mg orally daily"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Severe impairment on dialysis (MM)",
+        "dose": "3 mg daily; take after dialysis on HD days"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients with MM with severe renal impairment requiring dialysis, reduce the recommended dosage to 3 mg orally daily",
+     "Take POMALYST after completion of dialysis procedure on hemodialysis days"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "9.5 h (healthy); 7.5 h (patients)",
+    "ev": "Pomalidomide is eliminated with a median plasma half-life of 9.5 hours in healthy subjects and 7.5 hours in pati",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "62–138 L (Vd/F)",
+    "ev": "Pomalidomide has a mean apparent volume of distribution (Vd/F) between 62 and 138 L at steady state",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "12–44%",
+    "ev": "Human plasma protein binding of pomalidomide ranges from 12% to 44% and is not concentration dependent",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Dialysis",
+  "summary": "MM with severe impairment on dialysis: 3 mg daily, given after dialysis on HD days."
+ },
+ "bortezomib": {
+  "label": "preg/bortezomib.json",
+  "brand": "VELCADE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Myeloma / MCL · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No starting-dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No starting dosage adjustment of VELCADE is recommended for patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Dialysis",
+        "dose": "Give after the dialysis procedure"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients requiring dialysis, VELCADE should be administered after the dialysis procedure"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "40–193 h (multiple dosing)",
+    "ev": "The mean elimination half-life of bortezomib upon multiple dosing ranged from 40 to 193 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "83%",
+    "ev": "The binding of bortezomib to human plasma proteins averaged 83%",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No starting-dose adjustment (US label)",
+  "summary": "No starting-dose adjustment; on dialysis give after the procedure."
+ },
+ "carfilzomib": {
+  "label": "preg/carfilzomib.json",
+  "brand": "KYPROLIS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal toxicity · US label",
+      "rows": [
+       {
+        "context": "SCr ≥2× baseline, CrCl <15, CrCl ≤50% of baseline, or need for HD",
+        "dose": "Withhold and monitor renal function"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Serum creatinine greater than or equal to 2 × baseline, or Creatinine clearance less than 15 mL/min, or creatinine clearance decreases to less than or equal to 50% of baseline, or need for hemodialysis Withhold dose and continue monitoring renal function"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD on haemodialysis",
+        "dose": "Give after the haemodialysis procedure"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients with end stage renal disease who are on hemodialysis, administer Kyprolis after the hemodialysis procedure"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≤1 h (day 1, ≥15 mg/m²)",
+    "ev": "Carfilzomib has a half-life of ≤ 1 hour on Day 1 of Cycle 1 following intravenous doses ≥ 15 mg/m 2",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "Withhold for SCr ≥2× baseline, CrCl <15 or need for haemodialysis; on HD give after dialysis."
+ },
+ "bleomycin": {
+  "label": "preg/bleomycin.json",
+  "brand": "Bleomycin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "At CrCl <50 mL/min treat with caution and monitor renal function; lower doses may be required (see the label dose table).",
+    "ev": [
+     "Patients with creatinine clearance values of less than 50 mL/min should be treated with caution and their renal function should be carefully monitored during the administration of bleomycin",
+     "The terminal elimination half-life increases exponentially as the creatinine clearance decreases"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2 h (normal renal function)",
+    "ev": "In patients with normal renal function, plasma concentrations of bleomycin decline biexponentially with a mean terminal half-life of 2 hours following intravenous bolus administration",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "17.5 L/m²",
+    "ev": "a mean volume of distribution of 17.5 L/m 2",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl <50: lower doses may be needed; monitor renal function (half-life rises steeply as CrCl falls)."
+ },
+ "gemcitabine": {
+  "label": "preg/gemcitabine.json",
+  "brand": "Gemcitabine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Discontinue for HUS or severe renal impairment; HUS can cause renal failure requiring dialysis.",
+    "ev": [
+     "Discontinue gemcitabine for HUS or severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "42–94 min (short infusions)",
+    "ev": "Gemcitabine half-life for short infusions ranged from 42 to 94 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "50 L/m² (infusions <70 min)",
+    "ev": "Volume of distribution of gemcitabine was 50 L/m 2 following infusions lasting <70 minutes",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Discontinue for haemolytic uraemic syndrome or severe renal impairment."
+ },
+ "abemaciclib": {
+  "label": "preg/abemaciclib.json",
+  "brand": "VERZENIO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Breast cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–89 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <30, ESRD or dialysis",
+        "dose": "PK unknown"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is required for patients with mild or moderate renal impairment (CLcr ≥30-89 mL/min, estimated by Cockcroft-Gault [C-G])",
+     "The pharmacokinetics of abemaciclib in patients with severe renal impairment (CLcr <30 mL/min, C-G), end stage renal disease, or in patients on dialysis is unknown"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl 30–89; unknown in severe impairment, ESRD or dialysis."
+ },
+ "abiraterone": {
+  "label": "preg/abiraterone.json",
+  "brand": "Abiraterone acetate",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Prostate cancer · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment, including ESRD on HD",
+        "dose": "No dose modification"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage modification is recommended for patients with renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "12 ± 5 h (terminal)",
+    "ev": "the mean terminal half-life of abiraterone in plasma (mean ± SD) is 12 ± 5 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "19,669 ± 13,358 L (apparent)",
+    "ev": "The apparent steady-state volume of distribution (mean ± SD) is 19,669 ± 13,358 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99%",
+    "ev": "Abiraterone is highly bound (>99%) to the human plasma proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No dose change in renal impairment (studied in ESRD on haemodialysis)."
+ },
+ "anastrozole": {
+  "label": "preg/anastrozole.json",
+  "brand": "ARIMIDEX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Breast cancer · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Dosage adjustment in patients with renal impairment is not necessary"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "50 h",
+    "ev": "The mean elimination half-life of anastrozole is 50 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "40%",
+    "ev": "Anastrozole is 40% bound to plasma proteins in the therapeutic range",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No dose adjustment in renal impairment."
+ },
+ "letrozole": {
+  "label": "preg/letrozole.json",
+  "brand": "Letrozole",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Breast cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥10 mL/min",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is required for patients with renal impairment if creatinine clearance is greater than or equal to 10 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 days",
+    "ev": "Letrozole's terminal elimination half-life is about 2 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈1.9 L/kg",
+    "ev": "has a large volume of distribution (approximately 1.9 L/kg)",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment if CrCl ≥10."
+ },
+ "enzalutamide": {
+  "label": "preg/enzalutamide.json",
+  "brand": "XTANDI",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Prostate cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥30 mL/min",
+        "dose": "No dose modification"
+       },
+       {
+        "context": "CrCl <30 or ESRD",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage modification is recommended for patients with mild to moderate renal impairment (creatinine clearance [CLcr] ≥ 30 mL/min)",
+     "XTANDI has not been studied in patients with severe renal impairment (CLcr < 30 mL/min) or end-stage renal disease"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "5.8 days (2.8–10.2)",
+    "ev": "The mean terminal half-life (t 1/2 ) for enzalutamide after a single oral dose is 5.8 days (2.8 to 10.2 days)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "110 L",
+    "ev": "The mean (%CV) volume of distribution after a single oral dose is 110 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97–98%",
+    "ev": "Enzalutamide is 97% to 98% bound to plasma proteins, primarily albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl ≥30; not studied below 30 or in ESRD."
+ },
+ "osimertinib": {
+  "label": "preg/osimertinib.json",
+  "brand": "TAGRISSO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "NSCLC · US label",
+      "rows": [
+       {
+        "context": "CrCl 15–89 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <15 mL/min (ESRD)",
+        "dose": "No recommended dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is recommended in patients with creatinine clearance (CLcr) 15 - 89 mL/min, as estimated by Cockcroft-Gault",
+     "There is no recommended dose of TAGRISSO for patients with end-stage renal disease (CLcr <15 mL/min)"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl 15–89; no recommended dose at CrCl <15."
+ },
+ "paclitaxel": {
+  "label": "preg/paclitaxel.json",
+  "brand": "Paclitaxel protein-bound (albumin-bound)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Albumin-bound paclitaxel · US label",
+      "rows": [
+       {
+        "context": "CrCl 30 to <90 mL/min",
+        "dose": "No starting-dose adjustment"
+       },
+       {
+        "context": "CrCl <30 or ESRD",
+        "dose": "Insufficient data"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "There are insufficient data to permit dosage recommendations in patients with severe renal impairment or end stage renal disease (estimated creatinine clearance <30 mL/min)"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈1,741 L (total)",
+    "ev": "The total volume of distribution is approximately 1,741 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "94%",
+    "ev": "is highly bound to plasma proteins (94%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Albumin-bound form: no starting-dose change at CrCl 30–89; insufficient data below 30."
+ },
+ "palbociclib": {
+  "label": "preg/palbociclib.json",
+  "brand": "IBRANCE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Breast cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl >15 mL/min",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required in patients with mild, moderate, or severe renal impairment (CrCl >15 mL/min)"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "2583 L (Vz/F)",
+    "ev": "The geometric mean apparent volume of distribution (V z /F) was 2583 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈85% (in vitro)",
+    "ev": "Binding of palbociclib to human plasma proteins in vitro was approximately 85%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not studied on hemodialysis (label)",
+    "ev": "The pharmacokinetics of palbociclib have not been studied in patients requiring hemodialysis",
+    "status": "unknown"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl >15; not studied on haemodialysis."
+ },
+ "ribociclib": {
+  "label": "preg/ribociclib.json",
+  "brand": "KISQALI",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Breast cancer · US label",
+      "rows": [
+       {
+        "context": "Severe renal impairment",
+        "dose": "Starting dose 200 mg once daily"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The recommended starting dose is 200 mg KISQALI once daily for patients with severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "29.7–54.7 h (apparent terminal)",
+    "ev": "The mean apparent plasma terminal half-life of ribociclib ranged from 29.7 to 54.7 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "1090 L (Vss/F)",
+    "ev": "The apparent volume of distribution at steady-state (Vss/F) was 1090 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl 30–89; severe renal impairment: start 200 mg once daily."
+ },
+ "rucaparib": {
+  "label": "preg/rucaparib.json",
+  "brand": "RUBRACA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–89 mL/min",
+        "dose": "No dose modification"
+       },
+       {
+        "context": "CrCl <30 or dialysis",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Rubraca has not been studied in patients with CLcr < 30 mL/min or patients on dialysis"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No change at CrCl 30–89; not studied below 30 or on dialysis."
+ },
+ "zanubrutinib": {
+  "label": "preg/zanubrutinib.json",
+  "brand": "BRUKINSA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥15 mL/min",
+        "dose": "No dose modification"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage modification is recommended in patients with mild, moderate, or severe renal impairment (CLcr ≥15 mL/min, estimated by Cockcroft-Gault)"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Dialysis",
+        "dose": "No dose stated; monitor for adverse reactions"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Monitor for BRUKINSA adverse reactions in patients on dialysis"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl ≥15; monitor for adverse reactions on dialysis."
+ },
+ "ibrutinib": {
+  "label": "preg/ibrutinib.json",
+  "brand": "IMBRUVICA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl >25 mL/min",
+        "dose": "No exposure change; usual dose"
+       },
+       {
+        "context": "CrCl <25 or dialysis",
+        "dose": "No data"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Mild and moderate renal impairment (creatinine clearance [CLcr] > 25 mL/min as estimated by Cockcroft-Gault equation) had no influence on the exposure of ibrutinib",
+     "No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "4–6 h",
+    "ev": "The half-life of ibrutinib is 4 hours to 6 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "683 L",
+    "ev": "The volume of distribution (V d ) was 683 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97.3% (in vitro)",
+    "ev": "Reversible binding of ibrutinib to human plasma protein in vitro was 97.3%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "No data on dialysis (label)",
+    "ev": "No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis",
+    "status": "unknown"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No influence on exposure at CrCl >25; no data in severe impairment or dialysis."
+ },
+ "venetoclax": {
+  "label": "preg/venetoclax.json",
+  "brand": "VENCLEXTA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Reduced renal function (CrCl <80) raises tumour lysis risk; consider admission for the first 20 mg and 50 mg doses.",
+    "ev": [
+     "particularly reduced renal function (creatinine clearance [CLcr] <80 mL/min) and tumor burden"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈26 h (terminal)",
+    "ev": "The terminal elimination half-life of venetoclax was approximately 26 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "256–321 L (Vdss/F)",
+    "ev": "The apparent volume of distribution (Vd ss /F) of venetoclax ranged from 256-321 L in patients",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Tumour lysis risk rises with CrCl <80: consider hospital admission for the first ramp-up doses."
+ },
+ "vincristine": {
+  "label": "preg/vincristine.json",
+  "brand": "Vincristine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose statement; very little appears in dialysate.",
+    "ev": [
+     "Because only very small amounts of the drug appear in dialysate, hemodialysis is not likely to be helpful in cases of overdosage"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "No renal dose statement; haemodialysis not useful in overdose."
+ },
+ "trastuzumab": {
+  "label": "preg/trastuzumab.json",
+  "brand": "Trastuzumab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–90 mL/min",
+        "dose": "No PK difference; usual dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "and renal impairment (mild (creatinine clearance [CLcr] 60 to 90 mL/min) (n = 636) or moderate (CLcr 30 to 60 mL/min) (n = 133))"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No PK difference in mild–moderate renal impairment."
+ },
+ "rasburicase": {
+  "label": "preg/rasburicase.json",
+  "brand": "ELITEK",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Tumour lysis · US label",
+      "rows": [
+       {
+        "context": "Any CrCl",
+        "dose": "Usual weight-based dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "age, gender, baseline liver enzymes and creatinine clearance did not impact the pharmacokinetics of rasburicase"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No PK effect of CrCl (US label)",
+  "summary": "Creatinine clearance did not affect rasburicase PK."
+ },
+ "docetaxel": {
+  "label": "preg/docetaxel.json",
+  "brand": "Docetaxel",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "116 h (terminal)",
+    "ev": "mean terminal elimination half-life was 116 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "113 L (steady state)",
+    "ev": "Mean steady state volume of distribution was 113 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈94%",
+    "ev": "Docetaxel is approximately 94% protein bound in vitro",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "doxorubicin": {
+  "label": "preg/doxorubicin.json",
+  "brand": "Doxorubicin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "20–48 h (terminal)",
+    "ev": "The terminal half-life is 20 hours to 48 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "809–1214 L/m² (steady state)",
+    "ev": "Steady-state distribution volume ranges from 809 L/m 2 to 1214 L/m 2",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "75%",
+    "ev": "to plasma proteins is 75% and is independent of plasma concentration",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "fluorouracil": {
+  "label": "preg/fluorouracil.json",
+  "brand": "Fluorouracil",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8–20 min (bolus, dose-dependent)",
+    "ev": "the elimination half-life increased with dose from 8 to 20 minutes",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "dasatinib": {
+  "label": "preg/dasatinib.json",
+  "brand": "Dasatinib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2–5 h",
+    "ev": "the mean half-life was 2 hours to 5 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "2505 L (apparent)",
+    "ev": "The apparent volume of distribution is 2505 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈96% (active metabolite 93%)",
+    "ev": "Binding of dasatinib to human plasma proteins in vitro was approximately 96% and of its active metabolite was 93%",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "nilotinib": {
+  "label": "preg/nilotinib.json",
+  "brand": "Nilotinib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈17 h (apparent)",
+    "ev": "The mean (CV%) apparent elimination half-life is estimated to be approximately 17 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈98%",
+    "ev": "Serum protein binding is approximately 98%",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "tamoxifen": {
+  "label": "preg/tamoxifen.json",
+  "brand": "Tamoxifen",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈5–7 days (terminal)",
+    "ev": "with a terminal elimination half-life of about 5 to 7 days",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "atezolizumab": {
+  "label": "preg/atezolizumab.json",
+  "brand": "TECENTRIQ",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "nivolumab": {
+  "label": "preg/nivolumab.json",
+  "brand": "OPDIVO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "25 days",
+    "ev": "The geometric mean elimination half-life (t 1/2 ) is 25 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "6.8 L (Vss)",
+    "ev": "The geometric mean volume of distribution at steady state (Vss) and coefficient of variation (CV%) is 6.8 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "pembrolizumab": {
+  "label": "preg/pembrolizumab.json",
+  "brand": "KEYTRUDA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "22 days (terminal)",
+    "ev": "The terminal half-life (t 1/2 ) is 22 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "6.0 L (steady state)",
+    "ev": "The geometric mean value (CV%) for volume of distribution at steady state is 6.0 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "cetuximab": {
+  "label": "preg/cetuximab.json",
+  "brand": "ERBITUX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈112 h (63–230)",
+    "ev": "The mean half-life of cetuximab was approximately 112 hours (63 to 230 hours)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "bevacizumab": {
+  "label": "preg/bevacizumab.json",
+  "brand": "Bevacizumab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "20 days (11–50)",
+    "ev": "The estimated half-life is 20 days (11 to 50 days)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "daratumumab": {
+  "label": "preg/daratumumab.json",
+  "brand": "DARZALEX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "acalabrutinib": {
+  "label": "preg/acalabrutinib.json",
+  "brand": "CALQUENCE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "97.5% (ACP-5862 98.6%)",
+    "ev": "Reversible binding to human plasma protein was 97.5% for acalabrutinib and 98.6% for ACP-5862",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "melphalan": {
+  "label": "preg/melphalan.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈75 min (terminal, IV)",
+    "ev": "distribution phase and terminal elimination phase half-lives of approximately 10 and 75 minutes, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.5 L/kg (steady state)",
+    "ev": "The steady-state volume of distribution of melphalan is 0.5 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "53–92% (variable)",
+    "ev": "The average melphalan binding to plasma proteins is highly variable (range: 53% to 92%)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed to any significant degree (label)",
+    "ev": "This drug is not removed from plasma to any significant degree by hemodialysis or hemoperfusion",
+    "status": "not_removed"
+   }
+  }
+ },
+ "cyclophosphamide": {
+  "label": "preg/cyclophosphamide.json",
+  "brand": "Cyclophosphamide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Moderate or severe impairment (CrCl 10–24 mL/min)",
+        "dose": "No fixed reduction stated; monitor closely for toxicity"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Monitor for toxicity in patients with moderate and severe renal impairment",
+     "Monitor patients with severe renal impairment (creatinine clearance (CLcr) = 10 mL/min to 24 mL/min) for signs and symptoms of toxicity"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Dialysis",
+        "dose": "Keep a consistent interval between the dose and dialysis (cyclophosphamide and metabolites are dialysable)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Cyclophosphamide and its metabolites are dialyzable although there are probably quantitative differences depending upon the dialysis system",
+     "In patients requiring dialysis, consider using a consistent interval between cyclophosphamide administration and dialysis should be considered"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "3–12 h",
+    "ev": "The elimination half-life (t½) of cyclophosphamide ranges from 3 to 12 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "30–50 L",
+    "ev": "The volume of distribution of cyclophosphamide is 30 to 50 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈20%",
+    "ev": "Cyclophosphamide is approximately 20% protein bound, with no dose dependent changes",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialyzable (label)",
+    "ev": "Cyclophosphamide is dialyzable",
+    "status": "removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Monitor for toxicity in moderate–severe impairment (CrCl 10–24). Dialysable: keep a consistent interval between dose and dialysis."
+ },
+ "methotrexate": {
+  "label": "preg/methotrexate.json",
+  "brand": "Methotrexate",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Elimination falls at CrCl <90 mL/min and adverse-reaction risk rises; no numeric renal dose in this label. Neither HD nor PD improves elimination.",
+    "ev": [
+     "Methotrexate elimination is reduced in patients with renal impairment [creatinine clearance (CLcr) less than 90 mL/min, calculated using Cockcroft-Gault]",
+     "Patients with renal impairment are at increased risk for methotrexate adverse reactions"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Neither haemodialysis nor peritoneal dialysis improves methotrexate elimination.",
+    "ev": [
+     "Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8–15 h (high-dose IV, terminal)",
+    "ev": "Following intravenous administration of high-dose methotrexate, the terminal half-life is 8 hours to 15 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈50%",
+    "ev": "Methotrexate in serum is approximately 50% protein bound",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "HD not shown to improve elimination (label)",
+    "ev": "Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination",
+    "status": "not_removed"
+   },
+   "pd": {
+    "value": "PD not shown to improve elimination (label)",
+    "ev": "Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination",
+    "status": "not_removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Elimination is reduced at CrCl <90 and adverse reactions increase; no numeric renal dose in this label. Not removed by HD or PD."
+ },
+ "rituximab": {
+  "label": "preg/rituximab.json",
+  "brand": "Rituximab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose statement. In tumour lysis syndrome, correct electrolytes, monitor renal function and fluid balance, and give supportive care including dialysis as indicated.",
+    "ev": [
+     "Correct electrolyte abnormalities, monitor renal function and fluid balance, and administer supportive care, including dialysis as indicated"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "22 days (median terminal, NHL)",
+    "ev": "the estimated median terminal elimination half-life was 22 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "3.1 L (RA)",
+    "ev": "volume of distribution was 3.1 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "No renal dose statement; tumour lysis can cause renal failure requiring dialysis — monitor renal function."
+ },
+ "sirolimus": {
+  "label": "preg/sirolimus.json",
+  "brand": "Sirolimus",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Transplant · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Dosage adjustment is not needed in patients with impaired renal function"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No dialysis dose in the label; not dialysable to any significant extent, so no supplement"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "it is anticipated that sirolimus is not dialyzable to any significant extent"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "62 ± 16 h (renal transplant)",
+    "ev": "The mean ± SD terminal elimination half-life (t ½ ) of sirolimus after multiple dosing in stable renal transplant patients was estimated to be about 62 ± 16 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "12 ± 8 L/kg (Vss/F)",
+    "ev": "The mean volume of distribution (Vss/F) of sirolimus is 12 ± 8 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈92%",
+    "ev": "Sirolimus is extensively bound (approximately 92%) to human plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable to any significant extent (label)",
+    "ev": "it is anticipated that sirolimus is not dialyzable to any significant extent",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No dose adjustment in renal impairment; not dialysable."
+ },
+ "everolimus": {
+  "label": "preg/everolimus.json",
+  "brand": "Everolimus",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 25–178 mL/min",
+        "dose": "No change in clearance; usual dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No significant influence of creatinine clearance (25 to 178 mL/min) was detected on oral clearance (CL/F) of everolimus"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈30 h",
+    "ev": "The mean elimination half-life of everolimus is approximately 30 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈74%",
+    "ev": "Plasma protein binding is approximately 74% both in healthy subjects and in patients with moderate hepatic impairment",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No influence of CrCl 25–178 on clearance; monitor kidney function."
+ },
+ "leflunomide": {
+  "label": "preg/leflunomide.json",
+  "brand": "Leflunomide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No dedicated renal studies; no renal dose in the label.",
+    "ev": [
+     "Dedicated studies of the effect of renal impairment on leflunomide pharmacokinetics have not been conducted"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis or CAPD",
+        "dose": "No dialysis dose; teriflunomide is not dialysable, so no supplement"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "18–19 days (teriflunomide)",
+    "ev": "Teriflunomide, the active metabolite of leflunomide, has a median half-life of 18 to 19 days in healthy volunteers",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "11 L (IV)",
+    "ev": "The volume of distribution is 11 L after a single intravenous (IV) administration",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99% (teriflunomide)",
+    "ev": "Teriflunomide is extensively bound to plasma protein (>99%)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Teriflunomide not dialyzable (label)",
+    "ev": "Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable",
+    "status": "not_removed"
+   },
+   "pd": {
+    "value": "Teriflunomide not dialyzable (label)",
+    "ev": "Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable",
+    "status": "not_removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "Not studied in renal impairment; teriflunomide is not dialysable."
+ },
+ "tofacitinib": {
+  "label": "preg/tofacitinib.json",
+  "brand": "Tofacitinib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "RA / PsA / AS · US label",
+      "rows": [
+       {
+        "context": "CrCl >50–80 mL/min",
+        "dose": "5 mg twice daily"
+       },
+       {
+        "context": "CrCl 30–50 mL/min",
+        "dose": "5 mg once daily"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "5 mg once daily"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Mild RI (CLcr >50 and ≤80 mL/min) 5 mg twice daily Moderate RI (CLcr ≥30 and ≤50 mL/min) 5 mg once daily Severe RI (CLcr <30 mL/min) 5 mg once daily"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "5 mg once daily, after the session on dialysis days; no supplement if taken before dialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients undergoing hemodialysis, administer the dose after the dialysis session on dialysis days. If a dose was taken before the dialysis procedure, supplemental doses are not recommended after dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "87 L (IV)",
+    "ev": "After intravenous administration, the volume of distribution was 87 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈40%",
+    "ev": "The protein binding of tofacitinib is approximately 40%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "RA/PsA/AS: CrCl 30–50 or <30 → 5 mg once daily; on haemodialysis give after dialysis (no supplement if taken before)."
+ },
+ "upadacitinib": {
+  "label": "preg/upadacitinib.json",
+  "brand": "RINVOQ",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Severe renal impairment",
+        "dose": "15 mg once daily"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Severe Renal Impairment : Recommended dosage of RINVOQ is 15 mg once daily"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8–14 h (terminal)",
+    "ev": "Upadacitinib mean terminal elimination half-life ranged from 8 to 14 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "52%",
+    "ev": "Upadacitinib is 52% bound to plasma protei",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal function",
+  "summary": "Severe renal impairment: 15 mg once daily."
+ },
+ "baricitinib": {
+  "label": "preg/baricitinib.json",
+  "brand": "Baricitinib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Check eGFR before starting; dose reductions by eGFR are in the label. Not recommended on dialysis, in ESRD or AKI.",
+    "ev": [
+     "Evaluate baseline eGFR, liver enzymes, and complete blood count to determine treatment suitability and dose",
+     "Patients who are on dialysis, have end-stage renal disease (ESRD, EGFR <15 mL/min/1"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended on dialysis or in ESRD.",
+    "ev": [
+     "Patients who are on dialysis, have end-stage renal disease (ESRD, EGFR <15 mL/min/1"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Dose by eGFR per label; not recommended on dialysis, in ESRD (eGFR <15) or AKI."
+ },
+ "apremilast": {
+  "label": "preg/apremilast.json",
+  "brand": "OTEZLA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Psoriasis / PsA / Behçet · US label",
+      "rows": [
+       {
+        "context": "Severe renal impairment",
+        "dose": "Titrate using morning doses only; maintenance 30 mg once daily"
+       },
+       {
+        "context": "Severe impairment, OTEZLA XR",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For initial dosage titration, titrate using only morning schedule listed in Table 1 and skip afternoon doses. Recommended maintenance dosage is OTEZLA 30 mg once daily",
+     "OTEZLA XR is not recommended for adult patients with severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈6–9 h (terminal)",
+    "ev": "with a terminal elimination half-life of approximately 6-9 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "87 L (apparent)",
+    "ev": "Mean apparent volume of distribution (Vd) is 87 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈68%",
+    "ev": "Human plasma protein binding of apremilast is approximately 68%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal function",
+  "summary": "Severe renal impairment: titrate with morning doses only; maintenance 30 mg once daily. XR form not recommended."
+ },
+ "avacopan": {
+  "label": "preg/avacopan.json",
+  "brand": "TAVNEOS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "ANCA vasculitis · US label",
+      "rows": [
+       {
+        "context": "Mild, moderate or severe impairment",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "Dialysis",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required for patients with mild, moderate, or severe renal impairment",
+     "TAVNEOS has not been studied in patients with ANCA-associated vasculitis who are on dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "97.6 h (avacopan); 55.6 h (M1)",
+    "ev": "the mean elimination half-lives of avacopan and M1 are 97.6 hours and 55.6 hours, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "345 L (apparent)",
+    "ev": "The apparent volume of distribution of avacopan is estimated to be 345 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 99.9%",
+    "ev": "of avacopan and metabolite M1 is greater than 99.9%",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No adjustment in mild to severe impairment; not studied on dialysis."
+ },
+ "tocilizumab": {
+  "label": "preg/tocilizumab.json",
+  "brand": "Tocilizumab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Mild or moderate impairment",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "Severe impairment",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required in patients with mild or moderate renal impairment",
+     "Tocilizumab products have not been studied in patients with severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "up to 11 days (4 mg/kg) – 13 days (8 mg/kg), IV",
+    "ev": "the concentration-dependent apparent t 1/2 is up to 11 days for 4 mg per kg and up to 13 days for 8 mg per kg every 4 weeks in patients with RA at steady-state",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "Renal function",
+  "summary": "No adjustment in mild–moderate impairment; not studied in severe impairment."
+ },
+ "anakinra": {
+  "label": "preg/anakinra.json",
+  "brand": "KINERET",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "RA / NOMID · US label",
+      "rows": [
+       {
+        "context": "CrCl <30 mL/min or ESRD",
+        "dose": "Consider the prescribed dose every other day (RA: 100 mg every other day)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Physicians should consider a dose of 100 mg of KINERET administered every other day for RA patients who have severe renal insufficiency or end stage renal disease (defined as creatinine clearance < 30 mL/min, as estimated from serum creatinine levels)"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD on HD",
+        "dose": "100 mg every other day (RA); <2.5% removed by HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Physicians should consider a dose of 100 mg of KINERET administered every other day for RA patients who have severe renal insufficiency or end stage renal disease (defined as creatinine clearance < 30 mL/min, as estimated from serum creatinine levels)",
+     "Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "<2.5% removed by HD or CAPD (label)",
+    "ev": "Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis",
+    "status": "negligible"
+   },
+   "pd": {
+    "value": "<2.5% removed by HD or CAPD (label)",
+    "ev": "Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis",
+    "status": "negligible"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl <30 or ESRD: consider 100 mg every other day. <2.5% removed by HD or CAPD."
+ },
+ "azathioprine": {
+  "label": "preg/azathioprine.json",
+  "brand": "IMURAN",
+  "promote": false,
+  "pk_only": false,
+  "modalities": {
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "About 45% is removed during an 8-hour haemodialysis.",
+    "ev": [
+     "About 30% of IMURAN is bound to serum proteins, but approximately 45% is removed during an 8-hour hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "5 h (radioactivity)",
+    "ev": "decays with a half-life of 5 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "30%",
+    "ev": "Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Partially dialyzable (label)",
+    "ev": "Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable",
+    "status": "limited"
+   }
+  }
+ },
+ "belatacept": {
+  "label": "preg/belatacept.json",
+  "brand": "NULOJIX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Kidney transplant · US label",
+      "rows": [
+       {
+        "context": "Any GFR, including dialysis",
+        "dose": "Usual weight-based dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "renal function (measured by calculated glomerular filtration rate [GFR]), hepatic function (measured by albumin), diabetes, and concomitant dialysis did not affect the clearance of belatacept"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No effect of renal function or dialysis on clearance",
+  "summary": "Renal function and concomitant dialysis did not affect belatacept clearance."
+ },
+ "abatacept": {
+  "label": "preg/abatacept.json",
+  "brand": "ORENCIA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "14.3 days (terminal)",
+    "ev": "terminal half-life (14.3 days)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.11 L/kg",
+    "ev": "volume of distribution (0.11 L/kg)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "adalimumab": {
+  "label": "preg/adalimumab.json",
+  "brand": "Adalimumab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 weeks (10–20 days)",
+    "ev": "The mean terminal half-life was approximately 2 weeks, ranging from 10 to 20 days across studies",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "anifrolumab": {
+  "label": "preg/anifrolumab.json",
+  "brand": "SAPHNELO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "basiliximab": {
+  "label": "preg/basiliximab.json",
+  "brand": "SIMULECT",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "belimumab": {
+  "label": "preg/belimumab.json",
+  "brand": "BENLYSTA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "eculizumab": {
+  "label": "preg/eculizumab.json",
+  "brand": "SOLIRIS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "141–882 h",
+    "ev": "The half life of eculizumab ranged between 141 h and 882 h",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "5–8 L (70 kg)",
+    "ev": "The eculizumab volume of distribution for a typical 70 kg patient was 5 L to 8 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "efgartigimod": {
+  "label": "preg/efgartigimod.json",
+  "brand": "VYVGART",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "80–120 h (3–5 days)",
+    "ev": "The terminal half-life is 80 to 120 hours (3 to 5 days)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "15–20 L",
+    "ev": "The volume of distribution is 15 to 20L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "etanercept": {
+  "label": "preg/etanercept.json",
+  "brand": "ENBREL",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "inebilizumab": {
+  "label": "preg/inebilizumab.json",
+  "brand": "UPLIZNA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "infliximab": {
+  "label": "preg/infliximab.json",
+  "brand": "Infliximab",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "7.7–9.5 days (median terminal)",
+    "ev": "the median terminal half-life of infliximab is 7.7 to 9.5 days",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "iptacopan": {
+  "label": "preg/iptacopan.json",
+  "brand": "FABHALTA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈25 h (terminal, steady state)",
+    "ev": "The terminal half-life (t 1/2 ) of iptacopan at steady state is approximately 25 hou",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈288 L (steady state)",
+    "ev": "the apparent volume of distribution at steady state was approximately 288 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "75–93%",
+    "ev": "Iptacopan was 75% to 93% protein bound in vitro",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "obinutuzumab": {
+  "label": "preg/obinutuzumab.json",
+  "brand": "GAZYVA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "pegcetacoplan": {
+  "label": "preg/pegcetacoplan.json",
+  "brand": "Pegcetacoplan",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8.6 days (effective, PNH)",
+    "ev": "median effective half-life of elimination (t 1/2 ) is 8.6 days in patients with PNH",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈3.98 L (PNH)",
+    "ev": "The mean (CV%) volume of distribution of pegcetacoplan is approximately 3.98 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "ravulizumab": {
+  "label": "preg/ravulizumab.json",
+  "brand": "ULTOMIRIS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "mycophenolate-sodium": {
+  "label": "preg/mycophenolate-sodium.json",
+  "brand": "Mycophenolic acid (enteric-coated)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8–16 h (MPA); 13–17 h (MPAG)",
+    "ev": "The mean elimination half-life of MPA and MPAG ranged between 8 and 16 hours, and 13 and 17 hours, respectively",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 98% (MPA)",
+    "ev": "MPA is highly protein bound (greater than 98% bound to albumin)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "ibuprofen": {
+  "label": "preg/ibuprofen.json",
+  "brand": "Ibuprofen tablets",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Advanced renal disease",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Therefore, treatment with Ibuprofen tablets is not recommended in these patients with advanced renal disease"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended in advanced renal disease.",
+    "ev": [
+     "Therefore, treatment with Ibuprofen tablets is not recommended in these patients with advanced renal disease"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.8–2.0 h",
+    "ev": "The serum half-life is 1.8 to 2.0 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Not recommended in advanced renal disease."
+ },
+ "naproxen": {
+  "label": "preg/naproxen.json",
+  "brand": "Naproxen",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Advanced renal disease",
+        "dose": "Avoid unless benefits outweigh the risk"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Avoid use of naproxen tablets and naproxen sodium tablets in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "12–17 h",
+    "ev": "The plasma half-life of the naproxen anion in humans ranges from 12 to 17 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.16 L/kg",
+    "ev": "Naproxen has a volume of distribution of 0.16 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 99%",
+    "ev": "At therapeutic levels naproxen is greater than 99% albumin-bound",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Avoid in advanced renal disease unless benefit outweighs the risk of worsening renal function."
+ },
+ "celecoxib": {
+  "label": "preg/celecoxib.json",
+  "brand": "Celecoxib",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Advanced renal disease",
+        "dose": "Avoid unless benefits outweigh the risk"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Avoid use of celecoxib capsules in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈11 h",
+    "ev": "with a half-life of approximately 11 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈400 L (Vss/F)",
+    "ev": "The apparent volume of distribution at steady state (V ss /F) is approximately 400 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "~97%",
+    "ev": "celecoxib is highly protein bound (~97%) within the clinical dose range",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Avoid in advanced renal disease unless benefit outweighs the risk of worsening renal function."
+ },
+ "meloxicam": {
+  "label": "preg/meloxicam.json",
+  "brand": "Meloxicam tablets",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Severe renal impairment",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The use of Meloxicam Tablets, USP in subjects with severe renal impairment is not recommended"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Maximum 7.5 mg per day (not dialysable)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with hemodialysis, a maximum daily dosage of 7.5 mg is recommended",
+     "Meloxicam is not dialyzable"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "19.5 h (women) – 23.4 h (men)",
+    "ev": "the mean elimination half-life was 19.5 hours for the female group as compared to 23.4 hours for the male group",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈10 L (Vss)",
+    "ev": "The mean volume of distribution (Vss) of meloxicam is approximately 10 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "~99.4%",
+    "ev": "Meloxicam is ~99.4% bound to human plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable (label)",
+    "ev": "Meloxicam is not dialyzable",
+    "status": "not_removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Not recommended in severe renal impairment; on haemodialysis maximum 7.5 mg/day."
+ },
+ "ketorolac": {
+  "label": "preg/ketorolac.json",
+  "brand": "Ketorolac tromethamine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Pain (short term) · US label",
+      "rows": [
+       {
+        "context": "Advanced renal impairment, or risk of renal failure from volume depletion",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Ketorolac tromethamine is CONTRAINDICATED in patients with advanced renal impairment and in patients at risk for renal failure due to volume depletion"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in advanced renal impairment.",
+    "ev": [
+     "Ketorolac tromethamine is CONTRAINDICATED in patients with advanced renal impairment and in patients at risk for renal failure due to volume depletion"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2.5 h (S-enantiomer); 5 h (R)",
+    "ev": "The half-life of the ketorolac tromethamine S-enantiomer was approximately 2.5 hours (SD±0.4) compared with 5 hours (SD±1.7) for the R-enantiomer",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "mean 99.2%",
+    "ev": "Ketorolac is highly bound to human plasma protein (mean 99.2%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Contraindicated in advanced renal impairment and in volume depletion with renal-failure risk."
+ },
+ "diclofenac-systemic": {
+  "label": "preg/diclofenac-systemic.json",
+  "brand": "Diclofenac",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No PK differences were found in renal impairment; NSAID renal risks still apply.",
+    "ev": [
+     "No differences in the pharmacokinetics of diclofenac have been detected in studies of patients with renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (terminal)",
+    "ev": "The terminal half-life of unchanged diclofenac is approximately 2 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "more than 99%",
+    "ev": "Diclofenac is more than 99% bound to human serum proteins, primarily to albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "No PK difference in renal impairment, but NSAID nephrotoxicity applies — avoid in advanced disease per class warnings."
+ },
+ "cimetidine": {
+  "label": "preg/cimetidine.json",
+  "brand": "Cimetidine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Severe renal failure",
+        "dose": "Use the lowest dosing frequency compatible with response"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In severe renal failure, accumulation may occur and the lowest frequency of dosing compatible with an adequate patient response should be used"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h",
+    "ev": "The half-life of cimetidine tablets is approximately 2 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal function",
+  "summary": "Severe renal failure: accumulation possible — use the lowest dosing frequency that controls symptoms."
+ },
+ "nizatidine": {
+  "label": "preg/nizatidine.json",
+  "brand": "Nizatidine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Ulcer / GERD · US label",
+      "rows": [
+       {
+        "context": "CrCl 20–50 mL/min (active)",
+        "dose": "150 mg daily"
+       },
+       {
+        "context": "CrCl <20 mL/min (active)",
+        "dose": "150 mg every other day"
+       },
+       {
+        "context": "CrCl 20–50 mL/min (maintenance)",
+        "dose": "150 mg every other day"
+       },
+       {
+        "context": "CrCl <20 mL/min (maintenance)",
+        "dose": "150 mg every 3 days"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "20-50 mL/min 150 mg daily less than 20 mL/min 150 mg every other day Maintenance Therapy C cr Dose 20-50 mL/min 150 mg every other day less than 20 mL/min 150 mg every 3 days"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1–2 h",
+    "ev": "The elimination half-life is 1 to 2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.8–1.5 L/kg",
+    "ev": "the volume of distribution is 0.8 to 1.5 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈35%",
+    "ev": "Approximately 35% of nizatidine is bound to plasma protein",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl 20–50: 150 mg daily (maintenance every other day); <20: 150 mg every other day (maintenance every 3 days)."
+ },
+ "loperamide": {
+  "label": "preg/loperamide.json",
+  "brand": "Loperamide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Diarrhoea · US label",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "dosage adjustments in patients with renal impairment are not required"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "10.8 h (9.1–14.4)",
+    "ev": "The apparent elimination half-life of loperamide is 10.8 hours with a range of 9.1 to 14.4 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈95%",
+    "ev": "the plasma protein binding of loperamide is about 95%",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No adjustment needed in renal impairment (mainly faecal excretion)."
+ },
+ "paracetamol-iv": {
+  "label": "alt/paracetamol-iv-injection.json",
+  "brand": "Acetaminophen injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Pain / fever, IV · US label",
+      "rows": [
+       {
+        "context": "CrCl ≤30 mL/min",
+        "dose": "Longer dosing interval and reduced total daily dose may be warranted"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In cases of severe renal impairment, longer dosing intervals and a reduced total daily dose of acetaminophen may be warranted",
+     "severe renal impairment (creatinine clearance ≤ 30 mL/min)"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Severe renal impairment (CrCl ≤30): consider longer dosing intervals and a lower total daily dose."
+ },
+ "magnesium-hydroxide": {
+  "label": "preg/magnesium-hydroxide.json",
+  "brand": "Magnesium hydroxide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Ask a doctor before use if you have kidney disease (OTC label).",
+    "ev": [
+     "Ask a doctor before use if you have kidney disease a magnesium-restricted diet"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Kidney disease",
+  "summary": "OTC label: ask a doctor before use in kidney disease (magnesium accumulation)."
+ },
+ "aspirin": {
+  "label": "preg/aspirin.json",
+  "brand": "Aspirin (OTC)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Ask a doctor before use if you have kidney disease (OTC label).",
+    "ev": [
+     "you have high blood pressure, heart disease, liver cirrhosis, or kidney disease"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Kidney disease",
+  "summary": "OTC label: ask a doctor before use in kidney disease."
+ },
+ "cyclosporine": {
+  "label": "preg/cyclosporine.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈19 h (range 10–27, terminal)",
+    "ev": "a terminal half-life of approximately 19 hours (range, 10 to 27 hours)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈90% (mainly lipoproteins)",
+    "ev": "In plasma, approximately 90% is bound to proteins, primarily lipoproteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable to any great extent (label)",
+    "ev": "Cyclosporine is not dialyzable to any great extent, nor is it cleared well by charcoal hemoperfusion",
+    "status": "not_removed"
+   }
+  }
+ },
+ "diclofenac-gel": {
+  "label": "preg/diclofenac-gel.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "more than 99% (systemic diclofenac)",
+    "ev": "Diclofenac is more than 99% bound to human serum proteins, primarily to albumin",
+    "status": "sourced"
+   }
+  }
+ },
+ "fluticasone-nasal": {
+  "label": "preg/fluticasone-nasal.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈7.8 h (terminal, IV)",
+    "ev": "had a terminal elimination half-life of approximately 7.8 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "4.2 L/kg",
+    "ev": "The volume of distribution averaged 4.2 L/kg",
+    "status": "sourced"
+   }
+  }
+ },
+ "lidocaine-topical": {
+  "label": "preg/lidocaine-topical.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "1.5–2.0 h (IV lidocaine)",
+    "ev": "the elimination half-life of this agent is typically 1.5 to 2.0 hours",
+    "status": "sourced"
+   }
+  }
+ },
+ "mycophenolate-mofetil": {
+  "label": "preg/mycophenolate-mofetil.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "97% (MPA)",
+    "ev": "At clinically relevant concentrations, MPA is 97% bound to plasma albumin",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "MPA and MPAG usually not removed by HD (label)",
+    "ev": "At clinically encountered concentrations, MPA and MPAG are usually not removed by hemodialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "tacrolimus": {
+  "label": "preg/tacrolimus.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "43.5 ± 11.6 h (IV, by concentration)",
+    "ev": "whereas it was 43.5 ± 11.6 hours based on tacrolimus concentrations",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable to any significant extent (label)",
+    "ev": "it is anticipated that tacrolimus is not dialyzable to any significant extent",
+    "status": "not_removed"
+   }
+  }
+ }
+}

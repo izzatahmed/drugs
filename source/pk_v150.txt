@@ -1,0 +1,165 @@
+# Reviewed PK values for v0.15.0: id|field|status|value|verbatim label evidence (status '-' = sourced)
+abatacept|halfLife|-|14.3 days (terminal)|terminal half-life (14.3 days)
+abatacept|volumeOfDistribution|-|0.11 L/kg|volume of distribution (0.11 L/kg)
+abiraterone|halfLife|-|12 ± 5 h (terminal)|the mean terminal half-life of abiraterone in plasma (mean ± SD) is 12 ± 5 hours
+abiraterone|volumeOfDistribution|-|19,669 ± 13,358 L (apparent)|The apparent steady-state volume of distribution (mean ± SD) is 19,669 ± 13,358 L
+abiraterone|proteinBinding|-|>99%|Abiraterone is highly bound (>99%) to the human plasma proteins
+acalabrutinib|proteinBinding|-|97.5% (ACP-5862 98.6%)|Reversible binding to human plasma protein was 97.5% for acalabrutinib and 98.6% for ACP-5862
+adalimumab|halfLife|-|≈2 weeks (10–20 days)|The mean terminal half-life was approximately 2 weeks, ranging from 10 to 20 days across studies
+anakinra|ihd|negligible|<2.5% removed by HD or CAPD (label)|Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis
+anakinra|pd|negligible|<2.5% removed by HD or CAPD (label)|Less than 2.5% of the administered dose of KINERET was removed by hemodialysis or continuous ambulatory peritoneal dialysis
+anastrozole|halfLife|-|50 h|The mean elimination half-life of anastrozole is 50 hours
+anastrozole|proteinBinding|-|40%|Anastrozole is 40% bound to plasma proteins in the therapeutic range
+apremilast|halfLife|-|≈6–9 h (terminal)|with a terminal elimination half-life of approximately 6-9 hours
+apremilast|volumeOfDistribution|-|87 L (apparent)|Mean apparent volume of distribution (Vd) is 87 L
+apremilast|proteinBinding|-|≈68%|Human plasma protein binding of apremilast is approximately 68%
+avacopan|halfLife|-|97.6 h (avacopan); 55.6 h (M1)|the mean elimination half-lives of avacopan and M1 are 97.6 hours and 55.6 hours, respectively
+avacopan|volumeOfDistribution|-|345 L (apparent)|The apparent volume of distribution of avacopan is estimated to be 345 L
+avacopan|proteinBinding|-|greater than 99.9%|of avacopan and metabolite M1 is greater than 99.9%
+azathioprine|halfLife|-|5 h (radioactivity)|decays with a half-life of 5 hours
+azathioprine|proteinBinding|-|30%|Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable
+azathioprine|ihd|limited|Partially dialyzable (label)|Azathioprine and mercaptopurine are moderately bound to serum proteins (30%) and are partially dialyzable
+bevacizumab|halfLife|-|20 days (11–50)|The estimated half-life is 20 days (11 to 50 days)
+bleomycin|halfLife|-|2 h (normal renal function)|In patients with normal renal function, plasma concentrations of bleomycin decline biexponentially with a mean terminal half-life of 2 hours following intravenous bolus administration
+bleomycin|volumeOfDistribution|-|17.5 L/m²|a mean volume of distribution of 17.5 L/m 2
+bortezomib|halfLife|-|40–193 h (multiple dosing)|The mean elimination half-life of bortezomib upon multiple dosing ranged from 40 to 193 hours
+bortezomib|proteinBinding|-|83%|The binding of bortezomib to human plasma proteins averaged 83%
+capecitabine|halfLife|-|≈0.75 h (capecitabine and fluorouracil)|The elimination half-lives of capecitabine and fluorouracil were approximately 0.75 hour
+capecitabine|proteinBinding|-|less than 60%|Plasma protein binding of capecitabine and its metabolites is less than 60%
+carboplatin|halfLife|-|≥5 days (protein-bound platinum)|is slowly eliminated with a minimum half-life of 5 days
+carboplatin|volumeOfDistribution|-|16 L (apparent)|The total body clearance, apparent volume of distribution and mean residence time for carboplatin are 4.4 L/h, 16 L and 3.5 hours, respectively
+carfilzomib|halfLife|-|≤1 h (day 1, ≥15 mg/m²)|Carfilzomib has a half-life of ≤ 1 hour on Day 1 of Cycle 1 following intravenous doses ≥ 15 mg/m 2
+celecoxib|halfLife|-|≈11 h|with a half-life of approximately 11 hours
+celecoxib|volumeOfDistribution|-|≈400 L (Vss/F)|The apparent volume of distribution at steady state (V ss /F) is approximately 400 L
+celecoxib|proteinBinding|-|~97%|celecoxib is highly protein bound (~97%) within the clinical dose range
+cetuximab|halfLife|-|≈112 h (63–230)|The mean half-life of cetuximab was approximately 112 hours (63 to 230 hours)
+cyclosporine|halfLife|-|≈19 h (range 10–27, terminal)|a terminal half-life of approximately 19 hours (range, 10 to 27 hours)
+cyclosporine|proteinBinding|-|≈90% (mainly lipoproteins)|In plasma, approximately 90% is bound to proteins, primarily lipoproteins
+cyclosporine|ihd|not_removed|Not dialyzable to any great extent (label)|Cyclosporine is not dialyzable to any great extent, nor is it cleared well by charcoal hemoperfusion
+cimetidine|halfLife|-|≈2 h|The half-life of cimetidine tablets is approximately 2 hours
+cisplatin|halfLife|-|≥5 days (albumin-bound platinum)|are slowly eliminated with a minimum half-life of 5 days or more
+cisplatin|proteinBinding|-|90% of plasma platinum|90% of the plasma platinum is protein bound
+cyclophosphamide|halfLife|-|3–12 h|The elimination half-life (t½) of cyclophosphamide ranges from 3 to 12 hours
+cyclophosphamide|volumeOfDistribution|-|30–50 L|The volume of distribution of cyclophosphamide is 30 to 50 L
+cyclophosphamide|proteinBinding|-|≈20%|Cyclophosphamide is approximately 20% protein bound, with no dose dependent changes
+cyclophosphamide|ihd|removed|Dialyzable (label)|Cyclophosphamide is dialyzable
+dasatinib|halfLife|-|2–5 h|the mean half-life was 2 hours to 5 hours
+dasatinib|volumeOfDistribution|-|2505 L (apparent)|The apparent volume of distribution is 2505 L
+dasatinib|proteinBinding|-|≈96% (active metabolite 93%)|Binding of dasatinib to human plasma proteins in vitro was approximately 96% and of its active metabolite was 93%
+diclofenac-systemic|halfLife|-|≈2 h (terminal)|The terminal half-life of unchanged diclofenac is approximately 2 hours
+diclofenac-systemic|proteinBinding|-|more than 99%|Diclofenac is more than 99% bound to human serum proteins, primarily to albumin
+diclofenac-gel|proteinBinding|-|more than 99% (systemic diclofenac)|Diclofenac is more than 99% bound to human serum proteins, primarily to albumin
+docetaxel|halfLife|-|116 h (terminal)|mean terminal elimination half-life was 116 hours
+docetaxel|volumeOfDistribution|-|113 L (steady state)|Mean steady state volume of distribution was 113 L
+docetaxel|proteinBinding|-|≈94%|Docetaxel is approximately 94% protein bound in vitro
+doxorubicin|halfLife|-|20–48 h (terminal)|The terminal half-life is 20 hours to 48 hours
+doxorubicin|volumeOfDistribution|-|809–1214 L/m² (steady state)|Steady-state distribution volume ranges from 809 L/m 2 to 1214 L/m 2
+doxorubicin|proteinBinding|-|75%|to plasma proteins is 75% and is independent of plasma concentration
+eculizumab|halfLife|-|141–882 h|The half life of eculizumab ranged between 141 h and 882 h
+eculizumab|volumeOfDistribution|-|5–8 L (70 kg)|The eculizumab volume of distribution for a typical 70 kg patient was 5 L to 8 L
+efgartigimod|halfLife|-|80–120 h (3–5 days)|The terminal half-life is 80 to 120 hours (3 to 5 days)
+efgartigimod|volumeOfDistribution|-|15–20 L|The volume of distribution is 15 to 20L
+enzalutamide|halfLife|-|5.8 days (2.8–10.2)|The mean terminal half-life (t 1/2 ) for enzalutamide after a single oral dose is 5.8 days (2.8 to 10.2 days)
+enzalutamide|volumeOfDistribution|-|110 L|The mean (%CV) volume of distribution after a single oral dose is 110 L
+enzalutamide|proteinBinding|-|97–98%|Enzalutamide is 97% to 98% bound to plasma proteins, primarily albumin
+etoposide|halfLife|-|4–11 h (terminal)|The terminal elimination half-life of etoposide ranges from 4 to 11 hours
+etoposide|volumeOfDistribution|-|18–29 L (steady state)|the mean volume of distribution of etoposide at steady state was 18 to 29 liters
+etoposide|proteinBinding|-|97% (in vitro)|In vitro, etoposide is 97% bound to human plasma proteins, primarily albumin
+everolimus|halfLife|-|≈30 h|The mean elimination half-life of everolimus is approximately 30 hours
+everolimus|proteinBinding|-|≈74%|Plasma protein binding is approximately 74% both in healthy subjects and in patients with moderate hepatic impairment
+fluorouracil|halfLife|-|8–20 min (bolus, dose-dependent)|the elimination half-life increased with dose from 8 to 20 minutes
+fluticasone-nasal|halfLife|-|≈7.8 h (terminal, IV)|had a terminal elimination half-life of approximately 7.8 hours
+fluticasone-nasal|volumeOfDistribution|-|4.2 L/kg|The volume of distribution averaged 4.2 L/kg
+gemcitabine|halfLife|-|42–94 min (short infusions)|Gemcitabine half-life for short infusions ranged from 42 to 94 minutes
+gemcitabine|volumeOfDistribution|-|50 L/m² (infusions <70 min)|Volume of distribution of gemcitabine was 50 L/m 2 following infusions lasting <70 minutes
+ibrutinib|halfLife|-|4–6 h|The half-life of ibrutinib is 4 hours to 6 hours
+ibrutinib|volumeOfDistribution|-|683 L|The volume of distribution (V d ) was 683 L
+ibrutinib|proteinBinding|-|97.3% (in vitro)|Reversible binding of ibrutinib to human plasma protein in vitro was 97.3%
+ibrutinib|ihd|unknown|No data on dialysis (label)|No data is available in patients with severe renal impairment (CLcr < 25 mL/min) or in patients on dialysis
+ibuprofen|halfLife|-|1.8–2.0 h|The serum half-life is 1.8 to 2.0 hours
+imatinib|halfLife|-|≈18 h (active metabolite 40 h)|the elimination half-lives of imatinib and its major active metabolite, the N-demethyl derivative (CGP74588), are approximately 18 and 40 hours, respectively
+imatinib|proteinBinding|-|≈95%|binding to plasma proteins in in vitro experiments is approximately 95%
+infliximab|halfLife|-|7.7–9.5 days (median terminal)|the median terminal half-life of infliximab is 7.7 to 9.5 days
+iptacopan|halfLife|-|≈25 h (terminal, steady state)|The terminal half-life (t 1/2 ) of iptacopan at steady state is approximately 25 hou
+iptacopan|volumeOfDistribution|-|≈288 L (steady state)|the apparent volume of distribution at steady state was approximately 288 L
+iptacopan|proteinBinding|-|75–93%|Iptacopan was 75% to 93% protein bound in vitro
+ketorolac|halfLife|-|≈2.5 h (S-enantiomer); 5 h (R)|The half-life of the ketorolac tromethamine S-enantiomer was approximately 2.5 hours (SD±0.4) compared with 5 hours (SD±1.7) for the R-enantiomer
+ketorolac|proteinBinding|-|mean 99.2%|Ketorolac is highly bound to human plasma protein (mean 99.2%)
+leflunomide|halfLife|-|18–19 days (teriflunomide)|Teriflunomide, the active metabolite of leflunomide, has a median half-life of 18 to 19 days in healthy volunteers
+leflunomide|volumeOfDistribution|-|11 L (IV)|The volume of distribution is 11 L after a single intravenous (IV) administration
+leflunomide|proteinBinding|-|>99% (teriflunomide)|Teriflunomide is extensively bound to plasma protein (>99%)
+leflunomide|ihd|not_removed|Teriflunomide not dialyzable (label)|Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable
+leflunomide|pd|not_removed|Teriflunomide not dialyzable (label)|Studies with both hemodialysis and CAPD (chronic ambulatory peritoneal dialysis) indicate that teriflunomide is not dialyzable
+lenalidomide|halfLife|-|3 h (healthy); 3–5 h (patients)|The mean half-life of lenalidomide is 3 hours in healthy subjects and 3 to 5 hours in patients with MM, MDS or MCL
+lenalidomide|proteinBinding|-|≈30%|In vitro [ 14 C]-lenalidomide binding to plasma proteins is approximately 30%
+letrozole|halfLife|-|≈2 days|Letrozole's terminal elimination half-life is about 2 days
+letrozole|volumeOfDistribution|-|≈1.9 L/kg|has a large volume of distribution (approximately 1.9 L/kg)
+lidocaine-topical|halfLife|-|1.5–2.0 h (IV lidocaine)|the elimination half-life of this agent is typically 1.5 to 2.0 hours
+loperamide|halfLife|-|10.8 h (9.1–14.4)|The apparent elimination half-life of loperamide is 10.8 hours with a range of 9.1 to 14.4 hours
+loperamide|proteinBinding|-|≈95%|the plasma protein binding of loperamide is about 95%
+meloxicam|halfLife|-|19.5 h (women) – 23.4 h (men)|the mean elimination half-life was 19.5 hours for the female group as compared to 23.4 hours for the male group
+meloxicam|volumeOfDistribution|-|≈10 L (Vss)|The mean volume of distribution (Vss) of meloxicam is approximately 10 L
+meloxicam|proteinBinding|-|~99.4%|Meloxicam is ~99.4% bound to human plasma proteins
+meloxicam|ihd|not_removed|Not dialyzable (label)|Meloxicam is not dialyzable
+melphalan|halfLife|-|≈75 min (terminal, IV)|distribution phase and terminal elimination phase half-lives of approximately 10 and 75 minutes, respectively
+melphalan|volumeOfDistribution|-|0.5 L/kg (steady state)|The steady-state volume of distribution of melphalan is 0.5 L/kg
+melphalan|proteinBinding|-|53–92% (variable)|The average melphalan binding to plasma proteins is highly variable (range: 53% to 92%)
+melphalan|ihd|not_removed|Not removed to any significant degree (label)|This drug is not removed from plasma to any significant degree by hemodialysis or hemoperfusion
+methotrexate|halfLife|-|8–15 h (high-dose IV, terminal)|Following intravenous administration of high-dose methotrexate, the terminal half-life is 8 hours to 15 hours
+methotrexate|proteinBinding|-|≈50%|Methotrexate in serum is approximately 50% protein bound
+methotrexate|ihd|not_removed|HD not shown to improve elimination (label)|Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination
+methotrexate|pd|not_removed|PD not shown to improve elimination (label)|Neither hemodialysis nor peritoneal dialysis has been shown to improve methotrexate elimination
+mycophenolate-mofetil|proteinBinding|-|97% (MPA)|At clinically relevant concentrations, MPA is 97% bound to plasma albumin
+mycophenolate-mofetil|ihd|not_removed|MPA and MPAG usually not removed by HD (label)|At clinically encountered concentrations, MPA and MPAG are usually not removed by hemodialysis
+mycophenolate-sodium|halfLife|-|8–16 h (MPA); 13–17 h (MPAG)|The mean elimination half-life of MPA and MPAG ranged between 8 and 16 hours, and 13 and 17 hours, respectively
+mycophenolate-sodium|proteinBinding|-|greater than 98% (MPA)|MPA is highly protein bound (greater than 98% bound to albumin)
+naproxen|halfLife|-|12–17 h|The plasma half-life of the naproxen anion in humans ranges from 12 to 17 hours
+naproxen|volumeOfDistribution|-|0.16 L/kg|Naproxen has a volume of distribution of 0.16 L/kg
+naproxen|proteinBinding|-|greater than 99%|At therapeutic levels naproxen is greater than 99% albumin-bound
+nilotinib|halfLife|-|≈17 h (apparent)|The mean (CV%) apparent elimination half-life is estimated to be approximately 17 hours
+nilotinib|proteinBinding|-|≈98%|Serum protein binding is approximately 98%
+nivolumab|halfLife|-|25 days|The geometric mean elimination half-life (t 1/2 ) is 25 days
+nivolumab|volumeOfDistribution|-|6.8 L (Vss)|The geometric mean volume of distribution at steady state (Vss) and coefficient of variation (CV%) is 6.8 L
+nizatidine|halfLife|-|1–2 h|The elimination half-life is 1 to 2 hours
+nizatidine|volumeOfDistribution|-|0.8–1.5 L/kg|the volume of distribution is 0.8 to 1.5 L/kg
+nizatidine|proteinBinding|-|≈35%|Approximately 35% of nizatidine is bound to plasma protein
+olaparib|halfLife|-|14.9 ± 8.2 h (terminal)|The mean (± standard deviation) terminal plasma half-life of olaparib is 14.9 ± 8.2 hours
+olaparib|volumeOfDistribution|-|158 ± 136 L (apparent)|The mean (± standard deviation) apparent volume of distribution of olaparib is 158 ± 136 L
+olaparib|proteinBinding|-|≈82% (in vitro)|The protein binding of olaparib is approximately 82% in vitro
+oxaliplatin|halfLife|-|391 h (terminal, ultrafiltrable platinum)|a long terminal elimination phase (t 1/2 γ ; 391 hour)
+oxaliplatin|volumeOfDistribution|-|440 L (ultrafiltrable platinum)|volume of distribution of 440
+oxaliplatin|proteinBinding|-|greater than 90% (irreversible)|plasma protein binding of platinum is irreversible and is greater than 90%
+paclitaxel|volumeOfDistribution|-|≈1,741 L (total)|The total volume of distribution is approximately 1,741 L
+paclitaxel|proteinBinding|-|94%|is highly bound to plasma proteins (94%)
+palbociclib|volumeOfDistribution|-|2583 L (Vz/F)|The geometric mean apparent volume of distribution (V z /F) was 2583 L
+palbociclib|proteinBinding|-|≈85% (in vitro)|Binding of palbociclib to human plasma proteins in vitro was approximately 85%
+palbociclib|ihd|unknown|Not studied on hemodialysis (label)|The pharmacokinetics of palbociclib have not been studied in patients requiring hemodialysis
+pegcetacoplan|halfLife|-|8.6 days (effective, PNH)|median effective half-life of elimination (t 1/2 ) is 8.6 days in patients with PNH
+pegcetacoplan|volumeOfDistribution|-|≈3.98 L (PNH)|The mean (CV%) volume of distribution of pegcetacoplan is approximately 3.98 L
+pembrolizumab|halfLife|-|22 days (terminal)|The terminal half-life (t 1/2 ) is 22 days
+pembrolizumab|volumeOfDistribution|-|6.0 L (steady state)|The geometric mean value (CV%) for volume of distribution at steady state is 6.0 L
+pemetrexed|halfLife|-|3.5 h (CrCl 90 mL/min)|the elimination half-life of pemetrexed is 3.5 hours in patients with normal renal function (creatinine clearance of 90 mL/min)
+pemetrexed|volumeOfDistribution|-|16.1 L (steady state)|Pemetrexed has a steady-state volume of distribution of 16.1 L
+pemetrexed|proteinBinding|-|81% (in vitro)|In vitro studies indicated that pemetrexed is 81% bound to plasma proteins
+pemetrexed|ihd|unknown|Not known (label)|It is not known whether pemetrexed is dialyzable
+pomalidomide|halfLife|-|9.5 h (healthy); 7.5 h (patients)|Pomalidomide is eliminated with a median plasma half-life of 9.5 hours in healthy subjects and 7.5 hours in pati
+pomalidomide|volumeOfDistribution|-|62–138 L (Vd/F)|Pomalidomide has a mean apparent volume of distribution (Vd/F) between 62 and 138 L at steady state
+pomalidomide|proteinBinding|-|12–44%|Human plasma protein binding of pomalidomide ranges from 12% to 44% and is not concentration dependent
+ribociclib|halfLife|-|29.7–54.7 h (apparent terminal)|The mean apparent plasma terminal half-life of ribociclib ranged from 29.7 to 54.7 hours
+ribociclib|volumeOfDistribution|-|1090 L (Vss/F)|The apparent volume of distribution at steady-state (Vss/F) was 1090 L
+rituximab|halfLife|-|22 days (median terminal, NHL)|the estimated median terminal elimination half-life was 22 days
+rituximab|volumeOfDistribution|-|3.1 L (RA)|volume of distribution was 3.1 L
+sirolimus|halfLife|-|62 ± 16 h (renal transplant)|The mean ± SD terminal elimination half-life (t ½ ) of sirolimus after multiple dosing in stable renal transplant patients was estimated to be about 62 ± 16 hours
+sirolimus|volumeOfDistribution|-|12 ± 8 L/kg (Vss/F)|The mean volume of distribution (Vss/F) of sirolimus is 12 ± 8 L/kg
+sirolimus|proteinBinding|-|≈92%|Sirolimus is extensively bound (approximately 92%) to human plasma proteins
+sirolimus|ihd|not_removed|Not dialyzable to any significant extent (label)|it is anticipated that sirolimus is not dialyzable to any significant extent
+tacrolimus|halfLife|-|43.5 ± 11.6 h (IV, by concentration)|whereas it was 43.5 ± 11.6 hours based on tacrolimus concentrations
+tacrolimus|ihd|not_removed|Not dialyzable to any significant extent (label)|it is anticipated that tacrolimus is not dialyzable to any significant extent
+tamoxifen|halfLife|-|≈5–7 days (terminal)|with a terminal elimination half-life of about 5 to 7 days
+tocilizumab|halfLife|-|up to 11 days (4 mg/kg) – 13 days (8 mg/kg), IV|the concentration-dependent apparent t 1/2 is up to 11 days for 4 mg per kg and up to 13 days for 8 mg per kg every 4 weeks in patients with RA at steady-state
+tofacitinib|volumeOfDistribution|-|87 L (IV)|After intravenous administration, the volume of distribution was 87 L
+tofacitinib|proteinBinding|-|≈40%|The protein binding of tofacitinib is approximately 40%
+upadacitinib|halfLife|-|8–14 h (terminal)|Upadacitinib mean terminal elimination half-life ranged from 8 to 14 hours
+upadacitinib|proteinBinding|-|52%|Upadacitinib is 52% bound to plasma protei
+venetoclax|halfLife|-|≈26 h (terminal)|The terminal elimination half-life of venetoclax was approximately 26 hours
+venetoclax|volumeOfDistribution|-|256–321 L (Vdss/F)|The apparent volume of distribution (Vd ss /F) of venetoclax ranged from 256-321 L in patients
