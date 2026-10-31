@@ -1,0 +1,119 @@
+# Changelog
+
+## v0.8.0 — 29 October 2026
+
+- Added an adult eGFR calculator accessible beside quick search and in the sidebar. Race-free CKD-EPI 2021 creatinine is the default; IDMS MDRD is labelled legacy with its historical race multiplier omitted.
+- Added mg/dL and µmol/L inputs with automatic value conversion when the unit changes; estimates update as inputs change. Values are not capped at 60 or 90.
+- Optional height/weight produces Mosteller BSA and non-indexed eGFR in mL/min, separately labelled from mL/min/1.73 m². This is not a CrCl calculator and selects no medicine dose.
+- Invalid/incomplete entries remove any previous estimate. No result is produced for children, AKI/changing creatinine, dialysis or pregnancy. Calculator values clear on close and are not stored, exported or transmitted.
+- Verified CKD-EPI arithmetic against NKF Table S1 reference cases; added legacy MDRD and BSA arithmetic, unit-equivalence and validation checks.
+- All 668 drug records, 241 existing drug/source records, PK, doses, conflicts and review states are unchanged from clinical-data version 0.7.0. Software version 0.8.0 does not imply clinical approval.
+
+# Changelog
+
+## v0.7.0 — 29 October 2026
+
+- Reviewed selected sections of five supplied references; original PDFs are not redistributed.
+- Promoted 20 existing catalog entries to selected adult renal profiles: acyclovir, amphotericin-b-deoxycholate, aztreonam, cefadroxil, cefdinir, cefoxitin, cefpodoxime, ceftaroline, cefuroxime, clarithromycin, ethambutol, famciclovir, flucytosine, fosfomycin, ganciclovir, liposomal-amphotericin-b, phenoxymethylpenicillin, tigecycline, valganciclovir, voriconazole.
+- Added 26 historical fifth-edition handbook PK/removal summaries with individual PDF page locators and visible 2018 (©2019) labels. Modern high-flux removal and continuous therapies are not inferred from historical conventional-HD categories.
+- Added 16 prescription-specific PIRRT summaries and four CVVHD profiles. Retained session/flow assumptions, indication, infusion and dose timing. Existing CKD/IHD/PD/CRRT tables on previously curated renal entries are unchanged.
+- Retained six source disagreements/ambiguities, including oral cefuroxime label intervals, clarithromycin PD, flucytosine PD timing, valganciclovir formulation/analyte issues, levofloxacin PIRRT and piperacillin/tazobactam PD removal.
+- 668 indexed entries: 133 renal profiles, 28 shared safety notes and 507 renal-dose-pending catalog records. 53 PK profiles; 40 contain all four core items.
+- These are selected source summaries. Independent clinical approval and BNF monograph reconciliation remain pending.
+
+# Changelog
+
+## v0.6.0 — 29 October 2026
+
+- Corrected the reference clarification: BNF means British National Formulary. No separate PNF reference remains requested; BNF monograph reconciliation is still pending access.
+- Expanded 12 existing catalog entries: bisoprolol, candesartan, clonidine, enalapril, hydralazine, indapamide, irbesartan, losartan, methyldopa, ramipril, telmisartan and valsartan. They are source-based drafts, not independently approved monographs.
+- 113 renal profiles, 28 shared safety notes and 527 renal-dose-pending catalog records; total remains 668. PK coverage remains 27 profiles, with 15 having four core PK items.
+- Added explicit HD advice where supplied by the cited label. No new PD, CRRT or SLED regimen was inferred. Clonidine, hydralazine and methyldopa retain nonnumeric renal guidance where the label gives no fixed regimen.
+- Kept indication/route differences, source cutoff gaps and initial-versus-maximum daily amounts visible. Existing drug/PK data outside the 12 promoted entries are unchanged.
+- Added a role-labelled directory of BNF, KDIGO, ASN, ERA, NKF, UKKA, UCSF and product-information resources. Portal discovery and patient education are distinguished from drug-specific prescribing evidence.
+
+# Changelog
+
+## v0.5.0 — 29 October 2026
+
+Software and completion-workflow release; clinical drug content and source-check dates are unchanged from v0.4.0.
+
+- Bounded mobile result list, immediate open-result control, return-to-search button and keyboard dismissal.
+- Cached name/alias search keys, direct drug lookup and explicit spelling suggestions that require selection.
+- Modality filter for existing sourced summaries and an in-app completion dashboard.
+- Scoped offline cache, visible cached release, explicit refresh/update controls; optional installation manifest.
+- Drug-level completion queue, release plan, link sharing and print layout.
+
+# RenalRounds release 0.4.0
+
+29 October 2026
+
+- Expanded captopril from a catalog placeholder to a sourced renal profile, keeping UK daily totals, source-native units, formulation and RRT limits explicit. Expanded amlodipine with an adult hypertension starting dose and maximum.
+- Added PK schema fields to every record, with sourced summaries for 27 BP/cardiovascular medicines. Fifteen have reference half-life, Vd, binding and an IHD removal statement; other fields have explicit gaps.
+- Separated reference/ESRF half-life, parent/metabolite, Vss/apparent distribution volume, plasma/erythrocyte binding and IHD/PD/CRRT/SLED removal. Preserved source-specific evidence and differences.
+- Added PK available filtering, updated-record browsing, quick searches for captopril/amlodipine and recovery of exact name matches hidden by active filters.
+- 668 indexed records remain: 101 renal profiles, 28 shared safety notes, 539 dose-pending catalog entries. Only captopril/amlodipine modality content changed since v0.3; all original 70 profiles remain unchanged.
+- No independent clinical sign-off, automatic prescribing or complete PK coverage is claimed. No GitHub account upload was performed.
+
+---
+
+# RenalRounds release 0.3.0
+
+29 October 2026
+
+668 indexed drugs/formulations: 100 sourced renal profiles, 28 shared safety-note entries and 540 catalog-only entries. All clinical approval remains pending. This is an expanding inventory, not a complete prescribing formulary.
+
+- Added 30 renal profiles covering selected antimicrobials, antihistamines, GI, cardiovascular, lipid, transplant and calcimimetic medicines. Some give adjustment or monitoring guidance without numeric dosing.
+- Added shared kidney-safety guidance for common OTC products and selected systemic NSAIDs. No renal or RRT dose is inferred from these class notes.
+- Added a broad provisional inventory across hospital and ambulatory classes, including oral, parenteral, topical, inhaled and other routes. Catalog entries have empty clinical sources, a null clinical source-check date and no dose tables.
+- Added combined route, content-type, category and OTC filters; exact generic/alias matches rank first. Results display their content type.
+- Bundled all assets and data into a self-contained index.html, including local JSON/editorial-document exports. Added a root-level GitHub Pages package and setup instructions.
+- Preserved all previous 70 profiles’ modality records, source distinctions, restrictions and draft status.
+- No PNF comparison is claimed because the title/edition is unidentified. BNF monograph reconciliation remains pending; only linked PDR monographs are represented as consulted.
+
+Software checks do not constitute clinical validation. The catalog is not a claim of worldwide product availability or all-formulation completeness.
+
+---
+
+# RenalRounds release 0.2.0
+
+29 October 2026
+
+70 adult monographs: the original 30 plus 40 additions. All remain draft, with independent nephrology and renal-pharmacy approval pending.
+
+## What was added
+
+- Diabetes: dapagliflozin, canagliflozin, ertugliflozin, semaglutide (Ozempic injection), tirzepatide, dulaglutide, liraglutide (Victoza), exenatide (immediate release), saxagliptin and alogliptin.
+- Cardiovascular: sacubitril/valsartan, lisinopril, atenolol, spironolactone and eplerenone.
+- Anticoagulation: rivaroxaban, dabigatran and edoxaban, with indication and jurisdiction restrictions.
+- Neurology/pain: duloxetine, immediate-release tramadol and immediate-release levetiracetam.
+- Gout: colchicine and febuxostat.
+- Antimicrobials: nirmatrelvir/ritonavir, cefiderocol and ceftazidime/avibactam.
+- Specialist kidney therapies: finerenone, sparsentan, atrasentan, voclosporin, difelikefalin and IgAN-targeted-release budesonide.
+- Dialysis anaemia: vadadustat and historical US daprodustat.
+- Electrolytes/phosphate: tenapanor (Xphozah), patiromer, sodium zirconium cyclosilicate, sevelamer carbonate, sucroferric oxyhydroxide and ferric citrate.
+
+These are additions to this database, not a list of 40 new regulatory approvals. The drugs are not all authorised or marketed in the same jurisdictions.
+
+## Reference and clinical distinctions
+
+- BNF 92 (September 2026) was confirmed from the publisher's listing. Its monographs were inaccessible, so **no drug is claimed to have completed BNF comparison**. UK SmPC content is identified as UK SmPC content.
+- PDR is treated as a continuously updated digital reference. The source list identifies exactly which monographs were consulted. Finerenone's October 2026 PDR bulletin was checked against its September 2026 US label; this is recorded separately from a PDR monograph comparison.
+- Paxlovid's checked US information contains a severe-renal-impairment/HD 5-day course. All active-ingredient amounts and dialysis timing are explicit; major interaction screening remains necessary.
+- Finerenone starting and target doses are separated, including distinct US CKD and HF targets. Full indication-specific potassium/eGFR adjustment tables remain linked.
+- Dapagliflozin UK product and US PDR initiation rules remain separate. Dabigatran's US severe-CKD AF advice is not transferred to UK prescribing.
+- Cefiderocol has its own label-based CRRT effluent-flow table, separate from UCSF CVVHD assumptions.
+- GSK's US Jesduvroq discontinuation is prominently flagged. A surviving label is not evidence of current commercial availability.
+- The original 30 dosing tables were retained. This expansion does not imply a full re-review of those monographs against BNF/PDR.
+
+## Application changes
+
+- “New in v0.2” filter and per-entry markers.
+- Dynamic counts, exported version and modality coverage.
+- Reference-comparison record for every monograph.
+- Explicit “not indicated in curated label” status, distinct from contraindication and missing data.
+- Source-specific dialysis assumptions rather than applying an antimicrobial-category assumption to all drugs.
+
+## Still pending
+
+Full BNF reconciliation; complete formulation/indication coverage; most PD protocols; all SLED protocols; many prescription-specific CRRT protocols; complete interaction and safety monographs; independent clinical sign-off. This release is not a standalone bedside prescribing authority.
