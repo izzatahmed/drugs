@@ -78,3 +78,5 @@ html[data-theme="dark"] .calc-measure label:has(input:checked){color:#101b20}
 .preg-block{margin:10px 0}
 .preg-block blockquote{margin:6px 0 0;padding:8px 12px;border-left:3px solid var(--teal);background:var(--surface-raised,#f4f7f5);font-size:var(--support,14px);line-height:1.55}
 .preg-empty,.preg-note{color:var(--muted);font-size:13px}
+.reference-checks{margin:6px 0 4px;padding-left:18px;font-size:13px;line-height:1.6}
+.pill.reviewed{background:#e3f4ea;color:#1d5c3a;border-color:#a9d9bc}html[data-theme="dark"] .pill.reviewed{background:#1f3b2c;color:#bfe8cf}
