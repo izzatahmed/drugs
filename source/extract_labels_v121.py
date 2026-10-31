@@ -59,5 +59,11 @@ for i, m in meta120.items():
     out[i] = e
 for i in ['vancomycin', 'gentamicin', 'amikacin', 'tobramycin', 'vonoprazan']:
     e = us(i); e['sourceId'] = f'us121-{i}'; out[i] = e
+for e in out.values():
+    t = e['sourceText']; wins = []
+    for k in ('pregnancy', 'lactation'):
+        if e.get(k):
+            pos = t.find(e[k].rstrip(' …').rstrip('.')[:120]); wins.append(t[max(0, pos - 150):pos + len(e[k]) + 150])
+    e['sourceText'] = ' … '.join(wins)
 (R/'label_extract_v121.json').write_text(json.dumps(out, ensure_ascii=False, indent=1))
 print(len(out), 'labels;', sum(bool(e['pregnancy']) for e in out.values()), 'pregnancy;', sum(bool(e['lactation']) for e in out.values()), 'lactation;', sum(bool(e['letter']) for e in out.values()), 'with FDA letter')

@@ -1,0 +1,3144 @@
+{
+ "acetazolamide": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "acetylcysteine": {
+  "renalHalfLife": [
+   {
+    "value": [
+     "5.6 hours"
+    ],
+    "sentence": "Renal Impairment: Hemodialysis may remove some of total acetylcysteine. 12.3 Pharmacokinetics After a single intravenous dose of acetylcysteine, the plasma concentration of total acetylcysteine declined in a poly-exponential decay manner with a mean terminal half-life (T 1/2 ) of 5.6 hours"
+   }
+  ],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.11 liter",
+     "0.47 liter"
+    ],
+    "sentence": "The mean clearance (CL) for acetylcysteine was 0.11 liter/hr/kg and renal CL constituted about 30% of the total CL. Distribution : The steady-state volume of distribution (Vd ss ) following administration of an intravenous dose of acetylcysteine was 0.47 liter/kg"
+   },
+   {
+    "value": [
+     "0.11 liter",
+     "0.47 liter"
+    ],
+    "sentence": "The mean clearance (CL) for acetylcysteine was 0.11 liter/hr/kg and renal CL constituted about 30% of the total CL. Distribution : The steady-state volume of distribution (Vd ss ) following administration of an intravenous dose of acetylcysteine was 0.47 liter/kg"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Renal Impairment: Hemodialysis may remove some of total acetylcysteine. 12.3 Pharmacokinetics After a single intravenous dose of acetylcysteine, the plasma concentration of total acetylcysteine declined in a poly-exponential decay manner with a mean terminal half-life (T 1/2 ) of 5.6 hours"
+   },
+   {
+    "value": null,
+    "sentence": "Renal Impairment: Hemodialysis may remove some of total acetylcysteine. 10 OVERDOSAGE Fatal and life-threatening adverse events have been reported following acetylcysteine overdosage, including anaphylaxis, cerebral edema, and hemolytic-uremic syndrome (HUS)"
+   },
+   {
+    "value": null,
+    "sentence": "Removal of acetylcysteine via hemodialysis has been reported in the literature outside of the context of acetylcysteine overdosage"
+   },
+   {
+    "value": null,
+    "sentence": "Studies of hemodialysis in acetaminophen overdose report significant extracorporeal removal of acetylcysteine during hemodialysis"
+   }
+  ],
+  "dial-pd": []
+ },
+ "acyclovir": {
+  "halfLife": [
+   {
+    "value": [
+     "2.5 to 3.3 hr"
+    ],
+    "sentence": "Parameter Range Plasma protein binding 9% to 33% Plasma elimination half-life 2.5 to 3.3 hr Average oral bioavailability 10% to 20%* In one multiple-dose, crossover study in healthy subjects (n = 23), it was shown that increases in plasma acyclovir concentrations were less than dose proportional with increasing dose, as shown in Table 2"
+   },
+   {
+    "value": [
+     "2.6 hours",
+     "1.59 to 3.74 hours"
+    ],
+    "sentence": "Mean half-life after oral doses of 300 mg/m 2 and 600 mg/m 2 in pediatric patients aged 7 months to 7 years was 2.6 hours (range 1.59 to 3.74 hours)"
+   },
+   {
+    "value": [
+     "4 hours",
+     "4 hours",
+     "12 hours"
+    ],
+    "sentence": "Dosage Modification for Renal Impairment Normal Dosage Regimen Creatinine Clearance (mL/min/1.73 m 2 ) Adjusted Dosage Regimen Dose (mg) Dosing Interval 200 mg every 4 hours >10 200 every 4 hours, 5x daily 0 to 10 200 every 12 hours 400 mg every 12 hours >10 0 to 10 400 200 every 12 hours every 12 hours 800 mg every 4 hours >25 800 every 4 hours, 5x daily 10 to 25 800 every 8 hours 0 to 10 800 every 12 hours Hemodialysis: For patients who require hemodialysis, the mean plasma half-life of acyclo"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "4 hours",
+     "4 hours",
+     "12 hours"
+    ],
+    "sentence": "Dosage Modification for Renal Impairment Normal Dosage Regimen Creatinine Clearance (mL/min/1.73 m 2 ) Adjusted Dosage Regimen Dose (mg) Dosing Interval 200 mg every 4 hours >10 200 every 4 hours, 5x daily 0 to 10 200 every 12 hours 400 mg every 12 hours >10 0 to 10 400 200 every 12 hours every 12 hours 800 mg every 4 hours >25 800 every 4 hours, 5x daily 10 to 25 800 every 8 hours 0 to 10 800 every 12 hours Hemodialysis: For patients who require hemodialysis, the mean plasma half-life of acyclo"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "9%",
+     "33%",
+     "10%"
+    ],
+    "sentence": "Parameter Range Plasma protein binding 9% to 33% Plasma elimination half-life 2.5 to 3.3 hr Average oral bioavailability 10% to 20%* In one multiple-dose, crossover study in healthy subjects (n = 23), it was shown that increases in plasma acyclovir concentrations were less than dose proportional with increasing dose, as shown in Table 2"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "In the event of acute renal failure and anuria, the patient may benefit from hemodialysis until renal function is restored (see DOSAGE AND ADMINISTRATION )"
+   },
+   {
+    "value": null,
+    "sentence": "Dosage Modification for Renal Impairment Normal Dosage Regimen Creatinine Clearance (mL/min/1.73 m 2 ) Adjusted Dosage Regimen Dose (mg) Dosing Interval 200 mg every 4 hours >10 200 every 4 hours, 5x daily 0 to 10 200 every 12 hours 400 mg every 12 hours >10 0 to 10 400 200 every 12 hours every 12 hours 800 mg every 4 hours >25 800 every 4 hours, 5x daily 10 to 25 800 every 8 hours 0 to 10 800 every 12 hours Hemodialysis: For patients who require hemodialysis, the mean plasma half-life of acyclo"
+   },
+   {
+    "value": null,
+    "sentence": "This results in a 60% decrease in plasma concentrations following a 6-hour dialysis period"
+   },
+   {
+    "value": null,
+    "sentence": "Therefore, the patient's dosing schedule should be adjusted so that an additional dose is administered after each dialysis"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Peritoneal Dialysis: No supplemental dose appears to be necessary after adjustment of the dosing interval"
+   }
+  ]
+ },
+ "adenosine": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "alfacalcidol": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "amantadine": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "3 to 8 L/kg"
+    ],
+    "sentence": "The volume of distribution determined after the intravenous administration of amantadine to 15 healthy subjects was 3 to 8 L/kg, suggesting tissue binding"
+   }
+  ]
+ },
+ "aminophylline": {
+  "halfLife": [
+   {
+    "value": [
+     "4 hours",
+     "8 hours"
+    ],
+    "sentence": "Once the infusion is begun, a second measurement should be obtained after one expected half-life (e.g., approximately 4 hours in children 1 to 9 years and 8 hours in non-smoking adults; see Table I for the expected half-life in additional patient populations)"
+   },
+   {
+    "value": [
+     "4 hours",
+     "9 and 8 hours"
+    ],
+    "sentence": "Therefore, a second serum concentration should be obtained one expected half-life after starting the constant infusion (e.g., approximately 4 hours for children age 1 to 9 and 8 hours for nonsmoking adults; see Table I for the expected half-life in additional patient populations) to determine if the concentration is accumulating or declining from the post loading dose level"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "Distribution: Once theophylline enters the systemic circulation, about 40% is bound to plasma protein, primarily albumin"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Situations where prophylactic anticonvulsant therapy should be considered in high risk patients include anticipated delays in instituting methods for extracorporeal removal of theophylline (e.g., transfer of a high risk patient from one health care facility to another for extracorporeal removal) and clinical circumstances that significantly interfere with efforts to enhance theophylline clearance (e.g., a neonate where dialysis may not be technically feasible or a patient with vomiting unrespons"
+   },
+   {
+    "value": null,
+    "sentence": "Hemodialysis is about as efficient as multiple-dose oral activated charcoal and has a lower risk of serious complications than charcoal hemoperfusion"
+   },
+   {
+    "value": null,
+    "sentence": "Hemodialysis should be considered as an alternative when charcoal hemoperfusion is not feasible and multiple-dose oral charcoal is ineffective because of intractable emesis"
+   },
+   {
+    "value": null,
+    "sentence": "Serum theophylline concentrations may rebound 5 - 10 mcg/mL after discontinuation of charcoal hemoperfusion or hemodialysis due to redistribution of theophylline from the tissue compartment"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Peritoneal dialysis is ineffective for theophylline removal; exchange transfusions in neonates have been minimally effective"
+   }
+  ]
+ },
+ "amiodarone": {
+  "halfLife": [
+   {
+    "value": [
+     "58 days",
+     "15 to 142 days",
+     "36 days"
+    ],
+    "sentence": "Elimination Following single dose administration in 12 healthy subjects, amiodarone hydrochloride exhibited multi-compartmental pharmacokinetics with a mean apparent plasma terminal elimination half-life of 58 days (range 15 to 142 days) for amiodarone and 36 days (range 14 to 75 days) for the active metabolite (DEA)"
+   },
+   {
+    "value": [
+     "26 to 107 days",
+     "53 days"
+    ],
+    "sentence": "A much slower terminal plasma-elimination phase shows a half-life of the parent compound ranging from 26 to 107 days, with a mean of approximately 53 days and most patients in the 40- to 55-day range"
+   },
+   {
+    "value": [
+     "61 days"
+    ],
+    "sentence": "For the metabolite, the mean plasma-elimination half-life was approximately 61 days"
+   },
+   {
+    "value": [
+     "20 to 47 days"
+    ],
+    "sentence": "Specific Populations Effect of Age: Normal subjects over 65 years of age show lower clearances (about 100 mL/hr/kg) than younger subjects (about 150 mL/hr/kg) and an increase in t½ from about 20 to 47 days"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "60 L/kg"
+    ],
+    "sentence": "Amiodarone hydrochloride has a very large but variable volume of distribution, averaging about 60 L/kg, because of extensive accumulation in various sites, especially adipose tissue and highly perfused organs, such as the liver, lung, and spleen"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "96%"
+    ],
+    "sentence": "Distribution Amiodarone hydrochloride is highly protein-bound (approximately 96%)"
+   }
+  ],
+  "dial-pd": []
+ },
+ "amoxicillin": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-pd": []
+ },
+ "aprepitant": {
+  "renalHalfLife": [],
+  "dial-pd": []
+ },
+ "aztreonam": {
+  "renalHalfLife": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Aztreonam given intravenously rapidly reaches therapeutic concentrations in peritoneal dialysis fluid; conversely, aztreonam given intraperitoneally in dialysis fluid rapidly produces therapeutic serum levels"
+   },
+   {
+    "value": null,
+    "sentence": "Clostridium difficile and its cytotoxin were not found in animal models following administration of aztreonam. (See ADVERSE REACTIONS: Gastrointestinal .) Susceptibility Testing For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC. Serum concentrations of aztreonam in healthy subjects following completion of single intramuscular injections of 500"
+   },
+   {
+    "value": null,
+    "sentence": "In patients with severe renal failure (creatinine clearance less than 10 mL/min/1.73 m 2 ), such as those supported by hemodialysis, the usual dose of 500 mg, 1 g, or 2 g should be given initially"
+   },
+   {
+    "value": null,
+    "sentence": "For serious or life-threatening infections, in addition to the maintenance doses, one-eighth of the initial dose should be given after each hemodialysis session. clcr-equation Dosage in the Elderly Renal status is a major determinant of dosage in the elderly; these patients in particular may have diminished renal function"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Aztreonam given intravenously rapidly reaches therapeutic concentrations in peritoneal dialysis fluid; conversely, aztreonam given intraperitoneally in dialysis fluid rapidly produces therapeutic serum levels"
+   },
+   {
+    "value": null,
+    "sentence": "Clostridium difficile and its cytotoxin were not found in animal models following administration of aztreonam. (See ADVERSE REACTIONS: Gastrointestinal .) Susceptibility Testing For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC. Serum concentrations of aztreonam in healthy subjects following completion of single intramuscular injections of 500"
+   }
+  ]
+ },
+ "bisacodyl": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "brivaracetam": {
+  "halfLife": [
+   {
+    "value": [
+     "9 hours"
+    ],
+    "sentence": "The terminal plasma half-life (t 1/2 ) is approximately 9 hours"
+   },
+   {
+    "value": [
+     "7.9 hours",
+     "9.3 hours"
+    ],
+    "sentence": "Geriatric Population : In a study in elderly subjects (65 to 79 years old; creatinine clearance 53 to 98 mL/min/1.73 m 2 ) receiving BRIVIACT 200 mg twice daily (2 times the highest recommended dosage), the plasma half-life of brivaracetam was 7.9 hours and 9.3 hours in the 65 to 75 and >75 years groups, respectively"
+   },
+   {
+    "value": [
+     "9 hours"
+    ],
+    "sentence": "The terminal plasma half-life (t 1/2 ) is approximately 9 hours"
+   },
+   {
+    "value": [
+     "7.9 hours",
+     "9.3 hours"
+    ],
+    "sentence": "Geriatric Population : In a study in elderly subjects (65 to 79 years old; creatinine clearance 53 to 98 mL/min/1.73 m 2 ) receiving BRIVIACT 200 mg twice daily (2 times the highest recommended dosage), the plasma half-life of brivaracetam was 7.9 hours and 9.3 hours in the 65 to 75 and >75 years groups, respectively"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "7.9 hours",
+     "9.3 hours"
+    ],
+    "sentence": "Geriatric Population : In a study in elderly subjects (65 to 79 years old; creatinine clearance 53 to 98 mL/min/1.73 m 2 ) receiving BRIVIACT 200 mg twice daily (2 times the highest recommended dosage), the plasma half-life of brivaracetam was 7.9 hours and 9.3 hours in the 65 to 75 and >75 years groups, respectively"
+   },
+   {
+    "value": [
+     "7.9 hours",
+     "9.3 hours"
+    ],
+    "sentence": "Geriatric Population : In a study in elderly subjects (65 to 79 years old; creatinine clearance 53 to 98 mL/min/1.73 m 2 ) receiving BRIVIACT 200 mg twice daily (2 times the highest recommended dosage), the plasma half-life of brivaracetam was 7.9 hours and 9.3 hours in the 65 to 75 and >75 years groups, respectively"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "20%"
+    ],
+    "sentence": "Distribution Brivaracetam is weakly bound to plasma proteins (≤20%)"
+   },
+   {
+    "value": [
+     "20%"
+    ],
+    "sentence": "Distribution Brivaracetam is weakly bound to plasma proteins (≤20%)"
+   }
+  ]
+ },
+ "buprenorphine": {
+  "halfLife": [
+   {
+    "value": [
+     "10 to 24 hours",
+     "26 hours"
+    ],
+    "sentence": "After removal of buprenorphine transdermal system, mean buprenorphine concentrations decrease approximately 50% within 10 to 24 hours, followed by decline with an apparent terminal half-life of approximately 26 hours"
+   },
+   {
+    "value": [
+     "10 to 24 hours",
+     "26 hours"
+    ],
+    "sentence": "After removal of buprenorphine transdermal system, mean buprenorphine concentrations decrease approximately 50% within 10 to 24 hours, followed by decline with an apparent terminal half-life of approximately 26 hours"
+   },
+   {
+    "value": [
+     "12 hours",
+     "10 to 24 hours",
+     "26 hours"
+    ],
+    "sentence": "After removal of buprenorphine transdermal system, the mean buprenorphine concentrations decrease approximately 50% in 12 hours (range 10 to 24 hours) with an apparent terminal half-life of approximately 26 hours"
+   },
+   {
+    "value": [
+     "24 hours"
+    ],
+    "sentence": "Due to this long apparent terminal half-life, patients may require monitoring and treatment for at least 24 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "430 L"
+    ],
+    "sentence": "Studies of IV buprenorphine have shown a large volume of distribution (approximately 430 L), implying extensive distribution of buprenorphine"
+   },
+   {
+    "value": [
+     "430 L"
+    ],
+    "sentence": "Studies of IV buprenorphine have shown a large volume of distribution (approximately 430 L), implying extensive distribution of buprenorphine"
+   }
+  ]
+ },
+ "calcitriol": {
+  "halfLife": [
+   {
+    "value": [
+     "5 to 8 hours"
+    ],
+    "sentence": "The elimination half-life of calcitriol in serum after single oral doses is about 5 to 8 hours in normal subjects"
+   },
+   {
+    "value": [
+     "27.4 hours"
+    ],
+    "sentence": "In this pediatric population, mean C max was 116 pmol/L, mean serum half-life was 27.4 hours, and mean clearance was 15.3 mL/hr/kg. 1 Geriatric No studies have examined the pharmacokinetics of calcitriol in geriatric patients"
+   },
+   {
+    "value": [
+     "8 to 12 hours",
+     "16.2 and 21.9 hours"
+    ],
+    "sentence": "For patients requiring hemodialysis peak serum levels were reached in 8 to 12 hours; half-lives were estimated to be 16.2 and 21.9 hours, respectively"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "8 to 12 hours",
+     "16.2 and 21.9 hours"
+    ],
+    "sentence": "For patients requiring hemodialysis peak serum levels were reached in 8 to 12 hours; half-lives were estimated to be 16.2 and 21.9 hours, respectively"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "No radiographic evidence of extraskeletal calcification has been found in predialysis patients following treatment"
+   },
+   {
+    "value": null,
+    "sentence": "Special Populations Pediatric Pharmacokinetics The steady-state pharmacokinetics of oral calcitriol were determined in a small group of pediatric patients (age range: 1.8 to 16 years) undergoing peritoneal dialysis"
+   },
+   {
+    "value": null,
+    "sentence": "Renal Insufficiency Lower predose and peak calcitriol levels in serum were observed in patients with nephrotic syndrome and in patients undergoing hemodialysis compared with healthy subjects"
+   },
+   {
+    "value": null,
+    "sentence": "The elimination half-life of calcitriol increased by at least twofold in chronic renal failure and hemodialysis patients compared with healthy subjects"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Special Populations Pediatric Pharmacokinetics The steady-state pharmacokinetics of oral calcitriol were determined in a small group of pediatric patients (age range: 1.8 to 16 years) undergoing peritoneal dialysis"
+   },
+   {
+    "value": null,
+    "sentence": "The use of peritoneal dialysis against a calcium-free dialysate has also been reported"
+   }
+  ]
+ },
+ "calcium-acetate": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "This range represents data from both healthy subjects and renal dialysis patients under various conditions. 10 OVERDOSAGE Administration of calcium acetate in excess of the appropriate daily dosage may result in hypercalcemia [see Warnings and Precautions (5.1) ]. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Pregnancy Category C Calcium acetate capsules contain calcium acetate"
+   },
+   {
+    "value": null,
+    "sentence": "In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. 5 WARNINGS AND PRECAUTIONS Treat mild hypercalcemia by reducing or interrupting calcium acetate capsules and Vitamin D. Severe hypercalcemia may require hemodialysis and discontinuation of calcium acetate capsules. (5.1) Hypercalcemia may aggra"
+   },
+   {
+    "value": null,
+    "sentence": "Severe hypercalcemia can be treated by acute hemodialysis and discontinuing calcium acetate therapy"
+   },
+   {
+    "value": null,
+    "sentence": "Maintain the serum calcium-phosphorus (Ca x P) product below 55 mg 2 /dL 2 . 5.2 Concomitant Use with Medications Hypercalcemia may aggravate digitalis toxicity. 2 DOSAGE AND ADMINISTRATION The recommended initial dose of calcium acetate for the adult dialysis patient is 2 capsules with each meal"
+   }
+  ],
+  "dial-pd": []
+ },
+ "carbamazepine": {
+  "halfLife": [
+   {
+    "value": [
+     "25 to 65 hours",
+     "12 to 17 hours"
+    ],
+    "sentence": "Initial half-life values range from 25 to 65 hours, decreasing to 12 to 17 hours on repeated doses"
+   },
+   {
+    "value": [
+     "25 to 65 hours",
+     "12 to 17 hours"
+    ],
+    "sentence": "Initial half-life values range from 25 to 65 hours, decreasing to 12 to 17 hours on repeated doses"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": []
+ },
+ "carbimazole": {
+  "renalHalfLife": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "cefixime": {
+  "halfLife": [
+   {
+    "value": [
+     "3 to 4 hours",
+     "9 hours"
+    ],
+    "sentence": "The serum half-life of cefixime in healthy subjects is independent of dosage form and averages 3 to 4 hours but may range up to 9 hours in some normal volunteers"
+   },
+   {
+    "value": [
+     "11.5 hours"
+    ],
+    "sentence": "In severe renal impairment (5 to 20 mL/min creatinine clearance), the half-life increased to an average of 11.5 hours"
+   },
+   {
+    "value": [
+     "3 to 4 hours",
+     "9 hours"
+    ],
+    "sentence": "The serum half-life of cefixime in healthy subjects is independent of dosage form and averages 3 to 4 hours but may range up to 9 hours in some normal volunteers"
+   },
+   {
+    "value": [
+     "11.5 hours"
+    ],
+    "sentence": "In severe renal impairment (5 to 20 mL/min creatinine clearance), the half-life increased to an average of 11.5 hours"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "65%"
+    ],
+    "sentence": "Distribution Serum protein binding is concentration independent with a bound fraction of approximately 65%"
+   },
+   {
+    "value": [
+     "65%"
+    ],
+    "sentence": "Distribution Serum protein binding is concentration independent with a bound fraction of approximately 65%"
+   }
+  ]
+ },
+ "ceftaroline": {
+  "halfLife": [
+   {
+    "value": [
+     "8 hours",
+     "5 days",
+     "5 minutes"
+    ],
+    "sentence": "The systemic exposure (AUC), T 1/2 , and clearance of ceftaroline were similar following administration of 600 mg ceftaroline fosamil in a volume of 50 mL to healthy subjects every 8 hours for 5 days as a 5-minute or 60-minute infusion, and the T max of ceftaroline occurred about 5 minutes after the end of the ceftaroline fosamil infusion for both infusion durations"
+   },
+   {
+    "value": [
+     "8 hours",
+     "5 days",
+     "5 minutes"
+    ],
+    "sentence": "The systemic exposure (AUC), T 1/2 , and clearance of ceftaroline were similar following administration of 600 mg ceftaroline fosamil in a volume of 50 mL to healthy subjects every 8 hours for 5 days as a 5-minute or 60-minute infusion, and the T max of ceftaroline occurred about 5 minutes after the end of the ceftaroline fosamil infusion for both infusion durations"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "20.3 L",
+     "18.3-21.6 L"
+    ],
+    "sentence": "The median (range) steady-state volume of distribution of ceftaroline in healthy adult males (n=6) following a single 600 mg IV dose of radiolabeled ceftaroline fosamil was 20.3 L (18.3-21.6 L), similar to extracellular fluid volume"
+   },
+   {
+    "value": [
+     "20.3 L",
+     "18.3-21.6 L"
+    ],
+    "sentence": "The median (range) steady-state volume of distribution of ceftaroline in healthy adult males (n=6) following a single 600 mg IV dose of radiolabeled ceftaroline fosamil was 20.3 L (18.3-21.6 L), similar to extracellular fluid volume"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "20%",
+     "14.5-28.0%"
+    ],
+    "sentence": "Distribution The average binding of ceftaroline to human plasma proteins is approximately 20% and decreases slightly with increasing concentrations over 1-50 mcg/mL (14.5-28.0%)"
+   },
+   {
+    "value": [
+     "20%",
+     "14.5-28.0%"
+    ],
+    "sentence": "Distribution The average binding of ceftaroline to human plasma proteins is approximately 20% and decreases slightly with increasing concentrations over 1-50 mcg/mL (14.5-28.0%)"
+   }
+  ],
+  "dial-pd": []
+ },
+ "ceftazidime": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "10%"
+    ],
+    "sentence": "Less than 10% of ceftazidime was protein bound"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "In the presence of renal insufficiency, hemodialysis or peritoneal dialysis may aid in the removal of ceftazidime from the body"
+   },
+   {
+    "value": null,
+    "sentence": "In patients undergoing hemodialysis, a loading dose of 1 gram is recommended, followed by 1 gram after each hemodialysis period"
+   },
+   {
+    "value": null,
+    "sentence": "Ceftazidime for injection can also be used in patients undergoing intraperitoneal dialysis and continuous ambulatory peritoneal dialysis"
+   },
+   {
+    "value": null,
+    "sentence": "In addition to IV use, ceftazidime for injection can be incorporated in the dialysis fluid at a concentration of 250 mg for 2 L of dialysis fluid"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "In the presence of renal insufficiency, hemodialysis or peritoneal dialysis may aid in the removal of ceftazidime from the body"
+   },
+   {
+    "value": null,
+    "sentence": "Ceftazidime for injection can also be used in patients undergoing intraperitoneal dialysis and continuous ambulatory peritoneal dialysis"
+   }
+  ]
+ },
+ "cefuroxime": {
+  "halfLife": [
+   {
+    "value": [
+     "80 minutes"
+    ],
+    "sentence": "The serum half-life after IV injection is approximately 80 minutes"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Serum levels of cefuroxime can be reduced by hemodialysis and peritoneal dialysis"
+   },
+   {
+    "value": null,
+    "sentence": "Table 2: Dosage of Cefuroxime in Adults with Reduced Renal Function Creatinine Clearance (mL/min) Dose Frequency >20 750 mg–1.5 grams q8h 10–20 750 mg q12h <10 750 mg q24h Since cefuroxime is dialyzable, patients on hemodialysis should be given a further dose at the end of the dialysis"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Serum levels of cefuroxime can be reduced by hemodialysis and peritoneal dialysis"
+   }
+  ]
+ },
+ "cephalexin": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": []
+ },
+ "chlorphenamine": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "cholecalciferol": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "ciprofloxacin": {
+  "halfLife": [
+   {
+    "value": [
+     "4 hours"
+    ],
+    "sentence": "The serum elimination half-life in subjects with normal renal function is approximately 4 hours"
+   },
+   {
+    "value": [
+     "4 hours"
+    ],
+    "sentence": "Excretion The serum elimination half-life in subjects with normal renal function is approximately 4 hours"
+   },
+   {
+    "value": [
+     "4 hours",
+     "5 hours"
+    ],
+    "sentence": "Based on population pharmacokinetic analysis of pediatric patients with various infections, the predicted mean half-life in children is approximately 4 hours to 5 hours, and the bioavailability of the oral suspension is approximately 60%"
+   },
+   {
+    "value": [
+     "4 hours"
+    ],
+    "sentence": "The serum elimination half-life in subjects with normal renal function is approximately 4 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "20%",
+     "40%"
+    ],
+    "sentence": "Distribution The binding of ciprofloxacin to serum proteins is 20% to 40% which is not likely to be high enough to cause significant protein binding interactions with other drugs"
+   },
+   {
+    "value": [
+     "20%",
+     "40%"
+    ],
+    "sentence": "Distribution The binding of ciprofloxacin to serum proteins is 20% to 40% which is not likely to be high enough to cause significant protein binding interactions with other drugs"
+   }
+  ]
+ },
+ "clarithromycin": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "As with other macrolides, clarithromycin serum concentrations are not expected to be appreciably affected by hemodialysis or peritoneal dialysis"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "As with other macrolides, clarithromycin serum concentrations are not expected to be appreciably affected by hemodialysis or peritoneal dialysis"
+   }
+  ]
+ },
+ "clindamycin": {
+  "halfLife": [
+   {
+    "value": [
+     "6 minutes",
+     "3 hours"
+    ],
+    "sentence": "Excretion Biologically inactive clindamycin phosphate disappears from the serum with 6 minutes of the average elimination half-life; however, the average serum elimination half-life of active clindamycin is about 3 hours in adults and 2½ hours in pediatric patients"
+   },
+   {
+    "value": [
+     "4.0 hours",
+     "3.4–5.1 h",
+     "3.2 hours"
+    ],
+    "sentence": "After oral administration of clindamycin hydrochloride, the average elimination half-life is increased to approximately 4.0 hours (range 3.4–5.1 h) in the elderly, compared to 3.2 hours (range 2.1–4.2 h) in younger adults"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "clonazepam": {
+  "halfLife": [
+   {
+    "value": [
+     "30 to 40 hours"
+    ],
+    "sentence": "The elimination half-life of clonazepam is typically 30 to 40 hours"
+   },
+   {
+    "value": [
+     "30 to 40 hours"
+    ],
+    "sentence": "The elimination half-life of clonazepam is typically 30 to 40 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": []
+ },
+ "clopidogrel": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "codeine": {
+  "halfLife": [
+   {
+    "value": [
+     "3 hours"
+    ],
+    "sentence": "The plasma half-lives of codeine and its metabolites have been reported to be approximately 3 hours"
+   },
+   {
+    "value": [
+     "3 hours",
+     "60 minutes"
+    ],
+    "sentence": "Plasma half-lives of codeine and its metabolites have been reported to be approximately 3 hours. 12.3 Pharmacokinetics Absorption: Codeine is absorbed from the gastrointestinal tract with maximum plasma concentration occurring 60 minutes post administration"
+   },
+   {
+    "value": [
+     "3 hours"
+    ],
+    "sentence": "The plasma half-lives of codeine and its metabolites have been reported to be approximately 3 hours"
+   },
+   {
+    "value": [
+     "3 hours"
+    ],
+    "sentence": "Plasma half-lives of codeine and its metabolites have been reported to be approximately 3 hours. 10 OVERDOSAGE Clinical Presentation: Acute overdose with codeine can be manifested by respiratory depression, somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, constricted pupils, and, in some cases, pulmonary edema, bradycardia, hypotension, hypoglycemia, partial or complete airway obstruction, atypical snoring, and death"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "7%",
+     "25%"
+    ],
+    "sentence": "Codeine has low plasma protein binding with about 7% to 25% of codeine bound to plasma proteins"
+   },
+   {
+    "value": [
+     "7%",
+     "25%"
+    ],
+    "sentence": "Codeine has low plasma protein binding with about 7% to 25% of codeine bound to plasma proteins"
+   }
+  ]
+ },
+ "dexamethasone": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "diazepam": {
+  "halfLife": [
+   {
+    "value": [
+     "1 hour",
+     "3 hours"
+    ],
+    "sentence": "The initial distribution phase has a half-life of approximately 1 hour, although it may range up to >3 hours"
+   },
+   {
+    "value": [
+     "48 hours"
+    ],
+    "sentence": "Elimination The initial distribution phase is followed by a prolonged terminal elimination phase (half-life up to 48 hours)"
+   },
+   {
+    "value": [
+     "100 hours"
+    ],
+    "sentence": "The terminal elimination half-life of the active metabolite N-desmethyldiazepam is up to 100 hours"
+   },
+   {
+    "value": [
+     "18 hours"
+    ],
+    "sentence": "Pharmacokinetics in Special Populations Children In children 3 to 8 years old the mean half-life of diazepam has been reported to be 18 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "98%"
+    ],
+    "sentence": "Distribution Diazepam and its metabolites are highly bound to plasma proteins (diazepam 98%)"
+   }
+  ]
+ },
+ "digoxin": {
+  "halfLife": [
+   {
+    "value": [
+     "18 to 36 hours",
+     "36 to 48 hours"
+    ],
+    "sentence": "The serum half-life of digoxin in pediatric patients is reported to be 18 to 36 hours, and in adults it is typically 36 to 48 hours"
+   },
+   {
+    "value": [
+     "3.5 to 5 days"
+    ],
+    "sentence": "The half-life in anuric patients is prolonged to 3.5 to 5 days"
+   },
+   {
+    "value": [
+     "18 to 36 hours",
+     "36 to 48 hours"
+    ],
+    "sentence": "The serum half-life of digoxin in pediatric patients is reported to be 18 to 36 hours, and in adults it is typically 36 to 48 hours"
+   },
+   {
+    "value": [
+     "3.5 to 5 days"
+    ],
+    "sentence": "The half-life in anuric patients is prolonged to 3.5 to 5 days"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "25%"
+    ],
+    "sentence": "Approximately 25% of digoxin in the plasma is bound to protein"
+   },
+   {
+    "value": [
+     "25%"
+    ],
+    "sentence": "Approximately 25% of digoxin in the plasma is bound to protein"
+   }
+  ],
+  "dial-pd": []
+ },
+ "dobutamine": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "domperidone": {
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "donepezil": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "96%",
+     "75%",
+     "21%"
+    ],
+    "sentence": "Donepezil is approximately 96% bound to human plasma proteins, mainly to albumins (about 75%) and alpha 1 - acid glycoprotein (about 21%) over the concentration range of 2 to 1000 ng/mL. Donepezil is both excreted in the urine intact and extensively metabolized to four major metabolites, two of which are known to be active, and a number of minor metabolites, not all of which have been identified"
+   },
+   {
+    "value": [
+     "96%"
+    ],
+    "sentence": "Drugs Highly Bound to Plasma Proteins Drug displacement studies have been performed in vitro between this highly bound drug (96%) and other drugs such as furosemide, digoxin, and warfarin"
+   },
+   {
+    "value": [
+     "96%",
+     "75%",
+     "21%"
+    ],
+    "sentence": "Donepezil is approximately 96% bound to human plasma proteins, mainly to albumins (about 75%) and alpha 1 - acid glycoprotein (about 21%) over the concentration range of 2 to 1000 ng/mL. Donepezil is both excreted in the urine intact and extensively metabolized to four major metabolites, two of which are known to be active, and a number of minor metabolites, not all of which have been identified"
+   },
+   {
+    "value": [
+     "96%"
+    ],
+    "sentence": "Drugs Highly Bound to Plasma Proteins Drug displacement studies have been performed in vitro between this highly bound drug (96%) and other drugs such as furosemide, digoxin, and warfarin"
+   }
+  ]
+ },
+ "dopamine": {
+  "halfLife": [
+   {
+    "value": [
+     "5 to 11 minutes"
+    ],
+    "sentence": "The reported apparent volume of distribution in neonates was 0.6 to 4 L/kg, leading to an elimination half life of 5 to 11 minutes. 12.3 Pharmacokinetics Distribution Following intravenous administration, dopamine is widely distributed in the body but does not cross the blood‑brain barrier to a significant extent"
+   },
+   {
+    "value": [
+     "5 to 11 minutes"
+    ],
+    "sentence": "The reported apparent volume of distribution in neonates was 0.6 to 4 L/kg, leading to an elimination half life of 5 to 11 minutes. 10 OVERDOSAGE Manifestations of overdosage include excessive blood pressure elevation"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.6 to 4 L/kg"
+    ],
+    "sentence": "The reported apparent volume of distribution in neonates was 0.6 to 4 L/kg, leading to an elimination half life of 5 to 11 minutes. 12.3 Pharmacokinetics Distribution Following intravenous administration, dopamine is widely distributed in the body but does not cross the blood‑brain barrier to a significant extent"
+   },
+   {
+    "value": [
+     "0.6 to 4 L/kg"
+    ],
+    "sentence": "The reported apparent volume of distribution in neonates was 0.6 to 4 L/kg, leading to an elimination half life of 5 to 11 minutes. 10 OVERDOSAGE Manifestations of overdosage include excessive blood pressure elevation"
+   }
+  ],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "doxycycline": {
+  "halfLife": [
+   {
+    "value": [
+     "2.60 hr",
+     "16.33 hr",
+     "72 hours"
+    ],
+    "sentence": "Following a 200 mg dose of doxycycline monohydrate, 24 normal adult volunteers averaged the following serum concentration values: Time (hr): 0.5 1.0 1.5 2.0 3.0 4.0 8.0 12.0 24.0 48.0 72.0 Conc. 1.02 2.26 2.67 3.01 3.16 3.03 2.03 1.62 0.95 0.37 0.15 (μg/mL) Average Observed Values Maximum Concentration 3.61 μg/mL (± 0.9 sd) Time of Maximum Concentration 2.60 hr (± 1.10 sd) Elimination Rate Constant 0.049 per hr (± 0.030 sd) Half-Life 16.33 hr (± 4.53 sd) Excretion of doxycycline by the kidney is"
+   },
+   {
+    "value": [
+     "18-22 hours"
+    ],
+    "sentence": "Studies have shown no significant difference in serum half-life of doxycycline (range 18-22 hours) in individuals with normal and severely impaired renal function"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "2.60 hr",
+     "16.33 hr",
+     "72 hours"
+    ],
+    "sentence": "Following a 200 mg dose of doxycycline monohydrate, 24 normal adult volunteers averaged the following serum concentration values: Time (hr): 0.5 1.0 1.5 2.0 3.0 4.0 8.0 12.0 24.0 48.0 72.0 Conc. 1.02 2.26 2.67 3.01 3.16 3.03 2.03 1.62 0.95 0.37 0.15 (μg/mL) Average Observed Values Maximum Concentration 3.61 μg/mL (± 0.9 sd) Time of Maximum Concentration 2.60 hr (± 1.10 sd) Elimination Rate Constant 0.049 per hr (± 0.030 sd) Half-Life 16.33 hr (± 4.53 sd) Excretion of doxycycline by the kidney is"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Hemodialysis does not alter serum half-life"
+   },
+   {
+    "value": null,
+    "sentence": "Dialysis does not alter serum half-life, and it would not be of benefit in treating cases of overdosage"
+   }
+  ],
+  "dial-pd": []
+ },
+ "ertapenem": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.12 liter",
+     "0.2 liter",
+     "0.16 liter"
+    ],
+    "sentence": "In healthy young adults, the protein binding of ertapenem decreases as plasma concentrations increase, from approximately 95% bound at an approximate plasma concentration of <100 micrograms (mcg)/mL to approximately 85% bound at an approximate plasma concentration of 300 mcg/mL. The apparent volume of distribution at steady state (V ss ) of ertapenem in adults is approximately 0.12 liter/kg, approximately 0.2 liter/kg in pediatric patients 3 months to 12 years of age and approximately 0.16 liter"
+   },
+   {
+    "value": [
+     "0.12 liter",
+     "0.2 liter",
+     "0.16 liter"
+    ],
+    "sentence": "In healthy young adults, the protein binding of ertapenem decreases as plasma concentrations increase, from approximately 95% bound at an approximate plasma concentration of <100 micrograms (mcg)/mL to approximately 85% bound at an approximate plasma concentration of 300 mcg/mL. The apparent volume of distribution at steady state (V ss ) of ertapenem in adults is approximately 0.12 liter/kg, approximately 0.2 liter/kg in pediatric patients 3 months to 12 years of age and approximately 0.16 liter"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "95%",
+     "85%"
+    ],
+    "sentence": "In healthy young adults, the protein binding of ertapenem decreases as plasma concentrations increase, from approximately 95% bound at an approximate plasma concentration of <100 micrograms (mcg)/mL to approximately 85% bound at an approximate plasma concentration of 300 mcg/mL. The apparent volume of distribution at steady state (V ss ) of ertapenem in adults is approximately 0.12 liter/kg, approximately 0.2 liter/kg in pediatric patients 3 months to 12 years of age and approximately 0.16 liter"
+   },
+   {
+    "value": [
+     "95%",
+     "85%"
+    ],
+    "sentence": "In healthy young adults, the protein binding of ertapenem decreases as plasma concentrations increase, from approximately 95% bound at an approximate plasma concentration of <100 micrograms (mcg)/mL to approximately 85% bound at an approximate plasma concentration of 300 mcg/mL. The apparent volume of distribution at steady state (V ss ) of ertapenem in adults is approximately 0.12 liter/kg, approximately 0.2 liter/kg in pediatric patients 3 months to 12 years of age and approximately 0.16 liter"
+   }
+  ]
+ },
+ "esmolol": {
+  "halfLife": [
+   {
+    "value": [
+     "9 minutes"
+    ],
+    "sentence": "Its elimination half-life after intravenous infusion is approximately 9 minutes"
+   },
+   {
+    "value": [
+     "2 minutes",
+     "9 minutes"
+    ],
+    "sentence": "Esmolol has a rapid distribution half-life of about 2 minutes and an elimination half-life of about 9 minutes"
+   },
+   {
+    "value": [
+     "3.7 hours"
+    ],
+    "sentence": "The acid metabolite has an elimination half-life of about 3.7 hours and is excreted in the urine with a clearance approximately equivalent to the glomerular filtration rate"
+   },
+   {
+    "value": [
+     "48 hours",
+     "6 hours",
+     "24 hours"
+    ],
+    "sentence": "The half-life of the acid metabolite of BREVIBLOC injection, which is primarily excreted unchanged by the kidney, is increased about 12-fold to 48 hours in patients with ESRD. The peak concentrations of the acid metabolite are doubled in ESRD. Methanol blood levels, monitored in subjects receiving BREVIBLOC injection for up to 6 hours at 300 mcg/kg/min and 24 hours at 150 mcg/kg/min, approximated endogenous levels and were less than 2% of levels usually associated with methanol toxicity"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "48 hours",
+     "6 hours",
+     "24 hours"
+    ],
+    "sentence": "The half-life of the acid metabolite of BREVIBLOC injection, which is primarily excreted unchanged by the kidney, is increased about 12-fold to 48 hours in patients with ESRD. The peak concentrations of the acid metabolite are doubled in ESRD. Methanol blood levels, monitored in subjects receiving BREVIBLOC injection for up to 6 hours at 300 mcg/kg/min and 24 hours at 150 mcg/kg/min, approximated endogenous levels and were less than 2% of levels usually associated with methanol toxicity"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "55%",
+     "10%"
+    ],
+    "sentence": "BREVIBLOC injection has been shown to be 55% bound to human plasma protein, while the acid metabolite is only 10% bound. 10 OVERDOSAGE 10.1 Signs and Symptoms of Overdose Overdoses of BREVIBLOC (Esmolol Hydrochloride) injection can cause cardiac and central nervous system effects"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "After a 4 hour maintenance infusion of 150 mcg/kg, the plasma concentrations of esmolol are similar in subjects with normal renal function and in patients with ESRD on dialysis"
+   },
+   {
+    "value": null,
+    "sentence": "Intravenous administration of beta blockers has been reported to cause potentially life-threatening hyperkalemia in hemodialysis patients"
+   }
+  ],
+  "dial-pd": []
+ },
+ "fentanyl": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "4 L/kg"
+    ],
+    "sentence": "The volume of distribution for fentanyl is 4 L/kg"
+   },
+   {
+    "value": [
+     "4 L/kg"
+    ],
+    "sentence": "The volume of distribution for fentanyl is 4 L/kg"
+   }
+  ],
+  "proteinBinding": []
+ },
+ "flecainide": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "The extent of flecainide binding to human plasma proteins is about 40% and is independent of plasma drug level over the range of 0.015 to about 3.4 mcg/mL. Thus, clinically significant drug interactions based on protein binding effects would not be expected"
+   }
+  ],
+  "dial-pd": []
+ },
+ "fluconazole": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "1.3 L/kg",
+     "0.9 L/kg"
+    ],
+    "sentence": "The median volume of distribution was 1.3 L/kg in pediatric patients on ECMO and 0.9 L/kg in those not on ECMO. Simulations suggested that a loading dose of 35 mg/kg is needed to achieve the target AUC 0-24 >400 mg*h/L within the first 24 hours in pediatric patients on ECMO. (See DOSAGE AND ADMINISTRATION .)"
+   }
+  ],
+  "dial-pd": []
+ },
+ "fludrocortisone": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "folic-acid": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Folate deficiency may result from increased loss of folate, as in renal dialysis and/or interference with metabolism (e.g., folic acid antagonists such as methotrexate); the administration of anticonvulsants, such as diphenylhydantoin, primidone, and barbiturates; alcohol consumption and, especially, alcoholic cirrhosis; and the administration of pyrimethamine and nitrofurantoin"
+   }
+  ],
+  "dial-pd": []
+ },
+ "formoterol": {
+  "halfLife": [
+   {
+    "value": [
+     "7 hours"
+    ],
+    "sentence": "Based on plasma concentrations measured following the 244 mcg dose, the mean terminal elimination half-life was determined to be 7 hours"
+   },
+   {
+    "value": [
+     "7 hours"
+    ],
+    "sentence": "Based on plasma concentrations measured following the 244 mcg dose, the mean terminal elimination half-life was determined to be 7 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "61%",
+     "64%",
+     "31%"
+    ],
+    "sentence": "Distribution The binding of formoterol to human plasma proteins in vitro was 61% to 64% at concentrations from 0.1 to 100 ng/mL. Binding to human serum albumin in vitro was 31% to 38% over a range of 5 to 500 ng/mL. The concentrations of formoterol used to assess the plasma protein binding were higher than those achieved in plasma following inhalation of a single 244 mcg dose of PERFOROMIST Inhalation Solution"
+   },
+   {
+    "value": [
+     "61%",
+     "64%",
+     "31%"
+    ],
+    "sentence": "Distribution The binding of formoterol to human plasma proteins in vitro was 61% to 64% at concentrations from 0.1 to 100 ng/mL. Binding to human serum albumin in vitro was 31% to 38% over a range of 5 to 500 ng/mL. The concentrations of formoterol used to assess the plasma protein binding were higher than those achieved in plasma following inhalation of a single 244 mcg dose of PERFOROMIST Inhalation Solution"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage of PERFOROMIST Inhalation Solution"
+   }
+  ],
+  "dial-pd": []
+ },
+ "ganciclovir": {
+  "renalHalfLife": [
+   {
+    "value": [
+     "4 hour"
+    ],
+    "sentence": "Ganciclovir Pharmacokinetics in Patients with Renal Impairment Estimated Creatinine Clearance (mL/min) n Dose Clearance (mL/min) Mean ± SD Half-life (hours) Mean ± SD 50 to 79 4 3.2 to 5 mg/kg 128 ± 63 4.6 ± 1.4 25 to 49 3 3 to 5 mg/kg 57 ±8 4.4 ± 0.4 < 25 3 1.25 to 5 mg/kg 30 ±13 10.7 ± 5.7 Plasma concentrations of ganciclovir are reduced by about 50% during a 4 hour hemodialysis session"
+   },
+   {
+    "value": [
+     "4 hour"
+    ],
+    "sentence": "Ganciclovir Pharmacokinetics in Patients with Renal Impairment Estimated Creatinine Clearance (mL/min) n Dose Clearance (mL/min) Mean ± SD Half-life (hours) Mean ± SD 50 to 79 4 3.2 to 5 mg/kg 128 ± 63 4.6 ± 1.4 25 to 49 3 3 to 5 mg/kg 57 ±8 4.4 ± 0.4 < 25 3 1.25 to 5 mg/kg 30 ±13 10.7 ± 5.7 Plasma concentrations of ganciclovir are reduced by about 50% during a 4 hour hemodialysis session"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "1%",
+     "2%"
+    ],
+    "sentence": "Binding to plasma proteins was 1% to 2% over ganciclovir concentrations of 0.5 and 51 mcg/mL. Elimination When administered intravenously, ganciclovir exhibits linear pharmacokinetics over the range of 1.6 to 5.0 mg/kg"
+   },
+   {
+    "value": [
+     "1%",
+     "2%"
+    ],
+    "sentence": "Binding to plasma proteins was 1% to 2% over ganciclovir concentrations of 0.5 and 51 mcg/mL. Elimination When administered intravenously, ganciclovir exhibits linear pharmacokinetics over the range of 1.6 to 5.0 mg/kg"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Ganciclovir Pharmacokinetics in Patients with Renal Impairment Estimated Creatinine Clearance (mL/min) n Dose Clearance (mL/min) Mean ± SD Half-life (hours) Mean ± SD 50 to 79 4 3.2 to 5 mg/kg 128 ± 63 4.6 ± 1.4 25 to 49 3 3 to 5 mg/kg 57 ±8 4.4 ± 0.4 < 25 3 1.25 to 5 mg/kg 30 ±13 10.7 ± 5.7 Plasma concentrations of ganciclovir are reduced by about 50% during a 4 hour hemodialysis session"
+   },
+   {
+    "value": null,
+    "sentence": "Ganciclovir Pharmacokinetics in Patients with Renal Impairment Estimated Creatinine Clearance (mL/min) n Dose Clearance (mL/min) Mean ± SD Half-life (hours) Mean ± SD 50 to 79 4 3.2 to 5 mg/kg 128 ± 63 4.6 ± 1.4 25 to 49 3 3 to 5 mg/kg 57 ±8 4.4 ± 0.4 < 25 3 1.25 to 5 mg/kg 30 ±13 10.7 ± 5.7 Plasma concentrations of ganciclovir are reduced by about 50% during a 4 hour hemodialysis session"
+   },
+   {
+    "value": null,
+    "sentence": "Ganciclovir Injection should be given shortly after completion of the hemodialysis session, since hemodialysis has been shown to reduce plasma levels by approximately 50% [see Clinical Pharmacology ( 12.3 )] . 2.6 Preparation of Ganciclovir Injection Ganciclovir Injection solution must be diluted under the supervision of a healthcare provider and administered as intravenous infusion"
+   }
+  ],
+  "dial-pd": []
+ },
+ "glimepiride": {
+  "halfLife": [
+   {
+    "value": [
+     "4 to 10 days"
+    ],
+    "sentence": "Prolonged severe hypoglycemia, lasting 4 to 10 days, has been reported in neonates born to mothers receiving a sulfonylurea at the time of delivery and has been reported with the use of agents with a prolonged half-life"
+   },
+   {
+    "value": [
+     "3.1±1.7 hours",
+     "5.3±4.1 hours"
+    ],
+    "sentence": "The mean (± SD) AUC (0-last) (339±203 ng•hr/mL), C max (102±48 ng/mL) and t 1/2 (3.1±1.7 hours) for glimepiride were comparable to historical data from adults (AUC (0-last) 315±96 ng•hr/mL, C max 103±34 ng/mL, and t 1/2 5.3±4.1 hours)"
+   }
+  ],
+  "renalHalfLife": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "glipizide": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "98 to 99%"
+    ],
+    "sentence": "Protein binding was studied in serum from volunteers who received either oral or intravenous glipizide and found to be 98 to 99% one hour after either route of administration"
+   },
+   {
+    "value": [
+     "98 to 99%"
+    ],
+    "sentence": "Protein binding was studied in serum from volunteers who received either oral or intravenous glipizide and found to be 98 to 99% one hour after either route of administration"
+   }
+  ],
+  "dial-pd": []
+ },
+ "granisetron": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "hydrocortisone": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "hydromorphone": {
+  "renalHalfLife": [
+   {
+    "value": [
+     "40 hr",
+     "15 hr"
+    ],
+    "sentence": "In addition, in patients with severe renal impairment hydromorphone appeared to be more slowly eliminated with longer terminal elimination half-life (40 hr) compared to patients with normal renal function (15 hr)"
+   },
+   {
+    "value": [
+     "40 hr",
+     "15 hr"
+    ],
+    "sentence": "In addition, in patients with severe renal impairment hydromorphone appeared to be more slowly eliminated with longer terminal elimination half-life (40 hr) compared to patients with normal renal function (15 hr)"
+   }
+  ],
+  "volumeOfDistribution": []
+ },
+ "hydroxychloroquine": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "50%"
+    ],
+    "sentence": "Approximately 50% of hydroxychloroquine is bound to plasma proteins"
+   },
+   {
+    "value": [
+     "50%"
+    ],
+    "sentence": "Approximately 50% of hydroxychloroquine is bound to plasma proteins"
+   }
+  ],
+  "dial-pd": []
+ },
+ "hyoscine-butylbromide": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "ibandronate": {
+  "halfLife": [
+   {
+    "value": [
+     "37 to 157 hours"
+    ],
+    "sentence": "The observed apparent terminal half-life for the 150 mg ibandronate tablet upon oral administration to healthy postmenopausal women ranges from 37 to 157 hours"
+   },
+   {
+    "value": [
+     "37 to 157 hours"
+    ],
+    "sentence": "The observed apparent terminal half-life for the 150 mg ibandronate tablet upon oral administration to healthy postmenopausal women ranges from 37 to 157 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "90 L"
+    ],
+    "sentence": "In humans, the apparent terminal volume of distribution is at least 90 L, and the amount of dose removed from the circulation via the bone is estimated to be 40% to 50% of the circulating dose"
+   },
+   {
+    "value": [
+     "90 L"
+    ],
+    "sentence": "In humans, the apparent terminal volume of distribution is at least 90 L, and the amount of dose removed from the circulation via the bone is estimated to be 40% to 50% of the circulating dose"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "99.5%",
+     "90.9%",
+     "85.7%"
+    ],
+    "sentence": "In vitro protein binding in human serum was 99.5% to 90.9% over an ibandronate concentration range of 2 to 10 ng/mL in one study and approximately 85.7% over a concentration range of 0.5 to 10 ng/mL in another study"
+   },
+   {
+    "value": [
+     "99.5%",
+     "90.9%",
+     "85.7%"
+    ],
+    "sentence": "In vitro protein binding in human serum was 99.5% to 90.9% over an ibandronate concentration range of 2 to 10 ng/mL in one study and approximately 85.7% over a concentration range of 0.5 to 10 ng/mL in another study"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Dialysis would not be beneficial. 8 USE IN SPECIFIC POPULATIONS Ibandronate sodium is not recommended in patients with severe renal impairment (creatinine clearance less than 30 mL/min). ( 5.6 , 8.6 ) 8.1 Pregnancy Risk Summary Ibandronate sodium is not indicated for use in women of reproductive potential"
+   }
+  ],
+  "dial-pd": []
+ },
+ "ipratropium": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "0%",
+     "9%"
+    ],
+    "sentence": "Ipratropium bromide is minimally bound (0% to 9% in vitro ) to plasma albumin and α 1 -acid glycoprotein"
+   },
+   {
+    "value": [
+     "0%",
+     "9%"
+    ],
+    "sentence": "Ipratropium bromide is minimally bound (0% to 9% in vitro ) to plasma albumin and α 1 -acid glycoprotein"
+   }
+  ],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "isosorbide-dinitrate": {
+  "halfLife": [
+   {
+    "value": [
+     "5 hours"
+    ],
+    "sentence": "With an overall half-life of about 5 hours, the 5-mononitrate is cleared from the serum by denitration to isosorbide, glucuronidation to the 5-mononitrate glucuronide, and denitration/hydration to sorbitol"
+   },
+   {
+    "value": [
+     "2 hours"
+    ],
+    "sentence": "The 2-mononitrate has been less well studied, but it appears to participate in the same metabolic pathways, with a half-life of about 2 hours"
+   },
+   {
+    "value": [
+     "10 to 12 hours"
+    ],
+    "sentence": "Studies of nitroglycerin (an organic nitrate with a very short half-life) have shown that daily dose-free intervals of 10 to 12 hours are usually sufficient to minimize tolerance"
+   },
+   {
+    "value": [
+     "14 hours"
+    ],
+    "sentence": "Daily dose-free intervals that have succeeded in avoiding tolerance during trials of moderate doses (e.g., 30 mg) of immediate-release ISDN have generally been somewhat longer (at least 14 hours), but this is consistent with the longer half-lives of ISDN and its active metabolites"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "isosorbide-mononitrate": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "5%"
+    ],
+    "sentence": "Plasma protein binding of isosorbide mononitrate was found to be less than 5%"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "In patients undergoing continuous ambulatory peritoneal dialysis, blood levels are similar to patients not on dialysis"
+   }
+  ]
+ },
+ "ivabradine": {
+  "halfLife": [
+   {
+    "value": [
+     "2 hours",
+     "6 hours"
+    ],
+    "sentence": "Ivabradine plasma levels decline with a distribution half-life of 2 hours and an effective half-life of approximately 6 hours"
+   },
+   {
+    "value": [
+     "2 hours",
+     "6 hours"
+    ],
+    "sentence": "Ivabradine plasma levels decline with a distribution half-life of 2 hours and an effective half-life of approximately 6 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "70%"
+    ],
+    "sentence": "Corlanor should be taken with food [see Dosage and Administration ( 2 )] . Ivabradine is approximately 70% plasma protein bound, and the volume of distribution at steady state is approximately 100 L. Metabolism and Excretion The pharmacokinetics of ivabradine are linear over an oral dose range of 0.5 mg to 24 mg"
+   },
+   {
+    "value": [
+     "70%"
+    ],
+    "sentence": "Corlanor should be taken with food [see Dosage and Administration ( 2 )] . Ivabradine is approximately 70% plasma protein bound, and the volume of distribution at steady state is approximately 100 L. Metabolism and Excretion The pharmacokinetics of ivabradine are linear over an oral dose range of 0.5 mg to 24 mg"
+   }
+  ],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "ketamine": {
+  "halfLife": [
+   {
+    "value": [
+     "45 minutes",
+     "10 to 15 minutes"
+    ],
+    "sentence": "Respiratory System Ketamine is a potent bronchodilator suitable for anesthetizing patients at high risk for bronchospasm. 12.3 Pharmacokinetics Distribution Following intravenous administration, the ketamine concentration has an initial slope (alpha phase) lasting about 45 minutes with a half-life of 10 to 15 minutes"
+   },
+   {
+    "value": [
+     "2.5 hours",
+     "45 minutes",
+     "10 to 15 minutes"
+    ],
+    "sentence": "The redistribution half-life of ketamine from the CNS to slower equilibrating peripheral tissues (beta phase) is 2.5 hours. 12.3 Pharmacokinetics Distribution Following intravenous administration, the ketamine concentration has an initial slope (alpha phase) lasting about 45 minutes with a half-life of 10 to 15 minutes"
+   },
+   {
+    "value": [
+     "2.5 hours"
+    ],
+    "sentence": "The redistribution half-life of ketamine from the CNS to slower equilibrating peripheral tissues (beta phase) is 2.5 hours. 10 OVERDOSAGE Changes in heart rate and blood pressure, respiratory depression, and apnea may occur with overdosage or by a rapid rate of administration of KETALAR. Monitor patients for clinically relevant changes in heart rate and blood pressure"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "lacosamide": {
+  "renalHalfLife": []
+ },
+ "lamotrigine": {
+  "renalHalfLife": [
+   {
+    "value": [
+     "42.9 hours",
+     "13.0 hours",
+     "57.4 hours"
+    ],
+    "sentence": "The mean plasma half-lives determined in the study were 42.9 hours (chronic renal failure), 13.0 hours (during hemodialysis) and 57.4 hours (between hemodialysis) compared with 26.2 hours in healthy volunteers"
+   },
+   {
+    "value": [
+     "100 ± 48 hours",
+     "33 ± 7 hours"
+    ],
+    "sentence": "Mean half-lives of lamotrigine in subjects with mild, moderate, severe without ascites and severe with ascites hepatic impairment were 46 ± 20, 72 ± 44, 67 ± 11 and 100 ± 48 hours, respectively, as compared with 33 ± 7 hours in healthy controls [see Dosage and Administration (2.1) ] . Geriatric Patients: The pharmacokinetics of lamotrigine following a single 150-mg dose of immediate-release lamotrigine were evaluated in 12 elderly volunteers between the ages of 65 and 76 years (mean creatinine c"
+   },
+   {
+    "value": [
+     "42.9 hours",
+     "13.0 hours",
+     "57.4 hours"
+    ],
+    "sentence": "The mean plasma half-lives determined in the study were 42.9 hours (chronic renal failure), 13.0 hours (during hemodialysis) and 57.4 hours (between hemodialysis) compared with 26.2 hours in healthy volunteers"
+   },
+   {
+    "value": [
+     "100 ± 48 hours",
+     "33 ± 7 hours"
+    ],
+    "sentence": "Mean half-lives of lamotrigine in subjects with mild, moderate, severe without ascites and severe with ascites hepatic impairment were 46 ± 20, 72 ± 44, 67 ± 11 and 100 ± 48 hours, respectively, as compared with 33 ± 7 hours in healthy controls [see Dosage and Administration (2.1) ] . Geriatric Patients: The pharmacokinetics of lamotrigine following a single 150-mg dose of immediate-release lamotrigine were evaluated in 12 elderly volunteers between the ages of 65 and 76 years (mean creatinine c"
+   }
+  ],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.9 to 1.3 L/kg"
+    ],
+    "sentence": "Distribution Estimates of the mean apparent volume of distribution (Vd/F) of lamotrigine following oral administration ranged from 0.9 to 1.3 L/kg"
+   },
+   {
+    "value": [
+     "0.9 to 1.3 L/kg"
+    ],
+    "sentence": "Distribution Estimates of the mean apparent volume of distribution (Vd/F) of lamotrigine following oral administration ranged from 0.9 to 1.3 L/kg"
+   }
+  ]
+ },
+ "lanthanum-carbonate": {
+  "halfLife": [
+   {
+    "value": [
+     "53 hours"
+    ],
+    "sentence": "Lanthanum was cleared from plasma of patients undergoing dialysis with an elimination half-life of 53 hours following discontinuation of therapy"
+   },
+   {
+    "value": [
+     "53 hours"
+    ],
+    "sentence": "Lanthanum was cleared from plasma of patients undergoing dialysis with an elimination half-life of 53 hours following discontinuation of therapy"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "99%"
+    ],
+    "sentence": "In vitro , lanthanum is highly bound (>99%) to human plasma proteins, including human serum albumin, α1-acid glycoprotein, and transferrin"
+   },
+   {
+    "value": [
+     "99%"
+    ],
+    "sentence": "In vitro , lanthanum is highly bound (>99%) to human plasma proteins, including human serum albumin, α1-acid glycoprotein, and transferrin"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Lanthanum was cleared from plasma of patients undergoing dialysis with an elimination half-life of 53 hours following discontinuation of therapy"
+   },
+   {
+    "value": null,
+    "sentence": "Lanthanum was cleared from plasma of patients undergoing dialysis with an elimination half-life of 53 hours following discontinuation of therapy"
+   }
+  ],
+  "dial-pd": []
+ },
+ "levofloxacin": {
+  "renalHalfLife": []
+ },
+ "levothyroxine": {
+  "halfLife": [
+   {
+    "value": [
+     "3 to 4 days",
+     "9 to 10 days"
+    ],
+    "sentence": "Pharmacokinetic Parameters of Thyroid Hormones in Euthyroid Patients Hormone Ratio in Thyroglobulin Biologic Potency t 1/2 (days) Protein Binding (%)* Levothyroxine (T4) 10 - 20 1 6-7** 99.96 Liothyronine (T3) 1 4 ≤ 2 99.5 * Includes TBG, TBPA, and TBA ** 3 to 4 days in hyperthyroidism, 9 to 10 days in hypothyroidism 12.3 Pharmacokinetics Absorption Absorption of orally administered T4 from the gastrointestinal tract ranges from 40% to 80%"
+   },
+   {
+    "value": [
+     "3 to 4 days",
+     "9 to 10 days"
+    ],
+    "sentence": "Pharmacokinetic Parameters of Thyroid Hormones in Euthyroid Patients Hormone Ratio in Thyroglobulin Biologic Potency t 1/2 (days) Protein Binding (%)* Levothyroxine (T4) 10 - 20 1 6-7** 99.96 Liothyronine (T3) 1 4 ≤ 2 99.5 * Includes TBG, TBPA, and TBA ** 3 to 4 days in hyperthyroidism, 9 to 10 days in hypothyroidism 10 OVERDOSAGE The signs and symptoms of overdosage are those of hyperthyroidism [see Warnings and Precautions ( 5 ) and Adverse Reactions ( 6 ) ] . In addition, confusion and disori"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "linezolid": {
+  "halfLife": [
+   {
+    "value": [
+     "12 Hours",
+     "14.5 Days"
+    ],
+    "sentence": "Mean (Standard Deviation) AUCs and Elimination Half-lives of Linezolid and Metabolites A and B in Subjects with End-Stage Renal Disease (ESRD) After the Administration of 600 mg Linezolid Every 12 Hours for 14.5 Days Parameter ESRD Subjects between hemodialysis sessions LINEZOLID AUC 0–12 , mcg h/mL (after last dose) 181 (52.3) t 1/2 , h (after last dose) 8.3 (2.4) METABOLITE A AUC 0–12 , mcg h/mL (after last dose) 153 (40.6) t 1/2 , h (after last dose) 15.9 (8.5) METABOLITE B Metabolite B is th"
+   },
+   {
+    "value": [
+     "12 Hours",
+     "14.5 Days"
+    ],
+    "sentence": "Mean (Standard Deviation) AUCs and Elimination Half-lives of Linezolid and Metabolites A and B in Subjects with End-Stage Renal Disease (ESRD) After the Administration of 600 mg Linezolid Every 12 Hours for 14.5 Days Parameter ESRD Subjects between hemodialysis sessions LINEZOLID AUC 0–12 , mcg h/mL (after last dose) 181 (52.3) t 1/2 , h (after last dose) 8.3 (2.4) METABOLITE A AUC 0–12 , mcg h/mL (after last dose) 153 (40.6) t 1/2 , h (after last dose) 15.9 (8.5) METABOLITE B Metabolite B is th"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "12 Hours",
+     "14.5 Days"
+    ],
+    "sentence": "Mean (Standard Deviation) AUCs and Elimination Half-lives of Linezolid and Metabolites A and B in Subjects with End-Stage Renal Disease (ESRD) After the Administration of 600 mg Linezolid Every 12 Hours for 14.5 Days Parameter ESRD Subjects between hemodialysis sessions LINEZOLID AUC 0–12 , mcg h/mL (after last dose) 181 (52.3) t 1/2 , h (after last dose) 8.3 (2.4) METABOLITE A AUC 0–12 , mcg h/mL (after last dose) 153 (40.6) t 1/2 , h (after last dose) 15.9 (8.5) METABOLITE B Metabolite B is th"
+   },
+   {
+    "value": [
+     "12 Hours",
+     "14.5 Days"
+    ],
+    "sentence": "Mean (Standard Deviation) AUCs and Elimination Half-lives of Linezolid and Metabolites A and B in Subjects with End-Stage Renal Disease (ESRD) After the Administration of 600 mg Linezolid Every 12 Hours for 14.5 Days Parameter ESRD Subjects between hemodialysis sessions LINEZOLID AUC 0–12 , mcg h/mL (after last dose) 181 (52.3) t 1/2 , h (after last dose) 8.3 (2.4) METABOLITE A AUC 0–12 , mcg h/mL (after last dose) 153 (40.6) t 1/2 , h (after last dose) 15.9 (8.5) METABOLITE B Metabolite B is th"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "No information is available on the effect of peritoneal dialysis on the pharmacokinetics of linezolid"
+   },
+   {
+    "value": null,
+    "sentence": "No information is available on the effect of peritoneal dialysis on the pharmacokinetics of linezolid"
+   },
+   {
+    "value": null,
+    "sentence": "Data are not available for removal of linezolid with peritoneal dialysis or hemoperfusion"
+   }
+  ]
+ },
+ "liothyronine": {
+  "halfLife": [
+   {
+    "value": [
+     "2 days",
+     "4 hours"
+    ],
+    "sentence": "The biological half-life is about 2-1/2 days. 12.3 Pharmacokinetics Absorption T3 is almost totally absorbed, 95 percent in 4 hours"
+   },
+   {
+    "value": [
+     "2 days"
+    ],
+    "sentence": "The biological half-life is about 2-1/2 days. 10 OVERDOSAGE The signs and symptoms of overdosage are those of hyperthyroidism [see Warnings and Precautions (5.4) and Adverse Reactions (6) ] . In addition, confusion and disorientation may occur"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "lorazepam": {
+  "halfLife": [
+   {
+    "value": [
+     "12 hours",
+     "18 hours"
+    ],
+    "sentence": "The peak plasma level of lorazepam from a 2 mg dose is approximately 20 ng/mL. The mean half-life of unconjugated lorazepam in human plasma is about 12 hours and for its major metabolite, lorazepam glucuronide, about 18 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": []
+ },
+ "memantine": {
+  "renalHalfLife": []
+ },
+ "meropenem": {
+  "halfLife": [
+   {
+    "value": [
+     "1.5 hours"
+    ],
+    "sentence": "The elimination half-life for meropenem was approximately 1.5 hours in pediatric patients of age 3 months to 2 years"
+   },
+   {
+    "value": [
+     "1.5 hours"
+    ],
+    "sentence": "The elimination half-life for meropenem was approximately 1.5 hours in pediatric patients of age 3 months to 2 years"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-pd": []
+ },
+ "mesalazine": {
+  "halfLife": [
+   {
+    "value": [
+     "9 to 10 hours",
+     "12 to 14 hours"
+    ],
+    "sentence": "Excretion Following single and multiple doses of mesalamine extended-release capsules, the mean half-lives were 9 to 10 hours for 5-ASA, and 12 to 14 hours for N-Ac-5-ASA. Of the approximately 32% of the dose absorbed, about 2% of the dose was excreted unchanged in the urine, compared with about 30% of the dose excreted as N-Ac-5-ASA. Drug Interaction Studies In an in vitro study using human liver microsomes, 5-ASA and its metabolite, N-Ac-5-ASA, were shown not to inhibit the major CYP enzymes e"
+   },
+   {
+    "value": [
+     "9 to 10 hours",
+     "12 to 14 hours"
+    ],
+    "sentence": "Excretion Following single and multiple doses of mesalamine extended-release capsules, the mean half-lives were 9 to 10 hours for 5-ASA, and 12 to 14 hours for N-Ac-5-ASA. Of the approximately 32% of the dose absorbed, about 2% of the dose was excreted unchanged in the urine, compared with about 30% of the dose excreted as N-Ac-5-ASA. Drug Interaction Studies In an in vitro study using human liver microsomes, 5-ASA and its metabolite, N-Ac-5-ASA, were shown not to inhibit the major CYP enzymes e"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "methadone": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "1.0 to 8.0 L/kg"
+    ],
+    "sentence": "Distribution Methadone is a lipophilic drug and the steady-state volume of distribution ranges between 1.0 to 8.0 L/kg"
+   },
+   {
+    "value": [
+     "1.0 to 8.0 L/kg"
+    ],
+    "sentence": "Distribution Methadone is a lipophilic drug and the steady-state volume of distribution ranges between 1.0 to 8.0 L/kg"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "85%",
+     "90%"
+    ],
+    "sentence": "In plasma, methadone is predominantly bound to α1-acid glycoprotein (85% to 90%)"
+   },
+   {
+    "value": [
+     "85%",
+     "90%"
+    ],
+    "sentence": "In plasma, methadone is predominantly bound to α1-acid glycoprotein (85% to 90%)"
+   }
+  ]
+ },
+ "methylprednisolone": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "metolazone": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Dialysis is not likely to be effective"
+   }
+  ],
+  "dial-pd": []
+ },
+ "metronidazole": {
+  "halfLife": [
+   {
+    "value": [
+     "3 days"
+    ],
+    "sentence": "The elimination half-life, measured during the first 3 days of life, was inversely related to gestational age"
+   },
+   {
+    "value": [
+     "109 to 22.5 hours"
+    ],
+    "sentence": "In infants whose gestational ages were between 28 and 40 weeks, the corresponding elimination half-lives ranged from 109 to 22.5 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "20%"
+    ],
+    "sentence": "Less than 20% of the circulating metronidazole is bound to plasma proteins"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Effect of Dialysis Following a single intravenous infusion or oral dose of metronidazole 500 mg, the clearance of metronidazole was investigated in ESRD subjects undergoing hemodialysis or continuous ambulatory peritoneal dialysis (CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "A peritoneal dialysis session lasting for 7.5 hours removed approximately 10% of the administered metronidazole dose"
+   },
+   {
+    "value": null,
+    "sentence": "No adjustment in metronidazole dose is needed in ESRD patients undergoing CAPD. Hepatic Impairment Following a single intravenous infusion of 500 mg metronidazole, the mean AUC24 of metronidazole was higher by 114% in patients with severe (Child-Pugh C) hepatic impairment, and by 54% and 53% in patients with mild (Child-Pugh A) and moderate (Child-Pugh B) hepatic impairment, respectively, compared to healthy control subjects"
+   }
+  ]
+ },
+ "midazolam": {
+  "halfLife": [
+   {
+    "value": [
+     "1.8 to 6.4 hours",
+     "3 hours"
+    ],
+    "sentence": "Six single-dose pharmacokinetic studies involving healthy adults yield pharmacokinetic parameters for midazolam in the following ranges: volume of distribution (Vd), 1.0 to 3.1 L/kg; elimination half-life, 1.8 to 6.4 hours (mean approximately 3 hours); total clearance (Cl), 0.25 to 0.54 L/hr/kg"
+   },
+   {
+    "value": [
+     "0.78 to 3.3 hours"
+    ],
+    "sentence": "Weight-normalized clearance is similar or higher (0.19 to 0.80 L/hr/kg) than in adults and the terminal elimination half-life (0.78 to 3.3 hours) is similar to or shorter than in adults"
+   },
+   {
+    "value": [
+     "6.5 to 12.0 hours"
+    ],
+    "sentence": "In seriously ill neonates, however, the terminal elimination half-life of midazolam is substantially prolonged (6.5 to 12.0 hours) and the clearance reduced (0.07 to 0.12 L/hr/kg) compared to healthy adults or other groups of pediatric patients"
+   },
+   {
+    "value": [
+     "2.3 hours"
+    ],
+    "sentence": "Obese : In a study comparing normals (n=20) and obese patients (n=20) the mean half-life was greater in the obese group (5.9 vs 2.3 hours)"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "1.0 to 3.1 L/kg",
+     "0.25 to 0.54 L"
+    ],
+    "sentence": "Six single-dose pharmacokinetic studies involving healthy adults yield pharmacokinetic parameters for midazolam in the following ranges: volume of distribution (Vd), 1.0 to 3.1 L/kg; elimination half-life, 1.8 to 6.4 hours (mean approximately 3 hours); total clearance (Cl), 0.25 to 0.54 L/hr/kg"
+   },
+   {
+    "value": [
+     "1.0 to 3.1 L/kg"
+    ],
+    "sentence": "Distribution : The volume of distribution (Vd) determined from six single-dose pharmacokinetic studies involving healthy adults ranged from 1.0 to 3.1 L/kg"
+   },
+   {
+    "value": [
+     "1.0 to 3.1 L/kg",
+     "0.25 to 0.54 L"
+    ],
+    "sentence": "Six single-dose pharmacokinetic studies involving healthy adults yield pharmacokinetic parameters for midazolam in the following ranges: volume of distribution (Vd), 1.0 to 3.1 L/kg; elimination half-life, 1.8 to 6.4 hours (mean approximately 3 hours); total clearance (Cl), 0.25 to 0.54 L/hr/kg"
+   },
+   {
+    "value": [
+     "1.0 to 3.1 L/kg"
+    ],
+    "sentence": "Distribution : The volume of distribution (Vd) determined from six single-dose pharmacokinetic studies involving healthy adults ranged from 1.0 to 3.1 L/kg"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "97%",
+     "89%"
+    ],
+    "sentence": "In adults and pediatric patients older than 1 year, midazolam is approximately 97% bound to plasma protein, principally albumin and that for 1-hydroxy metabolite is about 89%"
+   },
+   {
+    "value": [
+     "97%",
+     "89%"
+    ],
+    "sentence": "In adults and pediatric patients older than 1 year, midazolam is approximately 97% bound to plasma protein, principally albumin and that for 1-hydroxy metabolite is about 89%"
+   }
+  ]
+ },
+ "midodrine": {
+  "halfLife": [
+   {
+    "value": [
+     "25 minutes",
+     "1 to 2 hours",
+     "3 to 4 hours"
+    ],
+    "sentence": "The plasma levels of the prodrug peak after about half an hour, and decline with a half-life of approximately 25 minutes, while the metabolite reaches peak blood concentrations about 1 to 2 hours after a dose of midodrine and has a half-life of about 3 to 4 hours"
+   },
+   {
+    "value": [
+     "25 minutes",
+     "1 to 2 hours",
+     "3 to 4 hours"
+    ],
+    "sentence": "The plasma levels of the prodrug peak after about half an hour, and decline with a half-life of approximately 25 minutes, while the metabolite reaches peak blood concentrations about 1 to 2 hours after a dose of midodrine and has a half-life of about 3 to 4 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "minocycline": {
+  "halfLife": [
+   {
+    "value": [
+     "15 hours"
+    ],
+    "sentence": "Elimination: The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours independent of fasting and fed dosing condition. 12.3 Pharmacokinetics EMROSI is not bioequivalent to any other minocycline products"
+   },
+   {
+    "value": [
+     "15 hours"
+    ],
+    "sentence": "Elimination: The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours independent of fasting and fed dosing condition. 10 OVERDOSAGE Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis"
+   }
+  ],
+  "renalHalfLife": [
+   {
+    "value": [
+     "15 hours"
+    ],
+    "sentence": "Elimination: The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours independent of fasting and fed dosing condition. 10 OVERDOSAGE Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis"
+   }
+  ],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "minoxidil-systemic": {
+  "halfLife": [
+   {
+    "value": [
+     "4.2 hours"
+    ],
+    "sentence": "The average plasma half-life in man is 4.2 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "mirtazapine": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "misoprostol": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-pd": []
+ },
+ "morphine": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "1.0 to 4.7 L/kg"
+    ],
+    "sentence": "Distribution : Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage . Protein binding is low, about 36%, and muscle tissue binding is reported as 54%"
+   },
+   {
+    "value": [
+     "1.0 to 4.7 L/kg"
+    ],
+    "sentence": "Distribution : Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage . Protein binding is low, about 36%, and muscle tissue binding is reported as 54%"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "36%",
+     "54%"
+    ],
+    "sentence": "Distribution : Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage . Protein binding is low, about 36%, and muscle tissue binding is reported as 54%"
+   },
+   {
+    "value": [
+     "36%",
+     "54%"
+    ],
+    "sentence": "Distribution : Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage . Protein binding is low, about 36%, and muscle tissue binding is reported as 54%"
+   }
+  ]
+ },
+ "moxifloxacin": {
+  "renalHalfLife": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "No dosage adjustment is necessary in patients with renal impairment, including those patients requiring hemodialysis (HD) or continuous ambulatory peritoneal dialysis (CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "The pharmacokinetics of single dose and multiple dose moxifloxacin were studied in patients with CL CR <20 mL/min on either hemodialysis or continuous ambulatory peritoneal dialysis (8 HD, 8 CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "No dosage adjustment is necessary in patients with renal impairment, including those patients requiring hemodialysis (HD) or continuous ambulatory peritoneal dialysis (CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "The pharmacokinetics of single dose and multiple dose moxifloxacin were studied in patients with CL CR <20 mL/min on either hemodialysis or continuous ambulatory peritoneal dialysis (8 HD, 8 CAPD)"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "No dosage adjustment is necessary in patients with renal impairment, including those patients requiring hemodialysis (HD) or continuous ambulatory peritoneal dialysis (CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "The pharmacokinetics of single dose and multiple dose moxifloxacin were studied in patients with CL CR <20 mL/min on either hemodialysis or continuous ambulatory peritoneal dialysis (8 HD, 8 CAPD)"
+   },
+   {
+    "value": null,
+    "sentence": "Following a single 400 mg oral dose, the AUC of moxifloxacin in these HD and CAPD patients did not vary significantly from the AUC generally found in healthy volunteers"
+   },
+   {
+    "value": null,
+    "sentence": "C max values of moxifloxacin were reduced by about 45% and 33% in HD and CAPD patients, respectively, compared to healthy, historical controls"
+   }
+  ]
+ },
+ "nebivolol": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "No studies have been conducted in patients on dialysis [see Dosage and Administration ( 2.1 )]. 12.5 Drug-Drug Interactions Drugs that inhibit CYP2D6 can be expected to increase plasma levels of nebivolol"
+   },
+   {
+    "value": null,
+    "sentence": "Because of extensive drug binding to plasma proteins, hemodialysis is not expected to enhance nebivolol clearance"
+   },
+   {
+    "value": null,
+    "sentence": "Nebivolol tablets have not been studied in patients receiving dialysis [see Clinical Pharmacology ( 12.4 ) and Dosage and Administration ( 2.1 )] . 5.11 Impaired Hepatic Function Metabolism of nebivolol is decreased in patients with moderate hepatic impairment"
+   },
+   {
+    "value": null,
+    "sentence": "Nebivolol tablets have not been studied in patients receiving dialysis [see Clinical Pharmacology ( 12.4 )]"
+   }
+  ],
+  "dial-pd": []
+ },
+ "nicardipine": {
+  "halfLife": [
+   {
+    "value": [
+     "24 hours"
+    ],
+    "sentence": "In a clinical study with oral nicardipine in patients with severe liver disease, plasma concentrations were elevated and the half-life was prolonged [see Warnings and Precautions (5.3) ] . Similar results were obtained in patients with hepatic disease when CARDENE I.V. (nicardipine hydrochloride) was administered for 24 hours at 0.6 mg/hr"
+   },
+   {
+    "value": [
+     "2.7 minutes",
+     "44.8 minutes",
+     "14.4 hours"
+    ],
+    "sentence": "Following infusion, nicardipine plasma concentrations decline tri-exponentially, with a rapid early distribution phase (α-half-life of 2.7 minutes), an intermediate phase (β-half-life of 44.8 minutes), and a slow terminal phase (γ-half-life of 14.4 hours) that can only be detected after long-term infusions"
+   },
+   {
+    "value": [
+     "2.7 minutes",
+     "44.8 minutes",
+     "14.4 hours"
+    ],
+    "sentence": "Following infusion, nicardipine plasma concentrations decline tri-exponentially, with a rapid early distribution phase (α-half-life of 2.7 minutes), an intermediate phase (β-half-life of 44.8 minutes), and a slow terminal phase (γ-half-life of 14.4 hours) that can only be detected after long-term infusions"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.4 L",
+     "8.3 L/kg"
+    ],
+    "sentence": "Total plasma clearance (Cl) is 0.4 L/hr•kg, and the apparent volume of distribution (V d ) using a non-compartment model is 8.3 L/kg"
+   },
+   {
+    "value": [
+     "0.4 L",
+     "8.3 L/kg"
+    ],
+    "sentence": "Total plasma clearance (Cl) is 0.4 L/hr•kg, and the apparent volume of distribution (V d ) using a non-compartment model is 8.3 L/kg"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "95%"
+    ],
+    "sentence": "Nicardipine is highly protein bound (>95%) in human plasma over a wide concentration range"
+   },
+   {
+    "value": [
+     "95%"
+    ],
+    "sentence": "Nicardipine is highly protein bound (>95%) in human plasma over a wide concentration range"
+   }
+  ],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "nitroglycerin": {
+  "renalHalfLife": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "nystatin": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "olanzapine": {
+  "renalHalfLife": [],
+  "dial-pd": []
+ },
+ "olmesartan": {
+  "renalHalfLife": [],
+  "dial-pd": []
+ },
+ "oxcarbazepine": {
+  "proteinBinding": [
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "Distribution The apparent volume of distribution of MHD is 49 L. Approximately 40% of MHD is bound to serum proteins, predominantly to albumin"
+   },
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "As binding of MHD to plasma proteins is low (40%), clinically significant interactions with other drugs through competition for protein binding sites are unlikely. • In Vivo Other Antiepileptic Drugs Potential interactions between oxcarbazepine and other AEDs were assessed in clinical studies"
+   },
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "Distribution The apparent volume of distribution of MHD is 49 L. Approximately 40% of MHD is bound to serum proteins, predominantly to albumin"
+   },
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "As binding of MHD to plasma proteins is low (40%), clinically significant interactions with other drugs through competition for protein binding sites are unlikely. • In Vivo Other Antiepileptic Drugs Potential interactions between oxcarbazepine and other AEDs were assessed in clinical studies"
+   }
+  ]
+ },
+ "oxycodone": {
+  "halfLife": [
+   {
+    "value": [
+     "3.5 to 4 hours"
+    ],
+    "sentence": "Apparent elimination half-life of oxycodone following the administration of oxycodone HCl was 3.5 to 4 hours"
+   },
+   {
+    "value": [
+     "3.5 to 4 hours"
+    ],
+    "sentence": "Apparent elimination half-life of oxycodone following the administration of oxycodone HCl was 3.5 to 4 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "2.6 L/kg"
+    ],
+    "sentence": "Distribution Following intravenous administration, the volume of distribution (Vss) for oxycodone was 2.6 L/kg"
+   },
+   {
+    "value": [
+     "2.6 L/kg"
+    ],
+    "sentence": "Distribution Following intravenous administration, the volume of distribution (Vss) for oxycodone was 2.6 L/kg"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "45%"
+    ],
+    "sentence": "Plasma protein binding of oxycodone at 37°C and a pH of 7.4 was about 45%"
+   },
+   {
+    "value": [
+     "45%"
+    ],
+    "sentence": "Plasma protein binding of oxycodone at 37°C and a pH of 7.4 was about 45%"
+   }
+  ]
+ },
+ "palonosetron": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "62%"
+    ],
+    "sentence": "Approximately 62% of palonosetron is bound to plasma proteins"
+   },
+   {
+    "value": [
+     "62%"
+    ],
+    "sentence": "Approximately 62% of palonosetron is bound to plasma proteins"
+   }
+  ],
+  "dial-pd": []
+ },
+ "paricalcitol": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "34 L",
+     "44 and 46 L"
+    ],
+    "sentence": "The mean apparent volume of distribution following a 0.24 mcg/kg dose of paricalcitol in healthy adult volunteers was 34 L. The mean apparent volume of distribution following a 4 mcg dose of paricalcitol in CKD Stage 3 and a 3 mcg dose in CKD Stage 4 patients is between 44 and 46 L. Metabolism After oral administration of a 0.48 mcg/kg dose of 3 H-paricalcitol, parent drug was extensively metabolized, with only about 2% of the dose eliminated unchanged in the feces, and no parent drug was found "
+   },
+   {
+    "value": [
+     "34 L",
+     "44 and 46 L"
+    ],
+    "sentence": "The mean apparent volume of distribution following a 0.24 mcg/kg dose of paricalcitol in healthy adult volunteers was 34 L. The mean apparent volume of distribution following a 4 mcg dose of paricalcitol in CKD Stage 3 and a 3 mcg dose in CKD Stage 4 patients is between 44 and 46 L. Metabolism After oral administration of a 0.48 mcg/kg dose of 3 H-paricalcitol, parent drug was extensively metabolized, with only about 2% of the dose eliminated unchanged in the feces, and no parent drug was found "
+   }
+  ],
+  "dial-pd": []
+ },
+ "pethidine-meperidine": {
+  "halfLife": [
+   {
+    "value": [
+     "2 to 5 hours",
+     "15 to 30 hours"
+    ],
+    "sentence": "In opioid-tolerant patients, the situation may be altered by the development of tolerance to opioid-related adverse reactions [see Dosage and Administration (2.1 , 2.2) ] . 12.3 Pharmacokinetics Elimination The half-life of meperidine is 2 to 5 hours, and the half-life of normeperidine is 15 to 30 hours"
+   },
+   {
+    "value": [
+     "3 to 8 hours"
+    ],
+    "sentence": "Specific Population Hepatic Impairment The elimination half-life is 3 to 8 hours in healthy volunteers and is 1.3 to 2 times greater in post‑operative or cirrhotic patients"
+   },
+   {
+    "value": [
+     "3 to 8 hours"
+    ],
+    "sentence": "Specific Population Hepatic Impairment The elimination half-life is 3 to 8 hours in healthy volunteers and is 1.3 to 2 times greater in post‑operative or cirrhotic patients"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "phenobarbital": {
+  "halfLife": [
+   {
+    "value": [
+     "53 and 118 hours",
+     "79 hours"
+    ],
+    "sentence": "The plasma half-life for phenobarbital in adults ranges between 53 and 118 hours with a mean of 79 hours"
+   },
+   {
+    "value": [
+     "48 hours",
+     "60 to 180 hours",
+     "110 hours"
+    ],
+    "sentence": "The plasma half-life for phenobarbital in children and newborns (less than 48 hours old) ranges between 60 to 180 hours with a mean of 110 hours"
+   },
+   {
+    "value": [
+     "53 and 118 hours",
+     "79 hours"
+    ],
+    "sentence": "The plasma half-life for phenobarbital in adults ranges between 53 and 118 hours with a mean of 79 hours"
+   },
+   {
+    "value": [
+     "48 hours",
+     "60 to 180 hours",
+     "110 hours"
+    ],
+    "sentence": "The plasma half-life for phenobarbital in children and newborns (less than 48 hours old) ranges between 60 to 180 hours with a mean of 110 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "phenytoin": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": []
+ },
+ "pioglitazone": {
+  "halfLife": [
+   {
+    "value": [
+     "16 to 24 hours"
+    ],
+    "sentence": "The mean serum half-life (t 1/2 ) of pioglitazone and its metabolites (M-III and M-IV) range from three to seven hours and 16 to 24 hours, respectively"
+   },
+   {
+    "value": [
+     "16 to 24 hours"
+    ],
+    "sentence": "The mean serum half-life (t 1/2 ) of pioglitazone and its metabolites (M-III and M-IV) range from three to seven hours and 16 to 24 hours, respectively"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "99%"
+    ],
+    "sentence": "Pioglitazone is extensively protein bound (>99%) in human serum, principally to serum albumin"
+   },
+   {
+    "value": [
+     "98%"
+    ],
+    "sentence": "M-III and M-IV are also extensively bound (>98%) to serum albumin"
+   },
+   {
+    "value": [
+     "99%"
+    ],
+    "sentence": "Pioglitazone is extensively protein bound (>99%) in human serum, principally to serum albumin"
+   },
+   {
+    "value": [
+     "98%"
+    ],
+    "sentence": "M-III and M-IV are also extensively bound (>98%) to serum albumin"
+   }
+  ],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "piperacillin-tazobactam": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": []
+ },
+ "pramipexole": {
+  "halfLife": [
+   {
+    "value": [
+     "8 hours",
+     "12 hours"
+    ],
+    "sentence": "Its terminal half-life is about 8 hours in young healthy volunteers and about 12 hours in elderly volunteers"
+   },
+   {
+    "value": [
+     "8 hours",
+     "12 hours"
+    ],
+    "sentence": "Its terminal half-life is about 8 hours in young healthy volunteers and about 12 hours in elderly volunteers"
+   },
+   {
+    "value": [
+     "8.5 hours",
+     "12 hours"
+    ],
+    "sentence": "This resulted in an increase in elimination half-life from approximately 8.5 hours to 12 hours"
+   }
+  ],
+  "renalHalfLife": []
+ },
+ "prazosin": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "prednisolone": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "prochlorperazine": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-pd": []
+ },
+ "promethazine": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Limited experience with dialysis indicates that it is not helpful"
+   }
+  ],
+  "dial-pd": []
+ },
+ "propafenone": {
+  "halfLife": [
+   {
+    "value": [
+     "5 minutes"
+    ],
+    "sentence": "The average distribution half-life corresponding to the first phase was about 5 minutes"
+   },
+   {
+    "value": [
+     "10 to 32 hours"
+    ],
+    "sentence": "In these patients, the estimated propafenone elimination half-life ranges from 10 to 32 hours"
+   },
+   {
+    "value": [
+     "3 to 8 hours"
+    ],
+    "sentence": "The clearance of propafenone is reduced and the elimination half-life increased in patients with significant hepatic dysfunction [ see Warnings and Precautions (5.9) ]. 12.3 Pharmacokinetics Absorption/Bioavailability Maximal plasma levels of propafenone are reached between 3 to 8 hours following the administration of propafenone hydrochloride extended-release capsules"
+   },
+   {
+    "value": [
+     "5 minutes"
+    ],
+    "sentence": "The average distribution half-life corresponding to the first phase was about 5 minutes"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "88 liters",
+     "1.1 L/kg",
+     "252 liters"
+    ],
+    "sentence": "The volume of the central compartment was about 88 liters (1.1 L/kg) and the total volume of distribution about 252 liters"
+   },
+   {
+    "value": [
+     "88 liters",
+     "1.1 L/kg",
+     "252 liters"
+    ],
+    "sentence": "The volume of the central compartment was about 88 liters (1.1 L/kg) and the total volume of distribution about 252 liters"
+   }
+  ],
+  "dial-pd": []
+ },
+ "quetiapine": {
+  "halfLife": [
+   {
+    "value": [
+     "6 hours"
+    ],
+    "sentence": "Elimination of quetiapine is mainly via hepatic metabolism with a mean terminal half-life of about 6 hours within the proposed clinical dose range"
+   },
+   {
+    "value": [
+     "6 hours"
+    ],
+    "sentence": "Elimination of quetiapine is mainly via hepatic metabolism with a mean terminal half-life of about 6 hours within the proposed clinical dose range"
+   }
+  ],
+  "renalHalfLife": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "repaglinide": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "98%"
+    ],
+    "sentence": "Protein binding and binding to human serum albumin was greater than 98%"
+   },
+   {
+    "value": [
+     "98%"
+    ],
+    "sentence": "Protein binding and binding to human serum albumin was greater than 98%"
+   }
+  ],
+  "dial-pd": []
+ },
+ "rifampicin": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Haemodialysis may be of value in some patients"
+   }
+  ],
+  "dial-pd": []
+ },
+ "rivastigmine": {
+  "halfLife": [
+   {
+    "value": [
+     "1.5 hours"
+    ],
+    "sentence": "The elimination half-life is about 1.5 hours, with most elimination as metabolites via the urine"
+   },
+   {
+    "value": [
+     "1.5 hours"
+    ],
+    "sentence": "The elimination half-life is about 1.5 hours, with most elimination as metabolites via the urine"
+   },
+   {
+    "value": [
+     "1 hour",
+     "8 to 10 hours",
+     "24 hours"
+    ],
+    "sentence": "As rivastigmine has a short plasma half-life of about 1 hour and a moderate duration of acetylcholinesterase inhibition of 8 to 10 hours, it is recommended that in cases of asymptomatic overdoses, no further dose of rivastigmine tartrate should be administered for the next 24 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "1.8 to 2.7 L/kg"
+    ],
+    "sentence": "It has an apparent volume of distribution (V D ) in the range of 1.8 to 2.7 L/kg"
+   },
+   {
+    "value": [
+     "1.8 to 2.7 L/kg"
+    ],
+    "sentence": "It has an apparent volume of distribution (V D ) in the range of 1.8 to 2.7 L/kg"
+   }
+  ]
+ },
+ "ropinirole": {
+  "renalHalfLife": []
+ },
+ "salbutamol-albuterol": {
+  "halfLife": [
+   {
+    "value": [
+     "4.6 hours"
+    ],
+    "sentence": "Apparent terminal plasma half-life of albuterol is approximately 4.6 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage of Albuterol Sulfate HFA. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to asthma medications during pregnancy"
+   }
+  ],
+  "dial-pd": []
+ },
+ "sertraline": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "In volunteers with mild to moderate (CLcr=30 to 60 mL/min), moderate to severe (CLcr = 10 to 29 mL/min) or severe (receiving hemodialysis) renal impairment (N=10 each group), the pharmacokinetics and protein binding of 200 mg sertraline per day maintained for 21 days were not altered compared to age-matched volunteers (N=12) with no renal impairment"
+   },
+   {
+    "value": null,
+    "sentence": "In volunteers with mild to moderate (CLcr=30 to 60 mL/min), moderate to severe (CLcr = 10 to 29 mL/min) or severe (receiving hemodialysis) renal impairment (N=10 each group), the pharmacokinetics and protein binding of 200 mg sertraline per day maintained for 21 days were not altered compared to age-matched volunteers (N=12) with no renal impairment"
+   }
+  ],
+  "dial-pd": []
+ },
+ "sodium-bicarbonate": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "sulfasalazine": {
+  "halfLife": [
+   {
+    "value": [
+     "7.6 ± 3.4 hrs"
+    ],
+    "sentence": "The observed plasma half-life for intravenous sulfasalazine is 7.6 ± 3.4 hrs"
+   },
+   {
+    "value": [
+     "10.4 hrs",
+     "14.8 hrs"
+    ],
+    "sentence": "In fast acetylators, the mean plasma half-life of SP is 10.4 hrs, while in slow acetylators it is 14.8 hrs"
+   },
+   {
+    "value": [
+     "14.8 hrs",
+     "10.4 hrs"
+    ],
+    "sentence": "These subjects will display a prolonged plasma half-life for SP (14.8 hrs vs. 10.4 hrs) and an accumulation of higher plasma levels of SP than fast acetylators"
+   },
+   {
+    "value": [
+     "7.6 ± 3.4 hrs"
+    ],
+    "sentence": "The observed plasma half-life for intravenous sulfasalazine is 7.6 ± 3.4 hrs"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "7.5 ± 1.6 L"
+    ],
+    "sentence": "Distribution: Following intravenous injection, the calculated volume of distribution (Vdss) for SSZ was 7.5 ± 1.6 L. SSZ is highly bound to albumin (>99.3%), while SP is only about 70% bound to albumin"
+   },
+   {
+    "value": [
+     "7.5 ± 1.6 L"
+    ],
+    "sentence": "Distribution: Following intravenous injection, the calculated volume of distribution (Vdss) for SSZ was 7.5 ± 1.6 L. SSZ is highly bound to albumin (>99.3%), while SP is only about 70% bound to albumin"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "The low molecular weight of sulfasalazine and its metabolites may facilitate their removal by dialysis"
+   }
+  ],
+  "dial-pd": []
+ },
+ "sumatriptan": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "50 ± 8 liters"
+    ],
+    "sentence": "Following a 6-mg subcutaneous injection into the deltoid area of the arm in 9 males (mean age: 33 years, mean weight: 77 kg) the volume of distribution central compartment of sumatriptan was 50 ± 8 liters and the distribution half-life was 15 ± 2 minutes"
+   },
+   {
+    "value": [
+     "50 ± 8 liters"
+    ],
+    "sentence": "Following a 6-mg subcutaneous injection into the deltoid area of the arm in 9 males (mean age: 33 years, mean weight: 77 kg) the volume of distribution central compartment of sumatriptan was 50 ± 8 liters and the distribution half-life was 15 ± 2 minutes"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "14%",
+     "21%"
+    ],
+    "sentence": "Distribution Sumatriptan protein binding, determined by equilibrium dialysis over the concentration range of 10 to 1,000 ng/mL, is low, approximately 14% to 21%"
+   },
+   {
+    "value": [
+     "14%",
+     "21%"
+    ],
+    "sentence": "Distribution Sumatriptan protein binding, determined by equilibrium dialysis over the concentration range of 10 to 1,000 ng/mL, is low, approximately 14% to 21%"
+   }
+  ]
+ },
+ "teicoplanin": {
+  "renalHalfLife": []
+ },
+ "terazosin": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "dial-pd": []
+ },
+ "terbutaline": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage of terbutaline sulfate"
+   }
+  ],
+  "dial-pd": []
+ },
+ "theophylline": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "The subjects used in the above study exhibited a mean half-life of 7.9 hours (range 5.3 to 13.4) and a mean clearance of 3.8 L/hour (range 2.3 to 5.7) Distribution: Once theophylline enters the systemic circulation, about 40% is bound to plasma protein, primarily albumin"
+   },
+   {
+    "value": [
+     "40%"
+    ],
+    "sentence": "The subjects used in the above study exhibited a mean half-life of 7.9 hours (range 5.3 to 13.4) and a mean clearance of 3.8 L/hour (range 2.3 to 5.7) Distribution: Once theophylline enters the systemic circulation, about 40% is bound to plasma protein, primarily albumin"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "Situations where prophylactic anticonvulsant therapy should be considered in high risk patients include anticipated delays in instituting methods for extracorporeal removal of theophylline (e.g., transfer of a high risk patient from one healthcare facility to another for extracorporeal removal) and clinical circumstances that significantly interfere with efforts to enhance theophylline clearance (e.g., a neonate where dialysis may not be technically feasible or a patient with vomiting unresponsi"
+   },
+   {
+    "value": null,
+    "sentence": "Hemodialysis is about as efficient as multiple-dose oral activated charcoal and has a lower risk of serious complications than charcoal hemoperfusion"
+   },
+   {
+    "value": null,
+    "sentence": "Hemodialysis should be considered as an alternative when charcoal hemoperfusion is not feasible and multiple-dose oral charcoal is ineffective because of intractable emesis"
+   },
+   {
+    "value": null,
+    "sentence": "Serum theophylline concentrations may rebound 5 to 10 mcg/mL after discontinuation of charcoal hemoperfusion or hemodialysis due to redistribution of theophylline from the tissue compartment"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Peritoneal dialysis is ineffective for theophylline removal; exchange transfusions in neonates have been minimally effective"
+   }
+  ]
+ },
+ "tigecycline": {
+  "halfLife": [
+   {
+    "value": [
+     "9 days"
+    ],
+    "sentence": "A lactating woman may also consider interrupting breastfeeding and pumping and discarding breastmilk during administration of TYGACIL and for 9 days (approximately 5 half-lives) after the last dose in order to minimize drug exposure to a breastfed infant. 8.4 Pediatric Use Use in patients under 18 years of age is not recommended"
+   }
+  ],
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "22%",
+     "27%",
+     "30%"
+    ],
+    "sentence": "Mean (CV%) Pharmacokinetic Parameters of Tigecycline Single Dose 100 mg (N=224) Multiple Dose 100 mg initially, followed by 50 mg every 12 hours 50 mg every 12h (N=103) C max (mcg/mL) 30-minute infusion 1.45 (22%) 0.87 (27%) C max (mcg/mL) 60-minute infusion 0.90 (30%) 0.63 (15%) AUC (mcg∙h/mL) 5.19 (36%) - - AUC 0–24h (mcg∙h/mL) - - 4.70 (36%) C min (mcg/mL) - - 0.13 (59%) t ½ (h) 27.1 (53%) 42.4 (83%) CL (L/h) 21.8 (40%) 23.8 (33%) CL r (mL/min) 38.0 (82%) 51.0 (58%) V ss (L) 568 (43%) 639 (48"
+   },
+   {
+    "value": [
+     "22%",
+     "27%",
+     "30%"
+    ],
+    "sentence": "Mean (CV%) Pharmacokinetic Parameters of Tigecycline Single Dose 100 mg (N=224) Multiple Dose 100 mg initially, followed by 50 mg every 12 hours 50 mg every 12h (N=103) C max (mcg/mL) 30-minute infusion 1.45 (22%) 0.87 (27%) C max (mcg/mL) 60-minute infusion 0.90 (30%) 0.63 (15%) AUC (mcg∙h/mL) 5.19 (36%) - - AUC 0–24h (mcg∙h/mL) - - 4.70 (36%) C min (mcg/mL) - - 0.13 (59%) t ½ (h) 27.1 (53%) 42.4 (83%) CL (L/h) 21.8 (40%) 23.8 (33%) CL r (mL/min) 38.0 (82%) 51.0 (58%) V ss (L) 568 (43%) 639 (48"
+   }
+  ],
+  "dial-pd": []
+ },
+ "tizanidine": {
+  "renalHalfLife": []
+ },
+ "topiramate": {
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "15%",
+     "41%"
+    ],
+    "sentence": "Topiramate is 15% to 41% bound to human plasma proteins over the blood concentration range of 0.5 to 250 mcg/mL. The fraction bound decreased as blood concentration increased"
+   },
+   {
+    "value": [
+     "23%",
+     "13%"
+    ],
+    "sentence": "Sodium valproate, at 500 mcg/mL (a concentration 5 to 10 times higher than considered therapeutic for valproate) decreased the protein binding of topiramate from 23% to 13%"
+   },
+   {
+    "value": [
+     "15%",
+     "41%"
+    ],
+    "sentence": "Topiramate is 15% to 41% bound to human plasma proteins over the blood concentration range of 0.5 to 250 mcg/mL. The fraction bound decreased as blood concentration increased"
+   },
+   {
+    "value": [
+     "23%",
+     "13%"
+    ],
+    "sentence": "Sodium valproate, at 500 mcg/mL (a concentration 5 to 10 times higher than considered therapeutic for valproate) decreased the protein binding of topiramate from 23% to 13%"
+   }
+  ]
+ },
+ "ursodeoxycholic-acid": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [],
+  "proteinBinding": [],
+  "dial-ihd": [],
+  "dial-pd": []
+ },
+ "valproate": {
+  "halfLife": [
+   {
+    "value": [
+     "16 ± 3.0 hours"
+    ],
+    "sentence": "Mean terminal half-life for valproate monotherapy after an intravenous infusion of 1,000 mg was 16 ± 3.0 hours"
+   },
+   {
+    "value": [
+     "10 days",
+     "10 to 67 hours",
+     "7 to 13 hours"
+    ],
+    "sentence": "For example, in one study, the half-life in children under 10 days ranged from 10 to 67 hours compared to a range of 7 to 13 hours in children greater than 2 months"
+   },
+   {
+    "value": [
+     "12 to 18 hours"
+    ],
+    "sentence": "In that study, the half-life of valproate was increased from 12 to 18 hours"
+   },
+   {
+    "value": [
+     "16 ± 3.0 hours"
+    ],
+    "sentence": "Mean terminal half-life for valproate monotherapy after an intravenous infusion of 1,000 mg was 16 ± 3.0 hours"
+   }
+  ],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "0.56 L",
+     "2 and 11 L"
+    ],
+    "sentence": "Elimination Mean plasma clearance and volume of distribution for total valproate are 0.56 L/hr/1.73 m 2 and 11 L/1.73 m 2 , respectively"
+   },
+   {
+    "value": [
+     "0.56 L",
+     "2 and 11 L"
+    ],
+    "sentence": "Elimination Mean plasma clearance and volume of distribution for total valproate are 0.56 L/hr/1.73 m 2 and 11 L/1.73 m 2 , respectively"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "10%",
+     "18.5%"
+    ],
+    "sentence": "For example, because the plasma protein binding of valproate is concentration dependent, the free fraction increases from approximately 10% at 40 mcg/mL to 18.5% at 130 mcg/mL. Higher than expected free fractions occur in the elderly, in hyperlipidemic patients, and in patients with hepatic and renal diseases"
+   },
+   {
+    "value": [
+     "10%",
+     "18.5%"
+    ],
+    "sentence": "Distribution Protein Binding The plasma protein binding of valproate is concentration dependent and the free fraction increases from approximately 10% at 40 mcg/mL to 18.5% at 130 mcg/mL. Protein binding of valproate is reduced in the elderly, in patients with chronic hepatic diseases, in patients with renal impairment, and in the presence of other drugs (e.g., aspirin)"
+   },
+   {
+    "value": [
+     "10%"
+    ],
+    "sentence": "CNS Distribution Valproate concentrations in cerebrospinal fluid (CSF) approximate unbound concentrations in plasma (about 10% of total concentration)"
+   },
+   {
+    "value": [
+     "10%",
+     "18.5%"
+    ],
+    "sentence": "Distribution Protein Binding The plasma protein binding of valproate is concentration dependent and the free fraction increases from approximately 10% at 40 mcg/mL to 18.5% at 130 mcg/mL. Protein binding of valproate is reduced in the elderly, in patients with chronic hepatic diseases, in patients with renal impairment, and in the presence of other drugs (e.g., aspirin)"
+   }
+  ]
+ },
+ "vancomycin": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "55%"
+    ],
+    "sentence": "Vancomycin is approximately 55% serum protein bound as measured by ultrafiltration at vancomycin serum concentrations of 10 to 100 mcg/mL. After intravenous administration of vancomycin, inhibitory concentrations are present in pleural, pericardial, ascitic, and synovial fluids; in urine; in peritoneal dialysis fluid; and in atrial appendage tissue"
+   },
+   {
+    "value": [
+     "55%"
+    ],
+    "sentence": "Vancomycin is approximately 55% serum protein bound as measured by ultrafiltration at vancomycin serum concentrations of 10 to 100 mcg/mL. After intravenous administration of vancomycin, inhibitory concentrations are present in pleural, pericardial, ascitic, and synovial fluids; in urine; in peritoneal dialysis fluid; and in atrial appendage tissue"
+   }
+  ],
+  "dial-pd": [
+   {
+    "value": null,
+    "sentence": "Vancomycin is approximately 55% serum protein bound as measured by ultrafiltration at vancomycin serum concentrations of 10 to 100 mcg/mL. After intravenous administration of vancomycin, inhibitory concentrations are present in pleural, pericardial, ascitic, and synovial fluids; in urine; in peritoneal dialysis fluid; and in atrial appendage tissue"
+   },
+   {
+    "value": null,
+    "sentence": "Vancomycin is approximately 55% serum protein bound as measured by ultrafiltration at vancomycin serum concentrations of 10 to 100 mcg/mL. After intravenous administration of vancomycin, inhibitory concentrations are present in pleural, pericardial, ascitic, and synovial fluids; in urine; in peritoneal dialysis fluid; and in atrial appendage tissue"
+   },
+   {
+    "value": null,
+    "sentence": "Intraperitoneal administration during continuous ambulatory peritoneal dialysis (CAPD) can result in chemical peritonitis"
+   },
+   {
+    "value": null,
+    "sentence": "About 60% of an intraperitoneal dose of vancomycin administered during peritoneal dialysis is absorbed systemically in 6 hours"
+   }
+  ]
+ },
+ "vildagliptin": {
+  "renalHalfLife": [],
+  "dial-pd": []
+ },
+ "voriconazole": {
+  "halfLife": [],
+  "renalHalfLife": [],
+  "volumeOfDistribution": [
+   {
+    "value": [
+     "4.6 L/kg"
+    ],
+    "sentence": "When multiple doses of voriconazole are administered with high-fat meals, the mean C max and AUC τ are reduced by 34% and 24%, respectively when administered as a tablet and by 58% and 37% respectively when administered as the oral suspension [see Dosage and Administration (2) ] . In healthy subjects, the absorption of voriconazole is not affected by coadministration of oral ranitidine, cimetidine, or omeprazole, drugs that are known to increase gastric pH. Distribution The volume of distributio"
+   },
+   {
+    "value": [
+     "4.6 L/kg"
+    ],
+    "sentence": "When multiple doses of voriconazole are administered with high-fat meals, the mean C max and AUC τ are reduced by 34% and 24%, respectively when administered as a tablet and by 58% and 37% respectively when administered as the oral suspension [see Dosage and Administration (2) ] . In healthy subjects, the absorption of voriconazole is not affected by coadministration of oral ranitidine, cimetidine, or omeprazole, drugs that are known to increase gastric pH. Distribution The volume of distributio"
+   }
+  ],
+  "proteinBinding": [
+   {
+    "value": [
+     "58%"
+    ],
+    "sentence": "Plasma protein binding is estimated to be 58% and was shown to be independent of plasma concentrations achieved following single and multiple oral doses of 200 mg or 300 mg (approximate range: 0.9–15 µg/mL)"
+   },
+   {
+    "value": [
+     "58%"
+    ],
+    "sentence": "Plasma protein binding is estimated to be 58% and was shown to be independent of plasma concentrations achieved following single and multiple oral doses of 200 mg or 300 mg (approximate range: 0.9–15 µg/mL)"
+   }
+  ],
+  "dial-ihd": [
+   {
+    "value": null,
+    "sentence": "A pharmacokinetic study in subjects with renal failure undergoing hemodialysis showed that voriconazole is dialyzed with clearance of 121 mL/min"
+   },
+   {
+    "value": null,
+    "sentence": "The intravenous vehicle, SBECD, is hemodialyzed with clearance of 55 mL/min"
+   },
+   {
+    "value": null,
+    "sentence": "A 4-hour hemodialysis session does not remove a sufficient amount of voriconazole to warrant dose adjustment [see Dosage and Administration (2.6) ] . Patients at Risk of Aspergillosis The observed voriconazole pharmacokinetics in patients at risk of aspergillosis (mainly patients with malignant neoplasms of lymphatic or hematopoietic tissue) were similar to healthy subjects"
+   },
+   {
+    "value": null,
+    "sentence": "A pharmacokinetic study in subjects with renal failure undergoing hemodialysis showed that voriconazole is dialyzed with clearance of 121 mL/min"
+   }
+  ],
+  "dial-pd": []
+ },
+ "warfarin": {
+  "renalHalfLife": [],
+  "proteinBinding": [
+   {
+    "value": [
+     "99%"
+    ],
+    "sentence": "Approximately 99% of the drug is bound to plasma proteins"
+   }
+  ],
+  "dial-ihd": [],
+  "dial-pd": []
+ }
+}

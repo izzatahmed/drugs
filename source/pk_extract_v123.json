@@ -1,0 +1,3528 @@
+{
+ "acetazolamide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Despite its high intraerythrocytic distribution and plasma protein binding properties, acetazolamide is dialyzable"
+   }
+  },
+  "meta": {
+   "setid": "4813b9dd-5f58-44bb-ad64-cdb331828080",
+   "splVersion": "12",
+   "effective": "2026-08-19",
+   "brand": "Acetazolamide",
+   "manufacturer": "Strides Pharma Science Limited",
+   "application": "ANDA209734",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4813b9dd-5f58-44bb-ad64-cdb331828080"
+  }
+ },
+ "acetylcysteine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "renalHalfLife": {
+    "value": "5.6 hours",
+    "sentence": "Renal Impairment: Hemodialysis may remove some of total acetylcysteine. 12.3 Pharmacokinetics After a single intravenous dose of acetylcysteine, the plasma concentration of total acetylcysteine declined in a poly-exponential decay manner with a mean terminal half-life (T 1/2 ) of 5.6 hours"
+   },
+   "proteinBinding": {
+    "value": "66 to 87%",
+    "sentence": "The protein binding of acetylcysteine ranges from 66 to 87%"
+   }
+  },
+  "meta": {
+   "setid": "472f158a-5ab9-4308-8e49-1116e6ea3d39",
+   "splVersion": "17",
+   "effective": "2025-04-30",
+   "brand": "ACETADOTE",
+   "manufacturer": "Cumberland Pharmaceuticals Inc.",
+   "application": "NDA021539",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39"
+  }
+ },
+ "acyclovir": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "4cc7d67f-35fa-4238-a581-4810645083cf",
+   "splVersion": "2",
+   "effective": "2026-08-13",
+   "brand": "ACYCLOVIR",
+   "manufacturer": "Cardinal Health 107, LLC",
+   "application": "ANDA074889",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4cc7d67f-35fa-4238-a581-4810645083cf"
+  }
+ },
+ "adenosine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "9508caf5-0e3a-4d32-909d-bff7ea40ec30",
+   "splVersion": "4",
+   "effective": "2026-08-31",
+   "brand": "Adenosine",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA206778",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30"
+  }
+ },
+ "alfacalcidol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "amantadine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "17 ± 4 hours",
+    "sentence": "The half-life was 17 ± 4 hours (range: 10 to 25 hours)"
+   },
+   "proteinBinding": {
+    "value": "approximately 67%",
+    "sentence": "Amantadine is approximately 67% bound to plasma proteins over a concentration range of 0.1 to 2- mcg/mL. Following the administration of amantadine 100 mg as a single dose, the mean ± SD red blood cell to plasma ratio ranged from 2.7 ± 0.5 in 6 healthy subjects to 1.4 ± 0.2 in 8 patients with renal insufficiency"
+   }
+  },
+  "meta": {
+   "setid": "5119801d-a5cb-4adf-96b2-08cc3a0ba594",
+   "splVersion": "6",
+   "effective": "2026-06-23",
+   "brand": "Amantadine",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA208966",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5119801d-a5cb-4adf-96b2-08cc3a0ba594"
+  }
+ },
+ "aminophylline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "approximately 0.45 L/kg",
+    "sentence": "The apparent volume of distribution of theophylline is approximately 0.45 L/kg (range 0.3 - 0.7 L/kg) based on ideal body weight"
+   }
+  },
+  "meta": {
+   "setid": "819207a2-0c37-b275-e053-2a91aa0afb36",
+   "splVersion": "8",
+   "effective": "2026-06-19",
+   "brand": "AMINOPHYLLINE",
+   "manufacturer": "HF Acquisition Co LLC, DBA HealthFirst",
+   "application": "ANDA087242",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=819207a2-0c37-b275-e053-2a91aa0afb36"
+  }
+ },
+ "amiodarone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Neither amiodarone nor DEA is dialyzable"
+   }
+  },
+  "meta": {
+   "setid": "4c149392-a4f0-4e2d-a13f-2b94810005de",
+   "splVersion": "8",
+   "effective": "2026-08-05",
+   "brand": "Amiodarone Hydrochloride",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA213446",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c149392-a4f0-4e2d-a13f-2b94810005de"
+  }
+ },
+ "amoxicillin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "61.3 minutes",
+    "sentence": "Metabolism and Excretion : The half-life of amoxicillin is 61.3 minutes"
+   },
+   "proteinBinding": {
+    "value": "approximately 20%",
+    "sentence": "In blood serum, amoxicillin is approximately 20% protein-bound"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Amoxicillin may be removed from circulation by hemodialysis. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Teratogenic Effects : Pregnancy Category B. Reproduction studies have been performed in mice and rats at doses up to 2000 mg/kg (3 and 6 times the 3 g human dose, based on body surface area)"
+   }
+  },
+  "meta": {
+   "setid": "06e5c07d-d95c-4955-8d35-a4703ca2359e",
+   "splVersion": "5",
+   "effective": "2026-07-07",
+   "brand": "Amoxicillin",
+   "manufacturer": "USAntibiotics, LLC",
+   "application": "NDA050760",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06e5c07d-d95c-4955-8d35-a4703ca2359e"
+  }
+ },
+ "aprepitant": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 9 to 13 hours",
+    "sentence": "The apparent terminal half-life ranged from approximately 9 to 13 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 70 L",
+    "sentence": "The mean apparent volume of distribution at steady state (Vd ss ) was approximately 70 L in humans"
+   },
+   "proteinBinding": {
+    "value": "greater than 95%",
+    "sentence": "Distribution Aprepitant is greater than 95% bound to plasma proteins"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Aprepitant is not removed by hemodialysis. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary There are insufficient data on use of EMEND in pregnant women to inform a drug associated risk"
+   }
+  },
+  "meta": {
+   "setid": "696f9e80-9cae-403b-de9e-078343ce4713",
+   "splVersion": "42",
+   "effective": "2024-07-05",
+   "brand": "EMEND",
+   "manufacturer": "Merck Sharp & Dohme LLC",
+   "application": "NDA021549",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=696f9e80-9cae-403b-de9e-078343ce4713"
+  }
+ },
+ "aztreonam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "1.7 hours",
+    "sentence": "The serum half-life of aztreonam averaged 1.7 hours (1.5-2.0) in subjects with normal renal function, independent of the dose and route of administration"
+   },
+   "volumeOfDistribution": {
+    "value": "12.6 liters",
+    "sentence": "In healthy subjects, based on a 70 kg person, the serum clearance was 91 mL/min and renal clearance was 56 mL/min; the apparent mean volume of distribution at steady-state averaged 12.6 liters, approximately equivalent to extracellular fluid volume"
+   },
+   "proteinBinding": {
+    "value": "56%",
+    "sentence": "Intravenous or intramuscular administration of a single 500 mg or 1 g dose of AZACTAM every 8 hours for 7 days to healthy subjects produced no apparent accumulation of aztreonam or modification of its disposition characteristics; serum protein binding averaged 56% and was independent of dose"
+   }
+  },
+  "meta": {
+   "setid": "9a105eaf-ee77-4016-beeb-d425a5565db2",
+   "splVersion": "15",
+   "effective": "2025-12-15",
+   "brand": "AZACTAM",
+   "manufacturer": "E.R. Squibb & Sons, L.L.C.",
+   "application": "NDA050580",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9a105eaf-ee77-4016-beeb-d425a5565db2"
+  }
+ },
+ "bisacodyl": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "a13a8eec-3652-8c57-e053-2995a90aaebf",
+   "splVersion": "4",
+   "effective": "2026-09-09",
+   "brand": "Bisacodyl",
+   "manufacturer": "KROGER COMPANY",
+   "application": "M007",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a13a8eec-3652-8c57-e053-2995a90aaebf"
+  }
+ },
+ "brivaracetam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "0.5 L/kg",
+    "sentence": "The volume of distribution is 0.5 L/kg, a value close to that of the total body water"
+   }
+  },
+  "meta": {
+   "setid": "3cf2f439-0e97-443e-8e33-25ecef616f6c",
+   "splVersion": "27",
+   "effective": "2026-08-20",
+   "brand": "Briviact",
+   "manufacturer": "UCB, Inc.",
+   "application": "NDA205836",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c"
+  }
+ },
+ "buprenorphine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 96%",
+    "sentence": "Distribution Buprenorphine is approximately 96% bound to plasma proteins, mainly to alpha- and beta-globulin"
+   }
+  },
+  "meta": {
+   "setid": "2738feae-316e-426f-971c-5f142ac01b60",
+   "splVersion": "17",
+   "effective": "2026-05-29",
+   "brand": "Buprenorphine",
+   "manufacturer": "Rhodes Pharmaceuticals LLC",
+   "application": "NDA021306",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2738feae-316e-426f-971c-5f142ac01b60"
+  }
+ },
+ "calcitriol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 99.9%",
+    "sentence": "Distribution Calcitriol is approximately 99.9% bound in blood"
+   }
+  },
+  "meta": {
+   "setid": "bdb9c0d4-bdb3-4174-a4d9-55c423f38476",
+   "splVersion": "2",
+   "effective": "2026-07-10",
+   "brand": "Calcitriol",
+   "manufacturer": "ANI Pharmaceuticals, Inc.",
+   "application": "NDA021068",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bdb9c0d4-bdb3-4174-a4d9-55c423f38476"
+  }
+ },
+ "calcium-acetate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "2072d9f4-abb1-4699-bde5-6041dd79cad5",
+   "splVersion": "2",
+   "effective": "2026-09-04",
+   "brand": "Calcium Acetate",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA203135",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2072d9f4-abb1-4699-bde5-6041dd79cad5"
+  }
+ },
+ "carbamazepine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "proteinBinding": {
+    "value": "76%",
+    "sentence": "Carbamazepine in blood is 76% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "138d9ed1-2f8e-d19d-e063-6394a90a695d",
+   "splVersion": "5",
+   "effective": "2026-06-29",
+   "brand": "CARBAMAZEPINE",
+   "manufacturer": "Bionpharma Inc.,",
+   "application": "ANDA218221",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=138d9ed1-2f8e-d19d-e063-6394a90a695d"
+  }
+ },
+ "carbimazole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "cefixime": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "renalHalfLife": {
+    "value": "an average of 11.5 hours",
+    "sentence": "In severe renal impairment (5 to 20 mL/min creatinine clearance), the half-life increased to an average of 11.5 hours"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "The drug is not cleared significantly from the blood by hemodialysis or peritoneal dialysis"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "The drug is not cleared significantly from the blood by hemodialysis or peritoneal dialysis"
+   }
+  },
+  "meta": {
+   "setid": "3194433c-c04e-442b-9668-fbeb0a15bac7",
+   "splVersion": "10",
+   "effective": "2026-08-05",
+   "brand": "CEFIXIME",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "NDA203195",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3194433c-c04e-442b-9668-fbeb0a15bac7"
+  }
+ },
+ "ceftaroline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Ceftaroline can be removed by hemodialysis"
+   }
+  },
+  "meta": {
+   "setid": "3ecde48b-75a2-4beb-9999-369f3f61bb8a",
+   "splVersion": "43",
+   "effective": "2024-11-20",
+   "brand": "Teflaro",
+   "manufacturer": "Allergan, Inc.",
+   "application": "NDA200327",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3ecde48b-75a2-4beb-9999-369f3f61bb8a"
+  }
+ },
+ "ceftazidime": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 2 hours",
+    "sentence": "The half-life of ceftazidime in these volunteers was approximately 2 hours"
+   }
+  },
+  "meta": {
+   "setid": "112c5457-8d71-49f5-b531-9761d7d38c93",
+   "splVersion": "12",
+   "effective": "2026-08-03",
+   "brand": "Ceftazidime",
+   "manufacturer": "Sagent Pharmaceuticals",
+   "application": "ANDA062640",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93"
+  }
+ },
+ "cefuroxime": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 50%",
+    "sentence": "Concentrations of Cefuroxime Achieved in Cerebrospinal Fluid During Multiple Dosing of Patients with Meningitis Patients Dose Number of Patients Mean (Range) CSF Cefuroxime Concentrations (mcg/mL) Achieved Within 8 Hours Post Dose Pediatric patients (4 weeks to 6.5 years) 200 mg/kg/day, divided q 6 hours 5 6.6 (0.9–17.3) Pediatric patients (7 months to 9 years) 200 to 230 mg/kg/day, divided q 8 hours 6 8.3 (<2–22.5) Adults 1.5 grams q 8 hours 2 5.2 (2.7–8.9) Adults 1.5 grams q 6 hours 10 6.0 (1.5–13.5) Cefuroxime is approximately 50% bound to serum protein"
+   }
+  },
+  "meta": {
+   "setid": "07170ee3-1a24-424f-a2a2-00bc92e98f85",
+   "splVersion": "16",
+   "effective": "2020-12-05",
+   "brand": "Cefuroxime and Dextrose",
+   "manufacturer": "B. Braun Medical Inc.",
+   "application": "NDA050780",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07170ee3-1a24-424f-a2a2-00bc92e98f85"
+  }
+ },
+ "cephalexin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "15%",
+    "sentence": "Distribution: Cephalexin is approximately 10% to 15% bound to plasma proteins"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of cephalexin. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Pregnancy Category B There are no adequate and well-controlled studies in pregnant women"
+   },
+   "dial-pd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of cephalexin. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Pregnancy Category B There are no adequate and well-controlled studies in pregnant women"
+   }
+  },
+  "meta": {
+   "setid": "03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d",
+   "splVersion": "14",
+   "effective": "2026-07-29",
+   "brand": "Cephalexin",
+   "manufacturer": "AvKARE",
+   "application": "ANDA062713",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03f6f6ae-66bc-6819-8ba9-7c9c3fbef90d"
+  }
+ },
+ "chlorphenamine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "04ca3806-72be-47d4-9fea-5b0dee087683",
+   "splVersion": "17",
+   "effective": "2026-07-08",
+   "brand": "Aller-chlor",
+   "manufacturer": "Rugby Laboratories",
+   "application": "M012",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04ca3806-72be-47d4-9fea-5b0dee087683"
+  }
+ },
+ "cholecalciferol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "ciprofloxacin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Negligible removal (label statement)",
+    "sentence": "Only a small amount of ciprofloxacin (less than 10%) is removed from the body after hemodialysis or peritoneal dialysis. 8 USE IN SPECIFIC POPULATIONS Lactation: Breastfeeding is not recommended during treatment, but a lactating woman may pump and discard breastmilk during treatment and an additional 2 days after the last dose"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Negligible removal (label statement)",
+    "sentence": "Only a small amount of ciprofloxacin (less than 10%) is removed from the body after hemodialysis or peritoneal dialysis. 8 USE IN SPECIFIC POPULATIONS Lactation: Breastfeeding is not recommended during treatment, but a lactating woman may pump and discard breastmilk during treatment and an additional 2 days after the last dose"
+   }
+  },
+  "meta": {
+   "setid": "0fe3becb-f90e-4187-a8e8-bd0de5a79ad2",
+   "splVersion": "1",
+   "effective": "2026-07-13",
+   "brand": "Ciprofloxacin",
+   "manufacturer": "HAWAII REPACK, INC.",
+   "application": "ANDA077859",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fe3becb-f90e-4187-a8e8-bd0de5a79ad2"
+  }
+ },
+ "clarithromycin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 3 hours",
+    "sentence": "The elimination half-life of clarithromycin was about 3 hours to 4 hours with 250 mg administered every 12 hours but increased to 5 hours to 7 hours with 500 mg administered every 8 hours to 12 hours"
+   }
+  },
+  "meta": {
+   "setid": "1920f943-bbf1-cfd9-7475-96a35680a9e0",
+   "splVersion": "7",
+   "effective": "2026-02-11",
+   "brand": "Clarithromycin",
+   "manufacturer": "AvPAK",
+   "application": "ANDA065489",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1920f943-bbf1-cfd9-7475-96a35680a9e0"
+  }
+ },
+ "clindamycin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Hemodialysis and peritoneal dialysis are not effective in removing clindamycin from the serum"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Hemodialysis and peritoneal dialysis are not effective in removing clindamycin from the serum"
+   }
+  },
+  "meta": {
+   "setid": "05a75685-0af5-407c-ac57-e380c882b49d",
+   "splVersion": "60",
+   "effective": "2026-07-29",
+   "brand": "Cleocin Phosphate",
+   "manufacturer": "Pharmacia & Upjohn Company LLC",
+   "application": "NDA050441",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05a75685-0af5-407c-ac57-e380c882b49d"
+  }
+ },
+ "clonazepam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 85%",
+    "sentence": "Clonazepam is approximately 85% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "19475112-60da-4d53-b330-70afe28ebaf3",
+   "splVersion": "102",
+   "effective": "2026-07-16",
+   "brand": "Clonazepam",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA075468",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=19475112-60da-4d53-b330-70afe28ebaf3"
+  }
+ },
+ "clopidogrel": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 6 hours",
+    "sentence": "After a single, oral dose of 75 mg, clopidogrel has a half-life of approximately 6 hours"
+   }
+  },
+  "meta": {
+   "setid": "de8b0b67-eb25-4684-83b5-7ad785314227",
+   "splVersion": "5",
+   "effective": "2025-05-30",
+   "brand": "Plavix",
+   "manufacturer": "Sanofi-Aventis U.S. LLC",
+   "application": "NDA020839",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227"
+  }
+ },
+ "codeine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "approximately 3 to 6 L/kg",
+    "sentence": "Distribution: Codeine has been reported to have an apparent volume of distribution of approximately 3 to 6 L/kg, indicating extensive distribution of the drug into tissues"
+   }
+  },
+  "meta": {
+   "setid": "010905f9-3bcb-4b50-9fe8-a3ad0010f14c",
+   "splVersion": "25",
+   "effective": "2025-12-22",
+   "brand": "Codeine sulfate",
+   "manufacturer": "Hikma Pharmaceuticals USA Inc.",
+   "application": "NDA022402",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=010905f9-3bcb-4b50-9fe8-a3ad0010f14c"
+  }
+ },
+ "dexamethasone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "5622f8d2-1893-441b-8011-fa90c8a63b0b",
+   "splVersion": "5",
+   "effective": "2026-05-05",
+   "brand": "dexamethasone",
+   "manufacturer": "Cardinal Health 107, LLC",
+   "application": "ANDA215106",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5622f8d2-1893-441b-8011-fa90c8a63b0b"
+  }
+ },
+ "diazepam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "0.8 to 1.0 L/kg",
+    "sentence": "In young healthy males, the volume of distribution at steady-state is 0.8 to 1.0 L/kg"
+   }
+  },
+  "meta": {
+   "setid": "20e08b97-bb89-4129-a228-8ad9cf35a1d3",
+   "splVersion": "19",
+   "effective": "2026-07-10",
+   "brand": "Diazepam",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA071321",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20e08b97-bb89-4129-a228-8ad9cf35a1d3"
+  }
+ },
+ "digoxin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "renalHalfLife": {
+    "value": "3.5 to 5 days",
+    "sentence": "The half-life in anuric patients is prolonged to 3.5 to 5 days"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Digoxin is not effectively removed from the body by dialysis, exchange transfusion, or cardiopulmonary bypass because most of the drug is bound to tissue. 12.3 Pharmacokinetics Absorption Following oral administration, peak serum concentrations of digoxin occur at 30 to 90 minutes"
+   }
+  },
+  "meta": {
+   "setid": "1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf",
+   "splVersion": "18",
+   "effective": "2025-04-10",
+   "brand": "Digoxin",
+   "manufacturer": "Hikma Pharmaceuticals USA Inc.",
+   "application": "NDA021648",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b7e5c6e-e052-41b0-a4ce-05dfe62faaaf"
+  }
+ },
+ "dobutamine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "2 minutes",
+    "sentence": "The plasma half-life of dobutamine in humans is 2 minutes"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of dobutamine hydrochloride"
+   },
+   "dial-pd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of dobutamine hydrochloride"
+   }
+  },
+  "meta": {
+   "setid": "559367ef-5c20-99ea-e063-6294a90a4ff2",
+   "splVersion": "1",
+   "effective": "2026-07-01",
+   "brand": "DOBUTAMINE IN DEXTROSE",
+   "manufacturer": "HF Acquisition Co LLC, DBA HealthFirst",
+   "application": "NDA020201",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=559367ef-5c20-99ea-e063-6294a90a4ff2"
+  }
+ },
+ "domperidone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "donepezil": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "about 70 hours",
+    "sentence": "The elimination half life of donepezil is about 70 hours, and the mean apparent plasma clearance (Cl/F) is 0.13 to 0.19 L/hr/kg"
+   },
+   "volumeOfDistribution": {
+    "value": "12 to 16 L/kg",
+    "sentence": "The steady state volume of distribution is 12 to 16 L/kg"
+   }
+  },
+  "meta": {
+   "setid": "0516d548-db9b-410a-aec9-79aedbc3f6e9",
+   "splVersion": "4",
+   "effective": "2026-08-18",
+   "brand": "Donepezil Hydrochloride",
+   "manufacturer": "A-S Medication Solutions",
+   "application": "ANDA090056",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0516d548-db9b-410a-aec9-79aedbc3f6e9"
+  }
+ },
+ "dopamine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "1f306ad2-3606-4525-5a8a-ce78f426c1a2",
+   "splVersion": "22",
+   "effective": "2026-05-13",
+   "brand": "DOPamine Hydrochloride",
+   "manufacturer": "Hospira, Inc.",
+   "application": "NDA018132",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f306ad2-3606-4525-5a8a-ce78f426c1a2"
+  }
+ },
+ "doxycycline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "02aa8731-d40f-43d8-8b63-a79a0503f8db",
+   "splVersion": "10",
+   "effective": "2025-07-25",
+   "brand": "Doxycycline Monohydrate",
+   "manufacturer": "Chartwell RX, LLC.",
+   "application": "NDA050641",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02aa8731-d40f-43d8-8b63-a79a0503f8db"
+  }
+ },
+ "ertapenem": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 4 hours",
+    "sentence": "The mean plasma half-life in healthy young adults is approximately 4 hours and the plasma clearance is approximately 1.8 L/hour"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Ertapenem for injection can be removed by hemodialysis; the plasma clearance of the total fraction of ertapenem was increased 30% in subjects with end-stage renal disease when hemodialysis (4 hour session) was performed immediately following administration"
+   },
+   "dial-pd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "There are no data in patients undergoing peritoneal dialysis or hemofiltration"
+   }
+  },
+  "meta": {
+   "setid": "41304b1d-7db4-468a-ab1d-04e56fb50de4",
+   "splVersion": "13",
+   "effective": "2026-03-02",
+   "brand": "ERTAPENEM",
+   "manufacturer": "ENDO USA, Inc.",
+   "application": "NDA021337",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=41304b1d-7db4-468a-ab1d-04e56fb50de4"
+  }
+ },
+ "esmolol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "38a8b23a-fca8-45f4-a09a-9c8b21f522cd",
+   "splVersion": "8",
+   "effective": "2026-08-06",
+   "brand": "Brevibloc",
+   "manufacturer": "Henry Schein, Inc",
+   "application": "NDA019386",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=38a8b23a-fca8-45f4-a09a-9c8b21f522cd"
+  }
+ },
+ "fentanyl": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "219 minutes",
+    "sentence": "Elimination The terminal elimination half-life is 219 minutes"
+   }
+  },
+  "meta": {
+   "setid": "bfa8018a-4cbc-434b-e09e-782872b0340a",
+   "splVersion": "35",
+   "effective": "2026-08-24",
+   "brand": "Fentanyl Citrate",
+   "manufacturer": "Hospira, Inc.",
+   "application": "NDA019115",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfa8018a-4cbc-434b-e09e-782872b0340a"
+  }
+ },
+ "flecainide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 20 hours",
+    "sentence": "The apparent plasma half-life averages about 20 hours and is quite variable (range, 12 to 27 hours) after multiple oral doses in patients with premature ventricular contractions (PVCs)"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Negligible removal (label statement)",
+    "sentence": "Hemodialysis removes only about 1% of an oral dose as unchanged flecainide"
+   }
+  },
+  "meta": {
+   "setid": "ee9595d5-08a1-4529-9215-ddc3c7f929c4",
+   "splVersion": "11",
+   "effective": "2026-06-11",
+   "brand": "Flecainide Acetate",
+   "manufacturer": "Amneal Pharmaceuticals of New York LLC",
+   "application": "ANDA075442",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4"
+  }
+ },
+ "fluconazole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 30 hours",
+    "sentence": "Peak plasma concentrations (C max ) in fasted normal volunteers occur between 1 and 2 hours with a terminal plasma elimination half-life of approximately 30 hours (range: 20 to 50 hours) after oral administration"
+   },
+   "proteinBinding": {
+    "value": "11 to 12%",
+    "sentence": "Plasma protein binding is low (11 to 12%)"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "The dose of fluconazole may need to be reduced in patients with impaired renal function. (See DOSAGE AND ADMINISTRATION .) A 3-hour hemodialysis session decreases plasma concentrations by approximately 50%"
+   }
+  },
+  "meta": {
+   "setid": "16b6fba0-b96f-4252-a70d-31dc61400298",
+   "splVersion": "2",
+   "effective": "2026-08-20",
+   "brand": "fluconazole",
+   "manufacturer": "Preferred Pharmaceuticals Inc.",
+   "application": "ANDA208963",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16b6fba0-b96f-4252-a70d-31dc61400298"
+  }
+ },
+ "fludrocortisone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "18 to 36 hours",
+    "sentence": "The approximate plasma half-life of fludrocortisone (fluorohydrocortisone) is 3.5 hours or more and the biological half-life is 18 to 36 hours"
+   }
+  },
+  "meta": {
+   "setid": "933e28ef-05e8-419e-a786-21eab67f33a2",
+   "splVersion": "3",
+   "effective": "2026-06-24",
+   "brand": "Fludrocortisone Acetate",
+   "manufacturer": "Major Pharmaceuticals",
+   "application": "ANDA215279",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2"
+  }
+ },
+ "folic-acid": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "0baa10dd-6d1d-4946-8236-566451132da3",
+   "splVersion": "2",
+   "effective": "2026-07-24",
+   "brand": "Folic Acid",
+   "manufacturer": "Rising Pharma Holdings, Inc.",
+   "application": "ANDA211064",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0baa10dd-6d1d-4946-8236-566451132da3"
+  }
+ },
+ "formoterol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "fb2fe258-fe2e-47f6-8adf-ca75bf6f90af",
+   "splVersion": "22",
+   "effective": "2019-05-31",
+   "brand": "Perforomist",
+   "manufacturer": "Viatris Specialty LLC",
+   "application": "NDA022007",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fb2fe258-fe2e-47f6-8adf-ca75bf6f90af"
+  }
+ },
+ "ganciclovir": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "3.5 ± 0.9 hours",
+    "sentence": "Half-life was 3.5 ± 0.9 hours (n=98) following intravenous administration"
+   },
+   "volumeOfDistribution": {
+    "value": "0.74 ± 0.15 L/kg",
+    "sentence": "Distribution The steady-state volume of distribution of ganciclovir after intravenous administration was 0.74 ± 0.15 L/kg (n=98)"
+   }
+  },
+  "meta": {
+   "setid": "993151ed-cea7-49a7-a967-fac3e9b3c85f",
+   "splVersion": "6",
+   "effective": "2026-08-20",
+   "brand": "ganciclovir",
+   "manufacturer": "Sagent Pharmaceuticals",
+   "application": "ANDA207645",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993151ed-cea7-49a7-a967-fac3e9b3c85f"
+  }
+ },
+ "glimepiride": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "8.8 L",
+    "sentence": "Distribution After intravenous dosing in healthy subjects, the volume of distribution (Vd) was 8.8 L (113 mL/kg), and the total body clearance (CL) was 47.8 mL/min"
+   },
+   "proteinBinding": {
+    "value": "greater than 99.5%",
+    "sentence": "Protein binding was greater than 99.5%"
+   }
+  },
+  "meta": {
+   "setid": "1450f455-a14a-4f9b-b3aa-dae49ea0c186",
+   "splVersion": "6",
+   "effective": "2026-02-26",
+   "brand": "Glimepiride",
+   "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+   "application": "ANDA202759",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1450f455-a14a-4f9b-b3aa-dae49ea0c186"
+  }
+ },
+ "glipizide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "2 to 4 hours",
+    "sentence": "The half-life of elimination ranges from 2 to 4 hours in normal subjects, whether given intravenously or orally"
+   },
+   "volumeOfDistribution": {
+    "value": "11 liters",
+    "sentence": "The apparent volume of distribution of glipizide after intravenous administration was 11 liters, indicative of localization within the extracellular fluid compartment"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Because of the extensive protein binding of glipizide, dialysis is unlikely to be of benefit"
+   }
+  },
+  "meta": {
+   "setid": "00729e82-150a-464a-abe7-a3319721fbdb",
+   "splVersion": "102",
+   "effective": "2026-08-27",
+   "brand": "Glipizide",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA074497",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00729e82-150a-464a-abe7-a3319721fbdb"
+  }
+ },
+ "granisetron": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 65%",
+    "sentence": "Peak Plasma Concentration (ng/mL) Terminal Phase Plasma Half-Life (h) Total Clearance (L/h/kg) Volume of Distribution (L/kg) Cancer Patients Mean Range 63.8 * 18 to 176 8.95 * 0.9 to 31.1 0.38 * 0.14 to 1.54 3.07 * 0.85 to 10.4 Volunteers 21 to 42 years Mean Range 64.3 † 11.2 to 182 4.91 † 0.88 to 15.2 0.79 † 0.2 to 2.56 3.04 † 1.68 to 6.13 65 to 81 years Mean Range 57 † 14.6 to 153 7.69 † 2.65 to 17.7 0.44 † 0.17 to 1.06 3.97 † 1.75 to 7.01 Distribution Plasma protein binding is approximately 65% and granisetron distributes freely between plasma and red blood cells"
+   }
+  },
+  "meta": {
+   "setid": "783e9d68-2371-4fd4-8d7a-a5e36f8718d0",
+   "splVersion": "5",
+   "effective": "2025-04-24",
+   "brand": "Granisetron Hydrochloride",
+   "manufacturer": "Eugia US LLC",
+   "application": "ANDA204238",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=783e9d68-2371-4fd4-8d7a-a5e36f8718d0"
+  }
+ },
+ "hydrocortisone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "9ce19944-dd88-4a7b-84ca-b07f4ec23bad",
+   "splVersion": "17",
+   "effective": "2025-02-17",
+   "brand": "CORTEF",
+   "manufacturer": "Pharmacia & Upjohn Company LLC",
+   "application": "NDA008697",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9ce19944-dd88-4a7b-84ca-b07f4ec23bad"
+  }
+ },
+ "hydromorphone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "about 2.3 hours",
+    "sentence": "The terminal elimination half-life of hydromorphone after an intravenous dose is about 2.3 hours"
+   },
+   "proteinBinding": {
+    "value": "approximately 8 to 19%",
+    "sentence": "Distribution At therapeutic plasma levels, hydromorphone is approximately 8 to 19% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "2427814c-f32b-8ac5-99b8-5e886fd2d001",
+   "splVersion": "20",
+   "effective": "2026-06-29",
+   "brand": "Hydromorphone Hydrochloride",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "NDA019892",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2427814c-f32b-8ac5-99b8-5e886fd2d001"
+  }
+ },
+ "hydroxychloroquine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 3 to 4 hours",
+    "sentence": "Following chronic oral administration of hydroxychloroquine, the absorption half-life of hydroxychloroquine was approximately 3 to 4 hours and the terminal half-life ranged from 40 to 50 days in whole blood"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Hemofiltration, hemodialysis, and hemoperfusion are not of benefit"
+   }
+  },
+  "meta": {
+   "setid": "34496b43-05a2-45fb-a769-52b12e099341",
+   "splVersion": "15",
+   "effective": "2026-04-09",
+   "brand": "Plaquenil",
+   "manufacturer": "Advanz Pharma (US) Corp.",
+   "application": "NDA009768",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341"
+  }
+ },
+ "hyoscine-butylbromide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "ibandronate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "6ca94cce-a2bb-421f-bd8f-6b14bc2bd985",
+   "splVersion": "6",
+   "effective": "2026-08-26",
+   "brand": "IBANDRONATE SODIUM",
+   "manufacturer": "Bionpharma Inc.",
+   "application": "ANDA078998",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6ca94cce-a2bb-421f-bd8f-6b14bc2bd985"
+  }
+ },
+ "ipratropium": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 2 hours",
+    "sentence": "The half-life of elimination is about 2 hours after inhalation or intravenous administration"
+   }
+  },
+  "meta": {
+   "setid": "170e98ef-5560-4068-be7d-e649068eb884",
+   "splVersion": "21",
+   "effective": "2025-11-05",
+   "brand": "Atrovent HFA",
+   "manufacturer": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+   "application": "NDA021527",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884"
+  }
+ },
+ "isosorbide-dinitrate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 5 hours",
+    "sentence": "With an overall half-life of about 5 hours, the 5-mononitrate is cleared from the serum by denitration to isosorbide, glucuronidation to the 5-mononitrate glucuronide, and denitration/hydration to sorbitol"
+   },
+   "volumeOfDistribution": {
+    "value": "2 to 4 L/kg",
+    "sentence": "Once absorbed, the volume of distribution of isosorbide dinitrate is 2 to 4 L/kg, and this volume is cleared at the rate of 2 to 4 L/min, so ISDN's half-life in serum is about an hour"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Similarly, it is not known which, if any, of these substances can usefully be removed from the body by hemodialysis"
+   }
+  },
+  "meta": {
+   "setid": "723d9f78-9d77-4575-af27-1aa117e6b8d7",
+   "splVersion": "1",
+   "effective": "2020-03-02",
+   "brand": "Isosorbide Dinitrate",
+   "manufacturer": "Oceanside Pharmaceuticals",
+   "application": "NDA012093",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=723d9f78-9d77-4575-af27-1aa117e6b8d7"
+  }
+ },
+ "isosorbide-mononitrate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 5 hours",
+    "sentence": "The overall elimination half-life of isosorbide mononitrate is about 5 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 0.6 L/kg",
+    "sentence": "The volume of distribution is approximately 0.6 L/kg"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Isosorbide mononitrate is significantly removed from the blood during hemodialysis; however, an additional dose to compensate for drug lost is not necessary"
+   }
+  },
+  "meta": {
+   "setid": "3e0e013f-6887-fa72-e063-6294a90a18ca",
+   "splVersion": "1",
+   "effective": "2025-09-05",
+   "brand": "isosorbide mononitrate",
+   "manufacturer": "Coupler LLC",
+   "application": "NDA020215",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e0e013f-6887-fa72-e063-6294a90a18ca"
+  }
+ },
+ "ivabradine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "approximately 100 L",
+    "sentence": "Corlanor should be taken with food [see Dosage and Administration ( 2 )] . Ivabradine is approximately 70% plasma protein bound, and the volume of distribution at steady state is approximately 100 L. Metabolism and Excretion The pharmacokinetics of ivabradine are linear over an oral dose range of 0.5 mg to 24 mg"
+   }
+  },
+  "meta": {
+   "setid": "92018a65-38f6-45f7-91d4-a34921b81d0d",
+   "splVersion": "33",
+   "effective": "2025-11-10",
+   "brand": "Corlanor",
+   "manufacturer": "Amgen Inc",
+   "application": "NDA206143",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d"
+  }
+ },
+ "ketamine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "14e8f864-8b8a-4e7e-8439-e510d3107063",
+   "splVersion": "33",
+   "effective": "2026-03-27",
+   "brand": "Ketalar",
+   "manufacturer": "Par Health USA, LLC",
+   "application": "NDA016812",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063"
+  }
+ },
+ "lacosamide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "approximately 13 hours",
+    "sentence": "The maximum lacosamide plasma concentrations occur approximately 1 to 4 hour post-dose after oral dosing, and elimination half-life is approximately 13 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 0.6 L/kg",
+    "sentence": "Distribution The volume of distribution is approximately 0.6 L/kg and thus close to the volume of total body water"
+   },
+   "proteinBinding": {
+    "value": "less than 15%",
+    "sentence": "Lacosamide is less than 15% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "16a9afd2-35a6-44a9-b1d9-ca195c8640d7",
+   "splVersion": "7",
+   "effective": "2026-06-11",
+   "brand": "LACOSAMIDE",
+   "manufacturer": "Zydus Pharmaceuticals USA Inc.",
+   "application": "ANDA209465",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16a9afd2-35a6-44a9-b1d9-ca195c8640d7"
+  }
+ },
+ "lamotrigine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "31.2 hours",
+    "sentence": "The mean half-life of lamotrigine in these subjects was 31.2 hours (range: 24.5 to 43.4 hours), and the mean clearance was 0.40 mL/min/kg (range: 0.26 to 0.48 mL/min/kg)"
+   },
+   "proteinBinding": {
+    "value": "approximately 55%",
+    "sentence": "Protein Binding Data from in vitro studies indicate that lamotrigine is approximately 55% bound to human plasma proteins at plasma lamotrigine concentrations from 1 to 10 mcg/mL (10 mcg/mL is 4 to 6 times the trough plasma concentration observed in the controlled efficacy trials)"
+   }
+  },
+  "meta": {
+   "setid": "0833d3df-2df1-4abd-abe0-7fb2c0253c80",
+   "splVersion": "20",
+   "effective": "2026-08-13",
+   "brand": "Lamotrigine",
+   "manufacturer": "Amneal Pharmaceuticals LLC",
+   "application": "ANDA207497",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0833d3df-2df1-4abd-abe0-7fb2c0253c80"
+  }
+ },
+ "lanthanum-carbonate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "53 hours",
+    "sentence": "Lanthanum was cleared from plasma of patients undergoing dialysis with an elimination half-life of 53 hours following discontinuation of therapy"
+   }
+  },
+  "meta": {
+   "setid": "f10776b2-2c25-4343-aabe-68f302e5cb54",
+   "splVersion": "58",
+   "effective": "2024-12-31",
+   "brand": "Fosrenol",
+   "manufacturer": "Takeda Pharmaceuticals America, Inc.",
+   "application": "NDA021468",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f10776b2-2c25-4343-aabe-68f302e5cb54"
+  }
+ },
+ "levofloxacin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 6 to 8 hours",
+    "sentence": "The mean terminal plasma elimination half-life of levofloxacin ranges from approximately 6 to 8 hours following single or multiple doses of levofloxacin given orally or intravenously"
+   },
+   "volumeOfDistribution": {
+    "value": "74 to 112 L",
+    "sentence": "Distribution The mean volume of distribution of levofloxacin generally ranges from 74 to 112 L after single and multiple 500 mg or 750 mg doses, indicating widespread distribution into body tissues"
+   },
+   "proteinBinding": {
+    "value": "approximately 24 to 38%",
+    "sentence": "In vitro , over a clinically relevant range (1 to 10 mcg/mL) of serum/plasma levofloxacin concentrations, levofloxacin is approximately 24 to 38% bound to serum proteins across all species studied, as determined by the equilibrium dialysis method"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Neither hemodialysis nor continuous ambulatory peritoneal dialysis (CAPD) is effective in removal of levofloxacin from the body, indicating that supplemental doses of levofloxacin are not required following hemodialysis or CAPD [see Dosage and Administration ( 2.3) and Use in Specific Populations ( 8.6)]"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Neither hemodialysis nor continuous ambulatory peritoneal dialysis (CAPD) is effective in removal of levofloxacin from the body, indicating that supplemental doses of levofloxacin are not required following hemodialysis or CAPD [see Dosage and Administration ( 2.3) and Use in Specific Populations ( 8.6)]"
+   }
+  },
+  "meta": {
+   "setid": "2a4e97e0-0709-411b-92e8-6f7d669412e4",
+   "splVersion": "19",
+   "effective": "2026-07-02",
+   "brand": "Levofloxacin",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA202801",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a4e97e0-0709-411b-92e8-6f7d669412e4"
+  }
+ },
+ "levothyroxine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "greater than 99%",
+    "sentence": "In addition, many drugs and foods affect T4 absorption [see Drug Interactions ( 7 ) ] . Distribution Circulating thyroid hormones are greater than 99% bound to plasma proteins, including thyroxine-binding globulin (TBG), thyroxine-binding prealbumin (TBPA), and albumin (TBA), whose capacities and affinities vary for each hormone"
+   }
+  },
+  "meta": {
+   "setid": "1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+   "splVersion": "1537",
+   "effective": "2024-02-20",
+   "brand": "Synthroid",
+   "manufacturer": "AbbVie Inc.",
+   "application": "NDA021402",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc"
+  }
+ },
+ "linezolid": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "40 to 50 liters",
+    "sentence": "The volume of distribution of linezolid at steady-state averaged 40 to 50 liters in healthy adult volunteers"
+   },
+   "proteinBinding": {
+    "value": "approximately 31%",
+    "sentence": "The plasma protein binding of linezolid is approximately 31% and is concentration-independent"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Both linezolid and the two metabolites are eliminated by hemodialysis"
+   }
+  },
+  "meta": {
+   "setid": "3e5e9975-6f36-42e4-ab46-0e75dda83592",
+   "splVersion": "24",
+   "effective": "2026-07-09",
+   "brand": "Zyvox",
+   "manufacturer": "Pharmacia & Upjohn Company LLC",
+   "application": "NDA021131",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e5e9975-6f36-42e4-ab46-0e75dda83592"
+  }
+ },
+ "liothyronine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "51452b31-ff68-4e0c-b982-c15502ebf1d3",
+   "splVersion": "15",
+   "effective": "2026-05-18",
+   "brand": "Cytomel",
+   "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+   "application": "NDA010379",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3"
+  }
+ },
+ "lorazepam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 85%",
+    "sentence": "At clinically relevant concentrations, lorazepam is approximately 85% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "0cd02e52-ead5-4b2a-9708-c7c4be7b7995",
+   "splVersion": "20",
+   "effective": "2026-06-24",
+   "brand": "Lorazepam",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA078203",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cd02e52-ead5-4b2a-9708-c7c4be7b7995"
+  }
+ },
+ "memantine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "about 60 to 80 hours",
+    "sentence": "It is excreted predominantly unchanged in urine and has a terminal elimination half-life of about 60 to 80 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "9 to 11 L/kg",
+    "sentence": "Distribution The mean volume of distribution of memantine is 9 to 11 L/kg and the plasma protein binding is low (45%)"
+   },
+   "proteinBinding": {
+    "value": "45%",
+    "sentence": "Distribution The mean volume of distribution of memantine is 9 to 11 L/kg and the plasma protein binding is low (45%)"
+   }
+  },
+  "meta": {
+   "setid": "007d4cb9-3fa9-40f3-b5ca-4083eccd6038",
+   "splVersion": "1",
+   "effective": "2026-09-01",
+   "brand": "MEMANTINE HYDROCHLORIDE",
+   "manufacturer": "NCS HealthCare of KY, LLC dba Vangard Labs",
+   "application": "ANDA214651",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=007d4cb9-3fa9-40f3-b5ca-4083eccd6038"
+  }
+ },
+ "meropenem": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 2%",
+    "sentence": "Distribution The plasma protein binding of meropenem is approximately 2%"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Meropenem is hemodialyzable"
+   }
+  },
+  "meta": {
+   "setid": "3b952a55-6ef7-45c8-be21-16eefe37ec2e",
+   "splVersion": "25",
+   "effective": "2025-08-05",
+   "brand": "Meropenem and Sodium Chloride",
+   "manufacturer": "B. Braun Medical Inc.",
+   "application": "NDA202106",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b952a55-6ef7-45c8-be21-16eefe37ec2e"
+  }
+ },
+ "mesalazine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "proteinBinding": {
+    "value": "78±1%",
+    "sentence": "The overall extent of absorption of N‑Ac-5-ASA was not affected by a high fat meal [see Dosage and Administration (2) ] . Distribution In an in vitro study, at 2.5 mcg/mL, mesalamine and N-Ac-5-ASA are 43±6% and 78±1% bound, respectively, to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "8d27a608-3ba1-4799-be38-c00fb08ce3ce",
+   "splVersion": "8",
+   "effective": "2023-12-19",
+   "brand": "mesalamine",
+   "manufacturer": "Teva Pharmaceuticals USA, Inc.",
+   "application": "NDA022301",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8d27a608-3ba1-4799-be38-c00fb08ce3ce"
+  }
+ },
+ "methadone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "8 to 59 hours",
+    "sentence": "The duration of analgesic action of methadone is 4 to 8 hours (based on single-dose studies) but the plasma elimination half-life is 8 to 59 hours"
+   }
+  },
+  "meta": {
+   "setid": "540edd43-165d-4257-b989-3bccc8f54afb",
+   "splVersion": "2",
+   "effective": "2026-09-09",
+   "brand": "Methadone Hydrochloride",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA211228",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=540edd43-165d-4257-b989-3bccc8f54afb"
+  }
+ },
+ "methylprednisolone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "39d5270b-d957-4821-93d6-501b7b9f02d4",
+   "splVersion": "25",
+   "effective": "2025-11-14",
+   "brand": "Medrol",
+   "manufacturer": "Pharmacia & Upjohn Company LLC",
+   "application": "NDA011153",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39d5270b-d957-4821-93d6-501b7b9f02d4"
+  }
+ },
+ "metolazone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "efa8795e-2c89-4519-b49f-13146fb9ded1",
+   "splVersion": "3",
+   "effective": "2026-08-12",
+   "brand": "Metolazone",
+   "manufacturer": "Safecor Health LLC",
+   "application": "ANDA076698",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efa8795e-2c89-4519-b49f-13146fb9ded1"
+  }
+ },
+ "metronidazole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Patients Undergoing Hemodialysis: Hemodialysis removes significant amounts of metronidazole and its metabolites from systemic circulation"
+   }
+  },
+  "meta": {
+   "setid": "1277591d-ccf4-428a-b647-cb1ef3fbf561",
+   "splVersion": "100",
+   "effective": "2026-04-13",
+   "brand": "Metronidazole",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA203458",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1277591d-ccf4-428a-b647-cb1ef3fbf561"
+  }
+ },
+ "midazolam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "1abda8b8-48a8-4995-af86-39220d1aa240",
+   "splVersion": "35",
+   "effective": "2026-08-12",
+   "brand": "Midazolam",
+   "manufacturer": "Hospira, Inc.",
+   "application": "ANDA075857",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1abda8b8-48a8-4995-af86-39220d1aa240"
+  }
+ },
+ "midodrine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Desglymidodrine is dialyzable"
+   }
+  },
+  "meta": {
+   "setid": "863f12bd-d4a9-4547-8667-5dfa9e2ce6d1",
+   "splVersion": "13",
+   "effective": "2026-08-20",
+   "brand": "Midodrine Hydrochloride",
+   "manufacturer": "Par Health USA, LLC",
+   "application": "ANDA207169",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=863f12bd-d4a9-4547-8667-5dfa9e2ce6d1"
+  }
+ },
+ "minocycline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Elimination: The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours independent of fasting and fed dosing condition. 10 OVERDOSAGE Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Elimination: The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours independent of fasting and fed dosing condition. 10 OVERDOSAGE Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis"
+   }
+  },
+  "meta": {
+   "setid": "0899eb25-8807-037c-f66c-141a2696b1c0",
+   "splVersion": "5",
+   "effective": "2025-04-22",
+   "brand": "EMROSI",
+   "manufacturer": "Journey Medical Corporation",
+   "application": "NDA219015",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0899eb25-8807-037c-f66c-141a2696b1c0"
+  }
+ },
+ "minoxidil-systemic": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "In the absence of functional renal tissue, minoxidil and its metabolites can be removed by hemodialysis. 4"
+   }
+  },
+  "meta": {
+   "setid": "0b4fc036-9497-442b-b629-c4b386932789",
+   "splVersion": "12",
+   "effective": "2026-08-25",
+   "brand": "Minoxidil",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA071826",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b4fc036-9497-442b-b629-c4b386932789"
+  }
+ },
+ "mirtazapine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 20 to 40 hours",
+    "sentence": "Distribution Mirtazapine is approximately 85% bound to plasma proteins over a concentration range of 0.01 to 10 mcg/mL. Elimination Mirtazapine has a half-life of about 20 to 40 hours following oral administration of mirtazapine"
+   },
+   "proteinBinding": {
+    "value": "approximately 85%",
+    "sentence": "Distribution Mirtazapine is approximately 85% bound to plasma proteins over a concentration range of 0.01 to 10 mcg/mL. Elimination Mirtazapine has a half-life of about 20 to 40 hours following oral administration of mirtazapine"
+   }
+  },
+  "meta": {
+   "setid": "10ea9d83-19c3-4f3b-a1cc-cfc48b42507f",
+   "splVersion": "11",
+   "effective": "2026-07-29",
+   "brand": "Mirtazapine",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA076921",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10ea9d83-19c3-4f3b-a1cc-cfc48b42507f"
+  }
+ },
+ "misoprostol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "20–40 minutes",
+    "sentence": "In normal volunteers, Cytotec (misoprostol) is rapidly absorbed after oral administration with a T max of misoprostol acid of 12 ± 3 minutes and a terminal half-life of 20–40 minutes"
+   },
+   "proteinBinding": {
+    "value": "less than 90%",
+    "sentence": "The serum protein binding of misoprostol acid is less than 90% and is concentration-independent in the therapeutic range"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "It is not known if misoprostol acid is dialyzable"
+   }
+  },
+  "meta": {
+   "setid": "4ab12da7-5731-4e06-bf1c-bc3f2e711f12",
+   "splVersion": "22",
+   "effective": "2026-06-04",
+   "brand": "Cytotec",
+   "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+   "application": "NDA019268",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ab12da7-5731-4e06-bf1c-bc3f2e711f12"
+  }
+ },
+ "morphine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "1.5 to 2 hours",
+    "sentence": "The accepted elimination half-life in normal subjects is 1.5 to 2 hours"
+   }
+  },
+  "meta": {
+   "setid": "1f53de80-efc8-4930-b3e3-fba0d026af05",
+   "splVersion": "8",
+   "effective": "2026-08-31",
+   "brand": "Morphine Sulfate",
+   "manufacturer": "Fresenius Kabi, USA LLC",
+   "application": "NDA204223",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f53de80-efc8-4930-b3e3-fba0d026af05"
+  }
+ },
+ "moxifloxacin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "14 hours",
+    "sentence": "Race Steady-state moxifloxacin pharmacokinetics in male Japanese subjects were similar to those determined in Caucasians, with a mean C max of 4.1 mcg/mL, an AUC 24 of 47 mcg•h/mL, and an elimination half-life of 14 hours, following 400 mg p.o. daily"
+   },
+   "volumeOfDistribution": {
+    "value": "1.7 to 2.7 L/kg",
+    "sentence": "The volume of distribution of moxifloxacin ranges from 1.7 to 2.7 L/kg"
+   },
+   "proteinBinding": {
+    "value": "approximately 30 to 50%",
+    "sentence": "Mean Steady-State Plasma Concentrations of Moxifloxacin Obtained With Once Daily Dosing of 400 mg Either Orally (n=10) or by Intravenous Infusion (n=12) Distribution Moxifloxacin is approximately 30 to 50% bound to serum proteins, independent of drug concentration"
+   },
+   "dial-pd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "The sulfate and the glucuronide conjugates of moxifloxacin are not microbiologically active, and the clinical implication of increased exposure to these metabolites in patients with renal disease including those undergoing HD and CAPD has not been studied"
+   }
+  },
+  "meta": {
+   "setid": "1ed191f5-7df5-488c-bb72-91ac0b618d9a",
+   "splVersion": "11",
+   "effective": "2026-07-02",
+   "brand": "Moxifloxacin Hydrochloride",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA202632",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ed191f5-7df5-488c-bb72-91ac0b618d9a"
+  }
+ },
+ "nebivolol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 12 hours",
+    "sentence": "The active isomer (d-nebivolol) has an effective half-life of about 12 hours in CYP2D6 extensive metabolizers (most people), and 19 hours in poor metabolizers and exposure to d-nebivolol is substantially increased in poor metabolizers"
+   },
+   "proteinBinding": {
+    "value": "approximately 98%",
+    "sentence": "Distribution The in vitro human plasma protein binding of nebivolol is approximately 98%, mostly to albumin, and is independent of nebivolol concentrations"
+   }
+  },
+  "meta": {
+   "setid": "3e9e1048-b5ea-4d6a-9363-3ee0d059e088",
+   "splVersion": "5",
+   "effective": "2026-06-09",
+   "brand": "NEBIVOLOL",
+   "manufacturer": "Major Pharmaceuticals",
+   "application": "ANDA212682",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e9e1048-b5ea-4d6a-9363-3ee0d059e088"
+  }
+ },
+ "nicardipine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "5499cfac-9147-4d5d-a8cb-f8d64f1481af",
+   "splVersion": "11",
+   "effective": "2026-04-13",
+   "brand": "Cardene IV",
+   "manufacturer": "Baxter Healthcare Corporation",
+   "application": "NDA019734",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5499cfac-9147-4d5d-a8cb-f8d64f1481af"
+  }
+ },
+ "nitroglycerin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 3 minutes",
+    "sentence": "Pharmacokinetics: The volume of distribution of nitroglycerin is about 3 L/kg, and nitroglycerin is cleared from this volume at extremely rapid rates, with a resulting serum half-life of about 3 minutes"
+   },
+   "volumeOfDistribution": {
+    "value": "about 3 L/kg",
+    "sentence": "Pharmacokinetics: The volume of distribution of nitroglycerin is about 3 L/kg, and nitroglycerin is cleared from this volume at extremely rapid rates, with a resulting serum half-life of about 3 minutes"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Similarly, it is not known which -if any- of these substances can usefully be removed from the body by hemodialysis"
+   }
+  },
+  "meta": {
+   "setid": "3f2c9570-a544-1982-e063-6294a90a3067",
+   "splVersion": "2",
+   "effective": "2025-12-18",
+   "brand": "Nitroglycerin In Dextrose",
+   "manufacturer": "ProPharma Distribution",
+   "application": "NDA019970",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f2c9570-a544-1982-e063-6294a90a3067"
+  }
+ },
+ "nystatin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "9954118e-abe6-4388-98c9-4473d39b2e28",
+   "splVersion": "7",
+   "effective": "2026-03-05",
+   "brand": "Nystatin",
+   "manufacturer": "Chartwell RX, LLC",
+   "application": "NDA050299",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9954118e-abe6-4388-98c9-4473d39b2e28"
+  }
+ },
+ "olanzapine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "21 to 54 hours",
+    "sentence": "Its half-life ranges from 21 to 54 hours (5th to 95th percentile; mean of 30 hr), and apparent plasma clearance ranges from 12 to 47 L/hr (5th to 95th percentile; mean of 25 L/hr)"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 1000 L",
+    "sentence": "Olanzapine is extensively distributed throughout the body, with a volume of distribution of approximately 1000 L. It is 93% bound to plasma proteins over the concentration range of 7 to 1100 ng/mL, binding primarily to albumin and α 1 -acid glycoprotein"
+   },
+   "proteinBinding": {
+    "value": "93%",
+    "sentence": "Olanzapine is extensively distributed throughout the body, with a volume of distribution of approximately 1000 L. It is 93% bound to plasma proteins over the concentration range of 7 to 1100 ng/mL, binding primarily to albumin and α 1 -acid glycoprotein"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "In addition, olanzapine is not removed by dialysis"
+   }
+  },
+  "meta": {
+   "setid": "0ecbf540-572e-4ca4-b694-18ca1cd1c194",
+   "splVersion": "14",
+   "effective": "2026-07-08",
+   "brand": "Olanzapine",
+   "manufacturer": "Major Pharmaceuticals",
+   "application": "ANDA076255",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ecbf540-572e-4ca4-b694-18ca1cd1c194"
+  }
+ },
+ "olmesartan": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 13 hours",
+    "sentence": "Olmesartan appears to be eliminated in a biphasic manner with a terminal elimination half-life of approximately 13 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 17 L",
+    "sentence": "Distribution The volume of distribution of olmesartan is approximately 17 L. Olmesartan is highly bound to plasma proteins (99%) and does not penetrate red blood cells"
+   },
+   "proteinBinding": {
+    "value": "99%",
+    "sentence": "Distribution The volume of distribution of olmesartan is approximately 17 L. Olmesartan is highly bound to plasma proteins (99%) and does not penetrate red blood cells"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "The pharmacokinetics of olmesartan in patients undergoing hemodialysis has not been studied [see Dosage and Administration (2.1) , Warnings and Precautions (5.4) and Use in Specific Populations (8.7) ] . Drug Interaction Studies Bile Acid Sequestering Agent Colesevelam Concomitant administration of 40 mg olmesartan medoxomil and 3750 mg colesevelam hydrochloride in healthy subjects resulted in 28% reduction in C max and 39% reduction in AUC of olmesartan"
+   }
+  },
+  "meta": {
+   "setid": "dc3f1fd4-5578-4c5d-be7b-12e3f8f3e7df",
+   "splVersion": "1",
+   "effective": "2025-09-23",
+   "brand": "Benicar",
+   "manufacturer": "Cosette Pharmaceuticals, Inc.",
+   "application": "NDA021286",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dc3f1fd4-5578-4c5d-be7b-12e3f8f3e7df"
+  }
+ },
+ "oxcarbazepine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "about 2 hours",
+    "sentence": "The half-life of the parent is about 2 hours, while the half-life of MHD is about 9 hours, so that MHD is responsible for most antiepileptic activity"
+   },
+   "renalHalfLife": {
+    "value": "19 hours",
+    "sentence": "Renal Impairment There is a linear correlation between creatinine clearance and the renal clearance of MHD. When oxcarbazepine is administered as a single 300 mg dose in renally-impaired patients (creatinine clearance < 30 mL/min), the elimination half-life of MHD is prolonged to 19 hours, with a 2-fold increase in AUC [see Dosage and Administration ( 2.7 ) and Use in Specific Populations ( 8.6 )]"
+   },
+   "volumeOfDistribution": {
+    "value": "49 L",
+    "sentence": "Distribution The apparent volume of distribution of MHD is 49 L. Approximately 40% of MHD is bound to serum proteins, predominantly to albumin"
+   }
+  },
+  "meta": {
+   "setid": "188a48ad-c412-416a-b15b-de5f232740a2",
+   "splVersion": "8",
+   "effective": "2026-06-11",
+   "brand": "Oxcarbazepine",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA215939",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=188a48ad-c412-416a-b15b-de5f232740a2"
+  }
+ },
+ "oxycodone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "094b64b3-cd32-4de5-afb6-ea00d9caad74",
+   "splVersion": "21",
+   "effective": "2026-06-23",
+   "brand": "Oxycodone Hydrochloride",
+   "manufacturer": "Amneal Pharmaceuticals LLC",
+   "application": "ANDA203638",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=094b64b3-cd32-4de5-afb6-ea00d9caad74"
+  }
+ },
+ "palonosetron": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 40 hours",
+    "sentence": "Mean terminal elimination half-life is approximately 40 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 8.3 ± 2.5 L/kg",
+    "sentence": "Distribution Palonosetron has a volume of distribution of approximately 8.3 ± 2.5 L/kg"
+   },
+   "dial-ihd": {
+    "status": "unknown",
+    "value": "Not established (label statement)",
+    "sentence": "Dialysis studies have not been performed, however, due to the large volume of distribution, dialysis is unlikely to be an effective treatment for palonosetron overdose"
+   }
+  },
+  "meta": {
+   "setid": "13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7",
+   "splVersion": "7",
+   "effective": "2025-04-29",
+   "brand": "posfrea",
+   "manufacturer": "Avyxa Pharma, LLC",
+   "application": "NDA203050",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7"
+  }
+ },
+ "paricalcitol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "4 to 6 hours",
+    "sentence": "While the mean elimination half-life of paricalcitol is 4 to 6 hours in healthy adult volunteers, the mean elimination half-life of paricalcitol in CKD Stages 3, 4, and 5 (on HD and PD) patients ranged from 14 to 20 hours"
+   },
+   "proteinBinding": {
+    "value": "≥ 99.8%",
+    "sentence": "Distribution Paricalcitol is extensively bound to plasma proteins (≥ 99.8%)"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Paricalcitol is not significantly removed by dialysis. 8 USE IN SPECIFIC POPULATIONS Lactation: Breastfeeding not recommended ( 8.2 ). 8.1 Pregnancy Risk Summary Limited data with ZEMPLAR capsules in pregnant women are insufficient to inform a drug-associated risk for major birth defects and miscarriage"
+   }
+  },
+  "meta": {
+   "setid": "1b27c026-2d60-47b4-2a9c-ded1818f21b5",
+   "splVersion": "1502",
+   "effective": "2024-08-07",
+   "brand": "Zemplar",
+   "manufacturer": "AbbVie Inc.",
+   "application": "NDA021606",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b27c026-2d60-47b4-2a9c-ded1818f21b5"
+  }
+ },
+ "pethidine-meperidine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "b31d1308-28c3-43f4-e0a6-2f3ed76b8975",
+   "splVersion": "38",
+   "effective": "2026-07-20",
+   "brand": "DEMEROL",
+   "manufacturer": "Hospira, Inc.",
+   "application": "NDA021171",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b31d1308-28c3-43f4-e0a6-2f3ed76b8975"
+  }
+ },
+ "phenobarbital": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "074e875d-474a-4bbc-9008-821d63ca9e32",
+   "splVersion": "2",
+   "effective": "2026-04-17",
+   "brand": "PHENOBARBITAL",
+   "manufacturer": "Genus Lifesciences",
+   "application": null,
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=074e875d-474a-4bbc-9008-821d63ca9e32"
+  }
+ },
+ "phenytoin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "14 hours",
+    "sentence": "Elimination Clinical studies using Phenytoin Infatabs have shown an average plasma half-life of 14 hours with a range of 7 to 29 hours"
+   }
+  },
+  "meta": {
+   "setid": "3580e6a8-f7c3-44a0-a1eb-2a84ae589d21",
+   "splVersion": "7",
+   "effective": "2026-05-22",
+   "brand": "Phenytoin Infatabs",
+   "manufacturer": "Prasco Laboratories",
+   "application": "ANDA084427",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3580e6a8-f7c3-44a0-a1eb-2a84ae589d21"
+  }
+ },
+ "pioglitazone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "d2ddc491-88a9-4063-9150-443b4fa4330c",
+   "splVersion": "20",
+   "effective": "2025-03-28",
+   "brand": "Actos",
+   "manufacturer": "Takeda Pharmaceuticals America, Inc.",
+   "application": "NDA021073",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c"
+  }
+ },
+ "piperacillin-tazobactam": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "0.7 to 1.2 hours",
+    "sentence": "Excretion Following single or multiple piperacillin and tazobactam for injection doses to healthy subjects, the plasma half-life of piperacillin and of tazobactam ranged from 0.7 to 1.2 hours and was unaffected by dose or duration of infusion"
+   },
+   "proteinBinding": {
+    "value": "approximately 30%",
+    "sentence": "Distribution Both piperacillin and tazobactam are approximately 30% bound to plasma proteins"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "Hemodialysis removes 30% to 40% of a piperacillin and tazobactam dose with an additional 5% of the tazobactam dose removed as the tazobactam metabolite"
+   },
+   "dial-pd": {
+    "status": "not_removed",
+    "value": "Negligible removal (label statement)",
+    "sentence": "Peritoneal dialysis removes approximately 6% and 21% of the piperacillin and tazobactam doses, respectively, with up to 16% of the tazobactam dose removed as the tazobactam metabolite"
+   }
+  },
+  "meta": {
+   "setid": "7aebc0e6-89db-4ef0-b5ab-d6b3199bcfc4",
+   "splVersion": "1",
+   "effective": "2025-09-08",
+   "brand": "piperacillin and tazobactam",
+   "manufacturer": "Civica, Inc.",
+   "application": "ANDA065458",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7aebc0e6-89db-4ef0-b5ab-d6b3199bcfc4"
+  }
+ },
+ "pramipexole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "about 500 L",
+    "sentence": "Distribution Pramipexole is extensively distributed, having a volume of distribution of about 500 L (coefficient of variation [CV]=20%)"
+   },
+   "proteinBinding": {
+    "value": "about 15%",
+    "sentence": "It is about 15% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "29b639e3-25a5-4c2f-b4ea-a119db79fe0c",
+   "splVersion": "26",
+   "effective": "2026-09-09",
+   "brand": "Pramipexole Dihydrochloride",
+   "manufacturer": "A-S Medication Solutions",
+   "application": "ANDA202633",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c"
+  }
+ },
+ "prazosin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Laboratory data indicate prazosin hydrochloride is not dialysable because it is protein bound"
+   }
+  },
+  "meta": {
+   "setid": "2f86fc8e-71c1-4749-b67e-86d86cf1d984",
+   "splVersion": "8",
+   "effective": "2026-08-05",
+   "brand": "Prazosin Hydrochloride",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "NDA017442",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f86fc8e-71c1-4749-b67e-86d86cf1d984"
+  }
+ },
+ "prednisolone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "2 to 4 hours",
+    "sentence": "Prednisolone is 70-90% protein-bound in the plasma and it is eliminated from the plasma with a half-life of 2 to 4 hours"
+   },
+   "proteinBinding": {
+    "value": "70-90%",
+    "sentence": "Prednisolone is 70-90% protein-bound in the plasma and it is eliminated from the plasma with a half-life of 2 to 4 hours"
+   }
+  },
+  "meta": {
+   "setid": "d1f937e7-fed5-4079-bd52-5d930b34ae9f",
+   "splVersion": "2",
+   "effective": "2026-06-25",
+   "brand": "PrednisoLONE Sodium Phosphate",
+   "manufacturer": "PAI Holdings, LLC dba PAI Pharma",
+   "application": "NDA019157",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1f937e7-fed5-4079-bd52-5d930b34ae9f"
+  }
+ },
+ "prochlorperazine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Limited experience indicates that phenothiazines are not dialyzable"
+   }
+  },
+  "meta": {
+   "setid": "383744db-ba57-478a-8041-2ecc26d3e1ec",
+   "splVersion": "2",
+   "effective": "2022-10-09",
+   "brand": "Prochlorperazine",
+   "manufacturer": "PharmPak, Inc.",
+   "application": "ANDA040268",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=383744db-ba57-478a-8041-2ecc26d3e1ec"
+  }
+ },
+ "promethazine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "5a797d11-19b0-fd33-e063-6394a90a4d58",
+   "splVersion": "1",
+   "effective": "2026-09-02",
+   "brand": "Promethazine Hydrochloride",
+   "manufacturer": "Redpharm Drug",
+   "application": "ANDA040596",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a797d11-19b0-fd33-e063-6394a90a4d58"
+  }
+ },
+ "propafenone": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "10 to 32 hours",
+    "sentence": "In these patients, the estimated propafenone elimination half-life ranges from 10 to 32 hours"
+   },
+   "proteinBinding": {
+    "value": "greater than 95%",
+    "sentence": "In serum, propafenone is greater than 95% bound to proteins within the concentration range of 0.5 to 2 mcg/mL. Metabolism There are 2 genetically determined patterns of propafenone metabolism"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "The hemodialysis of propafenone in patients with an overdose is expected to be of limited value in the removal of propafenone as a result of both its high protein binding (greater than 95%) and large volume of distribution. 8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary In the absence of studies in pregnant women, available data from published case reports and several decades of postmarketing experience with use of propafenone in pregnancy have not identified any drug-associated risks of miscarriage, birth defects, or adverse maternal or fetal outcomes"
+   }
+  },
+  "meta": {
+   "setid": "bc1d2548-15a3-4986-92b1-c3ddfb35343a",
+   "splVersion": "3",
+   "effective": "2024-12-26",
+   "brand": "Propafenone Hydrochloride",
+   "manufacturer": "Vitruvias Therapeutics",
+   "application": "ANDA210339",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc1d2548-15a3-4986-92b1-c3ddfb35343a"
+  }
+ },
+ "quetiapine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "10±4 L/kg",
+    "sentence": "Distribution Quetiapine is widely distributed throughout the body with an apparent volume of distribution of 10±4 L/kg"
+   },
+   "proteinBinding": {
+    "value": "83%",
+    "sentence": "It is 83% bound to plasma proteins at therapeutic concentrations"
+   }
+  },
+  "meta": {
+   "setid": "0584dda8-bc3c-48fe-1a90-79608f78e8a0",
+   "splVersion": "50",
+   "effective": "2025-01-22",
+   "brand": "SEROQUEL",
+   "manufacturer": "AstraZeneca Pharmaceuticals LP",
+   "application": "NDA020639",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0584dda8-bc3c-48fe-1a90-79608f78e8a0"
+  }
+ },
+ "repaglinide": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 1 hour",
+    "sentence": "Repaglinide is eliminated from the blood stream with a half-life of approximately 1 hour"
+   },
+   "volumeOfDistribution": {
+    "value": "31 L",
+    "sentence": "Distribution After intravenous (IV) dosing in healthy subjects, the volume of distribution at steady state (V ss ) was 31 L, and the total body clearance (CL) was 38 L/h"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "There is no evidence that repaglinide is dialyzable using hemodialysis. 8 USE IN SPECIFIC POPULATIONS Lactation: Repaglinide is not recommended when breastfeeding ( 8.2 ) 8.1 Pregnancy Risk Summary Limited available data from case reports and case series with repaglinide use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes"
+   }
+  },
+  "meta": {
+   "setid": "6ae28683-28cc-408e-90f9-6a3dddfc668d",
+   "splVersion": "100",
+   "effective": "2025-11-04",
+   "brand": "Repaglinide",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA203820",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6ae28683-28cc-408e-90f9-6a3dddfc668d"
+  }
+ },
+ "rifampicin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "1b074c23-dd35-43c9-820c-0e603481fdd3",
+   "splVersion": "2",
+   "effective": "2026-08-25",
+   "brand": "Rifadin",
+   "manufacturer": "Sanofi-Aventis U.S. LLC",
+   "application": null,
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b074c23-dd35-43c9-820c-0e603481fdd3"
+  }
+ },
+ "rivastigmine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "proteinBinding": {
+    "value": "approximately 40%",
+    "sentence": "Distribution Rivastigmine is weakly bound to plasma proteins (approximately 40%) over the therapeutic range"
+   }
+  },
+  "meta": {
+   "setid": "52781229-ee82-43f9-a113-4419a611978d",
+   "splVersion": "2",
+   "effective": "2025-11-11",
+   "brand": "Rivastigmine Tartrate",
+   "manufacturer": "American Health Packaging",
+   "application": "ANDA077130",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52781229-ee82-43f9-a113-4419a611978d"
+  }
+ },
+ "ropinirole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "approximately 6 hours",
+    "sentence": "Elimination The clearance of ropinirole after oral administration is 47 L/h and its elimination half-life is approximately 6 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "7.5 L/kg",
+    "sentence": "Distribution Ropinirole is widely distributed throughout the body, with an apparent volume of distribution of 7.5 L/kg"
+   },
+   "proteinBinding": {
+    "value": "40%",
+    "sentence": "It is up to 40% bound to plasma proteins and has a blood-to-plasma ratio of 1:1"
+   }
+  },
+  "meta": {
+   "setid": "0030ffac-183a-472c-95b8-f93b4195de04",
+   "splVersion": "1",
+   "effective": "2026-07-06",
+   "brand": "ropinirole",
+   "manufacturer": "Preferred Pharmaceuticals Inc.",
+   "application": "ANDA090135",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0030ffac-183a-472c-95b8-f93b4195de04"
+  }
+ },
+ "salbutamol-albuterol": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+   "splVersion": "5",
+   "effective": "2026-01-30",
+   "brand": "Albuterol Sulate HFA",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "NDA020983",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d34a3c-ccc6-420a-ad31-a1af55f7de76"
+  }
+ },
+ "sertraline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "about 26 hours",
+    "sentence": "The average terminal elimination half-life of plasma sertraline is about 26 hours"
+   },
+   "proteinBinding": {
+    "value": "98%",
+    "sentence": "Protein Binding In vitro protein binding studies performed with radiolabeled 3H-sertraline showed that sertraline is highly bound to serum proteins (98%) in the range of 20 to 500 ng/mL. However, at up to 300 and 200 ng/mL concentrations, respectively, sertraline and N-desmethylsertraline did not alter the plasma protein binding of two other highly protein bound drugs, warfarin and propranolol"
+   }
+  },
+  "meta": {
+   "setid": "03e1f274-fa9a-4461-b7c9-31ba6428c107",
+   "splVersion": "1",
+   "effective": "2026-03-30",
+   "brand": "Sertraline",
+   "manufacturer": "Bryant Ranch Prepack",
+   "application": "ANDA076465",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03e1f274-fa9a-4461-b7c9-31ba6428c107"
+  }
+ },
+ "sodium-bicarbonate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "2d2035c2-e41b-4d57-a23c-fae16ad9a355",
+   "splVersion": "3",
+   "effective": "2026-08-07",
+   "brand": "Sodium Bicarbonate",
+   "manufacturer": "Milla Pharmaceuticals Inc.",
+   "application": "ANDA219089",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d2035c2-e41b-4d57-a23c-fae16ad9a355"
+  }
+ },
+ "sulfasalazine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "10.4 hrs",
+    "sentence": "In fast acetylators, the mean plasma half-life of SP is 10.4 hrs, while in slow acetylators it is 14.8 hrs"
+   },
+   "proteinBinding": {
+    "value": "about 70%",
+    "sentence": "Distribution: Following intravenous injection, the calculated volume of distribution (Vdss) for SSZ was 7.5 ± 1.6 L. SSZ is highly bound to albumin (>99.3%), while SP is only about 70% bound to albumin"
+   }
+  },
+  "meta": {
+   "setid": "257cee60-b68f-4c2b-b57d-8e4d73d17e09",
+   "splVersion": "31",
+   "effective": "2026-08-25",
+   "brand": "Sulfasalazine",
+   "manufacturer": "Mylan Pharmaceuticals Inc.",
+   "application": "NDA007073",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=257cee60-b68f-4c2b-b57d-8e4d73d17e09"
+  }
+ },
+ "sumatriptan": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "115 ± 19 minutes",
+    "sentence": "Following a 6 mg subcutaneous injection into the deltoid area of the arm, the systemic clearance of sumatriptan was 1,194 ± 149 mL/min and the terminal half-life was 115 ± 19 minutes"
+   }
+  },
+  "meta": {
+   "setid": "015a5cf9-f246-48bc-b91e-cd730a53d8aa",
+   "splVersion": "6",
+   "effective": "2024-11-18",
+   "brand": "TOSYMRA",
+   "manufacturer": "Upsher-Smith Laboratories, LLC",
+   "application": "NDA210884",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=015a5cf9-f246-48bc-b91e-cd730a53d8aa"
+  }
+ },
+ "teicoplanin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "terazosin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 13 hours",
+    "sentence": "Elimination Terazosin has a half-life of approximately 13 hours"
+   },
+   "proteinBinding": {
+    "value": "90 to 94%",
+    "sentence": "Distribution Terazosin is 90 to 94% bound to plasma proteins and binding is constant over the clinically observed concentration range"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Dialysis is unlikely to be effective as terazosin is highly protein bound"
+   }
+  },
+  "meta": {
+   "setid": "69582e0c-6569-490c-8c14-999f3750336f",
+   "splVersion": "3",
+   "effective": "2025-04-18",
+   "brand": "TEZRULY",
+   "manufacturer": "ANI Pharmaceuticals, Inc.",
+   "application": "NDA218139",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f"
+  }
+ },
+ "terbutaline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "approximately 3.4 hours",
+    "sentence": "After an oral dose to asthmatic patients, the elimination half-life of terbutaline was approximately 3.4 hours"
+   }
+  },
+  "meta": {
+   "setid": "d810a15b-3e10-4f6c-a36e-8ddecbaba9c3",
+   "splVersion": "2",
+   "effective": "2019-11-15",
+   "brand": "Terbutaline Sulfate",
+   "manufacturer": "ANI Pharmaceuticals, Inc.",
+   "application": "NDA017849",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d810a15b-3e10-4f6c-a36e-8ddecbaba9c3"
+  }
+ },
+ "theophylline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "8.3 hours",
+    "sentence": "The subjects used for this study exhibited a mean half-life of 8.3 hours (range 5.2 to 12.2) and mean clearance of 3.5 L/hour (range 2.3 to 5.6) as determined in a separate single-dose clearance study using 500 mg of immediate-release theophylline, prior to this multiple-dose study"
+   },
+   "volumeOfDistribution": {
+    "value": "approximately 0.45 L/kg",
+    "sentence": "The apparent volume of distribution of theophylline is approximately 0.45 L/kg (range 0.3 to 0.7 L/kg) based on ideal body weight"
+   }
+  },
+  "meta": {
+   "setid": "5e64036a-ee3e-42e7-9e59-881f88a4e298",
+   "splVersion": "7",
+   "effective": "2026-07-29",
+   "brand": "Theophylline",
+   "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+   "application": "ANDA215312",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e64036a-ee3e-42e7-9e59-881f88a4e298"
+  }
+ },
+ "tigecycline": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "volumeOfDistribution": {
+    "value": "500 to 700 L",
+    "sentence": "The steady-state volume of distribution of tigecycline averaged 500 to 700 L (7 to 9 L/kg), indicating tigecycline is extensively distributed beyond the plasma volume and into the tissues"
+   },
+   "dial-ihd": {
+    "status": "removed",
+    "value": "Removed by dialysis (label statement)",
+    "sentence": "The pharmacokinetic profile of tigecycline was not significantly altered in any of the renally impaired patient groups, nor was tigecycline removed by hemodialysis"
+   }
+  },
+  "meta": {
+   "setid": "2ccdb48e-c14a-4eeb-348c-4920ccfd7465",
+   "splVersion": "50",
+   "effective": "2025-11-18",
+   "brand": "Tygacil",
+   "manufacturer": "Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.",
+   "application": "NDA021821",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ccdb48e-c14a-4eeb-348c-4920ccfd7465"
+  }
+ },
+ "tizanidine": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "approximately 2.5 hours",
+    "sentence": "Tizanidine has a half-life of approximately 2.5 hours (CV=33%)"
+   },
+   "volumeOfDistribution": {
+    "value": "2.4 L/kg",
+    "sentence": "Tizanidine is extensively distributed throughout the body with a mean steady state volume of distribution of 2.4 L/kg (CV = 21%) following intravenous administration in healthy adult volunteers"
+   },
+   "proteinBinding": {
+    "value": "approximately 30%",
+    "sentence": "Tizanidine is approximately 30% bound to plasma proteins"
+   }
+  },
+  "meta": {
+   "setid": "043d9e51-bfa2-4add-9058-5ece332f7e99",
+   "splVersion": "6",
+   "effective": "2025-05-05",
+   "brand": "Zanaflex",
+   "manufacturer": "Covis Pharma US, Inc",
+   "application": "NDA020397",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=043d9e51-bfa2-4add-9058-5ece332f7e99"
+  }
+ },
+ "topiramate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {
+   "halfLife": {
+    "value": "21 hours",
+    "sentence": "The mean plasma elimination half-life is 21 hours after single or multiple doses"
+   }
+  },
+  "meta": {
+   "setid": "0c0a6774-e234-47a5-866e-462cfd99744c",
+   "splVersion": "4",
+   "effective": "2026-09-01",
+   "brand": "topiramate",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA078877",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c0a6774-e234-47a5-866e-462cfd99744c"
+  }
+ },
+ "ursodeoxycholic-acid": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "00c47258-aef0-53f6-e063-6294a90af96f",
+   "splVersion": "2",
+   "effective": "2026-01-19",
+   "brand": "Ursodiol",
+   "manufacturer": "AvKARE",
+   "application": "NDA019594",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c47258-aef0-53f6-e063-6294a90af96f"
+  }
+ },
+ "valproate": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [],
+  "found": {},
+  "meta": {
+   "setid": "8d5fc1c1-d3c0-497e-971b-6c4dba9a3fad",
+   "splVersion": "3",
+   "effective": "2026-03-12",
+   "brand": "Valproate Sodium",
+   "manufacturer": "Sagent Pharmaceuticals",
+   "application": "ANDA076295",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8d5fc1c1-d3c0-497e-971b-6c4dba9a3fad"
+  }
+ },
+ "vancomycin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "4 to 6 hours",
+    "sentence": "The mean elimination half-life of vancomycin from plasma is 4 to 6 hours in subjects with normal renal function"
+   },
+   "volumeOfDistribution": {
+    "value": "0.3 to 0.43 L/kg",
+    "sentence": "It should be noted that the total systemic and renal clearances of vancomycin are reduced in the elderly [see Use in Specific Populations ( 8.5 )] . Distribution The volume of distribution ranges from 0.3 to 0.43 L/kg after intravenous administration"
+   },
+   "dial-ihd": {
+    "status": "not_removed",
+    "value": "Not significantly removed (label statement)",
+    "sentence": "Vancomycin is poorly removed by dialysis"
+   }
+  },
+  "meta": {
+   "setid": "c757e65b-ca6f-4c00-afe2-025962b43d31",
+   "splVersion": "1",
+   "effective": "2026-07-31",
+   "brand": "Vancomycin Hydrochloride",
+   "manufacturer": "Avenacy, LLC",
+   "application": "NDA210274",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c757e65b-ca6f-4c00-afe2-025962b43d31"
+  }
+ },
+ "vildagliptin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {}
+ },
+ "voriconazole": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {},
+  "meta": {
+   "setid": "08d08721-1f4c-478a-8abf-d9c402d50553",
+   "splVersion": "33",
+   "effective": "2026-03-20",
+   "brand": "VFEND",
+   "manufacturer": "Roerig",
+   "application": "NDA021267",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08d08721-1f4c-478a-8abf-d9c402d50553"
+  }
+ },
+ "warfarin": {
+  "fields": [
+   "halfLife",
+   "renalHalfLife",
+   "volumeOfDistribution",
+   "proteinBinding"
+  ],
+  "dialysis": [
+   "ihd",
+   "pd"
+  ],
+  "found": {
+   "halfLife": {
+    "value": "20 to 60 hours",
+    "sentence": "Patients with one or more variant CYP2C9 alleles have decreased S-warfarin clearance [see Clinical Pharmacology (12.5) ] . Excretion The terminal half-life of warfarin after a single dose is approximately 1 week; however, the effective half-life ranges from 20 to 60 hours, with a mean of about 40 hours"
+   },
+   "volumeOfDistribution": {
+    "value": "about 0.14 L/kg",
+    "sentence": "Distribution Warfarin shows a volume of distribution of about 0.14 L/kg"
+   }
+  },
+  "meta": {
+   "setid": "2fb8b8d5-f643-4069-8e47-5eae31a8fbc8",
+   "splVersion": "6",
+   "effective": "2026-06-29",
+   "brand": "Warfarin Sodium",
+   "manufacturer": "REMEDYREPACK INC.",
+   "application": "ANDA202202",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fb8b8d5-f643-4069-8e47-5eae31a8fbc8"
+  }
+ }
+}

@@ -1,0 +1,830 @@
+[
+ {
+  "id": "acyclovir",
+  "field": "halfLife",
+  "value": "2.5–3.3 h (plasma elimination)",
+  "evidence": "Plasma elimination half-life 2.5 to 3.3 hr"
+ },
+ {
+  "id": "aminophylline",
+  "field": "halfLife",
+  "value": "≈8 h (theophylline, non-smoking adults)",
+  "evidence": "approximately 4 hours in children 1 to 9 years and 8 hours in non-smoking adults"
+ },
+ {
+  "id": "amiodarone",
+  "field": "halfLife",
+  "value": "mean 58 days (15–142) terminal; DEA metabolite 36 days",
+  "evidence": "a mean apparent plasma terminal elimination half-life of 58 days (range 15 to 142 days) for amiodarone and 36 days (range 14 to 75 days) for the active metabolite (DEA)"
+ },
+ {
+  "id": "brivaracetam",
+  "field": "halfLife",
+  "value": "≈9 h (terminal)",
+  "evidence": "The terminal plasma half-life (t 1/2 ) is approximately 9 hours"
+ },
+ {
+  "id": "buprenorphine",
+  "field": "halfLife",
+  "value": "≈26 h (terminal, after transdermal patch removal)",
+  "evidence": "with an apparent terminal half-life of approximately 26 hours"
+ },
+ {
+  "id": "calcitriol",
+  "field": "halfLife",
+  "value": "5–8 h (single oral dose)",
+  "evidence": "The elimination half-life of calcitriol in serum after single oral doses is about 5 to 8 hours in normal subjects"
+ },
+ {
+  "id": "carbamazepine",
+  "field": "halfLife",
+  "value": "25–65 h initially; 12–17 h on repeated doses",
+  "evidence": "Initial half-life values range from 25 to 65 hours, decreasing to 12 to 17 hours on repeated doses"
+ },
+ {
+  "id": "cefixime",
+  "field": "halfLife",
+  "value": "3–4 h (up to 9 h in some)",
+  "evidence": "The serum half-life of cefixime in healthy subjects is independent of dosage form and averages 3 to 4 hours but may range up to 9 hours in some normal volunteers"
+ },
+ {
+  "id": "cefuroxime",
+  "field": "halfLife",
+  "value": "≈80 min (IV)",
+  "evidence": "The serum half-life after IV injection is approximately 80 minutes"
+ },
+ {
+  "id": "ciprofloxacin",
+  "field": "halfLife",
+  "value": "≈4 h",
+  "evidence": "The serum elimination half-life in subjects with normal renal function is approximately 4 hours"
+ },
+ {
+  "id": "clindamycin",
+  "field": "halfLife",
+  "value": "≈3 h (adults)",
+  "evidence": "the average serum elimination half-life of active clindamycin is about 3 hours in adults"
+ },
+ {
+  "id": "clonazepam",
+  "field": "halfLife",
+  "value": "30–40 h",
+  "evidence": "The elimination half-life of clonazepam is typically 30 to 40 hours"
+ },
+ {
+  "id": "codeine",
+  "field": "halfLife",
+  "value": "≈3 h (codeine and metabolites)",
+  "evidence": "The plasma half-lives of codeine and its metabolites have been reported to be approximately 3 hours"
+ },
+ {
+  "id": "diazepam",
+  "field": "halfLife",
+  "value": "up to 48 h (terminal)",
+  "evidence": "prolonged terminal elimination phase (half-life up to 48 hours)"
+ },
+ {
+  "id": "digoxin",
+  "field": "halfLife",
+  "value": "36–48 h (adults)",
+  "evidence": "in adults it is typically 36 to 48 hours"
+ },
+ {
+  "id": "doxycycline",
+  "field": "halfLife",
+  "value": "18–22 h",
+  "evidence": "Studies have shown no significant difference in serum half-life of doxycycline (range 18-22 hours) in individuals with normal and severely impaired renal function"
+ },
+ {
+  "id": "esmolol",
+  "field": "halfLife",
+  "value": "≈9 min",
+  "evidence": "Its elimination half-life after intravenous infusion is approximately 9 minutes"
+ },
+ {
+  "id": "formoterol",
+  "field": "halfLife",
+  "value": "7 h (terminal, inhaled)",
+  "evidence": "the mean terminal elimination half-life was determined to be 7 hours"
+ },
+ {
+  "id": "ibandronate",
+  "field": "halfLife",
+  "value": "37–157 h (oral 150 mg, apparent terminal)",
+  "evidence": "The observed apparent terminal half-life for the 150 mg ibandronate tablet upon oral administration to healthy postmenopausal women ranges from 37 to 157 hours"
+ },
+ {
+  "id": "ivabradine",
+  "field": "halfLife",
+  "value": "≈6 h (effective)",
+  "evidence": "an effective half-life of approximately 6 hours"
+ },
+ {
+  "id": "levothyroxine",
+  "field": "halfLife",
+  "value": "6–7 days (euthyroid)",
+  "evidence": "Levothyroxine (T4) 10 - 20 1 6-7**"
+ },
+ {
+  "id": "liothyronine",
+  "field": "halfLife",
+  "value": "about 2½ days (biological)",
+  "evidence": "The biological half-life is about 2-1/2 days"
+ },
+ {
+  "id": "lorazepam",
+  "field": "halfLife",
+  "value": "≈12 h (unconjugated lorazepam)",
+  "evidence": "The mean half-life of unconjugated lorazepam in human plasma is about 12 hours"
+ },
+ {
+  "id": "mesalazine",
+  "field": "halfLife",
+  "value": "9–10 h (5-ASA, ER capsules); N-Ac-5-ASA 12–14 h",
+  "evidence": "the mean half-lives were 9 to 10 hours for 5-ASA, and 12 to 14 hours for N-Ac-5-ASA"
+ },
+ {
+  "id": "midazolam",
+  "field": "halfLife",
+  "value": "1.8–6.4 h (mean ≈3 h)",
+  "evidence": "elimination half-life, 1.8 to 6.4 hours (mean approximately 3 hours)"
+ },
+ {
+  "id": "midodrine",
+  "field": "halfLife",
+  "value": "≈25 min (prodrug); desglymidodrine 3–4 h",
+  "evidence": "decline with a half-life of approximately 25 minutes, while the metabolite reaches peak blood concentrations about 1 to 2 hours after a dose of midodrine and has a half-life of about 3 to 4 hours"
+ },
+ {
+  "id": "minocycline",
+  "field": "halfLife",
+  "value": "≈15 h (extended-release EMROSI)",
+  "evidence": "The mean apparent elimination half-life (t ½ ) of minocycline from EMROSI was approximately 15 hours"
+ },
+ {
+  "id": "minoxidil-systemic",
+  "field": "halfLife",
+  "value": "4.2 h",
+  "evidence": "The average plasma half-life in man is 4.2 hours"
+ },
+ {
+  "id": "nicardipine",
+  "field": "halfLife",
+  "value": "14.4 h terminal after long IV infusions (β-phase 44.8 min)",
+  "evidence": "an intermediate phase (β-half-life of 44.8 minutes), and a slow terminal phase (γ-half-life of 14.4 hours)"
+ },
+ {
+  "id": "oxycodone",
+  "field": "halfLife",
+  "value": "3.5–4 h",
+  "evidence": "Apparent elimination half-life of oxycodone following the administration of oxycodone HCl was 3.5 to 4 hours"
+ },
+ {
+  "id": "pethidine-meperidine",
+  "field": "halfLife",
+  "value": "2–5 h; normeperidine 15–30 h",
+  "evidence": "The half-life of meperidine is 2 to 5 hours, and the half-life of normeperidine is 15 to 30 hours"
+ },
+ {
+  "id": "phenobarbital",
+  "field": "halfLife",
+  "value": "53–118 h (mean 79 h, adults)",
+  "evidence": "The plasma half-life for phenobarbital in adults ranges between 53 and 118 hours with a mean of 79 hours"
+ },
+ {
+  "id": "pioglitazone",
+  "field": "halfLife",
+  "value": "parent three to seven hours; metabolites M-III/M-IV 16–24 h",
+  "evidence": "range from three to seven hours and 16 to 24 hours, respectively"
+ },
+ {
+  "id": "pramipexole",
+  "field": "halfLife",
+  "value": "≈8 h (young adults); ≈12 h (elderly)",
+  "evidence": "Its terminal half-life is about 8 hours in young healthy volunteers and about 12 hours in elderly volunteers"
+ },
+ {
+  "id": "quetiapine",
+  "field": "halfLife",
+  "value": "≈6 h (terminal)",
+  "evidence": "a mean terminal half-life of about 6 hours within the proposed clinical dose range"
+ },
+ {
+  "id": "rivastigmine",
+  "field": "halfLife",
+  "value": "≈1.5 h",
+  "evidence": "The elimination half-life is about 1.5 hours"
+ },
+ {
+  "id": "salbutamol-albuterol",
+  "field": "halfLife",
+  "value": "≈4.6 h (terminal)",
+  "evidence": "Apparent terminal plasma half-life of albuterol is approximately 4.6 hours"
+ },
+ {
+  "id": "sulfasalazine",
+  "field": "halfLife",
+  "value": "7.6 ± 3.4 h (IV sulfasalazine)",
+  "evidence": "The observed plasma half-life for intravenous sulfasalazine is 7.6 ± 3.4 hrs"
+ },
+ {
+  "id": "valproate",
+  "field": "halfLife",
+  "value": "16 ± 3.0 h (IV monotherapy)",
+  "evidence": "Mean terminal half-life for valproate monotherapy after an intravenous infusion of 1,000 mg was 16 ± 3.0 hours"
+ },
+ {
+  "id": "acyclovir",
+  "field": "proteinBinding",
+  "value": "9–33%",
+  "evidence": "Plasma protein binding 9% to 33%"
+ },
+ {
+  "id": "aminophylline",
+  "field": "proteinBinding",
+  "value": "≈40% (theophylline)",
+  "evidence": "about 40% is bound to plasma protein, primarily albumin"
+ },
+ {
+  "id": "amiodarone",
+  "field": "proteinBinding",
+  "value": "≈96%",
+  "evidence": "Amiodarone hydrochloride is highly protein-bound (approximately 96%)"
+ },
+ {
+  "id": "brivaracetam",
+  "field": "proteinBinding",
+  "value": "≤20%",
+  "evidence": "Brivaracetam is weakly bound to plasma proteins (≤20%)"
+ },
+ {
+  "id": "cefixime",
+  "field": "proteinBinding",
+  "value": "≈65%",
+  "evidence": "Serum protein binding is concentration independent with a bound fraction of approximately 65%"
+ },
+ {
+  "id": "ceftaroline",
+  "field": "proteinBinding",
+  "value": "≈20%",
+  "evidence": "The average binding of ceftaroline to human plasma proteins is approximately 20%"
+ },
+ {
+  "id": "ceftazidime",
+  "field": "proteinBinding",
+  "value": "<10%",
+  "evidence": "Less than 10% of ceftazidime was protein bound"
+ },
+ {
+  "id": "ciprofloxacin",
+  "field": "proteinBinding",
+  "value": "20–40%",
+  "evidence": "The binding of ciprofloxacin to serum proteins is 20% to 40%"
+ },
+ {
+  "id": "codeine",
+  "field": "proteinBinding",
+  "value": "7–25%",
+  "evidence": "about 7% to 25% of codeine bound to plasma proteins"
+ },
+ {
+  "id": "diazepam",
+  "field": "proteinBinding",
+  "value": "98%",
+  "evidence": "highly bound to plasma proteins (diazepam 98%)"
+ },
+ {
+  "id": "digoxin",
+  "field": "proteinBinding",
+  "value": "≈25%",
+  "evidence": "Approximately 25% of digoxin in the plasma is bound to protein"
+ },
+ {
+  "id": "donepezil",
+  "field": "proteinBinding",
+  "value": "≈96%",
+  "evidence": "Donepezil is approximately 96% bound to human plasma proteins"
+ },
+ {
+  "id": "ertapenem",
+  "field": "proteinBinding",
+  "value": "≈85–95% (falls as concentration rises)",
+  "evidence": "from approximately 95% bound at an approximate plasma concentration of <100 micrograms (mcg)/mL to approximately 85% bound"
+ },
+ {
+  "id": "esmolol",
+  "field": "proteinBinding",
+  "value": "55% (acid metabolite 10%)",
+  "evidence": "BREVIBLOC injection has been shown to be 55% bound to human plasma protein, while the acid metabolite is only 10% bound"
+ },
+ {
+  "id": "flecainide",
+  "field": "proteinBinding",
+  "value": "≈40%",
+  "evidence": "The extent of flecainide binding to human plasma proteins is about 40%"
+ },
+ {
+  "id": "formoterol",
+  "field": "proteinBinding",
+  "value": "61–64%",
+  "evidence": "The binding of formoterol to human plasma proteins in vitro was 61% to 64%"
+ },
+ {
+  "id": "ganciclovir",
+  "field": "proteinBinding",
+  "value": "1–2%",
+  "evidence": "Binding to plasma proteins was 1% to 2%"
+ },
+ {
+  "id": "glipizide",
+  "field": "proteinBinding",
+  "value": "98–99%",
+  "evidence": "found to be 98 to 99% one hour after either route of administration"
+ },
+ {
+  "id": "hydroxychloroquine",
+  "field": "proteinBinding",
+  "value": "≈50%",
+  "evidence": "Approximately 50% of hydroxychloroquine is bound to plasma proteins"
+ },
+ {
+  "id": "ibandronate",
+  "field": "proteinBinding",
+  "value": "85.7–99.5% (in vitro)",
+  "evidence": "In vitro protein binding in human serum was 99.5% to 90.9% over an ibandronate concentration range of 2 to 10 ng/mL in one study and approximately 85.7%"
+ },
+ {
+  "id": "ipratropium",
+  "field": "proteinBinding",
+  "value": "0–9% (in vitro)",
+  "evidence": "Ipratropium bromide is minimally bound (0% to 9% in vitro )"
+ },
+ {
+  "id": "isosorbide-mononitrate",
+  "field": "proteinBinding",
+  "value": "<5%",
+  "evidence": "Plasma protein binding of isosorbide mononitrate was found to be less than 5%"
+ },
+ {
+  "id": "ivabradine",
+  "field": "proteinBinding",
+  "value": "≈70%",
+  "evidence": "Ivabradine is approximately 70% plasma protein bound"
+ },
+ {
+  "id": "lanthanum-carbonate",
+  "field": "proteinBinding",
+  "value": ">99% (in vitro)",
+  "evidence": "lanthanum is highly bound (>99%) to human plasma proteins"
+ },
+ {
+  "id": "methadone",
+  "field": "proteinBinding",
+  "value": "85–90% (α1-acid glycoprotein)",
+  "evidence": "methadone is predominantly bound to α1-acid glycoprotein (85% to 90%)"
+ },
+ {
+  "id": "metronidazole",
+  "field": "proteinBinding",
+  "value": "<20%",
+  "evidence": "Less than 20% of the circulating metronidazole is bound to plasma proteins"
+ },
+ {
+  "id": "midazolam",
+  "field": "proteinBinding",
+  "value": "≈97%",
+  "evidence": "midazolam is approximately 97% bound to plasma protein"
+ },
+ {
+  "id": "morphine",
+  "field": "proteinBinding",
+  "value": "≈36%",
+  "evidence": "Protein binding is low, about 36%"
+ },
+ {
+  "id": "nicardipine",
+  "field": "proteinBinding",
+  "value": ">95%",
+  "evidence": "Nicardipine is highly protein bound (>95%) in human plasma"
+ },
+ {
+  "id": "oxcarbazepine",
+  "field": "proteinBinding",
+  "value": "≈40% (MHD, active metabolite)",
+  "evidence": "Approximately 40% of MHD is bound to serum proteins"
+ },
+ {
+  "id": "oxycodone",
+  "field": "proteinBinding",
+  "value": "≈45%",
+  "evidence": "Plasma protein binding of oxycodone at 37°C and a pH of 7.4 was about 45%"
+ },
+ {
+  "id": "palonosetron",
+  "field": "proteinBinding",
+  "value": "≈62%",
+  "evidence": "Approximately 62% of palonosetron is bound to plasma proteins"
+ },
+ {
+  "id": "pioglitazone",
+  "field": "proteinBinding",
+  "value": ">99%",
+  "evidence": "Pioglitazone is extensively protein bound (>99%) in human serum"
+ },
+ {
+  "id": "repaglinide",
+  "field": "proteinBinding",
+  "value": ">98%",
+  "evidence": "Protein binding and binding to human serum albumin was greater than 98%"
+ },
+ {
+  "id": "sumatriptan",
+  "field": "proteinBinding",
+  "value": "14–21%",
+  "evidence": "is low, approximately 14% to 21%"
+ },
+ {
+  "id": "theophylline",
+  "field": "proteinBinding",
+  "value": "≈40%",
+  "evidence": "about 40% is bound to plasma protein, primarily albumin"
+ },
+ {
+  "id": "topiramate",
+  "field": "proteinBinding",
+  "value": "15–41%",
+  "evidence": "Topiramate is 15% to 41% bound to human plasma proteins"
+ },
+ {
+  "id": "valproate",
+  "field": "proteinBinding",
+  "value": "concentration-dependent; free fraction ≈10% (40 mcg/mL) to 18.5% (130 mcg/mL)",
+  "evidence": "the free fraction increases from approximately 10% at 40 mcg/mL to 18.5% at 130 mcg/mL"
+ },
+ {
+  "id": "vancomycin",
+  "field": "proteinBinding",
+  "value": "≈55%",
+  "evidence": "Vancomycin is approximately 55% serum protein bound"
+ },
+ {
+  "id": "voriconazole",
+  "field": "proteinBinding",
+  "value": "58%",
+  "evidence": "Plasma protein binding is estimated to be 58%"
+ },
+ {
+  "id": "warfarin",
+  "field": "proteinBinding",
+  "value": "≈99%",
+  "evidence": "Approximately 99% of the drug is bound to plasma proteins"
+ },
+ {
+  "id": "acetylcysteine",
+  "field": "volumeOfDistribution",
+  "value": "0.47 L/kg (Vss, IV)",
+  "evidence": "The steady-state volume of distribution (Vd ss ) following administration of an intravenous dose of acetylcysteine was 0.47 liter/kg"
+ },
+ {
+  "id": "amantadine",
+  "field": "volumeOfDistribution",
+  "value": "3–8 L/kg",
+  "evidence": "The volume of distribution determined after the intravenous administration of amantadine to 15 healthy subjects was 3 to 8 L/kg"
+ },
+ {
+  "id": "amiodarone",
+  "field": "volumeOfDistribution",
+  "value": "≈60 L/kg (variable)",
+  "evidence": "averaging about 60 L/kg"
+ },
+ {
+  "id": "buprenorphine",
+  "field": "volumeOfDistribution",
+  "value": "≈430 L (IV)",
+  "evidence": "Studies of IV buprenorphine have shown a large volume of distribution (approximately 430 L)"
+ },
+ {
+  "id": "ceftaroline",
+  "field": "volumeOfDistribution",
+  "value": "20.3 L (Vss)",
+  "evidence": "was 20.3 L (18.3-21.6 L), similar to extracellular fluid volume"
+ },
+ {
+  "id": "ertapenem",
+  "field": "volumeOfDistribution",
+  "value": "≈0.12 L/kg (Vss, adults)",
+  "evidence": "The apparent volume of distribution at steady state (V ss ) of ertapenem in adults is approximately 0.12 liter/kg"
+ },
+ {
+  "id": "fentanyl",
+  "field": "volumeOfDistribution",
+  "value": "4 L/kg",
+  "evidence": "The volume of distribution for fentanyl is 4 L/kg"
+ },
+ {
+  "id": "ibandronate",
+  "field": "volumeOfDistribution",
+  "value": "≥90 L (apparent terminal)",
+  "evidence": "the apparent terminal volume of distribution is at least 90 L"
+ },
+ {
+  "id": "lamotrigine",
+  "field": "volumeOfDistribution",
+  "value": "0.9–1.3 L/kg (Vd/F)",
+  "evidence": "ranged from 0.9 to 1.3 L/kg"
+ },
+ {
+  "id": "methadone",
+  "field": "volumeOfDistribution",
+  "value": "1.0–8.0 L/kg (Vss)",
+  "evidence": "the steady-state volume of distribution ranges between 1.0 to 8.0 L/kg"
+ },
+ {
+  "id": "midazolam",
+  "field": "volumeOfDistribution",
+  "value": "1.0–3.1 L/kg",
+  "evidence": "volume of distribution (Vd), 1.0 to 3.1 L/kg"
+ },
+ {
+  "id": "morphine",
+  "field": "volumeOfDistribution",
+  "value": "1.0–4.7 L/kg (IV)",
+  "evidence": "Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage"
+ },
+ {
+  "id": "nicardipine",
+  "field": "volumeOfDistribution",
+  "value": "8.3 L/kg",
+  "evidence": "the apparent volume of distribution (V d ) using a non-compartment model is 8.3 L/kg"
+ },
+ {
+  "id": "oxycodone",
+  "field": "volumeOfDistribution",
+  "value": "2.6 L/kg (Vss, IV)",
+  "evidence": "Following intravenous administration, the volume of distribution (Vss) for oxycodone was 2.6 L/kg"
+ },
+ {
+  "id": "paricalcitol",
+  "field": "volumeOfDistribution",
+  "value": "34 L (healthy adults)",
+  "evidence": "The mean apparent volume of distribution following a 0.24 mcg/kg dose of paricalcitol in healthy adult volunteers was 34 L"
+ },
+ {
+  "id": "propafenone",
+  "field": "volumeOfDistribution",
+  "value": "≈252 L (total)",
+  "evidence": "the total volume of distribution about 252 liters"
+ },
+ {
+  "id": "rivastigmine",
+  "field": "volumeOfDistribution",
+  "value": "1.8–2.7 L/kg",
+  "evidence": "It has an apparent volume of distribution (V D ) in the range of 1.8 to 2.7 L/kg"
+ },
+ {
+  "id": "sulfasalazine",
+  "field": "volumeOfDistribution",
+  "value": "7.5 ± 1.6 L (Vss, sulfasalazine)",
+  "evidence": "the calculated volume of distribution (Vdss) for SSZ was 7.5 ± 1.6 L"
+ },
+ {
+  "id": "valproate",
+  "field": "volumeOfDistribution",
+  "value": "11 L/1.73 m² (total valproate)",
+  "evidence": "volume of distribution for total valproate are 0.56 L/hr/1.73 m 2 and 11 L/1.73 m 2"
+ },
+ {
+  "id": "doxycycline",
+  "field": "renalHalfLife",
+  "value": "Unchanged (18–22 h in severe renal impairment)",
+  "evidence": "Studies have shown no significant difference in serum half-life of doxycycline (range 18-22 hours) in individuals with normal and severely impaired renal function"
+ },
+ {
+  "id": "ganciclovir",
+  "field": "renalHalfLife",
+  "value": "10.7 ± 5.7 h (CrCl <25 mL/min)",
+  "evidence": "< 25 3 1.25 to 5 mg/kg 30 ±13 10.7 ± 5.7"
+ },
+ {
+  "id": "hydromorphone",
+  "field": "renalHalfLife",
+  "value": "40 h (severe renal impairment) vs 15 h",
+  "evidence": "longer terminal elimination half-life (40 hr) compared to patients with normal renal function (15 hr)"
+ },
+ {
+  "id": "lamotrigine",
+  "field": "renalHalfLife",
+  "value": "42.9 h (chronic renal failure); 57.4 h between HD sessions; 13.0 h during HD",
+  "evidence": "The mean plasma half-lives determined in the study were 42.9 hours (chronic renal failure), 13.0 hours (during hemodialysis) and 57.4 hours (between hemodialysis)"
+ },
+ {
+  "id": "acetylcysteine",
+  "field": "dial-ihd",
+  "value": "Removed by hemodialysis (label)",
+  "evidence": "Studies of hemodialysis in acetaminophen overdose report significant extracorporeal removal of acetylcysteine during hemodialysis",
+  "status": "removed"
+ },
+ {
+  "id": "acyclovir",
+  "field": "dial-ihd",
+  "value": "≈60% fall in plasma levels over a 6-h session; dose after each dialysis",
+  "evidence": "This results in a 60% decrease in plasma concentrations following a 6-hour dialysis period",
+  "status": "removed"
+ },
+ {
+  "id": "aminophylline",
+  "field": "dial-ihd",
+  "value": "Removed (about as efficient as multiple-dose charcoal)",
+  "evidence": "Hemodialysis is about as efficient as multiple-dose oral activated charcoal",
+  "status": "removed"
+ },
+ {
+  "id": "theophylline",
+  "field": "dial-ihd",
+  "value": "Removed (about as efficient as multiple-dose charcoal)",
+  "evidence": "Hemodialysis is about as efficient as multiple-dose oral activated charcoal",
+  "status": "removed"
+ },
+ {
+  "id": "aztreonam",
+  "field": "dial-ihd",
+  "value": "Removed; one-eighth of the initial dose after each session (serious infections)",
+  "evidence": "one-eighth of the initial dose should be given after each hemodialysis session",
+  "status": "removed"
+ },
+ {
+  "id": "ceftazidime",
+  "field": "dial-ihd",
+  "value": "Removed; 1 g after each HD",
+  "evidence": "In patients undergoing hemodialysis, a loading dose of 1 gram is recommended, followed by 1 gram after each hemodialysis period",
+  "status": "removed"
+ },
+ {
+  "id": "cefuroxime",
+  "field": "dial-ihd",
+  "value": "Removed; give a further dose at the end of dialysis",
+  "evidence": "Since cefuroxime is dialyzable, patients on hemodialysis should be given a further dose at the end of the dialysis",
+  "status": "removed"
+ },
+ {
+  "id": "clarithromycin",
+  "field": "dial-ihd",
+  "value": "Not appreciably affected (label)",
+  "evidence": "clarithromycin serum concentrations are not expected to be appreciably affected by hemodialysis or peritoneal dialysis",
+  "status": "not_removed"
+ },
+ {
+  "id": "doxycycline",
+  "field": "dial-ihd",
+  "value": "Not removed; dialysis does not alter half-life",
+  "evidence": "Dialysis does not alter serum half-life, and it would not be of benefit in treating cases of overdosage",
+  "status": "not_removed"
+ },
+ {
+  "id": "formoterol",
+  "field": "dial-ihd",
+  "value": "Benefit not established (overdose)",
+  "evidence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage",
+  "status": "unknown"
+ },
+ {
+  "id": "salbutamol-albuterol",
+  "field": "dial-ihd",
+  "value": "Benefit not established (overdose)",
+  "evidence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage",
+  "status": "unknown"
+ },
+ {
+  "id": "terbutaline",
+  "field": "dial-ihd",
+  "value": "Benefit not established (overdose)",
+  "evidence": "There is insufficient evidence to determine if dialysis is beneficial for overdosage",
+  "status": "unknown"
+ },
+ {
+  "id": "ganciclovir",
+  "field": "dial-ihd",
+  "value": "≈50% reduction in plasma levels; dose after the session",
+  "evidence": "hemodialysis has been shown to reduce plasma levels by approximately 50%",
+  "status": "removed"
+ },
+ {
+  "id": "ibandronate",
+  "field": "dial-ihd",
+  "value": "Not beneficial (overdose)",
+  "evidence": "Dialysis would not be beneficial",
+  "status": "not_removed"
+ },
+ {
+  "id": "metolazone",
+  "field": "dial-ihd",
+  "value": "Not likely to be effective (label)",
+  "evidence": "Dialysis is not likely to be effective",
+  "status": "not_removed"
+ },
+ {
+  "id": "moxifloxacin",
+  "field": "dial-ihd",
+  "value": "AUC unchanged in HD; no dose adjustment",
+  "evidence": "the AUC of moxifloxacin in these HD and CAPD patients did not vary significantly from the AUC generally found in healthy volunteers",
+  "status": "not_removed"
+ },
+ {
+  "id": "nebivolol",
+  "field": "dial-ihd",
+  "value": "Not expected to enhance clearance (protein binding)",
+  "evidence": "Because of extensive drug binding to plasma proteins, hemodialysis is not expected to enhance nebivolol clearance",
+  "status": "not_removed"
+ },
+ {
+  "id": "promethazine",
+  "field": "dial-ihd",
+  "value": "Not helpful (limited experience)",
+  "evidence": "Limited experience with dialysis indicates that it is not helpful",
+  "status": "not_removed"
+ },
+ {
+  "id": "rifampicin",
+  "field": "dial-ihd",
+  "value": "May be of value in some patients (overdose)",
+  "evidence": "Haemodialysis may be of value in some patients",
+  "status": "limited"
+ },
+ {
+  "id": "voriconazole",
+  "field": "dial-ihd",
+  "value": "Dialysed, but a 4-h session does not need dose adjustment",
+  "evidence": "A 4-hour hemodialysis session does not remove a sufficient amount of voriconazole to warrant dose adjustment",
+  "status": "limited"
+ },
+ {
+  "id": "acyclovir",
+  "field": "dial-pd",
+  "value": "No supplemental dose needed after interval adjustment",
+  "evidence": "Peritoneal Dialysis: No supplemental dose appears to be necessary after adjustment of the dosing interval",
+  "status": "negligible"
+ },
+ {
+  "id": "aminophylline",
+  "field": "dial-pd",
+  "value": "Ineffective for removal (label)",
+  "evidence": "Peritoneal dialysis is ineffective for theophylline removal",
+  "status": "not_removed"
+ },
+ {
+  "id": "theophylline",
+  "field": "dial-pd",
+  "value": "Ineffective for removal (label)",
+  "evidence": "Peritoneal dialysis is ineffective for theophylline removal",
+  "status": "not_removed"
+ },
+ {
+  "id": "ceftazidime",
+  "field": "dial-pd",
+  "value": "May aid removal (label)",
+  "evidence": "hemodialysis or peritoneal dialysis may aid in the removal of ceftazidime from the body",
+  "status": "removed"
+ },
+ {
+  "id": "cefuroxime",
+  "field": "dial-pd",
+  "value": "Serum levels reduced by PD (label)",
+  "evidence": "Serum levels of cefuroxime can be reduced by hemodialysis and peritoneal dialysis",
+  "status": "removed"
+ },
+ {
+  "id": "clarithromycin",
+  "field": "dial-pd",
+  "value": "Not appreciably affected (label)",
+  "evidence": "clarithromycin serum concentrations are not expected to be appreciably affected by hemodialysis or peritoneal dialysis",
+  "status": "not_removed"
+ },
+ {
+  "id": "isosorbide-mononitrate",
+  "field": "dial-pd",
+  "value": "Not removed; levels as in patients not on dialysis (CAPD)",
+  "evidence": "In patients undergoing continuous ambulatory peritoneal dialysis, blood levels are similar to patients not on dialysis",
+  "status": "not_removed"
+ },
+ {
+  "id": "linezolid",
+  "field": "dial-pd",
+  "value": "No information (label)",
+  "evidence": "No information is available on the effect of peritoneal dialysis on the pharmacokinetics of linezolid",
+  "status": "unknown"
+ },
+ {
+  "id": "metronidazole",
+  "field": "dial-pd",
+  "value": "≈10% of dose removed over a 7.5-h session",
+  "evidence": "A peritoneal dialysis session lasting for 7.5 hours removed approximately 10% of the administered metronidazole dose",
+  "status": "limited"
+ },
+ {
+  "id": "moxifloxacin",
+  "field": "dial-pd",
+  "value": "AUC unchanged in CAPD; no dose adjustment",
+  "evidence": "the AUC of moxifloxacin in these HD and CAPD patients did not vary significantly from the AUC generally found in healthy volunteers",
+  "status": "not_removed"
+ }
+]
