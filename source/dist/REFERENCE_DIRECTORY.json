@@ -94,9 +94,9 @@
     "organisation": "CRC Press (Taylor & Francis)",
     "title": "Renal Drug Handbook, 5th edition",
     "url": "https://www.routledge.com/rsc/downloads/Medicine_-_Bestsellers_and_New_Arrivals_Catalog.pdf",
-    "role": "Selected PK/removal fields only; historical reference, not a current formulary",
-    "access": "Published June 2018; copyright 2019. Selected sections reviewed; full-file clinical review not claimed.",
-    "use": "Cited by page number; the original document is not redistributed.",
+    "role": "Historical reference being replaced",
+    "access": "Cited by page number; the original document is not redistributed.",
+    "use": "No longer used for dose tables. Some pharmacokinetic values still cite it and are being rebuilt from current labels.",
     "sourceCheckedAt": "2026-10-29"
   },
   {

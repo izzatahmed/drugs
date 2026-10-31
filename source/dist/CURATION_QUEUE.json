@@ -1,5 +1,5 @@
 {
-  "version": "0.11.3",
+  "version": "0.12.0",
   "generatedAt": "2026-10-29",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -209,7 +209,7 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "avoid",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "avoid",
         "sled": "not_curated"
       },
@@ -242,9 +242,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -339,9 +339,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -436,9 +436,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -886,9 +886,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -919,9 +919,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -1432,8 +1432,8 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -2458,10 +2458,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -2946,7 +2946,7 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -2976,9 +2976,9 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
+        "ckd": "not_indicated",
         "ihd": "summarized",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -3361,10 +3361,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -4323,10 +4323,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -4387,9 +4387,9 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "specialist",
+        "ckd": "summarized",
         "ihd": "specialist",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "specialist",
         "sled": "not_curated"
       },
@@ -4841,9 +4841,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -5680,9 +5680,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -6198,10 +6198,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -6360,9 +6360,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -6423,10 +6423,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -7484,8 +7484,8 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8445,9 +8445,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8575,9 +8575,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8770,8 +8770,8 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8832,10 +8832,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -9477,9 +9477,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -9640,9 +9640,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -9768,10 +9768,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "specialist",
+        "ckd": "summarized",
         "ihd": "specialist",
-        "crrt": "specialist",
-        "pd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -9865,10 +9865,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -10701,10 +10701,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -10927,10 +10927,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -10960,8 +10960,8 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -11056,9 +11056,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "insufficient_data",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -11379,9 +11379,9 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
+        "ckd": "not_indicated",
         "ihd": "summarized",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -11704,10 +11704,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -11866,10 +11866,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -12765,10 +12765,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "specialist",
-        "ihd": "specialist",
-        "crrt": "specialist",
-        "pd": "specialist",
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13026,9 +13026,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13090,9 +13090,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13285,9 +13285,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13415,7 +13415,7 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -13510,9 +13510,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -13929,9 +13929,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -14090,10 +14090,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -14251,10 +14251,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -15025,9 +15025,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -15220,7 +15220,7 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
+        "crrt": "not_curated",
         "pd": "summarized",
         "sled": "not_curated"
       },
@@ -16217,10 +16217,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -16250,9 +16250,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -16443,10 +16443,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -16476,10 +16476,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -16509,9 +16509,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -17022,9 +17022,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -17760,10 +17760,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -18371,9 +18371,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -18981,9 +18981,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19272,10 +19272,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "specialist",
-        "ihd": "not_curated",
+        "ckd": "summarized",
+        "ihd": "insufficient_data",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "insufficient_data",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19466,8 +19466,8 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19531,10 +19531,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19628,9 +19628,9 @@
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -20656,10 +20656,10 @@
       "renalDoseSourceCheckedAt": "2026-10-30",
       "pkSourceCheckedAt": "2026-10-30",
       "modalities": {
-        "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ckd": "insufficient_data",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -20980,9 +20980,9 @@
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -21045,8 +21045,8 @@
       "modalities": {
         "ckd": "summarized",
         "ihd": "summarized",
-        "crrt": "specialist",
-        "pd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
         "sled": "not_curated"
       },
       "pkFields": {

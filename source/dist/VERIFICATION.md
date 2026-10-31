@@ -1,5 +1,5 @@
-# v0.11.3 verification
+# v0.12.0 verification
 
-Current suites: checks.mjs, checks_v113.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v113.py. checks_v113.mjs proves every dose table, modality status, PK field and source URL is identical to v0.11.2, checks the Cockcroft–Gault arithmetic against hand-worked examples, and runs the service-worker offline/update contract for 0.11.3.
+Current suites: checks.mjs, checks_v120.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v120.py. checks_v120.mjs proves no dose table cites the handbook, every rebuilt entry cites a retrieved label with set ID/version or emc product ID, entries outside the 61 are unchanged from v0.11.3, and runs the service-worker contract for 0.12.0.
 
 These are software/source-integrity checks, not clinical validation.

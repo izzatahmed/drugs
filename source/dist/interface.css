@@ -67,3 +67,6 @@ html[data-theme="dark"] .calc-measure label:has(input:checked){color:#101b20}
 .report-link{display:inline-flex;align-items:center;min-height:38px;padding:6px 10px;border:1px solid var(--line);border-radius:7px;color:var(--teal);text-decoration:none;font-size:var(--caption,11px);margin-left:4px}
 .report-link:hover{text-decoration:underline}
 @media print{.mono-back,.report-link{display:none!important}}
+/* v0.12.0 · source country line */
+.jurisdiction-strip{margin-top:-6px}
+.jurisdiction-strip span{font-weight:500}
