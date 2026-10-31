@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -8,12 +8,6 @@
       "name": "Aluminium hydroxide",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "antithymocyte-globulin-rabbit",
-      "name": "Antithymocyte globulin (rabbit)",
-      "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "artificial-tears",
@@ -160,12 +154,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "intravenous-immunoglobulin",
-      "name": "Intravenous immunoglobulin",
-      "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "psyllium",
       "name": "Ispaghula / psyllium",
       "category": "OTC & medicine safety",
@@ -199,12 +187,6 @@
       "id": "mebeverine",
       "name": "Mebeverine",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "melphalan",
-      "name": "Melphalan",
-      "category": "Oncology",
       "reason": "Renal-dose curation pending"
     },
     {

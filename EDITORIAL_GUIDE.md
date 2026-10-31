@@ -1,3 +1,14 @@
+# RenalRounds v0.16.0 · 1 November 2026
+
+- **41 medicines added to the inventory**, each with renal dosing from its current US label: oncology (ifosfamide, mesna, cytarabine, fludarabine — 20% less at CrCl 30–70 and not below 30, cladribine, bendamustine — not below CrCl 30, busulfan, topotecan — 0.75 mg/m² at CrCl 20–39, irinotecan, vinorelbine, temozolomide, azacitidine, arsenic trioxide, leucovorin rescue); anaesthesia & critical care (rocuronium, cisatracurium, succinylcholine, neostigmine, sugammadex — not below CrCl 30, bupivacaine, flumazenil, mannitol, albumin, terlipressin); alprazolam, penicillamine, droxidopa, isavuconazole, alemtuzumab and IV thiamine.
+- **New category: contrast media.** Gadolinium agents carry their ACR group: group I gadodiamide (Omniscan) is contraindicated at GFR <30 or AKI; group II gadobutrol, gadoterate, gadoteridol, gadobenate and gadopiclenol and group III gadoxetate have their label NSF warnings plus the ACR–NKF consensus advice. Iodinated agents (iohexol, iodixanol, iopamidol, ioversol, iopromide) have the label AKI risk factors and ACR–NKF prophylaxis thresholds.
+- **Contrast-associated AKI calculator** (from the eGFR · CrCl panel): IV contrast risk by ACR–NKF eGFR thresholds, and the Mehran score for coronary angiography/PCI with its published CIN and dialysis risks.
+- Melphalan, rabbit antithymocyte globulin and IV immunoglobulin are now renal profiles.
+- Every table, statement and value quotes its label sentence; guideline advice is cited to the ACR–NKF consensus papers. Existing curated content was not overwritten.
+- Coverage: 651 renal profiles, 44 catalog entries; PK 537 profiles (91 with all four core items). Drug content version 0.16.0.
+
+## Earlier release record
+
 # RenalRounds v0.15.0 · 1 November 2026
 
 - **Three classes in one release, from current US labels:** oncology, transplant & immunology, and OTC/analgesic medicines.

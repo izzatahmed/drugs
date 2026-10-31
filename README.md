@@ -1,6 +1,12 @@
-# RenalRounds v0.15.0 — cumulative GitHub Pages package
+# RenalRounds v0.16.0 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 669-entry inventory contains 607 partial renal profiles, 15 shared safety notes and 47 catalog entries. This remains an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 710-entry inventory contains 651 partial renal profiles, 15 shared safety notes and 44 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.16.0
+
+- 41 medicines added with renal dosing from current US labels: oncology (ifosfamide, mesna, cytarabine, fludarabine, cladribine, bendamustine, busulfan, topotecan, irinotecan, vinorelbine, temozolomide, azacitidine, arsenic trioxide, leucovorin), anaesthesia & critical care (rocuronium, cisatracurium, succinylcholine, neostigmine, sugammadex, bupivacaine, flumazenil, mannitol, albumin, terlipressin) and others; melphalan, antithymocyte globulin and IVIG completed.
+- New contrast-media category: gadolinium agents with their ACR group (group I gadodiamide contraindicated at GFR <30 or AKI) and iodinated agents with ACR–NKF prophylaxis thresholds.
+- New contrast-associated AKI calculator: ACR–NKF IV-contrast risk groups and the Mehran score for coronary angiography/PCI.
 
 ## What changed in 0.15.0
 
@@ -73,7 +79,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.15.0.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.16.0.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -107,14 +113,15 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v130.py
     python3 release_v140.py
     python3 release_v150.py
+    python3 release_v160.py
     python3 apply_reviews.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v150.mjs
+    node checks_v160.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.15.0_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.16.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v140) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v150) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
