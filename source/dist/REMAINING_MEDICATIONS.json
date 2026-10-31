@@ -1,5 +1,5 @@
 {
-  "version": "0.12.1",
+  "version": "0.12.5",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -46,18 +46,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "alirocumab",
-      "name": "Alirocumab",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "aliskiren",
-      "name": "Aliskiren",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "allopurinol-iv",
       "name": "Allopurinol (IV)",
       "category": "Urology & other medicines",
@@ -73,7 +61,7 @@
       "id": "aluminium-hydroxide",
       "name": "Aluminium hydroxide",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "ambrisentan",
@@ -139,7 +127,7 @@
       "id": "aspirin",
       "name": "Aspirin",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "atezolizumab",
@@ -202,12 +190,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "bempedoic-acid",
-      "name": "Bempedoic acid",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "benralizumab",
       "name": "Benralizumab",
       "category": "Allergy & respiratory",
@@ -235,7 +217,7 @@
       "id": "bismuth-subsalicylate",
       "name": "Bismuth subsalicylate",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "bivalirudin",
@@ -277,7 +259,7 @@
       "id": "calcium-carbonate",
       "name": "Calcium carbonate",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "calcium-chloride",
@@ -313,7 +295,7 @@
       "id": "capsaicin",
       "name": "Capsaicin",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "carbamazepine",
@@ -349,7 +331,7 @@
       "id": "celecoxib",
       "name": "Celecoxib",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "cetuximab",
@@ -379,18 +361,12 @@
       "id": "cimetidine",
       "name": "Cimetidine",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "cisplatin",
       "name": "Cisplatin",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "clevidipine",
-      "name": "Clevidipine",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -475,13 +451,13 @@
       "id": "diclofenac-systemic",
       "name": "Diclofenac (systemic)",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "diclofenac-gel",
       "name": "Diclofenac gel",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "dicloxacillin",
@@ -514,12 +490,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "disopyramide",
-      "name": "Disopyramide",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "docetaxel",
       "name": "Docetaxel",
       "category": "Oncology",
@@ -529,12 +499,6 @@
       "id": "docusate",
       "name": "Docusate",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "dofetilide",
-      "name": "Dofetilide",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -562,12 +526,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "dronedarone",
-      "name": "Dronedarone",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "dupilumab",
       "name": "Dupilumab",
       "category": "Allergy & respiratory",
@@ -592,21 +550,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "enalaprilat",
-      "name": "Enalaprilat",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "enzalutamide",
       "name": "Enzalutamide",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "epinephrine",
-      "name": "Epinephrine",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -640,12 +586,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "esomeprazole",
-      "name": "Esomeprazole",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
-    },
-    {
       "id": "etanercept",
       "name": "Etanercept",
       "category": "Transplant & immunology",
@@ -667,12 +607,6 @@
       "id": "everolimus",
       "name": "Everolimus",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "evolocumab",
-      "name": "Evolocumab",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -733,12 +667,6 @@
       "id": "fluticasone-nasal",
       "name": "Fluticasone nasal",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "fluvastatin",
-      "name": "Fluvastatin",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -814,12 +742,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "hydrochlorothiazide",
-      "name": "Hydrochlorothiazide",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "hydrocortisone-topical",
       "name": "Hydrocortisone topical",
       "category": "OTC & medicine safety",
@@ -853,19 +775,7 @@
       "id": "ibuprofen",
       "name": "Ibuprofen",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
-    },
-    {
-      "id": "ibutilide",
-      "name": "Ibutilide",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "icosapent-ethyl",
-      "name": "Icosapent ethyl",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "idarucizumab",
@@ -886,12 +796,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "inclisiran",
-      "name": "Inclisiran",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "indomethacin",
       "name": "Indomethacin",
       "category": "Pain & neurology",
@@ -907,12 +811,6 @@
       "id": "infliximab",
       "name": "Infliximab",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-nph",
-      "name": "Insulin NPH",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -952,6 +850,12 @@
       "reason": "Renal-dose curation pending"
     },
     {
+      "id": "insulin-nph",
+      "name": "Insulin NPH",
+      "category": "Diabetes & endocrine",
+      "reason": "Renal-dose curation pending"
+    },
+    {
       "id": "insulin-regular",
       "name": "Insulin regular",
       "category": "Diabetes & endocrine",
@@ -985,7 +889,7 @@
       "id": "psyllium",
       "name": "Ispaghula / psyllium",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "ivermectin",
@@ -1003,13 +907,7 @@
       "id": "ketorolac",
       "name": "Ketorolac",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
-    },
-    {
-      "id": "lansoprazole",
-      "name": "Lansoprazole",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "leflunomide",
@@ -1045,7 +943,7 @@
       "id": "lidocaine-topical",
       "name": "Lidocaine (topical)",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "lixisenatide",
@@ -1057,7 +955,7 @@
       "id": "loperamide",
       "name": "Loperamide",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "macitentan",
@@ -1069,13 +967,13 @@
       "id": "magnesium-citrate",
       "name": "Magnesium citrate",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "magnesium-hydroxide",
       "name": "Magnesium hydroxide",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "magnesium-oxide",
@@ -1105,7 +1003,7 @@
       "id": "meloxicam",
       "name": "Meloxicam",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "melphalan",
@@ -1117,7 +1015,7 @@
       "id": "menthol-topical",
       "name": "Menthol (topical)",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "mepolizumab",
@@ -1162,12 +1060,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "milrinone",
-      "name": "Milrinone",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "multivitamins",
       "name": "Multivitamins",
       "category": "OTC & medicine safety",
@@ -1195,7 +1087,7 @@
       "id": "naproxen",
       "name": "Naproxen",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "nateglinide",
@@ -1219,13 +1111,7 @@
       "id": "nizatidine",
       "name": "Nizatidine",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
-    },
-    {
-      "id": "norepinephrine",
-      "name": "Norepinephrine",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "obinutuzumab",
@@ -1255,7 +1141,7 @@
       "id": "oral-rehydration-salts",
       "name": "Oral rehydration salts",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "oritavancin",
@@ -1315,7 +1201,7 @@
       "id": "paracetamol",
       "name": "Paracetamol / acetaminophen",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "pegcetacoplan",
@@ -1351,7 +1237,7 @@
       "id": "phenylephrine-oral",
       "name": "Phenylephrine (oral)",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "piperacillin",
@@ -1426,12 +1312,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "procainamide",
-      "name": "Procainamide",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "propofol",
       "name": "Propofol",
       "category": "Pain & neurology",
@@ -1453,13 +1333,7 @@
       "id": "pseudoephedrine",
       "name": "Pseudoephedrine",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
-    },
-    {
-      "id": "ranolazine",
-      "name": "Ranolazine",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "rasburicase",
@@ -1567,7 +1441,7 @@
       "id": "senna",
       "name": "Senna / sennosides",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "sevelamer-hydrochloride",
@@ -1606,12 +1480,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "sodium-nitroprusside",
-      "name": "Sodium nitroprusside",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "sodium-phosphate-iv",
       "name": "Sodium phosphate (IV)",
       "category": "Electrolytes & phosphate",
@@ -1621,7 +1489,7 @@
       "id": "sodium-phosphate-oral",
       "name": "Sodium phosphate (oral bowel preparation)",
       "category": "OTC & medicine safety",
-      "reason": "Shared safety note only"
+      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "sodium-picosulfate",
@@ -1639,12 +1507,6 @@
       "id": "sofosbuvir-velpatasvir",
       "name": "Sofosbuvir / velpatasvir",
       "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "sotalol",
-      "name": "Sotalol",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1744,12 +1606,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "tolvaptan",
-      "name": "Tolvaptan",
-      "category": "Cardiovascular",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "tramadol-extended-release",
       "name": "Tramadol (extended release)",
       "category": "Pain & neurology",
@@ -1771,12 +1627,6 @@
       "id": "treprostinil",
       "name": "Treprostinil",
       "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "triamterene",
-      "name": "Triamterene",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1813,12 +1663,6 @@
       "id": "urea-oral",
       "name": "Urea (oral)",
       "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "vasopressin",
-      "name": "Vasopressin",
-      "category": "Cardiovascular",
       "reason": "Renal-dose curation pending"
     },
     {

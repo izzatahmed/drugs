@@ -1,3 +1,21 @@
+# RenalRounds v0.12.5 · 31 October 2026
+
+- **Cardiovascular class, from current US labels.** 24 medicines that had no renal dosing are now renal profiles, including CrCl-based dosing for sotalol, dofetilide, disopyramide, milrinone and enalaprilat; nitroprusside limits at eGFR <30; tolvaptan, triamterene and hydrochlorothiazide restrictions; aliskiren (no adjustment on haemodialysis); dronedarone, ibutilide, ranolazine and procainamide; the IV vasopressors; and the newer lipid-lowering medicines (alirocumab, evolocumab, inclisiran, bempedoic acid, fluvastatin, icosapent ethyl).
+- **Existing cardiovascular and lipid profiles** gained half-life, protein binding, volume of distribution and dialysis statements where their labels give them (e.g. atorvastatin, rosuvastatin, labetalol, propranolol, diltiazem, nifedipine, perindopril, fenofibrate).
+- Every table, statement and value quotes its label sentence; settings the label does not address stay "not curated". Existing curated content was not overwritten.
+- Coverage: 383 renal profiles, 260 catalog entries; PK 186 profiles (55 with all four core items). Drug content version 0.12.5.
+
+## Earlier release record
+
+# RenalRounds v0.12.4 · 31 October 2026
+
+- **Digoxin:** the US label's once-daily maintenance-dose table by corrected CrCl (10–100 mL/min) and lean body weight (40–100 kg), with days to steady state; loading dose; target levels (efficacy falls below 0.5 ng/mL, toxicity rises above 2 ng/mL); not removed by dialysis, so no post-HD supplement. Source: LANOXIN tablets label.
+- **Proton pump inhibitors** (omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole, dexlansoprazole): no renal dose adjustment at any level of kidney function and no removal by haemodialysis, each quoted from its current US label, plus half-life, protein binding and Vd where stated. Esomeprazole and lansoprazole are now full renal profiles.
+- **Vonoprazan:** pharmacokinetics added; on dialysis, exposure is 1.3-fold and only 0.94% of the dose appears in dialysate.
+- Coverage: 359 renal profiles; PK 151 profiles (49 with all four core items). Drug content version 0.12.4.
+
+## Earlier release record
+
 # RenalRounds v0.12.3 · 31 October 2026
 
 - **Pharmacokinetics rebuilt from current product information.** The 128 profiles that still quoted the Renal Drug Handbook (5th ed., 2018) now quote the current US FDA label, or the EMA product information (vildagliptin) or UK SmPC (teicoplanin, domperidone, carbimazole, hyoscine butylbromide, alfacalcidol, colecalciferol) where there is no US label. Each value shows the label sentence it came from: 247 half-life / Vd / binding values and 81 dialysis-removal statements.
