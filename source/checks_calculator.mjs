@@ -31,10 +31,27 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
 const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
-assert.equal(data.version,'0.15.0');assert.equal(data.clinicalDataVersion,'0.15.0');
-assert.deepEqual(data.calculatorSources,old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
-assert.equal(data.calculatorSources.length,6);
+assert.equal(data.version,'0.16.0');assert.equal(data.clinicalDataVersion,'0.16.0');
+assert.deepEqual(data.calculatorSources.slice(0,6),old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
+assert.equal(data.calculatorSources.length,9);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\/doi\.org\//.test(s.url)));
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/calculator.js')),'Calculator values must not be persisted, exported or sent');
 assert.match(read('./dist/app.js'),/!\$\('#calculator'\)\.open/,'Drug-search shortcut must not run over the calculator');
-console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path.');
+// Contrast-associated AKI: Mehran (2004) points and bands, ACR–NKF IV thresholds.
+vm.runInContext(read('./dist/contrast-math.js')+';this.CM=ContrastMath;',context);const CM=context.CM;
+const m=o=>CM.mehran({egfr:80,volume:0,...o});
+assert.equal(m({}).score,0);assert.equal(m({}).band.cin,'7.5%');
+assert.equal(m({hypotension:true}).score,5);assert.equal(m({hypotension:true}).band.label,'Low');
+assert.equal(m({hypotension:true,iabp:true}).score,10);assert.equal(m({hypotension:true,iabp:true}).band.dialysis,'0.12%');
+assert.equal(m({hypotension:true,iabp:true,anaemia:true}).score,13);assert.equal(m({hypotension:true,iabp:true,anaemia:true}).band.cin,'26.1%');
+assert.equal(m({hypotension:true,iabp:true,chf:true,age75:true,anaemia:true,diabetes:true,volume:300,egfr:15}).score,34);assert.equal(m({chf:true,iabp:true,hypotension:true,anaemia:true}).band.label,'Very high');
+for(const [egfr,p] of [[60,0],[59.9,2],[40,2],[39.9,4],[20,4],[19.9,6]])assert.equal(m({egfr}).score,p,`eGFR ${egfr}`);
+for(const [volume,p] of [[99,0],[100,1],[250,2],[400,4]])assert.equal(m({volume}).score,p,`volume ${volume}`);
+for(const bad of [{egfr:''},{egfr:0},{egfr:250},{volume:-1},{volume:''},{volume:3000}]){const x=m(bad);assert.equal(x.ok,false);assert.equal('score' in x,false);}
+const iv=o=>CM.iv({dialysis:'none',aki:false,...o});
+assert.equal(iv({egfr:29.9}).level,'high');assert.equal(iv({egfr:30}).level,'intermediate');assert.equal(iv({egfr:44.9}).level,'intermediate');assert.equal(iv({egfr:45}).level,'low');
+assert.equal(iv({egfr:90,aki:true}).level,'high');assert.equal(iv({aki:true}).level,'high');assert.equal(iv({egfr:''}).ok,false);
+assert.equal(iv({dialysis:'anuric'}).level,'none');assert.equal(iv({dialysis:'nonanuric'}).level,'high');assert.match(iv({dialysis:'nonanuric'}).advice.join(' '),/not indicated/);
+assert.ok(html.includes(read('./dist/contrast-math.js'))&&html.includes(read('./dist/contrast-calculator.js'))&&/id="contrast-calculator"/.test(html));
+assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/contrast-math.js')+read('./dist/contrast-calculator.js')),'Contrast calculator values must not be persisted, exported or sent');
+console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path; Mehran points/bands and ACR–NKF IV thresholds for the contrast-AKI panel.');

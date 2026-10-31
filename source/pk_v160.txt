@@ -1,0 +1,85 @@
+# v0.16.0 reviewed PK lines: id|field|status('-'=sourced)|value|verbatim label sentence
+ifosfamide|halfLife|-|≈15 h (terminal, 3.8–5.0 g/m²)|At single doses of 3.8 to 5.0 g/m 2 , the plasma concentrations decay biphasically and the mean terminal elimination half-life is about 15 hours
+ifosfamide|volumeOfDistribution|-|0.64–0.72 L/kg (median)|the median Vd of ifosfamide was 0.64 L/kg on Day 1 and 0.72 L/kg on Day 5
+ifosfamide|ihd|removed|Dialysable (label)|Ifosfamide as well as ifosfamide metabolites are dialyzable
+mesna|halfLife|-|0.36 h (mesna); 1.17 h (dimesna)|Mean plasma elimination half-lives of mesna and dimesna are 0.36 hours and 1.17 hours, respectively
+mesna|volumeOfDistribution|-|0.652 L/kg (IV)|Mean apparent volume of distribution (V d ) for mesna is 0.652 ± 0.242 L/kg after intravenous administration
+fludarabine|halfLife|-|≈20 h (2-fluoro-ara-A, terminal)|The terminal half-life of 2-fluoro-ara-A was estimated as approximately 20 hours
+fludarabine|proteinBinding|-|19–29% (in vitro)|In vitro , plasma protein binding of fludarabine ranged between 19% and 29%
+cladribine|halfLife|-|5.4 h (terminal, normal renal function)|For these patients with normal renal function, the mean terminal half-life was 5.4 hours
+cladribine|volumeOfDistribution|-|≈9 L/kg|In general, the apparent volume of distribution of cladribine is approximately 9 L/kg, indicating an extensive distribution in body tissues
+cladribine|proteinBinding|-|≈20%|Cladribine is bound approximately 20% to plasma proteins
+cladribine|ihd|unknown|Not known (label)|It is not known whether the drug can be removed from the circulation by dialysis or hemofiltration
+bendamustine|proteinBinding|-|94–96%|The protein binding of bendamustine ranged from 94 to 96% and was concentration independent
+busulfan|ihd|removed|One report of dialysability (overdose) (label)|There is one report that busulfan is dialyzable, thus dialysis should be considered in the case of overdose
+topotecan|halfLife|-|2–3 h (terminal, IV)|The terminal half-life of topotecan is 2 to 3 hours following intravenous administration
+topotecan|proteinBinding|-|≈35%|Protein binding of topotecan is approximately 35%
+vinorelbine|halfLife|-|27.7–43.6 h (terminal)|The terminal phase half-life averages 27.7 to 43.6 hours and the mean plasma clearance ranges from 0.97 to 1.26 L/hr/kg
+vinorelbine|volumeOfDistribution|-|25.4–40.1 L/kg (steady state)|Steady-state volume of distribution (V SS ) values range from 25.4 to 40.1 L/kg
+vinorelbine|proteinBinding|-|79.6–91.2% (cancer patients)|The binding to plasma constituents in cancer patients ranged from 79.6% to 91.2%
+temozolomide|halfLife|-|1.8 h|Clearance of temozolomide is approximately 5.5 L/hr/m 2 and the mean elimination half-life is 1.8 hours
+temozolomide|volumeOfDistribution|-|0.4 L/kg (apparent)|Temozolomide has a mean (CV%) apparent volume of distribution of 0.4 L/kg (13%)
+azacitidine|halfLife|-|≈4 h (total radioactivity)|The mean elimination half-lives of total radioactivity (azacitidine and its metabolites) were similar after intravenous and subcutaneous administrations, about 4 hours
+azacitidine|volumeOfDistribution|-|76 L (IV)|Mean volume of distribution following intravenous dosing is 76 ± 26 L
+arsenic-trioxide|halfLife|-|10–14 h (As III)|Plasma concentration of As III declined in a biphasic manner with a mean elimination half-life of 10 to 14 hours
+arsenic-trioxide|volumeOfDistribution|-|562 L (As III, steady state)|The volume of distribution (V ss ) for As III is large (mean 562 L, N=10) indicating that As III is widely distributed throughout body tissues
+arsenic-trioxide|ihd|unknown|Not studied on dialysis (label)|The use of arsenic trioxide in patients on dialysis has not been studied
+leucovorin|halfLife|-|≈9.5 h (terminal)|Leucovorin estimated terminal half-life is approximately 9.5 hours (CV 17%)
+rocuronium|proteinBinding|-|≈30%|Rocuronium is approximately 30% bound to human plasma proteins
+rocuronium|volumeOfDistribution|-|0.26 L/kg (normal); 0.34 L/kg (renal transplant)|Volume of Distribution at Steady State (L/kg) 0.26 (0.03) 0.34 (0.11) 0.53 (0.14)
+cisatracurium|halfLife|-|22 min (elimination)|an elimination half-life (t ½ β) of 22 minutes
+neostigmine|halfLife|-|24–113 min (IV)|Following intravenous injection, the reported elimination half-life of neostigmine methylsulfate is between 24 and 113 minutes
+neostigmine|renalHalfLife|-|181 min anephric vs 79.8 min normal (mean)|elimination half-life for normal, transplant and anephric patients were 79.8 ± 48.6, 104.7 ± 64 and 181 ± 54 min (mean ± SD), respectively
+neostigmine|proteinBinding|-|15–25% (albumin)|Protein binding of neostigmine methylsulfate to human serum albumin ranges from 15 to 25%
+sugammadex|halfLife|-|≈2 h (normal renal function)|the elimination half-life (t 1/2 ) of sugammadex is about 2 hours and the estimated plasma clearance is about 88 mL/min
+sugammadex|renalHalfLife|-|4, 6 and 19 h (mild, moderate, severe impairment)|The half-life of sugammadex in patients with mild, moderate and severe renal impairment is 4, 6, and 19 hours, respectively
+sugammadex|volumeOfDistribution|-|11–14 L (steady state)|The observed steady-state volume of distribution of sugammadex is approximately 11 to 14 liters in adult patients with normal renal function
+sugammadex|ihd|removed|High-flux HD removes ≈70% per 3–6 h session; low-flux does not (label)|BRIDION can be removed using hemodialysis with a high-flux filter, but not with a low-flux filter
+bupivacaine|halfLife|-|2.7 h|The half-life of bupivacaine in adults is 2.7 hours
+bupivacaine|proteinBinding|-|95%|Bupivacaine with a high protein binding capacity (95%)
+flumazenil|halfLife|-|40–80 min (terminal)|a terminal half-life of 40 to 80 minutes
+flumazenil|volumeOfDistribution|-|0.5 L/kg (initial)|with an apparent initial volume of distribution of 0.5 L/kg
+flumazenil|proteinBinding|-|≈50%|Protein binding is approximately 50%
+mannitol|halfLife|-|0.5–2.5 h|The elimination half-life of mannitol is 0.5 to 2.5 hours
+mannitol|volumeOfDistribution|-|≈17 L|The volume of distribution of mannitol is approximately 17 L in adults
+mannitol|ihd|removed|Dialysable by HD and PD (label)|Mannitol Injection is dialyzable (hemodialysis and peritoneal dialysis), hemodialysis may increase mannitol elimination
+mannitol|pd|removed|Dialysable by PD (label)|Mannitol Injection is dialyzable (hemodialysis and peritoneal dialysis)
+alprazolam|halfLife|-|≈11.2 h (6.3–26.9 h)|The mean plasma elimination half-life (T 1/2 ) of alprazolam is approximately 11.2 hours (range: 6.3 to 26.9 hours) in healthy adults
+alprazolam|proteinBinding|-|80%|Alprazolam is 80% bound to human serum protein
+penicillamine|proteinBinding|-|>80%|More than 80% of plasma penicillamine is bound to proteins, especially albumin and ceruloplasmin
+droxidopa|halfLife|-|≈2.5 h|The mean elimination half-life of droxidopa is approximately 2.5 hours in humans
+droxidopa|volumeOfDistribution|-|≈200 L (apparent)|The estimated apparent volume of distribution of droxidopa is about 200 L in humans
+droxidopa|proteinBinding|-|75% at 100 ng/mL; 26% at 10,000 ng/mL|Droxidopa exhibits plasma protein binding of 75% at 100 ng/mL and 26% at 10,000 ng/mL
+alemtuzumab|volumeOfDistribution|-|14.1 L (central)|LEMTRADA is largely confined to the blood and interstitial space with a central volume of distribution of 14.1 L
+alemtuzumab|halfLife|-|≈2 weeks|The elimination half-life was approximately 2 weeks and was comparable between courses
+gadobutrol|halfLife|-|1.8 h (average)|The average elimination half-life (t 1/2 ) of gadobutrol is 1.8 hours
+gadobutrol|renalHalfLife|-|5.8 h (CrCl 30–80); 17.6 h (CrCl <30, not on dialysis)|the elimination half-life was 5.8 ± 2.4 hours in patients with mild to moderate renal impairment (80 > CL CR > 30 mL/min) and 17.6 ± 6.2 hours in patients with severe renal impairment not on dialysis (CL CR < 30 mL/min)
+gadoterate|halfLife|-|1.47 h (mean)|The estimated mean elimination half-life was 1.47 ± 0.45 hr
+gadoterate|volumeOfDistribution|-|179–211 mL/kg (steady state)|The volume of distribution at steady state of total gadolinium in healthy subjects is 179 ± 26 and 211 ± 35 mL/kg in female and male subjects respectively
+gadoterate|ihd|removed|Removed by HD (label)|Gadoterate meglumine can be removed from the body by hemodialysis
+gadoteridol|halfLife|-|1.57 h|The elimination half-life (mean ± SD) is about 1.57 ± 0.08 hours
+gadoteridol|renalHalfLife|-|10.65 h (CrCl 30–60); 9.10 h (CrCl 10–30, not on dialysis)|the elimination half-life of gadoteridol was 10.65 ± 0.06 hours in mild to moderately impaired patients (creatinine clearance 30 to 60 mL/min) and 9.10±0.26 hours in severely impaired patients not on dialysis (creatinine clearance 10 to 30 mL/min)
+gadoteridol|volumeOfDistribution|-|204 mL/kg (extracellular water)|The volume of distribution (204 ± 58 mL/kg) is equal to that of extracellular water
+gadoteridol|ihd|removed|Removed by HD (label)|ProHance can be removed by hemodialysis
+gadobenate|halfLife|-|1.17–2.02 h (mean)|The mean elimination half-life ranged from 1.17 ± 0.26 to 2.02 ± 0.60 hours
+gadopiclenol|volumeOfDistribution|-|13 L (steady state)|The mean (CV%) volume of distribution of gadopiclenol at steady state is 13 (13%) L
+gadopiclenol|proteinBinding|-|≤1.8%|Protein binding of gadopiclenol is ≤ 1.8% at clinically relevant concentrations
+gadopiclenol|ihd|removed|Removed by HD (label)|Gadopiclenol can be removed from the body by hemodialysis
+gadoxetate|halfLife|-|0.91–0.95 h (healthy)|The mean terminal elimination half-life of gadoxetate (0.01 to 0.1 mmol/kg) has been observed in healthy subjects of 22 to 39 years of age to be 0.91 to 0.95 hour
+gadoxetate|volumeOfDistribution|-|≈0.21 L/kg (steady state)|The total distribution volume of gadoxetate at steady state is about 0.21 L/kg (extracellular space)
+gadoxetate|proteinBinding|-|<10%|plasma protein binding is less than 10%
+gadoxetate|ihd|removed|≈30% removed in one 3-h session (label)|Approximately 30% of the injected dose was removed by dialysis in a single 3-hour dialysis session, which started 1 hour after an EOVIST dose
+gadodiamide|volumeOfDistribution|-|200 mL/kg (extracellular water)|The volume of distribution of gadodiamide (200 ± 61 mL/kg) is equivalent to that of extracellular water
+gadodiamide|ihd|removed|Dialysable (label)|OMNISCAN is dialyzable
+iohexol|ihd|removed|Removed by dialysis (label)|Iohexol can be removed by dialysis
+iodixanol|halfLife|-|2.1 h (healthy volunteers)|the elimination half-life was 2.1 hr
+iodixanol|volumeOfDistribution|-|0.26 L/kg|The volume of distribution in adults was 0.26 L/kg body weight, consistent with distribution to extracellular space
+iodixanol|ihd|removed|Dialysable (label)|VISIPAQUE Injection does not bind to plasma or serum protein and can be dialyzed
+iopamidol|halfLife|-|≈2 h (plasma)|The plasma half-life is approximately 2 hours after intravascular administration
+iopamidol|ihd|removed|Removed by dialysis (label)|Iopamidol can be removed by dialysis
+ioversol|volumeOfDistribution|-|0.26 L/kg|The volume of distribution in adults was 0.26 L/kg body weight, consistent with distribution to the extracellular space
+ioversol|ihd|removed|Removed by dialysis (label)|Ioversol can be removed by dialysis
+iopromide|renalHalfLife|-|11.6 h severe impairment vs 2.2 h normal (terminal)|The terminal half-life increased from 2.2 hours for subjects with normal renal function to 11.6 hours in patients with severe renal impairment
+iopromide|volumeOfDistribution|-|≈16 L (steady state)|The total volume of distribution at steady state is about 16 L suggesting distribution into extracellular space
+iopromide|proteinBinding|-|1%|Plasma protein binding of iopromide is 1%
+iopromide|ihd|removed|Removed by dialysis (label)|Iopromide can be removed by dialysis

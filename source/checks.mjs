@@ -3,11 +3,11 @@ import {readFileSync,existsSync} from 'node:fs';
 const data=JSON.parse(readFileSync(new URL('./dist/database.json',import.meta.url),'utf8'));
 const ids=new Set(data.drugs.map(d=>d.id));
 const refs=new Map(data.sources.map(s=>[s.id,s]));
-assert.equal(data.drugs.length,669);
-assert.equal(ids.size,669,'Drug IDs must be unique');
+assert.equal(data.drugs.length,710);
+assert.equal(ids.size,710,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.15.0');
-assert.deepEqual(data.coverage,{renal:607,safety:15,catalog:47});
+assert.equal(data.version,'0.16.0');
+assert.deepEqual(data.coverage,{renal:651,safety:15,catalog:44});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -97,7 +97,7 @@ for(const d of data.drugs){
  if(['halfLife','volumeOfDistribution','proteinBinding'].every(k=>p[k].status==='sourced')&&p.dialysability.ihd.value!==null)fullCount++;
  for(const k of ['crrt','sled']){assert.equal(p.dialysability[k].status,'not_curated','Never infer circuit clearance from protein binding/Vd');assert.equal(p.dialysability[k].value,null);}
 }
-assert.equal(pkCount,502);assert.equal(fullCount,89);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
+assert.equal(pkCount,537);assert.equal(fullCount,91);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
 const cap=drug('captopril'),am=drug('amlodipine');
 assert.equal(cap.entryType,'renal');assert.match(cap.kidneyMetric,/CrCl.*1.73/);
 assert.match(cap.modalities.ckd.tables[0].indication,/TOTAL daily/);

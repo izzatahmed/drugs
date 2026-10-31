@@ -1,0 +1,2439 @@
+{
+ "ifosfamide": {
+  "label": "us3/ifosfamide.json",
+  "brand": "Ifosfamide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label. Ifosfamide is itself nephrotoxic (glomerular and tubular): weigh risk and benefit in pre-existing renal impairment and check renal function before, during and after treatment.",
+    "ev": [
+     "Patients with renal impairment should be closely monitored for toxicity and dose reduction may be considered",
+     "Glomerular and tubular kidney function must be evaluated before commencement of therapy as well as during and after treatment",
+     "The risk and expected benefits of ifosfamide therapy should be carefully weighed when considering the use of ifosfamide in patients with preexisting renal impairment or reduced nephron reserve"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Ifosfamide and its metabolites are dialysable; no dialysis dose is given in the label.",
+    "ev": [
+     "Ifosfamide as well as ifosfamide metabolites are dialyzable"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈15 h (terminal, 3.8–5.0 g/m²)",
+    "ev": "At single doses of 3.8 to 5.0 g/m 2 , the plasma concentrations decay biphasically and the mean terminal elimination half-life is about 15 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.64–0.72 L/kg (median)",
+    "ev": "the median Vd of ifosfamide was 0.64 L/kg on Day 1 and 0.72 L/kg on Day 5",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialysable (label)",
+    "ev": "Ifosfamide as well as ifosfamide metabolites are dialyzable",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Accumulates in renal impairment: monitor closely for toxicity and consider dose reduction; itself nephrotoxic. Dialysable.",
+  "new": {
+   "name": "Ifosfamide",
+   "aliases": [
+    "Ifex"
+   ],
+   "category": "Oncology",
+   "drugClass": "Alkylating agent",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "mesna": {
+  "label": "us3/mesna.json",
+  "brand": "MESNEX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal studies; mesna is given as a fixed proportion of the ifosfamide dose.",
+    "ev": [
+     "No clinical studies were conducted to evaluate the effect of renal impairment on the pharmacokinetics of MESNEX"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.36 h (mesna); 1.17 h (dimesna)",
+    "ev": "Mean plasma elimination half-lives of mesna and dimesna are 0.36 hours and 1.17 hours, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.652 L/kg (IV)",
+    "ev": "Mean apparent volume of distribution (V d ) for mesna is 0.652 ± 0.242 L/kg after intravenous administration",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "No renal pharmacokinetic studies; dose is tied to the ifosfamide regimen.",
+  "new": {
+   "name": "Mesna",
+   "aliases": [
+    "Mesnex",
+    "Uromitexan"
+   ],
+   "category": "Oncology",
+   "drugClass": "Uroprotectant",
+   "routes": [
+    "Parenteral",
+    "Oral"
+   ]
+  }
+ },
+ "cytarabine": {
+  "label": "us3/cytarabine.json",
+  "brand": "Cytarabine injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in this label.",
+    "ev": [
+     "Use the drug with caution and possibly at reduced dose in patients whose liver or kidney function is poor",
+     "Periodic checks of bone marrow, liver and kidney functions should be performed in patients receiving Cytarabine Injection"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Use with caution and possibly at reduced dose when kidney function is poor; check renal function periodically.",
+  "new": {
+   "name": "Cytarabine",
+   "aliases": [
+    "Ara-C",
+    "Cytosar"
+   ],
+   "category": "Oncology",
+   "drugClass": "Antimetabolite",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "fludarabine": {
+  "label": "us3/fludarabine.json",
+  "brand": "Fludarabine phosphate injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–70 mL/min/1.73 m²",
+        "dose": "Reduce dose by 20% and monitor closely"
+       },
+       {
+        "context": "CrCl <30 mL/min/1.73 m²",
+        "dose": "Do not administer"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Adult patients with moderate impairment of renal function (creatinine clearance 30 to 70 mL/min/1.73 m 2 ) should have a 20% dose reduction of Fludarabine Phosphate Injection, USP",
+     "Fludarabine Phosphate Injection, USP should not be administered to patients with severely impaired renal function (creatinine clearance less than 30 mL/min/1.73 m 2 )"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended in severely impaired renal function.",
+    "ev": [
+     "Fludarabine is not recommended for patients with severely impaired renal function (creatinine clearance less than 30 mL/min/1.73 m 2 )"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈20 h (2-fluoro-ara-A, terminal)",
+    "ev": "The terminal half-life of 2-fluoro-ara-A was estimated as approximately 20 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "19–29% (in vitro)",
+    "ev": "In vitro , plasma protein binding of fludarabine ranged between 19% and 29%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min/1.73 m²",
+  "summary": "CrCl 30–70: reduce dose by 20%; CrCl <30: do not give.",
+  "new": {
+   "name": "Fludarabine",
+   "aliases": [
+    "Fludara"
+   ],
+   "category": "Oncology",
+   "drugClass": "Purine analogue",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "cladribine": {
+  "label": "us3/cladribine.json",
+  "brand": "Cladribine injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "IV cladribine: no numeric renal dose; acute renal insufficiency has occurred at high doses. Oral cladribine (Mavenclad, MS): see the second label.",
+    "ev": [
+     "In view of the known toxicities of agents of this class, it would be prudent to proceed carefully in patients with known or suspected renal insufficiency or severe bone marrow impairment of any etiology",
+     "Development of acute renal insufficiency in some patients receiving high doses of cladribine has been described",
+     "2|No dosage adjustment is recommended in patients with mild renal impairment (creatinine clearance 60 to 89 mL per minute)",
+     "2|Clinical experience in patients with moderate to severe renal impairment (i.e., CL CR below 60 mL per minute) is limited"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removal by dialysis is unknown (IV label) and unlikely to be significant (oral label).",
+    "ev": [
+     "It is not known whether the drug can be removed from the circulation by dialysis or hemofiltration",
+     "2|Because of the rapid and extensive intracellular and tissue distribution, hemodialysis is unlikely to eliminate cladribine to a significant extent"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "5.4 h (terminal, normal renal function)",
+    "ev": "For these patients with normal renal function, the mean terminal half-life was 5.4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈9 L/kg",
+    "ev": "In general, the apparent volume of distribution of cladribine is approximately 9 L/kg, indicating an extensive distribution in body tissues",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈20%",
+    "ev": "Cladribine is bound approximately 20% to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not known (label)",
+    "ev": "It is not known whether the drug can be removed from the circulation by dialysis or hemofiltration",
+    "status": "unknown"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "IV: proceed carefully in renal insufficiency (nephrotoxic at high doses). Oral (Mavenclad): no adjustment at CrCl 60–89; experience below 60 limited.",
+  "label2": "us3/cladribine-oral.json",
+  "brand2": "MAVENCLAD",
+  "new": {
+   "name": "Cladribine",
+   "aliases": [
+    "Leustatin",
+    "Mavenclad"
+   ],
+   "category": "Oncology",
+   "drugClass": "Purine analogue",
+   "routes": [
+    "Parenteral",
+    "Oral"
+   ]
+  }
+ },
+ "bendamustine": {
+  "label": "us3/bendamustine.json",
+  "brand": "BENDEKA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "CLL / NHL · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥30 mL/min",
+        "dose": "No clinically meaningful PK effect; usual dose"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Do not use"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Do not use BENDEKA in patients with creatinine clearance (CLcr) < 30 mL/min",
+     "No clinically meaningful effects on the pharmacokinetics of bendamustine were observed based on age (31 to 84 years), sex, mild to moderate renal impairment (CLcr ≥ 30 mL/min)"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not for use at CrCl <30 mL/min.",
+    "ev": [
+     "Do not use BENDEKA in patients with creatinine clearance (CLcr) < 30 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "94–96%",
+    "ev": "The protein binding of bendamustine ranged from 94 to 96% and was concentration independent",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Do not use at CrCl <30; no meaningful PK change at CrCl ≥30.",
+  "new": {
+   "name": "Bendamustine",
+   "aliases": [
+    "Bendeka",
+    "Treanda",
+    "Belrapzo",
+    "Levact"
+   ],
+   "category": "Oncology",
+   "drugClass": "Alkylating agent",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "busulfan": {
+  "label": "us3/busulfan.json",
+  "brand": "Busulfan injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "One report describes busulfan as dialysable; dialysis may be considered in overdose.",
+    "ev": [
+     "There is one report that busulfan is dialyzable, thus dialysis should be considered in the case of overdose"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "One report of dialysability (overdose) (label)",
+    "ev": "There is one report that busulfan is dialyzable, thus dialysis should be considered in the case of overdose",
+    "status": "removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement. One report of dialysability (overdose).",
+  "new": {
+   "name": "Busulfan (IV)",
+   "aliases": [
+    "Busulfex"
+   ],
+   "category": "Oncology",
+   "drugClass": "Alkylating agent",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "topotecan": {
+  "label": "us3/topotecan.json",
+  "brand": "Topotecan injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "IV topotecan · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥40 mL/min",
+        "dose": "No dose adjustment (1.5 mg/m²/day × 5 days)"
+       },
+       {
+        "context": "CrCl 20–39 mL/min",
+        "dose": "0.75 mg/m²/day"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Reduce the dose of Topotecan Injection to 0.75 mg/m 2 /day for patients with creatinine clearance (CLcr) of 20 to 39 mL/min (calculated with the Cockcroft-Gault method using ideal body weight)",
+     "No dosage adjustment is recommended for patients with CLcr greater than or equal to 40 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2–3 h (terminal, IV)",
+    "ev": "The terminal half-life of topotecan is 2 to 3 hours following intravenous administration",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈35%",
+    "ev": "Protein binding of topotecan is approximately 35%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault, ideal body weight)",
+  "summary": "CrCl 20–39: 0.75 mg/m²/day; CrCl ≥40: no adjustment.",
+  "new": {
+   "name": "Topotecan (IV)",
+   "aliases": [
+    "Hycamtin"
+   ],
+   "category": "Oncology",
+   "drugClass": "Topoisomerase I inhibitor",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "irinotecan": {
+  "label": "us3/irinotecan.json",
+  "brand": "CAMPTOSAR",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose; renal impairment has not been studied.",
+    "ev": [
+     "The influence of renal impairment on the pharmacokinetics of irinotecan has not been evaluated",
+     "Therefore, use caution in patients with impaired renal function",
+     "Renal impairment and acute renal failure have been identified, usually in patients who became volume depleted from severe vomiting and/or diarrhea"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Not evaluated in renal impairment; use caution. AKI reported with volume depletion from diarrhoea or vomiting.",
+  "new": {
+   "name": "Irinotecan",
+   "aliases": [
+    "Camptosar"
+   ],
+   "category": "Oncology",
+   "drugClass": "Topoisomerase I inhibitor",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vinorelbine": {
+  "label": "us3/vinorelbine.json",
+  "brand": "Vinorelbine injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "27.7–43.6 h (terminal)",
+    "ev": "The terminal phase half-life averages 27.7 to 43.6 hours and the mean plasma clearance ranges from 0.97 to 1.26 L/hr/kg",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "25.4–40.1 L/kg (steady state)",
+    "ev": "Steady-state volume of distribution (V SS ) values range from 25.4 to 40.1 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "79.6–91.2% (cancer patients)",
+    "ev": "The binding to plasma constituents in cancer patients ranged from 79.6% to 91.2%",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement.",
+  "new": {
+   "name": "Vinorelbine",
+   "aliases": [
+    "Navelbine"
+   ],
+   "category": "Oncology",
+   "drugClass": "Vinca alkaloid",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "temozolomide": {
+  "label": "us3/temozolomide.json",
+  "brand": "TEMODAR",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl 36–130 mL/min/m²",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <36 mL/min/m²",
+        "dose": "Dose not established"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is recommended for patients with creatinine clearance (CLcr) of 36 to 130 mL/min/m 2",
+     "The recommended dose of TEMODAR has not been established for patients with severe renal impairment (CLcr <36 mL/min/m 2 ) or for patients with end-stage renal disease on dialysis"
+    ]
+   },
+   "ihd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "Dose not established on dialysis.",
+    "ev": [
+     "The recommended dose of TEMODAR has not been established for patients with severe renal impairment (CLcr <36 mL/min/m 2 ) or for patients with end-stage renal disease on dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.8 h",
+    "ev": "Clearance of temozolomide is approximately 5.5 L/hr/m 2 and the mean elimination half-life is 1.8 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.4 L/kg (apparent)",
+    "ev": "Temozolomide has a mean (CV%) apparent volume of distribution of 0.4 L/kg (13%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min/m²",
+  "summary": "No adjustment at CrCl 36–130 mL/min/m²; dose not established below 36 or on dialysis.",
+  "new": {
+   "name": "Temozolomide",
+   "aliases": [
+    "Temodar",
+    "Temodal"
+   ],
+   "category": "Oncology",
+   "drugClass": "Alkylating agent",
+   "routes": [
+    "Oral",
+    "Parenteral"
+   ]
+  }
+ },
+ "azacitidine": {
+  "label": "us3/azacitidine.json",
+  "brand": "Azacitidine for injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MDS · US label",
+      "rows": [
+       {
+        "context": "Unexplained rise in BUN or serum creatinine",
+        "dose": "Delay next cycle until values return to normal or baseline; reduce dose by 50% for the next course"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "If unexplained elevations of BUN or serum creatinine occur, delay the next cycle until values return to normal or baseline and reduce the dose by 50% for the next course",
+     "Monitor patients with renal impairment for toxicity since azacitidine and its metabolites are primarily excreted by the kidneys"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈4 h (total radioactivity)",
+    "ev": "The mean elimination half-lives of total radioactivity (azacitidine and its metabolites) were similar after intravenous and subcutaneous administrations, about 4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "76 L (IV)",
+    "ev": "Mean volume of distribution following intravenous dosing is 76 ± 26 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Serum creatinine / BUN",
+  "summary": "Monitor creatinine each cycle; unexplained rise in BUN or creatinine → delay and give 50% dose next course.",
+  "new": {
+   "name": "Azacitidine (injection)",
+   "aliases": [
+    "Vidaza"
+   ],
+   "category": "Oncology",
+   "drugClass": "Hypomethylating agent",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "arsenic-trioxide": {
+  "label": "us3/arsenic-trioxide.json",
+  "brand": "Arsenic trioxide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "APL · US label",
+      "rows": [
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Monitor frequently for toxicity; dose reduction may be warranted"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Monitor patients with severe renal impairment (creatinine clearance [CL CR ] less than 30 mL/min) frequently for toxicity; a dose reduction may be warranted",
+     "However, in the severe renal impairment group, the mean AUC 0-INF for As III was approximately 48% higher than that in the normal group"
+    ]
+   },
+   "ihd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "Not studied on dialysis.",
+    "ev": [
+     "The use of arsenic trioxide in patients on dialysis has not been studied"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "10–14 h (As III)",
+    "ev": "Plasma concentration of As III declined in a biphasic manner with a mean elimination half-life of 10 to 14 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "562 L (As III, steady state)",
+    "ev": "The volume of distribution (V ss ) for As III is large (mean 562 L, N=10) indicating that As III is widely distributed throughout body tissues",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not studied on dialysis (label)",
+    "ev": "The use of arsenic trioxide in patients on dialysis has not been studied",
+    "status": "unknown"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl <30: exposure ≈48% higher — monitor frequently; a dose reduction may be warranted. Not studied on dialysis.",
+  "new": {
+   "name": "Arsenic trioxide",
+   "aliases": [
+    "Trisenox"
+   ],
+   "category": "Oncology",
+   "drugClass": "Antineoplastic",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "leucovorin": {
+  "label": "us3/leucovorin.json",
+  "brand": "VYKOURA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "High-dose methotrexate rescue · US label",
+      "rows": [
+       {
+        "context": "Serum creatinine up ≥50% at 24 h, or MTX >5 µM at 24 h / >0.9 µM at 48 h",
+        "dose": "100 mg/m² IV every 3 hours until MTX <0.01 µM"
+       },
+       {
+        "context": "Creatinine up ≥100% at 24 h, or MTX ≥50 µM at 24 h / ≥5 µM at 48 h",
+        "dose": "150 mg IV/IM every 3 hours until MTX <1 µM, then 15 mg every 3 hours until <0.05 µM"
+       },
+       {
+        "context": "Renal impairment (subsequent courses)",
+        "dose": "Extend rescue by 24 hours (14 doses over 84 hours)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Increase the dosage of VYKOURA to 100 mg/m 2 intravenously every 3 hours if serum creatinine at 24-hours increases 50% or more compared to baseline the methotrexate level at 24-hours is greater than 5 micromolar (5 x 10 -6 M) the methotrexate level at 48-hours is greater than 0.9 micromolar (9 x 10 -7 M) Continue VYKOURA at the same dosage until the methotrexate level is less than 0.01 micromolar (1 x 10 -8 M)",
+     "Serum methotrexate level of 50 micromolar or more at 24 hours, or 5 micromolar or more at 48 hours after administration, OR 100% or greater increase in serum creatinine level at 24 hours after methotrexate administration (e.g., an increase from 0.5 mg/dL to a level of 1 mg/dL or more). 150 mg intravenously or intramuscularly every 3 hours, until methotrexate level is less than 1 micromolar; then 15 mg intravenously or intramuscularly every 3 hours until methotrexate level is less than 0.05 micromolar",
+     "Extend VYKOURA rescue for an additional 24 hours (total of 14 doses over 84 hours) in subsequent courses of methotrexate in patients with: Impaired methotrexate elimination including third-space fluid accumulation and inadequate hydration Renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈9.5 h (terminal)",
+    "ev": "Leucovorin estimated terminal half-life is approximately 9.5 hours (CV 17%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Serum creatinine and methotrexate level",
+  "summary": "Methotrexate rescue: dose and duration rise with creatinine rise or delayed methotrexate elimination (label table).",
+  "new": {
+   "name": "Leucovorin (folinic acid)",
+   "aliases": [
+    "Calcium folinate",
+    "Folinic acid"
+   ],
+   "category": "Oncology",
+   "drugClass": "Folate analogue · rescue",
+   "routes": [
+    "Parenteral",
+    "Oral"
+   ]
+  }
+ },
+ "melphalan": {
+  "label": "preg/melphalan.json",
+  "brand": "Alkeran IV",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "IV melphalan · US label",
+      "rows": [
+       {
+        "context": "Renal insufficiency",
+        "dose": "Consider dose reduction"
+       },
+       {
+        "context": "BUN ≥30 mg/dL (trial protocol)",
+        "dose": "IV dose reduced by 50% in the trial"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Dose reduction should be considered in patients with renal insufficiency receiving IV melphalan",
+     "An association was noted between poor renal function and myelosuppression; consequently, an amendment to the protocol required a 50% reduction in IV melphalan dose if the BUN was ≥30 mg/dL"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "BUN / renal function",
+  "summary": "IV melphalan: consider dose reduction in renal insufficiency (trial protocol used 50% at BUN ≥30 mg/dL). Not removed by HD."
+ },
+ "antithymocyte-globulin-rabbit": {
+  "label": "us3/antithymocyte-globulin-rabbit.json",
+  "brand": "THYMOGLOBULIN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement. Reduce by half for WBC 2,000–3,000/mm³ or platelets 50,000–75,000/mm³ (label).",
+    "ev": [
+     "The THYMOGLOBULIN dose should be reduced by one-half if the white blood cell (WBC) count is between 2,000 and 3,000 cells/mm 3 or if the platelet count is between 50,000 and 75,000 cells/mm 3"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "No renal dose; dose by weight with WBC/platelet-based reductions."
+ },
+ "intravenous-immunoglobulin": {
+  "label": "us3/intravenous-immunoglobulin.json",
+  "brand": "PRIVIGEN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Boxed warning: renal dysfunction, AKI and thrombosis. Risk factors include any pre-existing renal insufficiency, diabetes, age >65, volume depletion, sepsis, paraproteinaemia and nephrotoxic drugs.",
+    "ev": [
+     "Patients predisposed to renal dysfunction include those with any degree of pre-existing renal insufficiency, diabetes mellitus, age greater than 65, volume depletion, sepsis, paraproteinemia, or patients receiving known nephrotoxic drugs",
+     "Ensure that patients with pre-existing renal insufficiency are not volume depleted",
+     "For patients judged to be at risk for renal dysfunction or thrombosis, administer PRIVIGEN at the minimum dose and infusion rate practicable, and discontinue PRIVIGEN administration if renal function deteriorates"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal risk factors",
+  "summary": "Renal dysfunction and AKI can occur: ensure euvolaemia and use the minimum dose and infusion rate practicable in at-risk patients."
+ },
+ "alemtuzumab": {
+  "label": "us3/alemtuzumab.json",
+  "brand": "LEMTRADA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement. Monthly creatinine and urinalysis are part of the label monitoring.",
+    "ev": [
+     "Monitor complete blood counts with differential, serum creatinine levels, and urinalysis with urine cell counts before starting treatment and then at monthly intervals until 48 months after the last dose of LEMTRADA"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "14.1 L (central)",
+    "ev": "LEMTRADA is largely confined to the blood and interstitial space with a central volume of distribution of 14.1 L",
+    "status": "sourced"
+   },
+   "halfLife": {
+    "value": "≈2 weeks",
+    "ev": "The elimination half-life was approximately 2 weeks and was comparable between courses",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Serum creatinine and urinalysis",
+  "summary": "No renal dose; monitor creatinine and urinalysis monthly (anti-GBM disease risk) until 48 months after the last dose.",
+  "new": {
+   "name": "Alemtuzumab",
+   "aliases": [
+    "Lemtrada",
+    "Campath"
+   ],
+   "category": "Transplant & immunology",
+   "drugClass": "Anti-CD52 monoclonal antibody",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "rocuronium": {
+  "label": "us3/rocuronium.json",
+  "brand": "Rocuronium bromide injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Neuromuscular blockade · US label",
+      "rows": [
+       {
+        "context": "Renal impairment, including ESRD",
+        "dose": "Usual dosing; expect similar but more variable duration"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Due to the limited role of the kidney in the excretion of rocuronium bromide, usual dosing recommendations Rocuronium Bromide Injection for should be followed",
+     "The net result of these findings is that subjects with renal failure have clinical durations that are similar to but somewhat more variable than the duration that one would expect in subjects with normal renal function"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈30%",
+    "ev": "Rocuronium is approximately 30% bound to human plasma proteins",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.26 L/kg (normal); 0.34 L/kg (renal transplant)",
+    "ev": "Volume of Distribution at Steady State (L/kg) 0.26 (0.03) 0.34 (0.11) 0.53 (0.14)",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "Usual dosing in renal impairment; duration similar but more variable in ESRD.",
+  "new": {
+   "name": "Rocuronium",
+   "aliases": [
+    "Zemuron",
+    "Esmeron"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Neuromuscular blocker (aminosteroid)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "cisatracurium": {
+  "label": "us3/cisatracurium.json",
+  "brand": "Cisatracurium besylate",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Neuromuscular blockade · US label",
+      "rows": [
+       {
+        "context": "End-stage renal disease",
+        "dose": "Usual dose; wait at least 1 minute longer before intubation"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "There was no clinically significant alteration in the recovery profile of Cisatracurium Besylate Injection in patients with end-stage renal disease following a 0.1 mg/kg dose",
+     "consider extending the interval between administering Cisatracurium Besylate Injection and attempting intubation by at least 1 minute to achieve adequate intubation conditions in geriatric patients and patients with end-stage renal disease"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "22 min (elimination)",
+    "ev": "an elimination half-life (t ½ β) of 22 minutes",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "ESRD",
+  "summary": "ESRD: onset ≈1 min slower — allow at least 1 extra minute before intubation; recovery unchanged.",
+  "new": {
+   "name": "Cisatracurium",
+   "aliases": [
+    "Nimbex"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Neuromuscular blocker (benzylisoquinolinium)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "succinylcholine": {
+  "label": "us3/succinylcholine.json",
+  "brand": "QUELICIN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose. Severe kidney disease can lower plasma cholinesterase activity.",
+    "ev": [
+     "Plasma cholinesterase activity may be diminished in the presence of genetic abnormalities of plasma cholinesterase (e.g., patients heterozygous or homozygous for atypical plasma cholinesterase gene), pregnancy, severe liver or kidney disease"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Severe kidney disease",
+  "summary": "Plasma cholinesterase may be reduced in severe kidney disease (prolonged block). Hyperkalaemia risk applies.",
+  "new": {
+   "name": "Succinylcholine (suxamethonium)",
+   "aliases": [
+    "Suxamethonium",
+    "Quelicin",
+    "Anectine"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Depolarising neuromuscular blocker",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "neostigmine": {
+  "label": "us3/neostigmine.json",
+  "brand": "BLOXIVERZ",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "NMB reversal · US label",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "No adjustment; monitor closely for persistent neuromuscular block"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Although no adjustments to BLOXIVERZ dosing appear to be warranted in patients with impaired renal function, they should be closely monitored to assure the effects of the neuromuscular blocking agent, particularly one cleared by the kidneys, do not persist beyond those of BLOXIVERZ"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "24–113 min (IV)",
+    "ev": "Following intravenous injection, the reported elimination half-life of neostigmine methylsulfate is between 24 and 113 minutes",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "181 min anephric vs 79.8 min normal (mean)",
+    "ev": "elimination half-life for normal, transplant and anephric patients were 79.8 ± 48.6, 104.7 ± 64 and 181 ± 54 min (mean ± SD), respectively",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "15–25% (albumin)",
+    "ev": "Protein binding of neostigmine methylsulfate to human serum albumin ranges from 15 to 25%",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "No dose adjustment, but half-life is prolonged in anephric patients — monitor that the blocker does not outlast reversal.",
+  "new": {
+   "name": "Neostigmine (IV)",
+   "aliases": [
+    "Bloxiverz"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Cholinesterase inhibitor · reversal",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "sugammadex": {
+  "label": "us3/sugammadex.json",
+  "brand": "BRIDION",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "NMB reversal · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–80 mL/min",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "CrCl <30 mL/min, including dialysis",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "BRIDION is not recommended for use in patients with severe renal impairment (creatinine clearance <30 mL/min) due to insufficient safety information combined with the prolonged and increased overall exposure in these patients",
+     "Effect of mild or moderate renal impairment (creatinine clearance ≥30 and ≤80 mL/min) on sugammadex PK and PD was obtained from a study in elderly patients"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended on dialysis. High-flux (not low-flux) HD lowers plasma levels by about 70% per 3–6 h session.",
+    "ev": [
+     "BRIDION is not recommended for use in patients with severe renal impairment, including those requiring dialysis",
+     "BRIDION can be removed using hemodialysis with a high-flux filter, but not with a low-flux filter"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (normal renal function)",
+    "ev": "the elimination half-life (t 1/2 ) of sugammadex is about 2 hours and the estimated plasma clearance is about 88 mL/min",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "4, 6 and 19 h (mild, moderate, severe impairment)",
+    "ev": "The half-life of sugammadex in patients with mild, moderate and severe renal impairment is 4, 6, and 19 hours, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "11–14 L (steady state)",
+    "ev": "The observed steady-state volume of distribution of sugammadex is approximately 11 to 14 liters in adult patients with normal renal function",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "High-flux HD removes ≈70% per 3–6 h session; low-flux does not (label)",
+    "ev": "BRIDION can be removed using hemodialysis with a high-flux filter, but not with a low-flux filter",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Not recommended at CrCl <30 or on dialysis; exposure up to 17-fold higher. High-flux HD removes ≈70%.",
+  "new": {
+   "name": "Sugammadex",
+   "aliases": [
+    "Bridion"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Selective relaxant binding agent",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "bupivacaine": {
+  "label": "us3/bupivacaine.json",
+  "brand": "MARCAINE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose; renal disease can alter local anaesthetic pharmacokinetics.",
+    "ev": [
+     "This product is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function",
+     "Various pharmacokinetic parameters of the local anesthetics can be significantly altered by the presence of renal disease, factors affecting urinary pH, and renal blood flow"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2.7 h",
+    "ev": "The half-life of bupivacaine in adults is 2.7 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "95%",
+    "ev": "Bupivacaine with a high protein binding capacity (95%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Renally excreted metabolites: greater risk of adverse reactions in renal impairment; no numeric dose change.",
+  "new": {
+   "name": "Bupivacaine",
+   "aliases": [
+    "Marcaine",
+    "Sensorcaine"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Local anaesthetic (amide)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "flumazenil": {
+  "label": "us3/flumazenil.json",
+  "brand": "Flumazenil injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Benzodiazepine reversal · US label",
+      "rows": [
+       {
+        "context": "CrCl <10 mL/min or haemodialysis",
+        "dose": "No significant PK change; usual dose"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Renal Failure (creatinine clearance <10 mL/min) and Hemodialysis The pharmacokinetics of flumazenil are not significantly affected"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Usual dose (PK not significantly affected)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Renal Failure (creatinine clearance <10 mL/min) and Hemodialysis The pharmacokinetics of flumazenil are not significantly affected"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "40–80 min (terminal)",
+    "ev": "a terminal half-life of 40 to 80 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.5 L/kg (initial)",
+    "ev": "with an apparent initial volume of distribution of 0.5 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈50%",
+    "ev": "Protein binding is approximately 50%",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl <10 mL/min and haemodialysis",
+  "summary": "Pharmacokinetics not significantly affected in renal failure or haemodialysis.",
+  "new": {
+   "name": "Flumazenil",
+   "aliases": [
+    "Anexate",
+    "Romazicon"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Benzodiazepine antagonist",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "mannitol": {
+  "label": "us3/mannitol.json",
+  "brand": "Mannitol injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Evaluate renal status and correct fluid and electrolytes first; monitor urine output.",
+    "ev": [
+     "Patients with pre-existing renal disease, patients with conditions that put them at high risk for renal failure, or those receiving potentially nephrotoxic drugs or other diuretics, are at increased risk of renal failure with administration of mannitol",
+     "Monitor renal function closely, including signs of urine output reduction, during mannitol injection",
+     "Patients with oliguric acute kidney injury who subsequently develop anuria while receiving mannitol are at risk of congestive heart failure, pulmonary edema, hypertensive crisis, coma, and death"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Dialysable by HD and PD; HD may increase elimination.",
+    "ev": [
+     "Mannitol Injection is dialyzable (hemodialysis and peritoneal dialysis), hemodialysis may increase mannitol elimination"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.5–2.5 h",
+    "ev": "The elimination half-life of mannitol is 0.5 to 2.5 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈17 L",
+    "ev": "The volume of distribution of mannitol is approximately 17 L in adults",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialysable by HD and PD (label)",
+    "ev": "Mannitol Injection is dialyzable (hemodialysis and peritoneal dialysis), hemodialysis may increase mannitol elimination",
+    "status": "removed"
+   },
+   "pd": {
+    "value": "Dialysable by PD (label)",
+    "ev": "Mannitol Injection is dialyzable (hemodialysis and peritoneal dialysis)",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function and urine output",
+  "summary": "Pre-existing renal disease raises AKI risk; stop if renal function worsens. Anuria during treatment → risk of heart failure and pulmonary oedema. Dialysable.",
+  "new": {
+   "name": "Mannitol (IV)",
+   "aliases": [
+    "Osmitrol"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Osmotic diuretic",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "albumin-human": {
+  "label": "us3/albumin-human.json",
+  "brand": "ALBUMINEX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hypovolaemia / dialysis · US label",
+      "rows": [
+       {
+        "context": "Renal dialysis",
+        "dose": "Initial dose not more than 25 g; observe for fluid overload"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For renal dialysis; the initial dose should not exceed 25 g and patients should be carefully observed for signs of fluid overload"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Initial dose ≤25 g; observe for fluid overload"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For renal dialysis; the initial dose should not exceed 25 g and patients should be carefully observed for signs of fluid overload"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Volume status",
+  "summary": "Renal dialysis: initial dose should not exceed 25 g; watch for fluid overload.",
+  "new": {
+   "name": "Albumin (human)",
+   "aliases": [
+    "Human albumin solution",
+    "Albuminex"
+   ],
+   "category": "Anaesthesia & critical care",
+   "drugClass": "Plasma protein · colloid",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "terlipressin": {
+  "label": "us3/terlipressin.json",
+  "brand": "TERLIVAZ",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Record baseline SCr and assess on day 4 per the label dosing chart; check ACLF grade, volume status and oxygenation first.",
+    "ev": [
+     "Patients with a serum creatinine >5 mg/dL are unlikely to experience benefit",
+     "Record last available serum creatinine (SCr) value prior to initiating treatment (baseline SCr)",
+     "Day 4: Assess serum creatinine (SCr) versus baseline"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Serum creatinine",
+  "summary": "Hepatorenal syndrome: dose by SCr trajectory (label chart); patients with SCr >5 mg/dL are unlikely to benefit.",
+  "new": {
+   "name": "Terlipressin",
+   "aliases": [
+    "Terlivaz",
+    "Glypressin"
+   ],
+   "category": "Specialist kidney therapies",
+   "drugClass": "Vasopressin analogue",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadobutrol": {
+  "label": "us3/gadobutrol.json",
+  "brand": "GADAVIST",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: Chronic, severe kidney disease (GFR < 30 mL/min/1.73m 2 ), or Acute kidney injury",
+     "For patients at highest risk for NSF, do not exceed the recommended GADAVIST dose and allow a sufficient period of time for elimination of the drug from the body prior to any re-administration"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Consider prompt HD after the dose to speed elimination (label)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients receiving hemodialysis, consider the prompt initiation of hemodialysis following the administration of a GBCA in order to enhance the contrast agent's elimination"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.8 h (average)",
+    "ev": "The average elimination half-life (t 1/2 ) of gadobutrol is 1.8 hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "5.8 h (CrCl 30–80); 17.6 h (CrCl <30, not on dialysis)",
+    "ev": "the elimination half-life was 5.8 ± 2.4 hours in patients with mild to moderate renal impairment (80 > CL CR > 30 mL/min) and 17.6 ± 6.2 hours in patients with severe renal impairment not on dialysis (CL CR < 30 mL/min)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group II (very low NSF risk). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group II (very low NSF risk). ACR–NKF consensus: do not withhold or delay a needed group II agent where harm would result; kidney-function screening optional; dialysis need not be started or changed for the contrast; on maintenance HD, ideally give before a scheduled session.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadobutrol",
+   "aliases": [
+    "Gadavist",
+    "Gadovist"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · macrocyclic · ACR group II",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadoterate": {
+  "label": "us3/gadoterate.json",
+  "brand": "DOTAREM",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: Chronic, severe kidney disease (GFR < 30 mL/min/1.73 m 2 ), or Acute kidney injury",
+     "No DOTAREM dosage adjustment is recommended for patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Removed by HD (label)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Gadoterate meglumine can be removed from the body by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.47 h (mean)",
+    "ev": "The estimated mean elimination half-life was 1.47 ± 0.45 hr",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "179–211 mL/kg (steady state)",
+    "ev": "The volume of distribution at steady state of total gadolinium in healthy subjects is 179 ± 26 and 211 ± 35 mL/kg in female and male subjects respectively",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by HD (label)",
+    "ev": "Gadoterate meglumine can be removed from the body by hemodialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group II (very low NSF risk). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group II (very low NSF risk). ACR–NKF consensus: do not withhold or delay a needed group II agent where harm would result; kidney-function screening optional; dialysis need not be started or changed for the contrast; on maintenance HD, ideally give before a scheduled session.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadoterate meglumine",
+   "aliases": [
+    "Dotarem",
+    "Clariscan"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · macrocyclic · ACR group II",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadoteridol": {
+  "label": "us3/gadoteridol.json",
+  "brand": "ProHance",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: chronic, severe kidney disease (GFR less than 30 mL/min/1.73m 2 ), or acute kidney injury",
+     "No ProHance dosage adjustment is recommended for patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Removed by HD (label)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "ProHance can be removed by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.57 h",
+    "ev": "The elimination half-life (mean ± SD) is about 1.57 ± 0.08 hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "10.65 h (CrCl 30–60); 9.10 h (CrCl 10–30, not on dialysis)",
+    "ev": "the elimination half-life of gadoteridol was 10.65 ± 0.06 hours in mild to moderately impaired patients (creatinine clearance 30 to 60 mL/min) and 9.10±0.26 hours in severely impaired patients not on dialysis (creatinine clearance 10 to 30 mL/min)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "204 mL/kg (extracellular water)",
+    "ev": "The volume of distribution (204 ± 58 mL/kg) is equal to that of extracellular water",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by HD (label)",
+    "ev": "ProHance can be removed by hemodialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group II (very low NSF risk). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group II (very low NSF risk). ACR–NKF consensus: do not withhold or delay a needed group II agent where harm would result; kidney-function screening optional; dialysis need not be started or changed for the contrast; on maintenance HD, ideally give before a scheduled session.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadoteridol",
+   "aliases": [
+    "ProHance"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · macrocyclic · ACR group II",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadobenate": {
+  "label": "us3/gadobenate.json",
+  "brand": "MultiHance",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: chronic, severe kidney disease (GFR <30 mL/min/1.73m 2 ), or acute kidney injury"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.17–2.02 h (mean)",
+    "ev": "The mean elimination half-life ranged from 1.17 ± 0.26 to 2.02 ± 0.60 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group II (very low NSF risk). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group II (very low NSF risk). ACR–NKF consensus: do not withhold or delay a needed group II agent where harm would result; kidney-function screening optional; dialysis need not be started or changed for the contrast; on maintenance HD, ideally give before a scheduled session.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadobenate dimeglumine",
+   "aliases": [
+    "MultiHance"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · linear · ACR group II",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadopiclenol": {
+  "label": "us3/gadopiclenol.json",
+  "brand": "ELUCIREM",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: Chronic, severe kidney disease (GFR < 30 mL/min/1.73 m 2 ), or Acute kidney injury",
+     "No dose adjustment of ELUCIREM is recommended for patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Removed by HD (label)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "ELUCIREM can be removed from the body by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "13 L (steady state)",
+    "ev": "The mean (CV%) volume of distribution of gadopiclenol at steady state is 13 (13%) L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≤1.8%",
+    "ev": "Protein binding of gadopiclenol is ≤ 1.8% at clinically relevant concentrations",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by HD (label)",
+    "ev": "Gadopiclenol can be removed from the body by hemodialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group II (very low NSF risk). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group II (very low NSF risk). ACR–NKF consensus: do not withhold or delay a needed group II agent where harm would result; kidney-function screening optional; dialysis need not be started or changed for the contrast; on maintenance HD, ideally give before a scheduled session.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadopiclenol",
+   "aliases": [
+    "Elucirem",
+    "Vueway"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · macrocyclic · ACR group II",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadoxetate": {
+  "label": "us3/gadoxetate.json",
+  "brand": "EOVIST",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Highest NSF risk: avoid unless essential and not available from non-contrast MRI or other modalities; do not exceed the recommended dose; allow time for elimination before re-dosing"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The risk for NSF appears highest among patients with: Chronic, severe kidney disease (GFR < 30 mL/min/1.73m 2 ), or Acute kidney injury",
+     "For patients at highest risk for NSF, do not exceed the recommended EOVIST dose and allow a sufficient period of time for elimination of the drug from the body prior to any re-administration"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Consider prompt HD after the dose to speed elimination (label)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients receiving hemodialysis, consider the prompt initiation of hemodialysis following the administration of a GBCA in order to enhance the contrast agent's elimination"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.91–0.95 h (healthy)",
+    "ev": "The mean terminal elimination half-life of gadoxetate (0.01 to 0.1 mmol/kg) has been observed in healthy subjects of 22 to 39 years of age to be 0.91 to 0.95 hour",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈0.21 L/kg (steady state)",
+    "ev": "The total distribution volume of gadoxetate at steady state is about 0.21 L/kg (extracellular space)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "<10%",
+    "ev": "plasma protein binding is less than 10%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "≈30% removed in one 3-h session (label)",
+    "ev": "Approximately 30% of the injected dose was removed by dialysis in a single 3-hour dialysis session, which started 1 hour after an EOVIST dose",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group III (limited data; no unconfounded NSF cases). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group III (limited data; no unconfounded NSF cases). ACR–NKF consensus: screen kidney function; at eGFR <30 or in AKI the radiologist and referring clinician should discuss the risk; dialysis need not be started or changed for the contrast.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadoxetate disodium",
+   "aliases": [
+    "Eovist",
+    "Primovist"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · linear, liver-specific · ACR group III",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "gadodiamide": {
+  "label": "us3/gadodiamide.json",
+  "brand": "OMNISCAN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "MRI contrast · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥30, no AKI",
+        "dose": "Usual dose; do not exceed it"
+       },
+       {
+        "context": "eGFR <30 or AKI",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Do not administer OMNISCAN to patients with: chronic, severe kidney disease (GFR < 30 mL/min/1.73m 2 ), or acute kidney injury",
+     "Do not exceed the recommended OMNISCAN dose and allow a sufficient period of time for elimination of the drug from the body prior to any readministration"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in chronic severe kidney disease, which includes dialysis; dialysable.",
+    "ev": [
+     "Do not administer OMNISCAN to patients with: chronic, severe kidney disease (GFR < 30 mL/min/1.73m 2 ), or acute kidney injury",
+     "OMNISCAN is dialyzable"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "200 mL/kg (extracellular water)",
+    "ev": "The volume of distribution of gadodiamide (200 ± 61 mL/kg) is equivalent to that of extracellular water",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialysable (label)",
+    "ev": "OMNISCAN is dialyzable",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ACR group I (greatest number of NSF cases). Label: highest NSF risk at GFR <30 or AKI.",
+  "considerations": "ACR group I (greatest number of NSF cases). Prefer a group II agent in advanced CKD, AKI or dialysis.",
+  "extraSources": [
+   "acr-nkf-gbcm-2021",
+   "acr-contrast-manual"
+  ],
+  "new": {
+   "name": "Gadodiamide",
+   "aliases": [
+    "Omniscan"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Gadolinium contrast · linear · ACR group I",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "iohexol": {
+  "label": "us3/iohexol.json",
+  "brand": "OMNIPAQUE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label; AKI risk factors are listed.",
+    "ev": [
+     "Risk factors include: pre-existing renal impairment, dehydration, diabetes mellitus, congestive heart failure, advanced vascular disease, elderly age, concomitant use of nephrotoxic or diuretic medications, multiple myeloma/paraproteinaceous diseases, repetitive and/or large doses of an iodinated contrast agent",
+     "Use the lowest necessary dose of OMNIPAQUE in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by dialysis; dialysis need not be timed to the contrast (ACR–NKF).",
+    "ev": [
+     "Iohexol can be removed by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "Removed by dialysis (label)",
+    "ev": "Iohexol can be removed by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Pre-existing renal impairment raises AKI risk: use the lowest necessary dose. ACR–NKF: high risk at eGFR <30 or AKI.",
+  "considerations": "ACR–NKF consensus (IV contrast): high risk = AKI or eGFR <30 (includes non-anuric dialysis patients). Give IV isotonic saline prophylaxis at eGFR <30 or AKI unless contraindicated (e.g. heart failure); optional at 30–44 in individual high-risk cases; not indicated at ≥45. Do not withhold a necessary study; use the standard diagnostic dose; withhold nonessential nephrotoxic drugs when feasible; dialysis should not be started or changed solely because of the contrast. Use the contrast-AKI calculator for the risk estimate.",
+  "extraSources": [
+   "acr-nkf-icm-2020"
+  ],
+  "new": {
+   "name": "Iohexol",
+   "aliases": [
+    "Omnipaque"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Iodinated contrast · non-ionic low-osmolality",
+   "routes": [
+    "Parenteral",
+    "Oral"
+   ]
+  }
+ },
+ "iodixanol": {
+  "label": "us3/iodixanol.json",
+  "brand": "VISIPAQUE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label; AKI risk factors are listed.",
+    "ev": [
+     "Risk factors include: pre-existing renal impairment, dehydration, diabetes mellitus, congestive heart failure, advanced vascular disease, elderly age, concomitant use of nephrotoxic or diuretic medications, multiple myeloma/paraproteinaceous diseases, repetitive and/or large doses of an iodinated contrast agent",
+     "Use the lowest necessary dose of VISIPAQUE in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by dialysis; dialysis need not be timed to the contrast (ACR–NKF).",
+    "ev": [
+     "VISIPAQUE Injection does not bind to plasma or serum protein and can be dialyzed"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2.1 h (healthy volunteers)",
+    "ev": "the elimination half-life was 2.1 hr",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.26 L/kg",
+    "ev": "The volume of distribution in adults was 0.26 L/kg body weight, consistent with distribution to extracellular space",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialysable (label)",
+    "ev": "VISIPAQUE Injection does not bind to plasma or serum protein and can be dialyzed",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Pre-existing renal impairment raises AKI risk: use the lowest necessary dose. ACR–NKF: high risk at eGFR <30 or AKI.",
+  "considerations": "ACR–NKF consensus (IV contrast): high risk = AKI or eGFR <30 (includes non-anuric dialysis patients). Give IV isotonic saline prophylaxis at eGFR <30 or AKI unless contraindicated (e.g. heart failure); optional at 30–44 in individual high-risk cases; not indicated at ≥45. Do not withhold a necessary study; use the standard diagnostic dose; withhold nonessential nephrotoxic drugs when feasible; dialysis should not be started or changed solely because of the contrast. Use the contrast-AKI calculator for the risk estimate.",
+  "extraSources": [
+   "acr-nkf-icm-2020"
+  ],
+  "new": {
+   "name": "Iodixanol",
+   "aliases": [
+    "Visipaque"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Iodinated contrast · non-ionic iso-osmolality",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "iopamidol": {
+  "label": "us3/iopamidol.json",
+  "brand": "ISOVUE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label; AKI risk factors are listed.",
+    "ev": [
+     "Risk factors include: pre-existing renal insufficiency, dehydration, diabetes mellitus, congestive heart failure, advanced vascular disease, elderly age, concomitant use of nephrotoxic or diuretic medications, multiple myeloma or other paraproteinemias, and repetitive or large doses of ISOVUE",
+     "Use the lowest necessary dose of ISOVUE in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by dialysis; dialysis need not be timed to the contrast (ACR–NKF).",
+    "ev": [
+     "Iopamidol can be removed by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (plasma)",
+    "ev": "The plasma half-life is approximately 2 hours after intravascular administration",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by dialysis (label)",
+    "ev": "Iopamidol can be removed by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Pre-existing renal impairment raises AKI risk: use the lowest necessary dose. ACR–NKF: high risk at eGFR <30 or AKI.",
+  "considerations": "ACR–NKF consensus (IV contrast): high risk = AKI or eGFR <30 (includes non-anuric dialysis patients). Give IV isotonic saline prophylaxis at eGFR <30 or AKI unless contraindicated (e.g. heart failure); optional at 30–44 in individual high-risk cases; not indicated at ≥45. Do not withhold a necessary study; use the standard diagnostic dose; withhold nonessential nephrotoxic drugs when feasible; dialysis should not be started or changed solely because of the contrast. Use the contrast-AKI calculator for the risk estimate.",
+  "extraSources": [
+   "acr-nkf-icm-2020"
+  ],
+  "new": {
+   "name": "Iopamidol",
+   "aliases": [
+    "Isovue",
+    "Iopamiro"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Iodinated contrast · non-ionic low-osmolality",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "ioversol": {
+  "label": "us3/ioversol.json",
+  "brand": "OPTIRAY",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label; AKI risk factors are listed.",
+    "ev": [
+     "Risk factors include: pre-existing renal impairment, dehydration, diabetes mellitus, congestive heart failure, advanced vascular disease, elderly age, concomitant use of nephrotoxic or diuretic medications, multiple myeloma / paraproteinaceous diseases, repetitive and/or large doses of an iodinated contrast agent",
+     "Use the lowest necessary dose of OPTIRAY in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by dialysis; dialysis need not be timed to the contrast (ACR–NKF).",
+    "ev": [
+     "Ioversol can be removed by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "0.26 L/kg",
+    "ev": "The volume of distribution in adults was 0.26 L/kg body weight, consistent with distribution to the extracellular space",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by dialysis (label)",
+    "ev": "Ioversol can be removed by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Pre-existing renal impairment raises AKI risk: use the lowest necessary dose. ACR–NKF: high risk at eGFR <30 or AKI.",
+  "considerations": "ACR–NKF consensus (IV contrast): high risk = AKI or eGFR <30 (includes non-anuric dialysis patients). Give IV isotonic saline prophylaxis at eGFR <30 or AKI unless contraindicated (e.g. heart failure); optional at 30–44 in individual high-risk cases; not indicated at ≥45. Do not withhold a necessary study; use the standard diagnostic dose; withhold nonessential nephrotoxic drugs when feasible; dialysis should not be started or changed solely because of the contrast. Use the contrast-AKI calculator for the risk estimate.",
+  "extraSources": [
+   "acr-nkf-icm-2020"
+  ],
+  "new": {
+   "name": "Ioversol",
+   "aliases": [
+    "Optiray"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Iodinated contrast · non-ionic low-osmolality",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "iopromide": {
+  "label": "us3/iopromide.json",
+  "brand": "ULTRAVIST",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose in the label; AKI risk factors are listed.",
+    "ev": [
+     "Risk factors include: pre-existing renal insufficiency, dehydration, diabetes mellitus, congestive heart failure, advanced vascular disease, elderly age, concomitant use of nephrotoxic or diuretic medications, multiple myeloma or other paraproteinemia, and repetitive and/or large doses of ULTRAVIST",
+     "Use the lowest necessary dose of ULTRAVIST in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by dialysis; dialysis need not be timed to the contrast (ACR–NKF).",
+    "ev": [
+     "Iopromide can be removed by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "renalHalfLife": {
+    "value": "11.6 h severe impairment vs 2.2 h normal (terminal)",
+    "ev": "The terminal half-life increased from 2.2 hours for subjects with normal renal function to 11.6 hours in patients with severe renal impairment",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈16 L (steady state)",
+    "ev": "The total volume of distribution at steady state is about 16 L suggesting distribution into extracellular space",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "1%",
+    "ev": "Plasma protein binding of iopromide is 1%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by dialysis (label)",
+    "ev": "Iopromide can be removed by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Pre-existing renal impairment raises AKI risk: use the lowest necessary dose. ACR–NKF: high risk at eGFR <30 or AKI.",
+  "considerations": "ACR–NKF consensus (IV contrast): high risk = AKI or eGFR <30 (includes non-anuric dialysis patients). Give IV isotonic saline prophylaxis at eGFR <30 or AKI unless contraindicated (e.g. heart failure); optional at 30–44 in individual high-risk cases; not indicated at ≥45. Do not withhold a necessary study; use the standard diagnostic dose; withhold nonessential nephrotoxic drugs when feasible; dialysis should not be started or changed solely because of the contrast. Use the contrast-AKI calculator for the risk estimate.",
+  "extraSources": [
+   "acr-nkf-icm-2020"
+  ],
+  "new": {
+   "name": "Iopromide",
+   "aliases": [
+    "Ultravist"
+   ],
+   "category": "Contrast media",
+   "drugClass": "Iodinated contrast · non-ionic low-osmolality",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "alprazolam": {
+  "label": "us3/alprazolam.json",
+  "brand": "XANAX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈11.2 h (6.3–26.9 h)",
+    "ev": "The mean plasma elimination half-life (T 1/2 ) of alprazolam is approximately 11.2 hours (range: 6.3 to 26.9 hours) in healthy adults",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "80%",
+    "ev": "Alprazolam is 80% bound to human serum protein",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement.",
+  "new": {
+   "name": "Alprazolam",
+   "aliases": [
+    "Xanax"
+   ],
+   "category": "Psychiatry",
+   "drugClass": "Benzodiazepine",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "penicillamine": {
+  "label": "us3/penicillamine.json",
+  "brand": "CUPRIMINE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No numeric renal dose; penicillamine can cause renal damage.",
+    "ev": [
+     "Because of its potential for causing renal damage, penicillamine should not be administered to rheumatoid arthritis patients with a history or other evidence of renal insufficiency",
+     "This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": ">80%",
+    "ev": "More than 80% of plasma penicillamine is bound to proteins, especially albumin and ceruloplasmin",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "RA: do not use with renal insufficiency (nephrotoxic). Renally excreted — monitor renal function.",
+  "new": {
+   "name": "Penicillamine",
+   "aliases": [
+    "Cuprimine",
+    "Depen"
+   ],
+   "category": "Urology & other medicines",
+   "drugClass": "Chelating agent",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "droxidopa": {
+  "label": "us3/droxidopa.json",
+  "brand": "NORTHERA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Neurogenic orthostatic hypotension · US label",
+      "rows": [
+       {
+        "context": "GFR >30 mL/min",
+        "dose": "Usual dose (no excess adverse reactions in trials)"
+       },
+       {
+        "context": "GFR <30 mL/min",
+        "dose": "Dosing recommendations cannot be provided"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with mild or moderate renal impairment (GFR greater than 30 mL/min) were included in clinical trials and did not have a higher frequency of adverse reactions",
+     "Dosing recommendations cannot be provided for patients with GFR less than 30 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2.5 h",
+    "ev": "The mean elimination half-life of droxidopa is approximately 2.5 hours in humans",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈200 L (apparent)",
+    "ev": "The estimated apparent volume of distribution of droxidopa is about 200 L in humans",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "75% at 100 ng/mL; 26% at 10,000 ng/mL",
+    "ev": "Droxidopa exhibits plasma protein binding of 75% at 100 ng/mL and 26% at 10,000 ng/mL",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "GFR · mL/min",
+  "summary": "No change at GFR >30; dosing cannot be recommended at GFR <30 (renally cleared).",
+  "new": {
+   "name": "Droxidopa",
+   "aliases": [
+    "Northera"
+   ],
+   "category": "Cardiovascular",
+   "drugClass": "Noradrenaline prodrug",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "thiamine": {
+  "label": "us3/thiamine.json",
+  "brand": "Thiamine hydrochloride injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": [
+     "Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "No renal dose; aluminium can accumulate with prolonged parenteral use when kidney function is impaired.",
+  "new": {
+   "name": "Thiamine (IV/IM)",
+   "aliases": [
+    "Vitamin B1"
+   ],
+   "category": "Urology & other medicines",
+   "drugClass": "Vitamin",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ }
+}
