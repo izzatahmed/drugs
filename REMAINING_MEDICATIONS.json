@@ -1,5 +1,5 @@
 {
-  "version": "0.12.5",
+  "version": "0.13.0",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -28,12 +28,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "acarbose",
-      "name": "Acarbose",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "adalimumab",
       "name": "Adalimumab",
       "category": "Transplant & immunology",
@@ -46,34 +40,10 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "allopurinol-iv",
-      "name": "Allopurinol (IV)",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "alteplase",
-      "name": "Alteplase",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "aluminium-hydroxide",
       "name": "Aluminium hydroxide",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "ambrisentan",
-      "name": "Ambrisentan",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "aminocaproic-acid",
-      "name": "Aminocaproic acid",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "anakinra",
@@ -85,12 +55,6 @@
       "id": "anastrozole",
       "name": "Anastrozole",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "andexanet-alfa",
-      "name": "Andexanet alfa",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -109,12 +73,6 @@
       "id": "apremilast",
       "name": "Apremilast",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "argatroban",
-      "name": "Argatroban",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -220,12 +178,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "bivalirudin",
-      "name": "Bivalirudin",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "bleomycin",
       "name": "Bleomycin",
       "category": "Oncology",
@@ -238,21 +190,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "bosentan",
-      "name": "Bosentan",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "budesonide-inhaled",
       "name": "Budesonide (inhaled)",
       "category": "Allergy & respiratory",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "calcitonin",
-      "name": "Calcitonin",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -262,27 +202,9 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "calcium-chloride",
-      "name": "Calcium chloride",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "calcium-gluconate",
-      "name": "Calcium gluconate",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "calcium-polystyrene-sulfonate",
       "name": "Calcium polystyrene sulfonate",
       "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "cangrelor",
-      "name": "Cangrelor",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -346,12 +268,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "cholestyramine",
-      "name": "Cholestyramine",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "cidofovir",
       "name": "Cidofovir",
       "category": "Antimicrobials",
@@ -382,12 +298,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "cyanocobalamin",
-      "name": "Cyanocobalamin",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "cyclobenzaprine",
       "name": "Cyclobenzaprine",
       "category": "Pain & neurology",
@@ -400,33 +310,15 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "dalteparin",
-      "name": "Dalteparin",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "daratumumab",
       "name": "Daratumumab",
       "category": "Oncology",
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "darbepoetin-alfa",
-      "name": "Darbepoetin alfa",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "dasatinib",
       "name": "Dasatinib",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "desmopressin",
-      "name": "Desmopressin",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -466,12 +358,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "dicyclomine",
-      "name": "Dicyclomine",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "diphenhydramine",
       "name": "Diphenhydramine",
       "category": "Allergy & respiratory",
@@ -481,12 +367,6 @@
       "id": "diphenoxylate-atropine",
       "name": "Diphenoxylate / atropine",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "dipyridamole",
-      "name": "Dipyridamole",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -514,12 +394,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "doxercalciferol",
-      "name": "Doxercalciferol",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "doxorubicin",
       "name": "Doxorubicin",
       "category": "Oncology",
@@ -544,39 +418,15 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "eltrombopag",
-      "name": "Eltrombopag",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "enzalutamide",
       "name": "Enzalutamide",
       "category": "Oncology",
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "epoetin-alfa",
-      "name": "Epoetin alfa",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "eptifibatide",
-      "name": "Eptifibatide",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "erenumab",
       "name": "Erenumab",
       "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ergocalciferol",
-      "name": "Ergocalciferol",
-      "category": "Electrolytes & phosphate",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -610,18 +460,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "ferric-carboxymaltose",
-      "name": "Ferric carboxymaltose",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ferric-derisomaltose",
-      "name": "Ferric derisomaltose",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "ferrous-fumarate",
       "name": "Ferrous fumarate",
       "category": "Anticoagulation & haematology",
@@ -636,18 +474,6 @@
     {
       "id": "ferrous-sulfate",
       "name": "Ferrous sulfate",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ferumoxytol",
-      "name": "Ferumoxytol",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "filgrastim",
-      "name": "Filgrastim",
       "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
@@ -667,18 +493,6 @@
       "id": "fluticasone-nasal",
       "name": "Fluticasone nasal",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "fondaparinux",
-      "name": "Fondaparinux",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "fosaprepitant",
-      "name": "Fosaprepitant",
-      "category": "Gastrointestinal",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -706,27 +520,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "glibenclamide-glyburide",
-      "name": "Glibenclamide / glyburide",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "gliclazide",
       "name": "Gliclazide",
       "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "glucagon",
-      "name": "Glucagon",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "glycerol-rectal",
-      "name": "Glycerol (rectal)",
-      "category": "Gastrointestinal",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -745,12 +541,6 @@
       "id": "hydrocortisone-topical",
       "name": "Hydrocortisone topical",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "hydroxocobalamin",
-      "name": "Hydroxocobalamin",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -778,18 +568,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "idarucizumab",
-      "name": "Idarucizumab",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "iloprost",
-      "name": "Iloprost",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "imatinib",
       "name": "Imatinib",
       "category": "Oncology",
@@ -814,54 +592,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "insulin-aspart",
-      "name": "Insulin aspart",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-degludec",
-      "name": "Insulin degludec",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-detemir",
-      "name": "Insulin detemir",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-glargine",
-      "name": "Insulin glargine",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-glulisine",
-      "name": "Insulin glulisine",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-lispro",
-      "name": "Insulin lispro",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-nph",
-      "name": "Insulin NPH",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "insulin-regular",
-      "name": "Insulin regular",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "intravenous-immunoglobulin",
       "name": "Intravenous immunoglobulin",
       "category": "Transplant & immunology",
@@ -871,18 +601,6 @@
       "id": "iptacopan",
       "name": "Iptacopan",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "iron-dextran",
-      "name": "Iron dextran",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "iron-sucrose",
-      "name": "Iron sucrose",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -928,12 +646,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "levocarnitine",
-      "name": "Levocarnitine",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "levodopa-carbidopa",
       "name": "Levodopa / carbidopa",
       "category": "Pain & neurology",
@@ -958,12 +670,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "macitentan",
-      "name": "Macitentan",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "magnesium-citrate",
       "name": "Magnesium citrate",
       "category": "OTC & medicine safety",
@@ -979,12 +685,6 @@
       "id": "magnesium-oxide",
       "name": "Magnesium oxide",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "magnesium-sulfate",
-      "name": "Magnesium sulfate",
-      "category": "Electrolytes & phosphate",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1024,12 +724,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "methimazole",
-      "name": "Methimazole",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "methocarbamol",
       "name": "Methocarbamol",
       "category": "Pain & neurology",
@@ -1042,21 +736,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "methoxy-polyethylene-glycol-epoetin-beta",
-      "name": "Methoxy polyethylene glycol-epoetin beta",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "miconazole-topical",
       "name": "Miconazole topical",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "miglitol",
-      "name": "Miglitol",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1090,12 +772,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "nateglinide",
-      "name": "Nateglinide",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "nilotinib",
       "name": "Nilotinib",
       "category": "Oncology",
@@ -1117,12 +793,6 @@
       "id": "obinutuzumab",
       "name": "Obinutuzumab",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "octreotide",
-      "name": "Octreotide",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1180,18 +850,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "pamidronate",
-      "name": "Pamidronate",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "pancrelipase",
-      "name": "Pancrelipase",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "paracetamol-iv",
       "name": "Paracetamol (IV)",
       "category": "Pain & neurology",
@@ -1207,18 +865,6 @@
       "id": "pegcetacoplan",
       "name": "Pegcetacoplan",
       "category": "Transplant & immunology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "pegfilgrastim",
-      "name": "Pegfilgrastim",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "pegloticase",
-      "name": "Pegloticase",
-      "category": "Urology & other medicines",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1258,33 +904,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "potassium-chloride",
-      "name": "Potassium chloride",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "potassium-citrate",
-      "name": "Potassium citrate",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "potassium-phosphate",
-      "name": "Potassium phosphate",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "potassium-containing-salt-substitutes",
       "name": "Potassium-containing salt substitutes",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "prasugrel",
-      "name": "Prasugrel",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1294,39 +916,15 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "prednisone",
-      "name": "Prednisone",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "pretomanid",
       "name": "Pretomanid",
       "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "probenecid",
-      "name": "Probenecid",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "propofol",
       "name": "Propofol",
       "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "propylthiouracil",
-      "name": "Propylthiouracil",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "protamine",
-      "name": "Protamine",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1366,12 +964,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "risedronate",
-      "name": "Risedronate",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "rituximab",
       "name": "Rituximab",
       "category": "Transplant & immunology",
@@ -1381,18 +973,6 @@
       "id": "rizatriptan",
       "name": "Rizatriptan",
       "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "romiplostim",
-      "name": "Romiplostim",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "romosozumab",
-      "name": "Romosozumab",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1432,28 +1012,10 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "selexipag",
-      "name": "Selexipag",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "senna",
       "name": "Senna / sennosides",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "sevelamer-hydrochloride",
-      "name": "Sevelamer hydrochloride",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "sildenafil",
-      "name": "Sildenafil",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "simeticone",
@@ -1480,12 +1042,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "sodium-phosphate-iv",
-      "name": "Sodium phosphate (IV)",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "sodium-phosphate-oral",
       "name": "Sodium phosphate (oral bowel preparation)",
       "category": "OTC & medicine safety",
@@ -1495,12 +1051,6 @@
       "id": "sodium-picosulfate",
       "name": "Sodium picosulfate",
       "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "sodium-polystyrene-sulfonate",
-      "name": "Sodium polystyrene sulfonate",
-      "category": "Electrolytes & phosphate",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1528,12 +1078,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "tadalafil",
-      "name": "Tadalafil",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "tamoxifen",
       "name": "Tamoxifen",
       "category": "Oncology",
@@ -1546,33 +1090,15 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "tenecteplase",
-      "name": "Tenecteplase",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "terbinafine",
       "name": "Terbinafine",
       "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "teriparatide",
-      "name": "Teriparatide",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "tetracycline",
       "name": "Tetracycline",
       "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ticagrelor",
-      "name": "Ticagrelor",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1584,12 +1110,6 @@
     {
       "id": "tinzaparin",
       "name": "Tinzaparin",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "tirofiban",
-      "name": "Tirofiban",
       "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
@@ -1612,21 +1132,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "tranexamic-acid",
-      "name": "Tranexamic acid",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "trastuzumab",
       "name": "Trastuzumab",
       "category": "Oncology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "treprostinil",
-      "name": "Treprostinil",
-      "category": "Urology & other medicines",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1645,12 +1153,6 @@
       "id": "umeclidinium",
       "name": "Umeclidinium",
       "category": "Allergy & respiratory",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "unfractionated-heparin",
-      "name": "Unfractionated heparin",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -1711,12 +1213,6 @@
       "id": "zinc-supplements",
       "name": "Zinc supplements",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "zoledronic-acid",
-      "name": "Zoledronic acid",
-      "category": "Diabetes & endocrine",
       "reason": "Renal-dose curation pending"
     }
   ]

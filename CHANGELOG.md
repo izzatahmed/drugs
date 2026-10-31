@@ -1,3 +1,13 @@
+# RenalRounds v0.13.0 · 1 November 2026
+
+- **Eight classes in one release, from current US labels:** diabetes & endocrine, anticoagulation & haematology, gastrointestinal, electrolytes & mineral metabolism, urology & pulmonary hypertension, gout, renal anaemia and specialist kidney therapies.
+- **84 medicines that had no renal dosing are now renal profiles.** Examples: insulins (monitor and adjust), acarbose and miglitol limits, zoledronic acid (oncology dose table by CrCl; Reclast contraindicated below CrCl 35), risedronate, pamidronate; bivalirudin, eptifibatide, tirofiban, fondaparinux, dalteparin, argatroban, desmopressin and oral tranexamic acid; ESA starting doses on and off dialysis (epoetin alfa, darbepoetin, Mircera); IV iron by CKD setting (iron sucrose HD/PD/non-dialysis, ferumoxytol, ferric carboxymaltose); calcium, magnesium, potassium and phosphate replacement limits; doxercalciferol and sevelamer on dialysis; IV allopurinol, tadalafil, sildenafil, iloprost and PAH drugs.
+- **Existing profiles** gained half-life, protein binding, volume of distribution and dialysis statements (about 112 entries), and dialysis dosing where the label gives it (e.g. oral allopurinol on dialysis).
+- Every table, statement and value quotes its label sentence; settings the label does not address stay "not curated". Existing curated content was not overwritten.
+- Coverage: 467 renal profiles, 176 catalog entries; PK 297 profiles (63 with all four core items). Drug content version 0.13.0.
+
+## Earlier release record
+
 # RenalRounds v0.12.5 · 31 October 2026
 
 - **Cardiovascular class, from current US labels.** 24 medicines that had no renal dosing are now renal profiles, including CrCl-based dosing for sotalol, dofetilide, disopyramide, milrinone and enalaprilat; nitroprusside limits at eGFR <30; tolvaptan, triamterene and hydrochlorothiazide restrictions; aliskiren (no adjustment on haemodialysis); dronedarone, ibutilide, ranolazine and procainamide; the IV vasopressors; and the newer lipid-lowering medicines (alirocumab, evolocumab, inclisiran, bempedoic acid, fluvastatin, icosapent ethyl).

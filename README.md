@@ -1,6 +1,12 @@
-# RenalRounds v0.12.5 — cumulative GitHub Pages package
+# RenalRounds v0.13.0 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 669-entry inventory contains 383 partial renal profiles, 26 shared safety notes and 260 catalog entries. This remains an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 669-entry inventory contains 467 partial renal profiles, 26 shared safety notes and 176 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.13.0
+
+- Eight classes completed together from current US labels: diabetes & endocrine, anticoagulation & haematology, gastrointestinal, electrolytes & mineral metabolism, urology & pulmonary hypertension, gout, renal anaemia and specialist kidney therapies.
+- 84 catalog medicines became renal profiles (insulins, bisphosphonates incl. zoledronic acid by CrCl, bivalirudin, eptifibatide, tirofiban, fondaparinux, ESAs on/off dialysis, IV iron by CKD setting, electrolyte replacement limits, IV allopurinol, PDE-5 inhibitors and PAH drugs); existing profiles gained PK and dialysis statements.
+- Entries can now cite a second label (e.g. zoledronic acid oncology vial and Reclast).
 
 ## What changed in 0.12.5
 
@@ -58,7 +64,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.5.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.13.0.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -89,14 +95,15 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v123.py
     python3 release_v124.py
     python3 release_v125.py
+    python3 release_v130.py
     python3 apply_reviews.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v125.mjs
+    node checks_v130.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.5_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.13.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v124) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v125) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
