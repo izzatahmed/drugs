@@ -1,3 +1,13 @@
+# RenalRounds v0.12.1 · 31 October 2026
+
+- **Vancomycin, gentamicin, amikacin and tobramycin** now have numeric dosing: US label renal methods, Nebraska Medicine/UNMC renal and haemodialysis protocols (vancomycin: 20 mg/kg load, 750 mg after each session, adjusted by pre-dialysis level), and systemic PD doses.
+- **PD peritonitis:** intraperitoneal doses from the ISPD 2022 guideline (Table 5) were added to the PD tab of 26 antibiotics, clearly labelled and separate from systemic PD doses.
+- **Vonoprazan** (potassium-competitive acid blocker) added from its US label; searchable as "P-CAB".
+- **Pregnancy and lactation:** a new section quotes the pregnancy and lactation statements of the cited label for 63 entries. The FDA retired the A/B/C/D/X letters; a letter appears only where the label still prints one.
+- The back arrow is an icon in the lower-left corner again and hides while scrolling down.
+
+## Earlier release record
+
 # RenalRounds v0.12.0 · 30 October 2026
 
 Primary jurisdictions are now the **US and Jordan**. Renal dose tables for 61 entries that were previously built from the Renal Drug Handbook (5th edition, 2018) have been rebuilt from current product labels: 55 from US FDA labels retrieved from DailyMed/openFDA and 6 from UK SmPCs (emc) for medicines with no US product (alfacalcidol, carbimazole, colecalciferol, domperidone, hyoscine butylbromide, vildagliptin). Each table shows its source country; every entry reminds readers to confirm against the JFDA-approved leaflet in Jordan.

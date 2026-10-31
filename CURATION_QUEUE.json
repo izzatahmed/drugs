@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.12.1",
   "generatedAt": "2026-10-29",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -788,10 +788,10 @@
       "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "specialist",
-        "ihd": "specialist",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -3805,14 +3805,14 @@
       "routes": [
         "Parenteral"
       ],
-      "content": "catalog",
+      "content": "renal",
       "renalDoseSourceCheckedAt": null,
       "pkSourceCheckedAt": null,
       "modalities": {
         "ckd": "not_curated",
         "ihd": "not_curated",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -4100,7 +4100,7 @@
         "ckd": "summarized",
         "ihd": "summarized",
         "crrt": "summarized",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -4746,7 +4746,7 @@
         "ckd": "summarized",
         "ihd": "summarized",
         "crrt": "summarized",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -8932,7 +8932,7 @@
         "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -9154,10 +9154,10 @@
       "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "specialist",
-        "ihd": "specialist",
+        "ckd": "summarized",
+        "ihd": "summarized",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -14351,7 +14351,7 @@
         "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -15865,7 +15865,7 @@
         "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19243,7 +19243,7 @@
         "ckd": "summarized",
         "ihd": "summarized",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -19916,10 +19916,10 @@
       "renalDoseSourceCheckedAt": "2026-10-29",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "specialist",
+        "ckd": "summarized",
         "ihd": "specialist",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -20851,9 +20851,9 @@
       "pkSourceCheckedAt": "2026-10-29",
       "modalities": {
         "ckd": "summarized",
-        "ihd": "specialist",
+        "ihd": "summarized",
         "crrt": "not_curated",
-        "pd": "specialist",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -21207,7 +21207,7 @@
         "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
-        "pd": "not_curated",
+        "pd": "summarized",
         "sled": "not_curated"
       },
       "pkFields": {
@@ -21513,6 +21513,19 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "vonoprazan",
+      "name": "Vonoprazan",
+      "category": "Gastrointestinal",
+      "content": "renal",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      }
     }
   ]
 }

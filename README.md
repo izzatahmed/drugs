@@ -1,6 +1,14 @@
-# RenalRounds v0.12.0 — cumulative GitHub Pages package
+# RenalRounds v0.12.1 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 668-entry inventory contains 355 partial renal profiles, 28 shared safety notes and 285 catalog entries. This remains an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 669-entry inventory contains 357 partial renal profiles, 28 shared safety notes and 284 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.12.1
+
+- Vancomycin, gentamicin, amikacin and tobramycin have numeric CKD, haemodialysis and PD dosing (US labels; Nebraska Medicine/UNMC renal and haemodialysis protocols).
+- Intraperitoneal PD-peritonitis doses from the ISPD 2022 guideline (Table 5) on the PD tab of 26 antibiotics, labelled separately from systemic PD doses.
+- Vonoprazan (P-CAB) added from its US label.
+- New "Pregnancy & lactation" section quoting the cited label for 63 entries; legacy FDA letters shown only where the label still prints one.
+- Back arrow: icon only, lower-left corner, hides while scrolling down.
 
 ## What changed in 0.12.0
 
@@ -24,7 +32,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.0.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.1.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -37,7 +45,7 @@ Calculator inputs clear when the panel closes and are never stored, exported or 
 
 ## Rebuild and verify
 
-Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required:
+Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required (`extract_labels_v121.py` is only rerun when labels are re-downloaded):
 
     python3 build_data.py
     python3 release_v06.py
@@ -50,13 +58,14 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v112.py
     python3 release_v113.py
     python3 release_v120.py
+    python3 release_v121.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v120.mjs
+    node checks_v121.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.0_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.1_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v113) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v120) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
