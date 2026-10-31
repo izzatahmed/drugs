@@ -1,3 +1,15 @@
+# RenalRounds v0.15.0 · 1 November 2026
+
+- **Three classes in one release, from current US labels:** oncology, transplant & immunology, and OTC/analgesic medicines.
+- **85 medicines that had no renal dosing are now renal profiles.** Examples: cyclophosphamide (Cytoxan: monitor at CrCl 10–24; dialysable, keep a consistent interval to dialysis), rituximab (Rituxan: no renal dose; tumour-lysis renal monitoring), carboplatin (Calvert formula), oxaliplatin (65 mg/m² at CrCl <30), capecitabine, pemetrexed (not at CrCl <45), lenalidomide and pomalidomide (dialysis dosing), tofacitinib, upadacitinib, baricitinib, anakinra (every other day at CrCl <30), nizatidine, meloxicam (max 7.5 mg on HD) and ketorolac (contraindicated in advanced impairment).
+- Monoclonal antibodies and other medicines whose label gives no renal statement now say so explicitly.
+- About 71 entries gained half-life, protein binding, volume of distribution or dialysis-removal values (e.g. azathioprine ≈45% removed by an 8-hour HD; methotrexate not cleared by HD or PD).
+- Two pregnancy/lactation excerpts drawn from the wrong product (Byetta shown for exenatide extended-release; topical Qbrexza for inhaled glycopyrronium) were withdrawn.
+- Every table, statement and value quotes its label sentence; settings the label does not address stay "not curated". Existing curated content was not overwritten.
+- Coverage: 607 renal profiles, 47 catalog entries; PK 502 profiles (89 with all four core items). Drug content version 0.15.0.
+
+## Earlier release record
+
 # RenalRounds v0.14.0 · 1 November 2026
 
 - **Four classes in one release, from current US labels:** antimicrobials, pain & neurology, psychiatry, and allergy & respiratory.
