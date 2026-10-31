@@ -1,0 +1,765 @@
+{
+ "acetazolamide": {
+  "kind": "US",
+  "setid": "4813b9dd-5f58-44bb-ad64-cdb331828080",
+  "splVersion": "12",
+  "effective": "2026-08-19",
+  "brand": "Acetazolamide",
+  "manufacturer": "Strides Pharma Science Limited",
+  "application": "ANDA209734",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4813b9dd-5f58-44bb-ad64-cdb331828080"
+ },
+ "acetylcysteine": {
+  "kind": "US",
+  "setid": "472f158a-5ab9-4308-8e49-1116e6ea3d39",
+  "splVersion": "17",
+  "effective": "2025-04-30",
+  "brand": "ACETADOTE",
+  "manufacturer": "Cumberland Pharmaceuticals Inc.",
+  "application": "NDA021539",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39"
+ },
+ "adenosine": {
+  "kind": "US",
+  "setid": "9508caf5-0e3a-4d32-909d-bff7ea40ec30",
+  "splVersion": "4",
+  "effective": "2026-08-31",
+  "brand": "Adenosine",
+  "manufacturer": "REMEDYREPACK INC.",
+  "application": "ANDA206778",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30"
+ },
+ "aminophylline": {
+  "kind": "US",
+  "setid": "819207a2-0c37-b275-e053-2a91aa0afb36",
+  "splVersion": "8",
+  "effective": "2026-06-19",
+  "brand": "AMINOPHYLLINE",
+  "manufacturer": "HF Acquisition Co LLC, DBA HealthFirst",
+  "application": "ANDA087242",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=819207a2-0c37-b275-e053-2a91aa0afb36"
+ },
+ "amiodarone": {
+  "kind": "US",
+  "setid": "4c149392-a4f0-4e2d-a13f-2b94810005de",
+  "splVersion": "8",
+  "effective": "2026-08-05",
+  "brand": "Amiodarone Hydrochloride",
+  "manufacturer": "REMEDYREPACK INC.",
+  "application": "ANDA213446",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c149392-a4f0-4e2d-a13f-2b94810005de"
+ },
+ "aprepitant": {
+  "kind": "US",
+  "setid": "696f9e80-9cae-403b-de9e-078343ce4713",
+  "splVersion": "42",
+  "effective": "2024-07-05",
+  "brand": "EMEND",
+  "manufacturer": "Merck Sharp & Dohme LLC",
+  "application": "NDA021549",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=696f9e80-9cae-403b-de9e-078343ce4713"
+ },
+ "bisacodyl": {
+  "kind": "US",
+  "setid": "a13a8eec-3652-8c57-e053-2995a90aaebf",
+  "splVersion": "4",
+  "effective": "2026-09-09",
+  "brand": "Bisacodyl",
+  "manufacturer": "KROGER COMPANY",
+  "application": "M007",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a13a8eec-3652-8c57-e053-2995a90aaebf"
+ },
+ "calcitriol": {
+  "kind": "US",
+  "setid": "bdb9c0d4-bdb3-4174-a4d9-55c423f38476",
+  "splVersion": "2",
+  "effective": "2026-07-10",
+  "brand": "Calcitriol",
+  "manufacturer": "ANI Pharmaceuticals, Inc.",
+  "application": "NDA021068",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bdb9c0d4-bdb3-4174-a4d9-55c423f38476"
+ },
+ "calcium-acetate": {
+  "kind": "US",
+  "setid": "2072d9f4-abb1-4699-bde5-6041dd79cad5",
+  "splVersion": "2",
+  "effective": "2026-09-04",
+  "brand": "Calcium Acetate",
+  "manufacturer": "American Health Packaging",
+  "application": "ANDA203135",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2072d9f4-abb1-4699-bde5-6041dd79cad5"
+ },
+ "chlorphenamine": {
+  "kind": "US",
+  "setid": "04ca3806-72be-47d4-9fea-5b0dee087683",
+  "splVersion": "17",
+  "effective": "2026-07-08",
+  "brand": "Aller-chlor",
+  "manufacturer": "Rugby Laboratories",
+  "application": "M012",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04ca3806-72be-47d4-9fea-5b0dee087683"
+ },
+ "clopidogrel": {
+  "kind": "US",
+  "setid": "de8b0b67-eb25-4684-83b5-7ad785314227",
+  "splVersion": "5",
+  "effective": "2025-05-30",
+  "brand": "Plavix",
+  "manufacturer": "Sanofi-Aventis U.S. LLC",
+  "application": "NDA020839",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227"
+ },
+ "dexamethasone": {
+  "kind": "US",
+  "setid": "5622f8d2-1893-441b-8011-fa90c8a63b0b",
+  "splVersion": "5",
+  "effective": "2026-05-05",
+  "brand": "dexamethasone",
+  "manufacturer": "Cardinal Health 107, LLC",
+  "application": "ANDA215106",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5622f8d2-1893-441b-8011-fa90c8a63b0b"
+ },
+ "dobutamine": {
+  "kind": "US",
+  "setid": "559367ef-5c20-99ea-e063-6294a90a4ff2",
+  "splVersion": "1",
+  "effective": "2026-07-01",
+  "brand": "DOBUTAMINE IN DEXTROSE",
+  "manufacturer": "HF Acquisition Co LLC, DBA HealthFirst",
+  "application": "NDA020201",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=559367ef-5c20-99ea-e063-6294a90a4ff2"
+ },
+ "dopamine": {
+  "kind": "US",
+  "setid": "1f306ad2-3606-4525-5a8a-ce78f426c1a2",
+  "splVersion": "22",
+  "effective": "2026-05-13",
+  "brand": "DOPamine Hydrochloride",
+  "manufacturer": "Hospira, Inc.",
+  "application": "NDA018132",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f306ad2-3606-4525-5a8a-ce78f426c1a2"
+ },
+ "esmolol": {
+  "kind": "US",
+  "setid": "38a8b23a-fca8-45f4-a09a-9c8b21f522cd",
+  "splVersion": "8",
+  "effective": "2026-08-06",
+  "brand": "Brevibloc",
+  "manufacturer": "Henry Schein, Inc",
+  "application": "NDA019386",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=38a8b23a-fca8-45f4-a09a-9c8b21f522cd"
+ },
+ "flecainide": {
+  "kind": "US",
+  "setid": "ee9595d5-08a1-4529-9215-ddc3c7f929c4",
+  "splVersion": "11",
+  "effective": "2026-06-11",
+  "brand": "Flecainide Acetate",
+  "manufacturer": "Amneal Pharmaceuticals of New York LLC",
+  "application": "ANDA075442",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4"
+ },
+ "fludrocortisone": {
+  "kind": "US",
+  "setid": "933e28ef-05e8-419e-a786-21eab67f33a2",
+  "splVersion": "3",
+  "effective": "2026-06-24",
+  "brand": "Fludrocortisone Acetate",
+  "manufacturer": "Major Pharmaceuticals",
+  "application": "ANDA215279",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2"
+ },
+ "folic-acid": {
+  "kind": "US",
+  "setid": "0baa10dd-6d1d-4946-8236-566451132da3",
+  "splVersion": "2",
+  "effective": "2026-07-24",
+  "brand": "Folic Acid",
+  "manufacturer": "Rising Pharma Holdings, Inc.",
+  "application": "ANDA211064",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0baa10dd-6d1d-4946-8236-566451132da3"
+ },
+ "formoterol": {
+  "kind": "US",
+  "setid": "fb2fe258-fe2e-47f6-8adf-ca75bf6f90af",
+  "splVersion": "22",
+  "effective": "2019-05-31",
+  "brand": "Perforomist",
+  "manufacturer": "Viatris Specialty LLC",
+  "application": "NDA022007",
+  "route": [
+   "RESPIRATORY (INHALATION)"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fb2fe258-fe2e-47f6-8adf-ca75bf6f90af"
+ },
+ "granisetron": {
+  "kind": "US",
+  "setid": "783e9d68-2371-4fd4-8d7a-a5e36f8718d0",
+  "splVersion": "5",
+  "effective": "2025-04-24",
+  "brand": "Granisetron Hydrochloride",
+  "manufacturer": "Eugia US LLC",
+  "application": "ANDA204238",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=783e9d68-2371-4fd4-8d7a-a5e36f8718d0"
+ },
+ "hydrocortisone": {
+  "kind": "US",
+  "setid": "9ce19944-dd88-4a7b-84ca-b07f4ec23bad",
+  "splVersion": "17",
+  "effective": "2025-02-17",
+  "brand": "CORTEF",
+  "manufacturer": "Pharmacia & Upjohn Company LLC",
+  "application": "NDA008697",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9ce19944-dd88-4a7b-84ca-b07f4ec23bad"
+ },
+ "hydroxychloroquine": {
+  "kind": "US",
+  "setid": "34496b43-05a2-45fb-a769-52b12e099341",
+  "splVersion": "15",
+  "effective": "2026-04-09",
+  "brand": "Plaquenil",
+  "manufacturer": "Advanz Pharma (US) Corp.",
+  "application": "NDA009768",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341"
+ },
+ "ipratropium": {
+  "kind": "US",
+  "setid": "170e98ef-5560-4068-be7d-e649068eb884",
+  "splVersion": "21",
+  "effective": "2025-11-05",
+  "brand": "Atrovent HFA",
+  "manufacturer": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+  "application": "NDA021527",
+  "route": [
+   "RESPIRATORY (INHALATION)"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884"
+ },
+ "isosorbide-dinitrate": {
+  "kind": "US",
+  "setid": "723d9f78-9d77-4575-af27-1aa117e6b8d7",
+  "splVersion": "1",
+  "effective": "2020-03-02",
+  "brand": "Isosorbide Dinitrate",
+  "manufacturer": "Oceanside Pharmaceuticals",
+  "application": "NDA012093",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=723d9f78-9d77-4575-af27-1aa117e6b8d7"
+ },
+ "isosorbide-mononitrate": {
+  "kind": "US",
+  "setid": "3e0e013f-6887-fa72-e063-6294a90a18ca",
+  "splVersion": "1",
+  "effective": "2025-09-05",
+  "brand": "isosorbide mononitrate",
+  "manufacturer": "Coupler LLC",
+  "application": "NDA020215",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e0e013f-6887-fa72-e063-6294a90a18ca"
+ },
+ "ivabradine": {
+  "kind": "US",
+  "setid": "92018a65-38f6-45f7-91d4-a34921b81d0d",
+  "splVersion": "33",
+  "effective": "2025-11-10",
+  "brand": "Corlanor",
+  "manufacturer": "Amgen Inc",
+  "application": "NDA206143",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d"
+ },
+ "lanthanum-carbonate": {
+  "kind": "US",
+  "setid": "f10776b2-2c25-4343-aabe-68f302e5cb54",
+  "splVersion": "58",
+  "effective": "2024-12-31",
+  "brand": "Fosrenol",
+  "manufacturer": "Takeda Pharmaceuticals America, Inc.",
+  "application": "NDA021468",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f10776b2-2c25-4343-aabe-68f302e5cb54"
+ },
+ "levothyroxine": {
+  "kind": "US",
+  "setid": "1e11ad30-1041-4520-10b0-8f9d30d30fcc",
+  "splVersion": "1537",
+  "effective": "2024-02-20",
+  "brand": "Synthroid",
+  "manufacturer": "AbbVie Inc.",
+  "application": "NDA021402",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e11ad30-1041-4520-10b0-8f9d30d30fcc"
+ },
+ "liothyronine": {
+  "kind": "US",
+  "setid": "51452b31-ff68-4e0c-b982-c15502ebf1d3",
+  "splVersion": "15",
+  "effective": "2026-05-18",
+  "brand": "Cytomel",
+  "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+  "application": "NDA010379",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3"
+ },
+ "mesalazine": {
+  "kind": "US",
+  "setid": "8d27a608-3ba1-4799-be38-c00fb08ce3ce",
+  "splVersion": "8",
+  "effective": "2023-12-19",
+  "brand": "mesalamine",
+  "manufacturer": "Teva Pharmaceuticals USA, Inc.",
+  "application": "NDA022301",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8d27a608-3ba1-4799-be38-c00fb08ce3ce"
+ },
+ "methylprednisolone": {
+  "kind": "US",
+  "setid": "39d5270b-d957-4821-93d6-501b7b9f02d4",
+  "splVersion": "25",
+  "effective": "2025-11-14",
+  "brand": "Medrol",
+  "manufacturer": "Pharmacia & Upjohn Company LLC",
+  "application": "NDA011153",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39d5270b-d957-4821-93d6-501b7b9f02d4"
+ },
+ "metolazone": {
+  "kind": "US",
+  "setid": "efa8795e-2c89-4519-b49f-13146fb9ded1",
+  "splVersion": "3",
+  "effective": "2026-08-12",
+  "brand": "Metolazone",
+  "manufacturer": "Safecor Health LLC",
+  "application": "ANDA076698",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efa8795e-2c89-4519-b49f-13146fb9ded1"
+ },
+ "midodrine": {
+  "kind": "US",
+  "setid": "863f12bd-d4a9-4547-8667-5dfa9e2ce6d1",
+  "splVersion": "13",
+  "effective": "2026-08-20",
+  "brand": "Midodrine Hydrochloride",
+  "manufacturer": "Par Health USA, LLC",
+  "application": "ANDA207169",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=863f12bd-d4a9-4547-8667-5dfa9e2ce6d1"
+ },
+ "minoxidil-systemic": {
+  "kind": "US",
+  "setid": "0b4fc036-9497-442b-b629-c4b386932789",
+  "splVersion": "12",
+  "effective": "2026-08-25",
+  "brand": "Minoxidil",
+  "manufacturer": "American Health Packaging",
+  "application": "ANDA071826",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b4fc036-9497-442b-b629-c4b386932789"
+ },
+ "misoprostol": {
+  "kind": "US",
+  "setid": "4ab12da7-5731-4e06-bf1c-bc3f2e711f12",
+  "splVersion": "22",
+  "effective": "2026-06-04",
+  "brand": "Cytotec",
+  "manufacturer": "Pfizer Laboratories Div Pfizer Inc",
+  "application": "NDA019268",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ab12da7-5731-4e06-bf1c-bc3f2e711f12"
+ },
+ "nicardipine": {
+  "kind": "US",
+  "setid": "5499cfac-9147-4d5d-a8cb-f8d64f1481af",
+  "splVersion": "11",
+  "effective": "2026-04-13",
+  "brand": "Cardene IV",
+  "manufacturer": "Baxter Healthcare Corporation",
+  "application": "NDA019734",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5499cfac-9147-4d5d-a8cb-f8d64f1481af"
+ },
+ "nitroglycerin": {
+  "kind": "US",
+  "setid": "3f2c9570-a544-1982-e063-6294a90a3067",
+  "splVersion": "2",
+  "effective": "2025-12-18",
+  "brand": "Nitroglycerin In Dextrose",
+  "manufacturer": "ProPharma Distribution",
+  "application": "NDA019970",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f2c9570-a544-1982-e063-6294a90a3067"
+ },
+ "nystatin": {
+  "kind": "US",
+  "setid": "9954118e-abe6-4388-98c9-4473d39b2e28",
+  "splVersion": "7",
+  "effective": "2026-03-05",
+  "brand": "Nystatin",
+  "manufacturer": "Chartwell RX, LLC",
+  "application": "NDA050299",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9954118e-abe6-4388-98c9-4473d39b2e28"
+ },
+ "palonosetron": {
+  "kind": "US",
+  "setid": "13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7",
+  "splVersion": "7",
+  "effective": "2025-04-29",
+  "brand": "posfrea",
+  "manufacturer": "Avyxa Pharma, LLC",
+  "application": "NDA203050",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7"
+ },
+ "paricalcitol": {
+  "kind": "US",
+  "setid": "1b27c026-2d60-47b4-2a9c-ded1818f21b5",
+  "splVersion": "1502",
+  "effective": "2024-08-07",
+  "brand": "Zemplar",
+  "manufacturer": "AbbVie Inc.",
+  "application": "NDA021606",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b27c026-2d60-47b4-2a9c-ded1818f21b5"
+ },
+ "prazosin": {
+  "kind": "US",
+  "setid": "2f86fc8e-71c1-4749-b67e-86d86cf1d984",
+  "splVersion": "8",
+  "effective": "2026-08-05",
+  "brand": "Prazosin Hydrochloride",
+  "manufacturer": "REMEDYREPACK INC.",
+  "application": "NDA017442",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f86fc8e-71c1-4749-b67e-86d86cf1d984"
+ },
+ "prednisolone": {
+  "kind": "US",
+  "setid": "d1f937e7-fed5-4079-bd52-5d930b34ae9f",
+  "splVersion": "2",
+  "effective": "2026-06-25",
+  "brand": "PrednisoLONE Sodium Phosphate",
+  "manufacturer": "PAI Holdings, LLC dba PAI Pharma",
+  "application": "NDA019157",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1f937e7-fed5-4079-bd52-5d930b34ae9f"
+ },
+ "prochlorperazine": {
+  "kind": "US",
+  "setid": "383744db-ba57-478a-8041-2ecc26d3e1ec",
+  "splVersion": "2",
+  "effective": "2022-10-09",
+  "brand": "Prochlorperazine",
+  "manufacturer": "PharmPak, Inc.",
+  "application": "ANDA040268",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=383744db-ba57-478a-8041-2ecc26d3e1ec"
+ },
+ "promethazine": {
+  "kind": "US",
+  "setid": "5a797d11-19b0-fd33-e063-6394a90a4d58",
+  "splVersion": "1",
+  "effective": "2026-09-02",
+  "brand": "Promethazine Hydrochloride",
+  "manufacturer": "Redpharm Drug",
+  "application": "ANDA040596",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a797d11-19b0-fd33-e063-6394a90a4d58"
+ },
+ "propafenone": {
+  "kind": "US",
+  "setid": "bc1d2548-15a3-4986-92b1-c3ddfb35343a",
+  "splVersion": "3",
+  "effective": "2024-12-26",
+  "brand": "Propafenone Hydrochloride",
+  "manufacturer": "Vitruvias Therapeutics",
+  "application": "ANDA210339",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc1d2548-15a3-4986-92b1-c3ddfb35343a"
+ },
+ "repaglinide": {
+  "kind": "US",
+  "setid": "6ae28683-28cc-408e-90f9-6a3dddfc668d",
+  "splVersion": "100",
+  "effective": "2025-11-04",
+  "brand": "Repaglinide",
+  "manufacturer": "Bryant Ranch Prepack",
+  "application": "ANDA203820",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6ae28683-28cc-408e-90f9-6a3dddfc668d"
+ },
+ "salbutamol-albuterol": {
+  "kind": "US",
+  "setid": "77d34a3c-ccc6-420a-ad31-a1af55f7de76",
+  "splVersion": "5",
+  "effective": "2026-01-30",
+  "brand": "Albuterol Sulate HFA",
+  "manufacturer": "REMEDYREPACK INC.",
+  "application": "NDA020983",
+  "route": [
+   "RESPIRATORY (INHALATION)"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d34a3c-ccc6-420a-ad31-a1af55f7de76"
+ },
+ "sodium-bicarbonate": {
+  "kind": "US",
+  "setid": "2d2035c2-e41b-4d57-a23c-fae16ad9a355",
+  "splVersion": "3",
+  "effective": "2026-08-07",
+  "brand": "Sodium Bicarbonate",
+  "manufacturer": "Milla Pharmaceuticals Inc.",
+  "application": "ANDA219089",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d2035c2-e41b-4d57-a23c-fae16ad9a355"
+ },
+ "sulfasalazine": {
+  "kind": "US",
+  "setid": "257cee60-b68f-4c2b-b57d-8e4d73d17e09",
+  "splVersion": "31",
+  "effective": "2026-08-25",
+  "brand": "Sulfasalazine",
+  "manufacturer": "Mylan Pharmaceuticals Inc.",
+  "application": "NDA007073",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=257cee60-b68f-4c2b-b57d-8e4d73d17e09"
+ },
+ "telavancin": {
+  "kind": "US",
+  "setid": "5359b759-db7c-4672-9e8a-59c93869bd91",
+  "splVersion": "6",
+  "effective": "2025-12-19",
+  "brand": "VIBATIV",
+  "manufacturer": "Cumberland Pharmaceuticals Inc.",
+  "application": "NDA022110",
+  "route": [
+   "INTRAVENOUS"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5359b759-db7c-4672-9e8a-59c93869bd91"
+ },
+ "terazosin": {
+  "kind": "US",
+  "setid": "69582e0c-6569-490c-8c14-999f3750336f",
+  "splVersion": "3",
+  "effective": "2025-04-18",
+  "brand": "TEZRULY",
+  "manufacturer": "ANI Pharmaceuticals, Inc.",
+  "application": "NDA218139",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f"
+ },
+ "terbutaline": {
+  "kind": "US",
+  "setid": "d810a15b-3e10-4f6c-a36e-8ddecbaba9c3",
+  "splVersion": "2",
+  "effective": "2019-11-15",
+  "brand": "Terbutaline Sulfate",
+  "manufacturer": "ANI Pharmaceuticals, Inc.",
+  "application": "NDA017849",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d810a15b-3e10-4f6c-a36e-8ddecbaba9c3"
+ },
+ "theophylline": {
+  "kind": "US",
+  "setid": "5e64036a-ee3e-42e7-9e59-881f88a4e298",
+  "splVersion": "7",
+  "effective": "2026-07-29",
+  "brand": "Theophylline",
+  "manufacturer": "PD-Rx Pharmaceuticals, Inc.",
+  "application": "ANDA215312",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e64036a-ee3e-42e7-9e59-881f88a4e298"
+ },
+ "ursodeoxycholic-acid": {
+  "kind": "US",
+  "setid": "00c47258-aef0-53f6-e063-6294a90af96f",
+  "splVersion": "2",
+  "effective": "2026-01-19",
+  "brand": "Ursodiol",
+  "manufacturer": "AvKARE",
+  "application": "NDA019594",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c47258-aef0-53f6-e063-6294a90af96f"
+ },
+ "verapamil": {
+  "kind": "US",
+  "setid": "18f6d349-8c5c-4443-ac65-16bf6619ecdc",
+  "splVersion": "3",
+  "effective": "2025-03-25",
+  "brand": "Verapamil Hydrochloride",
+  "manufacturer": "Chartwell RX, LLC",
+  "application": "NDA020943",
+  "route": [
+   "ORAL"
+  ],
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=18f6d349-8c5c-4443-ac65-16bf6619ecdc"
+ },
+ "alfacalcidol": {
+  "kind": "UK",
+  "emcProductId": "101566",
+  "title": "AlfaD 0.25 microgram capsules, soft.",
+  "emcUpdated": "05 Nov 2025",
+  "url": "https://www.medicines.org.uk/emc/product/101566/smpc"
+ },
+ "carbimazole": {
+  "kind": "UK",
+  "emcProductId": "100092",
+  "title": "Carbimazole 10 mg Tablets",
+  "emcUpdated": "25 Nov 2025",
+  "url": "https://www.medicines.org.uk/emc/product/100092/smpc"
+ },
+ "domperidone": {
+  "kind": "UK",
+  "emcProductId": "101741",
+  "title": "Epzit 10 mg Orodispersible Tablets",
+  "emcUpdated": "22 Jun 2026",
+  "url": "https://www.medicines.org.uk/emc/product/101741/smpc"
+ },
+ "hyoscine-butylbromide": {
+  "kind": "UK",
+  "emcProductId": "1775",
+  "title": "Buscopan 10 mg Tablets",
+  "emcUpdated": "03 Oct 2025",
+  "url": "https://www.medicines.org.uk/emc/product/1775/smpc",
+  "extra": {
+   "emcProductId": "890",
+   "title": "Buscopan Ampoules 20mg/ml solution for injection.",
+   "emcUpdated": "05 Jan 2026",
+   "url": "https://www.medicines.org.uk/emc/product/890/smpc"
+  }
+ },
+ "cholecalciferol": {
+  "kind": "UK",
+  "emcProductId": "2813",
+  "title": "Fultium-D 3 800 IU Capsules",
+  "emcUpdated": "24 Sep 2026",
+  "url": "https://www.medicines.org.uk/emc/product/2813/smpc"
+ },
+ "vildagliptin": {
+  "kind": "UK",
+  "emcProductId": "6225",
+  "title": "Galvus ® 50 mg tablets",
+  "emcUpdated": "06 Jul 2023",
+  "url": "https://www.medicines.org.uk/emc/product/6225/smpc"
+ }
+}
