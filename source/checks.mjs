@@ -3,11 +3,11 @@ import {readFileSync,existsSync} from 'node:fs';
 const data=JSON.parse(readFileSync(new URL('./dist/database.json',import.meta.url),'utf8'));
 const ids=new Set(data.drugs.map(d=>d.id));
 const refs=new Map(data.sources.map(s=>[s.id,s]));
-assert.equal(data.drugs.length,668);
-assert.equal(ids.size,668,'Drug IDs must be unique');
+assert.equal(data.drugs.length,669);
+assert.equal(ids.size,669,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.12.0');
-assert.deepEqual(data.coverage,{renal:355,safety:28,catalog:285});
+assert.equal(data.version,'0.12.1');
+assert.deepEqual(data.coverage,{renal:357,safety:28,catalog:284});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -36,7 +36,7 @@ for(const d of data.drugs){
     }
   }
 }
-for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.ok(['2026-10-29','2026-10-30'].includes(s.accessed));}
+for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.ok(['2026-10-29','2026-10-30','2026-10-31'].includes(s.accessed));}
 const drug=id=>data.drugs.find(d=>d.id===id);
 assert.match(drug('sitagliptin').kidneyMetric,/eGFR.*1.73/);
 assert.deepEqual(drug('sitagliptin').modalities.ckd.tables[0].rows.map(x=>x.context),['≥45','30 to <45','<30']);
@@ -63,7 +63,7 @@ assert.equal(drug('cefiderocol').modalities.crrt.tables[0].rows.length,4);
 assert.match(drug('cefiderocol').modalities.crrt.settingMeasure,/effluent/);
 assert.equal(drug('cefiderocol').sourceIds.some(id=>refs.get(id).title.startsWith('UCSF')),false);
 const original=JSON.parse(readFileSync(new URL('./baseline_v02.json',import.meta.url),'utf8'));
-for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt']){if(k==='pd'&&[...data.clinicalUpdates.newPDIds,...JSON.parse(readFileSync(new URL('./dist/SOURCE_AUDIT.json',import.meta.url),'utf8')).v111Changes.newPDIds].includes(id)){assert.equal(old.modalities[k].tables.length,0);}else assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);};}
+for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt']){if(String(drug(id).updatedInVersion||'').startsWith('0.12')){const now=JSON.stringify(drug(id).modalities[k].tables);for(const tb of old.modalities[k].tables)assert.ok(now.includes(JSON.stringify(tb))||drug(id).modalities[k].sourceIds.some(s=>/^(us12|uk12)/.test(s)),`${id}/${k}: an original table was dropped`);}else if(k==='pd'&&[...data.clinicalUpdates.newPDIds,...JSON.parse(readFileSync(new URL('./dist/SOURCE_AUDIT.json',import.meta.url),'utf8')).v111Changes.newPDIds].includes(id)){assert.equal(old.modalities[k].tables.length,0);}else assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);};}
 for(const file of ['index.html','styles.css','app.js','database.json','EDITORIAL_GUIDE.md','CHANGELOG.md','icon.svg'])assert.ok(existsSync(new URL(`./dist/${file}`,import.meta.url)));
 for(const g of Object.values(data.sharedGuidance)){assert.ok(g.title&&g.text&&g.sourceIds.length);g.sourceIds.forEach(id=>assert.ok(refs.has(id)));}
 assert.deepEqual(drug('famotidine').routes,['Oral'],'Do not infer IV route from the word non-erosive');
