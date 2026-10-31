@@ -6,8 +6,8 @@ const refs=new Map(data.sources.map(s=>[s.id,s]));
 assert.equal(data.drugs.length,669);
 assert.equal(ids.size,669,'Drug IDs must be unique');
 assert.equal(data.drugs.filter(d=>d.addedInVersion==='0.2.0').length,40);
-assert.equal(data.version,'0.12.5');
-assert.deepEqual(data.coverage,{renal:383,safety:26,catalog:260});
+assert.equal(data.version,'0.13.0');
+assert.deepEqual(data.coverage,{renal:467,safety:26,catalog:176});
 assert.equal(refs.size,data.sources.length,'Source IDs must be unique');
 assert.match(data.clinicalStatus,/not approved/i);
 const allowed=['summarized','not_curated','insufficient_data','specialist','avoid','not_indicated'];
@@ -18,7 +18,7 @@ for(const d of data.drugs){
   assert.ok(d.routes.length);
   assert.ok(['renal','safety','catalog'].includes(d.entryType));
   if(d.entryType==='catalog'){assert.equal(d.sourceIds.length,0);assert.equal(d.review.sourceCheckedAt,null);for(const m of Object.values(d.modalities)){assert.equal(m.tables.length,0);assert.equal(m.status,'not_curated');}}
-  else{assert.ok(d.sourceIds.length);assert.ok(['2026-10-29','2026-10-30','2026-10-31'].includes(d.review.sourceCheckedAt));}
+  else{assert.ok(d.sourceIds.length);assert.ok(['2026-10-29','2026-10-30','2026-10-31','2026-11-01'].includes(d.review.sourceCheckedAt));}
   if(d.entryType==='safety'){assert.ok(data.sharedGuidance[d.sharedGuidanceId]);for(const m of Object.values(d.modalities))assert.equal(m.tables.length,0);}
   assert.ok(['comparison_pending','agrees','differs','not_listed','not_checked'].includes(d.referenceChecks.bnf.status),'BNF status must be a recorded reviewer statement or pending');if(d.referenceChecks.bnf.status!=='comparison_pending')assert.ok(d.referenceChecks.bnf.checkedBy,'BNF check needs a named reviewer');
   if(d.referenceChecks.pdr.status==='accessed')assert.ok(d.sourceIds.some(id=>refs.get(id).type==='PDR digital monograph'));
@@ -35,7 +35,7 @@ for(const d of data.drugs){
     }
   }
 }
-for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.ok(['2026-10-29','2026-10-30','2026-10-31'].includes(s.accessed));}
+for(const s of data.sources){assert.match(s.url,/^https:\/\//);assert.ok(['2026-10-29','2026-10-30','2026-10-31','2026-11-01'].includes(s.accessed));}
 const drug=id=>data.drugs.find(d=>d.id===id);
 assert.match(drug('sitagliptin').kidneyMetric,/eGFR.*1.73/);
 assert.deepEqual(drug('sitagliptin').modalities.ckd.tables[0].rows.map(x=>x.context),['≥45','30 to <45','<30']);
@@ -62,7 +62,7 @@ assert.equal(drug('cefiderocol').modalities.crrt.tables[0].rows.length,4);
 assert.match(drug('cefiderocol').modalities.crrt.settingMeasure,/effluent/);
 assert.equal(drug('cefiderocol').sourceIds.some(id=>refs.get(id).title.startsWith('UCSF')),false);
 const original=JSON.parse(readFileSync(new URL('./baseline_v02.json',import.meta.url),'utf8'));
-for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt']){if(String(drug(id).updatedInVersion||'').startsWith('0.12')){const now=JSON.stringify(drug(id).modalities[k].tables);for(const tb of old.modalities[k].tables)assert.ok(now.includes(JSON.stringify(tb))||drug(id).modalities[k].sourceIds.some(s=>/^(us12|uk12)/.test(s)),`${id}/${k}: an original table was dropped`);}else if(k==='pd'&&[...data.clinicalUpdates.newPDIds,...JSON.parse(readFileSync(new URL('./dist/SOURCE_AUDIT.json',import.meta.url),'utf8')).v111Changes.newPDIds].includes(id)){assert.equal(old.modalities[k].tables.length,0);}else assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);};}
+for(const [id,old] of Object.entries(original)){assert.equal(drug(id).addedInVersion,old.addedInVersion);for(const k of ['ckd','ihd','pd','crrt']){if(/^0\.1[2-9]\./.test(String(drug(id).updatedInVersion||''))){const now=JSON.stringify(drug(id).modalities[k].tables);for(const tb of old.modalities[k].tables)assert.ok(now.includes(JSON.stringify(tb))||drug(id).modalities[k].sourceIds.some(s=>/^(us1[2-9]|uk12)/.test(s)),`${id}/${k}: an original table was dropped`);}else if(k==='pd'&&[...data.clinicalUpdates.newPDIds,...JSON.parse(readFileSync(new URL('./dist/SOURCE_AUDIT.json',import.meta.url),'utf8')).v111Changes.newPDIds].includes(id)){assert.equal(old.modalities[k].tables.length,0);}else assert.deepEqual(drug(id).modalities[k],old.modalities[k],`${id}/${k}: original dosing changed unexpectedly`);};}
 for(const file of ['index.html','styles.css','app.js','database.json','EDITORIAL_GUIDE.md','CHANGELOG.md','icon.svg'])assert.ok(existsSync(new URL(`./dist/${file}`,import.meta.url)));
 for(const g of Object.values(data.sharedGuidance)){assert.ok(g.title&&g.text&&g.sourceIds.length);g.sourceIds.forEach(id=>assert.ok(refs.has(id)));}
 assert.deepEqual(drug('famotidine').routes,['Oral'],'Do not infer IV route from the word non-erosive');
@@ -93,11 +93,11 @@ for(const d of data.drugs){
  assert.deepEqual(Object.keys(p.dialysability),['ihd','pd','crrt','sled']);
  const facts=[...pkFields.map(k=>p[k]),...Object.values(p.dialysability)];
  for(const f of facts){assert.ok(f&&f.status);assert.ok(Array.isArray(f.sourceIds));f.sourceIds.forEach(id=>assert.ok(refs.has(id),`${d.id}: missing PK source ${id}`));if(f.value!==null)assert.ok(f.sourceIds.length,`${d.id}: unsourced PK value`);if(['not_reported','not_curated'].includes(f.status))assert.equal(f.value,null);}
- if(p.status==='source_summary'){pkCount++;assert.ok(['2026-10-29','2026-10-30','2026-10-31'].includes(p.sourceCheckedAt));assert.ok(facts.some(f=>f.value!==null));}else{assert.equal(p.sourceCheckedAt,p.status==='not_reported'?'2026-10-30':null);facts.forEach(f=>assert.equal(f.value,null));}
+ if(p.status==='source_summary'){pkCount++;assert.ok(['2026-10-29','2026-10-30','2026-10-31','2026-11-01'].includes(p.sourceCheckedAt));assert.ok(facts.some(f=>f.value!==null));}else{assert.equal(p.sourceCheckedAt,p.status==='not_reported'?'2026-10-30':null);facts.forEach(f=>assert.equal(f.value,null));}
  if(['halfLife','volumeOfDistribution','proteinBinding'].every(k=>p[k].status==='sourced')&&p.dialysability.ihd.value!==null)fullCount++;
  for(const k of ['crrt','sled']){assert.equal(p.dialysability[k].status,'not_curated','Never infer circuit clearance from protein binding/Vd');assert.equal(p.dialysability[k].value,null);}
 }
-assert.equal(pkCount,186);assert.equal(fullCount,55);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
+assert.equal(pkCount,297);assert.equal(fullCount,63);assert.deepEqual(data.pharmacokineticCoverage,{profiles:pkCount,allFourCoreFields:fullCount});
 const cap=drug('captopril'),am=drug('amlodipine');
 assert.equal(cap.entryType,'renal');assert.match(cap.kidneyMetric,/CrCl.*1.73/);
 assert.match(cap.modalities.ckd.tables[0].indication,/TOTAL daily/);

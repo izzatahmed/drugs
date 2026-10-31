@@ -1,0 +1,263 @@
+# Reviewed PK values for v0.13.0: id|field|status|value|verbatim label evidence (status '-' = sourced)
+acarbose|halfLife|-|≈2 h (activity)|The plasma elimination half-life of acarbose activity is approximately 2 hours in healthy volunteers
+alendronate|proteinBinding|-|≈78%|Protein binding in human plasma is approximately 78%
+alfuzosin|halfLife|-|10 h (apparent, 10 mg ER)|Following oral administration of UROXATRAL 10 mg tablets, the apparent elimination half-life is 10 hours
+alfuzosin|proteinBinding|-|82–90%|Results of in vitro studies indicate that alfuzosin is moderately bound to human plasma proteins (82% to 90%)
+allopurinol|halfLife|-|1–2 h (allopurinol); 15 h (oxipurinol)|The half-life of allopurinol and oxipurinol are approximately 1 hour to 2 hours and 15 hours following oral dose of allopurinol, respectively
+allopurinol-iv|halfLife|-|1.21 ± 0.33 h (allopurinol); 23.5 ± 4.5 h (oxypurinol)|The half-life (mean ± S.D.) of allopurinol and oxypurinol are approximately 1.21 ± 0.33 and 23.5 ± 4.5 hours following intravenous administration, respectively
+allopurinol-iv|volumeOfDistribution|-|0.87 ± 0.13 L/kg (steady state)|The steady-state allopurinol volume of distribution (mean ± S.D.) is approximately 0.87 ± 0.13 L/Kg following intravenous adminstration
+alogliptin|halfLife|-|≈21 h (terminal)|Alogliptin tablets was eliminated with a mean terminal half-life (t 1/2 ) of approximately 21 hours
+alogliptin|volumeOfDistribution|-|417 L (terminal phase, IV)|the volume of distribution during the terminal phase was 417 L, indicating that the drug is well distributed into tissues
+alogliptin|proteinBinding|-|20%|Alogliptin is 20% bound to plasma proteins
+ambrisentan|halfLife|-|15 h (terminal)|Although ambrisentan has a 15-hour terminal half-life
+ambrisentan|proteinBinding|-|99%|Ambrisentan is highly bound to plasma proteins (99%)
+aminocaproic-acid|halfLife|-|≈2 h (terminal)|The terminal elimination half-life for aminocaproic acid is approximately 2 hours
+aminocaproic-acid|volumeOfDistribution|-|23.1 ± 6.6 L (apparent, oral)|After oral administration, the apparent volume of distribution was estimated to be 23.1 ± 6.6 L (mean ± SD)
+aminocaproic-acid|ihd|removed|Removed by hemodialysis (label)|evidence exists that aminocaproic acid is removed by hemodialysis and may be removed by peritoneal dialysis
+aminocaproic-acid|pd|limited|May be removed by peritoneal dialysis (label)|evidence exists that aminocaproic acid is removed by hemodialysis and may be removed by peritoneal dialysis
+apixaban|halfLife|-|≈12 h (apparent, oral)|an apparent half-life of approximately 12 hours following oral administration
+apixaban|volumeOfDistribution|-|≈21 L (Vss)|The volume of distribution (Vss) is approximately 21 liters
+apixaban|proteinBinding|-|≈87%|Plasma protein binding in humans is approximately 87%
+argatroban|halfLife|-|39–51 min (terminal)|The terminal elimination half-life of argatroban ranges between 39 and 51 minutes
+argatroban|volumeOfDistribution|-|174 mL/kg (steady state)|an apparent steady-state volume of distribution of 174 mL/kg (12.18 L in a 70 kg adult)
+argatroban|proteinBinding|-|54%|Argatroban is 54% bound to human serum proteins
+atrasentan|halfLife|-|≈24–41 h (effective)|Atrasentan effective half-life is approximately 24 to 41 hours
+atrasentan|volumeOfDistribution|-|1180 L (Vd/F)|Atrasentan steady-state apparent (oral) volume of distribution (Vd/F) is 1180 L
+atrasentan|proteinBinding|-|> 99% (in vitro)|Atrasentan is > 99% bound to human plasma proteins, in vitro
+bivalirudin|halfLife|-|25 min (normal renal function)|Bivalirudin has a half-life of 25 minutes in PTCA patients with normal renal function
+bivalirudin|ihd|removed|≈25% cleared by hemodialysis (label)|Approximately 25% bivalirudin is cleared by hemodialysis
+bosentan|volumeOfDistribution|-|≈18 L|The volume of distribution is about 18 L
+bosentan|proteinBinding|-|>98%|Bosentan is highly bound (>98%) to plasma proteins, mainly albumin
+budesonide-targeted|halfLife|-|6.3 ± 1.6 h (oral 9 mg; range 2–8)|The mean ± SD plasma elimination half-life after a single dose of budesonide delayed-release capsules (9 mg) in the fasted state (N=24) in healthy subjects was 6.3 ± 1.6 hours and ranged between 2 and 8 hours
+budesonide-targeted|volumeOfDistribution|-|2.2 ± 0.4 L/kg (Vss, IV)|the mean volume of distribution (V ss ) was 2.2 ± 0.4 L/kg
+budesonide-targeted|proteinBinding|-|85–90%|Plasma protein binding was estimated to be 85% to 90%
+calcitonin|halfLife|-|≈18 min (terminal)|The terminal half-life of calcitonin salmon has been calculated to be around 18 minutes
+calcium-chloride|proteinBinding|-|≈40% of serum calcium (albumin)|approximately 40% is protein-bound
+calcium-gluconate|proteinBinding|-|≈40% of serum calcium (albumin)|approximately 40% is protein-bound (primarily to albumin)
+canagliflozin|halfLife|-|10.6 h (100 mg); 13.1 h (300 mg)|The apparent terminal half-life (t 1/2 ) was 10.6 hours and 13.1 hours for the 100 mg and 300 mg doses, respectively
+canagliflozin|proteinBinding|-|99%|Canagliflozin is extensively bound to proteins in plasma (99%), mainly to albumin
+canagliflozin|ihd|negligible|Negligibly removed by hemodialysis (label)|Canagliflozin was negligibly removed by hemodia
+cangrelor|halfLife|-|≈3–6 min|The average elimination half-life of KENGREAL is about 3-6 minutes
+cangrelor|volumeOfDistribution|-|3.9 L|showed a volume of distribution of 3.9 L
+cangrelor|proteinBinding|-|≈97–98%|Plasma protein binding of KENGREAL is about 97-98%
+cinacalcet|halfLife|-|30–40 h (terminal)|an initial half-life of approximately 6 hours and terminal half-life of 30 to 40 hours
+cinacalcet|volumeOfDistribution|-|≈1000 L|The volume of distribution is approximately 1000 L, indicating extensive distribution
+cinacalcet|proteinBinding|-|93–97%|Cinacalcet is approximately 93% to 97% bound to plasma protein(s)
+colchicine|halfLife|-|31 h (range 21.7–49.9)|Elimination half-life in humans was found to be 31 h (range 21.7 to 49.9 h)
+colchicine|renalHalfLife|-|18.8 h vs 4.4 h (ESRD; clearance 75% lower)|Patients with end-stage renal disease had 75% lower colchicine clearance (0.17 vs. 0.73 L/hr/kg) and prolonged plasma elimination half-life (18.8 hrs vs. 4.4 hrs) as compared to subjects with normal renal function
+colchicine|volumeOfDistribution|-|≈5–8 L/kg|Colchicine has a mean apparent volume of distribution in healthy young volunteers of approximately 5 to 8 L/kg
+colchicine|proteinBinding|-|≈39%|Colchicine binding to serum protein is about 39%, primarily to albumin
+colchicine|ihd|not_removed|Not effectively removed by hemodialysis (label)|Colchicine is not effectively removed by hemodialysis
+dabigatran|volumeOfDistribution|-|50–70 L|The volume of distribution of dabigatran is 50 to 70 L
+dabigatran|proteinBinding|-|≈35%|Dabigatran is approximately 35% bound to human plasma proteins
+dalteparin|halfLife|-|2.1–2.3 h (terminal, IV)|Following intravenous doses of 40 units/kg and 60 units/kg, mean terminal half-lives were 2.1 ± 0.3 hours and 2.3 ± 0.4 hours, respectively
+dalteparin|renalHalfLife|-|5.7 ± 2.0 h (anti-Xa, haemodialysis patients)|In patients with chronic renal insufficiency requiring hemodialysis, the mean terminal half-life of anti-Xa activity following a single intravenous dose of 5,000 units FRAGMIN was 5.7 ± 2.0 hours
+dalteparin|volumeOfDistribution|-|40–60 mL/kg (anti-Xa)|The volume of distribution for dalteparin anti-Xa activity was 40 mL/kg to 60 mL/kg
+dapagliflozin|halfLife|-|≈12.9 h (terminal)|The mean plasma terminal half-life (t ½ ) for dapagliflozin is approximately 12.9 hours following a single oral dose of FARXIGA 10 mg
+dapagliflozin|proteinBinding|-|≈91%|Dapagliflozin is approximately 91% protein bound
+daprodustat|halfLife|-|≈1–4 h (terminal)|The terminal elimination half-life of daprodustat is approximately 1 hour to 4 hours
+daprodustat|volumeOfDistribution|-|14.3 L (steady state, IV)|the volume of distribution at steady-state in healthy subjects is 14.3 L
+daprodustat|proteinBinding|-|>99% (in vitro)|plasma protein binding of daprodustat is >99%
+darbepoetin-alfa|halfLife|-|46 h on dialysis (IV); 70 h not on dialysis|In patients with CKD receiving dialysis, the average t 1/2 was 46 hours (range: 12 to 89 hours), and in patients with CKD not receiving dialysis, the average t 1/2 was 70 hours (range: 35 to 139 hours)
+denosumab|halfLife|-|25.4 days (mean)|a mean half-life of 25.4 days
+denosumab|volumeOfDistribution|-|5.2 L|The mean volume of distribution for denosumab was 5.2 L
+desmopressin|halfLife|-|2.8 h (normal renal function)|The geometric mean terminal half-life was 2.8 hours in subjects with normal renal function, and 4, 6.6, and 8.7 hours in patients with mild, moderate, and severe renal impairment, respectively
+desmopressin|renalHalfLife|-|4, 6.6 and 8.7 h (mild, moderate, severe impairment)|The geometric mean terminal half-life was 2.8 hours in subjects with normal renal function, and 4, 6.6, and 8.7 hours in patients with mild, moderate, and severe renal impairment, respectively
+dicyclomine|halfLife|-|≈1.8 h (initial phase)|Mean half-life of plasma elimination in one study was determined to be approximately 1.8 hours
+dicyclomine|volumeOfDistribution|-|≈3.65 L/kg (oral 20 mg)|Mean volume of distribution for a 20 mg oral dose is approximately 3.65 L/kg
+difelikefalin|halfLife|-|23–31 h (haemodialysis patients, pre-dialysis)|The half-life of difelikefalin in HD subjects prior to dialysis ranged between 23 and 31 hours
+difelikefalin|volumeOfDistribution|-|≈238 mL/kg|The mean volume of distribution of difelikefalin is approximately 238 mL/kg
+difelikefalin|proteinBinding|-|≈23–28% (dialysis patients)|a low plasma protein binding of approximately 23% to 28% in dialysis patients
+diphenoxylate-atropine|halfLife|-|≈12–14 h (diphenoxylic acid)|the elimination half-life of diphenoxylic acid was approximately 12 to 14 hours
+dipyridamole|halfLife|-|11.6–15 h (terminal, IV)|with half-lives averaging 3-12 minutes, 33-62 minutes and 11.6-15 hours
+dipyridamole|volumeOfDistribution|-|1–2.5 L/kg (steady state)|an apparent volume of distribution at steady state of 1-2.5 L/kg
+doxercalciferol|halfLife|-|≈32–37 h (active metabolite; up to 96 h)|The mean elimination half-life of 1α,25-(OH) 2 D 2 after an oral dose is approximately 32 to 37 hours with a range of up to 96 hours
+doxercalciferol|ihd|not_removed|Active metabolite not removed by hemodialysis (label)|1α,25-(OH) 2 D 2 is not removed from blood during hemodialysis
+dulaglutide|halfLife|-|≈5 days|The elimination half-life of dulaglutide was approximately 5 days
+dulaglutide|volumeOfDistribution|-|3.09 L central; 5.98 L peripheral (apparent)|Apparent population mean central volume of distribution was 3.09 L and the apparent population mean peripheral volume of distribution was 5.98 L
+dutasteride|volumeOfDistribution|-|300–500 L|dutasteride has a large volume of distribution (300 to 500 L)
+dutasteride|proteinBinding|-|99.0% (albumin); 96.6% (α1-acid glycoprotein)|Dutasteride is highly bound to plasma albumin (99.0%) and alpha-1 acid glycoprotein (96.6%)
+edoxaban|halfLife|-|10–14 h (terminal)|The terminal elimination half-life of edoxaban following oral administration is 10 to 14 hours
+edoxaban|proteinBinding|-|≈55% (in vitro)|In vitro plasma protein binding is approximately 55%
+eltrombopag|halfLife|-|≈21–32 h (healthy); 26–35 h (ITP)|The plasma elimination half-life of eltrombopag is approximately 21 to 32 hours in healthy subjects and 26 to 35 hours in patients with ITP
+eltrombopag|proteinBinding|-|greater than 99%|eltrombopag is highly bound to human plasma proteins (greater than 99%)
+empagliflozin|halfLife|-|12.4 h (apparent terminal)|The apparent terminal elimination half-life of empagliflozin was estimated to be 12.4 h
+empagliflozin|volumeOfDistribution|-|73.8 L (steady state, apparent)|The apparent steady-state volume of distribution was estimated to be 73.8 L
+empagliflozin|proteinBinding|-|86.2%|plasma protein binding was 86.2%
+enoxaparin|halfLife|-|4.5 h (single dose) to ≈7 h (repeated; anti-Xa)|Elimination half-life based on anti-Factor Xa activity was 4.5 hours after a single subcutaneous dose to about 7 hours after repeated dosing
+epoetin-alfa|halfLife|-|≈40 h (range 16–67, cancer patients)|In anemic cancer patients, the average t 1/2 was similar (40 hours with range of 16 to 67 hours) after both dosing regimens
+eptifibatide|halfLife|-|≈2.5 h|Plasma elimination half-life is approximately 2.5 hours
+eptifibatide|proteinBinding|-|≈25%|The extent of eptifibatide binding to human plasma protein is about 25%
+eptifibatide|ihd|removed|May be cleared by dialysis (label)|eptifibatide is not extensively bound to plasma proteins and thus may be cleared from plasma by dialysis
+ertugliflozin|halfLife|-|16.6 h|The mean elimination half-life in type 2 diabetic patients with normal renal function was estimated to be 16.6 hours
+ertugliflozin|volumeOfDistribution|-|85.5 L (steady state, IV)|The mean steady-state volume of distribution of ertugliflozin following an intravenous dose is 85.5 L
+ertugliflozin|proteinBinding|-|93.6%|Plasma protein binding of ertugliflozin is 93.6%
+etelcalcetide|volumeOfDistribution|-|≈796 L (Vss)|volume of distribution at steady state (V ss ) was approximately 796 L
+etelcalcetide|ihd|removed|Cleared by dialysis (label)|Although PARSABIV is cleared by dialysis, hemodialysis has not been studied as a treatment for PARSABIV overdosage
+exenatide-ir|halfLife|-|2.4 h (terminal)|the mean terminal half-life is 2.4 hours
+exenatide-ir|volumeOfDistribution|-|28.3 L (apparent, SC)|The mean apparent volume of distribution of exenatide following SC administration of a single dose of BYETTA is 28.3 L
+famotidine|halfLife|-|2.5–3.5 h|Famotidine has an elimination half-life of 2.5-3.5 hours
+famotidine|proteinBinding|-|Fifteen to 20%|Fifteen to 20% of famotidine in plasma is protein bound
+famotidine|ihd|removed|Eliminated by hemodialysis (label)|Due to low binding to plasma proteins, famotidine is eliminated by hemodialysis
+febuxostat|halfLife|-|≈5–8 h (apparent terminal)|Febuxostat has an apparent mean terminal elimination half-life (t 1/2 ) of approximately 5 to 8 hours
+febuxostat|volumeOfDistribution|-|≈50 L (Vss/F)|The mean apparent steady state volume of distribution (V ss /F) of febuxostat was approximately 50 L
+febuxostat|proteinBinding|-|≈99.2%|The plasma protein binding of febuxostat is approximately 99.2% (primarily to albumin)
+ferric-carboxymaltose|halfLife|-|7–12 h (terminal)|the terminal half-life ranged from 7 to 12 hours
+ferric-carboxymaltose|volumeOfDistribution|-|3 L|The volume of distribution was estimated to be 3 L
+ferumoxytol|halfLife|-|≈15 h|a half-life of approximately 15 hours in humans
+ferumoxytol|volumeOfDistribution|-|3.16 L|The estimated values of CL and Vd following two 510 mg doses of Feraheme administered intravenously within 24 hours were 69.1 mL/hr and 3.16 L, respectively
+ferumoxytol|ihd|not_removed|Not removed by hemodialysis (label)|Feraheme is not removed by hemodialysis
+filgrastim|halfLife|-|≈3.5 h (IV)|the elimination half-life was approximately 3.5 hours in both normal subjects and cancer subjects
+filgrastim|volumeOfDistribution|-|150 mL/kg (IV)|After intravenous administration, the volume of distribution averaged 150 mL/kg
+finasteride|halfLife|-|6 h (range 3–16)|mean elimination half-life in plasma was 6 hours (range, 3 to 16 hours)
+finasteride|volumeOfDistribution|-|76 L (steady state)|Mean steady-state volume of distribution was 76 liters (range, 44 to 96 liters)
+finasteride|proteinBinding|-|≈90%|Approximately 90% of circulating finasteride is bound to plasma proteins
+fondaparinux|halfLife|-|17–21 h|The elimination half-life is 17 hours to 21 hours
+fondaparinux|proteinBinding|-|at least 94% (to antithrombin III)|fondaparinux sodium is highly (at least 94%) and specifically bound to antithrombin III (ATIII)
+fosaprepitant|halfLife|-|≈9–13 h (aprepitant)|The apparent terminal half-life ranged from approximately 9 to 13 hours
+fosaprepitant|volumeOfDistribution|-|≈70 L (aprepitant, Vss)|The mean apparent volume of distribution at steady state (Vd ss ) was approximately 70 L in humans
+fosaprepitant|proteinBinding|-|greater than 95% (aprepitant)|Aprepitant is greater than 95% bound to plasma proteins
+fosaprepitant|ihd|not_removed|Aprepitant not removed by hemodialysis (label)|Aprepitant is not removed by hemodialysis
+glibenclamide-glyburide|halfLife|-|≈10 h (terminal)|the terminal half-life is about 10 hours
+glycerol-rectal|proteinBinding|-|7–12% (PAGN)|The protein binding for PAGN was 7% to 12%
+hydroxocobalamin|halfLife|-|≈26–31 h (cobalamins)|The mean half-life of free and total cobalamins-(III) was found to be approximately 26 to 31 hours at both the 5 g and 10 g dose level
+idarucizumab|halfLife|-|10.3 h terminal (initial 47 min)|an initial half-life of 47 minutes (gCV 11.4%), and a terminal half-life of 10.3 h
+idarucizumab|volumeOfDistribution|-|8.9 L (Vss)|the geometric mean volume of distribution at steady state (V ss ) was 8.9 L
+iloprost|halfLife|-|20–30 min|The half-life of iloprost is 20 to 30 minutes
+iloprost|volumeOfDistribution|-|0.7–0.8 L/kg (steady state, IV)|the apparent steady-state volume of distribution was 0.7 to 0.8 L/kg in healthy subjects
+iloprost|proteinBinding|-|≈60%|Iloprost is approximately 60% protein-bound
+insulin-degludec|halfLife|-|≈25 h (steady state)|On average, the half-life at steady state is approximately 25 hours independent of dose
+insulin-detemir|halfLife|-|5–7 h (terminal, SC)|insulin detemir has a terminal half-life of 5 to 7 hours depending on dose
+insulin-detemir|volumeOfDistribution|-|≈0.1 L/kg|Insulin detemir has an apparent volume of distribution of approximately 0.1 L/kg
+insulin-detemir|proteinBinding|-|More than 98% (albumin)|More than 98% of insulin detemir in the bloodstream is bound to albumin
+insulin-glulisine|halfLife|-|42 min (apparent, SC)|insulin glulisine is eliminated more rapidly than regular human insulin with an apparent half-life of 42 minutes compared to 86 minutes
+insulin-lispro|halfLife|-|1 h (SC; regular insulin 1.5 h)|After subcutaneous administration of HUMALOG, the t 1/2 is shorter than that of regular human insulin (1 versus 1.5 hours, respectively)
+insulin-nph|halfLife|-|≈4.4 h (apparent, range 1–84)|the mean apparent half-life was approximately 4.4 hours (range: 1-84 hours)
+insulin-regular|halfLife|-|23.4 min (terminal, after IV infusion)|The mean terminal half-life from concentration data after stopping the intravenous infusion was estimated to be 23.4 minutes in healthy volunteers
+iron-dextran|halfLife|-|≈5 h (free iron)|The half-life of free iron in the plasma circulation is approximately 5 hours
+iron-dextran|ihd|not_removed|Not removed by hemodialysis (label)|INFeD is not removed by hemodialysis
+iron-sucrose|halfLife|-|8 h (total serum iron)|Following a single dose of Venofer, the half-life of total serum iron was 8 hours
+iron-sucrose|ihd|not_removed|Not dialyzable (high-efficiency and high-flux membranes)|Venofer is not dialyzable through CA210 (Baxter) High Efficiency or Fresenius F80A High Flux dialysis membranes
+levocarnitine|halfLife|-|17.4 h (apparent terminal)|the mean apparent terminal elimination half life was 17.4 hours
+linagliptin|halfLife|-|≈200 h terminal (accumulation ≈11 h)|Linagliptin has a terminal half-life of about 200 hours at steady-state, though the accumulation half-life is about 11 hours
+linagliptin|volumeOfDistribution|-|≈1,110 L (steady state)|is approximately 1,110 L, indicating that linagliptin extensively distributes to the tissues
+linagliptin|proteinBinding|-|≈99% falling to 75–89% (concentration-dependent)|Plasma protein binding of linagliptin is concentration-dependent, decreasing from about 99% at 1 nmol/L to 75%-89% at ≥30 nmol/L
+liraglutide|volumeOfDistribution|-|≈13 L (apparent, SC); 0.07 L/kg (IV)|The mean apparent volume of distribution after subcutaneous administration of liraglutide 0.6 mg is approximately 13 L. The mean volume of distribution after intravenous administration of liraglutide is 0.07 L/kg
+liraglutide|proteinBinding|-|>98%|Liraglutide is extensively bound to plasma protein (>98%)
+lubiprostone|proteinBinding|-|≈94%|lubiprostone is approximately 94% bound to human plasma proteins
+macitentan|halfLife|-|≈16 h (macitentan); 48 h (active metabolite)|the apparent elimination half-lives of macitentan and its active metabolite are approximately 16 hours and 48 hours, respectively
+macitentan|volumeOfDistribution|-|≈50 L (Vss/F)|The apparent volumes of distribution (Vss/F) of macitentan and its active metabolite were about 50 L and 40 L respectively in healthy subjects
+macitentan|proteinBinding|-|>99%|Macitentan and its active metabolite are highly bound to plasma proteins (>99%)
+macitentan|ihd|not_removed|Dialysis unlikely to be effective (label)|Dialysis is unlikely to be effective because macitentan is highly protein-bound
+magnesium-sulfate|halfLife|-|≈4–5 h (pre-eclampsia)|The average half-life and systemic clearance of magnesium sulfate in preeclamptic women is approximately 4 to 5 hours
+magnesium-sulfate|proteinBinding|-|30% (albumin)|Magnesium is 30% bound to albumin
+metformin|halfLife|-|≈6.2 h (plasma)|with a plasma elimination half-life of approximately 6.2 hours
+metformin|volumeOfDistribution|-|654 ± 358 L (V/F, 850 mg)|The apparent volume of distribution (V/F) of metformin following single oral doses of metformin hydrochloride tablets 850 mg averaged 654 ± 358 L
+metformin|proteinBinding|-|Negligible|Metformin is negligibly bound to plasma proteins
+metformin|ihd|removed|Dialyzable, clearance up to 170 mL/min (label)|Metformin is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions
+metoclopramide|halfLife|-|5–6 h (normal renal function)|The average elimination half-life in individuals with normal renal function is 5 to 6 hours
+metoclopramide|volumeOfDistribution|-|≈3.5 L/kg|The whole body volume of distribution is high (about 3.5 L/kg)
+metoclopramide|proteinBinding|-|≈30%|The drug is not extensively bound to plasma proteins (about 30%)
+metoclopramide|ihd|limited|Removes relatively little (label)|Hemodialysis removes relatively little metoclopramide, probably because of the small amount of the drug in blood relative to tissues
+miglitol|halfLife|-|≈2 h|The elimination half-life of miglitol from plasma is approximately 2 hours
+miglitol|volumeOfDistribution|-|0.18 L/kg|Miglitol has a volume of distribution of 0.18 L/kg
+miglitol|proteinBinding|-|<4.0% (negligible)|The protein binding of miglitol is negligible (<4.0%)
+mirabegron|halfLife|-|≈50 h (terminal)|The terminal elimination half-life (t 1/2 ) of mirabegron is approximately 50 hours in patients
+mirabegron|volumeOfDistribution|-|≈1670 L (Vss, IV)|The volume of distribution at steady-state (V ss ) is approximately 1670 L following intravenous administration
+mirabegron|proteinBinding|-|≈71%|Mirabegron is bound (approximately 71%) to human plasma proteins
+nateglinide|volumeOfDistribution|-|≈10 L (steady state, IV)|the steady-state volume of distribution of nateglinide is estimated to be approximately 10 L in healthy subjects
+nateglinide|proteinBinding|-|98%|Nateglinide is extensively bound (98%) to serum proteins
+octreotide|halfLife|-|1.7–1.9 h (apparent)|The elimination of octreotide from plasma had an apparent half-life of 1.7 to 1.9 hours
+octreotide|volumeOfDistribution|-|13.6 L (Vdss, healthy)|the volume of distribution (V dss ) was estimated to be 13.6 L
+octreotide|proteinBinding|-|≈65%|about 65% was bound in the plasma in a concentration-independent manner
+ondansetron|proteinBinding|-|70–76% (in vitro)|Plasma protein binding of ondansetron as measured in vitro was 70% to 76%
+oxybutynin|volumeOfDistribution|-|193 L (IV)|The volume of distribution is 193 L after intravenous administration of 5 mg oxybutynin chloride
+oxybutynin|proteinBinding|-|> 99%|Both enantiomers of oxybutynin are highly bound (> 99%) to plasma proteins
+pamidronate|halfLife|-|28 ± 7 h|The elimination half-life is 28 ± 7 hours (mean ± standard deviation)
+prasugrel|halfLife|-|≈7 h (active metabolite; range 2–15)|The active metabolite has an elimination half-life of about 7 hours (range 2-15 hours)
+prasugrel|volumeOfDistribution|-|44–68 L (active metabolite)|The estimates of apparent volume of distribution of prasugrel's active metabolite ranged from 44 to 68 L
+prasugrel|proteinBinding|-|≈98% (active metabolite)|The active metabolite is bound about 98% to human serum albumin
+prasugrel|ihd|not_removed|Active metabolite not likely removed by dialysis (label)|The prasugrel active metabolite is not likely to be removed by dialysis
+prucalopride|halfLife|-|≈1 day (terminal)|The terminal half-life is approximately 1 day
+prucalopride|proteinBinding|-|≈30%|The plasma protein binding of prucalopride is approximately 30%
+risedronate|halfLife|-|561 h (terminal exponential)|the terminal exponential half-life was 561 hours
+risedronate|volumeOfDistribution|-|13.8 L/kg (steady state)|The mean steady-state volume of distribution for risedronate is 13.8 L/kg in humans
+risedronate|proteinBinding|-|≈24%|Human plasma protein binding of drug is about 24%
+rivaroxaban|halfLife|-|5–9 h (healthy, 20–45 y)|The terminal elimination half-life of rivaroxaban is 5 to 9 hours in healthy subjects aged 20 to 45 years
+rivaroxaban|volumeOfDistribution|-|≈50 L (steady state)|The steady-state volume of distribution in healthy subjects is approximately 50 L
+rivaroxaban|proteinBinding|-|≈92–95%|Protein binding of rivaroxaban in human plasma is approximately 92% to 95%
+rivaroxaban|ihd|not_removed|Not dialyzable (label)|Due to the high plasma protein binding, rivaroxaban is not dialyzable
+romosozumab|halfLife|-|12.8 days (effective)|The mean effective t 1/2 was 12.8 days after 3 doses of 3 mg/kg
+romosozumab|volumeOfDistribution|-|≈3.92 L (steady state)|The estimated volume of distribution at steady-state is approximately 3.92 L
+saxagliptin|halfLife|-|2.5 h (saxagliptin); 3.1 h (active metabolite)|the mean plasma terminal half-life (t 1/2 ) for saxagliptin and its active metabolite was 2.5 and 3.1 hours, respectively
+saxagliptin|ihd|removed|Removed by hemodialysis: 23% of dose over 4 h (label)|Saxagliptin and its active metabolite are removed by hemodialysis (23% of dose over 4 hours)
+selexipag|halfLife|-|0.8–2.5 h (terminal)|with a mean terminal half-life of 0.8–2.5 hours
+selexipag|volumeOfDistribution|-|11.7 L (steady state)|The volume of distribution of selexipag at steady-state is 11.7 L
+selexipag|proteinBinding|-|≈99% (with active metabolite)|Selexipag and its active metabolite are highly bound to plasma proteins (approximately 99% in total
+semaglutide-oral|volumeOfDistribution|-|≈8 L (absolute)|Semaglutide absolute volume of distribution is approximately 8 L in patients with type 2 diabetes
+semaglutide-oral|proteinBinding|-|>99% (albumin)|Semaglutide is >99% bound to plasma albumin
+semaglutide-sc|volumeOfDistribution|-|≈12.5 L (apparent, SC)|The mean apparent volume of distribution of semaglutide following subcutaneous administration in patients with type 2 diabetes is approximately 12.5 L
+semaglutide-sc|proteinBinding|-|>99% (albumin)|Semaglutide is extensively bound to plasma albumin (>99%)
+sildenafil|halfLife|-|≈4 h (sildenafil and metabolite)|Both sildenafil and the metabolite have terminal half lives of about 4 hours
+sildenafil|volumeOfDistribution|-|105 L (Vss)|The mean steady state volume of distribution (Vss) for sildenafil is 105 L
+sildenafil|proteinBinding|-|≈96%|Sildenafil and its major circulating N-desmethyl metabolite are both approximately 96% bound to plasma proteins
+silodosin|volumeOfDistribution|-|49.5 L (apparent)|Silodosin has an apparent volume of distribution of 49.5 L and is approximately 97% protein bound
+silodosin|proteinBinding|-|≈97%|Silodosin has an apparent volume of distribution of 49.5 L and is approximately 97% protein bound
+sitagliptin|halfLife|-|≈12.4 h (apparent terminal)|The apparent terminal t 1/2 following a 100 mg oral dose of sitagliptin was approximately 12.4 hours
+sitagliptin|volumeOfDistribution|-|≈198 L (steady state, IV)|The mean volume of distribution at steady state following a single 100-mg intravenous dose of sitagliptin to healthy subjects is approximately 198 liters
+sitagliptin|proteinBinding|-|38% (low)|The fraction of sitagliptin reversibly bound to plasma proteins is low (38%)
+sitagliptin|pd|unknown|Not known (label)|It is not known if sitagliptin is dialyzable by peritoneal dialysis
+solifenacin|halfLife|-|≈45–68 h (chronic dosing)|The elimination half-life (t 1/2 ) of solifenacin following chronic dosing is approximately 45-68 hours
+solifenacin|volumeOfDistribution|-|600 L (steady state)|having a mean steady-state volume of distribution of 600 L
+solifenacin|proteinBinding|-|≈98% (in vivo)|Solifenacin is approximately 98% ( in vivo ) bound to human plasma proteins
+sparsentan|halfLife|-|9.6 h (steady state)|The half-life of sparsentan is estimated to be 9.6 hours at steady state
+sparsentan|volumeOfDistribution|-|61.4 L (400 mg); 86.5 L (800 mg)|The apparent volume of distribution for sparsentan at steady state is 61.4 L at 400 mg and 86.5 L at 800 mg, respectively
+sparsentan|proteinBinding|-|>99%|Sparsentan is >99% bound to human plasma proteins
+tadalafil|halfLife|-|17.5 h (terminal)|the mean terminal half-life is 17.5 hours in healthy subjects
+tadalafil|volumeOfDistribution|-|≈63 L (apparent, oral)|The mean apparent volume of distribution following oral administration is approximately 63 L
+tadalafil|proteinBinding|-|94%|At therapeutic concentrations, 94% of tadalafil in plasma is bound to proteins
+tenapanor-phosphate|proteinBinding|-|≈99% (in vitro)|Plasma protein binding of tenapanor and its major metabolite, M1, is approximately 99% and 97%, respectively
+tenecteplase|halfLife|-|90–130 min (terminal)|the terminal phase half-life of tenecteplase was 90 to 130 minutes
+tenecteplase|volumeOfDistribution|-|6.12–8.01 L (steady state)|Steady-state volume of distribution was approximately 50% greater (6.12 to 8.01 L)
+teriparatide|halfLife|-|≈1 h (SC)|The half-life of teriparatide in serum was approximately 1 hour when administered by subcutaneous injection
+teriparatide|volumeOfDistribution|-|≈0.12 L/kg (IV)|Volume of distribution following intravenous injection is approximately 0.12 L/kg
+ticagrelor|halfLife|-|≈7 h (ticagrelor); 9 h (active metabolite)|The mean t 1/2 is approximately 7 hours for ticagrelor and 9 hours for the active metabolite
+ticagrelor|ihd|not_removed|Not dialyzable (label)|showing that BRILINTA is not dialyzable
+tirofiban|halfLife|-|≈2 h|Tirofiban has a half-life of approximately 2 hours
+tirofiban|renalHalfLife|-|Clearance down >50% at CrCl <30, including haemodialysis|Plasma clearance of tirofiban is decreased about 40% in subjects with creatinine clearance <60 mL/min and >50% in patients with creatinine clearance <30 mL/min, including patients requiring hemodialysis
+tirofiban|volumeOfDistribution|-|22–42 L (steady state)|The steady state volume of distribution of tirofiban ranges from 22 to 42 liters
+tirofiban|proteinBinding|-|Unbound fraction 35%|The unbound fraction in human plasma is 35%
+tirzepatide|halfLife|-|≈5–6 days|The elimination half-life is approximately 5-6 days in patients with overweight or obesity
+tirzepatide|proteinBinding|-|99% (albumin)|Tirzepatide is highly bound to plasma albumin (99%)
+tolterodine|halfLife|-|2.4 h (tolterodine); 3.0–3.3 h (5-HM metabolite)|The elimination half-life of tolterodine for both males and females is 2.4 hours, and the half-life of the 5-hydroxymethyl metabolite is 3.0 hours in females and 3.3 hours in males
+tolterodine|volumeOfDistribution|-|113 ± 26.7 L (IV)|The volume of distribution of tolterodine following administration of a 1.28 mg intravenous dose is 113 ± 26.7 L
+tranexamic-acid|halfLife|-|≈2 h (apparent, IV)|giving an apparent elimination half-life of approximately 2 hours
+tranexamic-acid|volumeOfDistribution|-|0.18 L/kg initial; 0.39 L/kg steady state|Tranexamic acid is distributed with an initial volume of distribution of 0.18 L/kg and steady-state apparent volume of distribution of 0.39 L/kg
+tranexamic-acid|proteinBinding|-|3%|Tranexamic acid is 3% bound to plasma proteins with no apparent binding to albumin
+treprostinil|halfLife|-|≈4 h (terminal, SC)|with a terminal elimination half-life of approximately 4 hours using a 2-compartment model
+treprostinil|volumeOfDistribution|-|≈14 L/70 kg IBW (Vss)|the apparent steady state volume of distribution (V ss ) of treprostinil is approximately 14 L/70 kg ideal body weight
+treprostinil|proteinBinding|-|91% (in vitro)|In vitro treprostinil is 91% bound to human plasma proteins
+trospium|halfLife|-|≈20 h (oral)|The plasma half-life for trospium chloride following oral administration is approximately 20 hours
+trospium|renalHalfLife|-|Additional ≈33 h phase; AUC 4.2× (severe impairment)|A 4.2-fold and 1.8-fold increase in mean AUC( 0-∞ ) and C max , respectively, and the appearance of an additional elimination phase with a long half-life (~33 hours vs. 18 hours) were detected in patients with severe renal impairm
+trospium|proteinBinding|-|50–85%|Protein binding ranged from 50 to 85%
+unfractionated-heparin|halfLife|-|0.5–2 h (dose-dependent)|The plasma half-life is dose-dependent and it ranges from 0.5 to 2 h
+unfractionated-heparin|volumeOfDistribution|-|0.07 L/kg|The volume of distribution is 0.07 L/kg
+vadadustat|halfLife|-|13.9 h (chronic haemodialysis)|The mean half-life of vadadustat in patients on chronic hemodialysis was 13.9 hours
+vadadustat|proteinBinding|-|≥99.5%|Protein binding of vadadustat is ≥99.5% in human plasma
+vadadustat|ihd|limited|≈16% of dose removed by dialysis (label)|Approximately 16% of the vadadustat dose is removed by dialysis
+vibegron|halfLife|-|30.8 h (effective)|Vibegron has an effective half-life of 30.8 hours across all populations
+vibegron|volumeOfDistribution|-|6304 L (apparent)|The mean apparent volume of distribution is 6304 liters
+vibegron|proteinBinding|-|≈50%|Human plasma protein binding of vibegron is approximately 50%
+voclosporin|halfLife|-|≈30 h (24.9–36.5)|mean terminal half-life (t 1/2 ) is approximately 30 hours (24.9 to 36.5 hours)
+voclosporin|volumeOfDistribution|-|2,154 L (Vss/F)|The apparent volume of distribution (V ss /F) of voclosporin is 2,154 L
+voclosporin|proteinBinding|-|97%|Protein binding of voclosporin is 97%
+zoledronic-acid|halfLife|-|146 h (terminal t½γ)|a terminal elimination half-life t 1/2γ of 146 hours
+allopurinol|ihd|removed|Allopurinol and oxipurinol are dialyzable (label)|Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown
+allopurinol|pd|removed|Dialyzable (label)|Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown
+alendronate|ihd|not_removed|Not beneficial in overdose (label)|Dialysis would not be beneficial
+alfuzosin|ihd|not_removed|May not be of benefit (protein bound; label)|Alfuzosin is 82% to 90% protein bound; therefore, dialysis may not be of benefit
+glipizide|ihd|not_removed|Unlikely to be of benefit (label)|Because of the extensive protein binding of glipizide, dialysis is unlikely to be of benefit
+linagliptin|ihd|not_removed|Removal unlikely (label)|Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely
+linagliptin|pd|not_removed|Removal unlikely (label)|Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely
+silodosin|ihd|not_removed|Unlikely to be of benefit (label)|Dialysis is unlikely to be of significant benefit since silodosin is highly (97%) protein bound
+lactulose|ihd|unknown|No dialysis data (label)|Dialysis data are not available for lactulose

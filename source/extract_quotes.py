@@ -23,16 +23,24 @@ def evs(c):
     return out
 
 res = {}
+def meta_of(d, brand):
+    o = d.get('openfda', {})
+    return dict(setid=d.get('set_id'), splVersion=str(d.get('version')), effective=f"{d['effective_time'][:4]}-{d['effective_time'][4:6]}-{d['effective_time'][6:8]}",
+                manufacturer=(o.get('manufacturer_name') or [''])[0], application=(o.get('application_number') or [''])[0], brand=brand or (o.get('brand_name') or [''])[0],
+                url=f"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid={d.get('set_id')}")
+def load(path):
+    d = json.loads((LAB/path).read_text()); return d[0] if isinstance(d, list) else d
 for did, c in C.items():
-    d = json.loads((LAB/c['label']).read_text()); d = d[0] if isinstance(d, list) else d
-    t = text_of(d); o = d.get('openfda', {})
-    windows = []
+    docs = {'1': load(c['label'])}
+    if c.get('label2'): docs['2'] = load(c['label2'])
+    texts = {k: text_of(v) for k, v in docs.items()}
+    out = dict(meta=meta_of(docs['1'], c['brand']), windows=[])
+    if '2' in docs: out.update(meta2=meta_of(docs['2'], c.get('brand2', '')), windows2=[])
     for e in evs(c):
-        i = t.find(e)
-        if i < 0: raise SystemExit(f'{did}: quote not found in label: {e[:90]}')
-        windows.append(t[max(0, i-200): i+len(e)+200])
-    res[did] = dict(meta=dict(setid=d.get('set_id'), splVersion=str(d.get('version')), effective=f"{d['effective_time'][:4]}-{d['effective_time'][4:6]}-{d['effective_time'][6:8]}",
-                              manufacturer=(o.get('manufacturer_name') or [''])[0], application=(o.get('application_number') or [''])[0], brand=c['brand'],
-                              url=f"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid={d.get('set_id')}"), windows=windows)
+        k, q = (e[0], e[2:]) if e[:2] == '2|' else ('1', e)
+        t = texts[k]; i = t.find(q)
+        if i < 0: raise SystemExit(f'{did}: quote not found in label {k}: {q[:90]}')
+        out['windows' if k == '1' else 'windows2'].append(t[max(0, i-200): i+len(q)+200])
+    res[did] = out
 OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1))
 print(f'{sum(len(v["windows"]) for v in res.values())} quotes verified in {len(res)} labels')

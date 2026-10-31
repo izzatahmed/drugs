@@ -1,0 +1,4936 @@
+{
+ "insulin-aspart": {
+  "label": "preg/insulin-aspart.json",
+  "brand": "Insulin aspart",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with renal impairment may be at increased risk of hypoglycemia and may require more frequent Insulin Aspart dose adjustment and more frequent blood glucose monitoring"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-glulisine": {
+  "label": "preg/insulin-glulisine.json",
+  "brand": "APIDRA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with renal impairment may be at increased risk of hypoglycemia and may require more frequent APIDRA dose adjustment and more frequent blood glucose monitoring"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "42 min (apparent, SC)",
+    "ev": "insulin glulisine is eliminated more rapidly than regular human insulin with an apparent half-life of 42 minutes compared to 86 minutes",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-lispro": {
+  "label": "preg/insulin-lispro.json",
+  "brand": "HUMALOG",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with renal impairment may be at increased risk of hypoglycemia and may require more frequent HUMALOG dose adjustment and more frequent blood glucose monitoring"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1 h (SC; regular insulin 1.5 h)",
+    "ev": "After subcutaneous administration of HUMALOG, the t 1/2 is shorter than that of regular human insulin (1 versus 1.5 hours, respectively)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-nph": {
+  "label": "us2/insulin-nph.json",
+  "brand": "HUMULIN N",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with renal impairment are at increased risk of hypoglycemia and may require more frequent HUMULIN N dose adjustment and more frequent blood glucose monitoring"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈4.4 h (apparent, range 1–84)",
+    "ev": "the mean apparent half-life was approximately 4.4 hours (range: 1-84 hours)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-regular": {
+  "label": "preg/insulin-regular.json",
+  "brand": "MYXREDLIN (IV regular insulin)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients with renal impairment are at increased risk of hypoglycemia and may require more frequent MYXREDLIN dose adjustment and more frequent blood glucose monitoring"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "23.4 min (terminal, after IV infusion)",
+    "ev": "The mean terminal half-life from concentration data after stopping the intravenous infusion was estimated to be 23.4 minutes in healthy volunteers",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-glargine": {
+  "label": "preg/insulin-glargine.json",
+  "brand": "BASAGLAR",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Frequent glucose monitoring and dose adjustment may be necessary for BASAGLAR in patients with renal impairment"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-degludec": {
+  "label": "preg/insulin-degludec.json",
+  "brand": "Insulin degludec",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "in patients with renal impairment or hepatic impairment or hypoglycemia unawareness",
+     "Total (AUC IDeg,0-120h,SD ) and peak exposure of Insulin Degludec were on average about 10-25% and 13-27% higher, respectively in subjects with mild to severe renal impairment except subjects with ESRD who showed similar exposure as compared to subjects with normal renal function"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈25 h (steady state)",
+    "ev": "On average, the half-life at steady state is approximately 25 hours independent of dose",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "insulin-detemir": {
+  "label": "preg/insulin-detemir.json",
+  "brand": "LEVEMIR",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Renal impairment · US label",
+      "rows": [
+       {
+        "context": "Any CrCl / eGFR",
+        "dose": "Monitor blood glucose more often and reduce the dose as needed (higher hypoglycaemia risk)."
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No difference was observed in the pharmacokinetics of LEVEMIR between non-diabetic patients with kidney impairment and healthy volunteers",
+     "in patients with renal impairment or hepatic impairment or hypoglycemia unawareness"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis-dependent",
+        "dose": "No PK difference from healthy subjects; monitor glucose and adjust as needed"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "administered to healthy subjects and those with varying degrees of renal impairment (mild, moderate, severe, and hemodialysis-dependent)",
+     "In this study, there were no differences in the pharmacokinetics of LEVEMIR between healthy subjects and those with renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "5–7 h (terminal, SC)",
+    "ev": "insulin detemir has a terminal half-life of 5 to 7 hours depending on dose",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈0.1 L/kg",
+    "ev": "Insulin detemir has an apparent volume of distribution of approximately 0.1 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "More than 98% (albumin)",
+    "ev": "More than 98% of insulin detemir in the bloodstream is bound to albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Glucose monitoring (no fixed renal dose)",
+  "summary": "No fixed renal dose; requirements may fall — monitor glucose more often and adjust."
+ },
+ "acarbose": {
+  "label": "preg/acarbose.json",
+  "brand": "Acarbose",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Type 2 diabetes · US label",
+      "rows": [
+       {
+        "context": "Serum creatinine ≤2.0 mg/dL",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "Serum creatinine >2.0 mg/dL",
+        "dose": "Not recommended (no long-term trials)"
+       }
+      ]
+     }
+    ],
+    "notes": "At CrCl <25 mL/min/1.73 m², peak levels are about 5-fold and AUC 6-fold higher.",
+    "ev": [
+     "Long-term clinical trials in diabetic patients with significant renal dysfunction (serum creatinine > 2.0 mg/dL) have not been conducted",
+     "Therefore, treatment of these patients with Acarbose Tablets is not recommended",
+     "Patients with severe renal impairment (Clcr < 25 mL/min/1.73m 2 ) attained about 5 times higher peak plasma concentrations of acarbose and 6 times larger AUCs than volunteers with normal renal function"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended in significant renal dysfunction.",
+    "ev": [
+     "Therefore, treatment of these patients with Acarbose Tablets is not recommended"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (activity)",
+    "ev": "The plasma elimination half-life of acarbose activity is approximately 2 hours in healthy volunteers",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Serum creatinine / CrCl",
+  "summary": "Not recommended when serum creatinine >2.0 mg/dL (no long-term trials); exposure ~6-fold at CrCl <25."
+ },
+ "miglitol": {
+  "label": "preg/miglitol.json",
+  "brand": "Miglitol",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Type 2 diabetes · US label",
+      "rows": [
+       {
+        "context": "Serum creatinine >2.0 mg/dL",
+        "dose": "No long-term trials; little safety information at CrCl <25"
+       },
+       {
+        "context": "CrCl <25 mL/min",
+        "dose": "Levels more than double on 25 mg three times daily"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "trials in diabetic patients with significant renal dysfunction (serum creatinine >2.0 mg/dL) have not been conducted",
+     "Little information is available on the safety of miglitol in patients with creatinine clearance <25 mL/min",
+     "Patients with creatinine clearance <25 mL/min taking 25 mg 3 times daily, exhibited a greater than two-fold increase in miglitol plasma levels as compared to subjects with creatinine clearance >60 mL/min"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h",
+    "ev": "The elimination half-life of miglitol from plasma is approximately 2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.18 L/kg",
+    "ev": "Miglitol has a volume of distribution of 0.18 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "<4.0% (negligible)",
+    "ev": "The protein binding of miglitol is negligible (<4.0%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Serum creatinine / CrCl",
+  "summary": "Not studied long term when serum creatinine >2.0 mg/dL; levels more than double at CrCl <25."
+ },
+ "glibenclamide-glyburide": {
+  "label": "us2/glibenclamide-glyburide.json",
+  "brand": "Glyburide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Renal insufficiency can raise glyburide levels and the risk of serious hypoglycaemia. Assess renal function when choosing the dose; no numeric renal dose in the label.",
+    "ev": [
+     "Renal or hepatic insufficiency may cause elevated drug levels of glyburide and the latter may also diminish gluconeogenic capacity, both of which increase the risk of serious hypoglycemic reactions",
+     "Dose selection should include assessment of renal function"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈10 h (terminal)",
+    "ev": "the terminal half-life is about 10 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Renal insufficiency raises glyburide levels and the risk of serious hypoglycaemia; the US label gives no renal dose."
+ },
+ "nateglinide": {
+  "label": "preg/nateglinide.json",
+  "brand": "Nateglinide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Type 2 diabetes · US label",
+      "rows": [
+       {
+        "context": "Mild to severe impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is recommended in patients with mild to severe renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "On dialysis, Cmax fell 49% (not significant) and protein binding was reduced; no dialysis dose is given.",
+    "ev": [
+     "Patients with type 2 diabetes and renal failure on dialysis exhibited reduced overall drug exposure (C max decreased by 49%; not statistically significant)",
+     "However, hemodialysis patients also experienced reductions in plasma protein binding compared to the matched healthy volunteers"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈10 L (steady state, IV)",
+    "ev": "the steady-state volume of distribution of nateglinide is estimated to be approximately 10 L in healthy subjects",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "98%",
+    "ev": "Nateglinide is extensively bound (98%) to serum proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No dose adjustment in mild to severe renal impairment. On dialysis, exposure and protein binding fall."
+ },
+ "octreotide": {
+  "label": "preg/octreotide.json",
+  "brand": "SANDOSTATIN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Not on dialysis · US label",
+      "rows": [
+       {
+        "context": "CrCl 40–60 mL/min",
+        "dose": "Half-life 2.4 h"
+       },
+       {
+        "context": "CrCl 10–39 mL/min",
+        "dose": "Half-life 3.0 h"
+       },
+       {
+        "context": "CrCl <10 mL/min (not on dialysis)",
+        "dose": "Half-life 3.1 h"
+       }
+      ]
+     }
+    ],
+    "notes": "The label gives no dose change for patients not on dialysis.",
+    "ev": [
+     "In patients with mild renal impairment (CL CR 40 to 60 mL/min), octreotide t 1/2 was 2.4 hours and total body clearance was 8.8 L/hr, in moderate impairment (CL CR 10 to 39 mL/min) t 1/2 was 3.0 hours and total body clearance 7.3 L/hr",
+     "In patients with severe renal impairment not requiring dialysis (CL CR < 10 mL/min), octreotide t 1/2 was 3.1 hours and total body clearance was 7.6 L/hr"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label",
+      "rows": [
+       {
+        "context": "Severe renal failure on dialysis",
+        "dose": "Half-life may increase: adjust the maintenance dose (clearance about halved)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with severe renal failure requiring dialysis, the half-life of Sandostatin may be increased, necessitating adjustment of the maintenance dosage",
+     "In patients with severe renal failure requiring dialysis, total body clearance was reduced to about half that found in healthy subjects (from approximately 10 L/hr to 4.5 L/hr)"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.7–1.9 h (apparent)",
+    "ev": "The elimination of octreotide from plasma had an apparent half-life of 1.7 to 1.9 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "13.6 L (Vdss, healthy)",
+    "ev": "the volume of distribution (V dss ) was estimated to be 13.6 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈65%",
+    "ev": "about 65% was bound in the plasma in a concentration-independent manner",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Half-life 2.4–3.1 h in renal impairment not on dialysis; on dialysis clearance halves — adjust the maintenance dose."
+ },
+ "pamidronate": {
+  "label": "preg/pamidronate.json",
+  "brand": "Pamidronate disodium",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl >30 mL/min",
+        "dose": "No dose change"
+       },
+       {
+        "context": "Severe renal impairment (bone metastases)",
+        "dose": "Not recommended"
+       },
+       {
+        "context": "Renal deterioration during treatment",
+        "dose": "Withhold"
+       }
+      ]
+     }
+    ],
+    "notes": "Check serum creatinine before each dose. Infusions longer than 2 hours may reduce renal toxicity in pre-existing impairment.",
+    "ev": [
+     "No changes in pamidronate disodium dosing regimen are recommended for patients with mild to moderate renal impairment (creatinine clearance > 30 mL/min)",
+     "In patients with bone metastases with severe renal impairment, use of pamidronate disodium is not recommended",
+     "Treatment should be withheld for renal deterioration",
+     "Longer infusions (i.e., greater than 2 hours) may reduce the risk for renal toxicity, particularly in patients with preexisting renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "28 ± 7 h",
+    "ev": "The elimination half-life is 28 ± 7 hours (mean ± standard deviation)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min; serum creatinine before each dose",
+  "summary": "No change if CrCl >30. Not recommended in severe impairment for bone metastases. Check creatinine before each dose; withhold if renal function worsens."
+ },
+ "zoledronic-acid": {
+  "label": "alt/zoledronic-acid-vial.json",
+  "brand": "Zoledronic acid injection 4 mg vial (oncology)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Myeloma / bone metastases, 4 mg vial · US label",
+      "rows": [
+       {
+        "context": "CrCl >60 mL/min",
+        "dose": "4 mg"
+       },
+       {
+        "context": "CrCl 50–60 mL/min",
+        "dose": "3.5 mg"
+       },
+       {
+        "context": "CrCl 40–49 mL/min",
+        "dose": "3.3 mg"
+       },
+       {
+        "context": "CrCl 30–39 mL/min",
+        "dose": "3 mg"
+       },
+       {
+        "context": "Severe renal impairment",
+        "dose": "Not recommended"
+       }
+      ]
+     },
+     {
+      "indication": "Osteoporosis / Paget disease, Reclast 5 mg · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥35 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <35 mL/min or acute renal impairment",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "Measure serum creatinine before each oncology dose and withhold for renal deterioration.",
+    "ev": [
+     "Baseline Creatinine Clearance (mL/min) Zoledronic Acid Injection Recommended Dose* greater than 60 50 to 60 40 to 49 30 to 39 4 mg 3.5 mg 3.3 mg 3 mg",
+     "Treatment in patients with severe renal impairment is not recommended",
+     "During treatment, serum creatinine should be measured before each zoledronic acid dose and treatment should be withheld for renal deterioration",
+     "2|Reclast is contraindicated in patients with creatinine clearance less than 35 mL/min and in those with evidence of acute renal impairment",
+     "2|Therefore, no dose adjustment is required in patients with creatinine clearance greater than or equal to 35 mL/min"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended in severe renal impairment (oncology); Reclast contraindicated below CrCl 35.",
+    "ev": [
+     "Treatment in patients with severe renal impairment is not recommended",
+     "2|Reclast is contraindicated in patients with creatinine clearance less than 35 mL/min and in those with evidence of acute renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "146 h (terminal t½γ)",
+    "ev": "a terminal elimination half-life t 1/2γ of 146 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Oncology 4 mg: reduce to 3.5/3.3/3.0 mg at CrCl 50–60/40–49/30–39; not recommended in severe impairment. Reclast 5 mg: contraindicated below CrCl 35.",
+  "label2": "alt/zoledronic-acid-reclast.json",
+  "brand2": "RECLAST"
+ },
+ "risedronate": {
+  "label": "preg/risedronate.json",
+  "brand": "Risedronate sodium",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Osteoporosis · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥30 mL/min",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Not recommended (lack of clinical experience)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Risedronate Sodium is not recommended for use in patients with severe renal impairment (creatinine clearance less than 30 mL/min) because of lack of clinical experience"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended at CrCl <30 mL/min.",
+    "ev": [
+     "Risedronate Sodium is not recommended for use in patients with severe renal impairment (creatinine clearance less than 30 mL/min) because of lack of clinical experience"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "561 h (terminal exponential)",
+    "ev": "the terminal exponential half-life was 561 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "13.8 L/kg (steady state)",
+    "ev": "The mean steady-state volume of distribution for risedronate is 13.8 L/kg in humans",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈24%",
+    "ev": "Human plasma protein binding of drug is about 24%",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Not recommended at CrCl <30 (no clinical experience)."
+ },
+ "teriparatide": {
+  "label": "preg/teriparatide.json",
+  "brand": "FORTEO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Osteoporosis · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–72 mL/min",
+        "dose": "No PK difference; usual dose"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "AUC +73%, half-life +77%; no dose change stated"
+       }
+      ]
+     }
+    ],
+    "notes": "Effect on CKD metabolic bone disease is unknown.",
+    "ev": [
+     "No pharmacokinetic differences were identified in 11 patients with creatinine clearance (CrCl) 30 to 72 mL/minute",
+     "In 5 patients with severe renal impairment (CrCl<30 mL/minute), the AUC and T 1/2 of teriparatide were increased by 73% and 77%, respectively",
+     "It is unknown whether FORTEO alters the underlying metabolic bone disease seen in chronic renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈1 h (SC)",
+    "ev": "The half-life of teriparatide in serum was approximately 1 hour when administered by subcutaneous injection",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈0.12 L/kg (IV)",
+    "ev": "Volume of distribution following intravenous injection is approximately 0.12 L/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No PK change at CrCl 30–72; at CrCl <30 exposure rose 73%. No renal dose adjustment is given."
+ },
+ "romosozumab": {
+  "label": "preg/romosozumab.json",
+  "brand": "EVENITY",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Osteoporosis · US label",
+      "rows": [
+       {
+        "context": "eGFR 15–29 or on dialysis",
+        "dose": "Higher risk of hypocalcaemia: monitor calcium; give calcium and vitamin D"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Monitor serum calcium and adequately supplement patients who have severe renal impairment or are receiving dialysis with calcium and vitamin D"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis / dialysis",
+        "dose": "Higher risk of hypocalcaemia: monitor calcium; give calcium and vitamin D"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Monitor serum calcium and adequately supplement patients who have severe renal impairment or are receiving dialysis with calcium and vitamin D"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "12.8 days (effective)",
+    "ev": "The mean effective t 1/2 was 12.8 days after 3 doses of 3 mg/kg",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈3.92 L (steady state)",
+    "ev": "The estimated volume of distribution at steady-state is approximately 3.92 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Higher hypocalcaemia risk in severe impairment or dialysis: supplement calcium and vitamin D and monitor calcium."
+ },
+ "glucagon": {
+  "label": "preg/glucagon.json",
+  "brand": "GVOKE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "calcitonin": {
+  "label": "preg/calcitonin.json",
+  "brand": "Calcitonin salmon nasal",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈18 min (terminal)",
+    "ev": "The terminal half-life of calcitonin salmon has been calculated to be around 18 minutes",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "methimazole": {
+  "label": "preg/methimazole.json",
+  "brand": "Methimazole",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "propylthiouracil": {
+  "label": "preg/propylthiouracil.json",
+  "brand": "Propylthiouracil",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "prednisone": {
+  "label": "preg/prednisone.json",
+  "brand": "Prednisone",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "bivalirudin": {
+  "label": "preg/bivalirudin.json",
+  "brand": "Bivalirudin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "PCI · US label",
+      "rows": [
+       {
+        "context": "Any renal function",
+        "dose": "Bolus unchanged"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Maintenance infusion 1 mg/kg/h"
+       }
+      ]
+     }
+    ],
+    "notes": "Monitor anticoagulant status in renal impairment.",
+    "ev": [
+     "No reduction in the bolus dose is needed for any degree of renal impairment",
+     "In patients with creatinine clearance less than 30mL/min (by Cockcroft Gault equation), reduce the infusion rate to 1 mg/kg/h",
+     "Monitor anticoagulant status in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Bolus unchanged; infusion 0.25 mg/kg/h"
+       }
+      ]
+     }
+    ],
+    "notes": "About 25% is cleared by haemodialysis.",
+    "ev": [
+     "In patients on hemodialysis, reduce the infusion rate to 0.25 mg/kg/h",
+     "Approximately 25% bivalirudin is cleared by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "25 min (normal renal function)",
+    "ev": "Bivalirudin has a half-life of 25 minutes in PTCA patients with normal renal function",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "≈25% cleared by hemodialysis (label)",
+    "ev": "Approximately 25% bivalirudin is cleared by hemodialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Bolus unchanged; infusion 1 mg/kg/h at CrCl <30 and 0.25 mg/kg/h on haemodialysis."
+ },
+ "eptifibatide": {
+  "label": "preg/eptifibatide.json",
+  "brand": "Eptifibatide",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "ACS / PCI · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥50 mL/min",
+        "dose": "180 mcg/kg bolus, then 2 mcg/kg/min"
+       },
+       {
+        "context": "CrCl <50 mL/min",
+        "dose": "180 mcg/kg bolus, then 1 mcg/kg/min"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with creatinine clearance less than 50 mL/min, reduce the infusion to 1 mcg/kg/min"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in dependency on renal dialysis.",
+    "ev": [
+     "Dependency on renal dialysis"
+    ]
+   },
+   "pd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in dependency on renal dialysis.",
+    "ev": [
+     "Dependency on renal dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2.5 h",
+    "ev": "Plasma elimination half-life is approximately 2.5 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈25%",
+    "ev": "The extent of eptifibatide binding to human plasma protein is about 25%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "May be cleared by dialysis (label)",
+    "ev": "eptifibatide is not extensively bound to plasma proteins and thus may be cleared from plasma by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl <50: same bolus, infusion 1 mcg/kg/min. Contraindicated in patients dependent on dialysis."
+ },
+ "tirofiban": {
+  "label": "preg/tirofiban.json",
+  "brand": "AGGRASTAT",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "ACS · US label",
+      "rows": [
+       {
+        "context": "CrCl >60 mL/min",
+        "dose": "25 mcg/kg within 5 min, then 0.15 mcg/kg/min up to 18 h"
+       },
+       {
+        "context": "CrCl ≤60 mL/min",
+        "dose": "25 mcg/kg within 5 min, then 0.075 mcg/kg/min"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with creatinine clearance ≤60 mL/min, give 25 mcg/kg within 5 minutes and then 0.075 mcg/kg/min",
+     "The recommended dosage is 25 mcg/kg administered intravenously within 5 minutes and then 0.15 mcg/kg/min for up to 18 hours"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis (CrCl ≤60)",
+        "dose": "25 mcg/kg within 5 min, then 0.075 mcg/kg/min"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with creatinine clearance ≤60 mL/min, give 25 mcg/kg within 5 minutes and then 0.075 mcg/kg/min",
+     "Plasma clearance of tirofiban is decreased about 40% in subjects with creatinine clearance <60 mL/min and >50% in patients with creatinine clearance <30 mL/min, including patients requiring hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h",
+    "ev": "Tirofiban has a half-life of approximately 2 hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Clearance down >50% at CrCl <30, including haemodialysis",
+    "ev": "Plasma clearance of tirofiban is decreased about 40% in subjects with creatinine clearance <60 mL/min and >50% in patients with creatinine clearance <30 mL/min, including patients requiring hemodialysis",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "22–42 L (steady state)",
+    "ev": "The steady state volume of distribution of tirofiban ranges from 22 to 42 liters",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "Unbound fraction 35%",
+    "ev": "The unbound fraction in human plasma is 35%",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl ≤60: 25 mcg/kg over 5 min, then 0.075 mcg/kg/min (half the usual infusion). Clearance falls >50% at CrCl <30 including haemodialysis."
+ },
+ "fondaparinux": {
+  "label": "preg/fondaparinux.json",
+  "brand": "Fondaparinux sodium",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "VTE prophylaxis / treatment · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–50 mL/min",
+        "dose": "Clearance ≈40% lower: higher bleeding risk, use with caution"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Severe renal impairment (creatinine clearance less than 30 mL/min) in prophylaxis or treatment of venous thromboembolism",
+     "approximately 40% lower in patients with moderate renal impairment (CrCl 30 mL/min to 50 mL/min)",
+     "Fondaparinux sodium increases the risk of bleeding in adult patients with impaired renal function due to reduced clearance"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated at CrCl <30 mL/min.",
+    "ev": [
+     "Severe renal impairment (creatinine clearance less than 30 mL/min) in prophylaxis or treatment of venous thromboembolism"
+    ]
+   },
+   "pd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated at CrCl <30 mL/min.",
+    "ev": [
+     "Severe renal impairment (creatinine clearance less than 30 mL/min) in prophylaxis or treatment of venous thromboembolism"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "17–21 h",
+    "ev": "The elimination half-life is 17 hours to 21 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "at least 94% (to antithrombin III)",
+    "ev": "fondaparinux sodium is highly (at least 94%) and specifically bound to antithrombin III (ATIII)",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Contraindicated at CrCl <30 for VTE prophylaxis or treatment. Bleeding risk rises as clearance falls (≈40% lower at CrCl 30–50)."
+ },
+ "dalteparin": {
+  "label": "preg/dalteparin.json",
+  "brand": "FRAGMIN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Extended VTE treatment in cancer · US label",
+      "rows": [
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Monitor anti-Xa levels to determine the dose"
+       }
+      ]
+     }
+    ],
+    "notes": "Prolonged elimination at CrCl <30: consider doubling the time before neuraxial catheter removal.",
+    "ev": [
+     "In patients with severely impaired renal function (CrCl <30 mL/min), monitor anti-Xa levels to determine the appropriate FRAGMIN dose",
+     "For patients with creatinine clearance <30 mL/minute, additional considerations are necessary because elimination of FRAGMIN may be more prolonged"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Anti-Xa half-life about 5.7 h in haemodialysis patients (single IV dose); dose by anti-Xa levels.",
+    "ev": [
+     "In patients with chronic renal insufficiency requiring hemodialysis, the mean terminal half-life of anti-Xa activity following a single intravenous dose of 5,000 units FRAGMIN was 5.7 ± 2.0 hours"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2.1–2.3 h (terminal, IV)",
+    "ev": "Following intravenous doses of 40 units/kg and 60 units/kg, mean terminal half-lives were 2.1 ± 0.3 hours and 2.3 ± 0.4 hours, respectively",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "5.7 ± 2.0 h (anti-Xa, haemodialysis patients)",
+    "ev": "In patients with chronic renal insufficiency requiring hemodialysis, the mean terminal half-life of anti-Xa activity following a single intravenous dose of 5,000 units FRAGMIN was 5.7 ± 2.0 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "40–60 mL/kg (anti-Xa)",
+    "ev": "The volume of distribution for dalteparin anti-Xa activity was 40 mL/kg to 60 mL/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CrCl · mL/min; anti-Xa",
+  "summary": "At CrCl <30 (cancer VTE) monitor anti-Xa levels to set the dose; elimination is prolonged."
+ },
+ "argatroban": {
+  "label": "preg/argatroban.json",
+  "brand": "Argatroban",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "HIT / PCI · US label",
+      "rows": [
+       {
+        "context": "Any renal function",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is necessary in patients with renal dysfunction"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Intermittent haemodialysis",
+        "dose": "Studied at 2–3 mcg/kg/min (or 250 mcg/kg bolus then 2 mcg/kg/min); ≈20% cleared during a 4-h session"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Argatroban was administered at a rate of 2 to 3 mcg/kg/min (begun at least 4 hours prior to dialysis) or as a bolus dose of 250 mcg/kg at the start of dialysis followed by a continuous infusion of 2 mcg/kg/min",
+     "approximately 20% of argatroban was cleared through dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "39–51 min (terminal)",
+    "ev": "The terminal elimination half-life of argatroban ranges between 39 and 51 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "174 mL/kg (steady state)",
+    "ev": "an apparent steady-state volume of distribution of 174 mL/kg (12.18 L in a 70 kg adult)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "54%",
+    "ev": "Argatroban is 54% bound to human serum proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No dose adjustment in renal dysfunction; about 20% cleared during a 4-h haemodialysis."
+ },
+ "tranexamic-acid": {
+  "label": "preg/tranexamic-acid.json",
+  "brand": "Tranexamic acid tablets (Lysteda)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Heavy menstrual bleeding, oral, max 5 days · US label",
+      "rows": [
+       {
+        "context": "SCr ≤1.4 mg/dL",
+        "dose": "1,300 mg three times daily"
+       },
+       {
+        "context": "SCr >1.4 to ≤2.8 mg/dL",
+        "dose": "1,300 mg twice daily"
+       },
+       {
+        "context": "SCr >2.8 to ≤5.7 mg/dL",
+        "dose": "1,300 mg once daily"
+       },
+       {
+        "context": "SCr >5.7 mg/dL",
+        "dose": "650 mg once daily"
+       }
+      ]
+     }
+    ],
+    "notes": "The IV product has its own renal table — check the IV label.",
+    "ev": [
+     "Cr above 1.4 mg/dL and ≤ 2.8 mg/dL: 1,300 mg two times a day (2,600 mg/day) Cr above 2.8 mg/dL and ≤ 5.7 mg/dL: 1,300 mg once a day (1,300 mg/day) Cr above 5.7 mg/dL: 650 mg once a day (650 mg/day)",
+     "1,300 mg three times a day (3,900 mg/day) for a maximum of 5 days during monthly menstruation"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (apparent, IV)",
+    "ev": "giving an apparent elimination half-life of approximately 2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.18 L/kg initial; 0.39 L/kg steady state",
+    "ev": "Tranexamic acid is distributed with an initial volume of distribution of 0.18 L/kg and steady-state apparent volume of distribution of 0.39 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "3%",
+    "ev": "Tranexamic acid is 3% bound to plasma proteins with no apparent binding to albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Serum creatinine · mg/dL",
+  "summary": "Heavy menstrual bleeding: reduce the oral dose when serum creatinine >1.4 mg/dL (label table)."
+ },
+ "desmopressin": {
+  "label": "preg/desmopressin.json",
+  "brand": "Desmopressin acetate injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "CrCl ≥50 mL/min",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "CrCl <50 mL/min",
+        "dose": "Contraindicated (hyponatraemia)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Desmopressin acetate is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min)"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated at CrCl <50 mL/min.",
+    "ev": [
+     "Desmopressin acetate is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min)"
+    ]
+   },
+   "pd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated at CrCl <50 mL/min.",
+    "ev": [
+     "Desmopressin acetate is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min)"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "2.8 h (normal renal function)",
+    "ev": "The geometric mean terminal half-life was 2.8 hours in subjects with normal renal function, and 4, 6.6, and 8.7 hours in patients with mild, moderate, and severe renal impairment, respectively",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "4, 6.6 and 8.7 h (mild, moderate, severe impairment)",
+    "ev": "The geometric mean terminal half-life was 2.8 hours in subjects with normal renal function, and 4, 6.6, and 8.7 hours in patients with mild, moderate, and severe renal impairment, respectively",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Contraindicated at CrCl <50 (hyponatraemia risk)."
+ },
+ "aminocaproic-acid": {
+  "label": "preg/aminocaproic-acid.json",
+  "brand": "Aminocaproic acid",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Renal clearance approximates creatinine clearance; no numeric renal dose in the label.",
+    "ev": [
+     "Renal clearance (116 mL/min) approximates endogenous creatinine clearance"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Removed by haemodialysis and possibly by peritoneal dialysis (overdose context).",
+    "ev": [
+     "evidence exists that aminocaproic acid is removed by hemodialysis and may be removed by peritoneal dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈2 h (terminal)",
+    "ev": "The terminal elimination half-life for aminocaproic acid is approximately 2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "23.1 ± 6.6 L (apparent, oral)",
+    "ev": "After oral administration, the apparent volume of distribution was estimated to be 23.1 ± 6.6 L (mean ± SD)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by hemodialysis (label)",
+    "ev": "evidence exists that aminocaproic acid is removed by hemodialysis and may be removed by peritoneal dialysis",
+    "status": "removed"
+   },
+   "pd": {
+    "value": "May be removed by peritoneal dialysis (label)",
+    "ev": "evidence exists that aminocaproic acid is removed by hemodialysis and may be removed by peritoneal dialysis",
+    "status": "limited"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Renal clearance ≈ CrCl",
+  "summary": "Renally cleared (renal clearance about equal to CrCl); the US label gives no renal dose. Removed by haemodialysis."
+ },
+ "cangrelor": {
+  "label": "preg/cangrelor.json",
+  "brand": "KENGREAL",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is required for patients with mild, moderate, or severe renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈3–6 min",
+    "ev": "The average elimination half-life of KENGREAL is about 3-6 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "3.9 L",
+    "ev": "showed a volume of distribution of 3.9 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈97–98%",
+    "ev": "Plasma protein binding of KENGREAL is about 97-98%",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "prasugrel": {
+  "label": "preg/prasugrel.json",
+  "brand": "EFFIENT",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is necessary for patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment stated; active metabolite not likely removed by dialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The prasugrel active metabolite is not likely to be removed by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈7 h (active metabolite; range 2–15)",
+    "ev": "The active metabolite has an elimination half-life of about 7 hours (range 2-15 hours)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "44–68 L (active metabolite)",
+    "ev": "The estimates of apparent volume of distribution of prasugrel's active metabolite ranged from 44 to 68 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈98% (active metabolite)",
+    "ev": "The active metabolite is bound about 98% to human serum albumin",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Active metabolite not likely removed by dialysis (label)",
+    "ev": "The prasugrel active metabolite is not likely to be removed by dialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "ticagrelor": {
+  "label": "preg/ticagrelor.json",
+  "brand": "BRILINTA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is needed in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD on dialysis",
+        "dose": "Not dialysable; ESRD on dialysis was not enrolled in efficacy trials"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "showing that BRILINTA is not dialyzable",
+     "Clinical efficacy and safety studies with BRILINTA did not enroll patients with end-stage renal disease (ESRD) on dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈7 h (ticagrelor); 9 h (active metabolite)",
+    "ev": "The mean t 1/2 is approximately 7 hours for ticagrelor and 9 hours for the active metabolite",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable (label)",
+    "ev": "showing that BRILINTA is not dialyzable",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "idarucizumab": {
+  "label": "preg/idarucizumab.json",
+  "brand": "PRAXBIND",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required in renally impaired patients"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "10.3 h terminal (initial 47 min)",
+    "ev": "an initial half-life of 47 minutes (gCV 11.4%), and a terminal half-life of 10.3 h",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "8.9 L (Vss)",
+    "ev": "the geometric mean volume of distribution at steady state (V ss ) was 8.9 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "filgrastim": {
+  "label": "preg/filgrastim.json",
+  "brand": "Filgrastim",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "However, dose adjustment in patients with renal impairment is not necessary"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈3.5 h (IV)",
+    "ev": "the elimination half-life was approximately 3.5 hours in both normal subjects and cancer subjects",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "150 mL/kg (IV)",
+    "ev": "After intravenous administration, the volume of distribution averaged 150 mL/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "pegfilgrastim": {
+  "label": "preg/pegfilgrastim.json",
+  "brand": "Pegfilgrastim",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal function, including ESRD",
+        "dose": "Usual dose (no PK change)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In a study of 30 subjects with varying degrees of renal dysfunction, including end stage renal disease, renal dysfunction had no effect on the pharmacokinetics of pegfilgrastim"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No PK effect of renal function (US label)",
+  "summary": "Renal dysfunction, including end-stage disease, had no effect on pegfilgrastim PK."
+ },
+ "eltrombopag": {
+  "label": "preg/eltrombopag.json",
+  "brand": "PROMACTA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Exposure 32–36% lower in mild–moderate and 60% lower in severe impairment; the label gives no renal dose change. Evaluate unexpected serum creatinine results.",
+    "ev": [
+     "In the event of an unexpected serum creatinine test result, further evaluation of renal function should be performed"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈21–32 h (healthy); 26–35 h (ITP)",
+    "ev": "The plasma elimination half-life of eltrombopag is approximately 21 to 32 hours in healthy subjects and 26 to 35 hours in patients with ITP",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 99%",
+    "ev": "eltrombopag is highly bound to human plasma proteins (greater than 99%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Exposure lower in renal impairment (32–60%); no renal dose is given — monitor response and renal function."
+ },
+ "hydroxocobalamin": {
+  "label": "preg/hydroxocobalamin.json",
+  "brand": "CYANOKIT",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Acute renal failure with acute tubular necrosis and calcium oxalate crystals has been reported. Monitor renal function for 7 days.",
+    "ev": [
+     "Acute renal failure with acute tubular necrosis, renal impairment and urine calcium oxalate crystals have been reported following CYANOKIT therapy",
+     "Monitor renal function for 7 days following CYANOKIT therapy"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈26–31 h (cobalamins)",
+    "ev": "The mean half-life of free and total cobalamins-(III) was found to be approximately 26 to 31 hours at both the 5 g and 10 g dose level",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Monitor renal function",
+  "summary": "Acute kidney injury with oxalate crystals reported: monitor renal function for 7 days after treatment."
+ },
+ "epoetin-alfa": {
+  "label": "preg/epoetin-alfa.json",
+  "brand": "EPOGEN",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD, not on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start",
+        "dose": "50–100 units/kg three times weekly IV or SC (consider only when Hb <10 g/dL)"
+       },
+       {
+        "context": "Hb >10 g/dL",
+        "dose": "Reduce or interrupt; use the lowest dose that avoids transfusion"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The recommended starting dose for adult patients is 50 to 100 Units/kg 3 times weekly intravenously or subcutaneously",
+     "If the hemoglobin level exceeds 10 g/dL, reduce or interrupt the dose of Epogen, and use the lowest dose of Epogen sufficient to reduce the need for RBC transfusions"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (Hb <10 g/dL)",
+        "dose": "50–100 units/kg three times weekly IV or SC"
+       },
+       {
+        "context": "Hb approaching or above 11 g/dL",
+        "dose": "Reduce or interrupt"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For adult patients with CKD on dialysis: Initiate Epogen treatment when the hemoglobin level is less than 10 g/dL",
+     "If the hemoglobin level approaches or exceeds 11 g/dL, reduce or interrupt the dose of Epogen",
+     "The recommended starting dose for adult patients is 50 to 100 Units/kg 3 times weekly intravenously or subcutaneously"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (Hb <10 g/dL)",
+        "dose": "50–100 units/kg three times weekly IV or SC"
+       },
+       {
+        "context": "Hb approaching or above 11 g/dL",
+        "dose": "Reduce or interrupt"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For adult patients with CKD on dialysis: Initiate Epogen treatment when the hemoglobin level is less than 10 g/dL",
+     "If the hemoglobin level approaches or exceeds 11 g/dL, reduce or interrupt the dose of Epogen",
+     "The recommended starting dose for adult patients is 50 to 100 Units/kg 3 times weekly intravenously or subcutaneously"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈40 h (range 16–67, cancer patients)",
+    "ev": "In anemic cancer patients, the average t 1/2 was similar (40 hours with range of 16 to 67 hours) after both dosing regimens",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Haemoglobin (CKD on / not on dialysis)",
+  "summary": "CKD anaemia: start 50–100 units/kg three times weekly; start on dialysis when Hb <10 g/dL; reduce or interrupt as Hb approaches 11 (dialysis) or exceeds 10 (not on dialysis)."
+ },
+ "darbepoetin-alfa": {
+  "label": "preg/darbepoetin-alfa.json",
+  "brand": "ARANESP",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD, not on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (Hb <10 g/dL)",
+        "dose": "0.45 mcg/kg IV or SC every 4 weeks"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "0.45 mcg/kg intravenously or subcutaneously at 4 week intervals"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (Hb <10 g/dL)",
+        "dose": "0.45 mcg/kg weekly or 0.75 mcg/kg every 2 weeks; IV route recommended on haemodialysis"
+       },
+       {
+        "context": "Hb approaching or above 11 g/dL",
+        "dose": "Reduce or interrupt"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "0.45 mcg/kg intravenously or subcutaneously weekly, or - 0.75 mcg/kg intravenously or subcutaneously every 2 weeks - Intravenous route is recommended for patients on hemodialysis",
+     "If the hemoglobin level approaches or exceeds 11 g/dL, reduce or interrupt the dose of Aranesp"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (Hb <10 g/dL)",
+        "dose": "0.45 mcg/kg weekly or 0.75 mcg/kg every 2 weeks; IV route recommended on haemodialysis"
+       },
+       {
+        "context": "Hb approaching or above 11 g/dL",
+        "dose": "Reduce or interrupt"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "0.45 mcg/kg intravenously or subcutaneously weekly, or - 0.75 mcg/kg intravenously or subcutaneously every 2 weeks - Intravenous route is recommended for patients on hemodialysis",
+     "If the hemoglobin level approaches or exceeds 11 g/dL, reduce or interrupt the dose of Aranesp"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "46 h on dialysis (IV); 70 h not on dialysis",
+    "ev": "In patients with CKD receiving dialysis, the average t 1/2 was 46 hours (range: 12 to 89 hours), and in patients with CKD not receiving dialysis, the average t 1/2 was 70 hours (range: 35 to 139 hours)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Haemoglobin (CKD on / not on dialysis)",
+  "summary": "CKD on dialysis: 0.45 mcg/kg weekly or 0.75 mcg/kg every 2 weeks (IV preferred on haemodialysis); not on dialysis: 0.45 mcg/kg every 4 weeks."
+ },
+ "methoxy-polyethylene-glycol-epoetin-beta": {
+  "label": "preg/methoxy-polyethylene-glycol-epoetin-beta.json",
+  "brand": "MIRCERA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD, not on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (ESA-naive)",
+        "dose": "1.2 mcg/kg once monthly SC, or 0.6 mcg/kg every 2 weeks IV or SC"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "CKD patients not on dialysis: 1.2 mcg/kg body weight administered once every month as a single subcutaneous injection",
+     "Alternatively, a starting dose of 0.6 mcg/kg body weight may be administered once every two weeks as a single intravenous or subcutaneous injection"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (ESA-naive)",
+        "dose": "0.6 mcg/kg every 2 weeks IV or SC"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "CKD patients on dialysis: 0.6 mcg/kg body weight administered once every two weeks"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start (ESA-naive)",
+        "dose": "0.6 mcg/kg every 2 weeks IV or SC"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "CKD patients on dialysis: 0.6 mcg/kg body weight administered once every two weeks"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Haemoglobin (CKD on / not on dialysis)",
+  "summary": "ESA-naive adults: 0.6 mcg/kg every 2 weeks (IV or SC); not on dialysis alternatively 1.2 mcg/kg monthly SC."
+ },
+ "iron-sucrose": {
+  "label": "preg/iron-sucrose.json",
+  "brand": "VENOFER",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Iron deficiency anaemia, non-dialysis CKD · US label",
+      "rows": [
+       {
+        "context": "NDD-CKD",
+        "dose": "200 mg IV on 5 different occasions within 14 days (total 1,000 mg)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Administer Venofer 200 mg undiluted as a slow intravenous injection over 2 to 5 minutes or as an infusion of 200 mg in a maximum of 100 mL of 0.9% NaCl over a period of 15 minutes",
+     "Administer on 5 different occasions over a 14 day period"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis-dependent CKD · US label",
+      "rows": [
+       {
+        "context": "HDD-CKD",
+        "dose": "100 mg IV per consecutive haemodialysis session (slow injection or ≥15-min infusion)"
+       }
+      ]
+     }
+    ],
+    "notes": "Not dialysable through high-efficiency or high-flux membranes.",
+    "ev": [
+     "Administer Venofer 100 mg undiluted as a slow intravenous injection over 2 to 5 minutes, or as an infusion of 100 mg diluted in a maximum of 100 mL of 0.9% NaCl over a period of at least 15 minutes, per consecutive hemodialysis session"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Peritoneal-dialysis-dependent CKD · US label",
+      "rows": [
+       {
+        "context": "PDD-CKD",
+        "dose": "300 mg over 1.5 h, repeat 14 days later, then 400 mg over 2.5 h 14 days after that"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Administer Venofer in 3 divided doses, given by slow intravenous infusion, within a 28 day period: 2 infusions each of 300 mg over 1.5 hours 14 days apart followed by one 400 mg infusion over 2.5 hours 14 days later"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "8 h (total serum iron)",
+    "ev": "Following a single dose of Venofer, the half-life of total serum iron was 8 hours",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable (high-efficiency and high-flux membranes)",
+    "ev": "Venofer is not dialyzable through CA210 (Baxter) High Efficiency or Fresenius F80A High Flux dialysis membranes",
+    "status": "not_removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CKD setting (NDD / HD / PD)",
+  "summary": "HD: 100 mg per session; NDD-CKD: 200 mg on 5 occasions over 14 days; PD: 300, 300, 400 mg over 28 days. Not dialysable."
+ },
+ "ferumoxytol": {
+  "label": "preg/ferumoxytol.json",
+  "brand": "FERAHEME",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Iron deficiency anaemia incl. CKD · US label",
+      "rows": [
+       {
+        "context": "Adults",
+        "dose": "510 mg IV, then 510 mg 3–8 days later"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The recommended dose of Feraheme is an initial 510 mg dose followed by a second 510 mg dose 3 to 8 days later"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Give once BP is stable and after at least 1 h of the session; not removed by HD"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients receiving hemodialysis, administer Feraheme once the blood pressure is stable and the patient has completed at least one hour of hemodialysis",
+     "Feraheme is not removed by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈15 h",
+    "ev": "a half-life of approximately 15 hours in humans",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "3.16 L",
+    "ev": "The estimated values of CL and Vd following two 510 mg doses of Feraheme administered intravenously within 24 hours were 69.1 mL/hr and 3.16 L, respectively",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed by hemodialysis (label)",
+    "ev": "Feraheme is not removed by hemodialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CKD (dosing not renally adjusted)",
+  "summary": "510 mg IV, then 510 mg 3–8 days later. On haemodialysis give after BP is stable and at least 1 h of dialysis. Not removed by haemodialysis."
+ },
+ "ferric-carboxymaltose": {
+  "label": "preg/ferric-carboxymaltose.json",
+  "brand": "Ferric carboxymaltose",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Iron deficiency anaemia incl. non-dialysis CKD · US label",
+      "rows": [
+       {
+        "context": "Weight ≥50 kg",
+        "dose": "750 mg IV × 2, ≥7 days apart (1,500 mg per course)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "the recommended dosage is ferric carboxymaltose injection 750 mg intravenously in two doses separated by at least 7 days for a total cumulative dose of 1,500 mg of iron per course",
+     "adult patients who have non-dialysis dependent chronic kidney disease"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "7–12 h (terminal)",
+    "ev": "the terminal half-life ranged from 7 to 12 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "3 L",
+    "ev": "The volume of distribution was estimated to be 3 L",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Body weight (CKD not on dialysis is an approved setting)",
+  "summary": "Weight ≥50 kg: 750 mg IV twice, at least 7 days apart (1,500 mg per course); approved for non-dialysis CKD."
+ },
+ "iron-dextran": {
+  "label": "preg/iron-dextran.json",
+  "brand": "INFED",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "Not removed by dialysis; dose from iron deficit (ferritin may be unreliable on chronic dialysis)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In vitro studies have shown that removal of iron dextran by dialysis is negligible",
+     "Serum ferritin may not be an accurate measure of body iron stores in patients on chronic dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈5 h (free iron)",
+    "ev": "The half-life of free iron in the plasma circulation is approximately 5 hours",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed by hemodialysis (label)",
+    "ev": "INFeD is not removed by hemodialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Iron deficit",
+  "summary": "Dose from the iron-deficit formula; removal by dialysis is negligible. Ferritin may mislead on chronic dialysis."
+ },
+ "ferric-derisomaltose": {
+  "label": "preg/ferric-derisomaltose.json",
+  "brand": "MONOFERRIC",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Not excreted via the kidneys; no renal dose statement.",
+    "ev": [
+     "Due to the size of the complex, Monoferric is not excreted via the kidneys"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Body weight",
+  "summary": "Not excreted by the kidneys; no renal dose statement in the US label."
+ },
+ "unfractionated-heparin": {
+  "label": "preg/unfractionated-heparin.json",
+  "brand": "Heparin sodium",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.5–2 h (dose-dependent)",
+    "ev": "The plasma half-life is dose-dependent and it ranges from 0.5 to 2 h",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.07 L/kg",
+    "ev": "The volume of distribution is 0.07 L/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "protamine": {
+  "label": "preg/protamine.json",
+  "brand": "Protamine sulfate",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "alteplase": {
+  "label": "preg/alteplase.json",
+  "brand": "ACTIVASE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "tenecteplase": {
+  "label": "preg/tenecteplase.json",
+  "brand": "TNKASE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "90–130 min (terminal)",
+    "ev": "the terminal phase half-life of tenecteplase was 90 to 130 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "6.12–8.01 L (steady state)",
+    "ev": "Steady-state volume of distribution was approximately 50% greater (6.12 to 8.01 L)",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "andexanet-alfa": {
+  "label": "preg/andexanet-alfa.json",
+  "brand": "ANDEXXA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "dipyridamole": {
+  "label": "preg/dipyridamole.json",
+  "brand": "Dipyridamole injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "11.6–15 h (terminal, IV)",
+    "ev": "with half-lives averaging 3-12 minutes, 33-62 minutes and 11.6-15 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "1–2.5 L/kg (steady state)",
+    "ev": "an apparent volume of distribution at steady state of 1-2.5 L/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "romiplostim": {
+  "label": "preg/romiplostim.json",
+  "brand": "NPLATE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "cyanocobalamin": {
+  "label": "preg/cyanocobalamin.json",
+  "brand": "Cyanocobalamin",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current US label gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the US label",
+  "summary": "The current US label gives no renal dose statement."
+ },
+ "cholestyramine": {
+  "label": "preg/cholestyramine.json",
+  "brand": "Cholestyramine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Use with caution in renal insufficiency (risk of hyperchloraemic acidosis noted in the label); no renal dose.",
+    "ev": [
+     "Caution should also be exercised in patients with renal insufficiency or volume depletion and in patients receiving concomitant spironolactone"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Use with caution in renal insufficiency (risk of hyperchloraemic acidosis noted in the label); no renal dose."
+ },
+ "dicyclomine": {
+  "label": "preg/dicyclomine.json",
+  "brand": "Dicyclomine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Not studied in renal impairment; use with caution.",
+    "ev": [
+     "Effects of renal impairment on PK, safety and efficacy of dicyclomine hydrochloride has not been studied",
+     "Dicyclomine hydrochloride should be used with caution in patients with known hepatic and renal impairment"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈1.8 h (initial phase)",
+    "ev": "Mean half-life of plasma elimination in one study was determined to be approximately 1.8 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈3.65 L/kg (oral 20 mg)",
+    "ev": "Mean volume of distribution for a 20 mg oral dose is approximately 3.65 L/kg",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Not studied in renal impairment; use with caution."
+ },
+ "glycerol-rectal": {
+  "label": "preg/glycerol-rectal.json",
+  "brand": "RAVICTI (glycerol phenylbutyrate)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Efficacy and safety unknown in renal impairment; not studied in ESRD or haemodialysis. Monitor ammonia closely when starting.",
+    "ev": [
+     "The efficacy and safety of RAVICTI in patients with renal impairment are unknown",
+     "Monitor ammonia levels closely when starting patients with impaired renal function on RAVICTI"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "7–12% (PAGN)",
+    "ev": "The protein binding for PAGN was 7% to 12%",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "Efficacy and safety unknown in renal impairment; not studied in ESRD or haemodialysis. Monitor ammonia closely when starting."
+ },
+ "pancrelipase": {
+  "label": "preg/pancrelipase.json",
+  "brand": "ZENPEP",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "High doses can cause hyperuricaemia: consider monitoring uric acid in renal impairment.",
+    "ev": [
+     "Consider monitoring blood uric acid levels in patients with gout, renal impairment, or hyperuricemia during treatment with ZENPEP"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "High doses can cause hyperuricaemia: consider monitoring uric acid in renal impairment."
+ },
+ "fosaprepitant": {
+  "label": "preg/fosaprepitant.json",
+  "brand": "Fosaprepitant",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "PK studied in severe renal impairment (CrCl <30) and in ESRD on haemodialysis; no renal dose change is stated in the label.",
+    "ev": [
+     "A single 240 mg oral dose of aprepitant was administered to patients with severe renal impairment (creatinine clearance less than 30 mL/min/1"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No dose change stated; aprepitant is not removed by haemodialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Aprepitant is not removed by hemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈9–13 h (aprepitant)",
+    "ev": "The apparent terminal half-life ranged from approximately 9 to 13 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈70 L (aprepitant, Vss)",
+    "ev": "The mean apparent volume of distribution at steady state (Vd ss ) was approximately 70 L in humans",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "greater than 95% (aprepitant)",
+    "ev": "Aprepitant is greater than 95% bound to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Aprepitant not removed by hemodialysis (label)",
+    "ev": "Aprepitant is not removed by hemodialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "Renal function (no adjustment stated)",
+  "summary": "Aprepitant exposure studied in severe impairment and haemodialysis; not removed by haemodialysis."
+ },
+ "calcium-chloride": {
+  "label": "us2/calcium-chloride.json",
+  "brand": "Calcium chloride injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hypocalcaemia · US label",
+      "rows": [
+       {
+        "context": "Adults with renal impairment",
+        "dose": "Starting dose 200 mg"
+       }
+      ]
+     }
+    ],
+    "notes": "Monitor serum calcium.",
+    "ev": [
+     "Adults with renal impairment is 200 mg"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈40% of serum calcium (albumin)",
+    "ev": "approximately 40% is protein-bound",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal impairment (start low); serum calcium",
+  "summary": "Adults with renal impairment: start at 200 mg."
+ },
+ "calcium-gluconate": {
+  "label": "preg/calcium-gluconate.json",
+  "brand": "Calcium gluconate injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hypocalcaemia · US label",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "Start at the lowest dose of the range; check serum calcium every 4 h"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients with renal impairment, initiate Calcium Gluconate Injection at the lowest dose of the recommended dose ranges for all age groups and monitor serum calcium levels every 4 hours"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈40% of serum calcium (albumin)",
+    "ev": "approximately 40% is protein-bound (primarily to albumin)",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal impairment (start low); serum calcium",
+  "summary": "Start at the lowest dose of the range and check calcium every 4 hours."
+ },
+ "magnesium-sulfate": {
+  "label": "preg/magnesium-sulfate.json",
+  "brand": "Magnesium sulfate in 5% dextrose",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Pre-eclampsia / eclampsia · US label",
+      "rows": [
+       {
+        "context": "Severe impairment or urine output <0.5 mL/kg/h",
+        "dose": "4 g load, then 1 g/h; do not exceed 20 g over 48 h"
+       }
+      ]
+     }
+    ],
+    "notes": "Titrate to serum magnesium. Aluminium may accumulate with prolonged use in renal impairment.",
+    "ev": [
+     "In patients with severe renal impairment and/or urine output less than 0.5 mL/kg/hour, administer a 4 gram loading dose followed by a maintenance dosage of 1 gram every hour; do not exceed the maximum recommended dosage of 20 grams over 48 hours"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈4–5 h (pre-eclampsia)",
+    "ev": "The average half-life and systemic clearance of magnesium sulfate in preeclamptic women is approximately 4 to 5 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "30% (albumin)",
+    "ev": "Magnesium is 30% bound to albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "Renal impairment / urine output",
+  "summary": "Severe impairment or urine output <0.5 mL/kg/h: 4 g load, then 1 g/h; maximum 20 g in 48 h; titrate to levels."
+ },
+ "potassium-chloride": {
+  "label": "us2/potassium-chloride.json",
+  "brand": "KLOR-CON (potassium chloride ER)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hypokalaemia · US label",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "Start at the low end of the dose range; monitor potassium closely"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Renal Impairment: Initiate therapy at the low end of the dosing range",
+     "Patients with renal impairment have reduced urinary excretion of potassium and are at substantially increased risk of hyperkalemia"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function; serum potassium",
+  "summary": "Start at the low end of the dose range; renal impairment greatly increases hyperkalaemia risk."
+ },
+ "potassium-citrate": {
+  "label": "us2/potassium-citrate.json",
+  "brand": "UROCIT-K",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Kidney stones / RTA · US label",
+      "rows": [
+       {
+        "context": "GFR <0.7 mL/kg/min",
+        "dose": "Contraindicated (soft-tissue calcification and hyperkalaemia risk)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with renal insufficiency (glomerular filtration rate of less than 0.7 ml/kg/min), because of the danger of soft tissue calcification and increased risk for the development of hyperkalemia"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in renal insufficiency with GFR <0.7 mL/kg/min.",
+    "ev": [
+     "In patients with renal insufficiency (glomerular filtration rate of less than 0.7 ml/kg/min), because of the danger of soft tissue calcification and increased risk for the development of hyperkalemia"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "GFR (mL/kg/min)",
+  "summary": "Contraindicated when GFR <0.7 mL/kg/min (soft-tissue calcification, hyperkalaemia)."
+ },
+ "potassium-phosphate": {
+  "label": "us2/potassium-phosphate.json",
+  "brand": "Potassium phosphates injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hypophosphataemia · US label",
+      "rows": [
+       {
+        "context": "eGFR 30–59",
+        "dose": "Start at the low end of the dose range; monitor phosphorus, potassium, calcium, magnesium"
+       },
+       {
+        "context": "eGFR <30 or ESRD",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with moderate renal impairment (eGFR ≥ 30 mL/min/1.73 m 2 to < 60 mL/min/1.73 m 2 ), start at the low end of the dose range",
+     "Severe renal impairment (eGFR less than 30 mL/min/1.73 m 2 ) or end stage renal disease"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in end-stage renal disease.",
+    "ev": [
+     "Severe renal impairment (eGFR less than 30 mL/min/1.73 m 2 ) or end stage renal disease"
+    ]
+   },
+   "pd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in end-stage renal disease.",
+    "ev": [
+     "Severe renal impairment (eGFR less than 30 mL/min/1.73 m 2 ) or end stage renal disease"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "eGFR 30–59: start at the low end of the range. Contraindicated at eGFR <30 or end-stage disease."
+ },
+ "sodium-phosphate-iv": {
+  "label": "us2/sodium-phosphate-iv.json",
+  "brand": "Sodium phosphates injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Use with great care in severe renal insufficiency: sodium retention; no numeric renal dose.",
+    "ev": [
+     "Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Use with great care in severe renal insufficiency: sodium retention; no numeric renal dose."
+ },
+ "doxercalciferol": {
+  "label": "preg/doxercalciferol.json",
+  "brand": "Doxercalciferol injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Secondary hyperparathyroidism, CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start",
+        "dose": "4 mcg IV bolus three times weekly at the end of dialysis (no more often than every other day)"
+       },
+       {
+        "context": "Maximum",
+        "dose": "18 mcg per week"
+       }
+      ]
+     }
+    ],
+    "notes": "Active metabolite not removed by haemodialysis.",
+    "ev": [
+     "Initiate dosing at 4 mcg by bolus intravenous administration three times weekly at the end of dialysis (no more frequently than every other day)",
+     "Maximum dose is 18 mcg weekly"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈32–37 h (active metabolite; up to 96 h)",
+    "ev": "The mean elimination half-life of 1α,25-(OH) 2 D 2 after an oral dose is approximately 32 to 37 hours with a range of up to 96 hours",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Active metabolite not removed by hemodialysis (label)",
+    "ev": "1α,25-(OH) 2 D 2 is not removed from blood during hemodialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "CKD on dialysis (iPTH-guided)",
+  "summary": "CKD on dialysis: 4 mcg IV three times weekly at the end of dialysis; maximum 18 mcg/week; titrate to iPTH."
+ },
+ "sevelamer-hydrochloride": {
+  "label": "preg/sevelamer-hydrochloride.json",
+  "brand": "Sevelamer hydrochloride",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "Not studied in CKD not on dialysis.",
+    "ev": [
+     "The safety and efficacy of sevelamer hydrochloride tablets in CKD patients who are not on dialysis have not been studied"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hyperphosphataemia, CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start",
+        "dose": "800–1600 mg with each meal according to serum phosphorus (label Table 1)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "of sevelamer hydrochloride tablets is 800 to 1600 mg, which can be administered as one or two 800 mg sevelamer hydrochloride tablets or two to four 400 mg sevelamer hydrochloride tablets, with meals based on serum phosphorus level"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hyperphosphataemia, CKD on dialysis · US label",
+      "rows": [
+       {
+        "context": "Start",
+        "dose": "800–1600 mg with each meal according to serum phosphorus (label Table 1)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "of sevelamer hydrochloride tablets is 800 to 1600 mg, which can be administered as one or two 800 mg sevelamer hydrochloride tablets or two to four 400 mg sevelamer hydrochloride tablets, with meals based on serum phosphorus level"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Serum phosphorus (CKD on dialysis)",
+  "summary": "CKD on dialysis: start 800–1600 mg with meals by serum phosphorus; not studied in CKD not on dialysis."
+ },
+ "levocarnitine": {
+  "label": "preg/levocarnitine.json",
+  "brand": "Levocarnitine",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "High-dose oral levocarnitine can accumulate toxic metabolites (TMA, TMAO) in severe renal impairment or ESRD on dialysis; oral safety not evaluated in renal insufficiency.",
+    "ev": [
+     "The safety and efficacy of oral levocarnitine has not been evaluated in patients with renal insufficiency",
+     "Chronic administration of high doses of oral levocarnitine in patients with severely compromised renal function or in ESRD patients on dialysis may result in accumulation of the potentially toxic metabolites, trimethylamine (TMA) and trimethylamine-N-oxide (TMAO)"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "17.4 h (apparent terminal)",
+    "ev": "the mean apparent terminal elimination half life was 17.4 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "High-dose oral levocarnitine can accumulate toxic metabolites (TMA, TMAO) in severe renal impairment or ESRD on dialysis; oral safety not evaluated in renal insufficiency."
+ },
+ "sodium-polystyrene-sulfonate": {
+  "label": "preg/sodium-polystyrene-sulfonate.json",
+  "brand": "Sodium polystyrene sulfonate",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Consider dialysis and other definitive measures in severe hyperkalaemia; no renal dose. Intestinal necrosis risk factors include renal failure.",
+    "ev": [
+     "Therefore, other definitive measures, including dialysis, should always be considered and may be imperative"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "Consider dialysis and other definitive measures in severe hyperkalaemia; no renal dose. Intestinal necrosis risk factors include renal failure."
+ },
+ "ergocalciferol": {
+  "label": "preg/ergocalciferol.json",
+  "brand": "Ergocalciferol",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose in the label; hypervitaminosis D can impair renal function — monitor calcium.",
+    "ev": [
+     "Impairment of renal function with polyuria, nocturia, polydipsia, hypercalciuria, reversible azotemia, hypertension, nephrocalcinosis, generalized vascular calcification, or irreversible renal insufficiency"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "No renal dose in the label; hypervitaminosis D can impair renal function — monitor calcium."
+ },
+ "allopurinol-iv": {
+  "label": "preg/allopurinol-iv.json",
+  "brand": "ALOPRIM (allopurinol IV)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Tumour lysis prophylaxis, IV · US label Table 2",
+      "rows": [
+       {
+        "context": "CrCl 10–20 mL/min",
+        "dose": "200 mg/day"
+       },
+       {
+        "context": "CrCl <10 mL/min",
+        "dose": "100 mg/day"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Creatinine Clearance Recommended Daily Dose 10 to 20 mL/min 200 mg/day Less than 10 mL/min 100 mg/day On dialysis 50 mg every 12 hours, or 100 mg every 24 hours"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label Table 2",
+      "rows": [
+       {
+        "context": "On dialysis",
+        "dose": "50 mg every 12 h or 100 mg every 24 h"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Creatinine Clearance Recommended Daily Dose 10 to 20 mL/min 200 mg/day Less than 10 mL/min 100 mg/day On dialysis 50 mg every 12 hours, or 100 mg every 24 hours"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1.21 ± 0.33 h (allopurinol); 23.5 ± 4.5 h (oxypurinol)",
+    "ev": "The half-life (mean ± S.D.) of allopurinol and oxypurinol are approximately 1.21 ± 0.33 and 23.5 ± 4.5 hours following intravenous administration, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.87 ± 0.13 L/kg (steady state)",
+    "ev": "The steady-state allopurinol volume of distribution (mean ± S.D.) is approximately 0.87 ± 0.13 L/Kg following intravenous adminstration",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "CrCl 10–20: 200 mg/day; <10: 100 mg/day; on dialysis 50 mg every 12 h or 100 mg every 24 h."
+ },
+ "ambrisentan": {
+  "label": "preg/ambrisentan.json",
+  "brand": "LETAIRIS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Mild or moderate impairment",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "Severe impairment",
+        "dose": "Not characterised (studied CrCl 20–150)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "There was no significant impact of mild or moderate renal impairment on exposure to ambrisentan",
+     "Dose adjustment of Letairis in patients with mild or moderate renal impairment is therefore not required"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "15 h (terminal)",
+    "ev": "Although ambrisentan has a 15-hour terminal half-life",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "99%",
+    "ev": "Ambrisentan is highly bound to plasma proteins (99%)",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "bosentan": {
+  "label": "preg/bosentan.json",
+  "brand": "TRACLEER",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "The effect of renal impairment on the pharmacokinetics of bosentan is small and does not require dosing adjustment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No adjustment stated; unlikely to be removed by dialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Bosentan is unlikely to be effectively removed by dialysis due to the high molecular weight and extensive plasma protein binding"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈18 L",
+    "ev": "The volume of distribution is about 18 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">98%",
+    "ev": "Bosentan is highly bound (>98%) to plasma proteins, mainly albumin",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "iloprost": {
+  "label": "preg/iloprost.json",
+  "brand": "Iloprost injection",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "IV iloprost · US label",
+      "rows": [
+       {
+        "context": "eGFR <30 mL/min",
+        "dose": "Start at 0.5 ng/kg/min and titrate; reduce to 0.25 ng/kg/min if not tolerated"
+       }
+      ]
+     }
+    ],
+    "notes": "Effect of dialysis not evaluated.",
+    "ev": [
+     "Patients with renal impairment with eGFR less than 30 mL/min: initiate infusion at 0.5 ng/kg/minute and titrate as described above",
+     "The effect of dialysis on iloprost exposure has not been evaluated"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "20–30 min",
+    "ev": "The half-life of iloprost is 20 to 30 minutes",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "0.7–0.8 L/kg (steady state, IV)",
+    "ev": "the apparent steady-state volume of distribution was 0.7 to 0.8 L/kg in healthy subjects",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈60%",
+    "ev": "Iloprost is approximately 60% protein-bound",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "eGFR · mL/min",
+  "summary": "eGFR <30: start the infusion at 0.5 ng/kg/min (0.25 if not tolerated) and titrate."
+ },
+ "macitentan": {
+  "label": "preg/macitentan.json",
+  "brand": "OPSUMIT",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "At CrCl 15–29, exposure rose 30% (active metabolite 60%); the label gives no renal dose change.",
+    "ev": [
+     "Exposure to macitentan and its active metabolite in patients with severe renal impairment (CrCl 15–29 mL/min) compared to healthy subjects was increased by 30% and 60%, respectively"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈16 h (macitentan); 48 h (active metabolite)",
+    "ev": "the apparent elimination half-lives of macitentan and its active metabolite are approximately 16 hours and 48 hours, respectively",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈50 L (Vss/F)",
+    "ev": "The apparent volumes of distribution (Vss/F) of macitentan and its active metabolite were about 50 L and 40 L respectively in healthy subjects",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99%",
+    "ev": "Macitentan and its active metabolite are highly bound to plasma proteins (>99%)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialysis unlikely to be effective (label)",
+    "ev": "Dialysis is unlikely to be effective because macitentan is highly protein-bound",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "Exposure up 30% (60% for the metabolite) at CrCl 15–29; no dose change stated. Dialysis unlikely to remove it."
+ },
+ "pegloticase": {
+  "label": "preg/pegloticase.json",
+  "brand": "KRYSTEXXA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required for patients with renal impairment"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "probenecid": {
+  "label": "preg/probenecid.json",
+  "brand": "Probenecid",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Gout · US label",
+      "rows": [
+       {
+        "context": "Some renal impairment",
+        "dose": "Usable; dose requirements may be higher"
+       },
+       {
+        "context": "GFR ≤30 mL/min",
+        "dose": "May not be effective"
+       }
+      ]
+     }
+    ],
+    "notes": "Not recommended with a penicillin when renal impairment is known.",
+    "ev": [
+     "Probenecid has been used in patients with some renal impairment but dosage requirements may be increased",
+     "Probenecid may not be effective in chronic renal insufficiency particularly when the glomerular filtration rate is 30 mL/minute or less",
+     "Because of its mechanism of action, probenecid is not recommended in conjunction with a penicillin in the presence of known renal impairment"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "GFR · mL/min",
+  "summary": "May not be effective at GFR ≤30; avoid with penicillin in renal impairment."
+ },
+ "selexipag": {
+  "label": "preg/selexipag.json",
+  "brand": "UPTRAVI",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥15 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "eGFR <15 or dialysis",
+        "dose": "No clinical experience"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No adjustment to the dosing regimen is needed in patients with estimated glomerular filtration rate ≥15 mL/min",
+     "There is no clinical experience with UPTRAVI in patients undergoing dialysis or in patients with glomerular filtration rates <15 mL/min"
+    ]
+   },
+   "ihd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "No clinical experience on dialysis; dialysis unlikely to remove it (highly protein bound).",
+    "ev": [
+     "Dialysis is unlikely to be effective because selexipag and its active metabolite are highly protein-bound"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "0.8–2.5 h (terminal)",
+    "ev": "with a mean terminal half-life of 0.8–2.5 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "11.7 L (steady state)",
+    "ev": "The volume of distribution of selexipag at steady-state is 11.7 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈99% (with active metabolite)",
+    "ev": "Selexipag and its active metabolite are highly bound to plasma proteins (approximately 99% in total",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "sildenafil": {
+  "label": "preg/sildenafil.json",
+  "brand": "VIAGRA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Erectile dysfunction · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–80 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Consider a 25 mg starting dose"
+       }
+      ]
+     }
+    ],
+    "notes": "Revatio (PAH) has its own label.",
+    "ev": [
+     "No dose adjustment is required for mild (CLcr=50–80 mL/min) and moderate (CLcr=30–49 mL/min) renal impairment",
+     "Consider a starting dose of 25 mg in patients > 65 years, patients with hepatic impairment (e.g., cirrhosis), and patients with severe renal impairment ("
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈4 h (sildenafil and metabolite)",
+    "ev": "Both sildenafil and the metabolite have terminal half lives of about 4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "105 L (Vss)",
+    "ev": "The mean steady state volume of distribution (Vss) for sildenafil is 105 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈96%",
+    "ev": "Sildenafil and its major circulating N-desmethyl metabolite are both approximately 96% bound to plasma proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl ≥30; consider starting at 25 mg if CrCl <30 (higher levels)."
+ },
+ "tadalafil": {
+  "label": "preg/tadalafil.json",
+  "brand": "Tadalafil (ED/BPH)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Erectile dysfunction, as needed · US label",
+      "rows": [
+       {
+        "context": "CrCl 30–50 mL/min",
+        "dose": "Start 5 mg no more than once daily; maximum 10 mg once every 48 h"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Maximum 5 mg once every 72 h"
+       }
+      ]
+     },
+     {
+      "indication": "Once-daily use · US label",
+      "rows": [
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "Adcirca (PAH) has its own label.",
+    "ev": [
+     "Creatinine clearance 30 to 50 mL/min: A starting dose of 5 mg not more than once per day is recommended, and the maximum dose is 10 mg not more than once in every 48 hours",
+     "Creatinine clearance less than 30 mL/min or on hemodialysis: The maximum dose is 5 mg not more than once in every 72 hours",
+     "Creatinine clearance less than 30 mL/min or on hemodialysis: tadalafil tablets for once daily use are not recommended"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "As needed",
+        "dose": "Maximum 5 mg once every 72 h"
+       },
+       {
+        "context": "Once daily",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Creatinine clearance less than 30 mL/min or on hemodialysis: The maximum dose is 5 mg not more than once in every 72 hours",
+     "Creatinine clearance less than 30 mL/min or on hemodialysis: tadalafil tablets for once daily use are not recommended"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "17.5 h (terminal)",
+    "ev": "the mean terminal half-life is 17.5 hours in healthy subjects",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈63 L (apparent, oral)",
+    "ev": "The mean apparent volume of distribution following oral administration is approximately 63 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "94%",
+    "ev": "At therapeutic concentrations, 94% of tadalafil in plasma is bound to proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "As needed: CrCl 30–50 start 5 mg, max 10 mg per 48 h; CrCl <30 or haemodialysis max 5 mg per 72 h. Once-daily use not recommended at CrCl <30."
+ },
+ "treprostinil": {
+  "label": "preg/treprostinil.json",
+  "brand": "Treprostinil",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · US label",
+      "rows": [
+       {
+        "context": "Any renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustments are required in patients with renal impairment"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Dialysis · US label",
+      "rows": [
+       {
+        "context": "Severe impairment on dialysis",
+        "dose": "No adjustment: exposure unchanged; not cleared by dialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "In patients with severe renal impairment requiring dialysis (n=8), administration of a single 1 mg dose of orally administered treprostinil pre- and post-dialysis resulted in AUC 0-inf that was not significantly altered compared to healthy subjects",
+     "Treprostinil is not cleared by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈4 h (terminal, SC)",
+    "ev": "with a terminal elimination half-life of approximately 4 hours using a 2-compartment model",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈14 L/70 kg IBW (Vss)",
+    "ev": "the apparent steady state volume of distribution (V ss ) of treprostinil is approximately 14 L/70 kg ideal body weight",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "91% (in vitro)",
+    "ev": "In vitro treprostinil is 91% bound to human plasma proteins",
+    "status": "sourced"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (US label)",
+  "summary": "No renal dose adjustment (US label)."
+ },
+ "allopurinol": {
+  "label": "preg/allopurinol.json",
+  "brand": "Allopurinol tablets",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "On dialysis",
+        "dose": "50 mg every 12 h or 100 mg every 24 h"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "eGFR Recommended Dosage > 20 mL/min to 60 mL/min No dosage modification 10 mL/min to 20 mL/min 200 mg/day < 10 mL/min 100 mg/day On dialysis 50 mg every 12 hours, or 100 mg every 24 hours",
+     "Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "1–2 h (allopurinol); 15 h (oxipurinol)",
+    "ev": "The half-life of allopurinol and oxipurinol are approximately 1 hour to 2 hours and 15 hours following oral dose of allopurinol, respectively",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Allopurinol and oxipurinol are dialyzable (label)",
+    "ev": "Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown",
+    "status": "removed"
+   },
+   "pd": {
+    "value": "Dialyzable (label)",
+    "ev": "Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown",
+    "status": "removed"
+   }
+  }
+ },
+ "semaglutide-oral": {
+  "label": "us2/semaglutide-oral.json",
+  "brand": "RYBELSUS",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD / dialysis",
+        "dose": "No adjustment: no clinically relevant PK change in renal impairment including ESRD"
+       }
+      ]
+     }
+    ],
+    "notes": "Volume depletion from GI effects has caused acute kidney injury.",
+    "ev": [
+     "In patients with renal impairment including end-stage renal disease (ESRD), no clinically relevant change in semaglutide pharmacokinetics was observed"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈8 L (absolute)",
+    "ev": "Semaglutide absolute volume of distribution is approximately 8 L in patients with type 2 diabetes",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99% (albumin)",
+    "ev": "Semaglutide is >99% bound to plasma albumin",
+    "status": "sourced"
+   }
+  }
+ },
+ "linagliptin": {
+  "label": "preg/linagliptin.json",
+  "brand": "TRADJENTA",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Haemodialysis",
+        "dose": "No dialysis dose in the label; removal by haemodialysis or PD unlikely, so no supplement"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely"
+    ]
+   },
+   "pd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Peritoneal dialysis · US label",
+      "rows": [
+       {
+        "context": "Peritoneal dialysis",
+        "dose": "No PD dose in the label; removal unlikely, so no supplement"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "≈200 h terminal (accumulation ≈11 h)",
+    "ev": "Linagliptin has a terminal half-life of about 200 hours at steady-state, though the accumulation half-life is about 11 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈1,110 L (steady state)",
+    "ev": "is approximately 1,110 L, indicating that linagliptin extensively distributes to the tissues",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈99% falling to 75–89% (concentration-dependent)",
+    "ev": "Plasma protein binding of linagliptin is concentration-dependent, decreasing from about 99% at 1 nmol/L to 75%-89% at ≥30 nmol/L",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removal unlikely (label)",
+    "ev": "Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely",
+    "status": "not_removed"
+   },
+   "pd": {
+    "value": "Removal unlikely (label)",
+    "ev": "Removal of linagliptin by hemodialysis or peritoneal dialysis is unlikely",
+    "status": "not_removed"
+   }
+  }
+ },
+ "glipizide": {
+  "label": "preg/glipizide.json",
+  "brand": "Glipizide",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No dialysis dose in the label; dialysis is unlikely to remove glipizide (overdose context).",
+    "ev": [
+     "Because of the extensive protein binding of glipizide, dialysis is unlikely to be of benefit"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "Unlikely to be of benefit (label)",
+    "ev": "Because of the extensive protein binding of glipizide, dialysis is unlikely to be of benefit",
+    "status": "not_removed"
+   }
+  }
+ },
+ "alfuzosin": {
+  "label": "preg/alfuzosin.json",
+  "brand": "UROXATRAL",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No dialysis dose in the label; dialysis may not remove alfuzosin (overdose context).",
+    "ev": [
+     "Alfuzosin is 82% to 90% protein bound; therefore, dialysis may not be of benefit"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "10 h (apparent, 10 mg ER)",
+    "ev": "Following oral administration of UROXATRAL 10 mg tablets, the apparent elimination half-life is 10 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "82–90%",
+    "ev": "Results of in vitro studies indicate that alfuzosin is moderately bound to human plasma proteins (82% to 90%)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "May not be of benefit (protein bound; label)",
+    "ev": "Alfuzosin is 82% to 90% protein bound; therefore, dialysis may not be of benefit",
+    "status": "not_removed"
+   }
+  }
+ },
+ "silodosin": {
+  "label": "preg/silodosin.json",
+  "brand": "Silodosin",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No dialysis dose in the label; dialysis unlikely to remove silodosin (overdose context).",
+    "ev": [
+     "Dialysis is unlikely to be of significant benefit since silodosin is highly (97%) protein bound"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "49.5 L (apparent)",
+    "ev": "Silodosin has an apparent volume of distribution of 49.5 L and is approximately 97% protein bound",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈97%",
+    "ev": "Silodosin has an apparent volume of distribution of 49.5 L and is approximately 97% protein bound",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Unlikely to be of benefit (label)",
+    "ev": "Dialysis is unlikely to be of significant benefit since silodosin is highly (97%) protein bound",
+    "status": "not_removed"
+   }
+  }
+ },
+ "alendronate": {
+  "label": "preg/alendronate.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "≈78%",
+    "ev": "Protein binding in human plasma is approximately 78%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not beneficial in overdose (label)",
+    "ev": "Dialysis would not be beneficial",
+    "status": "not_removed"
+   }
+  }
+ },
+ "alogliptin": {
+  "label": "preg/alogliptin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈21 h (terminal)",
+    "ev": "Alogliptin tablets was eliminated with a mean terminal half-life (t 1/2 ) of approximately 21 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "417 L (terminal phase, IV)",
+    "ev": "the volume of distribution during the terminal phase was 417 L, indicating that the drug is well distributed into tissues",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "20%",
+    "ev": "Alogliptin is 20% bound to plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "apixaban": {
+  "label": "preg/apixaban.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈12 h (apparent, oral)",
+    "ev": "an apparent half-life of approximately 12 hours following oral administration",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈21 L (Vss)",
+    "ev": "The volume of distribution (Vss) is approximately 21 liters",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈87%",
+    "ev": "Plasma protein binding in humans is approximately 87%",
+    "status": "sourced"
+   }
+  }
+ },
+ "atrasentan": {
+  "label": "preg/atrasentan.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈24–41 h (effective)",
+    "ev": "Atrasentan effective half-life is approximately 24 to 41 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "1180 L (Vd/F)",
+    "ev": "Atrasentan steady-state apparent (oral) volume of distribution (Vd/F) is 1180 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "> 99% (in vitro)",
+    "ev": "Atrasentan is > 99% bound to human plasma proteins, in vitro",
+    "status": "sourced"
+   }
+  }
+ },
+ "budesonide-targeted": {
+  "label": "preg/budesonide-targeted.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "6.3 ± 1.6 h (oral 9 mg; range 2–8)",
+    "ev": "The mean ± SD plasma elimination half-life after a single dose of budesonide delayed-release capsules (9 mg) in the fasted state (N=24) in healthy subjects was 6.3 ± 1.6 hours and ranged between 2 and 8 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "2.2 ± 0.4 L/kg (Vss, IV)",
+    "ev": "the mean volume of distribution (V ss ) was 2.2 ± 0.4 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "85–90%",
+    "ev": "Plasma protein binding was estimated to be 85% to 90%",
+    "status": "sourced"
+   }
+  }
+ },
+ "canagliflozin": {
+  "label": "preg/canagliflozin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "10.6 h (100 mg); 13.1 h (300 mg)",
+    "ev": "The apparent terminal half-life (t 1/2 ) was 10.6 hours and 13.1 hours for the 100 mg and 300 mg doses, respectively",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "99%",
+    "ev": "Canagliflozin is extensively bound to proteins in plasma (99%), mainly to albumin",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Negligibly removed by hemodialysis (label)",
+    "ev": "Canagliflozin was negligibly removed by hemodia",
+    "status": "negligible"
+   }
+  }
+ },
+ "cinacalcet": {
+  "label": "preg/cinacalcet.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "30–40 h (terminal)",
+    "ev": "an initial half-life of approximately 6 hours and terminal half-life of 30 to 40 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈1000 L",
+    "ev": "The volume of distribution is approximately 1000 L, indicating extensive distribution",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "93–97%",
+    "ev": "Cinacalcet is approximately 93% to 97% bound to plasma protein(s)",
+    "status": "sourced"
+   }
+  }
+ },
+ "colchicine": {
+  "label": "preg/colchicine.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "31 h (range 21.7–49.9)",
+    "ev": "Elimination half-life in humans was found to be 31 h (range 21.7 to 49.9 h)",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "18.8 h vs 4.4 h (ESRD; clearance 75% lower)",
+    "ev": "Patients with end-stage renal disease had 75% lower colchicine clearance (0.17 vs. 0.73 L/hr/kg) and prolonged plasma elimination half-life (18.8 hrs vs. 4.4 hrs) as compared to subjects with normal renal function",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈5–8 L/kg",
+    "ev": "Colchicine has a mean apparent volume of distribution in healthy young volunteers of approximately 5 to 8 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈39%",
+    "ev": "Colchicine binding to serum protein is about 39%, primarily to albumin",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not effectively removed by hemodialysis (label)",
+    "ev": "Colchicine is not effectively removed by hemodialysis",
+    "status": "not_removed"
+   }
+  }
+ },
+ "dabigatran": {
+  "label": "preg/dabigatran.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "50–70 L",
+    "ev": "The volume of distribution of dabigatran is 50 to 70 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈35%",
+    "ev": "Dabigatran is approximately 35% bound to human plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "dapagliflozin": {
+  "label": "preg/dapagliflozin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈12.9 h (terminal)",
+    "ev": "The mean plasma terminal half-life (t ½ ) for dapagliflozin is approximately 12.9 hours following a single oral dose of FARXIGA 10 mg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈91%",
+    "ev": "Dapagliflozin is approximately 91% protein bound",
+    "status": "sourced"
+   }
+  }
+ },
+ "daprodustat": {
+  "label": "preg/daprodustat.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈1–4 h (terminal)",
+    "ev": "The terminal elimination half-life of daprodustat is approximately 1 hour to 4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "14.3 L (steady state, IV)",
+    "ev": "the volume of distribution at steady-state in healthy subjects is 14.3 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99% (in vitro)",
+    "ev": "plasma protein binding of daprodustat is >99%",
+    "status": "sourced"
+   }
+  }
+ },
+ "denosumab": {
+  "label": "preg/denosumab.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "25.4 days (mean)",
+    "ev": "a mean half-life of 25.4 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "5.2 L",
+    "ev": "The mean volume of distribution for denosumab was 5.2 L",
+    "status": "sourced"
+   }
+  }
+ },
+ "difelikefalin": {
+  "label": "preg/difelikefalin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "23–31 h (haemodialysis patients, pre-dialysis)",
+    "ev": "The half-life of difelikefalin in HD subjects prior to dialysis ranged between 23 and 31 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈238 mL/kg",
+    "ev": "The mean volume of distribution of difelikefalin is approximately 238 mL/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈23–28% (dialysis patients)",
+    "ev": "a low plasma protein binding of approximately 23% to 28% in dialysis patients",
+    "status": "sourced"
+   }
+  }
+ },
+ "diphenoxylate-atropine": {
+  "label": "preg/diphenoxylate-atropine.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈12–14 h (diphenoxylic acid)",
+    "ev": "the elimination half-life of diphenoxylic acid was approximately 12 to 14 hours",
+    "status": "sourced"
+   }
+  }
+ },
+ "dulaglutide": {
+  "label": "preg/dulaglutide.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈5 days",
+    "ev": "The elimination half-life of dulaglutide was approximately 5 days",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "3.09 L central; 5.98 L peripheral (apparent)",
+    "ev": "Apparent population mean central volume of distribution was 3.09 L and the apparent population mean peripheral volume of distribution was 5.98 L",
+    "status": "sourced"
+   }
+  }
+ },
+ "dutasteride": {
+  "label": "preg/dutasteride.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "300–500 L",
+    "ev": "dutasteride has a large volume of distribution (300 to 500 L)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "99.0% (albumin); 96.6% (α1-acid glycoprotein)",
+    "ev": "Dutasteride is highly bound to plasma albumin (99.0%) and alpha-1 acid glycoprotein (96.6%)",
+    "status": "sourced"
+   }
+  }
+ },
+ "edoxaban": {
+  "label": "preg/edoxaban.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "10–14 h (terminal)",
+    "ev": "The terminal elimination half-life of edoxaban following oral administration is 10 to 14 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈55% (in vitro)",
+    "ev": "In vitro plasma protein binding is approximately 55%",
+    "status": "sourced"
+   }
+  }
+ },
+ "empagliflozin": {
+  "label": "preg/empagliflozin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "12.4 h (apparent terminal)",
+    "ev": "The apparent terminal elimination half-life of empagliflozin was estimated to be 12.4 h",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "73.8 L (steady state, apparent)",
+    "ev": "The apparent steady-state volume of distribution was estimated to be 73.8 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "86.2%",
+    "ev": "plasma protein binding was 86.2%",
+    "status": "sourced"
+   }
+  }
+ },
+ "enoxaparin": {
+  "label": "preg/enoxaparin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "4.5 h (single dose) to ≈7 h (repeated; anti-Xa)",
+    "ev": "Elimination half-life based on anti-Factor Xa activity was 4.5 hours after a single subcutaneous dose to about 7 hours after repeated dosing",
+    "status": "sourced"
+   }
+  }
+ },
+ "ertugliflozin": {
+  "label": "preg/ertugliflozin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "16.6 h",
+    "ev": "The mean elimination half-life in type 2 diabetic patients with normal renal function was estimated to be 16.6 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "85.5 L (steady state, IV)",
+    "ev": "The mean steady-state volume of distribution of ertugliflozin following an intravenous dose is 85.5 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "93.6%",
+    "ev": "Plasma protein binding of ertugliflozin is 93.6%",
+    "status": "sourced"
+   }
+  }
+ },
+ "etelcalcetide": {
+  "label": "preg/etelcalcetide.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈796 L (Vss)",
+    "ev": "volume of distribution at steady state (V ss ) was approximately 796 L",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Cleared by dialysis (label)",
+    "ev": "Although PARSABIV is cleared by dialysis, hemodialysis has not been studied as a treatment for PARSABIV overdosage",
+    "status": "removed"
+   }
+  }
+ },
+ "exenatide-ir": {
+  "label": "preg/exenatide-ir.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "2.4 h (terminal)",
+    "ev": "the mean terminal half-life is 2.4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "28.3 L (apparent, SC)",
+    "ev": "The mean apparent volume of distribution of exenatide following SC administration of a single dose of BYETTA is 28.3 L",
+    "status": "sourced"
+   }
+  }
+ },
+ "famotidine": {
+  "label": "preg/famotidine.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "2.5–3.5 h",
+    "ev": "Famotidine has an elimination half-life of 2.5-3.5 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "Fifteen to 20%",
+    "ev": "Fifteen to 20% of famotidine in plasma is protein bound",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Eliminated by hemodialysis (label)",
+    "ev": "Due to low binding to plasma proteins, famotidine is eliminated by hemodialysis",
+    "status": "removed"
+   }
+  }
+ },
+ "febuxostat": {
+  "label": "preg/febuxostat.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈5–8 h (apparent terminal)",
+    "ev": "Febuxostat has an apparent mean terminal elimination half-life (t 1/2 ) of approximately 5 to 8 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈50 L (Vss/F)",
+    "ev": "The mean apparent steady state volume of distribution (V ss /F) of febuxostat was approximately 50 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈99.2%",
+    "ev": "The plasma protein binding of febuxostat is approximately 99.2% (primarily to albumin)",
+    "status": "sourced"
+   }
+  }
+ },
+ "finasteride": {
+  "label": "preg/finasteride.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "6 h (range 3–16)",
+    "ev": "mean elimination half-life in plasma was 6 hours (range, 3 to 16 hours)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "76 L (steady state)",
+    "ev": "Mean steady-state volume of distribution was 76 liters (range, 44 to 96 liters)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈90%",
+    "ev": "Approximately 90% of circulating finasteride is bound to plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "liraglutide": {
+  "label": "preg/liraglutide.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈13 L (apparent, SC); 0.07 L/kg (IV)",
+    "ev": "The mean apparent volume of distribution after subcutaneous administration of liraglutide 0.6 mg is approximately 13 L. The mean volume of distribution after intravenous administration of liraglutide is 0.07 L/kg",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">98%",
+    "ev": "Liraglutide is extensively bound to plasma protein (>98%)",
+    "status": "sourced"
+   }
+  }
+ },
+ "lubiprostone": {
+  "label": "preg/lubiprostone.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "≈94%",
+    "ev": "lubiprostone is approximately 94% bound to human plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "metformin": {
+  "label": "preg/metformin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈6.2 h (plasma)",
+    "ev": "with a plasma elimination half-life of approximately 6.2 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "654 ± 358 L (V/F, 850 mg)",
+    "ev": "The apparent volume of distribution (V/F) of metformin following single oral doses of metformin hydrochloride tablets 850 mg averaged 654 ± 358 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "Negligible",
+    "ev": "Metformin is negligibly bound to plasma proteins",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Dialyzable, clearance up to 170 mL/min (label)",
+    "ev": "Metformin is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions",
+    "status": "removed"
+   }
+  }
+ },
+ "metoclopramide": {
+  "label": "preg/metoclopramide.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "5–6 h (normal renal function)",
+    "ev": "The average elimination half-life in individuals with normal renal function is 5 to 6 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈3.5 L/kg",
+    "ev": "The whole body volume of distribution is high (about 3.5 L/kg)",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈30%",
+    "ev": "The drug is not extensively bound to plasma proteins (about 30%)",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removes relatively little (label)",
+    "ev": "Hemodialysis removes relatively little metoclopramide, probably because of the small amount of the drug in blood relative to tissues",
+    "status": "limited"
+   }
+  }
+ },
+ "mirabegron": {
+  "label": "preg/mirabegron.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈50 h (terminal)",
+    "ev": "The terminal elimination half-life (t 1/2 ) of mirabegron is approximately 50 hours in patients",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈1670 L (Vss, IV)",
+    "ev": "The volume of distribution at steady-state (V ss ) is approximately 1670 L following intravenous administration",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈71%",
+    "ev": "Mirabegron is bound (approximately 71%) to human plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "ondansetron": {
+  "label": "preg/ondansetron.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "70–76% (in vitro)",
+    "ev": "Plasma protein binding of ondansetron as measured in vitro was 70% to 76%",
+    "status": "sourced"
+   }
+  }
+ },
+ "oxybutynin": {
+  "label": "preg/oxybutynin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "193 L (IV)",
+    "ev": "The volume of distribution is 193 L after intravenous administration of 5 mg oxybutynin chloride",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "> 99%",
+    "ev": "Both enantiomers of oxybutynin are highly bound (> 99%) to plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "prucalopride": {
+  "label": "preg/prucalopride.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈1 day (terminal)",
+    "ev": "The terminal half-life is approximately 1 day",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈30%",
+    "ev": "The plasma protein binding of prucalopride is approximately 30%",
+    "status": "sourced"
+   }
+  }
+ },
+ "rivaroxaban": {
+  "label": "preg/rivaroxaban.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "5–9 h (healthy, 20–45 y)",
+    "ev": "The terminal elimination half-life of rivaroxaban is 5 to 9 hours in healthy subjects aged 20 to 45 years",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈50 L (steady state)",
+    "ev": "The steady-state volume of distribution in healthy subjects is approximately 50 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈92–95%",
+    "ev": "Protein binding of rivaroxaban in human plasma is approximately 92% to 95%",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not dialyzable (label)",
+    "ev": "Due to the high plasma protein binding, rivaroxaban is not dialyzable",
+    "status": "not_removed"
+   }
+  }
+ },
+ "saxagliptin": {
+  "label": "preg/saxagliptin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "2.5 h (saxagliptin); 3.1 h (active metabolite)",
+    "ev": "the mean plasma terminal half-life (t 1/2 ) for saxagliptin and its active metabolite was 2.5 and 3.1 hours, respectively",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Removed by hemodialysis: 23% of dose over 4 h (label)",
+    "ev": "Saxagliptin and its active metabolite are removed by hemodialysis (23% of dose over 4 hours)",
+    "status": "removed"
+   }
+  }
+ },
+ "semaglutide-sc": {
+  "label": "preg/semaglutide-sc.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "≈12.5 L (apparent, SC)",
+    "ev": "The mean apparent volume of distribution of semaglutide following subcutaneous administration in patients with type 2 diabetes is approximately 12.5 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99% (albumin)",
+    "ev": "Semaglutide is extensively bound to plasma albumin (>99%)",
+    "status": "sourced"
+   }
+  }
+ },
+ "sitagliptin": {
+  "label": "preg/sitagliptin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈12.4 h (apparent terminal)",
+    "ev": "The apparent terminal t 1/2 following a 100 mg oral dose of sitagliptin was approximately 12.4 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈198 L (steady state, IV)",
+    "ev": "The mean volume of distribution at steady state following a single 100-mg intravenous dose of sitagliptin to healthy subjects is approximately 198 liters",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "38% (low)",
+    "ev": "The fraction of sitagliptin reversibly bound to plasma proteins is low (38%)",
+    "status": "sourced"
+   },
+   "pd": {
+    "value": "Not known (label)",
+    "ev": "It is not known if sitagliptin is dialyzable by peritoneal dialysis",
+    "status": "unknown"
+   }
+  }
+ },
+ "solifenacin": {
+  "label": "preg/solifenacin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈45–68 h (chronic dosing)",
+    "ev": "The elimination half-life (t 1/2 ) of solifenacin following chronic dosing is approximately 45-68 hours",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "600 L (steady state)",
+    "ev": "having a mean steady-state volume of distribution of 600 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈98% (in vivo)",
+    "ev": "Solifenacin is approximately 98% ( in vivo ) bound to human plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "sparsentan": {
+  "label": "preg/sparsentan.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "9.6 h (steady state)",
+    "ev": "The half-life of sparsentan is estimated to be 9.6 hours at steady state",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "61.4 L (400 mg); 86.5 L (800 mg)",
+    "ev": "The apparent volume of distribution for sparsentan at steady state is 61.4 L at 400 mg and 86.5 L at 800 mg, respectively",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": ">99%",
+    "ev": "Sparsentan is >99% bound to human plasma proteins",
+    "status": "sourced"
+   }
+  }
+ },
+ "tenapanor-phosphate": {
+  "label": "preg/tenapanor-phosphate.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "proteinBinding": {
+    "value": "≈99% (in vitro)",
+    "ev": "Plasma protein binding of tenapanor and its major metabolite, M1, is approximately 99% and 97%, respectively",
+    "status": "sourced"
+   }
+  }
+ },
+ "tirzepatide": {
+  "label": "preg/tirzepatide.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈5–6 days",
+    "ev": "The elimination half-life is approximately 5-6 days in patients with overweight or obesity",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "99% (albumin)",
+    "ev": "Tirzepatide is highly bound to plasma albumin (99%)",
+    "status": "sourced"
+   }
+  }
+ },
+ "tolterodine": {
+  "label": "preg/tolterodine.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "2.4 h (tolterodine); 3.0–3.3 h (5-HM metabolite)",
+    "ev": "The elimination half-life of tolterodine for both males and females is 2.4 hours, and the half-life of the 5-hydroxymethyl metabolite is 3.0 hours in females and 3.3 hours in males",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "113 ± 26.7 L (IV)",
+    "ev": "The volume of distribution of tolterodine following administration of a 1.28 mg intravenous dose is 113 ± 26.7 L",
+    "status": "sourced"
+   }
+  }
+ },
+ "trospium": {
+  "label": "preg/trospium.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈20 h (oral)",
+    "ev": "The plasma half-life for trospium chloride following oral administration is approximately 20 hours",
+    "status": "sourced"
+   },
+   "renalHalfLife": {
+    "value": "Additional ≈33 h phase; AUC 4.2× (severe impairment)",
+    "ev": "A 4.2-fold and 1.8-fold increase in mean AUC( 0-∞ ) and C max , respectively, and the appearance of an additional elimination phase with a long half-life (~33 hours vs. 18 hours) were detected in patients with severe renal impairm",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "50–85%",
+    "ev": "Protein binding ranged from 50 to 85%",
+    "status": "sourced"
+   }
+  }
+ },
+ "vadadustat": {
+  "label": "preg/vadadustat.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "13.9 h (chronic haemodialysis)",
+    "ev": "The mean half-life of vadadustat in patients on chronic hemodialysis was 13.9 hours",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≥99.5%",
+    "ev": "Protein binding of vadadustat is ≥99.5% in human plasma",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "≈16% of dose removed by dialysis (label)",
+    "ev": "Approximately 16% of the vadadustat dose is removed by dialysis",
+    "status": "limited"
+   }
+  }
+ },
+ "vibegron": {
+  "label": "preg/vibegron.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "30.8 h (effective)",
+    "ev": "Vibegron has an effective half-life of 30.8 hours across all populations",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "6304 L (apparent)",
+    "ev": "The mean apparent volume of distribution is 6304 liters",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "≈50%",
+    "ev": "Human plasma protein binding of vibegron is approximately 50%",
+    "status": "sourced"
+   }
+  }
+ },
+ "voclosporin": {
+  "label": "preg/voclosporin.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "halfLife": {
+    "value": "≈30 h (24.9–36.5)",
+    "ev": "mean terminal half-life (t 1/2 ) is approximately 30 hours (24.9 to 36.5 hours)",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "2,154 L (Vss/F)",
+    "ev": "The apparent volume of distribution (V ss /F) of voclosporin is 2,154 L",
+    "status": "sourced"
+   },
+   "proteinBinding": {
+    "value": "97%",
+    "ev": "Protein binding of voclosporin is 97%",
+    "status": "sourced"
+   }
+  }
+ },
+ "lactulose": {
+  "label": "preg/lactulose.json",
+  "brand": "",
+  "promote": false,
+  "pk_only": true,
+  "modalities": {},
+  "pk": {
+   "ihd": {
+    "value": "No dialysis data (label)",
+    "ev": "Dialysis data are not available for lactulose",
+    "status": "unknown"
+   }
+  }
+ }
+}
