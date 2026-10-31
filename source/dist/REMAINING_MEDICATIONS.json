@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.12.1",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -342,12 +342,6 @@
     {
       "id": "cefoperazone-sulbactam",
       "name": "Cefoperazone / sulbactam",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "cefotaxime",
-      "name": "Cefotaxime",
       "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },

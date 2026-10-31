@@ -1,5 +1,5 @@
-# v0.12.0 verification
+# v0.12.1 verification
 
-Current suites: checks.mjs, checks_v120.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v120.py. checks_v120.mjs proves no dose table cites the handbook, every rebuilt entry cites a retrieved label with set ID/version or emc product ID, entries outside the 61 are unchanged from v0.11.3, and runs the service-worker contract for 0.12.0.
+Current suites: checks.mjs, checks_v121.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v121.py. checks_v121.mjs checks the ISPD Table 5 values, the vancomycin/aminoglycoside numbers against their sources, the vonoprazan label table, that pregnancy excerpts are verbatim substrings of the stored label text, and that all other entries are unchanged from v0.12.0.
 
 These are software/source-integrity checks, not clinical validation.

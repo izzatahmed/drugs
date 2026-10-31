@@ -33,7 +33,7 @@ renderMonograph=function(){const previous=navigationCurrent;try{return originalR
 const originalOpenSelected=openSelected;
 openSelected=function(){
  if(window.innerWidth<761&&!navigationRestoring&&selected){navigationStack.push(navigationSnapshot());if(navigationStack.length>60)navigationStack.shift();}
- originalOpenSelected();if(db)navigationCurrent=navigationSnapshot();
+ originalOpenSelected();if(db)navigationCurrent=navigationSnapshot();if(typeof window.showNavBack==='function')window.showNavBack();
 };
 function goBack(){
  const dialogs=[...document.querySelectorAll('dialog[open]')];if(dialogs.length){dialogs.at(-1).close();return;}
@@ -61,3 +61,10 @@ $('#home-link').addEventListener('click',event=>{event.preventDefault();goHome()
 
 $('#filters-toggle').addEventListener('click',()=>{$('#filter-panel').open=!$('#filter-panel').open;$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open));});
 $('#filter-panel').addEventListener('toggle',()=>$('#filters-toggle').setAttribute('aria-expanded',String($('#filter-panel').open)));
+
+// Back arrow: visible at rest, at the page end and while scrolling up; hidden while scrolling down.
+(function(){const btn=typeof document.querySelector==='function'?document.querySelector('#nav-back'):null;if(!btn||!btn.classList||typeof window.addEventListener!=='function')return;let last=window.scrollY,ticking=false,suppressUntil=0;
+ window.showNavBack=()=>{btn.classList.remove('is-hidden');suppressUntil=Date.now()+500;last=window.scrollY;};
+ function update(){const y=window.scrollY,atEnd=window.innerHeight+y>=document.documentElement.scrollHeight-4;
+  if(Date.now()<suppressUntil){last=y;ticking=false;return;}btn.classList.toggle('is-hidden',y>last+4&&!atEnd&&y>80);last=y;ticking=false;}
+ window.addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(update);}},{passive:true});})();

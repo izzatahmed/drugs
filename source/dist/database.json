@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -18,9 +18,9 @@
     ]
   },
   "coverage": {
-    "renal": 355,
+    "renal": 357,
     "safety": 28,
-    "catalog": 285
+    "catalog": 284
   },
   "pharmacokineticCoverage": {
     "profiles": 157,
@@ -6661,6 +6661,100 @@
       "section": "UK Summary of Product Characteristics: sections 4.2, 4.3, 4.4 and 5.2. Last updated on emc 06 Jul 2023. No US-marketed product; used as the closest regulator-approved source for Jordan-registered products.",
       "type": "UK SmPC (emc)",
       "accessed": "2026-10-30"
+    },
+    {
+      "id": "ispd2022",
+      "title": "ISPD peritonitis guideline recommendations: 2022 update · Table 5 (Li PKT et al., Perit Dial Int 2022;42:110–153)",
+      "url": "https://doi.org/10.1177/08968608221080586",
+      "section": "Table 5: intraperitoneal antibiotic dosing for PD peritonitis (intermittent: one exchange daily, dwell at least 6 h; continuous: all exchanges). Footnotes on residual kidney function, APD and ampicillin.",
+      "type": "International clinical practice guideline (ISPD)",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "nm-ip-2025",
+      "title": "Northwestern Medicine ADSP · Intra-peritoneal antibiotic guideline (updated July 2025)",
+      "url": "https://adsp.nm.org/uploads/1/4/3/0/143064172/intra_peritoneal_antibiotic_guideline.pdf",
+      "section": "Reproduces ISPD 2022 Table 5 (used to verify the table values); vancomycin and gentamicin level monitoring for IP therapy.",
+      "type": "Institutional dosing protocol",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "unmc-vanco-hd",
+      "title": "Nebraska Medicine/UNMC · Nephrology preferred vancomycin dosing for adult haemodialysis (updated March 2024)",
+      "url": "https://www.unmc.edu/intmed/_documents/id/asp/dose-vancomycin-nephrology-preferred-dosing-strategy.pdf",
+      "section": "Stable maintenance haemodialysis only: loading, post-dialysis maintenance and pre-dialysis level adjustment table. Excludes CRRT, PIRRT, PD and irregular HD.",
+      "type": "Institutional dosing protocol",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "us121-vancomycin",
+      "title": "DailyMed · Vancomycin Hydrochloride (Avenacy, LLC)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c757e65b-ca6f-4c00-afe2-025962b43d31",
+      "section": "Current US FDA label: dosage and administration (renal impairment, dialysis), use in specific populations. SPL version 1, effective 2026-07-31; application NDA210274.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-10-31",
+      "label": {
+        "setid": "c757e65b-ca6f-4c00-afe2-025962b43d31",
+        "splVersion": "1",
+        "effective": "2026-07-31",
+        "application": "NDA210274"
+      }
+    },
+    {
+      "id": "us121-gentamicin",
+      "title": "DailyMed · Gentamicin Sulfate (Hospira, Inc.)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=977180b3-a222-4282-d485-4a3217674305",
+      "section": "Current US FDA label: dosage and administration (renal impairment, dialysis), use in specific populations. SPL version 22, effective 2026-05-20; application ANDA062420.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-10-31",
+      "label": {
+        "setid": "977180b3-a222-4282-d485-4a3217674305",
+        "splVersion": "22",
+        "effective": "2026-05-20",
+        "application": "ANDA062420"
+      }
+    },
+    {
+      "id": "us121-amikacin",
+      "title": "DailyMed · amikacin sulfate (Sagent Pharmaceuticals)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890",
+      "section": "Current US FDA label: dosage and administration (renal impairment, dialysis), use in specific populations. SPL version 10, effective 2026-07-27; application ANDA203323.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-10-31",
+      "label": {
+        "setid": "f260ff2a-76a0-4672-9516-91c344b67890",
+        "splVersion": "10",
+        "effective": "2026-07-27",
+        "application": "ANDA203323"
+      }
+    },
+    {
+      "id": "us121-tobramycin",
+      "title": "DailyMed · Tobramycin (Fresenius Kabi USA, LLC)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9a5cecd6-aa65-42d2-b15a-06b4fcebcc0f",
+      "section": "Current US FDA label: dosage and administration (renal impairment, dialysis), use in specific populations. SPL version 3, effective 2024-02-07; application NDA050789.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-10-31",
+      "label": {
+        "setid": "9a5cecd6-aa65-42d2-b15a-06b4fcebcc0f",
+        "splVersion": "3",
+        "effective": "2024-02-07",
+        "application": "NDA050789"
+      }
+    },
+    {
+      "id": "us121-vonoprazan",
+      "title": "DailyMed · VOQUEZNA (Phathom Pharmaceuticals Inc.)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0cc52ac5-77ec-4d66-a770-762a1a960914",
+      "section": "Current US FDA label: dosage and administration (renal impairment, dialysis), use in specific populations. SPL version 6, effective 2026-07-16; application NDA215151.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-10-31",
+      "label": {
+        "setid": "0cc52ac5-77ec-4d66-a770-762a1a960914",
+        "splVersion": "6",
+        "effective": "2026-07-16",
+        "application": "NDA215151"
+      }
     }
   ],
   "drugs": [
@@ -7613,7 +7707,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-acetazolamide"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Teratogenic effects Acetazolamide, administered orally or parenterally, has been shown to be teratogenic (defects of the limbs) in mice, rats, hamsters, and rabbits. There are no adequate and well-controlled studies in pregnant women.",
+        "lactation": "Because of the potential for serious adverse reactions in nursing infants from acetazolamide, a decision should be made whether to discontinue nursing or to discontinue the drug taking into account the importance of the drug to the mother. Acetazolamide should only be used by nursing women if the potential benefit justifies the potential risk to the child.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "acetylcysteine",
@@ -7776,7 +7881,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-acetylcysteine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Limited published case reports and case series of pregnant women exposed to acetylcysteine during various trimesters are not sufficient to inform any drug associated risk. Delaying treatment of acetaminophen overdose may increase the risk of maternal or fetal morbidity and mortality [see Clinical Considerations ].",
+        "lactation": "There are no data on the presence of acetylcysteine in human milk, the effects on the breastfed infant, or the effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for ACETADOTE and any potential adverse effects on the breastfed child from ACETADOTE or from the underlying maternal condition.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "acyclovir",
@@ -8328,7 +8444,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-adenosine"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Animal reproduction studies have not been conducted with adenosine; nor have studies been performed in pregnant women. As adenosine is a naturally occurring material, widely dispersed throughout the body, no fetal effects would be anticipated.",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "albendazole",
@@ -8769,7 +8896,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "uk120-alfacalcidol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no or limited data from the use of AlfaD in pregnant women. Animal studies have shown reproductive toxicity at high doses.",
+        "lactation": "Although not definitely established, it is likely that increased levels of 1,25-dihydroxyvitamin D 3 will be found in the breast milk of mothers treated with AlfaD. This might have an influence on calcium metabolism in a breast-fed infant; consequently, breast-fed infants of AlfaD‑treated mothers should be closely monitored for hypercalcaemia.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "alfuzosin",
@@ -10185,26 +10323,80 @@
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "CrCl · mL/min; confirm source method",
-      "summary": "Individualise dose and interval with measured concentrations and the selected aminoglycoside protocol. Extended-interval exclusions, dosing weight and infection are essential; no universal CKD/HD/PD schedule is assigned.",
-      "flag": "monitor",
+      "kidneyMetric": "CrCl · mL/min; serum amikacin levels",
+      "summary": "Reduce dose/extend interval by CrCl and levels; HD 10 mg/kg then 5 mg/kg after each session; PD peritonitis 2 mg/kg IP daily.",
+      "flag": "adjust",
       "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Individualise dose and interval with measured concentrations and the selected aminoglycoside protocol. Extended-interval exclusions, dosing weight and infection are essential; no universal CKD/HD/PD schedule is assigned.",
+          "status": "summarized",
           "sourceIds": [
-            "v09-amikacin"
+            "v09-amikacin",
+            "us121-amikacin"
+          ],
+          "notes": "Set the interval from a level 6–14 hours after the start of infusion (modified Hartford nomogram); a trough below 5 mg/L is probably less nephrotoxic (UNMC).",
+          "tables": [
+            {
+              "indication": "IV extended-interval · normal 15 mg/kg (adjusted body weight) every 24 h · UNMC protocol",
+              "rows": [
+                {
+                  "context": "CrCl >50–90",
+                  "dose": "Consider a 20–25% reduction (12 or 15 mg/kg/day)"
+                },
+                {
+                  "context": "CrCl 30–50",
+                  "dose": "Reduce by 50% (7.5 mg/kg every 24 h or 15 mg/kg every 48 h)"
+                },
+                {
+                  "context": "CrCl 10–30",
+                  "dose": "Reduce by 67–75% (5 mg/kg every 24 h or 10 mg/kg every 48 h)"
+                },
+                {
+                  "context": "CrCl <10",
+                  "dose": "7.5 mg/kg every 48 h; dose according to levels"
+                }
+              ]
+            },
+            {
+              "indication": "IV/IM conventional dosing · US label",
+              "rows": [
+                {
+                  "context": "Loading",
+                  "dose": "7.5 mg/kg (the normal dose)"
+                },
+                {
+                  "context": "Interval method",
+                  "dose": "7.5 mg/kg every (serum creatinine × 9) hours"
+                },
+                {
+                  "context": "Reduced-dose method",
+                  "dose": "Every 12 hours, reduced in proportion to CrCl, or normal dose ÷ serum creatinine"
+                },
+                {
+                  "context": "During dialysis",
+                  "dose": "Neither method applies"
+                }
+              ]
+            }
           ]
         },
         "ihd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Individualise using measured levels, indication, dosing weight and the actual dialysis prescription.",
+          "status": "summarized",
           "sourceIds": [
             "v09-amikacin"
+          ],
+          "notes": "Dose according to levels.",
+          "tables": [
+            {
+              "indication": "IV · UNMC protocol",
+              "rows": [
+                {
+                  "context": "Haemodialysis",
+                  "dose": "10 mg/kg once, then 5 mg/kg after each dialysis"
+                }
+              ]
+            }
           ]
         },
         "crrt": {
@@ -10214,10 +10406,37 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025",
+            "v09-amikacin"
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "2 mg/kg IP daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Not advised"
+                }
+              ]
+            },
+            {
+              "indication": "IV · systemic · UNMC protocol",
+              "rows": [
+                {
+                  "context": "PD",
+                  "dose": "10 mg/kg once, then 5 mg/kg after each dialysis (protocol wording)"
+                }
+              ]
+            }
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -10228,16 +10447,19 @@
       },
       "considerations": "Individualise dose and interval with measured concentrations and the selected aminoglycoside protocol. Extended-interval exclusions, dosing weight and infection are essential; no universal CKD/HD/PD schedule is assigned.",
       "sourceIds": [
-        "v09-amikacin"
+        "v09-amikacin",
+        "us121-amikacin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Amikacin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Only the displayed route, indication and source statement are reviewed. Other indications, formulations and RRT prescriptions remain separate; no missing dose is inferred.",
+      "completeness": "Selected adult systemic and intraperitoneal regimens. CRRT/PIRRT, paediatric and indication-specific targets are not covered; level monitoring is required.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Selected source-specific adult guidance; not an independently approved or complete prescribing monograph.",
       "referenceChecks": {
@@ -10305,7 +10527,18 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us121-amikacin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Aminoglycosides can cause fetal harm when administered to a pregnant woman. Aminoglycosides cross the placenta and there have been several reports of total irreversible, bilateral congenital deafness in children whose mothers received streptomycin during pregnancy.",
+        "lactation": "It is not known whether amikacin is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from amikacin, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "amiloride",
@@ -10736,7 +10969,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-aminophylline"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no adequate and well controlled studies in pregnant women. Additionally, there are no teratogenicity studies in nonrodents (e.g., rabbits).",
+        "lactation": "Theophylline is excreted into breast milk and may cause irritability or other signs of mild toxicity in nursing human infants. The concentration of theophylline in breast milk is about equivalent to the maternal serum concentration.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "amiodarone",
@@ -10895,7 +11139,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-amiodarone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Available data from postmarketing reports and published case series indicate that amiodarone use in pregnant women may increase the risk for fetal adverse effects including neonatal hypo- and hyperthyroidism, neonatal bradycardia, neurodevelopmental abnormalities, preterm birth and fetal growth restriction. Amiodarone and its metabolite, desethylamiodarone (DEA), cross the placenta.",
+        "lactation": "Amiodarone and one of its major metabolites, DEA, are present in breastmilk at between 3.5% and 45% of the maternal weight-adjusted dosage of amiodarone. There are cases of hypothyroidism and bradycardia in breastfed infants, although it is unclear if these effects are due to amiodarone exposure in breastmilk.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "amitriptyline",
@@ -11324,6 +11579,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 150 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -11337,9 +11605,11 @@
               ]
             }
           ],
-          "notes": "The protocol explicitly maps PD to its CrCl <10 bands; the two indications remain separate. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. The protocol explicitly maps PD to its CrCl <10 bands; the two indications remain separate. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-amoxicillin"
+            "nm111-amoxicillin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -11352,7 +11622,9 @@
       "considerations": "",
       "sourceIds": [
         "amoxicillin",
-        "nm111-amoxicillin"
+        "nm111-amoxicillin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -11448,7 +11720,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Parent amoxicillin; no clavulanate PK is implied."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "amoxicillin-clavulanate",
@@ -11867,6 +12139,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "4 g daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 125 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -11880,9 +12165,11 @@
               ]
             }
           ],
-          "notes": "Systemic IV therapy, not intraperitoneal peritonitis treatment. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. ISPD: IP ampicillin is not recommended for enterococcal peritonitis. Systemic IV therapy, not intraperitoneal peritonitis treatment. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-ampicillin"
+            "nm111-ampicillin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -11909,7 +12196,9 @@
       "sourceIds": [
         "ampicillin",
         "nm-pirrt-ampicillin",
-        "nm111-ampicillin"
+        "nm111-ampicillin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -11990,7 +12279,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "ampicillin-sulbactam",
@@ -12071,6 +12360,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "Not stated"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 1,000 mg/500 mg, then 133.3 mg/66.7 mg"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -12080,9 +12382,11 @@
               ]
             }
           ],
-          "notes": "Total combination dose. High-dose Acinetobacter/CRAB protocols require separate ID review and are not selected here. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Total combination dose. High-dose Acinetobacter/CRAB protocols require separate ID review and are not selected here. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-ampicillin-sulbactam"
+            "nm111-ampicillin-sulbactam",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -12109,7 +12413,9 @@
       "sourceIds": [
         "ampicillin-sulbactam",
         "nm-pirrt-ampicillin-sulbactam",
-        "nm111-ampicillin-sulbactam"
+        "nm111-ampicillin-sulbactam",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -12190,7 +12496,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "anakinra",
@@ -13439,7 +13745,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-aprepitant"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are insufficient data on use of EMEND in pregnant women to inform a drug associated risk. In animal reproduction studies, no adverse developmental effects were observed in rats or rabbits exposed during the period of organogenesis to systemic drug levels (AUC) approximately 1.5 times the adult human exposure at the 125-mg/80-mg/80-mg EMEND regimen [see Data ] . The estimated background risk of major birth …",
+        "lactation": "studies have not been conducted to assess the presence of aprepitant in human milk, the effects on the breastfed infant, or the effects on milk production. Aprepitant is present in rat milk.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "argatroban",
@@ -15666,6 +15983,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "2 g daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 500 mg/L, then 250 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Systemic PD therapy",
               "rows": [
                 {
@@ -15675,9 +16005,11 @@
               ]
             }
           ],
-          "notes": "",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
           "sourceIds": [
-            "nm07-aztreonam"
+            "nm07-aztreonam",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -15708,7 +16040,9 @@
       "sourceIds": [
         "nm07-aztreonam",
         "nm-pirrt-aztreonam",
-        "nm-cvvhd-aztreonam"
+        "nm-cvvhd-aztreonam",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Aztreonam",
       "review": {
@@ -15717,7 +16051,7 @@
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows are systemic therapy, not intraperitoneal peritonitis therapy.",
+      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows labelled ISPD are intraperitoneal peritonitis doses; other PD rows are systemic.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Nebraska institutional adult protocol unless a table explicitly identifies a current product label.",
       "referenceChecks": {
@@ -15800,7 +16134,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Systemic aztreonam reference; not an inhaled-formulation dosing recommendation."
       },
-      "updatedInVersion": "0.7.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "aztreonam-avibactam",
@@ -17458,6 +17792,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 50,000 units/L, then 25,000 units/L"
+                }
+              ]
+            },
+            {
               "indication": "Systemic PD therapy",
               "rows": [
                 {
@@ -17467,9 +17814,11 @@
               ]
             }
           ],
-          "notes": "",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
           "sourceIds": [
-            "v09-benzylpenicillin"
+            "v09-benzylpenicillin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -17481,7 +17830,9 @@
       },
       "considerations": "Amounts are units, not mg. Choose infection/severity separately; assess sodium/potassium load and neurotoxicity.",
       "sourceIds": [
-        "v09-benzylpenicillin"
+        "v09-benzylpenicillin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Benzylpenicillin",
       "review": {
@@ -17558,7 +17909,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "bevacizumab",
@@ -20096,7 +20447,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-calcitriol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Calcitriol has been found to be teratogenic in rabbits when given at doses of 0.08 and 0.3 mcg/kg (approximately 2 and 6 times the maximum recommended dose based on mg/m 2 ). All 15 fetuses in 3 litters at these doses showed external and skeletal abnormalities.",
+        "lactation": "Calcitriol from ingested calcitriol oral solution may be excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions from calcitriol in nursing infants, a mother should not nurse while taking calcitriol.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "calcium-acetate",
@@ -20285,7 +20647,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-calcium-acetate"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Calcium acetate capsules contain calcium acetate. Animal reproduction studies have not been conducted with calcium acetate, and there are no adequate and well controlled studies of calcium acetate use in pregnant women.",
+        "lactation": "8.3 Nursing Mothers A calcium acetate capsule contains calcium acetate and is excreted in human milk. Human milk feeding by a mother receiving calcium acetate is not expected to harm an infant, provided maternal serum calcium levels are appropriately monitored.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "calcium-carbonate",
@@ -21960,7 +22333,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "uk120-carbimazole"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Carbimazole crosses the placenta but, provided the mother's dose is within the standard range, and her thyroid status is monitored; there is no evidence of neonatal thyroid abnormalities. Studies have shown that the incidence of congenital malformations is greater in the children of mothers whose hyperthyroidism has remained untreated than in those who have been treated with carbimazole.",
+        "lactation": "Carbimazole is secreted in breast milk and, if treatment is continued during lactation, the patient should not continue to breast-feed her baby.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "carboplatin",
@@ -22958,6 +23342,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "15 mg/kg daily (long dwell); 20 mg/kg daily (short dwell)"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 500 mg/L, then 125 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -22967,9 +23364,11 @@
               ]
             }
           ],
-          "notes": "IV systemic regimen only; do not administer this table intraperitoneally. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. ISPD: doses may need about 25% increase with significant residual kidney function. IV systemic regimen only; do not administer this table intraperitoneally. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-cefazolin"
+            "nm111-cefazolin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -22996,7 +23395,9 @@
       "sourceIds": [
         "cefazolin",
         "nm-pirrt-cefazolin",
-        "nm111-cefazolin"
+        "nm111-cefazolin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -23077,7 +23478,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "cefdinir",
@@ -23357,6 +23758,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "1,000 mg daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 500 mg/L, then 125 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Systemic IV therapy · not intraperitoneal",
               "rows": [
                 {
@@ -23366,9 +23780,11 @@
               ]
             }
           ],
-          "notes": "US label Table 2; verify the unit dose against the normal-function regimen. APD and intraperitoneal peritonitis dosing are not curated.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. ISPD: doses may need about 25% increase with significant residual kidney function. US label Table 2; verify the unit dose against the normal-function regimen. APD and intraperitoneal peritonitis dosing are not curated.",
           "sourceIds": [
-            "cefepime-label"
+            "cefepime-label",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -23395,7 +23811,9 @@
       "sourceIds": [
         "cefepime",
         "cefepime-label",
-        "nm-pirrt-cefepime"
+        "nm-pirrt-cefepime",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -23476,7 +23894,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.7.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "cefepime-enmetazobactam",
@@ -24112,10 +24530,10 @@
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "PD peritonitis (ISPD 2022); systemic renal dosing not yet curated",
+      "summary": "Intraperitoneal PD peritonitis dosing only; systemic renal dosing not yet curated.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
@@ -24137,10 +24555,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "500–1,000 mg daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "No data"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -24150,17 +24585,20 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "ispd2022",
+        "nm-ip-2025"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Cefotaxime",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Only ISPD intraperitoneal peritonitis dosing is curated. Systemic CKD and dialysis dosing remain uncurated.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "International guideline (ISPD). Jordan: confirm local product and protocol.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -24225,7 +24663,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "cefotetan",
@@ -25152,6 +25591,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "1,000–1,500 mg daily (long dwell); 20 mg/kg daily (short dwell)"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 500 mg/L, then 125 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -25161,9 +25613,11 @@
               ]
             }
           ],
-          "notes": "Adult row continues from PDF p17; do not import the paediatric row below it. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. ISPD: doses may need about 25% increase with significant residual kidney function. Adult row continues from PDF p17; do not import the paediatric row below it. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-ceftazidime"
+            "nm111-ceftazidime",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -25190,7 +25644,9 @@
       "sourceIds": [
         "ceftazidime",
         "nm-pirrt-ceftazidime",
-        "nm111-ceftazidime"
+        "nm111-ceftazidime",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -25286,7 +25742,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Parent ceftazidime; not the avibactam combination."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "ceftazidime-avibactam",
@@ -25922,10 +26378,27 @@
           ]
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "1,000 mg daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "No data"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -25936,7 +26409,9 @@
       },
       "considerations": "Obesity may warrant higher doses depending on the clinical setting; discuss with ID/pharmacy.",
       "sourceIds": [
-        "ceftriaxone"
+        "ceftriaxone",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -26016,7 +26491,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "cefuroxime",
@@ -28212,6 +28688,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 50 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -28221,9 +28710,11 @@
               ]
             }
           ],
-          "notes": "Only the explicit oral PD row is imported. The IV paragraph has interval/timing ambiguity and is not selected. Review fluoroquinolone safety, QT and chelation. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Only the explicit oral PD row is imported. The IV paragraph has interval/timing ambiguity and is not selected. Review fluoroquinolone safety, QT and chelation. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-ciprofloxacin"
+            "nm111-ciprofloxacin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -28236,7 +28727,9 @@
       "considerations": "",
       "sourceIds": [
         "ciprofloxacin",
-        "nm111-ciprofloxacin"
+        "nm111-ciprofloxacin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -28333,7 +28826,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Method-specific removal uncertainty is retained."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "cisplatin",
@@ -29018,10 +29511,27 @@
           ]
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 600 mg per bag"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -29032,7 +29542,9 @@
       },
       "considerations": "",
       "sourceIds": [
-        "clindamycin"
+        "clindamycin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -29129,7 +29641,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. No dialysis supplement is calculated."
       },
-      "updatedInVersion": "0.7.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "clonazepam",
@@ -29598,7 +30110,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-clopidogrel"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Available data from cases reported in published literature and postmarketing surveillance with clopidogrel use in pregnant women have not identified any drug-associated risks for major birth defects or miscarriage [see Data ] . There are risks to the pregnant woman and fetus associated with myocardial infarction and stroke [see Clinical Considerations ] . No evidence of fetotoxicity was observed when clopidogrel was …",
+        "lactation": "There are no data on the presence of clopidogrel in human milk or the effects on milk production. No adverse effects on breastfed infants have been observed with maternal clopidogrel use during lactation in a small number of postmarketing cases.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "clotrimazole-topical",
@@ -31862,6 +32385,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "300 mg daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 100 mg/L, then 20 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -31875,9 +32411,11 @@
               ]
             }
           ],
-          "notes": "Adult PD row maps to the CrCl <30 IV interval from p26. Higher 10–12 mg/kg refractory/VRE regimens need separate ID/pharmacy review. Monitor CPK and symptoms. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Adult PD row maps to the CrCl <30 IV interval from p26. Higher 10–12 mg/kg refractory/VRE regimens need separate ID/pharmacy review. Monitor CPK and symptoms. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-daptomycin"
+            "nm111-daptomycin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -31904,7 +32442,9 @@
       "sourceIds": [
         "daptomycin",
         "nm-pirrt-daptomycin",
-        "nm111-daptomycin"
+        "nm111-daptomycin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -31985,7 +32525,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "daratumumab",
@@ -33414,7 +33954,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-dexamethasone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Corticosteroids have been shown to be teratogenic in many species when given in doses equivalent to the human dose. Animal studies in which corticosteroids have been given to pregnant mice, rats, and rabbits have yielded an increased incidence of cleft palate in the offspring.",
+        "lactation": "Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Because of the potential for serious adverse reactions in nursing infants from corticosteroids, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "dexlansoprazole",
@@ -35573,7 +36124,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-dobutamine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Reproduction studies performed in rats and rabbits have revealed no evidence of harm to the fetus due to dobutamine. The drug, however, has not been administered to pregnant women and should be used only when the expected benefits clearly outweigh the potential risks to the fetus.",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "docetaxel",
@@ -36265,7 +36827,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "uk120-domperidone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are limited post-marketing data on the use of domperidone in pregnant women. Studies in animals have shown reproductive toxicity at maternally toxic doses (see section 5.3).",
+        "lactation": "Domperidone is excreted in human milk and breast-fed infants receive less than 0.1 % of the maternal weight-adjusted dose. Occurrence of adverse effects, in particular cardiac effects cannot be excluded after exposure via breast milk.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "donepezil",
@@ -36551,7 +37124,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-dopamine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no human data with dopamine use in pregnant women. There are risks to the mother and fetus from hypotension associated with shock, which can be fatal if left untreated ( see Clinical Considerations ).",
+        "lactation": "There are no data regarding the presence of dopamine in human milk, the effects of dopamine on the breastfed infant, or the effects of the drug on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "doripenem",
@@ -41389,7 +41973,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-esmolol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Esmolol hydrochloride has been shown to produce increased fetal resorptions with minimal maternal toxicity in rabbits when given in doses approximately 8 times the maximum human maintenance dose (300 mcg/kg/min). There are no adequate and well-controlled studies in pregnant women.",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "esomeprazole",
@@ -45647,7 +46242,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-flecainide"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Flecainide has been shown to have teratogenic effects (club paws, sternebrae and vertebrae abnormalities, pale hearts with contracted ventricular septum) and an embryo-toxic effect (increased resorptions) in one breed of rabbit (New Zealand White) when given doses of 30 and 35 mg/kg/day, but not in another breed of rabbit (Dutch Belted) when given doses up to 30 mg/kg/day. No teratogenic effects were observed in …",
+        "lactation": "Results from a multiple dose study conducted in mothers soon after delivery indicates that flecainide is excreted in human breast milk in concentrations as high as 4 times (with average levels about 2.5 times) corresponding plasma levels; assuming a maternal plasma level at the top of the therapeutic range (1 mcg/mL), the calculated daily dose to a nursing infant (assuming about 700 mL breast milk over 24 hours) …",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "flucloxacillin",
@@ -45922,6 +46528,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "IP 150–200 mg every 24–48 hours (oral route preferred)"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "No data"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -45935,9 +46554,11 @@
               ]
             }
           ],
-          "notes": "Protocol reference doses and corresponding mg/kg are shown; individualise weight, susceptibility and indication with ID. Do not use HD three-times-weekly schedules for PD. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Protocol reference doses and corresponding mg/kg are shown; individualise weight, susceptibility and indication with ID. Do not use HD three-times-weekly schedules for PD. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-fluconazole"
+            "nm111-fluconazole",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -45964,7 +46585,9 @@
       "sourceIds": [
         "fluconazole",
         "nm-pirrt-fluconazole",
-        "nm111-fluconazole"
+        "nm111-fluconazole",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -46061,7 +46684,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Reference parent-drug values."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "flucytosine",
@@ -46397,7 +47020,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-fludrocortisone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Adequate animal reproduction studies have not been conducted with fludrocortisone acetate. However, many corticosteroids have been shown to be teratogenic in laboratory animals at low doses.",
+        "lactation": "Corticosteroids are found in the breast milk of lactating women receiving systemic therapy with these agents. Caution should be exercised when fludrocortisone acetate is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "fluorouracil",
@@ -47223,7 +47857,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-folic-acid"
+        ],
+        "fdaLetterCategory": "A",
+        "pregnancy": "Folic acid is usually indicated in the treatment of megaloblastic anemias of pregnancy. Folic acid requirements are markedly increased during pregnancy, and deficiency will result in fetal damage (see INDICATIONS AND USAGE ) . Studies in pregnant women have not shown that folic acid increases the risk of fetal abnormalities if administered during pregnancy.",
+        "lactation": "Folic acid is excreted in the milk of lactating mothers. During lactation, folic acid requirements are markedly increased; however, amounts present in human milk are adequate to fulfill infant requirements, although supplementation may be needed in low-birth-weight infants, in those who are breast-fed by mothers with folic acid deficiency (50 mcg daily), or in those with infections or prolonged diarrhea.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "fondaparinux",
@@ -47500,7 +48145,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-formoterol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are limited available data with PERFOROMIST Inhalation Solution use in pregnant women to inform a drug-associated risk of adverse developmental outcomes. Beta-agonists may interfere with uterine contractility (see Clinical Considerations ) . In animal reproduction studies, oral administration of formoterol fumarate to pregnant rats and rabbits caused increased fetal malformations (rats and rabbits), decreased …",
+        "lactation": "There are no well-controlled human studies of the use of PERFOROMIST Inhalation Solution in nursing mothers. It is not known whether formoterol fumarate is excreted in human milk, or whether there are effects on the breastfed infant or on the milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "fosaprepitant",
@@ -47862,10 +48518,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "4 g daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "No data"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Requires an injectable fosfomycin product (not marketed in the US).",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -47876,7 +48549,9 @@
       },
       "considerations": "The multidose course is institutional guidance; it is not a regimen for pyelonephritis or systemic infection. Dialysis regimens remain uncurated.",
       "sourceIds": [
-        "nm07-fosfomycin"
+        "nm07-fosfomycin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fosfomycin",
       "review": {
@@ -47885,7 +48560,7 @@
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows are systemic therapy, not intraperitoneal peritonitis therapy.",
+      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows labelled ISPD are intraperitoneal peritonitis doses; other PD rows are systemic.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Nebraska institutional adult protocol unless a table explicitly identifies a current product label.",
       "referenceChecks": {
@@ -47953,7 +48628,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.7.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "fosphenytoin",
@@ -48946,26 +49621,95 @@
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "CrCl · mL/min; confirm source method",
-      "summary": "Select conventional, extended-interval or synergy treatment first, then individualise using concentrations/AUC and renal trajectory. Do not apply a Hartford nomogram to an excluded patient or copy a synergy regimen to systemic treatment.",
-      "flag": "monitor",
+      "kidneyMetric": "Serum creatinine / CrCl · mL/min; serum gentamicin levels",
+      "summary": "Extend the interval or reduce the dose by renal function and levels; 1–1.7 mg/kg after each HD; PD peritonitis 0.6 mg/kg IP daily.",
+      "flag": "adjust",
       "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Select conventional, extended-interval or synergy treatment first, then individualise using concentrations/AUC and renal trajectory. Do not apply a Hartford nomogram to an excluded patient or copy a synergy regimen to systemic treatment.",
+          "status": "summarized",
           "sourceIds": [
+            "us121-gentamicin",
             "v09-gentamicin"
+          ],
+          "notes": "Select conventional, extended-interval or synergy treatment first, then individualise using concentrations/AUC and renal trajectory. Do not apply a Hartford nomogram to an excluded patient or copy a synergy regimen to systemic treatment.",
+          "tables": [
+            {
+              "indication": "IV conventional dosing · US label",
+              "rows": [
+                {
+                  "context": "Interval method",
+                  "dose": "Usual dose (e.g. 1 mg/kg) every (serum creatinine in mg/dL × 8) hours"
+                },
+                {
+                  "context": "Reduced-dose method",
+                  "dose": "After the usual first dose, give the usual dose ÷ serum creatinine every 8 hours"
+                },
+                {
+                  "context": "Monitoring",
+                  "dose": "Measure peak and trough levels; worsening renal function may need larger reductions"
+                }
+              ]
+            },
+            {
+              "indication": "IV synergy dosing (1 mg/kg) · UNMC protocol",
+              "rows": [
+                {
+                  "context": "CrCl 51–90",
+                  "dose": "Same dose every 12 hours"
+                },
+                {
+                  "context": "CrCl 10–50",
+                  "dose": "Same dose every 24 hours"
+                },
+                {
+                  "context": "CrCl <10",
+                  "dose": "Same dose every 48 hours"
+                }
+              ]
+            },
+            {
+              "indication": "IV extended-interval dosing · UNMC protocol",
+              "rows": [
+                {
+                  "context": "Any CrCl",
+                  "dose": "7 mg/kg (adjusted body weight) once, then set the interval from a level 6–14 hours after the start of infusion (Hartford nomogram) or AUC 80–110"
+                }
+              ]
+            }
           ]
         },
         "ihd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Individualise using measured levels, indication, dosing weight and the actual dialysis prescription.",
+          "status": "summarized",
           "sourceIds": [
+            "us121-gentamicin",
             "v09-gentamicin"
+          ],
+          "notes": "An 8-hour haemodialysis lowers serum gentamicin by about 50% (US label). Redose by levels.",
+          "tables": [
+            {
+              "indication": "IV · US label",
+              "rows": [
+                {
+                  "context": "After each haemodialysis",
+                  "dose": "1–1.7 mg/kg depending on severity of infection"
+                }
+              ]
+            },
+            {
+              "indication": "IV · UNMC protocol",
+              "rows": [
+                {
+                  "context": "Traditional dosing",
+                  "dose": "1–2 mg/kg per dose; redose according to levels"
+                },
+                {
+                  "context": "Synergy dosing",
+                  "dose": "Same dose three times weekly"
+                }
+              ]
+            }
           ]
         },
         "crrt": {
@@ -48975,10 +49719,41 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025",
+            "v09-gentamicin"
+          ],
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "0.6 mg/kg IP daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Not advised"
+                }
+              ]
+            },
+            {
+              "indication": "IV · systemic · UNMC protocol",
+              "rows": [
+                {
+                  "context": "Traditional dosing",
+                  "dose": "1–2 mg/kg per dose; redose according to levels"
+                },
+                {
+                  "context": "Synergy dosing",
+                  "dose": "Same dose three times weekly"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Northwestern guideline: with residual kidney function doses up to 0.9 mg/kg have been used; if continued while awaiting cultures, check a random level and redose when it is 0.5 mcg/mL or lower."
         },
         "sled": {
           "status": "not_curated",
@@ -48989,16 +49764,19 @@
       },
       "considerations": "Select conventional, extended-interval or synergy treatment first, then individualise using concentrations/AUC and renal trajectory. Do not apply a Hartford nomogram to an excluded patient or copy a synergy regimen to systemic treatment.",
       "sourceIds": [
-        "v09-gentamicin"
+        "us121-gentamicin",
+        "v09-gentamicin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gentamicin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Only the displayed route, indication and source statement are reviewed. Other indications, formulations and RRT prescriptions remain separate; no missing dose is inferred.",
+      "completeness": "Selected adult systemic and intraperitoneal regimens. CRRT/PIRRT, paediatric and indication-specific targets are not covered; level monitoring is required.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Selected source-specific adult guidance; not an independently approved or complete prescribing monograph.",
       "referenceChecks": {
@@ -49066,7 +49844,18 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us121-gentamicin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Aminoglycosides can cause fetal harm when administered to a pregnant woman. Aminoglycoside antibiotics cross the placenta, and there have been several reports of total irreversible bilateral congenital deafness in children whose mothers received streptomycin during pregnancy.",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "ginkgo-biloba",
@@ -50441,7 +51230,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-granisetron"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Reproduction studies have been performed in pregnant rats at intravenous doses up to 9 mg/kg/day (54 mg/m 2 /day, 146 times the recommended human dose based on body surface area) and pregnant rabbits at intravenous doses up to 3 mg/kg/day (35.4 mg/m 2 /day, 96 times the recommended human dose based on body surface area) and have revealed no evidence of impaired fertility or harm to the fetus due to granisetron. …",
+        "lactation": "8.3 Nursing Mothers It is not known whether granisetron is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when granisetron hydrochloride injection is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "guaifenesin",
@@ -51154,7 +51954,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-hydrocortisone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Since adequate human reproduction studies have not been done with corticosteroids, the use of these drugs in pregnancy, nursing mothers or women of child bearing potential requires that the possible benefits of the drug be weighed against the potential hazards to the mother and embryo or fetus. Infants born of mothers who have received substantial doses of corticosteroids during pregnancy, should be carefully …",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "hydrocortisone-topical",
@@ -51724,7 +52535,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-hydroxychloroquine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Prolonged clinical experience over decades of use and available data from published epidemiologic and clinical studies with PLAQUENIL use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage, or adverse maternal, or fetal outcomes (see Data ). There are risks to the mother and fetus associated with untreated or increased disease activity from malaria, rheumatoid arthritis, …",
+        "lactation": "Published lactation data report that hydroxychloroquine is present in human milk at low levels. No adverse reactions have been reported in breastfed infants.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "hydroxyurea",
@@ -52148,7 +52970,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "uk120-hyoscine-butylbromide"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are limited data from the use of hyoscine butylbromide in pregnant women. Animal studies are insufficient with respect to reproductive toxicity (see section 5.3).",
+        "lactation": "There is insufficient information on the excretion of hyoscine butylbromide and its metabolites in human milk. A risk to the breastfeeding child cannot be excluded.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "ibandronate",
@@ -53416,6 +54249,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "500 mg in alternate exchanges"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 250 mg/L, then 50 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Systemic PD",
               "rows": [
                 {
@@ -53425,9 +54271,11 @@
               ]
             }
           ],
-          "notes": "Not intraperitoneal dosing; choose the single dose with renal/ID pharmacy.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Not intraperitoneal dosing; choose the single dose with renal/ID pharmacy.",
           "sourceIds": [
-            "v09-imipenem-cilastatin"
+            "v09-imipenem-cilastatin",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -53439,7 +54287,9 @@
       },
       "considerations": "Amounts refer to the imipenem component with matching cilastatin. Alternatives are not additive; review seizure risk, indication and source boundaries.",
       "sourceIds": [
-        "v09-imipenem-cilastatin"
+        "v09-imipenem-cilastatin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Imipenem%20/%20cilastatin",
       "review": {
@@ -53516,7 +54366,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "imipenem-cilastatin-relebactam",
@@ -54288,136 +55138,6 @@
       "considerations": "",
       "sourceIds": [],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Infliximab",
-      "review": {
-        "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
-        "clinicalReviewer": null,
-        "clinicalApprovedAt": null
-      },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
-      "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
-      "referenceChecks": {
-        "bnf": {
-          "edition": "92 (September 2026)",
-          "status": "comparison_pending",
-          "reason": "No monograph comparison completed."
-        },
-        "pdr": {
-          "status": "not_checked"
-        }
-      },
-      "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
-        "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "dialysability": {
-          "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "pd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "crrt": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "sled": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          }
-        },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
-    },
-    {
-      "id": "insulin-nph",
-      "name": "Insulin NPH",
-      "aliases": [
-        "Isophane",
-        "Insulatard",
-        "Humulin N"
-      ],
-      "category": "Diabetes & endocrine",
-      "drugClass": "Intermediate-acting insulin",
-      "formulation": "Parenteral · verify exact local product",
-      "routes": [
-        "Parenteral"
-      ],
-      "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
-      "sharedGuidanceId": null,
-      "modalities": {
-        "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
-        },
-        "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
-        },
-        "crrt": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
-        },
-        "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
-        },
-        "sled": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
-        }
-      },
-      "considerations": "",
-      "sourceIds": [],
-      "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Insulin%20NPH",
       "review": {
         "status": "clinical_review_pending",
         "sourceCheckedAt": null,
@@ -55267,6 +55987,136 @@
       }
     },
     {
+      "id": "insulin-nph",
+      "name": "Insulin NPH",
+      "aliases": [
+        "Isophane",
+        "Insulatard",
+        "Humulin N"
+      ],
+      "category": "Diabetes & endocrine",
+      "drugClass": "Intermediate-acting insulin",
+      "formulation": "Parenteral · verify exact local product",
+      "routes": [
+        "Parenteral"
+      ],
+      "otc": false,
+      "kidneyMetric": "Not yet curated",
+      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
+      "flag": "catalog",
+      "entryType": "catalog",
+      "sharedGuidanceId": null,
+      "modalities": {
+        "ckd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "ihd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "crrt": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "pd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "sled": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
+          "sourceIds": []
+        }
+      },
+      "considerations": "",
+      "sourceIds": [],
+      "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Insulin%20NPH",
+      "review": {
+        "status": "clinical_review_pending",
+        "sourceCheckedAt": null,
+        "clinicalReviewer": null,
+        "clinicalApprovedAt": null
+      },
+      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "addedInVersion": "0.3.0",
+      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "referenceChecks": {
+        "bnf": {
+          "edition": "92 (September 2026)",
+          "status": "comparison_pending",
+          "reason": "No monograph comparison completed."
+        },
+        "pdr": {
+          "status": "not_checked"
+        }
+      },
+      "pharmacokinetics": {
+        "status": "not_curated",
+        "sourceCheckedAt": null,
+        "halfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "renalHalfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "volumeOfDistribution": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "proteinBinding": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "dialysability": {
+          "ihd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "pd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "crrt": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "sled": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          }
+        },
+        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
+      }
+    },
+    {
       "id": "insulin-regular",
       "name": "Insulin regular",
       "aliases": [
@@ -55672,7 +56522,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-ipratropium"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Ipratropium is negligibly absorbed systemically following oral inhalation; therefore, maternal use is not expected to result in fetal exposure to the drug [ see Clinical Pharmacology (12.3) ]. There is limited experience with ipratropium bromide use in pregnant women.",
+        "lactation": "There are no data on the presence of ipratropium in either human or animal milk, the effects on the breastfed infant, or the effects on milk production. Although lipid-insoluble quaternary cations pass into breast milk, ipratropium concentrations in plasma after inhaled therapeutic doses are low, therefore, ipratropium levels in human breast milk are expected to be low [ see Clinical Pharmacology (12.3) ].",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "iptacopan",
@@ -56685,7 +57546,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-isosorbide-dinitrate"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "At oral doses 35 and 150 times the maximum recommended human daily dose, isosorbide dinitrate has been shown to cause a dose-related increase in embryotoxicity (increase in mummified pups) in rabbits. There are no adequate, well-controlled studies in pregnant women.",
+        "lactation": "It is not known whether isosorbide dinitrate is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when isosorbide dinitrate is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "isosorbide-mononitrate",
@@ -56857,7 +57729,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-isosorbide-mononitrate"
+        ],
+        "fdaLetterCategory": "B",
+        "pregnancy": "section for animal-to-human dosage comparisons.) Pregnancy: Teratogenic Effects: Pregnancy Category B : Reproduction studies performed in rats and rabbits at doses of up to 540 and 810 mg/kg/day, respectively, have revealed no evidence of harm to the fetus due to isosorbide mononitrate. There are, however, no adequate and well-controlled studies in pregnant women.",
+        "lactation": "It is not known whether isosorbide mononitrate is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when isosorbide mononitrate is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "psyllium",
@@ -57299,7 +58182,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-ivabradine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Based on findings in animals, Corlanor may cause fetal harm when administered to a pregnant woman. There are no adequate and well-controlled studies of Corlanor in pregnant women to inform any drug-associated risks.",
+        "lactation": "There is no information regarding the presence of ivabradine in human milk, the effects of ivabradine on the breastfed infant, or the effects of the drug on milk production. Animal studies have shown, however, that ivabradine is present in rat milk [ s ee Data ] . Because of the potential risk to breastfed infants from exposure to Corlanor, breastfeeding is not recommended.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "ivermectin",
@@ -58816,7 +59710,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-lanthanum-carbonate"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Available data from case reports with use of FOSRENOL in pregnant women are insufficient to identify a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. In animal reproduction studies, oral administration of lanthanum carbonate to pregnant rats and rabbits during organogenesis at doses 3 and 2.5 times, respectively, the maximum recommended human dose (MRHD), resulted in …",
+        "lactation": "There are no data on the presence of lanthanum carbonate from FOSRENOL in human milk, the effects on the breastfed infant, or the effects on milk production. Deposition of lanthanum into developing bone, including growth plate, was observed in juvenile animals in long-term animal studies with lanthanum carbonate [see Use in Specific Populations (.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "leflunomide",
@@ -60318,7 +61223,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-levothyroxine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "The clinical experience, including data from postmarketing studies, in pregnant women treated with oral levothyroxine to maintain euthyroid state have not reported increased rates of major birth defects, miscarriages, or other adverse maternal or fetal outcomes . There are risks to the mother and fetus associated with untreated hypothyroidism in pregnancy. Since TSH levels may increase during pregnancy, TSH should …",
+        "lactation": "Published studies report that levothyroxine is present in human milk following the administration of oral levothyroxine. No adverse effects on the breastfed infant have been reported and there is no information on the effects of levothyroxine on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "lidocaine-topical",
@@ -61064,7 +61980,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-liothyronine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Experience with liothyronine use in pregnant women, including data from post-marketing studies, have not reported increased rates of major birth defects or miscarriages (see Data ). There are risks to the mother and fetus associated with untreated hypothyroidism in pregnancy.",
+        "lactation": "Limited published studies report that liothyronine is present in human milk. However, there is insufficient information to determine the effects of liothyronine on the breastfed infant and no available information on the effects of liothyronine on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "liposomal-amphotericin-b",
@@ -64670,6 +65597,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "500 mg daily (long dwell, APD); 1,000 mg daily (short dwell, CAPD)"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 125 mg/L"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -64683,9 +65623,11 @@
               ]
             }
           ],
-          "notes": "Systemic adult PD mapping only. Infusion strategy, MIC, residual function and severe infection require ID/pharmacy individualisation. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Infusion strategy, MIC, residual function and severe infection require ID/pharmacy individualisation. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-meropenem"
+            "nm111-meropenem",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -64712,7 +65654,9 @@
       "sourceIds": [
         "meropenem",
         "nm-pirrt-meropenem",
-        "nm111-meropenem"
+        "nm111-meropenem",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -64808,7 +65752,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Historical reference values; ESRF half-life is a range and is not the on-dialysis elimination half-life."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "meropenem-vaborbactam",
@@ -65154,7 +66098,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-mesalazine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Published data from meta-analyses, cohort studies and case series on the use of mesalamine during pregnancy have not reliably informed an association with mesalamine and major birth defects, miscarriage, or adverse maternal or fetal outcomes (see Data) . In animal reproduction studies, there were no adverse developmental outcomes with administration of oral mesalamine during organogenesis to pregnant rats and …",
+        "lactation": "Data from published literature report the presence of mesalamine and its metabolite, N-acetyl 5-aminosalicylic acid in human milk in small amounts with relative infant doses (RID) of 2% or less (see Data) . There are case reports of diarrhea in breastfed infants exposed to mesalamine (see Clinical Considerations) . There is no information on the effects of the drug on milk production. The lack of clinical data …",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "metformin",
@@ -66274,7 +67229,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-methylprednisolone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Since adequate human reproduction studies have not been done with corticosteroids, the use of these drugs in pregnancy, nursing mothers or women of child-bearing potential requires that the possible benefits of the drug be weighed against the potential hazards to the mother and embryo or fetus. Infants born of mothers who have received substantial doses of corticosteroids during pregnancy, should be carefully …",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "metoclopramide",
@@ -66611,7 +67577,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-metolazone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Reproduction studies performed in mice, rabbits, and rats treated during the appropriate period of gestation at doses up to 50 mg/kg/day have revealed no evidence of harm to the fetus due to metolazone. There are, however, no adequate and well-controlled studies in pregnant women.",
+        "lactation": "Metolazone appears in breast milk. Because of the potential for serious adverse reactions in nursing infants from metolazone, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "metoprolol",
@@ -67590,7 +68567,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-midodrine"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Midodrine hydrochloride increased the rate of embryo resorption, reduced fetal body weight in rats and rabbits, and decreased fetal survival in rabbits when given in doses 13 (rat) and 7 (rabbit) times the maximum human dose based on body surface area (mg/m 2 ). There are no adequate and well-controlled studies in pregnant women.",
+        "lactation": "It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when midodrine hydrochloride is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "miglitol",
@@ -68195,7 +69183,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-minoxidil-systemic"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "6. Pregnancy Teratogenic Effects Pregnancy Category C. Oral administration of minoxidil has been associated with evidence of increased fetal resorption in rabbits, but not rats, when administered at five times the maximum recommended oral antihypertensive human dose.",
+        "lactation": "8. Nursing Mothers There has been one report of minoxidil excretion in the breast milk of a woman treated with 5 mg oral minoxidil twice daily for hypertension.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "mirabegron",
@@ -68657,7 +69656,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-misoprostol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Teratogenic effects See boxed WARNINGS . Congenital anomalies sometimes associated with fetal death have been reported subsequent to the unsuccessful use of misoprostol as an abortifacient, but the drug's teratogenic mechanism has not been demonstrated. Several reports in the literature associate the use of misoprostol during the first trimester of pregnancy with skull defects, cranial nerve palsies, facial …",
+        "lactation": "Nursing mothers Misoprostol is rapidly metabolized in the mother to misoprostol acid, which is biologically active and is excreted in breast milk. There are no published reports of adverse effects of misoprostol in breast-feeding infants of mothers taking misoprostol.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "molnupiravir",
@@ -70515,7 +71525,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-nicardipine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Available data from published literature (clinical trials and case series) over decades of use of intravenous nicardipine during pregnancy have not identified a drug-associated risk of major birth defects or miscarriage. However, nicardipine is predominantly used in pregnancy after 20 gestational weeks.",
+        "lactation": "Nicardipine is present in human milk in low amounts. In two published clinical studies in which 18 infants were exposed to nicardipine through breast milk in the postpartum period, the calculated daily infant dose was less than 0.3 mcg.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "nifedipine",
@@ -71270,7 +72291,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-nitroglycerin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Animal teratology studies have not been conducted with nitroglycerin injection. Teratology studies in rats and rabbits were conducted with topically applied nitroglycerin ointment at doses up to 80 mg/kg/day and 240 mg/kg/day, respectively, and no toxic effects on dams or fetuses were seen.",
+        "lactation": "It is not known if nitroglycerin is present in human milk or if nitroglycerin has effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for nitroglycerin and any potential adverse effects on the breastfed child from nitroglycerin or from the underlying maternal condition.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "nivolumab",
@@ -71949,7 +72981,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-nystatin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Teratogenic effects Teratogenicity studies have not been conducted with nystatin. It is also not known whether nystatin can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity.",
+        "lactation": "It is not known whether nystatin is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when nystatin is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "obinutuzumab",
@@ -72260,10 +73303,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 200 mg, then 25 mg/L"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -72274,7 +73334,9 @@
       },
       "considerations": "Oral systemic product only, not ophthalmic/otic drops. Choose the usual 200–400 mg unit dose for the indication first. Renal table includes CrCl 50 in its 20–50 band. Review serious fluoroquinolone risks, QT and chelation interactions; no routine dialysis dose is selected.",
       "sourceIds": [
-        "spl111-ofloxacin"
+        "spl111-ofloxacin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ofloxacin",
       "review": {
@@ -72351,7 +73413,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "olanzapine",
@@ -75374,7 +76436,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-palonosetron"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no available data on palonosetron use in pregnant women to inform a drug-associated risk. In animal reproduction studies, no effects on embryo-fetal development were observed with the administration of oral palonosetron during the period of organogenesis at doses up to 1,894 and 3,789 times the recommended human intravenous dose in rats and rabbits, respectively (see Data).",
+        "lactation": "There are no data on the presence of palonosetron in human milk, the effects of palonosetron on the breastfed infant, or the effects of palonosetron on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for POSFREA and any potential adverse effect on the breastfed infant from palonosetron or from the underlying maternal condition.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "pamidronate",
@@ -76248,7 +77321,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-paricalcitol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Limited data with ZEMPLAR capsules in pregnant women are insufficient to inform a drug-associated risk for major birth defects and miscarriage. There are risks to the mother and fetus associated with chronic kidney disease in pregnancy [see Clinical Considerations] . In animal reproduction studies, slightly increased embryofetal loss was observed in pregnant rats and rabbits administered paricalcitol intravenously …",
+        "lactation": "There is no information available on the presence of paricalcitol in human milk, the effects of the drug on the breastfed infant or the effects of the drug on milk production. Studies in rats have shown that paricalcitol and/or its metabolites are present in the milk of lactating rats; however, due to specifies-specific differences in lactation physiology, animal data may not reliably predict drug levels in human …",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "paroxetine",
@@ -78586,6 +79670,19 @@
           "status": "summarized",
           "tables": [
             {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 4 g/0.5 g, then 1 g/0.125 g"
+                }
+              ]
+            },
+            {
               "indication": "Adult systemic PD · Nebraska institutional protocol",
               "rows": [
                 {
@@ -78595,9 +79692,11 @@
               ]
             }
           ],
-          "notes": "Institution-specific extended infusion; this is not a traditional short infusion or an intraperitoneal peritonitis schedule. Independent local clinical review remains pending.",
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. Institution-specific extended infusion; this is not a traditional short infusion or an intraperitoneal peritonitis schedule. Independent local clinical review remains pending.",
           "sourceIds": [
-            "nm111-piperacillin-tazobactam"
+            "nm111-piperacillin-tazobactam",
+            "ispd2022",
+            "nm-ip-2025"
           ]
         },
         "sled": {
@@ -78625,7 +79724,9 @@
         "piperacillin-tazobactam",
         "piptazo-protocol",
         "nm-pirrt-piperacillin-tazobactam",
-        "nm111-piperacillin-tazobactam"
+        "nm111-piperacillin-tazobactam",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "review": {
         "status": "clinical_review_pending",
@@ -78721,7 +79822,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Book APD/CAPD category says not dialysed but its other-information text reports 6–21% PD removal; do not treat that category as zero clearance."
       },
-      "updatedInVersion": "0.11.1"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "pitavastatin",
@@ -79058,10 +80159,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "No data"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Maintenance 300,000 units (30 mg) per bag"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -79072,7 +80190,9 @@
       },
       "considerations": "Guideline-based institutional advice differs from older product labelling. No loading/maintenance amount is selected here; units, weight and neuro/nephrotoxicity require specialist review. Not a urinary-tract regimen.",
       "sourceIds": [
-        "v09-polymyxin-b"
+        "v09-polymyxin-b",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Polymyxin%20B",
       "review": {
@@ -79149,7 +80269,7 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "pomalidomide",
@@ -80670,7 +81790,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-prazosin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Prazosin hydrochloride has been shown to be associated with decreased litter size at birth, 1, 4, and 21 days of age in rats when given doses more than 225 times the usual maximum recommended human dose. No evidence of drug-related external, visceral, or skeletal fetal abnormalities were observed.",
+        "lactation": "Prazosin hydrochloride has been shown to be excreted in small amounts in human milk. Caution should be exercised when prazosin hydrochloride is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "prednisolone",
@@ -80828,7 +81959,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-prednisolone"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Prednisolone has been shown to be teratogenic in many species when given in doses equivalent to the human dose. Animal studies in which prednisolone has been given to pregnant mice, rats, and rabbits have yielded an increased incidence of cleft palate in the offspring.",
+        "lactation": "Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Caution should be exercised when Prednisolone Sodium Phosphate Oral Solution is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "prednisone",
@@ -81653,7 +82795,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-prochlorperazine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Safety for the use of prochlorperazine during pregnancy has not been established. Therefore, prochlorperazine is not recommended for use in pregnant patients except in cases of severe nausea and vomiting that are so serious and intractable that, in the judgment of the physician, drug intervention is required and potential benefits outweigh possible hazards.",
+        "lactation": "There is evidence that phenothiazines are excreted in the breast milk of nursing mothers. Caution should be exercised when prochlorperazine is administered to a nursing woman.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "promethazine",
@@ -81802,7 +82955,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-promethazine"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "- Pregnancy Category C Teratogenic effects have not been demonstrated in rat-feeding studies at doses of 6.25 and 12.5 mg/kg of promethazine hydrochloride. These doses are from approximately 2.1 to 4.2 times the maximum recommended total daily dose of promethazine for a 50-kg subject, depending upon the indication for which the drug is prescribed.",
+        "lactation": "It is not known whether promethazine hydrochloride is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from promethazine hydrochloride tablets, USP a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "propafenone",
@@ -81962,7 +83126,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-propafenone"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "In the absence of studies in pregnant women, available data from published case reports and several decades of postmarketing experience with use of propafenone in pregnancy have not identified any drug-associated risks of miscarriage, birth defects, or adverse maternal or fetal outcomes. Untreated arrhythmias during pregnancy may pose a risk to the pregnant woman and fetus ( see Clinical Considerations ).",
+        "lactation": "Propafenone and its active metabolite, 5-OH-propafenone, are present in human milk, but the levels are likely to be low. There are no data on the effects of propafenone on the breastfed infant or the effects on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "propofol",
@@ -84247,7 +85422,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-repaglinide"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Limited available data from case reports and case series with repaglinide use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with poorly controlled diabetes in pregnancy (see Clinical Considerations ) . Teratogenicity was not observed in rats and rabbits administered repaglinide …",
+        "lactation": "There are no data on the presence of repaglinide in human milk, the effects on the breastfeeding infant, or the effects on milk production. The drug is present in animal milk.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "rezafungin",
@@ -87486,7 +88672,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-salbutamol-albuterol"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no randomized clinical studies of use of albuterol sulfate during pregnancy. Available data from epidemiological studies and postmarketing case reports of pregnancy outcomes following inhaled albuterol use do not consistently demonstrate a risk of major birth defects or miscarriage.",
+        "lactation": "There are no available data on the presence of albuterol or the components of Albuterol Sulfate HFA in human milk, the effects on the breastfed child, or the effects on milk production. However, plasma levels of albuterol after inhaled therapeutic doses are low in humans, and if present in breast milk, are likely to be correspondingly low [see Clinical Pharmacology ( 12.3 )] . The developmental and health benefits …",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "saline-nasal-spray",
@@ -88157,149 +89354,6 @@
       }
     },
     {
-      "id": "semaglutide-sc",
-      "name": "Semaglutide (Ozempic injection)",
-      "aliases": [
-        "Ozempic",
-        "Semaglutide"
-      ],
-      "category": "Diabetes & endocrine",
-      "drugClass": "GLP-1 receptor agonist",
-      "formulation": "Subcutaneous · Ozempic",
-      "kidneyMetric": "No renal dose adjustment in US product information",
-      "summary": "Renal impairment does not require dose reduction; formulation and indication still determine titration.",
-      "flag": "no_adjust",
-      "modalities": {
-        "ckd": {
-          "status": "summarized",
-          "tables": [
-            {
-              "indication": "Ozempic SC only",
-              "rows": [
-                {
-                  "context": "Renal impairment, including kidney failure",
-                  "dose": "No renal adjustment; follow the injection-specific initiation and titration schedule"
-                }
-              ]
-            }
-          ],
-          "notes": "",
-          "sourceIds": [
-            "semaglutide-label",
-            "semaglutide-maker"
-          ]
-        },
-        "ihd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "US renal PK includes kidney failure; this does not establish all dialysis outcomes or an automatic patient-specific dose. Use the product titration with specialist review.",
-          "sourceIds": []
-        },
-        "crrt": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "",
-          "sourceIds": []
-        },
-        "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "",
-          "sourceIds": []
-        },
-        "sled": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "",
-          "sourceIds": []
-        }
-      },
-      "considerations": "Monitor renal function with severe GI reactions or dehydration. Oral semaglutide and obesity products are not interchangeable with this entry.",
-      "sourceIds": [
-        "semaglutide-label",
-        "semaglutide-maker"
-      ],
-      "review": {
-        "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
-        "clinicalReviewer": null,
-        "clinicalApprovedAt": null
-      },
-      "completeness": "Selected adult indications only. Full interaction, adverse-effect and contraindication monograph not yet curated.",
-      "addedInVersion": "0.2.0",
-      "jurisdiction": "US source unless a table or note explicitly identifies UK guidance",
-      "referenceChecks": {
-        "bnf": {
-          "edition": "92 (September 2026)",
-          "status": "comparison_pending",
-          "reason": "BNF comparison not yet done."
-        },
-        "pdr": {
-          "status": "not_checked"
-        }
-      },
-      "entryType": "renal",
-      "routes": [
-        "Parenteral"
-      ],
-      "otc": false,
-      "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
-        "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
-        },
-        "dialysability": {
-          "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "pd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "crrt": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          },
-          "sled": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
-          }
-        },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
-    },
-    {
       "id": "semaglutide-oral",
       "name": "Semaglutide (oral)",
       "aliases": [
@@ -88441,6 +89495,149 @@
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
       "updatedInVersion": "0.9.0"
+    },
+    {
+      "id": "semaglutide-sc",
+      "name": "Semaglutide (Ozempic injection)",
+      "aliases": [
+        "Ozempic",
+        "Semaglutide"
+      ],
+      "category": "Diabetes & endocrine",
+      "drugClass": "GLP-1 receptor agonist",
+      "formulation": "Subcutaneous · Ozempic",
+      "kidneyMetric": "No renal dose adjustment in US product information",
+      "summary": "Renal impairment does not require dose reduction; formulation and indication still determine titration.",
+      "flag": "no_adjust",
+      "modalities": {
+        "ckd": {
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Ozempic SC only",
+              "rows": [
+                {
+                  "context": "Renal impairment, including kidney failure",
+                  "dose": "No renal adjustment; follow the injection-specific initiation and titration schedule"
+                }
+              ]
+            }
+          ],
+          "notes": "",
+          "sourceIds": [
+            "semaglutide-label",
+            "semaglutide-maker"
+          ]
+        },
+        "ihd": {
+          "status": "specialist",
+          "tables": [],
+          "notes": "US renal PK includes kidney failure; this does not establish all dialysis outcomes or an automatic patient-specific dose. Use the product titration with specialist review.",
+          "sourceIds": []
+        },
+        "crrt": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "",
+          "sourceIds": []
+        },
+        "pd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "",
+          "sourceIds": []
+        },
+        "sled": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "",
+          "sourceIds": []
+        }
+      },
+      "considerations": "Monitor renal function with severe GI reactions or dehydration. Oral semaglutide and obesity products are not interchangeable with this entry.",
+      "sourceIds": [
+        "semaglutide-label",
+        "semaglutide-maker"
+      ],
+      "review": {
+        "status": "clinical_review_pending",
+        "sourceCheckedAt": "2026-10-29",
+        "clinicalReviewer": null,
+        "clinicalApprovedAt": null
+      },
+      "completeness": "Selected adult indications only. Full interaction, adverse-effect and contraindication monograph not yet curated.",
+      "addedInVersion": "0.2.0",
+      "jurisdiction": "US source unless a table or note explicitly identifies UK guidance",
+      "referenceChecks": {
+        "bnf": {
+          "edition": "92 (September 2026)",
+          "status": "comparison_pending",
+          "reason": "BNF comparison not yet done."
+        },
+        "pdr": {
+          "status": "not_checked"
+        }
+      },
+      "entryType": "renal",
+      "routes": [
+        "Parenteral"
+      ],
+      "otc": false,
+      "pharmacokinetics": {
+        "status": "not_curated",
+        "sourceCheckedAt": null,
+        "halfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "renalHalfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "volumeOfDistribution": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "proteinBinding": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "dialysability": {
+          "ihd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "pd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "crrt": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "sled": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          }
+        },
+        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
+      }
     },
     {
       "id": "senna",
@@ -90164,7 +91361,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-sodium-bicarbonate"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Animal reproduction studies have not been conducted with sodium bicarbonate. It is also not known whether sodium bicarbonate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity.",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "sodium-bicarbonate-antacid-combinations",
@@ -92819,7 +94027,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-sulfasalazine"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no adequate and well-controlled studies of sulfasalazine in pregnant women. Reproduction studies have been performed in rats and rabbits at doses up to 6 times the human maintenance dose of 2 g/day based on body surface area and have revealed no evidence of impaired female fertility or harm to the fetus due to sulfasalazine.",
+        "lactation": "Sulfonamides, including sulfasalazine, are present in human milk (see Pregnancy, Clinical Considerations ). Insignificant amounts of sulfasalazine have been found in milk, whereas levels of the active metabolite sulfapyridine in milk are about 30 to 60 percent of those in the maternal serum.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "sumatriptan",
@@ -93855,10 +95074,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "15 mg/kg every 5 days"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Loading 400 mg per bag, then 20 mg/L"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -93869,7 +95105,9 @@
       },
       "considerations": "Use TDM with assay/indication-specific trough targets. Fractional maintenance alternatives are not additive. No intraperitoneal regimen is imported.",
       "sourceIds": [
-        "v09-teicoplanin"
+        "v09-teicoplanin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Teicoplanin",
       "review": {
@@ -93961,7 +95199,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Historical reference half-life; conventional HD and high-flux removal categories differ."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1"
     },
     {
       "id": "telavancin",
@@ -94120,7 +95358,18 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-telavancin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Based on findings in animal reproduction studies, VIBATIV may cause fetal harm. There are no available data on VIBATIV use in pregnant women to evaluate for a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes.",
+        "lactation": "There are no data on the presence of telavancin in human milk, the effects on the breastfed child, or the effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for VIBATIV and any potential adverse effects on the breastfed child from VIBATIV or from the underlying maternal conditions.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "telmisartan",
@@ -95072,7 +96321,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-terazosin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "The limited available data on terazosin use in pregnant women are insufficient to inform a drug-associated risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes. In animal reproduction studies, no adverse developmental effects were observed when terazosin was orally administered to pregnant rats and rabbits during the period of organogenesis at doses of up to 230 and 60 times, …",
+        "lactation": "There are no available data on the presence of terazosin in human milk, effects on the breastfed infant, or the effects on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "terbinafine",
@@ -95351,7 +96611,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-terbutaline"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no adequate and well-controlled studies of terbutaline sulfate in pregnant women. Published animal studies show that rat offspring exhibit alterations in behavior and brain development, including decreased cellular proliferation and differentiation when dams were treated subcutaneously with terbutaline during the late stage of pregnancy and lactation period.",
+        "lactation": "It is not known whether this drug is excreted in human milk. Therefore, terbutaline sulfate tablets should be used during nursing only if the potential benefit justifies the possible risk to the newborn.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "teriparatide",
@@ -95766,7 +97037,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-theophylline"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "In studies in which pregnant mice, rats and rabbits were dosed during the period of organogenesis, theophylline produced teratogenic effects. In studies with mice, a single intraperitoneal dose at and above 100 mg/kg (approximately equal to the maximum recommended oral dose for adults on a mg/m 2 basis) during organogenesis produced cleft palate and digital abnormalities.",
+        "lactation": "Theophylline is excreted into breast milk and may cause irritability or other signs of mild toxicity in nursing human infants. The concentration of theophylline in breast milk is about equivalent to the maternal serum concentration.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "ticagrelor",
@@ -96898,16 +98180,39 @@
       "otc": false,
       "kidneyMetric": "CrCl · mL/min; confirm source method",
       "summary": "Individualise with concentration/AUC monitoring, dosing weight and the selected indication. The protocol directs HD/PD dosing by levels; no fixed interval is inferred.",
-      "flag": "monitor",
+      "flag": "adjust",
       "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Individualise with concentration/AUC monitoring, dosing weight and the selected indication. The protocol directs HD/PD dosing by levels; no fixed interval is inferred.",
+          "status": "summarized",
           "sourceIds": [
+            "us121-tobramycin",
             "v09-tobramycin"
+          ],
+          "notes": "Individualise with concentration/AUC monitoring, dosing weight and the selected indication. The protocol directs HD/PD dosing by levels; no fixed interval is inferred.",
+          "tables": [
+            {
+              "indication": "IV/IM conventional dosing · US label",
+              "rows": [
+                {
+                  "context": "CrCl ≤70 mL/min (reduced dose, every 8 h)",
+                  "dose": "Normal dose × the percentage from the label nomogram"
+                },
+                {
+                  "context": "Interval method",
+                  "dose": "Normal dose every (serum creatinine × 6) hours"
+                },
+                {
+                  "context": "During dialysis",
+                  "dose": "Neither method applies"
+                },
+                {
+                  "context": "Obesity",
+                  "dose": "Dose on lean body weight plus 40% of the excess"
+                }
+              ]
+            }
           ]
         },
         "ihd": {
@@ -96925,10 +98230,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "0.6 mg/kg daily"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "Not advised"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -96939,16 +98261,19 @@
       },
       "considerations": "Individualise with concentration/AUC monitoring, dosing weight and the selected indication. The protocol directs HD/PD dosing by levels; no fixed interval is inferred.",
       "sourceIds": [
-        "v09-tobramycin"
+        "us121-tobramycin",
+        "v09-tobramycin",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tobramycin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Only the displayed route, indication and source statement are reviewed. Other indications, formulations and RRT prescriptions remain separate; no missing dose is inferred.",
+      "completeness": "Selected adult systemic and intraperitoneal regimens. CRRT/PIRRT, paediatric and indication-specific targets are not covered; level monitoring is required.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Selected source-specific adult guidance; not an independently approved or complete prescribing monograph.",
       "referenceChecks": {
@@ -97016,7 +98341,18 @@
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us121-tobramycin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Aminoglycosides, including Tobramycin for Injection, can cause fetal harm when administered to a pregnant woman. Published literature reports that use of streptomycin, an aminoglycoside, can cause total, irreversible, bilateral congenital deafness when administered to a pregnant woman [see Warnings and Precautions ( 5.3 )].",
+        "lactation": "Limited published data with Tobramycin for Injection in lactating women indicate that tobramycin is present in human milk. There are no data on the effects of Tobramycin for Injection on milk production.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "tocilizumab",
@@ -100205,7 +101541,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-ursodeoxycholic-acid"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "Reproduction studies have been performed in rats and rabbits with ursodiol doses up to 200-fold the therapeutic dose and have revealed no evidence of impaired fertility or harm to the fetus at doses of 20- to 100-fold the human dose in rats and at 5-fold the human dose (highest dose tested) in rabbits. Studies employing 100- to 200-fold the human dose in rats have shown some reduction in fertility rate and litter …",
+        "lactation": "It is not known whether ursodiol is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when ursodiol is administered to a nursing mother.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "vadadustat",
@@ -101085,8 +102432,8 @@
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "CrCl · mL/min; confirm source method",
-      "summary": "IV therapy requires concentration/AUC-guided dosing; oral C. difficile therapy has a separate renal statement.",
+      "kidneyMetric": "CrCl · mL/min; serum vancomycin concentrations",
+      "summary": "IV: individualise by levels (anephric 1.9 mg/kg/day after 15 mg/kg); HD: load then 750 mg after each session; PD peritonitis: IP dosing per ISPD 2022.",
       "flag": "monitor",
       "entryType": "renal",
       "sharedGuidanceId": null,
@@ -101094,6 +102441,19 @@
         "ckd": {
           "status": "summarized",
           "tables": [
+            {
+              "indication": "IV · US label",
+              "rows": [
+                {
+                  "context": "Any degree of renal impairment",
+                  "dose": "Initial dose no less than 15 mg/kg, then adjust using serum concentrations"
+                },
+                {
+                  "context": "Functionally anephric",
+                  "dose": "15 mg/kg initially, then 1.9 mg/kg every 24 hours"
+                }
+              ]
+            },
             {
               "indication": "Selected adult renal guidance",
               "rows": [
@@ -101110,16 +102470,43 @@
           ],
           "notes": "IV protocol targets AUC 400–600 and requires individual monitoring. Oral and IV doses are not interchangeable; review each route against its full protocol.",
           "sourceIds": [
+            "us121-vancomycin",
             "v09-vancomycin"
           ]
         },
         "ihd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Follow the local nephrology/vancomycin protocol with levels and dialysis timing; no universal fixed maintenance dose is assigned.",
+          "status": "summarized",
           "sourceIds": [
-            "v09-vancomycin"
-          ]
+            "unmc-vanco-hd"
+          ],
+          "tables": [
+            {
+              "indication": "IV · stable maintenance haemodialysis · UNMC nephrology protocol",
+              "rows": [
+                {
+                  "context": "Loading",
+                  "dose": "20 mg/kg IV once (minimum 1,000 mg, maximum 2,000 mg)"
+                },
+                {
+                  "context": "Maintenance",
+                  "dose": "750 mg IV after each dialysis session (roughly 7–10 mg/kg)"
+                },
+                {
+                  "context": "Pre-dialysis level >20 mcg/mL",
+                  "dose": "Reduce the dose by 250 mg; recheck before the next session"
+                },
+                {
+                  "context": "Pre-dialysis level 15–20 mcg/mL",
+                  "dose": "Continue; check weekly"
+                },
+                {
+                  "context": "Pre-dialysis level <15 mcg/mL",
+                  "dose": "Increase the dose by 250 mg; recheck before the next session"
+                }
+              ]
+            }
+          ],
+          "notes": "Target pre-dialysis level 15–20 mcg/mL. Draw it before the 2nd dialysis after the load, before the next session after any change, then weekly. Modern high-flux haemodialysis removes about 40%. Not for CRRT, PIRRT, PD or irregular haemodialysis."
         },
         "crrt": {
           "status": "not_curated",
@@ -101128,12 +102515,41 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "specialist",
-          "tables": [],
-          "notes": "Measure concentrations to determine redosing. This is not intraperitoneal peritonitis treatment.",
+          "status": "summarized",
           "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025",
             "v09-vancomycin"
-          ]
+          ],
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent, CAPD",
+                  "dose": "15–30 mg/kg IP every 5–7 days"
+                },
+                {
+                  "context": "Intermittent, APD",
+                  "dose": "15 mg/kg IP every 4 days"
+                },
+                {
+                  "context": "Continuous (all exchanges)",
+                  "dose": "Loading 20–25 mg/kg, then 25 mg/L in each exchange"
+                }
+              ]
+            },
+            {
+              "indication": "IV · systemic · UNMC protocol",
+              "rows": [
+                {
+                  "context": "PD",
+                  "dose": "Measure serum levels to decide when to redose"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses. ISPD: supplemental doses may be needed in APD. Northwestern guideline: consider redosing when the serum level is 15 mcg/mL or lower; intermittent dosing is preferred."
         },
         "sled": {
           "status": "not_curated",
@@ -101144,16 +102560,20 @@
       },
       "considerations": "IV protocol targets AUC 400–600 and requires individual monitoring. Oral and IV doses are not interchangeable; review each route against its full protocol.",
       "sourceIds": [
-        "v09-vancomycin"
+        "us121-vancomycin",
+        "v09-vancomycin",
+        "unmc-vanco-hd",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vancomycin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-10-30",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Only the displayed route, indication and source statement are reviewed. Other indications, formulations and RRT prescriptions remain separate; no missing dose is inferred.",
+      "completeness": "Selected adult systemic and intraperitoneal regimens. CRRT/PIRRT, paediatric and indication-specific targets are not covered; level monitoring is required.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Selected source-specific adult guidance; not an independently approved or complete prescribing monograph.",
       "referenceChecks": {
@@ -101236,7 +102656,18 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Systemic/IV PK only. Oral vancomycin systemic exposure cannot be assumed from these values."
       },
-      "updatedInVersion": "0.9.0"
+      "updatedInVersion": "0.12.1",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us121-vancomycin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no available data on vancomycin use in pregnant women to inform a drug associated risk of major birth defects or miscarriage. Available published data on vancomycin use in pregnancy during the second and third trimesters have not shown an association with adverse pregnancy related outcomes (see Data ) . Vancomycin did not show adverse developmental effects when administered intravenously to pregnant rats …",
+        "lactation": "Vancomycin is present in human milk following intravenous administration, however, there are insufficient data to inform the levels. There are no available data on vancomycin presence in milk following oral administration.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "vasopressin",
@@ -101813,7 +103244,18 @@
         },
         "notes": "Parent and norverapamil differ; hepatic impairment prolongs elimination. Distribution range is from healthy subjects."
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us120-verapamil"
+        ],
+        "fdaLetterCategory": "C",
+        "pregnancy": "Reproduction studies have been performed in rabbits and rats at oral doses up to 1.9 (15 mg/kg/day) and 7.5 (60 mg/kg/day) times the human oral daily dose, respectively, and have revealed no evidence of teratogenicity. In the rat, however, this multiple of the human dose was embryocidal and retarded fetal growth and development, probably because of adverse maternal effects reflected in reduced weight gains of the …",
+        "lactation": null,
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "vibegron",
@@ -102136,7 +103578,18 @@
         "historical": true,
         "evidenceDate": "2018 (copyright 2019)"
       },
-      "updatedInVersion": "0.12.0"
+      "updatedInVersion": "0.12.0",
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "uk120-vildagliptin"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no adequate data from the use of vildagliptin in pregnant women. Studies in animals have shown reproductive toxicity at high doses (see section 5.3).",
+        "lactation": "It is unknown whether vildagliptin is excreted in human milk. Animal studies have shown excretion of vildagliptin in milk.",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
     },
     {
       "id": "vincristine",
@@ -102673,6 +104126,186 @@
       }
     },
     {
+      "id": "vonoprazan",
+      "name": "Vonoprazan",
+      "aliases": [
+        "Voquezna",
+        "Takecab"
+      ],
+      "category": "Gastrointestinal",
+      "drugClass": "Potassium-competitive acid blocker (P-CAB)",
+      "formulation": "Oral tablets (Voquezna, US label)",
+      "routes": [
+        "Oral"
+      ],
+      "otc": false,
+      "kidneyMetric": "eGFR · mL/min (label)",
+      "summary": "Halve the erosive-oesophagitis healing dose at eGFR <30; H. pylori regimens not recommended at eGFR <30.",
+      "flag": "adjust",
+      "entryType": "renal",
+      "sharedGuidanceId": null,
+      "modalities": {
+        "ckd": {
+          "status": "summarized",
+          "sourceIds": [
+            "us121-vonoprazan"
+          ],
+          "notes": "",
+          "tables": [
+            {
+              "indication": "Healing of erosive oesophagitis · US label",
+              "rows": [
+                {
+                  "context": "eGFR ≥30",
+                  "dose": "20 mg once daily for 8 weeks"
+                },
+                {
+                  "context": "eGFR <30",
+                  "dose": "10 mg once daily"
+                }
+              ]
+            },
+            {
+              "indication": "Maintenance of healed oesophagitis / non-erosive reflux · US label",
+              "rows": [
+                {
+                  "context": "Any degree of renal impairment",
+                  "dose": "No adjustment (10 mg once daily)"
+                }
+              ]
+            },
+            {
+              "indication": "H. pylori (with amoxicillin ± clarithromycin) · US label",
+              "rows": [
+                {
+                  "context": "eGFR ≥30",
+                  "dose": "Usual regimen"
+                },
+                {
+                  "context": "eGFR <30",
+                  "dose": "Not recommended"
+                }
+              ]
+            }
+          ]
+        },
+        "ihd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No dosing source curated for this setting; consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "crrt": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No dosing source curated for this setting; consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "pd": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No dosing source curated for this setting; consult renal pharmacy.",
+          "sourceIds": []
+        },
+        "sled": {
+          "status": "not_curated",
+          "tables": [],
+          "notes": "No dosing source curated for this setting; consult renal pharmacy.",
+          "sourceIds": []
+        }
+      },
+      "considerations": "Also reduce the healing dose in moderate–severe hepatic impairment. Check the amoxicillin and clarithromycin labels for their own renal adjustments.",
+      "sourceIds": [
+        "us121-vonoprazan"
+      ],
+      "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Vonoprazan",
+      "review": {
+        "status": "clinical_review_pending",
+        "sourceCheckedAt": "2026-10-30",
+        "clinicalReviewer": null,
+        "clinicalApprovedAt": null
+      },
+      "completeness": "Renal statements from the current US label only. Dialysis settings are not covered.",
+      "addedInVersion": "0.12.1",
+      "jurisdiction": "US FDA label. Jordan: confirm against the JFDA-approved leaflet of the product dispensed.",
+      "referenceChecks": {
+        "bnf": {
+          "edition": "92 (September 2026)",
+          "status": "comparison_pending",
+          "reason": "BNF comparison not yet done."
+        },
+        "pdr": {
+          "status": "not_checked"
+        }
+      },
+      "pharmacokinetics": {
+        "status": "not_curated",
+        "sourceCheckedAt": null,
+        "halfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "renalHalfLife": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "volumeOfDistribution": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "proteinBinding": {
+          "status": "not_curated",
+          "value": null,
+          "context": "Not yet curated. No value is inferred.",
+          "sourceIds": []
+        },
+        "dialysability": {
+          "ihd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "pd": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "crrt": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          },
+          "sled": {
+            "status": "not_curated",
+            "value": null,
+            "context": "Modality-specific removal data have not been curated.",
+            "sourceIds": []
+          }
+        },
+        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
+      },
+      "pregnancyLactation": {
+        "status": "label_excerpt",
+        "sourceIds": [
+          "us121-vonoprazan"
+        ],
+        "fdaLetterCategory": null,
+        "pregnancy": "There are no adequate and well-controlled studies of vonoprazan in pregnant women. Available data from pharmacovigilance reports with vonoprazan-containing products used in pregnant women are not sufficient to evaluate for a drug-associated risk for major birth defects, miscarriage, or other adverse maternal or fetal outcomes.",
+        "lactation": "Data from a clinical lactation study indicate that vonoprazan is present in human breast milk in amounts less than 0.03% of the administered maternal dose. Assuming an infant body weight of 6 kg and an exclusively breastfed infant, the estimated mean daily infant dose was less than 0.3% of the maternal weight-adjusted dose (see Data) . There are no data on the effects of vonoprazan on the breastfed child or the …",
+        "checkedAt": "2026-10-31",
+        "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
+      }
+    },
+    {
       "id": "voriconazole",
       "name": "Voriconazole",
       "aliases": [
@@ -102723,10 +104356,27 @@
           "sourceIds": []
         },
         "pd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Intraperitoneal · PD peritonitis · ISPD 2022 Table 5",
+              "rows": [
+                {
+                  "context": "Intermittent",
+                  "dose": "IP 2.5 mg/kg daily (oral route preferred)"
+                },
+                {
+                  "context": "Continuous",
+                  "dose": "No data"
+                }
+              ]
+            }
+          ],
+          "notes": "Intraperitoneal (IP) doses treat PD peritonitis; intermittent means added to one exchange daily with a dwell of at least 6 hours. Check stability and compatibility before mixing antibiotics in one bag. Other PD rows on this tab are systemic doses.",
+          "sourceIds": [
+            "ispd2022",
+            "nm-ip-2025"
+          ]
         },
         "sled": {
           "status": "not_curated",
@@ -102738,7 +104388,9 @@
       "considerations": "",
       "sourceIds": [
         "voriconazole-label-07",
-        "nm07-voriconazole"
+        "nm07-voriconazole",
+        "ispd2022",
+        "nm-ip-2025"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Voriconazole",
       "review": {
@@ -102747,7 +104399,7 @@
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows are systemic therapy, not intraperitoneal peritonitis therapy.",
+      "completeness": "Selected adult source-specific indications only. Regimens do not cover every infection, formulation, paediatric patient or RRT prescription. PD rows labelled ISPD are intraperitoneal peritonitis doses; other PD rows are systemic.",
       "addedInVersion": "0.3.0",
       "jurisdiction": "Nebraska institutional adult protocol unless a table explicitly identifies a current product label.",
       "referenceChecks": {
@@ -102830,7 +104482,7 @@
         },
         "notes": "Historical PK reference: Renal Drug Handbook, 5th edition, published 2018 (©2019). Source checked today does not mean a new PK study or independent clinical approval. Nonlinear and dose-dependent PK; a historical removal category is not evidence that HD requires a replacement dose."
       },
-      "updatedInVersion": "0.7.0",
+      "updatedInVersion": "0.12.1",
       "evidenceNotes": [
         {
           "title": "Route matters for voriconazole",
@@ -104102,7 +105754,7 @@
       "updatedInVersion": "0.9.0"
     }
   ],
-  "softwareReleaseDate": "2026-10-30",
+  "softwareReleaseDate": "2026-10-31",
   "referenceResources": [
     {
       "id": "bnf",
@@ -104420,76 +106072,44 @@
     }
   ],
   "releaseChanges": {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "changedIds": [
-      "acetazolamide",
-      "acetylcysteine",
-      "adenosine",
-      "aminophylline",
-      "amiodarone",
-      "aprepitant",
-      "bisacodyl",
-      "calcitriol",
-      "calcium-acetate",
-      "chlorphenamine",
-      "clopidogrel",
-      "dexamethasone",
-      "dobutamine",
-      "dopamine",
-      "esmolol",
-      "flecainide",
-      "fludrocortisone",
-      "folic-acid",
-      "formoterol",
-      "granisetron",
-      "hydrocortisone",
-      "hydroxychloroquine",
-      "ipratropium",
-      "isosorbide-dinitrate",
-      "isosorbide-mononitrate",
-      "ivabradine",
-      "lanthanum-carbonate",
-      "levothyroxine",
-      "liothyronine",
-      "mesalazine",
-      "methylprednisolone",
-      "metolazone",
-      "midodrine",
-      "minoxidil-systemic",
-      "misoprostol",
-      "nicardipine",
-      "nitroglycerin",
-      "nystatin",
-      "palonosetron",
-      "paricalcitol",
-      "prazosin",
-      "prednisolone",
-      "prochlorperazine",
-      "promethazine",
-      "propafenone",
-      "repaglinide",
-      "salbutamol-albuterol",
-      "sodium-bicarbonate",
-      "sulfasalazine",
-      "telavancin",
-      "terazosin",
-      "terbutaline",
-      "theophylline",
-      "ursodeoxycholic-acid",
-      "verapamil",
-      "alfacalcidol",
-      "carbimazole",
-      "domperidone",
-      "hyoscine-butylbromide",
-      "cholecalciferol",
-      "vildagliptin"
+      "cefazolin",
+      "cefepime",
+      "cefotaxime",
+      "ceftazidime",
+      "ceftriaxone",
+      "benzylpenicillin",
+      "amoxicillin",
+      "ampicillin",
+      "ampicillin-sulbactam",
+      "piperacillin-tazobactam",
+      "aztreonam",
+      "ciprofloxacin",
+      "clindamycin",
+      "daptomycin",
+      "fosfomycin",
+      "imipenem-cilastatin",
+      "ofloxacin",
+      "polymyxin-b",
+      "meropenem",
+      "teicoplanin",
+      "fluconazole",
+      "voriconazole",
+      "tobramycin",
+      "vancomycin",
+      "gentamicin",
+      "amikacin",
+      "vonoprazan"
     ],
-    "newRenalIds": [],
+    "newRenalIds": [
+      "vonoprazan"
+    ],
     "newPKIds": [],
     "pirrtSummaryIds": [],
-    "note": "Dose tables rebuilt from current labels; PK panels unchanged in this release."
+    "note": "Vancomycin and aminoglycosides with numeric CKD/HD/PD dosing; ISPD 2022 intraperitoneal peritonitis doses; vonoprazan; pregnancy/lactation label excerpts."
   },
-  "clinicalDataVersion": "0.12.0",
+  "clinicalDataVersion": "0.12.1",
   "calculatorSources": [
     {
       "title": "NIDDK · adult CKD-EPI equations",
@@ -104529,74 +106149,70 @@
     }
   ],
   "clinicalUpdates": {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "changedIds": [
-      "acetazolamide",
-      "acetylcysteine",
-      "adenosine",
-      "aminophylline",
-      "amiodarone",
-      "aprepitant",
-      "bisacodyl",
-      "calcitriol",
-      "calcium-acetate",
-      "chlorphenamine",
-      "clopidogrel",
-      "dexamethasone",
-      "dobutamine",
-      "dopamine",
-      "esmolol",
-      "flecainide",
-      "fludrocortisone",
-      "folic-acid",
-      "formoterol",
-      "granisetron",
-      "hydrocortisone",
-      "hydroxychloroquine",
-      "ipratropium",
-      "isosorbide-dinitrate",
-      "isosorbide-mononitrate",
-      "ivabradine",
-      "lanthanum-carbonate",
-      "levothyroxine",
-      "liothyronine",
-      "mesalazine",
-      "methylprednisolone",
-      "metolazone",
-      "midodrine",
-      "minoxidil-systemic",
-      "misoprostol",
-      "nicardipine",
-      "nitroglycerin",
-      "nystatin",
-      "palonosetron",
-      "paricalcitol",
-      "prazosin",
-      "prednisolone",
-      "prochlorperazine",
-      "promethazine",
-      "propafenone",
-      "repaglinide",
-      "salbutamol-albuterol",
-      "sodium-bicarbonate",
-      "sulfasalazine",
-      "telavancin",
-      "terazosin",
-      "terbutaline",
-      "theophylline",
-      "ursodeoxycholic-acid",
-      "verapamil",
-      "alfacalcidol",
-      "carbimazole",
-      "domperidone",
-      "hyoscine-butylbromide",
-      "cholecalciferol",
-      "vildagliptin"
+      "cefazolin",
+      "cefepime",
+      "cefotaxime",
+      "ceftazidime",
+      "ceftriaxone",
+      "benzylpenicillin",
+      "amoxicillin",
+      "ampicillin",
+      "ampicillin-sulbactam",
+      "piperacillin-tazobactam",
+      "aztreonam",
+      "ciprofloxacin",
+      "clindamycin",
+      "daptomycin",
+      "fosfomycin",
+      "imipenem-cilastatin",
+      "ofloxacin",
+      "polymyxin-b",
+      "meropenem",
+      "teicoplanin",
+      "fluconazole",
+      "voriconazole",
+      "tobramycin",
+      "vancomycin",
+      "gentamicin",
+      "amikacin",
+      "vonoprazan"
     ],
-    "newRenalIds": [],
+    "newRenalIds": [
+      "vonoprazan",
+      "cefotaxime"
+    ],
     "newPKIds": [],
-    "newPDIds": [],
-    "scope": "Renal dose tables for 61 entries rebuilt from current US FDA labels (55) or UK SmPCs (6), replacing the 2018 handbook."
+    "newPDIds": [
+      "cefazolin",
+      "cefepime",
+      "cefotaxime",
+      "ceftazidime",
+      "ceftriaxone",
+      "benzylpenicillin",
+      "amoxicillin",
+      "ampicillin",
+      "ampicillin-sulbactam",
+      "piperacillin-tazobactam",
+      "aztreonam",
+      "ciprofloxacin",
+      "clindamycin",
+      "daptomycin",
+      "fosfomycin",
+      "imipenem-cilastatin",
+      "ofloxacin",
+      "polymyxin-b",
+      "meropenem",
+      "teicoplanin",
+      "fluconazole",
+      "voriconazole",
+      "tobramycin",
+      "vancomycin",
+      "gentamicin",
+      "amikacin"
+    ],
+    "scope": "Vancomycin and aminoglycosides with numeric CKD/HD/PD dosing; ISPD 2022 intraperitoneal peritonitis doses; vonoprazan; pregnancy/lactation label excerpts."
   },
   "researchLimitations": {
     "onlinePrimarySourceLookup": "Labels retrieved directly from openFDA/DailyMed (US) and emc (UK) on 30 October 2026.",
