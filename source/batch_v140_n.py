@@ -1,0 +1,55 @@
+# ---- Batch N: pain & neurology catalog entries ----
+add('atogepant', 'QULIPTA', promote=True, flag='adjust', metric='CrCl · mL/min',
+ summary='CrCl <30 or end-stage disease: episodic migraine 10 mg once daily; chronic migraine not recommended.',
+ mods=dict(ckd=M('summarized', [T('Migraine prevention · US label', [('CrCl ≥30 mL/min', 'Usual dose (episodic 10, 30 or 60 mg; chronic 60 mg once daily)'), ('CrCl <30 mL/min, episodic migraine', '10 mg once daily'), ('CrCl <30 mL/min, chronic migraine', 'Not recommended')])], '',
+   ['Severe Renal Impairment or End-Stage Renal Disease ( 2.2 , 8.6 ): Episodic migraine: 10 mg once daily. Chronic migraine: Not recommended', 'For episodic migraine, the recommended dosage is 10 mg, 30 mg, or 60 mg taken once daily', 'For chronic migraine, the recommended dosage is 60 mg taken once daily']),
+  ihd=M('summarized', [T('End-stage renal disease · US label', [('ESRD, episodic migraine', '10 mg once daily'), ('ESRD, chronic migraine', 'Not recommended')])], '', ['Severe Renal Impairment or End-Stage Renal Disease ( 2.2 , 8.6 ): Episodic migraine: 10 mg once daily. Chronic migraine: Not recommended'])))
+add('ubrogepant', 'UBRELVY', promote=True, flag='adjust', metric='CrCl · mL/min',
+ summary='No change in mild–moderate impairment; dose adjustment at CrCl 15–29 (see label table); avoid at CrCl <15.',
+ mods=dict(ckd=M('summarized', [T('Acute migraine · US label', [('Mild or moderate impairment', 'No dose adjustment'), ('CrCl 15–29 mL/min', 'Dose adjustment recommended (see the label dosing table)'), ('CrCl <15 mL/min (ESRD)', 'Avoid')])], '',
+   ['No dose adjustment is recommended for patients with mild or moderate renal impairment', 'Dose adjustment is recommended for patients with severe renal impairment (CLcr 15-29 mL/min)', 'Avoid use of UBRELVY in patients with end-stage renal disease (ESRD) (CLcr <15 mL/min)']),
+  ihd=M('avoid', notes='Avoid in end-stage renal disease.', ev=['Avoid use of UBRELVY in patients with end-stage renal disease (ESRD) (CLcr <15 mL/min)'])))
+add('rimegepant', 'NURTEC ODT', promote=True, flag='caution', metric='CrCl · mL/min', summary='No adjustment in mild to severe impairment; avoid at CrCl <15 (not studied in ESRD or dialysis).',
+ mods=dict(ckd=M('summarized', [T('Migraine · US label', [('Mild, moderate or severe impairment', 'No dose adjustment'), ('CrCl <15 mL/min (ESRD)', 'Avoid')])], '',
+   ['No dosage adjustment of NURTEC ODT is required in patients with mild, moderate, or severe renal impairment', 'Avoid use of NURTEC ODT in patients with end-stage renal disease (CLcr <15 mL/min)']),
+  ihd=M('avoid', notes='Avoid in end-stage renal disease; not studied on dialysis.', ev=['Avoid use of NURTEC ODT in patients with end-stage renal disease (CLcr <15 mL/min)'])))
+add('tapentadol', 'Tapentadol ER', promote=True, flag='caution', metric='CrCl · mL/min', summary='Not recommended at CrCl <30 (metabolite accumulates).',
+ mods=dict(ckd=M('summarized', [T('Pain, extended-release · US label', [('CrCl <30 mL/min', 'Not recommended (glucuronide metabolite accumulates)')])], '',
+   ['Use of tapentadol extended-release tablets in patients with severe renal impairment (creatinine clearance less than 30 mL/minute) is not recommended']),
+  ihd=M('avoid', notes='Not recommended at CrCl <30 mL/min.', ev=['Use of tapentadol extended-release tablets in patients with severe renal impairment (creatinine clearance less than 30 mL/minute) is not recommended'])))
+add('tramadol-extended-release', 'Tramadol ER', promote=True, flag='caution', metric='CrCl · mL/min', summary='Not studied at CrCl <30; the ER tablet does not allow the dose flexibility needed in severe renal impairment.',
+ mods=dict(ckd=M('summarized', [T('Pain, extended-release · US label', [('CrCl <30 mL/min', 'Not studied; ER tablets lack the needed dose flexibility (use an immediate-release product)')])], '',
+   ['dol hydrochloride extended-release tablet has not been studied in patients with severe renal impairment (CLcr < 30 mL/min)'.lstrip('dol '), 'ets do not permit the dosing flexibility required for safe use in patients with severe renal impairment'.lstrip('ets ')])))
+add('dexmedetomidine', 'Dexmedetomidine', promote=True, flag='no_adjust', metric='No PK change at CrCl <30', summary='PK unchanged in severe renal impairment; titrate to sedation.',
+ mods=dict(ckd=M('summarized', [T('Sedation · US label', [('CrCl <30 mL/min', 'No PK difference; titrate to effect')])], '', ['Dexmedetomidine pharmacokinetics (C max , T max , AUC, t 1/2 , CL, and V ss ) were not significantly different in patients with severe renal impairment (creatinine clearance: <30 mL/min) compared to healthy subjects'])))
+add('donepezil', 'Donepezil', promote=True, flag='no_adjust', metric='No clearance change at CrCl <18', summary='Clearance unchanged in moderate–severe renal impairment.',
+ mods=dict(ckd=M('summarized', [T('Alzheimer disease · US label', [('CrCl <18 mL/min/1.73 m²', 'Clearance unchanged; usual dose')])], '', ['In a study of 11 patients with moderate to severe renal impairment (Cl C < 18 mL/min/1.73 m 2 ) the clearance of donepezil hydrochloride did not differ from 11 age- and sex-matched healthy subjects'])))
+add('propofol', 'DIPRIVAN', promote=True, flag='no_adjust', metric='No PK change in chronic renal impairment', summary='PK not different in chronic renal impairment; titrate to effect.',
+ mods=dict(ckd=M('summarized', [T('Anaesthesia / sedation · US label', [('Chronic renal impairment', 'No PK difference; titrate to effect')])], 'In patients at risk of renal impairment, check urinalysis and sediment before and on alternate days during sedation.',
+   ['The pharmacokinetics of propofol do not appear to be different in people with chronic renal impairment compared to adults with normal renal function', 'In patients at risk for renal impairment, urinalysis and urine sediment should be checked before initiation of sedation and then be monitored on alternate days during sedation'])))
+add('erenumab', 'AIMOVIG', promote=True, flag='no_adjust', metric='eGFR · mL/min/1.73 m²', summary='No PK difference in mild–moderate impairment; severe impairment not studied.',
+ mods=dict(ckd=M('summarized', [T('Migraine prevention · US label', [('Mild or moderate impairment', 'No PK difference; usual dose'), ('eGFR <30', 'Not studied')])], '',
+   ['did not reveal a difference in the pharmacokinetics of erenumab-aooe in patients with mild or moderate renal impairment relative to those with normal renal function', 'Patients with severe renal impairment (eGFR < 30 mL/min/1.73 m 2 ) have not been studied'])))
+add('indomethacin', 'Indomethacin ER', promote=True, flag='caution', metric='Renal function', summary='Avoid in advanced renal disease unless benefit outweighs the risk of worsening renal function; monitor renal function.',
+ mods=dict(ckd=M('summarized', [T('All indications · US label', [('Renal impairment', 'Monitor renal function'), ('Advanced renal disease', 'Avoid unless benefits outweigh the risk of worsening renal function')])], '',
+   ['Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia', 'Avoid use of indomethacin extended-release capsules in patients with advanced renal disease unless benefits are expected to outweigh risk of worsening renal function'])))
+add('methocarbamol', 'ROBAXIN', promote=True, flag='caution', metric='Renal function', summary='Injectable form: polyethylene glycol vehicle can worsen acidosis and urea retention in renal impairment. On haemodialysis clearance falls ~40% (half-life similar).',
+ mods=dict(ckd=M('specialist', notes='The injectable vehicle (polyethylene glycol) can increase pre-existing acidosis and urea retention in renal impairment; no numeric renal dose.',
+   ev=['is present in recommended doses of ROBAXIN Injectable is known to have increased pre-existing acidosis and urea retention in patients with renal impairment']),
+  ihd=M('specialist', notes='On maintenance haemodialysis, clearance was about 40% lower but half-life similar; usefulness of HD in overdose unknown.',
+   ev=['The clearance of methocarbamol in 8 renally-impaired patients on maintenance hemodialysis was reduced about 40% compared to 17 normal subjects', 'The usefulness of hemodialysis in managing overdose is unknown'])))
+add('rizatriptan', 'Rizatriptan', promote=True, flag='no_adjust', metric='CrCl · mL/min', summary='AUC not different at CrCl 10–60; dialysis effect unknown.',
+ mods=dict(ckd=M('summarized', [T('Acute migraine · US label', [('CrCl 10–60 mL/min/1.73 m²', 'AUC unchanged; usual dose')])], '', ['the AUC 0-∞ of rizatriptan was not significantly different from that in subjects with normal renal function']),
+  ihd=M('insufficient_data', notes='Effect of haemodialysis or PD on rizatriptan levels is unknown.', ev=['The effects of hemo- or peritoneal dialysis on serum concentrations of rizatriptan are unknown'])))
+def spec2(i, brand, notes, ev, flag='monitor', ihd=None):
+    mods = dict(ckd=M('specialist', notes=notes, ev=ev))
+    if ihd: mods['ihd'] = ihd
+    add(i, brand, promote=True, flag=flag, metric='Renal function', summary=notes, mods=mods)
+spec2('diazepam', 'Diazepam', 'Metabolites are renally excreted: toxicity risk may be greater in impaired renal function; no numeric renal dose.', ['of this drug are known to be substantially excreted by the kidney, and the risk of toxic reactions may be greater in patients with impaired renal function'])
+spec2('fosphenytoin', 'CEREBYX', 'Consider the phosphate load in severe renal impairment; monitor free phenytoin. No numeric renal dose.', ['should be considered when treating patients who require phosphate restriction, such as those with severe renal impairment'])
+spec2('carbamazepine', 'Carbamazepine', 'No renal dose in the label; dialysis indicated only in severe poisoning with renal failure.', ['Dialysis is indicated only in severe poisoning associated with renal failure'])
+spec2('cyclobenzaprine', 'Cyclobenzaprine', 'No renal dose in the label; dialysis probably of no value in overdose.', ['Dialysis is probably of no value because of low plasma concentrations of the drug'])
+spec2('levodopa-carbidopa', 'Carbidopa-levodopa', 'No renal dose; periodic renal function evaluation advised during extended therapy.', ['As with levodopa, periodic evaluations of hepatic, hematopoietic, cardiovascular, and renal function are recommended during extended therapy'])
+spec2('sumatriptan', 'Sumatriptan', 'No renal dose statement; effect of dialysis unknown.', ['It is unknown what effect hemodialysis or peritoneal dialysis has on the serum concentrations of sumatriptan'])
+spec2('ketamine', 'KETALAR', 'No renal dose statement; long-term misuse can cause ureteral stenosis and hydronephrosis.', ['Ureteral stenosis and ureteral obstruction can lead to hydronephrosis and renal impairment and may require emergency interventions such as nephrostomy tube placement, ureteral stenting, or surgical intervention'])
+spec2('naloxone', 'NARCAN', 'The US label gives no renal dose statement.', [])

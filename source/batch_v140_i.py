@@ -1,0 +1,30 @@
+# ---- Batch I: dialysis statements for existing renal profiles (antimicrobials, CNS, respiratory) ----
+def hd(i, rows, ev, notes='', status='summarized', pd=None):
+    mods = dict(ihd=M(status, [T('Haemodialysis · US label', rows)] if rows else [], notes, ev))
+    if pd: mods['pd'] = pd
+    add(i, '', pk_only=True, mods=mods)
+NS = 'No dialysis dose in the label; not removed, so no supplement after HD'
+hd('fosfomycin', [('Haemodialysis', 'Give after HD on dialysis days (60–80% of the dose is removed by HD)')], ['Approximately 60% to 80% of the fosfomycin dose is cleared from the body by hemodialysis', 'Administer CONTEPO after hemodialysis on hemodialysis days'])
+hd('omadacycline', [('ESRD on haemodialysis', 'No dose adjustment')], ['of NUZYRA is warranted in patients with mild, moderate, or severe renal impairment, including patients with end stage renal disease who are receiving hemodialysis'])
+hd('sertraline', [('Haemodialysis', 'No adjustment: PK and protein binding unchanged')], ['the pharmacokinetics and protein binding of 200 mg sertraline per day maintained for 21 days were not altered compared to'])
+hd('fluoxetine', [('Dialysis', 'No adjustment: steady-state levels comparable to normal renal function (20 mg daily)')], ['In depressed patients on dialysis (N = 12), fluoxetine administered as 20 mg once daily for 2 months produced steady-state fluoxetine and norfluoxetine plasma concentrations comparable with those seen in patients'])
+hd('itraconazole', [('Haemodialysis', 'No significant effect of HD on itraconazole PK')], ['This study did not demonstrate any significant effect of hemodialysis or continuous ambulatory peritoneal dialysis on the pharmacokinetics of itraconazole'],
+   pd=M('summarized', [T('CAPD · US label', [('CAPD', 'No significant effect of CAPD on itraconazole PK')])], '', ['This study did not demonstrate any significant effect of hemodialysis or continuous ambulatory peritoneal dialysis on the pharmacokinetics of itraconazole']))
+hd('molnupiravir', [('Dialysis', 'No adjustment expected (no significant effect on NHC exposure)')], ['or on dialysis, severe renal impairment, and end-stage renal disease (ESRD) are not expected to have a significant effect on NHC exposure'])
+hd('foscarnet', [], ['FOSCAVIR is not recommended in patients undergoing hemodialysis because dosage guidelines have not been established'], 'Not recommended on haemodialysis: dosing not established.', 'avoid')
+hd('valganciclovir', [], ['For adult patients on hemodialysis (CrCl less than 10 mL/min), a dose recommendation for VALCYTE cannot be given'], 'No dose recommendation can be given for adults on haemodialysis.', 'insufficient_data')
+hd('raltegravir', [('Haemodialysis', 'Avoid dosing before a dialysis session (dialysability unknown)')], ['Because the extent to which ISENTRESS may be dialyzable is unknown, dosing before a dialysis session should be avoided'])
+hd('dolutegravir', [], ['There is inadequate information to recommend appropriate dosing of dolutegravir in patients requiring dialysis', 'As dolutegravir is highly bound to plasma proteins, it is unlikely that it will be significantly removed by dialysis'], 'Inadequate information to recommend dosing on dialysis; unlikely to be removed.', 'insufficient_data')
+hd('voriconazole', [('Haemodialysis', 'No adjustment: a 4-h session does not remove enough to need dose change')], ['A 4-hour hemodialysis session does not remove a sufficient amount of voriconazole to warrant dose adjustment'], 'The IV vehicle (SBECD) and voriconazole are dialysable.')
+hd('tedizolid', [('ESRD on haemodialysis', NS)], ['Hemodialysis does not result in meaningful removal of tedizolid from systemic circulation'])
+hd('tigecycline', [('Haemodialysis', NS)], ['Tigecycline is not removed in significant quantities by hemodialysis'])
+hd('posaconazole', [('Haemodialysis', NS)], ['Posaconazole is not removed by hemodialysis'])
+hd('isavuconazonium', [('Haemodialysis', NS)], ['Isavuconazole is not removed by hemodialysis'])
+hd('desloratadine', [('Haemodialysis', NS)], ['Desloratadine and 3-hydroxydesloratadine are not eliminated by hemodialysis'])
+hd('buprenorphine', [('Haemodialysis (transdermal, ESRD)', 'No significant change in plasma levels across HD; no supplement')], ['no significant differences in buprenorphine plasma concentrations before or after hemodialysis were observed'])
+hd('olanzapine', [('Haemodialysis', NS)], ['In addition, olanzapine is not removed by dialysis'])
+hd('rezafungin', [('Haemodialysis', 'No effect expected; not anticipated to be dialysable')], ['no effect is expected in patients undergoing hemodialysis', 'Rezafungin is highly protein bound and not anticipated to be dialyzable'])
+hd('maribavir', [], ['Administration of LIVTENCITY in patients with end stage renal disease (ESRD), including patients on dialysis, has not been studied'], 'Not studied in ESRD or on dialysis; dialysis unlikely to lower levels.', 'insufficient_data')
+hd('liposomal-amphotericin-b', [('Haemodialysis or PD', 'Elimination not significantly affected; no supplement')], ['Hemodialysis or peritoneal dialysis do not appear to significantly affect the elimination of amphotericin B liposome for injection'])
+hd('lithium', [], ['Hemodialysis is the treatment of choice as it is an effective and rapid means of removing lithium in patients with severe toxicity'], 'Haemodialysis is the treatment of choice for severe lithium toxicity; maintenance use on dialysis needs specialist level monitoring.', 'specialist')
+hd('trimethoprim', [], ['Peritoneal dialysis is not effective and hemodialysis is only moderately effective in eliminating the drug'], 'Haemodialysis only moderately effective, PD not effective (overdose context).', 'specialist')

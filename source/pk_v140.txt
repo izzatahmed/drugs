@@ -1,0 +1,314 @@
+# Reviewed PK values for v0.14.0: id|field|status|value|verbatim label evidence (status '-' = sourced)
+abacavir|halfLife|-|1.54 ± 0.63 h|the observed elimination half-life (t ½ ) was 1.54 ± 0.63 hours
+abacavir|volumeOfDistribution|-|0.86 ± 0.15 L/kg (IV)|The apparent volume of distribution after IV administration of abacavir was 0.86 ± 0.15 L per kg
+abacavir|proteinBinding|-|≈50%|Binding of abacavir to human plasma proteins is approximately 50% and was independent of concentration
+abacavir|ihd|unknown|Not known (label)|It is not known whether abacavir can be removed by peritoneal dialysis or hemodialysis
+abacavir|pd|unknown|Not known (label)|It is not known whether abacavir can be removed by peritoneal dialysis or hemodialysis
+albendazole|halfLife|-|8–12 h (albendazole sulfoxide)|The mean apparent terminal elimination half-life of albendazole sulfoxide ranged from 8 hours to 12 hours
+albendazole|proteinBinding|-|70% (albendazole sulfoxide)|Albendazole sulfoxide is 70% bound to plasma protein
+amikacin|halfLife|-|slightly over 2 h|reveal the mean serum half-life to be slightly over 2 hours
+amikacin|volumeOfDistribution|-|24 L (28% of body weight)|a mean total apparent volume of distribution of 24 liters (28% of the body weight)
+amikacin|proteinBinding|-|0–11%|reports of serum protein binding range from 0 to 11%
+amoxicillin-clavulanate|proteinBinding|-|≈25% (clavulanate)|clavulanate has been found to be approximately 25% bound to human serum
+ampicillin|ihd|removed|Removed by hemodialysis (label)|In patients with renal function impairment, ampicillin-class antibiotics can be removed by hemodialysis but not peritoneal dialysis
+ampicillin|pd|not_removed|Not removed by peritoneal dialysis (label)|In patients with renal function impairment, ampicillin-class antibiotics can be removed by hemodialysis but not peritoneal dialysis
+ampicillin-sulbactam|halfLife|-|≈1 h (both components)|The mean serum half-life of both drugs is approximately 1 hour in healthy volunteers
+ampicillin-sulbactam|proteinBinding|-|≈28% (ampicillin); ≈38% (sulbactam)|Ampicillin has been found to be approximately 28% reversibly bound to human serum protein and sulbactam approximately 38% reversibly bound
+ampicillin-sulbactam|ihd|removed|Removed by hemodialysis (label)|Ampicillin may be removed from circulation by hemodialysis
+anidulafungin|volumeOfDistribution|-|30–50 L|a volume of distribution of 30–50 L that is similar to total body fluid volume
+anidulafungin|proteinBinding|-|>99%|Anidulafungin is extensively bound (>99%) to human plasma proteins
+aripiprazole|halfLife|-|≈75 h (dehydro-aripiprazole 94 h)|The mean elimination half-lives are about 75 hours and 94 hours for aripiprazole and dehydro-aripiprazole, respectively
+aripiprazole|volumeOfDistribution|-|404 L (4.9 L/kg, steady state)|The steady-state volume of distribution of aripiprazole following intravenous administration is high (404 L or 4.9 L/kg)
+aripiprazole|proteinBinding|-|greater than 99%|aripiprazole and its major metabolite are greater than 99% bound to serum proteins
+artemether-lumefantrine|halfLife|-|3–6 days (lumefantrine)|Lumefantrine is eliminated more slowly, with an elimination half-life of 3 to 6 days
+atogepant|halfLife|-|≈11 h|The elimination half-life of atogepant is approximately 11 hours
+atogepant|volumeOfDistribution|-|≈292 L (Vz/F)|The mean apparent volume of distribution of atogepant (Vz/F) after oral administration is approximately 292 L
+atogepant|proteinBinding|-|Unbound fraction ≈4.7%|the unbound fraction of atogepant was approximately 4.7% in human plasma
+atovaquone|halfLife|-|62.5 ± 35.3 h (IV)|The mean (±SD) half-life of atovaquone was 62.5 ± 35.3 hours after IV administration
+atovaquone|volumeOfDistribution|-|0.60 ± 0.17 L/kg (Vss, IV)|the mean (±SD) volume of distribution at steady state (Vd ss ) was 0.60 ± 0.17 L/kg
+atovaquone|proteinBinding|-|99.9%|Atovaquone is extensively bound to plasma proteins (99.9%)
+atovaquone|ihd|unknown|Not known (label)|it is currently unknown if atovaquone is dialyzable
+azithromycin|halfLife|-|68 h (terminal)|terminal elimination half-life of 68 hr
+azithromycin|proteinBinding|-|7–51% (falls as concentration rises)|decreasing from 51% at 0.02 mcg/mL to 7% at 2 mcg/mL
+baclofen|halfLife|-|≈5.7 h (apparent)|the apparent elimination half-life is about 5.7 hours
+benralizumab|volumeOfDistribution|-|3.1 L central; 2.5 L peripheral|central and peripheral volume of distribution of benralizumab was 3.1 L and 2.5 L, respectively, for a 70 kg individual
+brivaracetam|ihd|unknown|Not studied on hemodialysis (label)|Brivaracetam has not been studied in patients undergoing hemodialysis
+budesonide-inhaled|halfLife|-|2–3 h (terminal)|The terminal half-life, 2 to 3 hours, was the same for both epimers and was independent of dose
+budesonide-inhaled|volumeOfDistribution|-|≈3 L/kg|The volume of distribution of budesonide was approximately 3 L/kg
+budesonide-inhaled|proteinBinding|-|85–90%|It was 85-90% bound to plasma proteins
+bupropion|halfLife|-|21 ± 9 h (chronic dosing)|The mean elimination half-life (±SD) of bupropion after chronic dosing is 21 (±9) hours
+bupropion|proteinBinding|-|84%|bupropion is 84% bound to human plasma proteins at concentrations up to 200 mcg/mL
+buspirone|halfLife|-|≈2–3 h|The average elimination half-life of unchanged buspirone after single doses of 10 to 40 mg is about 2 to 3 hours
+buspirone|proteinBinding|-|≈86%|approximately 86% of buspirone is bound to plasma proteins
+caspofungin|halfLife|-|40–50 h (γ-phase)|An additional, longer half-life phase, y -phase, (half-life of 40 to 50 hours), also occurs
+caspofungin|proteinBinding|-|≈97% (albumin)|Caspofungin is extensively bound to albumin (approximately 97%)
+caspofungin|ihd|not_removed|Not dialyzable; no supplement after HD (label)|Caspofungin is not dialyzable, thus supplementary dosing is not required following hemodialysis
+cefaclor|halfLife|-|0.6–0.9 h|The serum half-life in normal subjects is 0.6 to 0.9 hour
+cefaclor|renalHalfLife|-|2.3–2.8 h (anuria)|Since the half-life of cefaclor in anuria is 2.3 to 2.8 hours, dosage adjustments for patients with moderate or severe renal impairment are usually not required
+cefaclor|ihd|unknown|Not established in overdose (label)|Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of cefaclor
+cefazolin|halfLife|-|≈1.8 h (IV)|The serum half-life for cefazolin for injection is approximately 1.8 hours following IV administration
+cefdinir|proteinBinding|-|60–70%|Cefdinir is 60% to 70% bound to plasma proteins in both adult and pediatric subjects
+cefdinir|ihd|removed|Removed by hemodialysis (label)|Hemodialysis removes cefdinir from the body
+cefiderocol|halfLife|-|2–3 h (terminal)|Cefiderocol terminal elimination half-life is 2 to 3 hours
+cefiderocol|volumeOfDistribution|-|18.0 (±3.36) L|The geometric mean (±SD) cefiderocol volume of distribution was 18.0 (±3.36) L
+cefotetan|proteinBinding|-|88%|Cefotetan is 88% plasma protein bound
+cefotetan|ihd|removed|Dialyzable (label)|Cefotetan is dialyzable
+cefoxitin|halfLife|-|41–59 min (IV)|The half-life after an intravenous dose is 41 to 59 minutes
+cefpodoxime|halfLife|-|2.09–2.84 h|the T 1/2 ranged from 2.09 to 2.84 hours
+ceftazidime-avibactam|proteinBinding|-|5.7–8.2% (avibactam)|The binding of avibactam to human plasma proteins was low (5.7% to 8.2%)
+ceftazidime-avibactam|ihd|removed|Avibactam extensively removed by hemodialysis (label)|Avibactam was extensively removed by hemodialysis, with an extraction coefficient of 0.77 and a mean hemodialysis clearance of 9.0 L/h
+ceftobiprole|ihd|removed|Removed by hemodialysis (label)|ZEVTERA is removed by hemodialysis; thus, ZEVTERA should be administered after intermittent hemodialysis on hemodialysis days
+ceftolozane-tazobactam|halfLife|-|≈3–4 h (ceftolozane)|Ceftolozane is eliminated from the body by renal excretion with a mean half-life of approximately 3 to 4 hours
+ceftolozane-tazobactam|ihd|removed|≈66% ceftolozane, 56% tazobactam removed by dialysis (label)|Approximately 66% of ceftolozane, 56% of tazobactam, and 51% of the tazobactam metabolite M1 were removed by dialysis
+ceftriaxone|halfLife|-|5.8–8.7 h|the values of elimination half-life ranged from 5.8 to 8.7 hours
+ceftriaxone|volumeOfDistribution|-|5.78–13.5 L (apparent)|apparent volume of distribution from 5.78 to 13.5 L
+ceftriaxone|proteinBinding|-|85–95% (concentration-dependent)|the binding decreased from a value of 95% bound at plasma concentrations of <25 mcg/mL to a value of 85% bound at 300 mcg/mL
+ceftriaxone|ihd|not_removed|Not removed to a significant extent by hemodialysis (label)|Ceftriaxone was not removed to any significant extent from the plasma by hemodialysis
+chloroquine|proteinBinding|-|≈55%|Approximately 55% of the drug in the plasma is bound to nondiffusible plasma constituents
+citalopram|halfLife|-|≈35 h (terminal)|with a mean terminal half-life of about 35 hours
+citalopram|volumeOfDistribution|-|≈12 L/kg|The volume of distribution of citalopram is about 12 L/kg
+citalopram|proteinBinding|-|≈80%|to human plasma proteins is about 80%
+clozapine|halfLife|-|12 h (range 4–66) at steady state|a mean elimination half-life of 12 hours (range: 4-66 hours), after achieving steady-state
+clozapine|proteinBinding|-|≈97%|Clozapine is approximately 97% bound to serum proteins
+colistimethate-sodium|ihd|unknown|Not known in overdose (label)|It is unknown whether colistimethate sodium can be removed by hemodialysis or peritoneal dialysis in overdose cases
+colistimethate-sodium|pd|unknown|Not known in overdose (label)|It is unknown whether colistimethate sodium can be removed by hemodialysis or peritoneal dialysis in overdose cases
+cyclobenzaprine|halfLife|-|18 h effective (range 8–37)|with an effective half-life of 18 hours (range 8 to 37 hours; n=18)
+dalbavancin|proteinBinding|-|≈93% (unaltered by renal impairment)|The plasma protein binding of dalbavancin is approximately 93% and is not altered as a function of drug concentration, renal impairment, or hepatic impairment
+daptomycin|volumeOfDistribution|-|≈0.1 L/kg (Vss)|The volume of distribution at steady-state (Vss) of daptomycin in healthy adult subjects was approximately 0.1 L/kg
+darunavir|halfLife|-|≈15 h (with ritonavir)|The terminal elimination half-life of darunavir was approximately 15 hours when co-administered with ritonavir
+darunavir|proteinBinding|-|≈95%|Darunavir is approximately 95% bound to plasma proteins
+darunavir|ihd|not_removed|Unlikely to be significantly removed (label)|it is unlikely that they will be significantly removed by hemodialysis or peritoneal dialysis
+darunavir|pd|not_removed|Unlikely to be significantly removed (label)|it is unlikely that they will be significantly removed by hemodialysis or peritoneal dialysis
+delafloxacin|halfLife|-|3.7 h (IV)|the mean half-life for delafloxacin was 3.7 hours (SD 0.7 hour) after a single dose intravenous administration
+delafloxacin|proteinBinding|-|≈84%|The plasma protein binding of delafloxacin is approximately 84%
+desloratadine|halfLife|-|≈27 h|The mean plasma elimination half-life of desloratadine was approximately 27 hours
+desloratadine|proteinBinding|-|82–87%|Desloratadine and 3-hydroxydesloratadine are approximately 82% to 87% and 85% to 89% bound to plasma proteins, respectively
+desloratadine|ihd|not_removed|Poorly removed by hemodialysis (label)|Desloratadine and 3-hydroxydesloratadine were poorly removed by hemodialysis
+desvenlafaxine|volumeOfDistribution|-|3.4 L/kg (steady state)|Steady-state volume of distribution of desvenlafaxine is 3.4 L/kg
+desvenlafaxine|proteinBinding|-|30%|Plasma protein binding of desvenlafaxine is 30% and is independent of drug concentration
+dexmedetomidine|halfLife|-|≈2 h (terminal)|The terminal elimination half-life (t 1/2 ) of dexmedetomidine is approximately 2 hours
+dexmedetomidine|volumeOfDistribution|-|≈118 L (Vss)|The steady-state volume of distribution (V ss ) of dexmedetomidine was approximately 118 liters
+dexmedetomidine|proteinBinding|-|94%|The average protein binding was 94% and was constant across the different plasma concentrations tested
+dicloxacillin|halfLife|-|≈0.7 h|The elimination half-life for dicloxacillin is about 0.7 hour
+dicloxacillin|ihd|not_removed|Not dialyzable (label)|Dicloxacillin is not dialyzable
+dicloxacillin|pd|not_removed|Only minimal amounts removed (label)|Only minimal amounts are removed by hemodialysis or peritoneal dialysis
+dolutegravir|halfLife|-|≈14 h (terminal)|Dolutegravir has a terminal half-life of approximately 14 hours
+dolutegravir|volumeOfDistribution|-|17.4 L (Vd/F)|is estimated at 17.4 L based on a population pharmacokinetic analysis
+dolutegravir|proteinBinding|-|≥98.9%|Dolutegravir is highly bound (greater than or equal to 98.9%) to human plasma proteins
+donepezil|ihd|unknown|Not known (label)|It is not known whether donepezil hydrochloride and/or its metabolites can be removed by dialysis (hemodialysis, peritoneal dialysis, or hemofiltration)
+donepezil|pd|unknown|Not known (label)|It is not known whether donepezil hydrochloride and/or its metabolites can be removed by dialysis (hemodialysis, peritoneal dialysis, or hemofiltration)
+duloxetine|halfLife|-|≈12 h|Duloxetine has an elimination half-life of about 12 hours
+duloxetine|volumeOfDistribution|-|≈1640 L (apparent)|The apparent volume of distribution averages about 1640 L
+duloxetine|proteinBinding|-|>90%|Duloxetine is highly bound (>90%) to proteins in human plasma
+dupilumab|volumeOfDistribution|-|≈4.8 ± 1.3 L (total)|The estimated total volume of distribution was approximately 4.8±1.3 L
+emtricitabine|halfLife|-|≈10 h (plasma)|The plasma FTC half-life is approximately 10 hours
+emtricitabine|proteinBinding|-|<4%|In vitro binding of FTC to human plasma proteins was less than 4%
+entecavir|halfLife|-|≈128–149 h (terminal)|a terminal elimination half-life of approximately 128–149 hours
+entecavir|proteinBinding|-|≈13% (in vitro)|Binding of entecavir to human serum proteins in vitro was approximately 13%
+eravacycline|proteinBinding|-|79–90% (concentration-dependent)|with 79% to 90% (bound)
+erenumab|halfLife|-|28 days (effective)|The effective half-life of erenumab-aooe is 28 days
+erythromycin|ihd|not_removed|Not removed by hemodialysis (label)|Erythromycin is not removed by peritoneal dialysis or hemodialysis
+erythromycin|pd|not_removed|Not removed by peritoneal dialysis (label)|Erythromycin is not removed by peritoneal dialysis or hemodialysis
+escitalopram|halfLife|-|≈27–32 h (terminal)|with a mean terminal half-life of about 27-32 hours
+escitalopram|proteinBinding|-|≈56%|The binding of escitalopram to human plasma proteins is approximately 56%
+famciclovir|volumeOfDistribution|-|1.08 ± 0.17 L/kg (penciclovir, IV)|The volume of distribution (Vdβ) was 1.08 ± 0.17 L/kg in 12 healthy male subjects
+famciclovir|proteinBinding|-|less than 20% (penciclovir)|Penciclovir is less than 20% bound to plasma proteins
+famciclovir|ihd|removed|Penciclovir removed by hemodialysis (label)|Penciclovir is removed by hemodialysis
+flucytosine|renalHalfLife|-|85 h (range 29.9–250) in anuria|the average half-life in nephrectomized or anuric patients was 85 hours (range: 29.9 to 250 hours)
+flucytosine|proteinBinding|-|2.9–4%|2.9% to 4% of flucytosine is protein-bound over the range of therapeutic concentrations
+fluoxetine|halfLife|-|2–3 days (subjects without liver disease)|compared with the range of 2 to 3 days seen in subjects without liver disease
+fluoxetine|proteinBinding|-|≈94.5%|approximately 94.5% of fluoxetine is bound in vitro to human serum proteins
+fluoxetine|ihd|not_removed|Dialysis unlikely to be of benefit (label)|forced diuresis, dialysis, hemoperfusion, and exchange transfusion are unlikely to be of benefit
+fluticasone|halfLife|-|≈7.8 h (terminal, IV)|had a terminal elimination half-life of approximately 7.8 hours
+fluticasone|volumeOfDistribution|-|4.2 L/kg|The volume of distribution averaged 4.2 L/kg
+fluticasone|proteinBinding|-|99%|The percentage of fluticasone propionate bound to human plasma proteins averages 99%
+fosfomycin|renalHalfLife|-|≈4 h during haemodialysis (ESRD)|patients with end stage renal disease have an increased mean fosfomycin elimination half-life to approximately 4 hours
+fosfomycin|ihd|removed|Cleared by hemodialysis (label)|Fosfomycin is cleared from the body by hemodialysis
+fosphenytoin|halfLife|-|≈15 min (conversion to phenytoin)|The conversion half-life of fosphenytoin to phenytoin is approximately 15 minutes
+fosphenytoin|volumeOfDistribution|-|4.3–10.8 L|ranges from 4.3 to 10.8 liters
+fosphenytoin|proteinBinding|-|95–99%|Fosphenytoin is extensively bound (95% to 99%) to human plasma proteins
+gabapentin|halfLife|-|5–7 h|Gabapentin elimination half-life is 5 to 7 hours and is unaltered by dose or following multiple dosing
+gabapentin|renalHalfLife|-|≈132 h off dialysis (anuric)|the apparent elimination half-life of gabapentin on nondialysis days was about 132 hours
+gabapentin|volumeOfDistribution|-|58 ± 6 L (IV)|The apparent volume of distribution of gabapentin after 150 mg intravenous administration is 58±6 L
+gabapentin|proteinBinding|-|<3%|Less than 3% of gabapentin circulates bound to plasma protein
+gabapentin|ihd|removed|Removed by hemodialysis (label)|Gabapentin can be removed from plasma by hemodialysis
+gentamicin|proteinBinding|-|0–30% (method-dependent)|this may be between 0 and 30%
+glecaprevir-pibrentasvir|ihd|not_removed|Not significantly removed by hemodialysis (label)|Glecaprevir and pibrentasvir are not significantly removed by hemodialysis
+imipenem-cilastatin|halfLife|-|≈1 h (each component)|The plasma half-life of each component is approximately 1 hour
+imipenem-cilastatin|proteinBinding|-|≈20% (imipenem); ≈40% (cilastatin)|The binding of imipenem to human serum proteins is approximately 20% and that of cilastatin is approximately 40%
+imipenem-cilastatin|ihd|removed|Hemodialyzable (label)|Imipenem and cilastatin for injection is hemodialyzable
+indomethacin|halfLife|-|≈4.5 h|The mean half-life of indomethacin is estimated to be about 4.5 hours
+indomethacin|proteinBinding|-|≈99%|Indomethacin is highly bound to protein in plasma (about 99%)
+isavuconazonium|halfLife|-|130 h (isavuconazole)|the mean plasma half-life of isavuconazole was 130 hours
+isavuconazonium|volumeOfDistribution|-|≈450 L (Vss)|the mean volume of distribution (V ss ) was approximately 450 L
+isavuconazonium|proteinBinding|-|greater than 99%|Isavuconazole is highly protein bound (greater than 99%), predominantly to albumin
+isavuconazonium|ihd|not_removed|Not removed by hemodialysis (label)|Isavuconazole is not removed by hemodialysis
+itraconazole|halfLife|-|16–28 h single dose; 34–42 h repeated|The terminal half-life of itraconazole generally ranges from 16 to 28 hours after single dose and increases to 34 to 42 hours with repeated dosing
+ivermectin|proteinBinding|-|greater than 99%|ivermectin is greater than 99% bound to plasma proteins
+lamivudine|halfLife|-|13–19 h|the observed mean elimination half-life (t½) ranged from 13 to 19 hours
+lamivudine|volumeOfDistribution|-|1.3 ± 0.4 L/kg (IV)|was 1.3 ± 0.4 L per kg
+lamivudine|proteinBinding|-|less than 36%|Binding of lamivudine to human plasma proteins is less than 36%
+lamivudine|ihd|negligible|Negligible removal by 4-h hemodialysis (label)|Because a negligible amount of lamivudine was removed via (4-hour) hemodialysis, continuous ambulatory peritoneal dialysis, and automated peritoneal dialysis
+lamivudine|pd|negligible|Negligible removal by CAPD/APD (label)|Because a negligible amount of lamivudine was removed via (4-hour) hemodialysis, continuous ambulatory peritoneal dialysis, and automated peritoneal dialysis
+levetiracetam|halfLife|-|7 ± 1 h|Levetiracetam plasma half-life in adults is 7 ± 1 hour
+levetiracetam|proteinBinding|-|<10%|Levetiracetam and its major metabolite are less than 10% bound to plasma proteins
+levocetirizine|halfLife|-|≈8–9 h|The plasma half-life in adult healthy subjects was about 8 to 9 hours
+levocetirizine|volumeOfDistribution|-|≈0.4 L/kg|the average apparent volume of distribution is approximately 0.4 L/kg
+levocetirizine|proteinBinding|-|91–92%|The mean plasma protein binding of levocetirizine in vitro ranged from 91 to 92%
+levocetirizine|ihd|not_removed|Not effectively removed by dialysis (label)|XYZAL is not effectively removed by dialysis
+levodopa-carbidopa|halfLife|-|≈50 min (levodopa without carbidopa)|The plasma half-life of levodopa is about 50 minutes, without carbidopa
+liposomal-amphotericin-b|halfLife|-|100–153 h (total amphotericin B)|the mean half-life was 100 to 153 hours
+lithium|halfLife|-|≈18–36 h|The elimination half-life of lithium is approximately 18 to 36 hours
+lithium|volumeOfDistribution|-|0.7–1 L/kg|After equilibrium, the apparent volume of distribution is 0.7 to 1 L/kg
+mebendazole|halfLife|-|3–6 h (apparent)|The apparent elimination half-life after an oral dose ranges from 3 to 6 hours in most patients
+mebendazole|volumeOfDistribution|-|1–2 L/kg|The volume of distribution is 1 to 2 L/kg
+meropenem-vaborbactam|halfLife|-|1.22 h (meropenem); 1.68 h (vaborbactam)|The t 1/2 is 1.22 hours and 1.68 hours for meropenem and vaborbactam, respectively
+meropenem-vaborbactam|proteinBinding|-|≈33% (vaborbactam)|The plasma protein binding of vaborbactam is approximately 33%
+meropenem-vaborbactam|ihd|removed|Removed by hemodialysis (label)|Meropenem and vaborbactam can be removed by hemodialysis
+methocarbamol|halfLife|-|1–2 h|the mean plasma elimination half-life ranges between 1 and 2 hours
+micafungin|volumeOfDistribution|-|0.39 ± 0.11 L/kg (terminal)|volume of distribution of micafungin at terminal phase was 0.39 ± 0.11 L/kg body weight
+micafungin|proteinBinding|-|greater than 99%|Micafungin is highly (greater than 99%) protein bound in vitro
+micafungin|ihd|not_removed|Not dialyzable (label)|Since micafungin is highly protein bound, it is not dialyzable
+montelukast|halfLife|-|2.7–5.5 h|the mean plasma half-life of montelukast ranged from 2.7 to 5.5 hours in healthy young adults
+montelukast|volumeOfDistribution|-|8–11 L (steady state)|The steady state volume of distribution of montelukast averages 8 to 11 liters
+montelukast|proteinBinding|-|more than 99%|Montelukast is more than 99% bound to plasma proteins
+nafcillin|halfLife|-|33–61 min (IV)|The serum half-life of nafcillin administered by the intravenous route ranged from 33 to 61 minutes
+nafcillin|proteinBinding|-|89.9 ± 1.5%|The degree of protein binding reported for nafcillin is 89.9 ± 1.5%
+naloxone|halfLife|-|≈1.85 h (intranasal)|the mean plasma half-life of naloxone in healthy adults was approximately 1.85 (33% CV) hours
+nirmatrelvir-ritonavir|proteinBinding|-|69% (nirmatrelvir); 98–99% (ritonavir)|% bound to human plasma proteins 69% 98–99%
+nitrofurantoin|ihd|removed|Dialyzable (label)|Nitrofurantoin is dialyzable
+omadacycline|volumeOfDistribution|-|190 L (Vss, IV)|was 190 (27.7) L
+omadacycline|proteinBinding|-|≈20%|Plasma protein binding of omadacycline is approximately 20% and is not concentration dependent
+omalizumab|halfLife|-|26 days|In asthma patients omalizumab serum elimination half-life averaged 26 days
+omalizumab|volumeOfDistribution|-|78 ± 32 mL/kg (SC)|The apparent volume of distribution of omalizumab in patients with asthma following SC administration was 78 ± 32 mL/kg
+oritavancin|halfLife|-|≈245 h (terminal)|Oritavancin has a terminal half-life of approximately 245 hours
+oritavancin|volumeOfDistribution|-|≈87.6 L (total)|the population mean total volume of distribution is estimated to be approximately 87.6 L
+oritavancin|proteinBinding|-|≈85%|Oritavancin is approximately 85% bound to human plasma proteins
+oritavancin|ihd|not_removed|Unlikely to be removed by hemodialysis (label)|KIMYRSA is unlikely to be removed from blood by hemodialysis
+oseltamivir|halfLife|-|1–3 h (oseltamivir)|Plasma concentrations of oseltamivir declined with a half-life of 1 to 3 hours in most subjects after oral administration
+oseltamivir|volumeOfDistribution|-|23–26 L (carboxylate, Vss)|ranged between 23 and 26 liters
+oseltamivir|proteinBinding|-|42% (oseltamivir)|The binding of oseltamivir to human plasma protein is 42%
+oxacillin|halfLife|-|20–30 min (IV)|with a half-life of 20-30 minutes
+oxacillin|proteinBinding|-|94.2 ± 2.1%|The degree of protein binding reported for oxacillin is 94.2% ± 2.1%
+paliperidone|halfLife|-|≈23 h (terminal)|The terminal elimination half-life of paliperidone is approximately 23 hours
+paliperidone|renalHalfLife|-|24, 40 and 51 h (mild, moderate, severe)|The mean terminal elimination half-life of paliperidone was 24 hours, 40 hours, and 51 hours in subjects with mild, moderate, and severe renal impairment, respectively
+paroxetine|halfLife|-|15–20 h (CR)|The mean elimination half-life of paroxetine was 15 to 20 hours throughout a range of single doses
+paroxetine|proteinBinding|-|93–95%|Approximately 95% and 93% of paroxetine is bound to plasma protein at 100 ng/mL and 400 ng/mL, respectively
+pentamidine|halfLife|-|2.8–12 days (terminal, reported)|Reported values for terminal half-lives of 2.8 to 12 days is suggestive of a deep peripheral compartment
+phenoxymethylpenicillin|proteinBinding|-|≈80%|Once absorbed, penicillin V is about 80% bound to serum protein
+plazomicin|halfLife|-|3.5 ± 0.5 h (normal renal function)|The mean (±SD) half-life of plazomicin was 3.5 h (±0.5) in healthy adults with normal renal function
+plazomicin|proteinBinding|-|≈20%|The average binding of plazomicin to human plasma proteins is approximately 20%
+posaconazole|halfLife|-|27 h (IV, terminal)|Posaconazole injection is eliminated with a mean terminal half-life (t ½ ) of 27 hours
+posaconazole|proteinBinding|-|> 98%|Posaconazole is highly bound to human plasma proteins (> 98%)
+praziquantel|halfLife|-|0.8–1.5 h|the elimination half-life of praziquantel in serum ranges between 0.8 to 1.5 hours
+pregabalin|volumeOfDistribution|-|≈0.5 L/kg (apparent)|The apparent volume of distribution of pregabalin following oral administration is approximately 0.5 L/kg
+pregabalin|ihd|removed|Effectively removed by hemodialysis (label)|Pregabalin is effectively removed from plasma by hemodialysis
+pretomanid|proteinBinding|-|≈86.4%|The plasma protein binding of pretomanid is approximately 86.4%
+propofol|halfLife|-|1–3 days (terminal, after 10-day infusion)|The terminal half-life of propofol after a 10-day infusion is 1 day to 3 days
+propofol|volumeOfDistribution|-|≈60 L/kg (10-day infusion)|Propofol has a steady-state volume of distribution (10-day infusion) approaching 60 L/kg in healthy adults
+pyrazinamide|proteinBinding|-|≈10%|Pyrazinamide is approximately 10% bound to plasma proteins
+pyrazinamide|ihd|removed|Dialyzable (label)|Pyrazinamide is dialyzable
+raltegravir|halfLife|-|≈9 h (terminal)|The apparent terminal half-life of raltegravir is approximately 9 hours
+raltegravir|proteinBinding|-|≈83%|Raltegravir is approximately 83% bound to human plasma protein
+rezafungin|ihd|not_removed|Not anticipated to be dialyzable (label)|Rezafungin is highly protein bound and not anticipated to be dialyzable
+rifabutin|halfLife|-|45 ± 17 h (terminal)|a mean terminal half-life of 45 (±17) hours (range: 16 to 69 hours)
+rifabutin|volumeOfDistribution|-|8–9 L/kg (Vss)|distributed extensively into tissues (Vss:8 to 9 L/kg)
+rifabutin|proteinBinding|-|85%|Rifabutin is 85% protein bound
+rifabutin|ihd|not_removed|Hemodialysis not expected to enhance elimination (label)|neither hemodialysis nor forced diuresis is expected to enhance the systemic elimination of unchanged rifabutin from the body
+rifaximin|halfLife|-|5.6 h (healthy, steady state)|The mean half-life of rifaximin in healthy subjects at steady-state was 5.6 hours
+rifaximin|proteinBinding|-|67.5%|the mean protein binding ratio was 67.5% in healthy subjects
+rimegepant|halfLife|-|≈11 h|The elimination half-life of rimegepant is approximately 11 hours in healthy subjects
+rimegepant|volumeOfDistribution|-|120 L (steady state)|The steady state volume of distribution of rimegepant is 120 L
+rimegepant|proteinBinding|-|≈96%|Plasma protein binding of rimegepant is approximately 96%
+rimegepant|ihd|unknown|Not studied in ESRD or on dialysis (label)|NURTEC ODT has not been studied in patients with end-stage renal disease and in patients on dialysis
+risperidone|halfLife|-|3 h (extensive metabolisers); 20 h (poor)|The apparent half-life of risperidone was 3 hours (CV=30%) in extensive metabolizers and 20 hours (CV=40%) in poor metabolizers
+risperidone|volumeOfDistribution|-|1–2 L/kg|The volume of distribution is 1 to 2 L/kg
+risperidone|proteinBinding|-|≈90% (9-hydroxyrisperidone 77%)|The plasma protein binding of risperidone is approximately 90%, and that of its major metabolite, 9-hydroxyrisperidone, is 77%
+rizatriptan|halfLife|-|2–3 h|The plasma half-life of rizatriptan in males and females averages 2-3 hours
+rizatriptan|volumeOfDistribution|-|≈140 L (men); 110 L (women)|The mean volume of distribution is approximately 140 liters in male subjects and 110 liters in female subjects
+rizatriptan|proteinBinding|-|14%|Rizatriptan is minimally bound (14%) to plasma proteins
+roflumilast|halfLife|-|≈17 h (N-oxide 30 h, effective)|the median plasma effective half-life of roflumilast and its N-oxide metabolite are approximately 17 and 30 hours, respectively
+roflumilast|volumeOfDistribution|-|≈2.9 L/kg|Volume of distribution for single‑dose 500 mcg roflumilast is about 2.9 L/kg
+roflumilast|proteinBinding|-|≈99% (N-oxide 97%)|Plasma protein binding of roflumilast and its N-oxide metabolite is approximately 99% and 97%, respectively
+salmeterol|halfLife|-|≈5.5 h (terminal, 1 volunteer)|The terminal elimination half-life was about 5.5 hours (1 volunteer only)
+salmeterol|proteinBinding|-|96% (in vitro)|The percentage of salmeterol bound to human plasma proteins averages 96% in vitro
+secnidazole|halfLife|-|≈17 h|The plasma elimination half-life for secnidazole is approximately 17 hours
+sofosbuvir-velpatasvir|proteinBinding|-|61–65% (sofosbuvir); >99.5% (velpatasvir)|% Bound to human plasma proteins 61–65 >99.5
+sulfadiazine|proteinBinding|-|38–48%|Protein binding is 38% to 48%
+tapentadol|halfLife|-|on average 5 h (terminal, oral)|The terminal half-life is on average 5 hours after oral administration
+tapentadol|volumeOfDistribution|-|540 ± 98 L (Vz, IV)|the volume of distribution (Vz) for tapentadol is 540 +/- 98 L
+tapentadol|proteinBinding|-|≈20%|Plasma protein binding of tapentadol is low (approximately 20%)
+tedizolid|volumeOfDistribution|-|67–80 L (steady state)|ranged from 67 to 80 L (approximately twice total body water)
+tedizolid|proteinBinding|-|≈70–90%|Protein binding of tedizolid to human plasma proteins is approximately 70 to 90%
+telavancin|pd|unknown|Not studied (label)|The effects of peritoneal dialysis have not been studied
+tenofovir-alafenamide|ihd|removed|Tenofovir efficiently removed, extraction ≈54% (label)|Tenofovir is efficiently removed by hemodialysis with an extraction coefficient of approximately 54%
+tenofovir-disoproxil|halfLife|-|≈17 h (terminal)|the terminal elimination half-life of tenofovir is approximately 17 hours
+tenofovir-disoproxil|volumeOfDistribution|-|1.3 ± 0.6 L/kg (steady state)|The volume of distribution at steady-state is 1.3 ± 0.6
+tenofovir-disoproxil|proteinBinding|-|less than 0.7% (plasma); 7.2% (serum)|In vitro binding of tenofovir to human plasma or serum proteins is less than 0.7 and 7.2%, respectively
+tenofovir-disoproxil|ihd|removed|Efficiently removed, extraction ≈54% (label)|Tenofovir is efficiently removed by hemodialysis with an extraction coefficient of approximately 54%
+terbinafine|halfLife|-|~36 h (effective)|the increase in plasma AUC is consistent with an effective half-life of ~36 hours
+terbinafine|proteinBinding|-|greater than 99%|In plasma, terbinafine is greater than 99% bound to plasma proteins
+tetracycline|ihd|not_removed|Not dialyzable (label)|Tetracycline is not dialyzable
+tinidazole|halfLife|-|≈12–14 h|The plasma half-life of tinidazole is approximately 12-14 hours
+tinidazole|volumeOfDistribution|-|≈50 L (apparent)|The apparent volume of distribution is about 50 liters
+tinidazole|proteinBinding|-|12%|Plasma protein binding of tinidazole is 12%
+tiotropium|halfLife|-|25 h (COPD); 44 h (asthma)|The terminal half-life of tiotropium in COPD and asthma patients following once daily inhalation is 25 and 44 hours, respectively
+tiotropium|volumeOfDistribution|-|32 L/kg (IV)|shows a volume of distribution of 32 L/kg after an intravenous dose to young healthy volunteers
+tiotropium|proteinBinding|-|72%|The drug has a plasma protein binding of 72%
+tobramycin|halfLife|-|2 h (normal renal function)|The serum elimination half-life in patients with normal renal function is 2 hours
+tobramycin|ihd|removed|Removed by hemodialysis (label)|Tobramycin is removed by hemodialysis
+tramadol-extended-release|halfLife|-|≈7.9 h (tramadol); 8.8 h (M1)|The mean terminal plasma elimination half-lives of racemic tramadol and racemic M1 after administration of tramadol hydrochloride extended-release tablets are approximately 7.9 and 8.8 hours, respectively
+tramadol-extended-release|proteinBinding|-|≈20%|The binding of tramadol to human plasma proteins is approximately 20%
+tramadol-extended-release|ihd|negligible|<7% removed in 4 h of haemodialysis (label)|Hemodialysis is not expected to be helpful in an overdose because it removes less than 7% of the administered dose in a 4-hour dialysis period
+tramadol-ir|proteinBinding|-|≈20%|The binding of tramadol to human plasma proteins is approximately 20%
+tramadol-ir|ihd|negligible|<7% removed in 4 h of haemodialysis (label)|Hemodialysis is not expected to be helpful in an overdose because it removes less than 7% of the administered dose in a 4-hour dialysis period
+trazodone|proteinBinding|-|89–95% (in vitro)|Trazodone is 89 to 95% protein bound in vitro at concentrations attained with therapeutic doses in humans
+trimethoprim|halfLife|-|8–10 h|The half-life of trimethoprim ranges from 8 to 10 hours
+trimethoprim|proteinBinding|-|≈44%|Approximately 44% of trimethoprim is bound to plasma proteins
+tmp-smx|halfLife|-|10 h (SMX); 8–10 h (TMP)|The mean serum half-lives of sulfamethoxazole and trimethoprim are 10 and 8 to 10 hours, respectively
+tmp-smx|proteinBinding|-|≈70% (SMX); 44% (TMP)|Approximately 70% of sulfamethoxazole and 44% of trimethoprim are bound to plasma proteins
+umeclidinium|halfLife|-|11 h (effective, inhaled)|The effective half-life after once-daily orally inhaled dosing is 11 hours
+umeclidinium|volumeOfDistribution|-|86 L (IV)|the mean volume of distribution was 86 L
+umeclidinium|proteinBinding|-|89% (in vitro)|In vitro plasma protein binding in human plasma was on average 89%
+valacyclovir|renalHalfLife|-|≈4 h (acyclovir, during haemodialysis)|During hemodialysis, the acyclovir half-life is approximately 4 hours
+valacyclovir|proteinBinding|-|9–33% (acyclovir)|The binding of acyclovir to human plasma proteins ranges from 9% to 33%
+valacyclovir|ihd|removed|About one-third removed in a 4-h session (label)|Approximately one-third of acyclovir in the body is removed by dialysis during a 4-hour hemodialysis session
+venlafaxine|volumeOfDistribution|-|7.5 ± 3.7 L/kg (ODV 5.7 ± 1.8)|The apparent volume of distribution at steady-state is 7.5±3.7 L/kg for venlafaxine and 5.7±1.8 L/kg for ODV
+zidovudine|volumeOfDistribution|-|1.6 ± 0.6 L/kg|The apparent volume of distribution of zidovudine is 1.6 ± 0.6 L per kg
+zidovudine|proteinBinding|-|less than 38%|binding to plasma protein is low (less than 38%)
+zolpidem|halfLife|-|2.2 h (range 1.6–2.4)|that observed in normal subjects of 2.2 hr (range: 1.6 to 2.4 hr)
+zolpidem|proteinBinding|-|92.5 ± 0.1%|Total protein binding was found to be 92.5 ± 0.1%
+zolpidem|ihd|not_removed|Not dialyzable (label)|hemodialysis studies in patients with renal failure receiving therapeutic doses have demonstrated that zolpidem is not dialyzable
+aripiprazole|ihd|not_removed|Unlikely to be useful (protein bound; label)|hemodialysis is unlikely to be useful in overdose management since aripiprazole is highly bound to plasma proteins
+clonazepam|ihd|unknown|Of no known value (label)|Dialysis is of no known value
+dolutegravir|ihd|not_removed|Unlikely to be significantly removed (label)|As dolutegravir is highly bound to plasma proteins, it is unlikely that it will be significantly removed by dialysis
+eravacycline|ihd|not_removed|Not expected to remove significant amounts (label)|Hemodialysis is not expected to remove significant quantities of XERAVA
+foscarnet|ihd|removed|May reduce levels in overdose (label)|Hemodialysis and hydration may be of benefit in reducing drug plasma levels in patients who receive an overdosage of FOSCAVIR
+fosfomycin|ihd|removed|60–80% of dose cleared by hemodialysis (label)|Approximately 60% to 80% of the fosfomycin dose is cleared from the body by hemodialysis
+haloperidol|ihd|negligible|Removes only very small amounts (label)|Dialysis is not recommended in the treatment of overdose because it removes only very small amounts of haloperidol
+hydroxyzine|ihd|not_removed|Doubtful value (label)|It is doubtful that hemodialysis would be of any value in the treatment of overdosage with hydroxyzine
+itraconazole|ihd|not_removed|No significant effect of HD on PK (label)|This study did not demonstrate any significant effect of hemodialysis or continuous ambulatory peritoneal dialysis on the pharmacokinetics of itraconazole
+itraconazole|pd|not_removed|No significant effect of CAPD on PK (label)|This study did not demonstrate any significant effect of hemodialysis or continuous ambulatory peritoneal dialysis on the pharmacokinetics of itraconazole
+letermovir|ihd|unknown|Not known (label)|It is unknown whether dialysis will result in meaningful removal of PREVYMIS from systemic circulation
+liposomal-amphotericin-b|ihd|not_removed|Elimination not significantly affected (label)|Hemodialysis or peritoneal dialysis do not appear to significantly affect the elimination of amphotericin B liposome for injection
+liposomal-amphotericin-b|pd|not_removed|Elimination not significantly affected (label)|Hemodialysis or peritoneal dialysis do not appear to significantly affect the elimination of amphotericin B liposome for injection
+lithium|ihd|removed|Effectively removed by hemodialysis (label)|Hemodialysis is the treatment of choice as it is an effective and rapid means of removing lithium in patients with severe toxicity
+maribavir|ihd|not_removed|Unlikely to reduce levels (label)|Due to the high plasma protein binding of LIVTENCITY, dialysis is unlikely to reduce plasma concentrations of LIVTENCITY significantly
+minocycline|pd|not_removed|Not removed in significant quantities (label)|Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis
+montelukast|ihd|unknown|Not known (label)|It is not known whether montelukast is removed by peritoneal dialysis or hemodialysis
+olanzapine|pd|not_removed|Not removed by dialysis (label)|In addition, olanzapine is not removed by dialysis
+phenobarbital|ihd|removed|Dialysis effective in overdose (label)|dialysis and hemoperfusion are more effective and cause less troublesome alterations in electrolyte equilibrium
+phenytoin|ihd|limited|Can be considered in overdose (label)|Hemodialysis can be considered since phenytoin is not completely bound to plasma proteins
+posaconazole|ihd|not_removed|Not removed by hemodialysis (label)|Posaconazole is not removed by hemodialysis
+raltegravir|ihd|unknown|Not known (label)|The extent to which ISENTRESS may be dialyzable is unknown
+ritonavir|ihd|not_removed|Unlikely to be beneficial (label)|Since ritonavir is extensively metabolized by the liver and is highly protein bound, dialysis is unlikely to be beneficial in significant removal of the drug
+rivastigmine|ihd|unknown|Not clinically indicated in overdose (label)|Due to the short half-life of rivastigmine, dialysis (hemodialysis, peritoneal dialysis, or hemofiltration) would not be clinically indicated in the event of an overdose
+roflumilast|ihd|not_removed|Not likely to be efficient (label)|Since roflumilast is highly protein bound, hemodialysis is not likely to be an efficient method of drug removal
+roflumilast|pd|unknown|Not known (label)|It is not known whether roflumilast is dialyzable by peritoneal dialysis
+salbutamol-albuterol|ihd|unknown|Benefit not established (overdose)|There is insufficient evidence to determine if dialysis is beneficial for overdosage of Albuterol Sulfate HFA
+tedizolid|ihd|not_removed|No meaningful removal (label)|Hemodialysis does not result in meaningful removal of tedizolid from systemic circulation
+tigecycline|ihd|not_removed|Not removed in significant quantities (label)|Tigecycline is not removed in significant quantities by hemodialysis
+tizanidine|ihd|not_removed|Not likely to be efficient (label)|Therefore, dialysis is not likely to be an efficient method of removing drug from the body
+trimethoprim|ihd|limited|Only moderately effective (label)|Peritoneal dialysis is not effective and hemodialysis is only moderately effective in eliminating the drug
+trimethoprim|pd|not_removed|Not effective (label)|Peritoneal dialysis is not effective and hemodialysis is only moderately effective in eliminating the drug
+voriconazole|ihd|limited|Dialysable, but 4-h HD does not warrant dose change (label)|A 4-hour hemodialysis session does not remove a sufficient amount of voriconazole to warrant dose adjustment
