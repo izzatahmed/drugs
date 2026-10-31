@@ -1,5 +1,5 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "generatedAt": "2026-11-01",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -392,6 +392,70 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "albumin-human",
+      "name": "Albumin (human)",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "alemtuzumab",
+      "name": "Alemtuzumab",
+      "category": "Transplant & immunology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "alendronate",
       "name": "Alendronate",
       "category": "Diabetes & endocrine",
@@ -647,6 +711,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "alprazolam",
+      "name": "Alprazolam",
+      "category": "Psychiatry",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "alteplase",
@@ -1330,11 +1426,11 @@
       "routes": [
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -1514,6 +1610,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "arsenic-trioxide",
+      "name": "Arsenic trioxide",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "unknown",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "artemether-lumefantrine",
@@ -1866,6 +1994,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "azacitidine",
+      "name": "Azacitidine (injection)",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "azathioprine",
@@ -2284,6 +2444,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "bendamustine",
+      "name": "Bendamustine",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "avoid",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "benralizumab",
@@ -2800,6 +2992,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "bupivacaine",
+      "name": "Bupivacaine",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "buprenorphine",
       "name": "Buprenorphine",
       "category": "Pain & neurology",
@@ -2894,6 +3118,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "busulfan",
+      "name": "Busulfan (IV)",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "calcitonin",
@@ -4599,6 +4855,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "cisatracurium",
+      "name": "Cisatracurium",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "cisplatin",
       "name": "Cisplatin",
       "category": "Oncology",
@@ -4661,6 +4949,39 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "cladribine",
+      "name": "Cladribine",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral",
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "unknown",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "clarithromycin",
@@ -5146,6 +5467,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "cytarabine",
+      "name": "Cytarabine",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "dabigatran",
@@ -6630,6 +6983,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "droxidopa",
+      "name": "Droxidopa",
+      "category": "Cardiovascular",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "dulaglutide",
@@ -8556,6 +8941,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "fludarabine",
+      "name": "Fludarabine",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "avoid",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "fludrocortisone",
       "name": "Fludrocortisone",
       "category": "Diabetes & endocrine",
@@ -8586,6 +9003,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "flumazenil",
+      "name": "Flumazenil",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "fluorouracil",
@@ -9038,6 +9487,230 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "gadobenate",
+      "name": "Gadobenate dimeglumine",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadobutrol",
+      "name": "Gadobutrol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "sourced",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadodiamide",
+      "name": "Gadodiamide",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "avoid",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadopiclenol",
+      "name": "Gadopiclenol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadoterate",
+      "name": "Gadoterate meglumine",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadoteridol",
+      "name": "Gadoteridol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "sourced",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "gadoxetate",
+      "name": "Gadoxetate disodium",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "ganciclovir",
@@ -10101,6 +10774,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "ifosfamide",
+      "name": "Ifosfamide",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "iloprost",
       "name": "Iloprost",
       "category": "Urology & other medicines",
@@ -10653,11 +11358,11 @@
       "routes": [
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
       "pkSourceCheckedAt": null,
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "specialist",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -10677,6 +11382,167 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "iodixanol",
+      "name": "Iodixanol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "iohexol",
+      "name": "Iohexol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral",
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "iopamidol",
+      "name": "Iopamidol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "iopromide",
+      "name": "Iopromide",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "sourced",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "ioversol",
+      "name": "Ioversol",
+      "category": "Contrast media",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "ipratropium",
@@ -10774,6 +11640,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "irinotecan",
+      "name": "Irinotecan",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "iron-dextran",
@@ -11514,6 +12412,39 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "leucovorin",
+      "name": "Leucovorin (folinic acid)",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral",
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "levetiracetam",
@@ -12386,6 +13317,38 @@
       "priority": "2: remaining formulary"
     },
     {
+      "id": "mannitol",
+      "name": "Mannitol (IV)",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "specialist",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "removed",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "maribavir",
       "name": "Maribavir",
       "category": "Antimicrobials",
@@ -12553,11 +13516,11 @@
         "Oral",
         "Parenteral"
       ],
-      "content": "catalog",
-      "renalDoseSourceCheckedAt": null,
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
       "pkSourceCheckedAt": "2026-11-01",
       "modalities": {
-        "ckd": "not_curated",
+        "ckd": "summarized",
         "ihd": "not_curated",
         "crrt": "not_curated",
         "pd": "not_curated",
@@ -12770,6 +13733,39 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "mesna",
+      "name": "Mesna",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral",
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "metformin",
@@ -13895,6 +14891,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "neostigmine",
+      "name": "Neostigmine (IV)",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "sourced",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "nicardipine",
@@ -15438,6 +16466,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "penicillamine",
+      "name": "Penicillamine",
+      "category": "Urology & other medicines",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "pentamidine",
@@ -17429,6 +18489,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "rocuronium",
+      "name": "Rocuronium",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "roflumilast",
       "name": "Roflumilast",
       "category": "Allergy & respiratory",
@@ -18809,6 +19901,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "succinylcholine",
+      "name": "Succinylcholine (suxamethonium)",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "sucralfate",
       "name": "Sucralfate",
       "category": "Gastrointestinal",
@@ -18871,6 +19995,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "sugammadex",
+      "name": "Sugammadex",
+      "category": "Anaesthesia & critical care",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "avoid",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "sourced",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "sulbactam-durlobactam",
@@ -19293,6 +20449,39 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "temozolomide",
+      "name": "Temozolomide",
+      "category": "Oncology",
+      "routes": [
+        "Oral",
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "tenapanor-phosphate",
       "name": "Tenapanor (Xphozah)",
       "category": "Electrolytes & phosphate",
@@ -19552,6 +20741,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "terlipressin",
+      "name": "Terlipressin",
+      "category": "Specialist kidney therapies",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "tetracycline",
       "name": "Tetracycline",
       "category": "Antimicrobials",
@@ -19614,6 +20835,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "thiamine",
+      "name": "Thiamine (IV/IM)",
+      "category": "Urology & other medicines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "ticagrelor",
@@ -20062,6 +21315,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "topotecan",
+      "name": "Topotecan (IV)",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "torsemide",
@@ -21058,6 +22343,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "vinorelbine",
+      "name": "Vinorelbine",
+      "category": "Oncology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "sourced",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "vitamin-a-retinol",

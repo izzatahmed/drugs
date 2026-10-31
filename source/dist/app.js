@@ -154,7 +154,7 @@ $('#font-decrease').addEventListener('click',()=>{applyTextSize(readerLevel-1);s
 $('#font-reset').addEventListener('click',()=>{applyTextSize(0);saveTextSize();});
 $('#export').addEventListener('click',()=>{if(db)exportDatabase();});
 document.addEventListener('keydown',e=>{
- if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#about').open&&!$('#completion').open&&!$('#references').open&&!$('#calculator').open){e.preventDefault();$('#search').focus();}
+ if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#about').open&&!$('#completion').open&&!$('#references').open&&!$('#calculator').open&&!$('#contrast-calculator').open){e.preventDefault();$('#search').focus();}
  if(e.key==='Escape'&&document.activeElement===$('#search')){$('#search').value='';if(db)renderResults();}
  if(e.key==='Enter'&&document.activeElement===$('#search')&&db){e.preventDefault();if(!selected||!visible.some(d=>d.id===selected)){if(!visible.length)return;selected=visible[0].id;renderResults();}openSelected();return;}
  if(e.key==='ArrowDown'&&document.activeElement===$('#search')){e.preventDefault();$('#results button')?.focus();}

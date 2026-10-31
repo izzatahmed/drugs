@@ -24,7 +24,7 @@ function reportLink(d){
 }
 function attachDrugTools(){
  if(!selected)return;const d=drugMap.get(selected);
- const toolsTarget=$('#monograph .mono-bottom')||$('#monograph .dose-content');if(toolsTarget)toolsTarget.insertAdjacentHTML('beforeend','<div class="utility-actions"><button id="copy-link">Copy drug link</button><button id="print-drug">Print selected setting</button><button data-open="completion">Coverage gaps</button>'+reportLink(d)+'</div>');
+ const toolsTarget=$('#monograph .mono-bottom')||$('#monograph .dose-content');if(toolsTarget)toolsTarget.insertAdjacentHTML('beforeend','<div class="utility-actions">'+(d.category==='Contrast media'?'<button data-open="contrast-calculator">Contrast AKI risk</button>':'')+'<button id="copy-link">Copy drug link</button><button id="print-drug">Print selected setting</button><button data-open="completion">Coverage gaps</button>'+reportLink(d)+'</div>');
  $('#selected-shortcut').hidden=false;$('#selected-shortcut').innerHTML=`<span>Selected: <strong>${h(d.name)}</strong></span><button id="open-selected">Open reference ↓</button>`;
 }
 function openSelected(){if(!selected)return;$('#filter-panel').open=false;document.activeElement?.blur();$('#monograph').scrollIntoView({block:'start',behavior:'instant'});}
