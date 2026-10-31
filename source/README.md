@@ -1,6 +1,20 @@
-# RenalRounds v0.12.1 — cumulative GitHub Pages package
+# RenalRounds v0.12.3 — cumulative GitHub Pages package
 
 Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 669-entry inventory contains 357 partial renal profiles, 28 shared safety notes and 284 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.12.3
+
+- Pharmacokinetics rebuilt from current product information for the 128 profiles that still quoted the Renal Drug Handbook (5th ed., 2018). Each value now shows the label sentence it came from: the US FDA label (DailyMed), or EMA product information (vildagliptin) or the UK SmPC (teicoplanin, domperidone, carbimazole, hyoscine butylbromide, alfacalcidol, colecalciferol) where there is no US label.
+- Values a current label does not state are blank ("being rebuilt"); old handbook figures were not carried over. Metabolite values are labelled.
+- The Renal Drug Handbook is no longer cited anywhere. PK coverage: 144 profiles, 45 with all four core items.
+- No dose table changed.
+
+## What changed in 0.12.2
+
+- Pregnancy and lactation for 588 of 669 entries, quoted from each medicine's current US FDA label (ingredient-exact match; combination products excluded). Legacy FDA letters only where a label still prints one; TGA categories once a reviewer enters them.
+- Reference checks on every entry: BNF, Lexidrugs, UpToDate, MIMS (Australia) and a JFDA product check, each "Not yet checked" until a named reviewer records the outcome. Their text is never reproduced.
+- Review workflow: `python3 import_review.py <returned sheet.xlsx>` records approvals, reference checks and TGA categories in `reviews/`; `apply_reviews.py` applies them during the build; approved entries show "Reviewed by … on …". Requested corrections are listed for a maintainer and never applied automatically.
+- No dose table changed.
 
 ## What changed in 0.12.1
 
@@ -32,7 +46,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.1.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.3.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -45,7 +59,7 @@ Calculator inputs clear when the panel closes and are never stored, exported or 
 
 ## Rebuild and verify
 
-Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required (`extract_labels_v121.py` is only rerun when labels are re-downloaded):
+Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required (`extract_labels_v121.py`, `extract_labels_v122.py`, `extract_pk_v123.py` and `extract_pk_v123b.py` are only rerun when labels are re-downloaded; `review_pk_v123b.py` holds the reviewer-accepted second-pass PK values):
 
     python3 build_data.py
     python3 release_v06.py
@@ -59,13 +73,16 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v113.py
     python3 release_v120.py
     python3 release_v121.py
+    python3 release_v122.py
+    python3 release_v123.py
+    python3 apply_reviews.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v121.mjs
+    node checks_v123.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.1_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.3_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v120) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v122) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
