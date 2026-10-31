@@ -1,8 +1,16 @@
-# RenalRounds v0.11.3 — cumulative GitHub Pages package
+# RenalRounds v0.12.0 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference. This is a software and wording release: **no dose table, setting status or PK value changed** (drug content remains 0.11.2, proven by `checks_v113.mjs`). The 668-entry inventory contains 355 partial renal profiles, 28 shared safety notes and 285 catalog entries. This remains an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 668-entry inventory contains 355 partial renal profiles, 28 shared safety notes and 285 catalog entries. This remains an incomplete draft without independent clinical approval.
 
-## What changed in 0.11.3
+## What changed in 0.12.0
+
+- Renal dose tables for 61 entries previously built from the Renal Drug Handbook (5th edition, 2018) were rebuilt from current product labels: 55 US FDA labels (DailyMed/openFDA, with set ID, SPL version and effective date) and 6 UK SmPCs (emc) for medicines with no US product. No dose table cites the handbook any more.
+- Each table shows its source (US label, UK/EU SmPC, US hospital protocol…) and a reminder to check the JFDA-approved leaflet in Jordan.
+- Where a label gives no renal statement, the entry says so instead of keeping older advice.
+- Pharmacokinetic panels are unchanged in this release; handbook-cited PK values are rebuilt next.
+- `checks_v120.mjs` proves that the other 607 entries are unchanged, and a cross-check confirmed every number in the rebuilt tables appears in the cited label text.
+
+## Earlier: what changed in 0.11.3
 
 - **Kidney function calculator** has two tabs: eGFR (CKD-EPI 2021 / legacy MDRD) and **Cockcroft–Gault creatinine clearance**, showing actual, ideal (Devine) and adjusted body weight results side by side. Most drug tables here are banded by CrCl. Neither tab selects a dose.
 - **Phone layout:** the floating back button no longer covers dose tables; phones get a "Back" button at the top of each drug instead. Pressing Enter in search opens the selected drug. The calculator scrolls to its result and its back bar no longer overlaps the form.
@@ -16,7 +24,7 @@ Compact adult CKD and kidney-replacement drug reference. This is a software and 
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.11.3.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.12.0.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -41,13 +49,14 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v111.py
     python3 release_v112.py
     python3 release_v113.py
+    python3 release_v120.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v113.mjs
+    node checks_v120.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.11.3_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.12.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v112) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v113) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
