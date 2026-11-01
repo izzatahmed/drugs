@@ -1,0 +1,793 @@
+{
+ "gliclazide": {
+  "label": "uk3/gliclazide.json",
+  "brand": "DIAMICRON 80 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Type 2 diabetes · UK SmPC",
+      "rows": [
+       {
+        "context": "Mild to moderate renal insufficiency",
+        "dose": "Usual dosing regimen with careful monitoring (IR 80 mg and MR 30 mg tablets)"
+       }
+      ]
+     }
+    ],
+    "notes": "Renal insufficiency is listed among factors that increase the risk of hypoglycaemia. The SmPC gives no dose for severe impairment.",
+    "ev": [
+     "Renal impairment In patients with mild to moderate renal insufficiency, the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring",
+     "2|Renal impairment In patients with mild to moderate renal insufficiency the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Dialysis does not remove gliclazide (strongly protein bound); no dialysis dose is given.",
+    "ev": [
+     "Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈95%",
+    "ev": "Plasma protein binding is approximately 95%",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈19 L",
+    "ev": "The volume of distribution is around 19 litres",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "No benefit from dialysis (strongly protein bound) (SmPC)",
+    "ev": "Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins",
+    "status": "not_removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Mild–moderate renal insufficiency: same dose with careful monitoring; renal insufficiency raises hypoglycaemia risk. Not removed by dialysis.",
+  "label2": "uk3/gliclazide-mr.json",
+  "brand2": "DIAMICRON 30 mg MR"
+ },
+ "lixisenatide": {
+  "label": "uk3/lixisenatide.json",
+  "brand": "Suliqua (insulin glargine/lixisenatide)",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Type 2 diabetes · EU SmPC (Suliqua)",
+      "rows": [
+       {
+        "context": "Mild or moderate impairment",
+        "dose": "No lixisenatide dose adjustment; monitor glucose (insulin needs may fall)"
+       },
+       {
+        "context": "CrCl <30 mL/min or ESRD",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dose adjustment is required for lixisenatide in patients with mild or moderate renal impairment",
+     "In patients with mild to moderate renal impairment using Suliqua, frequent glucose monitoring and dose adjustment may be necessary",
+     "There is no therapeutic experience in patients with severe renal impairment (creatinine clearance less than 30 ml/min) or end-stage renal disease"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended in end-stage renal disease.",
+    "ev": [
+     "Suliqua is not recommended in patients with severe renal impairment and end-stage renal disease as there is no sufficient therapeutic experience with use of lixisenatide"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment in mild–moderate impairment; not recommended at CrCl <30 or ESRD (no experience).",
+  "considerations": "Lixisenatide alone (Lyxumia) is no longer authorised in the EU; this entry uses the combination product Suliqua."
+ },
+ "tinzaparin": {
+  "label": "uk3/tinzaparin.json",
+  "brand": "innohep",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "VTE prophylaxis / treatment · UK SmPC",
+      "rows": [
+       {
+        "context": "CrCl ≥30 mL/min",
+        "dose": "Usual dose (no accumulation shown down to CrCl 20)"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Not recommended (dose not established)"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "If renal impairment is suspected, renal function should be assessed using a formula based on serum creatinine to estimate creatinine clearance level",
+     "Use in patients with a creatinine clearance level < 30 ml/minute is not recommended, as dosage in this population has not been established",
+     "Available evidence demonstrates no accumulation in patients with creatinine clearance levels down to 20 ml/min"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · SmPC",
+      "rows": [
+       {
+        "context": "Circuit anticoagulation, session ≤4 h",
+        "dose": "Bolus 2,000–2,500 anti-Xa IU at the start of dialysis"
+       },
+       {
+        "context": "Circuit anticoagulation, session >4 h",
+        "dose": "Bolus 2,500 anti-Xa IU, then 750 anti-Xa IU/hour infusion"
+       },
+       {
+        "context": "Monitoring",
+        "dose": "Plasma anti-Xa activity can guide the dose"
+       }
+      ]
+     }
+    ],
+    "notes": "These doses prevent circuit clotting; they are not VTE treatment doses for dialysis patients.",
+    "ev": [
+     "Haemodialysis and haemofiltration in adults: Duration of 4 hours or less: A bolus injection of 2,000 to 2,500 anti-Xa IU at the start of dialysis",
+     "Duration of more than 4 hours: A bolus injection of 2,500 anti-Xa IU at the start of dialysis/filtration, followed by 750 anti-Xa IU/hour as a continuous infusion",
+     "Determination of plasma anti-Xa activity can be used to monitor the tinzaparin sodium dose during haemodialysis/haemofiltration"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+  "summary": "Not recommended at CrCl <30 (dose not established); no accumulation down to CrCl 20. HD circuit anticoagulation dosing given."
+ },
+ "roxadustat": {
+  "label": "uk3/roxadustat.json",
+  "brand": "Evrenzo",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Anaemia of CKD · EU SmPC",
+      "rows": [
+       {
+        "context": "Not on dialysis",
+        "dose": "Maximum 3 mg/kg or 300 mg three times per week, whichever is lower"
+       },
+       {
+        "context": "Starting dialysis on treatment",
+        "dose": "No specific dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Patients not on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 300 mg three times per week, whichever is lower",
+     "No specific dose adjustment is required for CKD patients who start dialysis while on treatment with roxadustat"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · SmPC",
+      "rows": [
+       {
+        "context": "On dialysis",
+        "dose": "Maximum 3 mg/kg or 400 mg three times per week, whichever is lower"
+       },
+       {
+        "context": "Removal",
+        "dose": "Not significantly removed by haemodialysis"
+       }
+      ]
+     }
+    ],
+    "notes": "Converting dialysis patients who are stable on an ESA is only for a valid clinical reason.",
+    "ev": [
+     "Patients on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 400 mg three times per week, whichever is lower",
+     "Roxadustat and its metabolites are not significantly removed by haemodialysis"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈99% (albumin)",
+    "ev": "Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "24 L (apparent, steady state)",
+    "ev": "The apparent volume of distribution at steady state is 24 L",
+    "status": "sourced"
+   },
+   "halfLife": {
+    "value": "≈15 h (CKD)",
+    "ev": "The mean effective half-life (t1/2) of roxadustat is approximately 15 hours in patients with CKD",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not significantly removed by HD (SmPC)",
+    "ev": "Roxadustat and its metabolites are not significantly removed by haemodialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "CKD anaemia · dialysis status",
+  "summary": "Dose by Hb response; maximum 3 mg/kg or 300 mg three times weekly (not on dialysis) or 400 mg (on dialysis). No change on starting dialysis; not removed by HD.",
+  "considerations": "Converting dialysis patients otherwise stable on an ESA should only be considered for a valid clinical reason (EU SmPC)."
+ },
+ "ferrous-fumarate": {
+  "label": "uk3/ferrous-fumarate.json",
+  "brand": "Fersamal 210 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Haemodialysis does not remove iron effectively; in overdose with acute renal failure it helps remove the iron–desferrioxamine complex.",
+    "ev": [
+     "Haemodialysis does not remove iron effectively but should be considered on a supportive basis for acute renal failure as this will facilitate removal of the iron-desferrioxamine complex"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement. In iron overdose, HD does not remove iron but supports desferrioxamine–iron removal in acute renal failure."
+ },
+ "ferrous-sulfate": {
+  "label": "uk3/ferrous-sulfate.json",
+  "brand": "Ferrous Sulfate 200 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ },
+ "etoricoxib": {
+  "label": "uk3/etoricoxib.json",
+  "brand": "ARCOXIA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "All indications · UK SmPC",
+      "rows": [
+       {
+        "context": "CrCl ≥30 mL/min",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "CrCl <30 mL/min",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "May reduce renal blood flow when renal perfusion is compromised; greatest risk with significant renal impairment, uncompensated heart failure or cirrhosis.",
+    "ev": [
+     "Patients with renal impairment No dosage adjustment is necessary for patients with creatinine clearance ≥ 30 mL/min",
+     "The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated at CrCl <30 mL/min; not removed by haemodialysis.",
+    "ev": [
+     "The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated",
+     "Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": "≈92%",
+    "ev": "Etoricoxib is approximately 92 % bound to human plasma protein",
+    "status": "sourced"
+   },
+   "volumeOfDistribution": {
+    "value": "≈120 L (steady state)",
+    "ev": "The volume of distribution at steady state (V dss ) was approximately 120 L in humans",
+    "status": "sourced"
+   },
+   "halfLife": {
+    "value": "≈22 h",
+    "ev": "corresponding to a half-life of approximately 22 hours",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Not removed by HD; PD unknown (SmPC)",
+    "ev": "Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis",
+    "status": "not_removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "CrCl · mL/min",
+  "summary": "No adjustment at CrCl ≥30; contraindicated at CrCl <30. Not removed by HD. NSAID renal-perfusion risk."
+ },
+ "glycopyrronium-inhaled": {
+  "label": "uk3/glycopyrronium-inhaled.json",
+  "brand": "Seebri Breezhaler",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "COPD · UK SmPC",
+      "rows": [
+       {
+        "context": "Mild to moderate impairment",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "Severe impairment or ESRD on dialysis",
+        "dose": "Only if the expected benefit outweighs the potential risk"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Seebri Breezhaler can be used at the recommended dose in patients with mild to moderate renal impairment",
+     "In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "ESRD on dialysis: only if benefit outweighs risk.",
+    "ev": [
+     "In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population"
+    ]
+   }
+  },
+  "pk": {
+   "volumeOfDistribution": {
+    "value": "83 L (steady state, IV)",
+    "ev": "After intravenous dosing, the steady‑state volume of distribution of glycopyrronium was 83 litres",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Mild–moderate: usual dose. Severe impairment or ESRD on dialysis: use only if benefit outweighs risk (exposure up to 2.2-fold)."
+ },
+ "fluticasone-nasal": {
+  "label": "uk3/fluticasone-nasal.json",
+  "brand": "AVAMYS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Allergic rhinitis · UK SmPC",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "No dose adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Renal Impairment No dose adjustment is required in this population"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (UK SmPC)",
+  "summary": "No dose adjustment in renal impairment."
+ },
+ "pseudoephedrine": {
+  "label": "uk3/pseudoephedrine.json",
+  "brand": "Sudafed Decongestant Tablets",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Nasal congestion · UK SmPC",
+      "rows": [
+       {
+        "context": "Moderate renal impairment",
+        "dose": "Use with caution"
+       },
+       {
+        "context": "Severe acute or chronic kidney disease / renal failure",
+        "dose": "Contraindicated"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Caution should be exercised when administering Sudafed Decongestant Tablets to patients with moderate renal impairment",
+     "Cardiovascular disease including hypertension Diabetes mellitus Phaeochromocytoma Hyperthyroidism Closed angle glaucoma Severe acute or chronic kidney disease/renal failure"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Contraindicated in renal failure. In overdose, dialysis can speed elimination.",
+    "ev": [
+     "If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "Dialysis can accelerate elimination (overdose) (SmPC)",
+    "ev": "If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis",
+    "status": "removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Contraindicated in severe acute or chronic kidney disease/renal failure; caution in moderate impairment."
+ },
+ "guaifenesin": {
+  "label": "uk3/guaifenesin.json",
+  "brand": "BENYLIN Chesty Coughs",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Productive cough · UK SmPC",
+      "rows": [
+       {
+        "context": "Mild to moderate dysfunction",
+        "dose": "Normal adult dose"
+       },
+       {
+        "context": "Severe renal impairment",
+        "dose": "Use with caution"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Experience with the use of this product suggests that normal adult dosage is appropriate for mild to moderate dysfunction",
+     "Caution should be exercised in severe hepatic and severe renal impairment"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "Normal adult dose in mild–moderate dysfunction; caution in severe renal impairment."
+ },
+ "dextromethorphan": {
+  "label": "uk3/dextromethorphan.json",
+  "brand": "BENYLIN DRY COUGHS 7.5 mg/5 ml",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose; renal impairment has not been studied.",
+    "ev": [
+     "There have been no specific studies of this product in renal or hepatic dysfunction",
+     "Dextromethorphan is primarily excreted via the kidney as unchanged parent drug and its active metabolite, dextrorphan"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Renal function",
+  "summary": "Not studied in renal dysfunction; parent drug and dextrorphan are renally excreted."
+ },
+ "xylometazoline-nasal": {
+  "label": "uk3/xylometazoline-nasal.json",
+  "brand": "Otrivine 0.1% Nasal Spray",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ },
+ "mebeverine": {
+  "label": "uk3/mebeverine.json",
+  "brand": "Colofac 135 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "IBS · UK SmPC",
+      "rows": [
+       {
+        "context": "Renal impairment",
+        "dose": "No dosage adjustment"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment is deemed necessary in elderly, renal and/or hepatic impaired patients",
+     "No posology studies in elderly, renal and/or hepatic impaired patients have been performed"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "No renal dose adjustment (UK SmPC)",
+  "summary": "No dosage adjustment deemed necessary in renal impairment."
+ },
+ "sodium-picosulfate": {
+  "label": "uk3/sodium-picosulfate.json",
+  "brand": "Dulcolax Adult Pico Liquid",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose.",
+    "ev": [
+     "In patients suffering from fluid loss where dehydration may be harmful (e.g. renal insufficiency, elderly patients) sodium picosulfate should be discontinued and only be restarted under medical supervision"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Volume status",
+  "summary": "Stop if fluid loss could be harmful (e.g. renal insufficiency); restart only under supervision."
+ },
+ "senna": {
+  "label": "uk3/senna.json",
+  "brand": "Senokot 7.5 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose.",
+    "ev": [
+     "Patients with kidney disorders should be aware of possible electrolyte imbalance"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Volume and electrolytes",
+  "summary": "Possible electrolyte imbalance in kidney disorders; stop if dehydration could be harmful."
+ },
+ "psyllium": {
+  "label": "uk3/psyllium.json",
+  "brand": "Fybogel",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose; note the potassium content per sachet in the SmPC.",
+    "ev": [
+     "To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Potassium content",
+  "summary": "Contains potassium: consider in reduced kidney function or potassium-restricted diet."
+ },
+ "docusate": {
+  "label": "uk3/docusate.json",
+  "brand": "Dioctyl 100 mg",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ },
+ "sodium-alginate-combinations": {
+  "label": "uk3/sodium-alginate-combinations.json",
+  "brand": "Gaviscon Advance",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose.",
+    "ev": [
+     "Renal Insufficiency: Caution if highly restricted salt diet is necessary",
+     "This medicine contains 1.0 mmol (39.06 mg) potassium per 5 ml . To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Sodium and potassium content",
+  "summary": "Caution with salt restriction in renal insufficiency; contains potassium (1.0 mmol/5 mL)."
+ },
+ "oral-rehydration-salts": {
+  "label": "uk3/oral-rehydration-salts.json",
+  "brand": "Dioralyte",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "No renal dose.",
+    "ev": [
+     "Where the kidneys are functioning normally, it is difficult to over-hydrate by mouth and where there is doubt about the dosage, more rather than less should be taken",
+     "This is particularly important in the very young and in cases of severe hepatic of renal failure"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Renal function",
+  "summary": "With normal kidneys over-hydration by mouth is unlikely; take care in severe renal failure."
+ },
+ "calcium-polystyrene-sulfonate": {
+  "label": "uk3/calcium-polystyrene-sulfonate.json",
+  "brand": "Calcium Resonium",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Dosing is guided by regular serum electrolytes rather than renal function.",
+    "ev": [
+     "It is also used to treat hyperkalaemia in patients requiring dialysis and in patients on regular haemodialysis or on prolonged peritoneal dialysis",
+     "Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure"
+    ]
+   },
+   "ihd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Indicated in haemodialysis and PD patients; watch for hypercalcaemia.",
+    "ev": [
+     "Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Serum electrolytes",
+  "summary": "Used for hyperkalaemia including dialysis patients; dose by serum electrolytes. Hypercalcaemia reported in well-dialysed patients."
+ },
+ "hydrocortisone-topical": {
+  "label": "uk3/hydrocortisone-topical.json",
+  "brand": "Dermacort Hydrocortisone Cream",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ },
+ "miconazole-topical": {
+  "label": "uk3/miconazole-topical.json",
+  "brand": "Daktarin 2% Cream",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ },
+ "clotrimazole-topical": {
+  "label": "uk3/clotrimazole-topical.json",
+  "brand": "Canesten 1% Cream",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "The current SmPC gives no renal dose statement.",
+    "ev": []
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "No renal statement in the SmPC",
+  "summary": "The current SmPC gives no renal dose statement."
+ }
+}

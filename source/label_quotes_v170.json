@@ -1,0 +1,402 @@
+{
+ "gliclazide": {
+  "meta": {
+   "setid": "emc-1150",
+   "splVersion": "",
+   "effective": "2022-01-12",
+   "manufacturer": "Servier Laboratories Ltd Sefton House, Sefton Park, Bells Hill, Stoke Poges, Slough, SL2 4JS",
+   "application": "PL 00093/0024",
+   "brand": "DIAMICRON 80 mg",
+   "url": "https://www.medicines.org.uk/emc/product/1150/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "erties Absorption Plasma levels increase reaching maximal concentrations between 2 and 6 hours. Gliclazide is well absorbed. Food intake does not affect the rate or degree of absorption. Distribution Plasma protein binding is approximately 95%. The volume of distribution is around 19 litres. Biotransformation Gliclazide is mainly metabolised in the liver and excreted in the urine; less than 1% of the dose is excreted unchanged in the urine",
+   "hing maximal concentrations between 2 and 6 hours. Gliclazide is well absorbed. Food intake does not affect the rate or degree of absorption. Distribution Plasma protein binding is approximately 95%. The volume of distribution is around 19 litres. Biotransformation Gliclazide is mainly metabolised in the liver and excreted in the urine; less than 1% of the dose is excreted unchanged in the urine. No active metabolites have been detected in pl",
+   "l maintain blood glucose levels above 1 g/L. Patients should be monitored closely and, depending on the patient's condition after this time, the doctor will decide if further monitoring is necessary. Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins. 5. Pharmacological properties 5.1 Pharmacodynamic properties Pharmacotherapeutic group: sulfonamides, urea derivatives. ATC code: A10BB09 Mechanism of action Gliclazide is a hypoglycaemic sulfonylur",
+   "herapy can be initiated under close medical supervision. Special Populations Elderly Diamicron 80 mg should be prescribed using the same dosing regimen recommended for patients under 65 years of age. Renal impairment In patients with mild to moderate renal insufficiency, the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring. These data have been confirmed in clinical trials. Patients at risk of hypoglycaemia • Undernourished or malnourished, • Severe or poorly compensated endocrine disorders (hypopituitarism, hypothyroi",
+   "l maintain blood glucose levels above 1 g/L. Patients should be monitored closely and, depending on the patient's condition after this time, the doctor will decide if further monitoring is necessary. Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins. 5. Pharmacological properties 5.1 Pharmacodynamic properties Pharmacotherapeutic group: sulfonamides, urea derivatives. ATC code: A10BB09 Mechanism of action Gliclazide is a hypoglycaemic sulfonylur"
+  ],
+  "meta2": {
+   "setid": "emc-1321",
+   "splVersion": "",
+   "effective": "2020-05-11",
+   "manufacturer": "Les Laboratoires Servier 50, rue Carnot 92284 Suresnes cedex France",
+   "application": "PL 05815/0019",
+   "brand": "DIAMICRON 30 mg MR",
+   "url": "https://www.medicines.org.uk/emc/product/1321/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows2": [
+   "be initiated under close medical supervision. Special Populations Elderly Diamicron 30 mg MR Tablets should be prescribed using the same dosing regimen recommended for patients under 65 years of age. Renal impairment In patients with mild to moderate renal insufficiency the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring. These data have been confirmed in clinical trials. Patients at risk of hypoglycaemia: - Undernourished or malnourished, - Severe or poorly compensated endocrine disorders (hypopituitarism, hypothyro"
+  ]
+ },
+ "lixisenatide": {
+  "meta": {
+   "setid": "ema-lixisenatide",
+   "splVersion": "",
+   "effective": "2026-11-01",
+   "manufacturer": "Sanofi Winthrop Industrie",
+   "application": "EU/1/16/1157",
+   "brand": "Suliqua (insulin glargine/lixisenatide)",
+   "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suliqua",
+   "type": "EMA product information (EPAR)"
+  },
+  "windows": [
+   "is limited. Renal impairment Suliqua is not recommended in patients with severe renal impairment and end-stage renal disease as there is no sufficient therapeutic experience with use of lixisenatide. No dose adjustment is required for lixisenatide in patients with mild or moderate renal impairment. In patients with renal impairment, insulin requirements may be diminished due to reduced insulin metabolism. In patients with mild to moderate renal impairment using Suliqua, frequent glucose monito",
+   "djustment is required for lixisenatide in patients with mild or moderate renal impairment. In patients with renal impairment, insulin requirements may be diminished due to reduced insulin metabolism. In patients with mild to moderate renal impairment using Suliqua, frequent glucose monitoring and dose adjustment may be necessary. Hepatic impairment No dose adjustment of lixisenatide is needed in patients with hepatic impairment (see section 5.2). In patients with hepatic impairment, insulin requirements may be diminished due",
+   "a has not been studied in patients with severe gastrointestinal disease, including severe gastroparesis and therefore, the use of Suliqua is not recommended in these patients. Severe renal impairment There is no therapeutic experience in patients with severe renal impairment (creatinine clearance less than 30 ml/min) or end-stage renal disease. Use is not recommended in patients with severe renal impairment or end-stage renal disease (see sections 4.2 and 5.2). Concomitant medicinal products The delay of gastric emptying with lixisenatide ",
+   " steady decrease in insulin requirements. For lixisenatide no dose adjustment is required based on age. The therapeutic experience of Suliqua in patients ≥75 years of age is limited. Renal impairment Suliqua is not recommended in patients with severe renal impairment and end-stage renal disease as there is no sufficient therapeutic experience with use of lixisenatide. No dose adjustment is required for lixisenatide in patients with mild or moderate renal impairment. In patients with renal impairment, insulin requirements may be diminished due to reduced insulin m"
+  ]
+ },
+ "tinzaparin": {
+  "meta": {
+   "setid": "emc-2022",
+   "splVersion": "",
+   "effective": "2025-01-16",
+   "manufacturer": "LEO Laboratories Limited Building 5 Foundation Park Roxborough Way Maidenhead Berkshire SL6 3UD UK",
+   "application": "PL 00043/0204",
+   "brand": "innohep",
+   "url": "https://www.medicines.org.uk/emc/product/2022/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "of tinzaparin sodium in children below 18 years have not yet been established. Currently available data are described in section 5.2, but no recommendation on a posology can be made. Renal impairment If renal impairment is suspected, renal function should be assessed using a formula based on serum creatinine to estimate creatinine clearance level. Use in patients with a creatinine clearance level < 30 ml/minute is not recommended, as dosage in this population has not been established. Available evidence demonstrates no accumulation in patient",
+   "ation on a posology can be made. Renal impairment If renal impairment is suspected, renal function should be assessed using a formula based on serum creatinine to estimate creatinine clearance level. Use in patients with a creatinine clearance level < 30 ml/minute is not recommended, as dosage in this population has not been established. Available evidence demonstrates no accumulation in patients with creatinine clearance levels down to 20 ml/min. When required in these patients, tinzaparin sodium administration can be initiated wit",
+   "on serum creatinine to estimate creatinine clearance level. Use in patients with a creatinine clearance level < 30 ml/minute is not recommended, as dosage in this population has not been established. Available evidence demonstrates no accumulation in patients with creatinine clearance levels down to 20 ml/min. When required in these patients, tinzaparin sodium administration can be initiated with anti-Xa monitoring, if the benefit outweighs the risk (see section 4.4: Renal impairment). Elderly Tinzaparin ",
+   " use of spinal anaesthesia or after the catheter has been removed. Thus, the 2 hours preoperative initiation of thromboprophylaxis with tinzaparin sodium is not compatible with neuraxial anaesthesia. Haemodialysis and haemofiltration in adults: Duration of 4 hours or less: A bolus injection of 2,000 to 2,500 anti-Xa IU at the start of dialysis. Duration of more than 4 hours: A bolus injection of 2,500 anti-Xa IU at the start of dialysis/filtration, followed by 750 anti-Xa IU/hour as a continuous infusion. Dose adjustment: If necessary, the",
+   "sodium is not compatible with neuraxial anaesthesia. Haemodialysis and haemofiltration in adults: Duration of 4 hours or less: A bolus injection of 2,000 to 2,500 anti-Xa IU at the start of dialysis. Duration of more than 4 hours: A bolus injection of 2,500 anti-Xa IU at the start of dialysis/filtration, followed by 750 anti-Xa IU/hour as a continuous infusion. Dose adjustment: If necessary, the bolus dose may be increased or decreased gradually in increments of 500 anti-Xa IU until a satisfactory response is obtained. The usual dose is within 2,000–4,500 ",
+   "se is within 2,000–4,500 anti-Xa IU. In case of concomitant transfusion of blood or concentrated red corpuscles, an extra bolus injection of 500–1,000 anti-Xa IU can be administered. Dose monitoring: Determination of plasma anti-Xa activity can be used to monitor the tinzaparin sodium dose during haemodialysis/haemofiltration. The plasma anti-Xa level should be approximately 0.5 anti-Xa IU/ml one hour after administration. Interchangeability For interchangeability with other LMWHs, see section 4.4. Special populations Pae"
+  ]
+ },
+ "roxadustat": {
+  "meta": {
+   "setid": "ema-roxadustat",
+   "splVersion": "",
+   "effective": "2026-11-01",
+   "manufacturer": "Astellas Pharma Europe B.V.",
+   "application": "EU/1/21/1574",
+   "brand": "Evrenzo",
+   "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evrenzo",
+   "type": "EMA product information (EPAR)"
+  },
+  "windows": [
+   "ation of roxadustat with food decreased Cmax by 25% but did not alter AUC as compared with the fasted state. Therefore, roxadustat can be taken with or without food (see section 4.2). 21 Distribution Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin. The blood-to-plasma ratio of roxadustat is 0.6. The apparent volume of distribution at steady state is 24 L. Biotransformation Based on in vitro data, roxadustat is a substrate for CYP2C8 and UGT1A9",
+   "h or without food (see section 4.2). 21 Distribution Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin. The blood-to-plasma ratio of roxadustat is 0.6. The apparent volume of distribution at steady state is 24 L. Biotransformation Based on in vitro data, roxadustat is a substrate for CYP2C8 and UGT1A9 enzymes, as well as BCRP, OATP1B1, OAT1 and OAT3. Roxadustat is not a substrate for OATP1B3 or P-gp. Roxadus",
+   "ting component in human plasma; no detectable metabolite in human plasma constituted more than 10% of total drug-related material exposure and no human specific metabolites were observed. Elimination The mean effective half-life (t1/2) of roxadustat is approximately 15 hours in patients with CKD. The apparent total body clearance (CL/F) of roxadustat is 1.1 L/h in patients with CKD not on dialysis and 1.4 L/h in patients with CKD on dialysis. Roxadustat and its metabolites are not significan",
+   "above the desired level (10 - 12 g/dL), which should be managed with discontinuation or reduction of roxadustat dosage (see section 4.2), and careful monitoring and treatment as clinically indicated. Roxadustat and its metabolites are not significantly removed by haemodialysis (see section 5.2). 5. PHARMACOLOGICAL PROPERTIES 5.1 Pharmacodynamic properties Pharmacotherapeutic group: anti-anaemic preparations, other anti-anaemic preparations, ATC code: B03XA05. Mechanism of ",
+   "8, or inhibitors (e.g. probenecid) of UGT1A9: the Hb levels should be monitored routinely and the dose adjustment rules followed (see Table 2; see also sections 4.5 and 5.2). Maximum recommended dose Patients not on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 300 mg three times per week, whichever is lower. Patients on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 400 mg three times per week, whichever is lower. Missed dose If a dose is missed, and there is more than 1 day until th",
+   "Hb levels between 10 to 12 g/dL, the Hb levels should continue to be monitored regularly and the dose adjustment rules followed (see Table 2). Patients starting dialysis while on roxadustat treatment No specific dose adjustment is required for CKD patients who start dialysis while on treatment with roxadustat. Normal dose adjustment rules (see Table 2) should be followed. Concomitant roxadustat treatment with inducers or inhibitors When initiating or discontinuing concomitant treatment with strong inhibit",
+   "e Table 2; see also sections 4.5 and 5.2). Maximum recommended dose Patients not on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 300 mg three times per week, whichever is lower. Patients on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 400 mg three times per week, whichever is lower. Missed dose If a dose is missed, and there is more than 1 day until the next scheduled dose, the missed dose must be taken as soon as possible. If one day or less remains before the next scheduled d",
+   "above the desired level (10 - 12 g/dL), which should be managed with discontinuation or reduction of roxadustat dosage (see section 4.2), and careful monitoring and treatment as clinically indicated. Roxadustat and its metabolites are not significantly removed by haemodialysis (see section 5.2). 5. PHARMACOLOGICAL PROPERTIES 5.1 Pharmacodynamic properties Pharmacotherapeutic group: anti-anaemic preparations, other anti-anaemic preparations, ATC code: B03XA05. Mechanism of "
+  ]
+ },
+ "ferrous-fumarate": {
+  "meta": {
+   "setid": "emc-2821",
+   "splVersion": "",
+   "effective": "2025-01-10",
+   "manufacturer": "Mercury Pharmaceuticals Ltd, Dashwood House, 69 Old Broad Street, London, EC2M 1QS, United Kingdom",
+   "application": "PL 12762/0226",
+   "brand": "Fersamal 210 mg",
+   "url": "https://www.medicines.org.uk/emc/product/2821/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "oring (aim for a pH of 7.4). Consider the use of desferrioxamine, if /the patient is symptomatic (other than nausea), serum iron concentration is between 3-5 mg/L (55-90 micromol/L) and still rising. Haemodialysis does not remove iron effectively but should be considered on a supportive basis for acute renal failure as this will facilitate removal of the iron-desferrioxamine complex. 5. Pharmacological properties 5.1 Pharmacodynamic properties Pharmacotherapeutic group: Anti-anemic preparations, iron preparations ATC code: B03AA02 Iron is an essential constituent of the body, an"
+  ]
+ },
+ "ferrous-sulfate": {
+  "meta": {
+   "setid": "emc-3130",
+   "splVersion": "",
+   "effective": "2026-01-15",
+   "manufacturer": "Wockhardt UK Ltd Ash Road North Wrexham. LL13 9UF UK",
+   "application": "PL 29831/0220",
+   "brand": "Ferrous Sulfate 200 mg",
+   "url": "https://www.medicines.org.uk/emc/product/3130/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ },
+ "etoricoxib": {
+  "meta": {
+   "setid": "emc-10616",
+   "splVersion": "",
+   "effective": "2025-01-02",
+   "manufacturer": "Organon Pharma (UK) Limited Shotton Lane Cramlington United Kingdom NE23 3JU",
+   "application": "",
+   "brand": "ARCOXIA",
+   "url": "https://www.medicines.org.uk/emc/product/10616/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "ecrease in C max and an increase in T max by 2 hours. These data are not considered clinically significant. In clinical trials, etoricoxib was administered without regard to food intake. Distribution Etoricoxib is approximately 92 % bound to human plasma protein over the range of concentrations of 0.05 to 5 µg/mL. The volume of distribution at steady state (V dss ) was approximately 120 L in humans. Etoricoxib crosses the placenta in rats and rabbits, and th",
+   "cal trials, etoricoxib was administered without regard to food intake. Distribution Etoricoxib is approximately 92 % bound to human plasma protein over the range of concentrations of 0.05 to 5 µg/mL. The volume of distribution at steady state (V dss ) was approximately 120 L in humans. Etoricoxib crosses the placenta in rats and rabbits, and the blood-brain barrier in rats. Biotransformation Etoricoxib is extensively metabolised with < 1 % of a dose recovered in urine as the paren",
+   " metabolism followed by renal excretion. Steady state concentrations of etoricoxib are reached within seven days of once daily administration of 120 mg, with an accumulation ratio of approximately 2, corresponding to a half-life of approximately 22 hours. The plasma clearance after a 25-mg intravenous dose is estimated to be approximately 50 mL/min. Characteristics in patients Elderly patients: Pharmacokinetics in the elderly (65 years of age and old",
+   "t of overdose, it is reasonable to employ the usual supportive measures, e.g., remove unabsorbed material from the GI tract, employ clinical monitoring, and institute supportive therapy, if required. Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis. 5. Pharmacological properties 5.1 Pharmacodynamic properties Pharmacotherapeutic group: Anti-inflammatory and antirheumatic products, non-steroids, coxibs, ATC code: M01 AH05 Mechanism of Action Eto",
+   " advised. There is no clinical experience in patients with severe hepatic dysfunction (Child-Pugh score ≥10); therefore, its use is contra-indicated in these patients (see sections 4.3, 4.4 and 5.2). Patients with renal impairment No dosage adjustment is necessary for patients with creatinine clearance ≥ 30 mL/min (see section 5.2). The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated (see sections 4.3 and 4.4). Paediatric population Etoricoxib is contra-indicated in chil",
+   "tra-indicated in these patients (see sections 4.3, 4.4 and 5.2). Patients with renal impairment No dosage adjustment is necessary for patients with creatinine clearance ≥ 30 mL/min (see section 5.2). The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated (see sections 4.3 and 4.4). Paediatric population Etoricoxib is contra-indicated in children and adolescents under 16 years of age (see section 4.3). Method of administration ARCOXIA is administered ",
+   "tra-indicated in these patients (see sections 4.3, 4.4 and 5.2). Patients with renal impairment No dosage adjustment is necessary for patients with creatinine clearance ≥ 30 mL/min (see section 5.2). The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated (see sections 4.3 and 4.4). Paediatric population Etoricoxib is contra-indicated in children and adolescents under 16 years of age (see section 4.3). Method of administration ARCOXIA is administered ",
+   "t of overdose, it is reasonable to employ the usual supportive measures, e.g., remove unabsorbed material from the GI tract, employ clinical monitoring, and institute supportive therapy, if required. Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis. 5. Pharmacological properties 5.1 Pharmacodynamic properties Pharmacotherapeutic group: Anti-inflammatory and antirheumatic products, non-steroids, coxibs, ATC code: M01 AH05 Mechanism of Action Eto"
+  ]
+ },
+ "glycopyrronium-inhaled": {
+  "meta": {
+   "setid": "emc-2840",
+   "splVersion": "",
+   "effective": "2026-01-15",
+   "manufacturer": "",
+   "application": "PLGB 00101/1133",
+   "brand": "Seebri Breezhaler",
+   "url": "https://www.medicines.org.uk/emc/product/2840/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "picograms/ml and 8 picograms/ml, respectively. Steady‑state exposure to glycopyrronium (AUC over the 24-hour dosing interval) was about 1.4- to 1.7-fold higher than after the first dose. Distribution After intravenous dosing, the steady‑state volume of distribution of glycopyrronium was 83 litres and the volume of distribution in the terminal phase was 376 litres. The apparent volume of distribution in the terminal phase following inhalation was almost 20-fold larger, which reflects the much ",
+   "han one dose in a day. Special populations Elderly population Seebri Breezhaler can be used at the recommended dose in elderly patients (75 years of age and older) (see section 4.8). Renal impairment Seebri Breezhaler can be used at the recommended dose in patients with mild to moderate renal impairment. In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic e",
+   "nded dose in elderly patients (75 years of age and older) (see section 4.8). Renal impairment Seebri Breezhaler can be used at the recommended dose in patients with mild to moderate renal impairment. In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population (see sections 4.4 and 5.2). Hepatic impairment No studies have been conducted in patients with hepatic impairment. Glycopyrronium is predominantly cleared by renal excretion and therefore no major in",
+   "nded dose in elderly patients (75 years of age and older) (see section 4.8). Renal impairment Seebri Breezhaler can be used at the recommended dose in patients with mild to moderate renal impairment. In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population (see sections 4.4 and 5.2). Hepatic impairment No studies have been conducted in patients with hepatic impairment. Glycopyrronium is predominantly cleared by renal excretion and therefore no major in"
+  ]
+ },
+ "fluticasone-nasal": {
+  "meta": {
+   "setid": "emc-6439",
+   "splVersion": "",
+   "effective": "2026-01-28",
+   "manufacturer": "GlaxoSmithKline UK Limited 79 New Oxford Street London WC1A 1DG United Kingdom",
+   "application": "PLGB 19494/0269",
+   "brand": "AVAMYS",
+   "url": "https://www.medicines.org.uk/emc/product/6439/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "d. Currently available data are described in section 5.1 and 5.2 but no recommendation on a posology can be made. Elderly Patients No dose adjustment is required in this population (see section 5.2). Renal Impairment No dose adjustment is required in this population (see section 5.2). Hepatic Impairment No dose adjustment is required in patients with hepatic impairment (see section 5.2). Method of administration Avamys nasal spray is for administration by the in"
+  ]
+ },
+ "pseudoephedrine": {
+  "meta": {
+   "setid": "emc-6199",
+   "splVersion": "",
+   "effective": "2025-05-30",
+   "manufacturer": "McNeil Products Limited 50 – 100 Holmers Farm Way High Wycombe Buckinghamshire HP12 4EG UK",
+   "application": "PL 15513/0024",
+   "brand": "Sudafed Decongestant Tablets",
+   "url": "https://www.medicines.org.uk/emc/product/6199/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "e renal failure, difficulty in micturition. Management Necessary measures should be taken to maintain and support respiration and control convulsions. Catheterisation of the bladder may be necessary. If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis. 5. Pharmacological properties 5.1 Pharmacodynamic properties Sympathomimetics. R01BA02. Pseudoephedrine has direct and indirect sympathomimetic activity and is an orally effective upper respiratory ",
+   " that normal adult dosage is appropriate. Hepatic Dysfunction Caution should be exercised when administering Sudafed Decongestant Tablets to patients with severe hepatic impairment. Renal Dysfunction Caution should be exercised when administering Sudafed Decongestant Tablets to patients with moderate renal impairment. Method of Administration For oral use 4.3 Contraindications Sudafed Decongestant Tablets are contraindicated in individuals with known hypersensitivity to pseudoephedrine or to any of the excipients",
+   "idase inhibitors (MAOIs), or within 14 days of stopping MAOI treatment (see section 4.5). The concomitant use of MAOIs may cause a rise in blood pressure and/or hypertensive crisis (see section 4.5). Cardiovascular disease including hypertension Diabetes mellitus Phaeochromocytoma Hyperthyroidism Closed angle glaucoma Severe acute or chronic kidney disease/renal failure 4.4 Special warnings and precautions for use Patients with difficulty in urination and/or enlargement of the prostate, or patients with thyroid disease who are receiving thyroid hormones should not t",
+   "e renal failure, difficulty in micturition. Management Necessary measures should be taken to maintain and support respiration and control convulsions. Catheterisation of the bladder may be necessary. If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis. 5. Pharmacological properties 5.1 Pharmacodynamic properties Sympathomimetics. R01BA02. Pseudoephedrine has direct and indirect sympathomimetic activity and is an orally effective upper respiratory "
+  ]
+ },
+ "guaifenesin": {
+  "meta": {
+   "setid": "emc-1521",
+   "splVersion": "",
+   "effective": "2026-01-30",
+   "manufacturer": "McNeil Products Limited 1 Station Hill Square Station Hill Reading RG1 1LN UK",
+   "application": "PL 15513/0056",
+   "brand": "BENYLIN Chesty Coughs",
+   "url": "https://www.medicines.org.uk/emc/product/1521/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   " ml spoonfuls four times a day. Children under 12 years: This product is contraindicated in children under the age of 12 years (see section 4.3). The Elderly: As for adults. Hepatic/renal dysfunction Experience with the use of this product suggests that normal adult dosage is appropriate for mild to moderate dysfunction. Caution should be exercised in severe hepatic and severe renal impairment. [See Pharmacokinetics]. Do not exceed the stated dose. Keep out of the sight and reach of children. 4.3 Contraindications T",
+   "ars (see section 4.3). The Elderly: As for adults. Hepatic/renal dysfunction Experience with the use of this product suggests that normal adult dosage is appropriate for mild to moderate dysfunction. Caution should be exercised in severe hepatic and severe renal impairment. [See Pharmacokinetics]. Do not exceed the stated dose. Keep out of the sight and reach of children. 4.3 Contraindications This product is contraindicated in individuals with known hypersensitivity t"
+  ]
+ },
+ "dextromethorphan": {
+  "meta": {
+   "setid": "emc-1523",
+   "splVersion": "",
+   "effective": "2026-01-30",
+   "manufacturer": "McNeil Products Limited 1 Station Hill Square Station Hill Reading RG1 1LNUK",
+   "application": "PL 15513/0051",
+   "brand": "BENYLIN DRY COUGHS 7.5 mg/5 ml",
+   "url": "https://www.medicines.org.uk/emc/product/1523/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "uct, unless directed by a physician: acute or chronic asthma, a persistent or chronic cough such as occurs with chronic bronchitis or emphysema, or where cough is accompanied by excessive secretions. There have been no specific studies of this product in renal or hepatic dysfunction. Due to the extensive hepatic metabolism of dextromethorphan, caution should be exercised in the presence of hepatic impairment. Drug dependence tolerance and potential for abuse For all patients, pr",
+   "xtrorphan, which also has antitussive action, is the main metabolite. In some individuals metabolism proceeds more slowly and unchanged dextromethorphan predominates in the blood and urine. Excretion Dextromethorphan is primarily excreted via the kidney as unchanged parent drug and its active metabolite, dextrorphan. Dextrorphan and 3-hydroxy-morphinan are further metabolised by glucuronidation and are eliminated via the kidneys. The elimination half-life of the parent compound is between 1.4 to 3.9 hours; dextr"
+  ]
+ },
+ "xylometazoline-nasal": {
+  "meta": {
+   "setid": "emc-3008",
+   "splVersion": "",
+   "effective": "2025-01-19",
+   "manufacturer": "Haleon UK Trading Limited, The Heights, Weybridge, Surrey, KT13 0NY, U.K.",
+   "application": "PL 44673/0184",
+   "brand": "Otrivine 0.1% Nasal Spray",
+   "url": "https://www.medicines.org.uk/emc/product/3008/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ },
+ "mebeverine": {
+  "meta": {
+   "setid": "emc-102499",
+   "splVersion": "",
+   "effective": "2026-01-07",
+   "manufacturer": "Cooper Consumer Health B.V., Verrijn Stuartweg 60, 1112 AX Diemen, The Netherlands",
+   "application": "PL 60682/0025",
+   "brand": "Colofac 135 mg",
+   "url": "https://www.medicines.org.uk/emc/product/102499/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "es in elderly, renal and/or hepatic impaired patients have been performed. No specific risk for elderly, renal and/or hepatic impaired patients could be identified from available post-marketing data. No dosage adjustment is deemed necessary in elderly, renal and/or hepatic impaired patients. 4.3 Contraindications Hypersensitivity to the active substance or to any of the excipients. 4.4 Special warnings and precautions for use Since Mebeverine coated tablets contain lactose, patients wit",
+   "radually reduced. Paediatric Population Mebeverine 135 mg tablets are not recommended for use in children and adolescents below 18, due to insufficient data on safety and efficacy. Special Population No posology studies in elderly, renal and/or hepatic impaired patients have been performed. No specific risk for elderly, renal and/or hepatic impaired patients could be identified from available post-marketing data. No dosage adjustment is deemed necessary in elderly, renal and/or hepatic"
+  ]
+ },
+ "sodium-picosulfate": {
+  "meta": {
+   "setid": "emc-11634",
+   "splVersion": "",
+   "effective": "2026-05-19",
+   "manufacturer": "",
+   "application": "PL 53886/0026",
+   "brand": "Dulcolax Adult Pico Liquid",
+   "url": "https://www.medicines.org.uk/emc/product/11634/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "bulk forming agents. Prolonged excessive use may lead to fluid and electrolyte imbalance and hypokalaemia. Intestinal loss of fluids can promote dehydration. Symptoms may include thirst and oliguria. In patients suffering from fluid loss where dehydration may be harmful (e.g. renal insufficiency, elderly patients) sodium picosulfate should be discontinued and only be restarted under medical supervision. Stimulant laxatives (including sodium picosulfate) do not help with weight loss. If the symptoms worsen during the use of the medicinal product, a doctor or pharmacist should be consulted. Dizziness"
+  ]
+ },
+ "senna": {
+  "meta": {
+   "setid": "emc-11140",
+   "splVersion": "",
+   "effective": "2025-05-28",
+   "manufacturer": "Reckitt Benckiser Healthcare (UK) Limited Dansom Lane Hull HU8 7DS",
+   "application": "PL 00063/5000R",
+   "brand": "Senokot 7.5 mg",
+   "url": "https://www.medicines.org.uk/emc/product/11140/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "ministration of bulk forming agents. Prolonged use may precipitate the onset of an atonic, non-functioning colon. Prolonged excessive use may lead to fluid and electrolyte imbalance and hypokalaemia. Patients with kidney disorders should be aware of possible electrolyte imbalance. Intestinal loss of fluids may promote dehydration. Symptoms may include thirst and oliguria. In patients suffering from fluid loss where dehydration may be harmful (e.g. renal insufficiency, elderly"
+  ]
+ },
+ "psyllium": {
+  "meta": {
+   "setid": "emc-6716",
+   "splVersion": "",
+   "effective": "2020-01-07",
+   "manufacturer": "Reckitt Benckiser Healthcare (UK) Limited, Dansom Lane, HULL, HU8 7DS, England.",
+   "application": "PL 00063/0024.",
+   "brand": "Fybogel",
+   "url": "https://www.medicines.org.uk/emc/product/6716/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   "emove it properly. This medicine contains less than 1 mmol sodium (23 mg) in each sachet, that is to say essentially 'sodium-free'. This medicine contains 0.25 mmol (or 9.76 mg) potassium per sachet. To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet. If symptoms persist longer than 3 days, the patient should consult a doctor or healthcare professional. Warning on hypersensitivity reactions: In individuals with continued occupational contact to p"
+  ]
+ },
+ "docusate": {
+  "meta": {
+   "setid": "emc-6218",
+   "splVersion": "",
+   "effective": "2023-01-23",
+   "manufacturer": "Teofarma S.r.l. Via Fratelli Cervi 8 Valle Salimbene PV 27010 Italy",
+   "application": "PL 16250/0014",
+   "brand": "Dioctyl 100 mg",
+   "url": "https://www.medicines.org.uk/emc/product/6218/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ },
+ "sodium-alginate-combinations": {
+  "meta": {
+   "setid": "emc-681",
+   "splVersion": "",
+   "effective": "2025-01-12",
+   "manufacturer": "Reckitt Benckiser Healthcare (UK) Limited Dansom Lane Hull HU8 7DS United Kingdom",
+   "application": "PL 00063/0749",
+   "brand": "Gaviscon Advance",
+   "url": "https://www.medicines.org.uk/emc/product/681/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   " meals and at bedtime Children under 12 years: Should be given only on medical advice Elderly: No dose modification is required for this age group. Hepatic Impairment: No dose modification necessary. Renal Insufficiency: Caution if highly restricted salt diet is necessary (see section 4.4). 4.3 Contraindications This medicinal product is contraindicated in patients with known or suspected hypersensitivity to any of the ingredients, or any of the excipients listed in s",
+   "nt to 23.14 % of the WHO recommended maximum daily intake for sodium. This product is considered high in sodium. This should be particularly taken into account for those on a low salt diet Potassium: This medicine contains 1.0 mmol (39.06 mg) potassium per 5 ml . To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet. Each 10 ml contains 200 mg (2.0 mmol) of calcium carbonate. Care needs to be taken in treating patients with hypercalcaemia, nephrocalcinosis and recurrent calcium containing renal calculi. Contains"
+  ]
+ },
+ "oral-rehydration-salts": {
+  "meta": {
+   "setid": "emc-2772",
+   "splVersion": "",
+   "effective": "2024-01-26",
+   "manufacturer": "Phoenix Labs Unlimited Company, Suite 12, Bunkilla Plaza, Bracetown Business Park, Clonee, Co. Meath, Ireland.",
+   "application": "PL 35104/0043",
+   "brand": "Dioralyte",
+   "url": "https://www.medicines.org.uk/emc/product/2772/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   " When vomiting is present with the diarrhoea it is advisable that small amounts of Dioralyte be taken frequently. However, it is important that the whole of the required volume of Dioralyte be taken. Where the kidneys are functioning normally, it is difficult to over-hydrate by mouth and where there is doubt about the dosage, more rather than less should be taken. If no improvement is seen within 24-48 hours it is recommended that the patient be seen by a physician. 4.3 Contraindications Hypersensitivity to the active substances or to any of the excipients li",
+   "ignificant overdose, serum electrolytes should be evaluated as soon as possible, appropriate steps taken to correct an abnormalities and levels monitored until return to normal levels is established. This is particularly important in the very young and in cases of severe hepatic of renal failure. 5. Pharmacological properties 5.1 Pharmacodynamic properties Dioralyte is an oral rehydration therapy. The combination of electrolytes stimulates water and electrolyte absorption from the GI tract a"
+  ]
+ },
+ "calcium-polystyrene-sulfonate": {
+  "meta": {
+   "setid": "emc-1439",
+   "splVersion": "",
+   "effective": "2024-01-18",
+   "manufacturer": "",
+   "application": "PL 04425/0620",
+   "brand": "Calcium Resonium",
+   "url": "https://www.medicines.org.uk/emc/product/1439/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": [
+   " powder 4. Clinical particulars 4.1 Therapeutic indications Calcium Resonium is an ion-exchange resin that is recommended for the treatment of hyperkalaemia associated with anuria or severe oliguria. It is also used to treat hyperkalaemia in patients requiring dialysis and in patients on regular haemodialysis or on prolonged peritoneal dialysis. 4.2 Posology and method of administration Posology The dosage recommendations detailed below are a guide only; the precise requirements should be decided on the basis of regular serum electrolyte de",
+   "alaemia and hypercalcaemia, and their related clinical manifestations (see Section 4.4 Special warnings and precautions for use and Section 4.9 Overdose). Cases of hypomagnesaemia have been reported. Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure. Many patients in chronic renal failure have low serum calcium and high serum phosphate, but some, who cannot be screened out beforehand, show a sudden rise in serum calcium to high levels after ther",
+   "alaemia and hypercalcaemia, and their related clinical manifestations (see Section 4.4 Special warnings and precautions for use and Section 4.9 Overdose). Cases of hypomagnesaemia have been reported. Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure. Many patients in chronic renal failure have low serum calcium and high serum phosphate, but some, who cannot be screened out beforehand, show a sudden rise in serum calcium to high levels after ther"
+  ]
+ },
+ "hydrocortisone-topical": {
+  "meta": {
+   "setid": "emc-5849",
+   "splVersion": "",
+   "effective": "2024-01-13",
+   "manufacturer": "Marlborough Pharmaceuticals Ltd, Sovereign House, Miles Gray Road, Basildon, Essex SS14 3FR, UK",
+   "application": "PL 23138/0007",
+   "brand": "Dermacort Hydrocortisone Cream",
+   "url": "https://www.medicines.org.uk/emc/product/5849/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ },
+ "miconazole-topical": {
+  "meta": {
+   "setid": "emc-443",
+   "splVersion": "",
+   "effective": "2026-01-19",
+   "manufacturer": "McNeil Products Limited 1 Station Hill Square Station Hill Reading RG1 1LN UK",
+   "application": "PL 15513/0307",
+   "brand": "Daktarin 2% Cream",
+   "url": "https://www.medicines.org.uk/emc/product/443/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ },
+ "clotrimazole-topical": {
+  "meta": {
+   "setid": "emc-13666",
+   "splVersion": "",
+   "effective": "2022-01-07",
+   "manufacturer": "Bayer plc 400 South Oak Way Reading RG2 6AD",
+   "application": "PL 00010/0645",
+   "brand": "Canesten 1% Cream",
+   "url": "https://www.medicines.org.uk/emc/product/13666/smpc",
+   "type": "UK SmPC (emc)"
+  },
+  "windows": []
+ }
+}

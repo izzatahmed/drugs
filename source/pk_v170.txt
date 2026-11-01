@@ -1,0 +1,14 @@
+# v0.17.0 reviewed PK lines from UK SmPC / EMA product information: id|field|status('-'=sourced)|value|verbatim sentence
+gliclazide|proteinBinding|-|≈95%|Plasma protein binding is approximately 95%
+gliclazide|volumeOfDistribution|-|≈19 L|The volume of distribution is around 19 litres
+gliclazide|ihd|not_removed|No benefit from dialysis (strongly protein bound) (SmPC)|Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins
+etoricoxib|proteinBinding|-|≈92%|Etoricoxib is approximately 92 % bound to human plasma protein
+etoricoxib|volumeOfDistribution|-|≈120 L (steady state)|The volume of distribution at steady state (V dss ) was approximately 120 L in humans
+etoricoxib|halfLife|-|≈22 h|corresponding to a half-life of approximately 22 hours
+etoricoxib|ihd|not_removed|Not removed by HD; PD unknown (SmPC)|Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis
+roxadustat|proteinBinding|-|≈99% (albumin)|Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin
+roxadustat|volumeOfDistribution|-|24 L (apparent, steady state)|The apparent volume of distribution at steady state is 24 L
+roxadustat|halfLife|-|≈15 h (CKD)|The mean effective half-life (t1/2) of roxadustat is approximately 15 hours in patients with CKD
+roxadustat|ihd|not_removed|Not significantly removed by HD (SmPC)|Roxadustat and its metabolites are not significantly removed by haemodialysis
+glycopyrronium-inhaled|volumeOfDistribution|-|83 L (steady state, IV)|After intravenous dosing, the steady‑state volume of distribution of glycopyrronium was 83 litres
+pseudoephedrine|ihd|removed|Dialysis can accelerate elimination (overdose) (SmPC)|If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis
