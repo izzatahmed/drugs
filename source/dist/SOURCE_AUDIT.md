@@ -1,3 +1,11 @@
+# RenalRounds v0.18.0 · 1 November 2026
+
+- **CALC menu** replaces the eGFR button: kidney function, contrast-associated AKI risk and the new **PREVENT cardiovascular risk calculator** (AHA PREVENT base and base + UACR models; 10- and 30-year total CVD, ASCVD and heart failure; the 2025 AHA/ACC 7.5% stage 1 hypertension threshold).
+- **Remaining medicines from other official labels**, with the origin stated in a fine-print source note: cefoperazone-sulbactam (Pfizer label: sulbactam maximum by CrCl; dose after HD), roxithromycin (New Zealand data sheet: no reduction), oral paracetamol (Dutch SmPC: at least 6-hourly at CrCl 10–50 and 8-hourly below 10) and diphenoxylate-atropine (US label).
+- Coverage: 679 renal profiles, 10 safety notes, 21 catalog entries; PK 544 profiles (93 with all four core items). Drug content version 0.18.0.
+
+## Earlier release record
+
 # RenalRounds v0.17.0 · 1 November 2026
 
 - **Medicines without a current US label now use the UK SmPC (emc) or EU product information (EMA)**, quoted the same way as US labels and marked "UK/EU SmPC" in the source line.

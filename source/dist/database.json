@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -26,12 +26,12 @@
     "publishedSources": "US FDA labels (DailyMed); EMA product information where no US label exists; UK SmPCs for medicines without a US or EMA product; international guidelines (KDIGO, ISPD) and named US hospital protocols."
   },
   "coverage": {
-    "renal": 675,
-    "safety": 11,
-    "catalog": 24
+    "renal": 679,
+    "safety": 10,
+    "catalog": 21
   },
   "pharmacokineticCoverage": {
-    "profiles": 542,
+    "profiles": 544,
     "allFourCoreFields": 93
   },
   "sharedGuidance": {
@@ -21046,6 +21046,62 @@
         "splVersion": "",
         "effective": "2022-01-07",
         "application": "PL 00010/0645"
+      }
+    },
+    {
+      "id": "lb180-cefoperazone-sulbactam",
+      "title": "Pfizer label (Hong Kong) · SULPERAZON (Pfizer)",
+      "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=14308",
+      "section": "Pfizer SULPERAZON product label (Hong Kong, January 2020): posology in renal dysfunction, haemodialysis timing and pharmacokinetics. Not marketed in the US, UK or EU.",
+      "type": "Manufacturer product label (Pfizer)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "intl-cefoperazone-sulbactam",
+        "splVersion": "",
+        "effective": "2020-01-01",
+        "application": ""
+      }
+    },
+    {
+      "id": "lb180-roxithromycin",
+      "title": "NZ data sheet · Arrow-Roxithromycin (Teva Pharma (New Zealand) Limited)",
+      "url": "https://www.medsafe.govt.nz/PROFS/Datasheet/a/ArrowRoxithromycintab.pdf",
+      "section": "New Zealand Data Sheet (Medsafe), revised 3 November 2025: dose in impaired renal function and pharmacokinetics. Not marketed in the US or UK.",
+      "type": "NZ data sheet (Medsafe)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "intl-roxithromycin",
+        "splVersion": "",
+        "effective": "2025-11-03",
+        "application": ""
+      }
+    },
+    {
+      "id": "lb180-paracetamol",
+      "title": "Dutch SmPC (MEB) · Paracetalgin 1000 mg (Teva B.V.)",
+      "url": "https://www.geneesmiddeleninformatiebank.nl/smpc/h127230_smpc_en.pdf",
+      "section": "SmPC from the Dutch Medicines Evaluation Board (EU decentralised procedure DE/H/6508), 25 November 2024: renal dosing intervals. US OTC labels give no renal interval.",
+      "type": "EU national SmPC (Netherlands MEB)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "intl-paracetamol",
+        "splVersion": "",
+        "effective": "2024-11-25",
+        "application": "DE/H/6508/002"
+      }
+    },
+    {
+      "id": "lb180-diphenoxylate-atropine",
+      "title": "DailyMed · Diphenoxylate HCl and atropine sulfate (Chartwell RX, LLC)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=240b537e-ff9b-45e3-9398-584372bd707a",
+      "section": "Current US FDA label: dosage and administration, renal impairment, clinical pharmacology and overdosage. SPL version 4, effective 2025-12-10; application ANDA207128.",
+      "type": "US FDA label (DailyMed)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "240b537e-ff9b-45e3-9398-584372bd707a",
+        "splVersion": "4",
+        "effective": "2025-12-10",
+        "application": "ANDA207128"
       }
     }
   ],
@@ -43566,28 +43622,56 @@
       ],
       "category": "Antimicrobials",
       "drugClass": "Cephalosporin + β-lactamase inhibitor",
-      "formulation": "Parenteral · verify exact local product",
+      "formulation": "Parenteral",
       "routes": [
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Sulbactam limits: CrCl 15–30 → max 1 g sulbactam every 12 h; CrCl <15 → max 500 mg every 12 h. Give after HD.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "All indications · Pfizer label",
+              "rows": [
+                {
+                  "context": "CrCl 15–30 mL/min",
+                  "dose": "Maximum 1 g sulbactam every 12 h (2 g/day); extra cefoperazone separately if needed in severe infection"
+                },
+                {
+                  "context": "CrCl <15 mL/min",
+                  "dose": "Maximum 500 mg sulbactam every 12 h (1 g/day)"
+                }
+              ]
+            }
+          ],
+          "notes": "Pfizer label (Hong Kong): “Dosage regimens of SULPERAZON should be adjusted in patients with marked decrease in renal function (creatinine clearance of less than 30 mL/min) to compensate for the reduced clearance of sulbactam.” Pfizer label (Hong Kong): “Patients with creatinine clearances between 15 and 30 mL/min should receive a maximum of 1 g of sulbactam administered every 12 hours (maximum daily dosage of 2 g sulbactam), while patients with creatinine clearances of less than 15 mL/min should receive a maximum of 500 mg of sulbactam every 12 hours (maximum daily dosage of 1 g of sulbactam).”",
+          "sourceIds": [
+            "lb180-cefoperazone-sulbactam"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Haemodialysis · Pfizer label",
+              "rows": [
+                {
+                  "context": "Haemodialysis",
+                  "dose": "Schedule the dose after dialysis (sulbactam is removed by HD); CrCl <15 limits apply"
+                }
+              ]
+            }
+          ],
+          "notes": "Pfizer label (Hong Kong): “The pharmacokinetic profile of sulbactam is significantly altered by haemodialysis.” Pfizer label (Hong Kong): “Thus, dosing should be scheduled to follow a dialysis period.”",
+          "sourceIds": [
+            "lb180-cefoperazone-sulbactam"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -43609,17 +43693,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "lb180-cefoperazone-sulbactam"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Cefoperazone%20/%20sulbactam",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current Pfizer label (Hong Kong). Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Not marketed in the US, UK or EU; renal dosing from the Pfizer SULPERAZON product label (Hong Kong, January 2020). Check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -43643,38 +43729,48 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈1 h (sulbactam)",
+          "context": "Pfizer label (Hong Kong): “After SULPERAZON administration the mean half-life for sulbactam is about 1 hour.”",
+          "sourceIds": [
+            "lb180-cefoperazone-sulbactam"
+          ],
+          "evidence": "After SULPERAZON administration the mean half-life for sulbactam is about 1 hour."
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "6.9–9.7 h (sulbactam, anephric)",
+          "context": "Pfizer label (Hong Kong): “Patients who are functionally anephric show a significantly longer half-life of sulbactam (mean 6.9 and 9.7 hours in separate studies).”",
+          "sourceIds": [
+            "lb180-cefoperazone-sulbactam"
+          ],
+          "evidence": "Patients who are functionally anephric show a significantly longer half-life of sulbactam (mean 6.9 and 9.7 hours in separate studies).",
+          "basis": "label_renal_impairment"
         },
         "volumeOfDistribution": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current Pfizer label (Hong Kong).",
           "sourceIds": []
         },
         "proteinBinding": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current Pfizer label (Hong Kong).",
           "sourceIds": []
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "removed",
+            "value": "Sulbactam removed by HD; dose after dialysis (label)",
+            "context": "Pfizer label (Hong Kong): “The pharmacokinetic profile of sulbactam is significantly altered by haemodialysis.”",
+            "sourceIds": [
+              "lb180-cefoperazone-sulbactam"
+            ],
+            "evidence": "The pharmacokinetic profile of sulbactam is significantly altered by haemodialysis."
           },
           "pd": {
             "status": "not_curated",
@@ -43695,8 +43791,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current Pfizer label (Hong Kong); the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.18.0"
     },
     {
       "id": "cefotaxime",
@@ -57421,22 +57518,24 @@
       ],
       "category": "Gastrointestinal",
       "drugClass": "Antidiarrhoeal · opioid-receptor agonist",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Hepatorenal disease",
+      "summary": "Use with extreme caution in advanced hepatorenal disease (risk of hepatic coma).",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose in the label. US label: “Diphenoxylate hydrochloride and atropine sulfate tablets should be used with extreme caution in patients with advanced hepatorenal disease and in all patients with abnormal liver function since hepatic coma may be precipitated.”",
+          "sourceIds": [
+            "lb180-diphenoxylate-atropine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -57464,17 +57563,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "lb180-diphenoxylate-atropine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Diphenoxylate%20/%20atropine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current US label. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "US FDA label; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -57566,7 +57667,7 @@
         "checkedAt": "2026-10-31",
         "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
       },
-      "updatedInVersion": "0.13.0"
+      "updatedInVersion": "0.18.0"
     },
     {
       "id": "dipyridamole",
@@ -111020,22 +111121,38 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Non-opioid analgesic / antipyretic",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Shared safety note available; numeric renal dosing is not curated.",
-      "flag": "caution",
-      "entryType": "safety",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "Oral: CrCl 10–50 → at least 6 h between doses; CrCl <10 → at least 8 h. Use with caution in renal insufficiency.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": "acetaminophen",
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Oral paracetamol · Dutch SmPC",
+              "rows": [
+                {
+                  "context": "CrCl 10–50 mL/min",
+                  "dose": "Minimum interval 6 hours"
+                },
+                {
+                  "context": "CrCl <10 mL/min",
+                  "dose": "Minimum interval 8 hours; use under medical supervision"
+                }
+              ]
+            }
+          ],
+          "notes": "Dutch SmPC (MEB): “Where creatinine clearance is between 10-50 ml/min, the minimum interval between administrations should be 6 hours.” Dutch SmPC (MEB): “When creatinine clearance is lower than 10 ml/min, the minimum interval between two administrations should be 8 hours.” Dutch SmPC (MEB): “Paracetamol should be used with caution in the presence of renal insufficiency and increased interval between doses is recommended in cases of severe renal insufficiency.”",
+          "sourceIds": [
+            "lb180-paracetamol"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -111064,18 +111181,18 @@
       },
       "considerations": "",
       "sourceIds": [
-        "otc-nkf-pain"
+        "lb180-paracetamol"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Paracetamol%20/%20acetaminophen",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current Dutch SmPC (MEB). Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "US OTC labels and the UK SmPCs reviewed give no renal dosing interval; intervals from an EU national SmPC (Dutch Medicines Evaluation Board, decentralised procedure DE/H/6508, 25 November 2024). Check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -111152,7 +111269,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.18.0"
     },
     {
       "id": "paricalcitol",
@@ -124797,22 +124915,34 @@
       ],
       "category": "Antimicrobials",
       "drugClass": "Macrolide",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal dose adjustment (NZ data sheet)",
+      "summary": "Usual dose in renal impairment; no reduction needed for the normally short course. Half-life ≈18 h in renal insufficiency.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "All indications · NZ data sheet",
+              "rows": [
+                {
+                  "context": "Impaired renal function, including renal failure",
+                  "dose": "300 mg daily (one 300 mg tablet daily, or 150 mg twice daily); no reduction for a normal short course"
+                }
+              ]
+            }
+          ],
+          "notes": "NZ data sheet: “Impaired renal function Roxithromycin 300 mg tablets: one tablet daily.” NZ data sheet: “In the elderly and those with renal failure, dosage reduction is not required for the normally short course of treatment.”",
+          "sourceIds": [
+            "lb180-roxithromycin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -124840,17 +124970,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "lb180-roxithromycin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Roxithromycin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current NZ data sheet. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "Not marketed in the US or UK; dosing from the New Zealand Data Sheet (Medsafe, revised 3 November 2025). Check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -124874,31 +125006,41 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈12 h (young adults)",
+          "context": "NZ data sheet: “The mean half-life of roxithromycin is approximately 12 hours in young adults.”",
+          "sourceIds": [
+            "lb180-roxithromycin"
+          ],
+          "evidence": "The mean half-life of roxithromycin is approximately 12 hours in young adults."
         },
         "renalHalfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "18 h (renal insufficiency)",
+          "context": "NZ data sheet: “The half-life is prolonged to 25 hours in patients with impaired hepatic function and 18 hours in patients with renal insufficiency.”",
+          "sourceIds": [
+            "lb180-roxithromycin"
+          ],
+          "evidence": "The half-life is prolonged to 25 hours in patients with impaired hepatic function and 18 hours in patients with renal insufficiency.",
+          "basis": "label_renal_impairment"
         },
         "volumeOfDistribution": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current NZ data sheet.",
           "sourceIds": []
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "92–96% (mainly alpha-1-acid glycoprotein)",
+          "context": "NZ data sheet: “Roxithromycin is 92 to 96% bound to plasma proteins (principally alpha-1-acid glycoprotein, but also albumin).”",
+          "sourceIds": [
+            "lb180-roxithromycin"
+          ],
+          "evidence": "Roxithromycin is 92 to 96% bound to plasma proteins (principally alpha-1-acid glycoprotein, but also albumin)."
         },
         "dialysability": {
           "ihd": {
@@ -124926,8 +125068,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current NZ data sheet; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.18.0"
     },
     {
       "id": "rucaparib",
@@ -147533,65 +147676,25 @@
     }
   ],
   "releaseChanges": {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "changedIds": [
-      "gliclazide",
-      "lixisenatide",
-      "tinzaparin",
-      "roxadustat",
-      "ferrous-fumarate",
-      "ferrous-sulfate",
-      "etoricoxib",
-      "glycopyrronium-inhaled",
-      "fluticasone-nasal",
-      "pseudoephedrine",
-      "guaifenesin",
-      "dextromethorphan",
-      "xylometazoline-nasal",
-      "mebeverine",
-      "sodium-picosulfate",
-      "senna",
-      "psyllium",
-      "docusate",
-      "sodium-alginate-combinations",
-      "oral-rehydration-salts",
-      "calcium-polystyrene-sulfonate",
-      "hydrocortisone-topical",
-      "miconazole-topical",
-      "clotrimazole-topical"
+      "cefoperazone-sulbactam",
+      "roxithromycin",
+      "paracetamol",
+      "diphenoxylate-atropine"
     ],
     "newRenalIds": [
-      "gliclazide",
-      "lixisenatide",
-      "tinzaparin",
-      "roxadustat",
-      "ferrous-fumarate",
-      "ferrous-sulfate",
-      "etoricoxib",
-      "glycopyrronium-inhaled",
-      "fluticasone-nasal",
-      "pseudoephedrine",
-      "guaifenesin",
-      "dextromethorphan",
-      "xylometazoline-nasal",
-      "mebeverine",
-      "sodium-picosulfate",
-      "senna",
-      "psyllium",
-      "docusate",
-      "sodium-alginate-combinations",
-      "oral-rehydration-salts",
-      "calcium-polystyrene-sulfonate",
-      "hydrocortisone-topical",
-      "miconazole-topical",
-      "clotrimazole-topical"
+      "cefoperazone-sulbactam",
+      "roxithromycin",
+      "paracetamol",
+      "diphenoxylate-atropine"
     ],
     "newIds": [],
     "newPKIds": [],
     "pirrtSummaryIds": [],
-    "note": "Medicines without a current US label completed from UK SmPCs and EMA product information."
+    "note": "Remaining medicines completed from other official labels with a fine-print source note; CALC menu and PREVENT calculator added."
   },
-  "clinicalDataVersion": "0.17.0",
+  "clinicalDataVersion": "0.18.0",
   "calculatorSources": [
     {
       "title": "NIDDK · adult CKD-EPI equations",
@@ -147646,6 +147749,18 @@
       "url": "https://doi.org/10.1016/j.jacc.2004.06.068",
       "checked": "2026-11-01",
       "scope": "Eight weighted factors, eGFR bands, four risk bands with CIN and dialysis rates"
+    },
+    {
+      "title": "Khan et al. · Development and validation of the AHA PREVENT equations (Circulation 2024;149:430–449)",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.123.067626",
+      "checked": "2026-11-01",
+      "scope": "Base and base + UACR models, 10- and 30-year total CVD, ASCVD and heart failure; coefficients cross-checked with preventr 0.12.2 and published reference outputs"
+    },
+    {
+      "title": "2025 AHA/ACC high blood pressure guideline · PREVENT 10-year total CVD ≥7.5% for stage 1 treatment",
+      "url": "https://doi.org/10.1161/HYP.0000000000000249",
+      "checked": "2026-11-01",
+      "scope": "Stage 1 treatment threshold; CKD, diabetes or CVD qualify regardless of score"
     }
   ],
   "clinicalUpdates": {
