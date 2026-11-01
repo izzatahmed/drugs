@@ -1,3 +1,29 @@
+# RenalRounds v0.22.0 · 1 November 2026
+
+- **Tubular function** — four new calculators: potassium work-up (urine K⁺/creatinine ratio as the main result, with TTKG and its validity checks); phosphate FEPO₄, TRP and TmP/GFR (Kenny & Glen algorithm); fractional excretion of magnesium; urine anion gap and urine osmolal gap with estimated ammonium. The CALC menu now has 26 calculators.
+- **Voice search:** a mic button in the search box (Chrome on Android and other browsers with speech recognition). Misheard names are matched to the nearest medicine name. Speech is processed by the browser's speech service; nothing starts until the mic is tapped.
+- 8 new references. Clinical drug content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
+# RenalRounds v0.21.0 · 1 November 2026
+
+- **Fifteen new calculators**, with the CALC menu now grouped by topic:
+  - AKI & proteinuria: KDIGO AKI stage; FENa / FEUrea; spot PCR/ACR → 24-hour estimate with KDIGO category.
+  - Electrolytes & acid–base: hyponatraemia infusate effect (Adrogué–Madias, with volumes for a 6 and 8 mmol/L rise and correction limits); sodium corrected for glucose (Katz/Hillier); free water deficit; anion gap with albumin correction and delta ratio; expected pCO₂ (Winter's formula); osmolality and osmolal gap; calcium corrected for albumin.
+  - Dialysis: ultrafiltration rate (13 mL/kg/h threshold); CRRT effluent dose with pre-dilution correction and filtration fraction; peritoneal dialysis weekly Kt/V (Watson volume).
+  - Anaemia: TSAT with KDIGO iron thresholds; Ganzoni iron deficit.
+- Each calculator states its formula and links its published source (22 new references). Inputs are not stored or sent. Clinical drug content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
+# RenalRounds v0.20.0 · 1 November 2026
+
+- **Linked with Dalil** (دليل الأدوية الأردني, izzatahmed.github.io/dalil). 532 medicines now show a **Products in Jordan** panel: the number of JFDA-registered products with that ingredient (single-ingredient and combinations), example brand names, and a button that opens the matching products in Dalil (prices, pack, manufacturer, JFDA leaflet links). Snapshot: JFDA registered-medicines workbook dated 2026-06-09 (10,628 records). Dalil links back to RenalRounds from each product.
+- The footer and side menu link to Dalil. Clinical content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
 # RenalRounds v0.19.0 · 1 November 2026
 
 - **Drug interactions.** About 100 priority medicines (anti-rejection drugs, antihypertensives, antihistamines, enzyme inducers and inhibitors, anticoagulants, statins, digoxin, colchicine) now show a "Drug interactions" panel of sentences quoted from their label, plus FDA CYP/P-gp roles. A new **interaction checker** (CALC menu, or from any drug) shows label sentences in which one medicine names the other or its class, and FDA inhibitor/inducer + substrate pairings.

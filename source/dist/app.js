@@ -15,6 +15,14 @@ function pregnancyPanel(d){
  const block=(title,text)=>`<div class="preg-block"><strong>${title}</strong>${text?`<blockquote>${h(text)}</blockquote>`:'<p class="preg-empty">The cited label gives no statement.</p>'}</div>`;
  return `<details class="info-detail preg-panel" open><summary>Pregnancy &amp; lactation ${tga}${letter}</summary>${block('Pregnancy (quoted from label)',p.pregnancy)}${block('Lactation (quoted from label)',p.lactation)}<p class="preg-note">${h(p.note)}</p><div class="source-inline"><span>SOURCE</span>${p.sourceIds.map(sourceLink).join('<span>·</span>')}</div></details>`;
 }
+function jordanPanel(d){
+ const J=db.jordanProducts,p=J&&J.drugs[d.id];
+ if(!p)return '';
+ const url=`${J.url}#q=${encodeURIComponent(p.query)}&mode=scientific`;
+ const count=`${p.products} product${p.products===1?'':'s'}${p.combinations?` + ${p.combinations} combination${p.combinations===1?'':'s'}`:''}`;
+ const brands=p.brands.length?`<p><strong>Brands include:</strong> ${p.brands.map(h).join(', ')}</p>`:'';
+ return `<details class="info-detail jordan-panel"><summary>Products in Jordan · ${count}</summary><p>${p.products} JFDA-registered product${p.products===1?'':'s'} with this ingredient${p.combinations?` and ${p.combinations} combination product${p.combinations===1?'':'s'} containing it`:''}.</p>${brands}<p><a class="dalil-link" href="${h(url)}" target="_blank" rel="noopener">Open in Dalil — packs, manufacturers, prices and JFDA leaflets ↗</a></p><p class="preg-note">${h(J.note)} Source: ${h(J.source.title)} dated ${h(J.source.fileLabelDate)}, via Dalil (دليل الأدوية الأردني).</p></details>`;
+}
 const REFERENCE_NAMES={bnf:'BNF (UK)',lexidrugs:'Lexidrugs',uptodate:'UpToDate',mims:'MIMS (Australia)'};
 const REFERENCE_STATUS={agrees:'Agrees',differs:'Differs — entry corrected or flagged',not_listed:'Not listed in this reference',not_checked:'Not yet checked',comparison_pending:'Not yet checked'};
 function referenceChecksHtml(d){
@@ -75,6 +83,7 @@ function renderMonograph(){
     <div class="source-inline"><span>SOURCE</span>${refs.map(sourceLink).join('<span>·</span>')}</div></div>
     ${pregnancyPanel(d)}
     ${typeof interactionsPanel==='function'?interactionsPanel(d):''}
+    ${jordanPanel(d)}
     <div class="mono-bottom"><div class="mono-badges review-status">${reviewPill(d)}</div><details class="info-detail"><summary>Evidence & review record</summary><div class="reference-status"><strong>Reference checks</strong>${referenceChecksHtml(d)}<p>${h(d.jurisdiction)}</p></div>${d.sourceIds.map(id=>{const s=sourceMap.get(id);return `<div class="source-card"><div class="source-type">${h(s.type.toUpperCase())}</div><a href="${h(s.url)}" target="_blank" rel="noopener noreferrer">${h(s.title)} ↗</a><small>${h(s.section)}<br>Source checked: ${h(sourceDate(s.accessed))} · Independent clinical review: pending</small></div>`;}).join('')}<p>These are condensed source summaries. Institutional guidance and US labels can differ. No independent clinician has approved this entry; review date and source-access date are distinct.</p></details><details class="info-detail"><summary>Scope, missing data & abbreviations</summary><p>${h(d.completeness)}</p><p>Missing modality data must not be replaced by the non-dialysis dose. PD does not cover intraperitoneal peritonitis therapy unless expressly stated. SLED, paediatrics, pregnancy and changing kidney function require separate protocols. CVVH/CVVHDF are covered only when explicitly stated in the selected source.</p><p>PO: oral · IV: intravenous · SC: subcutaneous · HD: haemodialysis · IHD: intermittent HD · CRRT: continuous renal replacement therapy · CVVHD: continuous venovenous HD · CAPD/APD: continuous ambulatory/automated PD · PIRRT: prolonged intermittent renal replacement therapy · SLED: sustained low-efficiency dialysis · CrCl: creatinine clearance · GFR/eGFR: (estimated) glomerular filtration rate · CAP: community-acquired pneumonia · NVAF: nonvalvular atrial fibrillation · VTE: venous thromboembolism.</p></details><div class="review-note">DRAFT v${h(db.version)} · Source check ${h(sourceDate(d.review.sourceCheckedAt))} · Independent nephrology + renal-pharmacy review pending.</div></div>`;
   $('#monograph .mono-bottom').insertAdjacentHTML('beforebegin',renderPharmacokinetics(d));
   const shared=sharedSafety(d);if(shared)$('#dose-panel').insertAdjacentHTML('afterbegin',shared);
@@ -155,7 +164,7 @@ $('#font-decrease').addEventListener('click',()=>{applyTextSize(readerLevel-1);s
 $('#font-reset').addEventListener('click',()=>{applyTextSize(0);saveTextSize();});
 $('#export').addEventListener('click',()=>{if(db)exportDatabase();});
 document.addEventListener('keydown',e=>{
- if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#about').open&&!$('#completion').open&&!$('#references').open&&!$('#calculator').open&&!$('#contrast-calculator').open&&!$('#prevent-calculator').open&&!$('#calc-menu').open&&!$('#ckd-calculator').open&&!$('#body-calculator').open&&!$('#dialysis-calculator').open&&!$('#interaction-checker').open){e.preventDefault();$('#search').focus();}
+ if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#about').open&&!$('#completion').open&&!$('#references').open&&!$('#calculator').open&&!$('#contrast-calculator').open&&!$('#prevent-calculator').open&&!$('#calc-menu').open&&!$('#ckd-calculator').open&&!$('#body-calculator').open&&!$('#dialysis-calculator').open&&!$('#interaction-checker').open&&!$('#nephro-tools')?.open){e.preventDefault();$('#search').focus();}
  if(e.key==='Escape'&&document.activeElement===$('#search')){$('#search').value='';if(db)renderResults();}
  if(e.key==='Enter'&&document.activeElement===$('#search')&&db){e.preventDefault();if(!selected||!visible.some(d=>d.id===selected)){if(!visible.length)return;selected=visible[0].id;renderResults();}openSelected();return;}
  if(e.key==='ArrowDown'&&document.activeElement===$('#search')){e.preventDefault();$('#results button')?.focus();}

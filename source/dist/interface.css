@@ -80,3 +80,7 @@ html[data-theme="dark"] .calc-measure label:has(input:checked){color:#101b20}
 .preg-empty,.preg-note{color:var(--muted);font-size:13px}
 .reference-checks{margin:6px 0 4px;padding-left:18px;font-size:13px;line-height:1.6}
 .pill.reviewed{background:#e3f4ea;color:#1d5c3a;border-color:#a9d9bc}html[data-theme="dark"] .pill.reviewed{background:#1f3b2c;color:#bfe8cf}
+
+.footer-tools .footer-link{font-size:13px;min-height:44px;display:inline-flex;align-items:center;color:var(--teal);text-decoration:none}.side-link[href]{text-decoration:none}.jordan-panel .dalil-link{display:inline-flex;align-items:center;min-height:44px;font-weight:600;color:var(--teal)}
+#calc-menu .calc-menu-body h3.calc-menu-group{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin:14px 2px 4px;font-weight:650}#calc-menu .calc-menu-body h3.calc-menu-group:first-child{margin-top:0}
+.voice-button{min-width:40px;min-height:40px;display:inline-flex;align-items:center;justify-content:center;color:var(--teal);border-radius:50%}.voice-button.listening{color:#fff;background:#c0392b;animation:voicepulse 1.2s ease-in-out infinite}@keyframes voicepulse{50%{box-shadow:0 0 0 6px #c0392b33}}@media(prefers-reduced-motion:reduce){.voice-button.listening{animation:none}}

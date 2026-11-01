@@ -1,5 +1,5 @@
-# v0.19.0 verification
+# v0.22.0 verification
 
-Current suites: checks.mjs, checks_v190.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v190.py and apply_reviews.py. checks_v190.mjs proves only curated entries changed, no previously curated setting or PK value was overwritten, every quoted sentence is verbatim text of its stored label window, and every number in a PK value appears in its quote.
+Current suites: checks.mjs, checks_v220.mjs, checks_interface.mjs and checks_calculator.mjs after the ordered build through release_v220.py and apply_reviews.py. checks_v220.mjs proves drug records are unchanged from v0.21.0, checks the four new calculators against worked cases (including both branches of the TmP/GFR algorithm) and re-runs every v0.21 calculator case.
 
-These are software/source-integrity checks, not clinical validation.
+These are software/arithmetic checks, not clinical validation.
