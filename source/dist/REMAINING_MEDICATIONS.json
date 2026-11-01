@@ -1,5 +1,5 @@
 {
-  "version": "0.16.0",
+  "version": "0.17.0",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -28,12 +28,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "calcium-polystyrene-sulfonate",
-      "name": "Calcium polystyrene sulfonate",
-      "category": "Electrolytes & phosphate",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "capsaicin",
       "name": "Capsaicin",
       "category": "OTC & medicine safety",
@@ -46,21 +40,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "clotrimazole-topical",
-      "name": "Clotrimazole topical",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "creatine-supplements",
       "name": "Creatine supplements",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "dextromethorphan",
-      "name": "Dextromethorphan",
-      "category": "Allergy & respiratory",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -76,27 +58,9 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "docusate",
-      "name": "Docusate",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "doripenem",
       "name": "Doripenem",
       "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "etoricoxib",
-      "name": "Etoricoxib",
-      "category": "Pain & neurology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "ferrous-fumarate",
-      "name": "Ferrous fumarate",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -106,44 +70,8 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "ferrous-sulfate",
-      "name": "Ferrous sulfate",
-      "category": "Anticoagulation & haematology",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "fluticasone-nasal",
-      "name": "Fluticasone nasal",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "ginkgo-biloba",
       "name": "Ginkgo biloba",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "gliclazide",
-      "name": "Gliclazide",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "glycopyrronium-inhaled",
-      "name": "Glycopyrronium (inhaled)",
-      "category": "Allergy & respiratory",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "guaifenesin",
-      "name": "Guaifenesin",
-      "category": "Allergy & respiratory",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "hydrocortisone-topical",
-      "name": "Hydrocortisone topical",
       "category": "OTC & medicine safety",
       "reason": "Renal-dose curation pending"
     },
@@ -154,22 +82,10 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "psyllium",
-      "name": "Ispaghula / psyllium",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
       "id": "lidocaine-topical",
       "name": "Lidocaine (topical)",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "lixisenatide",
-      "name": "Lixisenatide",
-      "category": "Diabetes & endocrine",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "magnesium-citrate",
@@ -184,34 +100,16 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "mebeverine",
-      "name": "Mebeverine",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "menthol-topical",
       "name": "Menthol (topical)",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "miconazole-topical",
-      "name": "Miconazole topical",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "multivitamins",
       "name": "Multivitamins",
       "category": "OTC & medicine safety",
       "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "oral-rehydration-salts",
-      "name": "Oral rehydration salts",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
       "id": "oxymetazoline-nasal",
@@ -244,18 +142,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "pseudoephedrine",
-      "name": "Pseudoephedrine",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "roxadustat",
-      "name": "Roxadustat",
-      "category": "Urology & other medicines",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "roxithromycin",
       "name": "Roxithromycin",
       "category": "Antimicrobials",
@@ -268,20 +154,8 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "senna",
-      "name": "Senna / sennosides",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
       "id": "simeticone",
       "name": "Simeticone",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "sodium-alginate-combinations",
-      "name": "Sodium alginate combinations",
       "category": "OTC & medicine safety",
       "reason": "Renal-dose curation pending"
     },
@@ -298,21 +172,9 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "sodium-picosulfate",
-      "name": "Sodium picosulfate",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "st-john-s-wort",
       "name": "St John's wort",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "tinzaparin",
-      "name": "Tinzaparin",
-      "category": "Anticoagulation & haematology",
       "reason": "Renal-dose curation pending"
     },
     {
@@ -336,12 +198,6 @@
     {
       "id": "vitamin-c-ascorbic-acid",
       "name": "Vitamin C / ascorbic acid",
-      "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "xylometazoline-nasal",
-      "name": "Xylometazoline nasal",
       "category": "OTC & medicine safety",
       "reason": "Renal-dose curation pending"
     },
