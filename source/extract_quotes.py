@@ -28,7 +28,7 @@ def meta_of(d, brand):
     return dict(setid=d.get('set_id'), splVersion=str(d.get('version')), effective=f"{d['effective_time'][:4]}-{d['effective_time'][4:6]}-{d['effective_time'][6:8]}",
                 manufacturer=(o.get('manufacturer_name') or [''])[0], application=(o.get('application_number') or [''])[0], brand=brand or (o.get('brand_name') or [''])[0],
                 url=d.get('source_url') or f"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid={d.get('set_id')}",
-                **({'type': d['source_type']} if d.get('source_type') else {}))
+                **({'type': d['source_type']} if d.get('source_type') else {}), **({'kind': d['source_kind']} if d.get('source_kind') else {}), **({'section': d['source_section']} if d.get('source_section') else {}))
 def load(path):
     d = json.loads((LAB/path).read_text()); return d[0] if isinstance(d, list) else d
 for did, c in C.items():

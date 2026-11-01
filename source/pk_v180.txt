@@ -1,0 +1,7 @@
+# v0.18.0 reviewed PK lines: id|field|status('-'=sourced)|value|verbatim sentence
+roxithromycin|proteinBinding|-|92–96% (mainly alpha-1-acid glycoprotein)|Roxithromycin is 92 to 96% bound to plasma proteins (principally alpha-1-acid glycoprotein, but also albumin)
+roxithromycin|halfLife|-|≈12 h (young adults)|The mean half-life of roxithromycin is approximately 12 hours in young adults
+roxithromycin|renalHalfLife|-|18 h (renal insufficiency)|The half-life is prolonged to 25 hours in patients with impaired hepatic function and 18 hours in patients with renal insufficiency
+cefoperazone-sulbactam|halfLife|-|≈1 h (sulbactam)|After SULPERAZON administration the mean half-life for sulbactam is about 1 hour
+cefoperazone-sulbactam|renalHalfLife|-|6.9–9.7 h (sulbactam, anephric)|Patients who are functionally anephric show a significantly longer half-life of sulbactam (mean 6.9 and 9.7 hours in separate studies)
+cefoperazone-sulbactam|ihd|removed|Sulbactam removed by HD; dose after dialysis (label)|The pharmacokinetic profile of sulbactam is significantly altered by haemodialysis

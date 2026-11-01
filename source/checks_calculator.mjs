@@ -31,9 +31,9 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
 const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
-assert.equal(data.version,'0.17.0');assert.equal(data.clinicalDataVersion,'0.17.0');
+assert.equal(data.version,'0.18.0');assert.equal(data.clinicalDataVersion,'0.18.0');
 assert.deepEqual(data.calculatorSources.slice(0,6),old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
-assert.equal(data.calculatorSources.length,9);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\/doi\.org\//.test(s.url)));
+assert.equal(data.calculatorSources.length,11);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\/doi\.org\//.test(s.url)));
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/calculator.js')),'Calculator values must not be persisted, exported or sent');
 assert.match(read('./dist/app.js'),/!\$\('#calculator'\)\.open/,'Drug-search shortcut must not run over the calculator');
@@ -54,4 +54,17 @@ assert.equal(iv({egfr:90,aki:true}).level,'high');assert.equal(iv({aki:true}).le
 assert.equal(iv({dialysis:'anuric'}).level,'none');assert.equal(iv({dialysis:'nonanuric'}).level,'high');assert.match(iv({dialysis:'nonanuric'}).advice.join(' '),/not indicated/);
 assert.ok(html.includes(read('./dist/contrast-math.js'))&&html.includes(read('./dist/contrast-calculator.js'))&&/id="contrast-calculator"/.test(html));
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/contrast-math.js')+read('./dist/contrast-calculator.js')),'Contrast calculator values must not be persisted, exported or sent');
-console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path; Mehran points/bands and ACR–NKF IV thresholds for the contrast-AKI panel.');
+// PREVENT (Khan et al. 2024): base and base+UACR models, 10- and 30-year; reference outputs published with the preventr package tests (CRAN 0.12.2).
+vm.runInContext(read('./dist/prevent-math.js')+';this.PV=PreventMath;',context);const PV=context.PV;
+const pv=o=>PV.compute({age:50,sbp:160,bpTx:true,tc:200,hdl:45,statin:false,dm:true,smoking:false,egfr:90,bmi:35,cholUnit:'mgdl',uacr:'',...o});
+const r3=v=>Math.round(v*1000)/1000,trio=o=>[r3(o.total_cvd),r3(o.ascvd),r3(o.heart_failure)];
+for(const [o,ten,thirty] of [[{sex:'female'},[0.147,0.092,0.081],[0.53,0.354,0.39]],[{sex:'female',uacr:92},[0.181,0.111,0.105],[0.565,0.381,0.437]],[{sex:'male'},[0.163,0.102,0.106],[0.514,0.349,0.424]],[{sex:'male',uacr:92},[0.195,0.123,0.13],[0.535,0.368,0.448]]]){
+  const a=pv(o);assert.equal(a.ok,true);assert.equal(a.model,o.uacr?'uacr':'base');assert.deepEqual(trio(a.tenYear),ten,JSON.stringify(o));assert.deepEqual(trio(a.thirtyYear),thirty,JSON.stringify(o));}
+const mm=pv({sex:'female',tc:200*0.02586,hdl:45*0.02586,cholUnit:'mmol'});assert.ok(Math.abs(mm.tenYear.total_cvd-pv({sex:'female'}).tenYear.total_cvd)<1e-12);
+assert.ok(Math.abs(pv({sex:'male',uacr:92/8.84,uacrUnit:'mgmmol'}).tenYear.total_cvd-pv({sex:'male',uacr:92}).tenYear.total_cvd)<1e-12);
+assert.equal(pv({sex:'male',age:60}).thirtyYear,null);assert.ok(pv({sex:'male',age:59}).thirtyYear);
+for(const bad of [{sex:''},{sex:'female',age:29},{sex:'female',age:80},{sex:'female',tc:129},{sex:'female',hdl:101},{sex:'female',sbp:89},{sex:'female',sbp:181},{sex:'female',bmi:40},{sex:'female',egfr:14},{sex:'female',egfr:141},{sex:'female',uacr:-1},{sex:'female',tc:9,cholUnit:'mmol'}]){const x=pv(bad);assert.equal(x.ok,false,JSON.stringify(bad));assert.equal('tenYear' in x,false);}
+assert.ok(html.includes(read('./dist/prevent-math.js'))&&html.includes(read('./dist/prevent-calculator.js'))&&/id="prevent-calculator"/.test(html)&&/id="calc-menu"/.test(html));
+assert.match(html,/class="calculator-launch" data-open="calc-menu"[^>]*>CALC</);
+assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/prevent-math.js')+read('./dist/prevent-calculator.js')),'PREVENT values must not be persisted, exported or sent');
+console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path; Mehran points/bands and ACR–NKF IV thresholds for the contrast-AKI panel; PREVENT base/UACR 10- and 30-year reference outputs and the CALC menu.');
