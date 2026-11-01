@@ -1,0 +1,50 @@
+[
+ {
+  "title": "Halperin ML. Assessing the renal response in patients with potassium disorders: a shift in emphasis from the TTKG to the urine K+/creatinine ratio. Afr J Nephrol 2017;20:22–4",
+  "url": "https://doi.org/10.21804/20-1-2453",
+  "checked": "2026-11-01",
+  "scope": "Potassium work-up: urine K⁺/creatinine & TTKG"
+ },
+ {
+  "title": "Kamel KS, Halperin ML. Use of urine electrolytes and urine osmolality in the clinical diagnosis of fluid, electrolytes, and acid-base disorders. Kidney Int Rep 2021;6:1211–24",
+  "url": "https://doi.org/10.1016/j.ekir.2021.02.003",
+  "checked": "2026-11-01",
+  "scope": "Potassium work-up: urine K⁺/creatinine & TTKG; Urine anion gap & urine osmolal gap"
+ },
+ {
+  "title": "West ML et al. New clinical approach to evaluate disorders of potassium excretion. Miner Electrolyte Metab 1986;12:234–8 (PMID 3762510)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/3762510/",
+  "checked": "2026-11-01",
+  "scope": "Potassium work-up: urine K⁺/creatinine & TTKG"
+ },
+ {
+  "title": "Batlle DC et al. The use of the urinary anion gap in the diagnosis of hyperchloremic metabolic acidosis. N Engl J Med 1988;318:594–9",
+  "url": "https://doi.org/10.1056/NEJM198803103181002",
+  "checked": "2026-11-01",
+  "scope": "Urine anion gap & urine osmolal gap"
+ },
+ {
+  "title": "Kenny AP, Glen AC. Tests of phosphate reabsorption. Lancet 1973;2:158",
+  "url": "https://doi.org/10.1016/S0140-6736(73)93112-7",
+  "checked": "2026-11-01",
+  "scope": "Phosphate: FEPO₄, TRP & TmP/GFR"
+ },
+ {
+  "title": "Barth JH, Jones RG, Payne RB. Calculation of renal tubular reabsorption of phosphate: the algorithm performs better than the nomogram. Ann Clin Biochem 2000;37:79–81",
+  "url": "https://doi.org/10.1258/0004563001901371",
+  "checked": "2026-11-01",
+  "scope": "Phosphate: FEPO₄, TRP & TmP/GFR"
+ },
+ {
+  "title": "Payne RB. Renal tubular reabsorption of phosphate (TmP/GFR): indications and interpretation. Ann Clin Biochem 1998;35:201–6",
+  "url": "https://doi.org/10.1177/000456329803500203",
+  "checked": "2026-11-01",
+  "scope": "Phosphate: FEPO₄, TRP & TmP/GFR"
+ },
+ {
+  "title": "Agus ZS. Hypomagnesemia. J Am Soc Nephrol 1999;10:1616–22",
+  "url": "https://doi.org/10.1681/ASN.V1071616",
+  "checked": "2026-11-01",
+  "scope": "Fractional excretion of magnesium"
+ }
+]

@@ -1,0 +1,140 @@
+[
+ {
+  "title": "Katz MA. Hyperglycemia-induced hyponatremia — calculation of expected serum sodium depression. N Engl J Med 1973;289:843–4",
+  "url": "https://doi.org/10.1056/NEJM197310182891607",
+  "checked": "2026-11-01",
+  "scope": "Sodium corrected for glucose"
+ },
+ {
+  "title": "Hillier TA et al. Hyponatremia: evaluating the correction factor for hyperglycemia. Am J Med 1999;106:399–403",
+  "url": "https://doi.org/10.1016/S0002-9343(99)00055-8",
+  "checked": "2026-11-01",
+  "scope": "Sodium corrected for glucose"
+ },
+ {
+  "title": "Adrogué HJ, Madias NE. Hyponatremia. N Engl J Med 2000;342:1581–9",
+  "url": "https://doi.org/10.1056/NEJM200005253422107",
+  "checked": "2026-11-01",
+  "scope": "Hyponatraemia: infusate effect"
+ },
+ {
+  "title": "Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Nephrol Dial Transplant 2014;29 Suppl 2:i1–39",
+  "url": "https://doi.org/10.1093/ndt/gfu040",
+  "checked": "2026-11-01",
+  "scope": "Hyponatraemia: infusate effect"
+ },
+ {
+  "title": "Verbalis JG et al. Diagnosis, evaluation, and treatment of hyponatremia: expert panel recommendations. Am J Med 2013;126(10 Suppl 1):S1–42",
+  "url": "https://doi.org/10.1016/j.amjmed.2013.07.006",
+  "checked": "2026-11-01",
+  "scope": "Hyponatraemia: infusate effect"
+ },
+ {
+  "title": "Adrogué HJ, Madias NE. Hypernatremia. N Engl J Med 2000;342:1493–9",
+  "url": "https://doi.org/10.1056/NEJM200005183422006",
+  "checked": "2026-11-01",
+  "scope": "Free water deficit"
+ },
+ {
+  "title": "Payne RB et al. Interpretation of serum calcium in patients with abnormal serum proteins. BMJ 1973;4:643–6",
+  "url": "https://doi.org/10.1136/bmj.4.5893.643",
+  "checked": "2026-11-01",
+  "scope": "Calcium corrected for albumin"
+ },
+ {
+  "title": "KDIGO 2017 CKD-MBD guideline update",
+  "url": "https://kdigo.org/guidelines/ckd-mbd/",
+  "checked": "2026-11-01",
+  "scope": "Calcium corrected for albumin"
+ },
+ {
+  "title": "Purssell RA et al. Derivation and validation of a formula to calculate the contribution of ethanol to the osmolal gap. Ann Emerg Med 2001;38:653–9",
+  "url": "https://doi.org/10.1067/mem.2001.119455",
+  "checked": "2026-11-01",
+  "scope": "Serum osmolality & osmolal gap"
+ },
+ {
+  "title": "Figge J et al. Anion gap and hypoalbuminemia. Crit Care Med 1998;26:1807–10",
+  "url": "https://doi.org/10.1097/00003246-199811000-00019",
+  "checked": "2026-11-01",
+  "scope": "Anion gap, albumin correction & delta ratio"
+ },
+ {
+  "title": "Rastegar A. Use of the ΔAG/ΔHCO3− ratio in the diagnosis of mixed acid-base disorders. J Am Soc Nephrol 2007;18:2429–31",
+  "url": "https://doi.org/10.1681/ASN.2006121408",
+  "checked": "2026-11-01",
+  "scope": "Anion gap, albumin correction & delta ratio"
+ },
+ {
+  "title": "Albert MS, Dell RB, Winters RW. Quantitative displacement of acid-base equilibrium in metabolic acidosis. Ann Intern Med 1967;66:312–22",
+  "url": "https://doi.org/10.7326/0003-4819-66-2-312",
+  "checked": "2026-11-01",
+  "scope": "Expected pCO₂ (Winter’s formula)"
+ },
+ {
+  "title": "Espinel CH. The FENa test: use in the differential diagnosis of acute renal failure. JAMA 1976;236:579–81",
+  "url": "https://doi.org/10.1001/jama.1976.03270060029022",
+  "checked": "2026-11-01",
+  "scope": "FENa / FEUrea"
+ },
+ {
+  "title": "Carvounis CP et al. Significance of the fractional excretion of urea in the differential diagnosis of acute renal failure. Kidney Int 2002;62:2223–9",
+  "url": "https://doi.org/10.1046/j.1523-1755.2002.00683.x",
+  "checked": "2026-11-01",
+  "scope": "FENa / FEUrea"
+ },
+ {
+  "title": "KDIGO 2012 clinical practice guideline for acute kidney injury",
+  "url": "https://kdigo.org/guidelines/acute-kidney-injury/",
+  "checked": "2026-11-01",
+  "scope": "KDIGO AKI stage; CRRT dose & filtration fraction"
+ },
+ {
+  "title": "KDIGO 2024 clinical practice guideline for CKD evaluation and management",
+  "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+  "checked": "2026-11-01",
+  "scope": "Spot ratio → 24-hour estimate"
+ },
+ {
+  "title": "Flythe JE et al. Rapid fluid removal during dialysis is associated with cardiovascular morbidity and mortality. Kidney Int 2011;79:250–7",
+  "url": "https://doi.org/10.1038/ki.2010.383",
+  "checked": "2026-11-01",
+  "scope": "Ultrafiltration rate"
+ },
+ {
+  "title": "Tolwani A. Continuous renal-replacement therapy for acute kidney injury. N Engl J Med 2012;367:2505–14",
+  "url": "https://doi.org/10.1056/NEJMct1206045",
+  "checked": "2026-11-01",
+  "scope": "CRRT dose & filtration fraction"
+ },
+ {
+  "title": "Watson PE et al. Total body water volumes for adult males and females estimated from simple anthropometric measurements. Am J Clin Nutr 1980;33:27–39",
+  "url": "https://doi.org/10.1093/ajcn/33.1.27",
+  "checked": "2026-11-01",
+  "scope": "Peritoneal dialysis weekly Kt/V"
+ },
+ {
+  "title": "KDOQI clinical practice guidelines for peritoneal dialysis adequacy. Am J Kidney Dis 2006;48 Suppl 1:S98–129",
+  "url": "https://doi.org/10.1053/j.ajkd.2006.04.006",
+  "checked": "2026-11-01",
+  "scope": "Peritoneal dialysis weekly Kt/V"
+ },
+ {
+  "title": "Brown EA et al. ISPD practice recommendation: prescribing high-quality goal-directed peritoneal dialysis. Perit Dial Int 2020;40:244–53",
+  "url": "https://doi.org/10.1177/0896860819895364",
+  "checked": "2026-11-01",
+  "scope": "Peritoneal dialysis weekly Kt/V"
+ },
+ {
+  "title": "KDIGO 2012 clinical practice guideline for anemia in CKD",
+  "url": "https://kdigo.org/guidelines/anemia-in-ckd/",
+  "checked": "2026-11-01",
+  "scope": "Transferrin saturation (TSAT)"
+ },
+ {
+  "title": "Ganzoni AM. Intravenous iron-dextran: therapeutic and experimental possibilities. Schweiz Med Wochenschr 1970;100:301–3 (PMID 5413918)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/5413918/",
+  "checked": "2026-11-01",
+  "scope": "Iron deficit (Ganzoni)"
+ }
+]

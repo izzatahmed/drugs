@@ -38,7 +38,7 @@ for(const [saved,deny,expected] of [[{},false,'100%'],[{'renalrounds-large-text'
  e.run('applyTextSize(3);saveTextSize()');assert.equal(e.node('#font-reset').textContent,'150%');assert.equal(e.node('#font-toggle').disabled,true);e.run('applyTextSize(0)');assert.equal(e.node('#font-reset').textContent,'100%');
 }
 assert.ok(shell.indexOf('<div class="reader-toolbar"')<shell.indexOf('<div class="search-box"'));assert.match(shell,/<div class="search-row">[\s\S]*?id="filters-toggle"[\s\S]*?id="clear-filters"[\s\S]*?<\/div><details id="filter-panel"/);
-assert.ok(!/<header class="topbar"|<section class="intro"|class="draft-notice"/.test(shell));assert.equal((shell.match(/class="dialog-back"/g)||[]).length,11);
+assert.ok(!/<header class="topbar"|<section class="intro"|class="draft-notice"/.test(shell));assert.equal((shell.match(/class="dialog-back"/g)||[]).length,12);
 console.log('PASS: actual theme startup/toggle, persisted choice, storage-denied fallback, no OS theme path; medicine/setting/filter back history and dialog closure; calculator exclusion; text preference migration/clamping and search-first structure.');
 
 const home=environment({'renalrounds-theme':'dark','renalrounds-reader-level':'3','renalrounds-favourites':'["amlodipine"]'});
@@ -46,5 +46,5 @@ home.run('renderResults()');home.node('#search').value='captopril';home.run("mod
 let prevented=false;home.node('#home-link').click({preventDefault(){prevented=true;}});
 assert.ok(prevented);assert.equal(home.run('selected'),null);assert.equal(home.run('mode'),'ckd');assert.equal(home.run('category'),'all');assert.equal(home.run('view'),'all');assert.equal(home.node('#search').value,'');assert.equal(home.node('#route-filter').value,'all');assert.equal(home.node('#filter-panel').open,false);assert.equal(home.node('#filters-toggle').attrs['aria-expanded'],'false');assert.equal(home.node('#results').scrollTop,0);assert.equal(home.run('window.scrollY'),0);assert.equal(home.node('#search').focused,true);
 assert.equal(home.root.dataset.theme,'dark');assert.equal(home.storage.get('renalrounds-reader-level'),'3');assert.equal(home.storage.get('renalrounds-favourites'),'["amlodipine"]');home.run('goBack()');assert.equal(home.run('selected'),'captopril');assert.equal(home.run('mode'),'ihd');assert.equal(home.node('#search').value,'captopril');assert.equal(home.node('#route-filter').value,'Oral');
-assert.match(shell,/<a id="home-link"[^>]*href="\.\/"[^>]*aria-label="RenalRounds v0\.19\.0 — Home"/);
+assert.match(shell,/<a id="home-link"[^>]*href="\.\/"[^>]*aria-label="RenalRounds v0\.22\.0 — Home"/);
 console.log('PASS: Home click resets browsing state, scroll and focus, preserves reader preferences/favourites, and Back restores the previous medicine/filters/setting.');

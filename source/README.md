@@ -1,6 +1,19 @@
-# RenalRounds v0.19.0 — cumulative GitHub Pages package
+# RenalRounds v0.22.0 — cumulative GitHub Pages package
 
 Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 727-entry inventory contains 696 partial renal profiles, 10 shared safety notes and 21 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.22.0
+
+- Tubular-function calculators: potassium work-up (urine K⁺/creatinine with TTKG), phosphate FEPO₄/TRP/TmP-GFR, fractional excretion of magnesium, urine anion and osmolal gaps.
+- Voice search: mic button in the search box where the browser supports speech recognition. Speech is processed by the browser's speech service (in Chrome usually Google's servers); nothing starts until the mic is tapped.
+
+## What changed in 0.21.0
+
+- Fifteen more calculators in a grouped CALC menu: KDIGO AKI stage, FENa/FEUrea, spot PCR/ACR → 24-hour estimate, hyponatraemia infusate effect (Adrogué–Madias), sodium corrected for glucose, free water deficit, anion gap with delta ratio, Winter's formula, osmolal gap, corrected calcium, ultrafiltration rate, CRRT dose and filtration fraction, PD weekly Kt/V, TSAT and Ganzoni iron deficit. Each cites its published source.
+
+## What changed in 0.20.0
+
+- Linked with Dalil (izzatahmed.github.io/dalil): 534 medicines show a "Products in Jordan" panel (JFDA-registered product counts, example brands, and a button that opens the products in Dalil). Side menu and footer link to Dalil. Clinical content unchanged.
 
 ## What changed in 0.19.0
 
@@ -94,7 +107,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.19.0.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.22.0.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -103,7 +116,7 @@ The root `index.html` embeds the full database and code: replacing `database.jso
 
 CKD-EPI 2021 creatinine is the race-free eGFR default; IDMS MDRD without its historical race multiplier remains a labelled legacy alternative. Cockcroft–Gault uses (140 − age) × weight ÷ (72 × SCr) × 0.85 if female, with Devine ideal body weight and adjusted weight = IBW + 0.4 × (actual − IBW), shown only when actual weight exceeds IBW. Creatinine is not rounded up. All calculations are withheld for AKI, dialysis, pregnancy and children. See CALCULATOR.md.
 
-Calculator inputs clear when the panel closes and are never stored, exported or sent. Favourites, text size and theme use browser-local storage when available. No patient identifiers or analytics are collected.
+Calculator inputs clear when the panel closes and are never stored, exported or sent. Favourites, text size and theme use browser-local storage when available. No patient identifiers or analytics are collected. Voice search, when used, sends the spoken audio to the browser's speech service.
 
 ## Rebuild and verify
 
@@ -132,14 +145,17 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v170.py
     python3 release_v180.py
     python3 release_v190.py
+    python3 release_v200.py
+    python3 release_v210.py
+    python3 release_v220.py
     python3 apply_reviews.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v190.mjs
+    node checks_v220.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.19.0_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.22.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v180) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v210) are historical. `build_dalil_links.py` is rerun only when Dalil's catalogue changes; it writes jordan_products_v200.json here and renalrounds.json for Dalil. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.

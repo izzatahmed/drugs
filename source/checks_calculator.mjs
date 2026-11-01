@@ -31,9 +31,9 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
 const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
-assert.equal(data.version,'0.19.0');assert.equal(data.clinicalDataVersion,'0.19.0');
+assert.equal(data.version,'0.22.0');assert.equal(data.clinicalDataVersion,'0.19.0');
 assert.deepEqual(data.calculatorSources.slice(0,6),old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
-assert.equal(data.calculatorSources.length,15);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\//.test(s.url)));
+assert.equal(data.calculatorSources.length,45);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\//.test(s.url)));
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/calculator.js')),'Calculator values must not be persisted, exported or sent');
 assert.match(read('./dist/app.js'),/!\$\('#calculator'\)\.open/,'Drug-search shortcut must not run over the calculator');
