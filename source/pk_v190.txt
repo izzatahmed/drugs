@@ -1,0 +1,9 @@
+# v0.19.0 reviewed PK lines: id|field|status('-'=sourced)|value|verbatim sentence
+aprocitentan|proteinBinding|-|>99% (albumin)|Aprocitentan is >99% bound to plasma proteins, primarily albumin
+aprocitentan|halfLife|-|≈41 h (effective)|The aprocitentan effective half-life is approximately 41 hours
+aprocitentan|ihd|not_removed|Unlikely to be removed by dialysis (label)|Dialysis is unlikely to be effective because aprocitentan is highly protein-bound
+sotagliflozin|halfLife|-|21–35 h (terminal)|Following administration of 200 mg and 400 mg, mean terminal half-life (T1/2) ranged from 21 to 35 hours for sotagliflozin and from 19 to 26 hours for sotagliflozin 3-O-glucuronide
+vericiguat|halfLife|-|30 h (heart failure)|The half-life of vericiguat is 30 hours in patients with heart failure
+vericiguat|ihd|not_removed|Unlikely to be removed by HD (label)|VERQUVO is unlikely to be removed by hemodialysis because of high protein binding
+belumosudil|halfLife|-|19 h (mean)|The mean (%CV) elimination half-life of belumosudil was 19 hours
+lomitapide|ihd|not_removed|Unlikely to be removed by HD (label)|Hemodialysis is unlikely to be beneficial given that lomitapide is highly protein-bound

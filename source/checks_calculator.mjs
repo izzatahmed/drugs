@@ -31,9 +31,9 @@ for(const overrides of [{age:''},{age:0},{age:17},{age:121},{age:Infinity},{sex:
 assert.equal(result({age:18}).ok,true);assert.equal(result({age:120}).ok,true);
 assert.equal(result({creatinine:0.15}).warnings.length,1);
 const data=JSON.parse(read('./dist/database.json')),old=JSON.parse(read('./baseline_v08.json'));
-assert.equal(data.version,'0.18.0');assert.equal(data.clinicalDataVersion,'0.18.0');
+assert.equal(data.version,'0.19.0');assert.equal(data.clinicalDataVersion,'0.19.0');
 assert.deepEqual(data.calculatorSources.slice(0,6),old.calculatorSources);assert.deepEqual(data.sharedGuidance,old.sharedGuidance);
-assert.equal(data.calculatorSources.length,11);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\/doi\.org\//.test(s.url)));
+assert.equal(data.calculatorSources.length,15);assert.ok(data.calculatorSources.slice(6).every(s=>/^https:\/\//.test(s.url)));
 const html=read('./dist/index.html');assert.ok(html.includes(read('./dist/renal-math.js')));assert.ok(html.includes(read('./dist/calculator.js')));assert.match(html,/id="calculator"/);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/calculator.js')),'Calculator values must not be persisted, exported or sent');
 assert.match(read('./dist/app.js'),/!\$\('#calculator'\)\.open/,'Drug-search shortcut must not run over the calculator');
@@ -67,4 +67,28 @@ for(const bad of [{sex:''},{sex:'female',age:29},{sex:'female',age:80},{sex:'fem
 assert.ok(html.includes(read('./dist/prevent-math.js'))&&html.includes(read('./dist/prevent-calculator.js'))&&/id="prevent-calculator"/.test(html)&&/id="calc-menu"/.test(html));
 assert.match(html,/class="calculator-launch" data-open="calc-menu"[^>]*>CALC</);
 assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/prevent-math.js')+read('./dist/prevent-calculator.js')),'PREVENT values must not be persisted, exported or sent');
-console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path; Mehran points/bands and ACR–NKF IV thresholds for the contrast-AKI panel; PREVENT base/UACR 10- and 30-year reference outputs and the CALC menu.');
+// CKD risk, KFRE, body size, dialysis adequacy.
+vm.runInContext(read('./dist/kidney-tools-math.js')+';this.KT=KidneyTools;',context);const KT=context.KT;
+const grid={G1:['low','moderate','high'],G2:['low','moderate','high'],G3a:['moderate','high','very high'],G3b:['high','very high','very high'],G4:['very high','very high','very high'],G5:['very high','very high','very high']};
+for(const [egfr,g] of [[95,'G1'],[90,'G1'],[89.9,'G2'],[60,'G2'],[59,'G3a'],[45,'G3a'],[44,'G3b'],[30,'G3b'],[29,'G4'],[15,'G4'],[14,'G5']])for(const [acr,a,i] of [[29.9,'A1',0],[30,'A2',1],[300,'A2',1],[301,'A3',2]]){const x=KT.ckd({egfr,acr,acrUnit:'mgg'});assert.equal(x.g,g);assert.equal(x.a,a);assert.equal(x.risk,grid[g][i],`${egfr}/${acr}`);}
+assert.equal(KT.ckd({egfr:70,acr:3.4,acrUnit:'mgmmol'}).a,'A2');assert.equal(KT.ckd({egfr:70,acr:3.39,acrUnit:'mgmmol'}).a,'A1');
+// KFRE against the LOINC 85624-5 / 85625-2 formula written out independently; non-North American S0 = 1 − (1 − S0_NA) × (1 − 0.329) and × (1 − 0.165) (JAMA 2016 recalibration).
+const loinc=(s0,age,male,egfr,acr)=>1-Math.pow(s0,Math.exp(-0.2201*(age/10-7.036)+0.2467*(male-0.5642)-0.5567*(egfr/5-7.222)+0.4510*(Math.log(acr)-5.137)));
+assert.ok(Math.abs(1-(1-0.9750)*(1-0.329)-0.9832)<5e-5&&Math.abs(1-(1-0.9240)*(1-0.165)-0.9365)<5e-5);
+for(const [age,sex,egfr,acr] of [[70,'male',25,300],[55,'female',40,50],[80,'female',18,1200],[45,'male',55,10]]){const m=sex==='male'?1:0;
+  const na=KT.ckd({egfr,acr,acrUnit:'mgg',age,sex,region:'NA'}).kfre,nn=KT.ckd({egfr,acr,acrUnit:'mgg',age,sex,region:'nonNA'}).kfre;
+  assert.ok(Math.abs(na.two-loinc(0.9750,age,m,egfr,acr))<1e-12&&Math.abs(na.five-loinc(0.9240,age,m,egfr,acr))<1e-12);assert.ok(Math.abs(nn.two-loinc(0.9832,age,m,egfr,acr))<1e-12&&nn.five<na.five);}
+assert.equal(KT.ckd({egfr:75,acr:500,acrUnit:'mgg',age:60,sex:'male'}).kfre,null);assert.equal(KT.ckd({egfr:40,acr:500,acrUnit:'mgg'}).kfre,null);
+for(const bad of [{egfr:'',acr:30},{egfr:40,acr:0},{egfr:250,acr:30}])assert.equal(KT.ckd(bad).ok,false);
+// Body size: Mosteller 180 cm/80 kg = 2.00 m²; Devine IBW 175 cm male = 70.46 kg.
+const bd=KT.body({height:180,weight:80,sex:'male'});assert.ok(Math.abs(bd.bsa-2)<1e-12&&Math.abs(bd.bmi-24.691358)<1e-6&&bd.cls==='Healthy weight');
+assert.ok(Math.abs(KT.body({height:175,weight:90,sex:'male'}).ibw-(50+2.3*(175/2.54-60)))<1e-9);assert.equal(KT.body({height:175,weight:60,sex:'male'}).adj,null);
+for(const [w,c] of [[56.6,'Underweight'],[75,'Healthy weight'],[90,'Overweight'],[100,'Obesity class I'],[115,'Obesity class II'],[130,'Obesity class III']])assert.equal(KT.body({height:175,weight:w}).cls,c,String(w));
+// Dialysis: hand-calculated Daugirdas examples.
+const dl=KT.dialysis({pre:100,post:30,hours:4,uf:3,weight:70});assert.ok(Math.abs(dl.ktv-(-Math.log(0.3-0.032)+(4-1.05)*3/70))<1e-12&&Math.abs(dl.urr-0.7)<1e-12);
+assert.ok(Math.abs(KT.dialysis({pre:70,post:20,hours:4,uf:3,weight:70}).ktv-1.5)<0.002);
+for(const bad of [{pre:70,post:80,hours:4,uf:2,weight:70},{pre:70,post:20,hours:0.5,uf:2,weight:70},{pre:70,post:20,hours:4,uf:-1,weight:70}])assert.equal(KT.dialysis(bad).ok,false);
+assert.ok(html.includes(read('./dist/kidney-tools-math.js'))&&html.includes(read('./dist/kidney-tools.js')));
+for(const id of ['ckd-calculator','body-calculator','dialysis-calculator'])assert.match(html,new RegExp(`data-open="${id}"`));
+assert.ok(!/localStorage|sessionStorage|fetch\s*\(|downloadText|setHash|location\./.test(read('./dist/kidney-tools-math.js')+read('./dist/kidney-tools.js')));
+console.log('PASS: NKF Table S1 reference cases in both units; independent MDRD examples; splice, BSA and validation cases; retained calculator sources; embedded calculator and no persistence/export/network path; Mehran points/bands and ACR–NKF IV thresholds for the contrast-AKI panel; PREVENT base/UACR 10- and 30-year reference outputs and the CALC menu; KDIGO grid, KFRE, body-size and Kt/V cases.');

@@ -1,0 +1,926 @@
+{
+ "evinacumab": {
+  "label": "us3/evinacumab.json",
+  "brand": "EVKEEZA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "HoFH · US label",
+      "rows": [
+       {
+        "context": "Mild or moderate impairment",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "Severe impairment",
+        "dose": "No data"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Observed trough serum evinacumab-dgnb concentrations at steady-state were comparable between patients with mild or moderate renal impairment and patients with normal renal function",
+     "No data are available in patients with severe renal impairment"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Renal function",
+  "summary": "Exposure unchanged in mild–moderate impairment; no data in severe impairment.",
+  "new": {
+   "name": "Evinacumab",
+   "aliases": [
+    "Evkeeza"
+   ],
+   "category": "Gout & lipids",
+   "drugClass": "ANGPTL3 inhibitor (monoclonal antibody)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "lomitapide": {
+  "label": "us3/lomitapide.json",
+  "brand": "JUXTAPID",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "HoFH · US label",
+      "rows": [
+       {
+        "context": "Mild, moderate or severe impairment, or ESRD not on dialysis",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "JUXTAPID has not been studied in patients with mild, moderate, or severe renal impairment, including those with end stage renal disease not receiving dialysis"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "ESRD on haemodialysis, adults",
+        "dose": "Maximum 40 mg per day"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Table 5: Dosage Adjustment for Patients with End Stage Renal Disease Receiving Hemodialysis Age GROUP MAXIMUM RECOMMENDED DAILY DOSAGE 2 to 10 years 15 mg 11 to 17 years 30 mg 18 years and older 40 mg",
+     "The maximum recommended dosage of JUXTAPID in patients with end-stage renal disease receiving hemodialysis is lower than in those with normal renal function"
+    ]
+   }
+  },
+  "pk": {
+   "ihd": {
+    "value": "Unlikely to be removed by HD (label)",
+    "ev": "Hemodialysis is unlikely to be beneficial given that lomitapide is highly protein-bound",
+    "status": "not_removed"
+   }
+  },
+  "flag": "adjust",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "ESRD on haemodialysis: maximum 40 mg daily (adults). Not studied in other renal impairment.",
+  "new": {
+   "name": "Lomitapide",
+   "aliases": [
+    "Juxtapid",
+    "Lojuxta"
+   ],
+   "category": "Gout & lipids",
+   "drugClass": "MTP inhibitor",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "aprocitentan": {
+  "label": "us3/aprocitentan.json",
+  "brand": "TRYVIO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Resistant hypertension · US label",
+      "rows": [
+       {
+        "context": "CKD (eGFR ≥15)",
+        "dose": "Usual dose; monitor for oedema/fluid retention"
+       },
+       {
+        "context": "eGFR <15 mL/min or dialysis",
+        "dose": "Not recommended"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "TRYVIO is not recommended in patients with kidney failure (eGFR <15 mL/min) or on dialysis",
+     "Patients with renal impairment are at increased risk of edema/fluid retention",
+     "Initiation of TRYVIO may cause an initial small decrease in estimated glomerular filtration rate (eGFR) that occurs within the first 6 weeks of starting therapy and then stabilizes"
+    ]
+   },
+   "ihd": {
+    "status": "avoid",
+    "tables": [],
+    "notes": "Not recommended on dialysis.",
+    "ev": [
+     "TRYVIO is not recommended in patients with kidney failure (eGFR <15 mL/min) or on dialysis",
+     "Dialysis is unlikely to be effective because aprocitentan is highly protein-bound"
+    ]
+   }
+  },
+  "pk": {
+   "proteinBinding": {
+    "value": ">99% (albumin)",
+    "ev": "Aprocitentan is >99% bound to plasma proteins, primarily albumin",
+    "status": "sourced"
+   },
+   "halfLife": {
+    "value": "≈41 h (effective)",
+    "ev": "The aprocitentan effective half-life is approximately 41 hours",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Unlikely to be removed by dialysis (label)",
+    "ev": "Dialysis is unlikely to be effective because aprocitentan is highly protein-bound",
+    "status": "not_removed"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min",
+  "summary": "Not recommended at eGFR <15 or on dialysis. CKD raises oedema/fluid-retention risk; small early eGFR dip.",
+  "new": {
+   "name": "Aprocitentan",
+   "aliases": [
+    "Tryvio",
+    "Jeraygo"
+   ],
+   "category": "Cardiovascular",
+   "drugClass": "Endothelin receptor antagonist",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "sotagliflozin": {
+  "label": "us3/sotagliflozin.json",
+  "brand": "INPEFA",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Heart failure / CV risk · US label",
+      "rows": [
+       {
+        "context": "eGFR 25–60",
+        "dose": "Usual dose (studied in SCORED)"
+       },
+       {
+        "context": "eGFR <25 or dialysis",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Efficacy and safety studies with INPEFA did not enroll patients with an eGFR less than 25 mL/min/1",
+     "Initiation of SGLT2 inhibitors, including INPEFA, causes a small increase in serum creatinine and decrease in eGFR",
+     "Assess renal function prior to initiation of INPEFA and then as clinically indicated"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "21–35 h (terminal)",
+    "ev": "Following administration of 200 mg and 400 mg, mean terminal half-life (T1/2) ranged from 21 to 35 hours for sotagliflozin and from 19 to 26 hours for sotagliflozin 3-O-glucuronide",
+    "status": "sourced"
+   }
+  },
+  "flag": "monitor",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "Studied down to eGFR 25; not studied below 25 or on dialysis. Early creatinine rise expected.",
+  "new": {
+   "name": "Sotagliflozin",
+   "aliases": [
+    "Inpefa"
+   ],
+   "category": "Cardiovascular",
+   "drugClass": "SGLT1/SGLT2 inhibitor",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "vericiguat": {
+  "label": "us3/vericiguat.json",
+  "brand": "VERQUVO",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Heart failure · US label",
+      "rows": [
+       {
+        "context": "eGFR ≥15, not on dialysis",
+        "dose": "No dose adjustment"
+       },
+       {
+        "context": "eGFR <15 or dialysis",
+        "dose": "Not studied"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No dosage adjustment of VERQUVO is recommended in patients with estimated glomerular filtration rate (eGFR) ≥15 mL/min/1",
+     "VERQUVO has not been studied in patients with eGFR <15 mL/min/1"
+    ]
+   },
+   "ihd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "Not studied on dialysis; unlikely to be removed by HD (highly protein bound).",
+    "ev": [
+     "VERQUVO is unlikely to be removed by hemodialysis because of high protein binding"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "30 h (heart failure)",
+    "ev": "The half-life of vericiguat is 30 hours in patients with heart failure",
+    "status": "sourced"
+   },
+   "ihd": {
+    "value": "Unlikely to be removed by HD (label)",
+    "ev": "VERQUVO is unlikely to be removed by hemodialysis because of high protein binding",
+    "status": "not_removed"
+   }
+  },
+  "flag": "no_adjust",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "No adjustment at eGFR ≥15 not on dialysis; not studied below 15 or on dialysis.",
+  "new": {
+   "name": "Vericiguat",
+   "aliases": [
+    "Verquvo"
+   ],
+   "category": "Cardiovascular",
+   "drugClass": "Soluble guanylate cyclase stimulator",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "mavacamten": {
+  "label": "us3/mavacamten.json",
+  "brand": "CAMZYOS",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Obstructive HCM · US label",
+      "rows": [
+       {
+        "context": "eGFR 30–89",
+        "dose": "No clinically significant PK difference"
+       },
+       {
+        "context": "eGFR <30 or dialysis",
+        "dose": "Unknown"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "No clinically significant differences in the pharmacokinetics of mavacamten were observed based on age (range: 18-82 years), sex, race, ethnicity, or mild (eGFR: 60 to 89 mL/min/1",
+     "The effects of severe (eGFR: 15 to 30 mL/min/1"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "eGFR · mL/min/1.73 m²",
+  "summary": "No PK change at eGFR 30–89; effect of eGFR <30 or dialysis unknown.",
+  "new": {
+   "name": "Mavacamten",
+   "aliases": [
+    "Camzyos"
+   ],
+   "category": "Cardiovascular",
+   "drugClass": "Cardiac myosin inhibitor",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "belumosudil": {
+  "label": "us3/belumosudil.json",
+  "brand": "REZUROCK",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Chronic GVHD · US label",
+      "rows": [
+       {
+        "context": "Mild to moderate impairment",
+        "dose": "Usual dose"
+       },
+       {
+        "context": "Severe impairment",
+        "dose": "Not studied; consider risks and benefits before starting"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "For patients with pre-existing severe renal impairment, consider the risks and potential benefits before initiating treatment with REZUROCK",
+     "The effect of severe renal impairment on the pharmacokinetics of belumosudil has not been studied"
+    ]
+   }
+  },
+  "pk": {
+   "halfLife": {
+    "value": "19 h (mean)",
+    "ev": "The mean (%CV) elimination half-life of belumosudil was 19 hours",
+    "status": "sourced"
+   }
+  },
+  "flag": "caution",
+  "kidneyMetric": "eGFR · mL/min/1.72 m²",
+  "summary": "No PK change in mild–moderate impairment; severe impairment not studied — weigh risk and benefit.",
+  "new": {
+   "name": "Belumosudil",
+   "aliases": [
+    "Rezurock"
+   ],
+   "category": "Transplant & immunology",
+   "drugClass": "ROCK2 inhibitor",
+   "routes": [
+    "Oral"
+   ]
+  }
+ },
+ "imlifidase": {
+  "label": "uk3/imlifidase.json",
+  "brand": "Idefirix",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Patients are on dialysis awaiting transplant; no renal dose statement.",
+    "ev": [
+     "Idefirix is indicated for desensitisation treatment of highly sensitised adult kidney transplant patients with positive crossmatch against an available deceased donor",
+     "Antibody-based medicinal products cleaved by imlifidase include, but are not limited to basiliximab, rituximab, alemtuzumab, adalimumab, denosumab, belatacept, etanercept, rabbit anti-thymocyte globulin (rATG) and intravenous immunoglobulin (IVIg)",
+     "Imlifidase does not degrade equine anti-thymocyte globulin and no time interval between administrations needs to be considered"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "monitor",
+  "kidneyMetric": "Kidney transplant candidates (on dialysis)",
+  "summary": "Used before deceased-donor kidney transplant in highly sensitised patients. Cleaves IgG: antibody medicines (basiliximab, rituximab, rATG, IVIG, belatacept) given around it are inactivated.",
+  "considerations": "EU authorisation (EMA); not approved in the US. Time antibody-based induction and rescue medicines around the imlifidase dose as the SmPC specifies.",
+  "new": {
+   "name": "Imlifidase",
+   "aliases": [
+    "Idefirix"
+   ],
+   "category": "Transplant & immunology",
+   "drugClass": "IgG-cleaving enzyme (desensitisation)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-hepatitis-b-engerix": {
+  "label": "us3/vaccine-hepatitis-b-engerix.json",
+  "brand": "ENGERIX-B",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hepatitis B prevention · US label",
+      "rows": [
+       {
+        "context": "Adults (not on dialysis)",
+        "dose": "1 mL at 0, 1 and 6 months"
+       },
+       {
+        "context": "Adults on haemodialysis",
+        "dose": "2 mL at 0, 1, 2 and 6 months"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Adults on Hemodialysis Primary immunization consists of a series of 4 doses (2 mL each) given as a single 2 mL dose or two 1 mL doses on a 0‑, 1‑, 2‑, and 6‑month schedule"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Primary series",
+        "dose": "2 mL at 0, 1, 2 and 6 months"
+       },
+       {
+        "context": "Follow-up",
+        "dose": "Annual anti-HBs; 2 mL booster when below 10 mIU/mL"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Adults on Hemodialysis Primary immunization consists of a series of 4 doses (2 mL each) given as a single 2 mL dose or two 1 mL doses on a 0‑, 1‑, 2‑, and 6‑month schedule",
+     "Therefore, the need for booster doses should be assessed by annual antibody testing",
+     "A 2 mL booster dose (as a single 2 mL dose or two 1 mL doses) should be given when antibody levels decline below 10 mIU/mL1",
+     "In hemodialysis patients, antibody response is lower than in healthy persons and protection may persist only as long as antibody levels remain above 10 mIU/mL"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "adjust",
+  "kidneyMetric": "Dialysis status · anti-HBs",
+  "summary": "Adults on haemodialysis: 4 doses of 2 mL (40 mcg) at 0, 1, 2 and 6 months; annual anti-HBs; booster when <10 mIU/mL.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Hepatitis B vaccine (Engerix-B)",
+   "aliases": [
+    "Engerix-B",
+    "HBV vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Recombinant hepatitis B vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-hepatitis-b-recombivax": {
+  "label": "us3/vaccine-hepatitis-b-recombivax.json",
+  "brand": "RECOMBIVAX HB",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Hepatitis B prevention · US label",
+      "rows": [
+       {
+        "context": "Adults on predialysis or dialysis",
+        "dose": "Dialysis Formulation 1.0 mL at 0, 1 and 6 months"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "RECOMBIVAX HB Dialysis Formulation: Adults on predialysis and dialysis: A series of 3 doses (1.0 mL each) given on a 0-, 1-, and 6-month schedule"
+    ]
+   },
+   "ihd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Haemodialysis · US label",
+      "rows": [
+       {
+        "context": "Primary series",
+        "dose": "Dialysis Formulation 1.0 mL at 0, 1 and 6 months"
+       },
+       {
+        "context": "Non-response",
+        "dose": "Booster or revaccination if anti-HBs <10 mIU/mL at 1–2 months after dose 3"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "RECOMBIVAX HB Dialysis Formulation: Adults on predialysis and dialysis: A series of 3 doses (1.0 mL each) given on a 0-, 1-, and 6-month schedule",
+     "Consider a booster dose or revaccination with RECOMBIVAX HB Dialysis Formulation (blue color code) in predialysis/dialysis patients if the anti-HBs level is less than 10 mIU/mL at 1 to 2 months after the third dose"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "adjust",
+  "kidneyMetric": "Predialysis / dialysis",
+  "summary": "Dialysis Formulation (40 mcg/1 mL): 3 doses at 0, 1 and 6 months; revaccinate if anti-HBs <10 mIU/mL 1–2 months after dose 3.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Hepatitis B vaccine (Recombivax HB, dialysis formulation)",
+   "aliases": [
+    "Recombivax HB",
+    "HBV vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Recombinant hepatitis B vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-hepatitis-b-heplisav": {
+  "label": "us3/vaccine-hepatitis-b-heplisav.json",
+  "brand": "HEPLISAV-B",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "specialist",
+    "tables": [],
+    "notes": "Label: not established on haemodialysis. For dialysis patients use a vaccine with a labelled dialysis schedule unless local policy differs.",
+    "ev": [
+     "Safety and effectiveness of HEPLISAV-B have not been established in adults on hemodialysis",
+     "Immunocompromised persons, including individuals receiving immunosuppressant therapy, may have a diminished immune response to HEPLISAV-B"
+    ]
+   },
+   "ihd": {
+    "status": "insufficient_data",
+    "tables": [],
+    "notes": "Not established in adults on haemodialysis.",
+    "ev": [
+     "Safety and effectiveness of HEPLISAV-B have not been established in adults on hemodialysis"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "caution",
+  "kidneyMetric": "Dialysis status",
+  "summary": "Safety and effectiveness not established in adults on haemodialysis (label); immunosuppression may blunt response.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Hepatitis B vaccine, adjuvanted (Heplisav-B)",
+   "aliases": [
+    "Heplisav-B",
+    "HBV vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Recombinant hepatitis B vaccine (CpG 1018 adjuvant)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-zoster-recombinant": {
+  "label": "us3/vaccine-zoster-recombinant.json",
+  "brand": "SHINGRIX",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Zoster prevention · US label",
+      "rows": [
+       {
+        "context": "Immunosuppressed adults ≥18 (including kidney transplant)",
+        "dose": "Usual 2-dose series"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "in adults aged 18 years and older who are or will be at increased risk of HZ due to immunodeficiency or immunosuppression caused by known disease or therapy",
+     "e The first dose was administered between 4 to 18 months after renal transplantation"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "Non-live: indicated from age 18 when immunodeficiency or immunosuppression raises zoster risk (studied in kidney transplant recipients).",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Zoster vaccine, recombinant (Shingrix)",
+   "aliases": [
+    "Shingrix",
+    "RZV",
+    "herpes zoster vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Recombinant adjuvanted zoster vaccine (non-live)",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-pneumococcal-pcv20": {
+  "label": "us3/vaccine-pneumococcal-pcv20.json",
+  "brand": "Prevnar 20",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Pneumococcal prevention · US label",
+      "rows": [
+       {
+        "context": "CKD, dialysis or transplant",
+        "dose": "Usual single dose; reduced response possible on immunosuppression"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Individuals with impaired immune responsiveness due to the use of immunosuppressive therapy (including irradiation, corticosteroids, antimetabolites, alkylating agents, and cytotoxic agents) may not respond optimally to Prevnar 20"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "No renal adjustment; response may be reduced by immunosuppressive therapy.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Pneumococcal conjugate vaccine 20-valent (Prevnar 20)",
+   "aliases": [
+    "Prevnar 20",
+    "PCV20",
+    "Prevenar 20"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Pneumococcal conjugate vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-pneumococcal-pcv21": {
+  "label": "us3/vaccine-pneumococcal-pcv21.json",
+  "brand": "CAPVAXIVE",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Pneumococcal prevention · US label",
+      "rows": [
+       {
+        "context": "CKD, dialysis or transplant",
+        "dose": "Usual single dose; reduced response possible on immunosuppression"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Individuals with altered immunocompetence, including those receiving immunosuppressive therapy, may have a reduced immune response to CAPVAXIVE"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "No renal adjustment; studied in adults with CKD; response may be reduced on immunosuppression.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Pneumococcal conjugate vaccine 21-valent (Capvaxive)",
+   "aliases": [
+    "Capvaxive",
+    "PCV21"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Pneumococcal conjugate vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-influenza-high-dose": {
+  "label": "us3/vaccine-influenza-high-dose.json",
+  "brand": "Fluzone High-Dose",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "Influenza prevention · US label",
+      "rows": [
+       {
+        "context": "CKD, dialysis or transplant",
+        "dose": "Usual annual dose; response may be lower on immunosuppression"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "If Fluzone High-Dose Southern Hemisphere is administered to immunocompromised persons, including those receiving immunosuppressive therapy, the expected immune response may not be obtained"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "No renal adjustment; immunosuppression may reduce the response. Annual vaccination.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "Influenza vaccine, high-dose (Fluzone High-Dose)",
+   "aliases": [
+    "Fluzone High-Dose",
+    "flu vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Inactivated influenza vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-rsv": {
+  "label": "us3/vaccine-rsv.json",
+  "brand": "AREXVY",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "RSV prevention · US label",
+      "rows": [
+       {
+        "context": "CKD, dialysis or transplant",
+        "dose": "Usual single dose; response may be reduced on immunosuppression"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Immunocompromised persons, including those receiving immunosuppressive therapy, may have a diminished immune response to AREXVY",
+     "The safety and immunogenicity of AREXVY have been assessed in 261 solid organ transplant recipients"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "No renal adjustment; studied in kidney and lung transplant recipients; response may be reduced.",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "RSV vaccine (Arexvy)",
+   "aliases": [
+    "Arexvy",
+    "respiratory syncytial virus vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "Recombinant adjuvanted RSV vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ },
+ "vaccine-covid19-mrna": {
+  "label": "us3/vaccine-covid19-mrna.json",
+  "brand": "COMIRNATY",
+  "promote": true,
+  "pk_only": false,
+  "modalities": {
+   "ckd": {
+    "status": "summarized",
+    "tables": [
+     {
+      "indication": "COVID-19 prevention · US label",
+      "rows": [
+       {
+        "context": "CKD, dialysis or transplant",
+        "dose": "Usual dose; follow CDC immunocompromised guidance for additional doses"
+       }
+      ]
+     }
+    ],
+    "notes": "",
+    "ev": [
+     "Immunocompromised persons, including individuals receiving immunosuppressant therapy, may have a diminished immune response to COMIRNATY",
+     "The Centers for Disease Control and Prevention has published considerations related to COVID-19 vaccination guidance for people who are immunocompromised"
+    ]
+   }
+  },
+  "pk": {},
+  "flag": "no_adjust",
+  "kidneyMetric": "Immunosuppression",
+  "summary": "No renal adjustment; follow CDC guidance for immunocompromised people (transplant, dialysis).",
+  "considerations": "Vaccines are not renally dose-adjusted except where the label gives a dialysis schedule. CDC: hepatitis B vaccination is recommended for all susceptible chronic haemodialysis patients and for people with CKD before they need dialysis; the adult immunization schedule by medical condition has a column for kidney failure, end-stage renal disease or dialysis. Live vaccines can cause adverse reactions with altered immunocompetence (chronic renal disease can itself alter immunocompetence); after transplant, immunosuppression generally rules out live vaccines, so vaccinate before transplant where possible (CDC General Best Practice Guidelines).",
+  "extraSources": [
+   "cdc-hd-vaccination",
+   "cdc-adult-schedule",
+   "cdc-altered-immunocompetence"
+  ],
+  "new": {
+   "name": "COVID-19 mRNA vaccine (Comirnaty)",
+   "aliases": [
+    "Comirnaty",
+    "SARS-CoV-2 vaccine"
+   ],
+   "category": "Vaccines",
+   "drugClass": "mRNA vaccine",
+   "routes": [
+    "Parenteral"
+   ]
+  }
+ }
+}
