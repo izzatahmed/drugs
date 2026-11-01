@@ -1,5 +1,5 @@
 {
-  "version": "0.18.0",
+  "version": "0.19.0",
   "generatedAt": "2026-11-01",
   "note": "Statuses describe curation coverage, not suitability for an individual patient. Summarized does not mean clinically approved or complete for every indication.",
   "drugs": [
@@ -1548,6 +1548,38 @@
       "priority": "2: remaining formulary"
     },
     {
+      "id": "aprocitentan",
+      "name": "Aprocitentan",
+      "category": "Cardiovascular",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "avoid",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "sourced"
+      },
+      "removal": {
+        "ihd": "not_removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "argatroban",
       "name": "Argatroban",
       "category": "Anticoagulation & haematology",
@@ -2412,6 +2444,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "belumosudil",
+      "name": "Belumosudil",
+      "category": "Transplant & immunology",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "bempedoic-acid",
@@ -5339,6 +5403,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "vaccine-covid19-mrna",
+      "name": "COVID-19 mRNA vaccine (Comirnaty)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "creatine-supplements",
       "name": "Creatine supplements",
       "category": "OTC & medicine safety",
@@ -8107,6 +8203,38 @@
       "priority": "2: remaining formulary"
     },
     {
+      "id": "evinacumab",
+      "name": "Evinacumab",
+      "category": "Gout & lipids",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "evolocumab",
       "name": "Evolocumab",
       "category": "Cardiovascular",
@@ -10227,6 +10355,102 @@
       "priority": "2: remaining formulary"
     },
     {
+      "id": "vaccine-hepatitis-b-engerix",
+      "name": "Hepatitis B vaccine (Engerix-B)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "vaccine-hepatitis-b-recombivax",
+      "name": "Hepatitis B vaccine (Recombivax HB, dialysis formulation)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "vaccine-hepatitis-b-heplisav",
+      "name": "Hepatitis B vaccine, adjuvanted (Heplisav-B)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "hydralazine",
       "name": "Hydralazine",
       "category": "Cardiovascular",
@@ -10935,6 +11159,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "imlifidase",
+      "name": "Imlifidase",
+      "category": "Transplant & immunology",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "specialist",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "inclisiran",
       "name": "Inclisiran",
       "category": "Cardiovascular",
@@ -11094,6 +11350,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "vaccine-influenza-high-dose",
+      "name": "Influenza vaccine, high-dose (Fluzone High-Dose)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "insulin-aspart",
@@ -12965,6 +13253,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "lomitapide",
+      "name": "Lomitapide",
+      "category": "Gout & lipids",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "summarized",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "loperamide",
       "name": "Loperamide",
       "category": "OTC & medicine safety",
@@ -13379,6 +13699,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "1: common rounds classes"
+    },
+    {
+      "id": "mavacamten",
+      "name": "Mavacamten",
+      "category": "Cardiovascular",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "mebendazole",
@@ -16884,6 +17236,70 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "vaccine-pneumococcal-pcv20",
+      "name": "Pneumococcal conjugate vaccine 20-valent (Prevnar 20)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
+      "id": "vaccine-pneumococcal-pcv21",
+      "name": "Pneumococcal conjugate vaccine 21-valent (Capvaxive)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "polymyxin-b",
       "name": "Polymyxin B",
       "category": "Antimicrobials",
@@ -18745,6 +19161,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "vaccine-rsv",
+      "name": "RSV vaccine (Arexvy)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "rucaparib",
       "name": "Rucaparib",
       "category": "Oncology",
@@ -19738,6 +20186,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "sotagliflozin",
+      "name": "Sotagliflozin",
+      "category": "Cardiovascular",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     },
     {
       "id": "sotalol",
@@ -22249,6 +22729,38 @@
       "priority": "1: common rounds classes"
     },
     {
+      "id": "vericiguat",
+      "name": "Vericiguat",
+      "category": "Cardiovascular",
+      "routes": [
+        "Oral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": "2026-11-01",
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "insufficient_data",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "sourced",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_removed",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
+    },
+    {
       "id": "vibegron",
       "name": "Vibegron",
       "category": "Urology & other medicines",
@@ -22824,6 +23336,38 @@
       },
       "independentClinicalReview": "clinical_review_pending",
       "priority": "2: remaining formulary"
+    },
+    {
+      "id": "vaccine-zoster-recombinant",
+      "name": "Zoster vaccine, recombinant (Shingrix)",
+      "category": "Vaccines",
+      "routes": [
+        "Parenteral"
+      ],
+      "content": "renal",
+      "renalDoseSourceCheckedAt": "2026-11-01",
+      "pkSourceCheckedAt": null,
+      "modalities": {
+        "ckd": "summarized",
+        "ihd": "not_curated",
+        "crrt": "not_curated",
+        "pd": "not_curated",
+        "sled": "not_curated"
+      },
+      "pkFields": {
+        "halfLife": "not_curated",
+        "renalHalfLife": "not_curated",
+        "volumeOfDistribution": "not_curated",
+        "proteinBinding": "not_curated"
+      },
+      "removal": {
+        "ihd": "not_curated",
+        "pd": "not_curated",
+        "crrt": "not_curated",
+        "sled": "not_curated"
+      },
+      "independentClinicalReview": "clinical_review_pending",
+      "priority": null
     }
   ]
 }

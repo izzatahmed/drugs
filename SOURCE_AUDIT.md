@@ -1,3 +1,12 @@
+# RenalRounds v0.19.0 · 1 November 2026
+
+- **Drug interactions.** About 100 priority medicines (anti-rejection drugs, antihypertensives, antihistamines, enzyme inducers and inhibitors, anticoagulants, statins, digoxin, colchicine) now show a "Drug interactions" panel of sentences quoted from their label, plus FDA CYP/P-gp roles. A new **interaction checker** (CALC menu, or from any drug) shows label sentences in which one medicine names the other or its class, and FDA inhibitor/inducer + substrate pairings.
+- **17 medicines added:** evinacumab, lomitapide (40 mg maximum on HD), aprocitentan (not on dialysis), sotagliflozin, vericiguat, mavacamten, belumosudil, imlifidase (EU) and a new **Vaccines** category — hepatitis B with dialysis schedules (Engerix-B 40 mcg × 4; Recombivax HB Dialysis Formulation; Heplisav-B not established on HD), recombinant zoster, pneumococcal PCV20/PCV21, high-dose influenza, RSV and COVID-19 mRNA, with CDC notes on dialysis and live vaccines after transplant.
+- **New calculators:** UACR with KDIGO G/A heat map and KFRE 2- and 5-year kidney failure risk; BMI and body size; haemodialysis adequacy (URR, Daugirdas spKt/V).
+- Coverage: 696 renal profiles, 10 safety notes, 21 catalog entries; PK 549 profiles (93 with all four core items). Drug content version 0.19.0.
+
+## Earlier release record
+
 # RenalRounds v0.18.0 · 1 November 2026
 
 - **CALC menu** replaces the eGFR button: kidney function, contrast-associated AKI risk and the new **PREVENT cardiovascular risk calculator** (AHA PREVENT base and base + UACR models; 10- and 30-year total CVD, ASCVD and heart failure; the 2025 AHA/ACC 7.5% stage 1 hypertension threshold).

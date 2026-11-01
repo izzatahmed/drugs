@@ -1,6 +1,12 @@
-# RenalRounds v0.18.0 — cumulative GitHub Pages package
+# RenalRounds v0.19.0 — cumulative GitHub Pages package
 
-Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 710-entry inventory contains 651 partial renal profiles, 15 shared safety notes and 44 catalog entries. This remains an incomplete draft without independent clinical approval.
+Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 727-entry inventory contains 696 partial renal profiles, 10 shared safety notes and 21 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.19.0
+
+- Label-quoted drug interactions for about 100 priority medicines with FDA CYP/P-gp roles, and a two-drug interaction checker.
+- New medicines (evinacumab, lomitapide, aprocitentan, sotagliflozin, vericiguat, mavacamten, belumosudil, imlifidase) and a Vaccines category (hepatitis B dialysis schedules, zoster, pneumococcal, influenza, RSV, COVID-19).
+- New calculators: UACR/KDIGO heat map with KFRE, BMI and body size, haemodialysis adequacy.
 
 ## What changed in 0.18.0
 
@@ -88,7 +94,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.18.0.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.19.0.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -101,7 +107,7 @@ Calculator inputs clear when the panel closes and are never stored, exported or 
 
 ## Rebuild and verify
 
-Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required (`extract_labels_v121.py`, `extract_labels_v122.py`, `extract_pk_v123.py`, `extract_pk_v123b.py` `extract_quotes_v124.py` and `extract_quotes.py` are only rerun when labels are re-downloaded; `review_pk_v123b.py` holds the reviewer-accepted second-pass PK values):
+Run from the `source/` folder with Python 3 and Node.js; no package installation or network is required (`extract_labels_v121.py`, `extract_labels_v122.py`, `extract_pk_v123.py`, `extract_pk_v123b.py` `extract_quotes_v124.py` and `extract_quotes.py` and `extract_interactions.py` are only rerun when labels are re-downloaded; `review_pk_v123b.py` holds the reviewer-accepted second-pass PK values):
 
     python3 build_data.py
     python3 release_v06.py
@@ -125,14 +131,15 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v160.py
     python3 release_v170.py
     python3 release_v180.py
+    python3 release_v190.py
     python3 apply_reviews.py
     python3 build_standalone.py
     node checks.mjs
-    node checks_v180.mjs
+    node checks_v190.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.18.0_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.19.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v170) are historical. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v180) are historical. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
