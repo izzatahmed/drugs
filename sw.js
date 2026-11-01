@@ -1,6 +1,6 @@
 'use strict';
-const VERSION='0.17.0';
-const BUILD='9be900f6fd4a2d346d0c';
+const VERSION='0.18.0';
+const BUILD='56af7374211224c65d3d';
 const ROOT=new URL('./',self.location.href).href;
 const PREFIX='renalrounds:'+new URL(ROOT).pathname+':';
 const CACHE=PREFIX+BUILD;

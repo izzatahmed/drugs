@@ -1,5 +1,5 @@
 {
-  "version": "0.17.0",
+  "version": "0.18.0",
   "notComplete": true,
   "note": "Renal profiles also retain indication/product/RRT gaps; clinical approval remains pending.",
   "remaining": [
@@ -34,12 +34,6 @@
       "reason": "Shared safety note only; renal-dose curation pending"
     },
     {
-      "id": "cefoperazone-sulbactam",
-      "name": "Cefoperazone / sulbactam",
-      "category": "Antimicrobials",
-      "reason": "Renal-dose curation pending"
-    },
-    {
       "id": "creatine-supplements",
       "name": "Creatine supplements",
       "category": "OTC & medicine safety",
@@ -50,12 +44,6 @@
       "name": "Diclofenac gel",
       "category": "OTC & medicine safety",
       "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
-      "id": "diphenoxylate-atropine",
-      "name": "Diphenoxylate / atropine",
-      "category": "Gastrointestinal",
-      "reason": "Renal-dose curation pending"
     },
     {
       "id": "doripenem",
@@ -118,12 +106,6 @@
       "reason": "Renal-dose curation pending"
     },
     {
-      "id": "paracetamol",
-      "name": "Paracetamol / acetaminophen",
-      "category": "OTC & medicine safety",
-      "reason": "Shared safety note only; renal-dose curation pending"
-    },
-    {
       "id": "phenylephrine-oral",
       "name": "Phenylephrine (oral)",
       "category": "OTC & medicine safety",
@@ -139,12 +121,6 @@
       "id": "potassium-containing-salt-substitutes",
       "name": "Potassium-containing salt substitutes",
       "category": "OTC & medicine safety",
-      "reason": "Renal-dose curation pending"
-    },
-    {
-      "id": "roxithromycin",
-      "name": "Roxithromycin",
-      "category": "Antimicrobials",
       "reason": "Renal-dose curation pending"
     },
     {
