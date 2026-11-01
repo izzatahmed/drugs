@@ -1,3 +1,13 @@
+# RenalRounds v0.17.0 · 1 November 2026
+
+- **Medicines without a current US label now use the UK SmPC (emc) or EU product information (EMA)**, quoted the same way as US labels and marked "UK/EU SmPC" in the source line.
+- **24 entries became renal profiles.** Examples: gliclazide (usual dose with monitoring in mild–moderate impairment; not dialysable), tinzaparin (not recommended at CrCl <30; HD circuit doses), etoricoxib (contraindicated at CrCl <30), roxadustat (maximum dose on and off dialysis), lixisenatide (not recommended at CrCl <30, via Suliqua), inhaled glycopyrronium, pseudoephedrine (contraindicated in renal failure), Calcium Resonium, laxatives, oral iron, cough and cold, nasal and topical products.
+- Where the SmPC has no renal statement, the entry now says so instead of showing nothing.
+- Every statement and value quotes its SmPC sentence; settings the SmPC does not address stay "not curated". Existing curated content was not overwritten.
+- Coverage: 675 renal profiles, 11 safety notes, 24 catalog entries; PK 542 profiles (93 with all four core items). Drug content version 0.17.0.
+
+## Earlier release record
+
 # RenalRounds v0.16.0 · 1 November 2026
 
 - **41 medicines added to the inventory**, each with renal dosing from its current US label: oncology (ifosfamide, mesna, cytarabine, fludarabine — 20% less at CrCl 30–70 and not below 30, cladribine, bendamustine — not below CrCl 30, busulfan, topotecan — 0.75 mg/m² at CrCl 20–39, irinotecan, vinorelbine, temozolomide, azacitidine, arsenic trioxide, leucovorin rescue); anaesthesia & critical care (rocuronium, cisatracurium, succinylcholine, neostigmine, sugammadex — not below CrCl 30, bupivacaine, flumazenil, mannitol, albumin, terlipressin); alprazolam, penicillamine, droxidopa, isavuconazole, alemtuzumab and IV thiamine.

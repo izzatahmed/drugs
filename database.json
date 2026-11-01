@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -26,13 +26,13 @@
     "publishedSources": "US FDA labels (DailyMed); EMA product information where no US label exists; UK SmPCs for medicines without a US or EMA product; international guidelines (KDIGO, ISPD) and named US hospital protocols."
   },
   "coverage": {
-    "renal": 651,
-    "safety": 15,
-    "catalog": 44
+    "renal": 675,
+    "safety": 11,
+    "catalog": 24
   },
   "pharmacokineticCoverage": {
-    "profiles": 537,
-    "allFourCoreFields": 91
+    "profiles": 542,
+    "allFourCoreFields": 93
   },
   "sharedGuidance": {
     "acetaminophen": {
@@ -20697,6 +20697,356 @@
         "effective": "2026-07-22",
         "application": "ANDA206106"
       }
+    },
+    {
+      "id": "uk170-gliclazide",
+      "title": "emc · DIAMICRON 80 mg (Servier Laboratories Ltd)",
+      "url": "https://www.medicines.org.uk/emc/product/1150/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2022-01-12; licence PL 00093/0024.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-1150",
+        "splVersion": "",
+        "effective": "2022-01-12",
+        "application": "PL 00093/0024"
+      }
+    },
+    {
+      "id": "uk170b-gliclazide",
+      "title": "emc · DIAMICRON 30 mg MR (Les Laboratoires Servier 50)",
+      "url": "https://www.medicines.org.uk/emc/product/1321/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2020-05-11; licence PL 05815/0019.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-1321",
+        "splVersion": "",
+        "effective": "2020-05-11",
+        "application": "PL 05815/0019"
+      }
+    },
+    {
+      "id": "uk170-lixisenatide",
+      "title": "EMA · Suliqua (insulin glargine/lixisenatide) (Sanofi Winthrop Industrie)",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suliqua",
+      "section": "Current EU product information (Annex I SmPC): posology, special populations and pharmacokinetics. Authorisation EU/1/16/1157.",
+      "type": "EMA product information (EPAR)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "ema-lixisenatide",
+        "splVersion": "",
+        "effective": "2026-11-01",
+        "application": "EU/1/16/1157"
+      }
+    },
+    {
+      "id": "uk170-tinzaparin",
+      "title": "emc · innohep (LEO Laboratories Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/2022/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-01-16; licence PL 00043/0204.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-2022",
+        "splVersion": "",
+        "effective": "2025-01-16",
+        "application": "PL 00043/0204"
+      }
+    },
+    {
+      "id": "uk170-roxadustat",
+      "title": "EMA · Evrenzo (Astellas Pharma Europe B.V.)",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evrenzo",
+      "section": "Current EU product information (Annex I SmPC): posology, special populations and pharmacokinetics. Authorisation EU/1/21/1574.",
+      "type": "EMA product information (EPAR)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "ema-roxadustat",
+        "splVersion": "",
+        "effective": "2026-11-01",
+        "application": "EU/1/21/1574"
+      }
+    },
+    {
+      "id": "uk170-ferrous-fumarate",
+      "title": "emc · Fersamal 210 mg (Mercury Pharmaceuticals Ltd)",
+      "url": "https://www.medicines.org.uk/emc/product/2821/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-01-10; licence PL 12762/0226.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-2821",
+        "splVersion": "",
+        "effective": "2025-01-10",
+        "application": "PL 12762/0226"
+      }
+    },
+    {
+      "id": "uk170-ferrous-sulfate",
+      "title": "emc · Ferrous Sulfate 200 mg (Wockhardt UK Ltd)",
+      "url": "https://www.medicines.org.uk/emc/product/3130/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-15; licence PL 29831/0220.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-3130",
+        "splVersion": "",
+        "effective": "2026-01-15",
+        "application": "PL 29831/0220"
+      }
+    },
+    {
+      "id": "uk170-etoricoxib",
+      "title": "emc · ARCOXIA (Organon Pharma (UK) Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/10616/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-01-02; licence see SmPC.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-10616",
+        "splVersion": "",
+        "effective": "2025-01-02",
+        "application": ""
+      }
+    },
+    {
+      "id": "uk170-glycopyrronium-inhaled",
+      "title": "emc · Seebri Breezhaler",
+      "url": "https://www.medicines.org.uk/emc/product/2840/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-15; licence PLGB 00101/1133.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-2840",
+        "splVersion": "",
+        "effective": "2026-01-15",
+        "application": "PLGB 00101/1133"
+      }
+    },
+    {
+      "id": "uk170-fluticasone-nasal",
+      "title": "emc · AVAMYS (GlaxoSmithKline UK Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/6439/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-28; licence PLGB 19494/0269.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-6439",
+        "splVersion": "",
+        "effective": "2026-01-28",
+        "application": "PLGB 19494/0269"
+      }
+    },
+    {
+      "id": "uk170-pseudoephedrine",
+      "title": "emc · Sudafed Decongestant Tablets (McNeil Products Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/6199/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-05-30; licence PL 15513/0024.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-6199",
+        "splVersion": "",
+        "effective": "2025-05-30",
+        "application": "PL 15513/0024"
+      }
+    },
+    {
+      "id": "uk170-guaifenesin",
+      "title": "emc · BENYLIN Chesty Coughs (McNeil Products Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/1521/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-30; licence PL 15513/0056.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-1521",
+        "splVersion": "",
+        "effective": "2026-01-30",
+        "application": "PL 15513/0056"
+      }
+    },
+    {
+      "id": "uk170-dextromethorphan",
+      "title": "emc · BENYLIN DRY COUGHS 7.5 mg/5 ml (McNeil Products Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/1523/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-30; licence PL 15513/0051.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-1523",
+        "splVersion": "",
+        "effective": "2026-01-30",
+        "application": "PL 15513/0051"
+      }
+    },
+    {
+      "id": "uk170-xylometazoline-nasal",
+      "title": "emc · Otrivine 0.1% Nasal Spray (Haleon UK Trading Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/3008/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-01-19; licence PL 44673/0184.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-3008",
+        "splVersion": "",
+        "effective": "2025-01-19",
+        "application": "PL 44673/0184"
+      }
+    },
+    {
+      "id": "uk170-mebeverine",
+      "title": "emc · Colofac 135 mg (Cooper Consumer Health B.V.)",
+      "url": "https://www.medicines.org.uk/emc/product/102499/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-07; licence PL 60682/0025.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-102499",
+        "splVersion": "",
+        "effective": "2026-01-07",
+        "application": "PL 60682/0025"
+      }
+    },
+    {
+      "id": "uk170-sodium-picosulfate",
+      "title": "emc · Dulcolax Adult Pico Liquid",
+      "url": "https://www.medicines.org.uk/emc/product/11634/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-05-19; licence PL 53886/0026.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-11634",
+        "splVersion": "",
+        "effective": "2026-05-19",
+        "application": "PL 53886/0026"
+      }
+    },
+    {
+      "id": "uk170-senna",
+      "title": "emc · Senokot 7.5 mg (Reckitt Benckiser Healthcare (UK) Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/11140/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-05-28; licence PL 00063/5000R.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-11140",
+        "splVersion": "",
+        "effective": "2025-05-28",
+        "application": "PL 00063/5000R"
+      }
+    },
+    {
+      "id": "uk170-psyllium",
+      "title": "emc · Fybogel (Reckitt Benckiser Healthcare (UK) Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/6716/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2020-01-07; licence PL 00063/0024..",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-6716",
+        "splVersion": "",
+        "effective": "2020-01-07",
+        "application": "PL 00063/0024."
+      }
+    },
+    {
+      "id": "uk170-docusate",
+      "title": "emc · Dioctyl 100 mg (Teofarma S.r.l.)",
+      "url": "https://www.medicines.org.uk/emc/product/6218/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2023-01-23; licence PL 16250/0014.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-6218",
+        "splVersion": "",
+        "effective": "2023-01-23",
+        "application": "PL 16250/0014"
+      }
+    },
+    {
+      "id": "uk170-sodium-alginate-combinations",
+      "title": "emc · Gaviscon Advance (Reckitt Benckiser Healthcare (UK) Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/681/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2025-01-12; licence PL 00063/0749.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-681",
+        "splVersion": "",
+        "effective": "2025-01-12",
+        "application": "PL 00063/0749"
+      }
+    },
+    {
+      "id": "uk170-oral-rehydration-salts",
+      "title": "emc · Dioralyte (Phoenix Labs Unlimited Company)",
+      "url": "https://www.medicines.org.uk/emc/product/2772/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2024-01-26; licence PL 35104/0043.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-2772",
+        "splVersion": "",
+        "effective": "2024-01-26",
+        "application": "PL 35104/0043"
+      }
+    },
+    {
+      "id": "uk170-calcium-polystyrene-sulfonate",
+      "title": "emc · Calcium Resonium",
+      "url": "https://www.medicines.org.uk/emc/product/1439/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2024-01-18; licence PL 04425/0620.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-1439",
+        "splVersion": "",
+        "effective": "2024-01-18",
+        "application": "PL 04425/0620"
+      }
+    },
+    {
+      "id": "uk170-hydrocortisone-topical",
+      "title": "emc · Dermacort Hydrocortisone Cream (Marlborough Pharmaceuticals Ltd)",
+      "url": "https://www.medicines.org.uk/emc/product/5849/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2024-01-13; licence PL 23138/0007.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-5849",
+        "splVersion": "",
+        "effective": "2024-01-13",
+        "application": "PL 23138/0007"
+      }
+    },
+    {
+      "id": "uk170-miconazole-topical",
+      "title": "emc · Daktarin 2% Cream (McNeil Products Limited)",
+      "url": "https://www.medicines.org.uk/emc/product/443/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2026-01-19; licence PL 15513/0307.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-443",
+        "splVersion": "",
+        "effective": "2026-01-19",
+        "application": "PL 15513/0307"
+      }
+    },
+    {
+      "id": "uk170-clotrimazole-topical",
+      "title": "emc · Canesten 1% Cream (Bayer plc)",
+      "url": "https://www.medicines.org.uk/emc/product/13666/smpc",
+      "section": "Current UK SmPC: posology (renal impairment), contraindications, warnings, overdose and pharmacokinetics. Last updated on emc 2022-01-07; licence PL 00010/0645.",
+      "type": "UK SmPC (emc)",
+      "accessed": "2026-11-01",
+      "label": {
+        "setid": "emc-13666",
+        "splVersion": "",
+        "effective": "2022-01-07",
+        "application": "PL 00010/0645"
+      }
     }
   ],
   "drugs": [
@@ -39257,29 +39607,33 @@
       ],
       "category": "Electrolytes & phosphate",
       "drugClass": "Potassium binder · cation-exchange resin",
-      "formulation": "Oral / Rectal · verify exact local product",
+      "formulation": "Oral / Rectal",
       "routes": [
         "Oral",
         "Rectal"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Serum electrolytes",
+      "summary": "Used for hyperkalaemia including dialysis patients; dose by serum electrolytes. Hypercalcaemia reported in well-dialysed patients.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Dosing is guided by regular serum electrolytes rather than renal function. UK SmPC: “It is also used to treat hyperkalaemia in patients requiring dialysis and in patients on regular haemodialysis or on prolonged peritoneal dialysis.” UK SmPC: “Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure.”",
+          "sourceIds": [
+            "uk170-calcium-polystyrene-sulfonate"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Indicated in haemodialysis and PD patients; watch for hypercalcaemia. UK SmPC: “Hypercalcaemia has been reported in well dialysed patients receiving calcium resin, and occasionally in patients with chronic renal failure.”",
+          "sourceIds": [
+            "uk170-calcium-polystyrene-sulfonate"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -39301,17 +39655,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-calcium-polystyrene-sulfonate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Calcium%20polystyrene%20sulfonate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -39388,7 +39744,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "canagliflozin",
@@ -50109,22 +50466,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Topical azole antifungal",
-      "formulation": "Topical · verify exact local product",
+      "formulation": "Topical",
       "routes": [
         "Topical"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-clotrimazole-topical"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -50152,17 +50511,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-clotrimazole-topical"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Clotrimazole%20topical",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -50250,7 +50611,8 @@
         "lactation": "It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when clotrimazole is used by a nursing woman.",
         "checkedAt": "2026-10-31",
         "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "clozapine",
@@ -55325,22 +55687,24 @@
       ],
       "category": "Allergy & respiratory",
       "drugClass": "Antitussive",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Renal function",
+      "summary": "Not studied in renal dysfunction; parent drug and dextrorphan are renally excreted.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose; renal impairment has not been studied. UK SmPC: “There have been no specific studies of this product in renal or hepatic dysfunction.” UK SmPC: “Dextromethorphan is primarily excreted via the kidney as unchanged parent drug and its active metabolite, dextrorphan.”",
+          "sourceIds": [
+            "uk170-dextromethorphan"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -55368,17 +55732,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-dextromethorphan"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dextromethorphan",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -55455,7 +55821,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "diazepam",
@@ -57895,23 +58262,25 @@
       ],
       "category": "Gastrointestinal",
       "drugClass": "Stool softener laxative",
-      "formulation": "Oral / Rectal · verify exact local product",
+      "formulation": "Oral / Rectal",
       "routes": [
         "Oral",
         "Rectal"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-docusate"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -57939,17 +58308,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-docusate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Docusate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -58026,7 +58397,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "dofetilide",
@@ -65993,28 +66365,46 @@
       ],
       "category": "Pain & neurology",
       "drugClass": "COX-2 selective NSAID",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "No adjustment at CrCl ≥30; contraindicated at CrCl <30. Not removed by HD. NSAID renal-perfusion risk.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "All indications · UK SmPC",
+              "rows": [
+                {
+                  "context": "CrCl ≥30 mL/min",
+                  "dose": "No dose adjustment"
+                },
+                {
+                  "context": "CrCl <30 mL/min",
+                  "dose": "Contraindicated"
+                }
+              ]
+            }
+          ],
+          "notes": "May reduce renal blood flow when renal perfusion is compromised; greatest risk with significant renal impairment, uncompensated heart failure or cirrhosis. UK SmPC: “Patients with renal impairment No dosage adjustment is necessary for patients with creatinine clearance ≥ 30 mL/min.” UK SmPC: “The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated.”",
+          "sourceIds": [
+            "uk170-etoricoxib"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Contraindicated at CrCl <30 mL/min; not removed by haemodialysis. UK SmPC: “The use of etoricoxib in patients with creatinine clearance < 30 mL/min is contra-indicated.” UK SmPC: “Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis.”",
+          "sourceIds": [
+            "uk170-etoricoxib"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -66036,17 +66426,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-etoricoxib"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Etoricoxib",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -66070,38 +66462,50 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈22 h",
+          "context": "UK SmPC: “corresponding to a half-life of approximately 22 hours.”",
+          "sourceIds": [
+            "uk170-etoricoxib"
+          ],
+          "evidence": "corresponding to a half-life of approximately 22 hours."
         },
         "renalHalfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈120 L (steady state)",
+          "context": "UK SmPC: “The volume of distribution at steady state (V dss ) was approximately 120 L in humans.”",
+          "sourceIds": [
+            "uk170-etoricoxib"
+          ],
+          "evidence": "The volume of distribution at steady state (V dss ) was approximately 120 L in humans."
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈92%",
+          "context": "UK SmPC: “Etoricoxib is approximately 92 % bound to human plasma protein.”",
+          "sourceIds": [
+            "uk170-etoricoxib"
+          ],
+          "evidence": "Etoricoxib is approximately 92 % bound to human plasma protein."
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "not_removed",
+            "value": "Not removed by HD; PD unknown (SmPC)",
+            "context": "UK SmPC: “Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis.”",
+            "sourceIds": [
+              "uk170-etoricoxib"
+            ],
+            "evidence": "Etoricoxib is not dialysable by haemodialysis; it is not known whether etoricoxib is dialysable by peritoneal dialysis."
           },
           "pd": {
             "status": "not_curated",
@@ -66122,8 +66526,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current UK SmPC; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "everolimus",
@@ -68603,28 +69008,32 @@
       "aliases": [],
       "category": "Anticoagulation & haematology",
       "drugClass": "Oral iron",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement. In iron overdose, HD does not remove iron but supports desferrioxamine–iron removal in acute renal failure.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-ferrous-fumarate"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Haemodialysis does not remove iron effectively; in overdose with acute renal failure it helps remove the iron–desferrioxamine complex. UK SmPC: “Haemodialysis does not remove iron effectively but should be considered on a supportive basis for acute renal failure as this will facilitate removal of the iron-desferrioxamine complex.”",
+          "sourceIds": [
+            "uk170-ferrous-fumarate"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -68646,17 +69055,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-ferrous-fumarate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ferrous%20fumarate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -68733,7 +69144,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "ferrous-gluconate",
@@ -68881,22 +69293,24 @@
       ],
       "category": "Anticoagulation & haematology",
       "drugClass": "Oral iron",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-ferrous-sulfate"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -68924,17 +69338,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-ferrous-sulfate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ferrous%20sulfate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -69011,7 +69427,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "ferumoxytol",
@@ -71951,22 +72368,34 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Intranasal corticosteroid",
-      "formulation": "Nasal · verify exact local product",
+      "formulation": "Nasal",
       "routes": [
         "Nasal"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal dose adjustment (UK SmPC)",
+      "summary": "No dose adjustment in renal impairment.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Allergic rhinitis · UK SmPC",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No dose adjustment"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “Renal Impairment No dose adjustment is required in this population.”",
+          "sourceIds": [
+            "uk170-fluticasone-nasal"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -71994,17 +72423,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-fluticasone-nasal"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Fluticasone%20nasal",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -72099,7 +72530,7 @@
         "checkedAt": "2026-10-31",
         "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
       },
-      "updatedInVersion": "0.15.0"
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "fluvastatin",
@@ -76565,28 +76996,43 @@
       ],
       "category": "Diabetes & endocrine",
       "drugClass": "Sulfonylurea",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Renal function",
+      "summary": "Mild–moderate renal insufficiency: same dose with careful monitoring; renal insufficiency raises hypoglycaemia risk. Not removed by dialysis.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Type 2 diabetes · UK SmPC",
+              "rows": [
+                {
+                  "context": "Mild to moderate renal insufficiency",
+                  "dose": "Usual dosing regimen with careful monitoring (IR 80 mg and MR 30 mg tablets)"
+                }
+              ]
+            }
+          ],
+          "notes": "Renal insufficiency is listed among factors that increase the risk of hypoglycaemia. The SmPC gives no dose for severe impairment. UK SmPC: “Renal impairment In patients with mild to moderate renal insufficiency, the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring.” UK SmPC (DIAMICRON 30 mg MR): “Renal impairment In patients with mild to moderate renal insufficiency the same dosing regimen can be used as in patients with normal renal function with careful patient monitoring.”",
+          "sourceIds": [
+            "uk170-gliclazide",
+            "uk170b-gliclazide"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Dialysis does not remove gliclazide (strongly protein bound); no dialysis dose is given. UK SmPC: “Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins.”",
+          "sourceIds": [
+            "uk170-gliclazide"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -76608,17 +77054,20 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-gliclazide",
+        "uk170b-gliclazide"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gliclazide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -76642,38 +77091,47 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "renalHalfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈19 L",
+          "context": "UK SmPC: “The volume of distribution is around 19 litres.”",
+          "sourceIds": [
+            "uk170-gliclazide"
+          ],
+          "evidence": "The volume of distribution is around 19 litres."
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈95%",
+          "context": "UK SmPC: “Plasma protein binding is approximately 95%.”",
+          "sourceIds": [
+            "uk170-gliclazide"
+          ],
+          "evidence": "Plasma protein binding is approximately 95%."
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "not_removed",
+            "value": "No benefit from dialysis (strongly protein bound) (SmPC)",
+            "context": "UK SmPC: “Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins.”",
+            "sourceIds": [
+              "uk170-gliclazide"
+            ],
+            "evidence": "Dialysis is of no benefit to patients due to the strong binding of gliclazide to proteins."
           },
           "pd": {
             "status": "not_curated",
@@ -76694,8 +77152,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current UK SmPC; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "glimepiride",
@@ -77375,28 +77834,46 @@
       ],
       "category": "Allergy & respiratory",
       "drugClass": "Long-acting muscarinic antagonist (LAMA)",
-      "formulation": "Inhaled · verify exact local product",
+      "formulation": "Inhaled",
       "routes": [
         "Inhaled"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "eGFR · mL/min/1.73 m²",
+      "summary": "Mild–moderate: usual dose. Severe impairment or ESRD on dialysis: use only if benefit outweighs risk (exposure up to 2.2-fold).",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "COPD · UK SmPC",
+              "rows": [
+                {
+                  "context": "Mild to moderate impairment",
+                  "dose": "Usual dose"
+                },
+                {
+                  "context": "Severe impairment or ESRD on dialysis",
+                  "dose": "Only if the expected benefit outweighs the potential risk"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “Seebri Breezhaler can be used at the recommended dose in patients with mild to moderate renal impairment.” UK SmPC: “In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population.”",
+          "sourceIds": [
+            "uk170-glycopyrronium-inhaled"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "ESRD on dialysis: only if benefit outweighs risk. UK SmPC: “In patients with severe renal impairment or end‑stage renal disease requiring dialysis Seebri Breezhaler should be used only if the expected benefit outweighs the potential risk since the systemic exposure to glycopyrronium may be increased in this population.”",
+          "sourceIds": [
+            "uk170-glycopyrronium-inhaled"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -77418,17 +77895,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-glycopyrronium-inhaled"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Glycopyrronium%20%28inhaled%29",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -77452,30 +77931,33 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "renalHalfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "83 L (steady state, IV)",
+          "context": "UK SmPC: “After intravenous dosing, the steady‑state volume of distribution of glycopyrronium was 83 litres.”",
+          "sourceIds": [
+            "uk170-glycopyrronium-inhaled"
+          ],
+          "evidence": "After intravenous dosing, the steady‑state volume of distribution of glycopyrronium was 83 litres."
         },
         "proteinBinding": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "dialysability": {
@@ -77504,9 +77986,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
+        "notes": "Values quoted from the current UK SmPC; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
       },
-      "updatedInVersion": "0.15.0"
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "granisetron",
@@ -77686,22 +78168,38 @@
       ],
       "category": "Allergy & respiratory",
       "drugClass": "Expectorant",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Renal function",
+      "summary": "Normal adult dose in mild–moderate dysfunction; caution in severe renal impairment.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Productive cough · UK SmPC",
+              "rows": [
+                {
+                  "context": "Mild to moderate dysfunction",
+                  "dose": "Normal adult dose"
+                },
+                {
+                  "context": "Severe renal impairment",
+                  "dose": "Use with caution"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “Experience with the use of this product suggests that normal adult dosage is appropriate for mild to moderate dysfunction.” UK SmPC: “Caution should be exercised in severe hepatic and severe renal impairment.”",
+          "sourceIds": [
+            "uk170-guaifenesin"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -77729,17 +78227,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-guaifenesin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Guaifenesin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -77816,7 +78316,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "haloperidol",
@@ -78501,22 +79002,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Topical corticosteroid",
-      "formulation": "Topical · verify exact local product",
+      "formulation": "Topical",
       "routes": [
         "Topical"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-hydrocortisone-topical"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -78544,17 +79047,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-hydrocortisone-topical"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Hydrocortisone%20topical",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -78642,7 +79147,8 @@
         "lactation": "Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Caution should be exercised when corticosteroids are administered to a nursing woman.",
         "checkedAt": "2026-10-31",
         "note": "Quoted from the cited label. The FDA retired the A/B/C/D/X letter categories; a letter is shown only where this label still prints one. Not yet reviewed; safer alternatives are not listed."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "hydromorphone",
@@ -86723,22 +87229,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Bulk-forming laxative",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Shared safety note available; numeric renal dosing is not curated.",
+      "kidneyMetric": "Potassium content",
+      "summary": "Contains potassium: consider in reduced kidney function or potassium-restricted diet.",
       "flag": "caution",
-      "entryType": "safety",
+      "entryType": "renal",
       "sharedGuidanceId": "constipation",
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose; note the potassium content per sachet in the SmPC. UK SmPC: “To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet.”",
+          "sourceIds": [
+            "uk170-psyllium"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -86767,18 +87275,18 @@
       },
       "considerations": "",
       "sourceIds": [
-        "otc-kcuk"
+        "uk170-psyllium"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Ispaghula%20/%20psyllium",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -86855,7 +87363,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "itraconazole",
@@ -92801,28 +93310,46 @@
       ],
       "category": "Diabetes & endocrine",
       "drugClass": "GLP-1 receptor agonist",
-      "formulation": "Parenteral · verify exact local product",
+      "formulation": "Parenteral",
       "routes": [
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min",
+      "summary": "No adjustment in mild–moderate impairment; not recommended at CrCl <30 or ESRD (no experience).",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Type 2 diabetes · EU SmPC (Suliqua)",
+              "rows": [
+                {
+                  "context": "Mild or moderate impairment",
+                  "dose": "No lixisenatide dose adjustment; monitor glucose (insulin needs may fall)"
+                },
+                {
+                  "context": "CrCl <30 mL/min or ESRD",
+                  "dose": "Not recommended"
+                }
+              ]
+            }
+          ],
+          "notes": "EU SmPC: “No dose adjustment is required for lixisenatide in patients with mild or moderate renal impairment.” EU SmPC: “In patients with mild to moderate renal impairment using Suliqua, frequent glucose monitoring and dose adjustment may be necessary.” EU SmPC: “There is no therapeutic experience in patients with severe renal impairment (creatinine clearance less than 30 ml/min) or end-stage renal disease.”",
+          "sourceIds": [
+            "uk170-lixisenatide"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Not recommended in end-stage renal disease. EU SmPC: “Suliqua is not recommended in patients with severe renal impairment and end-stage renal disease as there is no sufficient therapeutic experience with use of lixisenatide.”",
+          "sourceIds": [
+            "uk170-lixisenatide"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -92843,18 +93370,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Lixisenatide alone (Lyxumia) is no longer authorised in the EU; this entry uses the combination product Suliqua.",
+      "sourceIds": [
+        "uk170-lixisenatide"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lixisenatide",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current EU SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; EU SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -92931,7 +93460,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "loperamide",
@@ -95207,22 +95737,34 @@
       ],
       "category": "Gastrointestinal",
       "drugClass": "Antispasmodic · smooth-muscle relaxant",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal dose adjustment (UK SmPC)",
+      "summary": "No dosage adjustment deemed necessary in renal impairment.",
+      "flag": "no_adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "IBS · UK SmPC",
+              "rows": [
+                {
+                  "context": "Renal impairment",
+                  "dose": "No dosage adjustment"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “No dosage adjustment is deemed necessary in elderly, renal and/or hepatic impaired patients.” UK SmPC: “No posology studies in elderly, renal and/or hepatic impaired patients have been performed.”",
+          "sourceIds": [
+            "uk170-mebeverine"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -95250,17 +95792,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-mebeverine"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Mebeverine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -95337,7 +95881,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "melatonin",
@@ -99562,22 +100107,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Topical azole antifungal",
-      "formulation": "Topical · verify exact local product",
+      "formulation": "Topical",
       "routes": [
         "Topical"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-miconazole-topical"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -99605,17 +100152,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-miconazole-topical"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Miconazole%20topical",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -99692,7 +100241,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "midazolam",
@@ -107311,22 +107861,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Oral rehydration solution",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Shared safety note available; numeric renal dosing is not curated.",
+      "kidneyMetric": "Renal function",
+      "summary": "With normal kidneys over-hydration by mouth is unlikely; take care in severe renal failure.",
       "flag": "caution",
-      "entryType": "safety",
+      "entryType": "renal",
       "sharedGuidanceId": "diarrhoea",
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose. UK SmPC: “Where the kidneys are functioning normally, it is difficult to over-hydrate by mouth and where there is doubt about the dosage, more rather than less should be taken.” UK SmPC: “This is particularly important in the very young and in cases of severe hepatic of renal failure.”",
+          "sourceIds": [
+            "uk170-oral-rehydration-salts"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -107355,18 +107907,18 @@
       },
       "considerations": "",
       "sourceIds": [
-        "otc-kcuk"
+        "uk170-oral-rehydration-salts"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Oral%20rehydration%20salts",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -107443,7 +107995,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "oritavancin",
@@ -118709,28 +119262,46 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Oral decongestant · sympathomimetic",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Shared safety note available; numeric renal dosing is not curated.",
+      "kidneyMetric": "Renal function",
+      "summary": "Contraindicated in severe acute or chronic kidney disease/renal failure; caution in moderate impairment.",
       "flag": "caution",
-      "entryType": "safety",
+      "entryType": "renal",
       "sharedGuidanceId": "decongestant",
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Nasal congestion · UK SmPC",
+              "rows": [
+                {
+                  "context": "Moderate renal impairment",
+                  "dose": "Use with caution"
+                },
+                {
+                  "context": "Severe acute or chronic kidney disease / renal failure",
+                  "dose": "Contraindicated"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “Caution should be exercised when administering Sudafed Decongestant Tablets to patients with moderate renal impairment.” UK SmPC: “Cardiovascular disease including hypertension Diabetes mellitus Phaeochromocytoma Hyperthyroidism Closed angle glaucoma Severe acute or chronic kidney disease/renal failure.”",
+          "sourceIds": [
+            "uk170-pseudoephedrine"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
+          "status": "avoid",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "Contraindicated in renal failure. In overdose, dialysis can speed elimination. UK SmPC: “If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis.”",
+          "sourceIds": [
+            "uk170-pseudoephedrine"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -118753,18 +119324,18 @@
       },
       "considerations": "",
       "sourceIds": [
-        "otc-kcuk"
+        "uk170-pseudoephedrine"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pseudoephedrine",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -118788,38 +119359,41 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "renalHalfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "volumeOfDistribution": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "proteinBinding": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current UK SmPC.",
           "sourceIds": []
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "removed",
+            "value": "Dialysis can accelerate elimination (overdose) (SmPC)",
+            "context": "UK SmPC: “If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis.”",
+            "sourceIds": [
+              "uk170-pseudoephedrine"
+            ],
+            "evidence": "If desired, the elimination of pseudoephedrine can be accelerated by acid diuresis or by dialysis."
           },
           "pd": {
             "status": "not_curated",
@@ -118840,8 +119414,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current UK SmPC; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "pyrazinamide",
@@ -124035,28 +124610,60 @@
       ],
       "category": "Urology & other medicines",
       "drugClass": "HIF prolyl hydroxylase inhibitor",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CKD anaemia · dialysis status",
+      "summary": "Dose by Hb response; maximum 3 mg/kg or 300 mg three times weekly (not on dialysis) or 400 mg (on dialysis). No change on starting dialysis; not removed by HD.",
+      "flag": "adjust",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Anaemia of CKD · EU SmPC",
+              "rows": [
+                {
+                  "context": "Not on dialysis",
+                  "dose": "Maximum 3 mg/kg or 300 mg three times per week, whichever is lower"
+                },
+                {
+                  "context": "Starting dialysis on treatment",
+                  "dose": "No specific dose adjustment"
+                }
+              ]
+            }
+          ],
+          "notes": "EU SmPC: “Patients not on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 300 mg three times per week, whichever is lower.” EU SmPC: “No specific dose adjustment is required for CKD patients who start dialysis while on treatment with roxadustat.”",
+          "sourceIds": [
+            "uk170-roxadustat"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Haemodialysis · SmPC",
+              "rows": [
+                {
+                  "context": "On dialysis",
+                  "dose": "Maximum 3 mg/kg or 400 mg three times per week, whichever is lower"
+                },
+                {
+                  "context": "Removal",
+                  "dose": "Not significantly removed by haemodialysis"
+                }
+              ]
+            }
+          ],
+          "notes": "Converting dialysis patients who are stable on an ESA is only for a valid clinical reason. EU SmPC: “Patients on dialysis Do not exceed a roxadustat dose of 3 mg/kg body weight or 400 mg three times per week, whichever is lower.” EU SmPC: “Roxadustat and its metabolites are not significantly removed by haemodialysis.”",
+          "sourceIds": [
+            "uk170-roxadustat"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -124077,18 +124684,20 @@
           "sourceIds": []
         }
       },
-      "considerations": "",
-      "sourceIds": [],
+      "considerations": "Converting dialysis patients otherwise stable on an ESA should only be considered for a valid clinical reason (EU SmPC).",
+      "sourceIds": [
+        "uk170-roxadustat"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Roxadustat",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current EU SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; EU SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -124112,38 +124721,50 @@
         }
       },
       "pharmacokinetics": {
-        "status": "not_curated",
-        "sourceCheckedAt": null,
+        "status": "source_summary",
+        "sourceCheckedAt": "2026-11-01",
         "halfLife": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈15 h (CKD)",
+          "context": "EU SmPC: “The mean effective half-life (t1/2) of roxadustat is approximately 15 hours in patients with CKD.”",
+          "sourceIds": [
+            "uk170-roxadustat"
+          ],
+          "evidence": "The mean effective half-life (t1/2) of roxadustat is approximately 15 hours in patients with CKD."
         },
         "renalHalfLife": {
           "status": "not_curated",
           "value": null,
-          "context": "Not yet curated. No value is inferred.",
+          "context": "Not stated in the current EU SmPC.",
           "sourceIds": []
         },
         "volumeOfDistribution": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "24 L (apparent, steady state)",
+          "context": "EU SmPC: “The apparent volume of distribution at steady state is 24 L.”",
+          "sourceIds": [
+            "uk170-roxadustat"
+          ],
+          "evidence": "The apparent volume of distribution at steady state is 24 L."
         },
         "proteinBinding": {
-          "status": "not_curated",
-          "value": null,
-          "context": "Not yet curated. No value is inferred.",
-          "sourceIds": []
+          "status": "sourced",
+          "value": "≈99% (albumin)",
+          "context": "EU SmPC: “Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin.”",
+          "sourceIds": [
+            "uk170-roxadustat"
+          ],
+          "evidence": "Roxadustat is highly bound to human plasma proteins (approximately 99%), predominantly to albumin."
         },
         "dialysability": {
           "ihd": {
-            "status": "not_curated",
-            "value": null,
-            "context": "Modality-specific removal data have not been curated.",
-            "sourceIds": []
+            "status": "not_removed",
+            "value": "Not significantly removed by HD (SmPC)",
+            "context": "EU SmPC: “Roxadustat and its metabolites are not significantly removed by haemodialysis.”",
+            "sourceIds": [
+              "uk170-roxadustat"
+            ],
+            "evidence": "Roxadustat and its metabolites are not significantly removed by haemodialysis."
           },
           "pd": {
             "status": "not_curated",
@@ -124164,8 +124785,9 @@
             "sourceIds": []
           }
         },
-        "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+        "notes": "Values quoted from the current EU SmPC; the sentence behind each value is shown. Circuit clearance and dialysis supplements are not inferred from these values."
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "roxithromycin",
@@ -126007,22 +126629,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Stimulant laxative",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Shared safety note available; numeric renal dosing is not curated.",
+      "kidneyMetric": "Volume and electrolytes",
+      "summary": "Possible electrolyte imbalance in kidney disorders; stop if dehydration could be harmful.",
       "flag": "caution",
-      "entryType": "safety",
+      "entryType": "renal",
       "sharedGuidanceId": "constipation",
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose. UK SmPC: “Patients with kidney disorders should be aware of possible electrolyte imbalance.”",
+          "sourceIds": [
+            "uk170-senna"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -126051,18 +126675,18 @@
       },
       "considerations": "",
       "sourceIds": [
-        "otc-kcuk"
+        "uk170-senna"
       ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Senna%20/%20sennosides",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": "2026-10-29",
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -126139,7 +126763,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "sertraline",
@@ -127781,22 +128406,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Alginate antacid",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Sodium and potassium content",
+      "summary": "Caution with salt restriction in renal insufficiency; contains potassium (1.0 mmol/5 mL).",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose. UK SmPC: “Renal Insufficiency: Caution if highly restricted salt diet is necessary.” UK SmPC: “This medicine contains 1.0 mmol (39.06 mg) potassium per 5 ml . To be taken into consideration by patients with reduced kidney function or patients on a controlled potassium diet.”",
+          "sourceIds": [
+            "uk170-sodium-alginate-combinations"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -127824,17 +128451,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-sodium-alginate-combinations"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sodium%20alginate%20combinations",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -127911,7 +128540,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "sodium-bicarbonate",
@@ -128699,22 +129329,24 @@
       ],
       "category": "Gastrointestinal",
       "drugClass": "Stimulant laxative / bowel preparation",
-      "formulation": "Oral · verify exact local product",
+      "formulation": "Oral",
       "routes": [
         "Oral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "Volume status",
+      "summary": "Stop if fluid loss could be harmful (e.g. renal insufficiency); restart only under supervision.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "No renal dose. UK SmPC: “In patients suffering from fluid loss where dehydration may be harmful (e.g. renal insufficiency, elderly patients) sodium picosulfate should be discontinued and only be restarted under medical supervision.”",
+          "sourceIds": [
+            "uk170-sodium-picosulfate"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -128742,17 +129374,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-sodium-picosulfate"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Sodium%20picosulfate",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -128829,7 +129463,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "sodium-polystyrene-sulfonate",
@@ -136206,28 +136841,64 @@
       ],
       "category": "Anticoagulation & haematology",
       "drugClass": "Low-molecular-weight heparin",
-      "formulation": "Parenteral · verify exact local product",
+      "formulation": "Parenteral",
       "routes": [
         "Parenteral"
       ],
       "otc": false,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "CrCl · mL/min (Cockcroft–Gault)",
+      "summary": "Not recommended at CrCl <30 (dose not established); no accumulation down to CrCl 20. HD circuit anticoagulation dosing given.",
+      "flag": "caution",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "VTE prophylaxis / treatment · UK SmPC",
+              "rows": [
+                {
+                  "context": "CrCl ≥30 mL/min",
+                  "dose": "Usual dose (no accumulation shown down to CrCl 20)"
+                },
+                {
+                  "context": "CrCl <30 mL/min",
+                  "dose": "Not recommended (dose not established)"
+                }
+              ]
+            }
+          ],
+          "notes": "UK SmPC: “If renal impairment is suspected, renal function should be assessed using a formula based on serum creatinine to estimate creatinine clearance level.” UK SmPC: “Use in patients with a creatinine clearance level < 30 ml/minute is not recommended, as dosage in this population has not been established.” UK SmPC: “Available evidence demonstrates no accumulation in patients with creatinine clearance levels down to 20 ml/min.”",
+          "sourceIds": [
+            "uk170-tinzaparin"
+          ]
         },
         "ihd": {
-          "status": "not_curated",
-          "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "status": "summarized",
+          "tables": [
+            {
+              "indication": "Haemodialysis · SmPC",
+              "rows": [
+                {
+                  "context": "Circuit anticoagulation, session ≤4 h",
+                  "dose": "Bolus 2,000–2,500 anti-Xa IU at the start of dialysis"
+                },
+                {
+                  "context": "Circuit anticoagulation, session >4 h",
+                  "dose": "Bolus 2,500 anti-Xa IU, then 750 anti-Xa IU/hour infusion"
+                },
+                {
+                  "context": "Monitoring",
+                  "dose": "Plasma anti-Xa activity can guide the dose"
+                }
+              ]
+            }
+          ],
+          "notes": "These doses prevent circuit clotting; they are not VTE treatment doses for dialysis patients. UK SmPC: “Haemodialysis and haemofiltration in adults: Duration of 4 hours or less: A bolus injection of 2,000 to 2,500 anti-Xa IU at the start of dialysis.” UK SmPC: “Duration of more than 4 hours: A bolus injection of 2,500 anti-Xa IU at the start of dialysis/filtration, followed by 750 anti-Xa IU/hour as a continuous infusion.” UK SmPC: “Determination of plasma anti-Xa activity can be used to monitor the tinzaparin sodium dose during haemodialysis/haemofiltration.”",
+          "sourceIds": [
+            "uk170-tinzaparin"
+          ]
         },
         "crrt": {
           "status": "not_curated",
@@ -136249,17 +136920,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-tinzaparin"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tinzaparin",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -136336,7 +137009,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "tiotropium",
@@ -145217,22 +145891,24 @@
       ],
       "category": "OTC & medicine safety",
       "drugClass": "Nasal decongestant · alpha agonist",
-      "formulation": "Nasal · verify exact local product",
+      "formulation": "Nasal",
       "routes": [
         "Nasal"
       ],
       "otc": true,
-      "kidneyMetric": "Not yet curated",
-      "summary": "Catalog entry only — renal adjustment and dialysis dosing have not been curated.",
-      "flag": "catalog",
-      "entryType": "catalog",
+      "kidneyMetric": "No renal statement in the SmPC",
+      "summary": "The current SmPC gives no renal dose statement.",
+      "flag": "monitor",
+      "entryType": "renal",
       "sharedGuidanceId": null,
       "modalities": {
         "ckd": {
-          "status": "not_curated",
+          "status": "specialist",
           "tables": [],
-          "notes": "No drug-specific renal dose or dialysis schedule has been curated. Open a current product label and consult renal pharmacy.",
-          "sourceIds": []
+          "notes": "The current SmPC gives no renal dose statement.",
+          "sourceIds": [
+            "uk170-xylometazoline-nasal"
+          ]
         },
         "ihd": {
           "status": "not_curated",
@@ -145260,17 +145936,19 @@
         }
       },
       "considerations": "",
-      "sourceIds": [],
+      "sourceIds": [
+        "uk170-xylometazoline-nasal"
+      ],
       "labelSearchUrl": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Xylometazoline%20nasal",
       "review": {
         "status": "clinical_review_pending",
-        "sourceCheckedAt": null,
+        "sourceCheckedAt": "2026-11-01",
         "clinicalReviewer": null,
         "clinicalApprovedAt": null
       },
-      "completeness": "Inventory metadata is provisional. Product identity, formulation, local availability, indications, renal guidance and all RRT settings need drug-specific verification.",
+      "completeness": "Renal statements, dialysis notes and PK from the current UK SmPC. Settings the label does not address stay \"not curated\"; nothing is inferred.",
       "addedInVersion": "0.3.0",
-      "jurisdiction": "OTC availability varies by country and strength; the OTC filter is an inventory aid, not a local supply classification.",
+      "jurisdiction": "No current US label; UK SmPC used; check the JFDA-approved leaflet for products marketed in Jordan.",
       "referenceChecks": {
         "bnf": {
           "edition": "92 (September 2026)",
@@ -145347,7 +146025,8 @@
           }
         },
         "notes": "No pharmacokinetic value or dialytic removal is inferred from another drug or drug class."
-      }
+      },
+      "updatedInVersion": "0.17.0"
     },
     {
       "id": "zanubrutinib",
@@ -146854,147 +147533,65 @@
     }
   ],
   "releaseChanges": {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "changedIds": [
-      "ifosfamide",
-      "mesna",
-      "cytarabine",
-      "fludarabine",
-      "cladribine",
-      "bendamustine",
-      "busulfan",
-      "topotecan",
-      "irinotecan",
-      "vinorelbine",
-      "temozolomide",
-      "azacitidine",
-      "arsenic-trioxide",
-      "leucovorin",
-      "melphalan",
-      "antithymocyte-globulin-rabbit",
-      "intravenous-immunoglobulin",
-      "alemtuzumab",
-      "rocuronium",
-      "cisatracurium",
-      "succinylcholine",
-      "neostigmine",
-      "sugammadex",
-      "bupivacaine",
-      "flumazenil",
-      "mannitol",
-      "albumin-human",
-      "terlipressin",
-      "gadobutrol",
-      "gadoterate",
-      "gadoteridol",
-      "gadobenate",
-      "gadopiclenol",
-      "gadoxetate",
-      "gadodiamide",
-      "iohexol",
-      "iodixanol",
-      "iopamidol",
-      "ioversol",
-      "iopromide",
-      "alprazolam",
-      "penicillamine",
-      "droxidopa",
-      "thiamine"
+      "gliclazide",
+      "lixisenatide",
+      "tinzaparin",
+      "roxadustat",
+      "ferrous-fumarate",
+      "ferrous-sulfate",
+      "etoricoxib",
+      "glycopyrronium-inhaled",
+      "fluticasone-nasal",
+      "pseudoephedrine",
+      "guaifenesin",
+      "dextromethorphan",
+      "xylometazoline-nasal",
+      "mebeverine",
+      "sodium-picosulfate",
+      "senna",
+      "psyllium",
+      "docusate",
+      "sodium-alginate-combinations",
+      "oral-rehydration-salts",
+      "calcium-polystyrene-sulfonate",
+      "hydrocortisone-topical",
+      "miconazole-topical",
+      "clotrimazole-topical"
     ],
     "newRenalIds": [
-      "ifosfamide",
-      "mesna",
-      "cytarabine",
-      "fludarabine",
-      "cladribine",
-      "bendamustine",
-      "busulfan",
-      "topotecan",
-      "irinotecan",
-      "vinorelbine",
-      "temozolomide",
-      "azacitidine",
-      "arsenic-trioxide",
-      "leucovorin",
-      "melphalan",
-      "antithymocyte-globulin-rabbit",
-      "intravenous-immunoglobulin",
-      "alemtuzumab",
-      "rocuronium",
-      "cisatracurium",
-      "succinylcholine",
-      "neostigmine",
-      "sugammadex",
-      "bupivacaine",
-      "flumazenil",
-      "mannitol",
-      "albumin-human",
-      "terlipressin",
-      "gadobutrol",
-      "gadoterate",
-      "gadoteridol",
-      "gadobenate",
-      "gadopiclenol",
-      "gadoxetate",
-      "gadodiamide",
-      "iohexol",
-      "iodixanol",
-      "iopamidol",
-      "ioversol",
-      "iopromide",
-      "alprazolam",
-      "penicillamine",
-      "droxidopa",
-      "thiamine"
+      "gliclazide",
+      "lixisenatide",
+      "tinzaparin",
+      "roxadustat",
+      "ferrous-fumarate",
+      "ferrous-sulfate",
+      "etoricoxib",
+      "glycopyrronium-inhaled",
+      "fluticasone-nasal",
+      "pseudoephedrine",
+      "guaifenesin",
+      "dextromethorphan",
+      "xylometazoline-nasal",
+      "mebeverine",
+      "sodium-picosulfate",
+      "senna",
+      "psyllium",
+      "docusate",
+      "sodium-alginate-combinations",
+      "oral-rehydration-salts",
+      "calcium-polystyrene-sulfonate",
+      "hydrocortisone-topical",
+      "miconazole-topical",
+      "clotrimazole-topical"
     ],
-    "newIds": [
-      "ifosfamide",
-      "mesna",
-      "cytarabine",
-      "fludarabine",
-      "cladribine",
-      "bendamustine",
-      "busulfan",
-      "topotecan",
-      "irinotecan",
-      "vinorelbine",
-      "temozolomide",
-      "azacitidine",
-      "arsenic-trioxide",
-      "leucovorin",
-      "alemtuzumab",
-      "rocuronium",
-      "cisatracurium",
-      "succinylcholine",
-      "neostigmine",
-      "sugammadex",
-      "bupivacaine",
-      "flumazenil",
-      "mannitol",
-      "albumin-human",
-      "terlipressin",
-      "gadobutrol",
-      "gadoterate",
-      "gadoteridol",
-      "gadobenate",
-      "gadopiclenol",
-      "gadoxetate",
-      "gadodiamide",
-      "iohexol",
-      "iodixanol",
-      "iopamidol",
-      "ioversol",
-      "iopromide",
-      "alprazolam",
-      "penicillamine",
-      "droxidopa",
-      "thiamine"
-    ],
+    "newIds": [],
     "newPKIds": [],
     "pirrtSummaryIds": [],
-    "note": "42 medicines added (oncology, anaesthesia & critical care, contrast media and others) and three catalog entries completed from current US labels; contrast-AKI calculator added."
+    "note": "Medicines without a current US label completed from UK SmPCs and EMA product information."
   },
-  "clinicalDataVersion": "0.16.0",
+  "clinicalDataVersion": "0.17.0",
   "calculatorSources": [
     {
       "title": "NIDDK · adult CKD-EPI equations",
