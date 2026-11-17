@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.5.0",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "title": "RenalRounds",
   "population": "Adults only",
   "releaseDate": "2026-10-29",
@@ -154130,7 +154130,7 @@
       "updatedInVersion": "0.19.0"
     }
   ],
-  "softwareReleaseDate": "2026-11-01",
+  "softwareReleaseDate": "2026-11-17",
   "referenceResources": [
     {
       "id": "bnf",
@@ -154438,13 +154438,13 @@
     }
   ],
   "releaseChanges": {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "changedIds": [],
     "newRenalIds": [],
     "newIds": [],
     "newPKIds": [],
     "pirrtSummaryIds": [],
-    "note": "Tubular-function calculators and voice search."
+    "note": "Products in Jordan refreshed from Dalil v0.16."
   },
   "clinicalDataVersion": "0.19.0",
   "calculatorSources": [
@@ -155047,9 +155047,14 @@
       "fileLabelDate": "2026-06-09",
       "retrievedOn": "2026-10-31",
       "sha256": "12148c5d33ec2c0310a39cce59eab4a9fe1e58dfcf4ab60e0bc8a08fa95f451a",
-      "records": 10628
+      "records": 10628,
+      "additions": {
+        "title": "Products added from the JFDA public price search",
+        "collected": "2026-11-17",
+        "records": 175
+      }
     },
-    "note": "Counts are JFDA-registered products whose scientific name contains this ingredient, matched by ingredient name and route. Registration is not proof of current marketing or availability; check the strength and the JFDA-approved leaflet.",
+    "note": "Counts are JFDA-registered products whose scientific name contains this ingredient, matched by ingredient name and route, from the JFDA workbook (June 2026) plus products found in the JFDA public price search (17 November 2026). Registration is not proof of current marketing or availability; check the strength and the JFDA-approved leaflet.",
     "drugs": {
       "abacavir": {
         "query": "abacavir",
@@ -155288,19 +155293,20 @@
       },
       "amitriptyline": {
         "query": "amitriptyline",
-        "products": 9,
+        "products": 10,
         "combinations": 2,
         "brands": [
           "Trypix",
           "Amiram",
           "Amiram-10mg",
-          "Amiram-25"
+          "Amiram-25",
+          "Tryptizol"
         ]
       },
       "amlodipine": {
         "query": "amlodipine",
         "products": 45,
-        "combinations": 129,
+        "combinations": 131,
         "brands": [
           "Myodipine",
           "Amlocard",
@@ -155396,7 +155402,7 @@
       },
       "apixaban": {
         "query": "apixaban",
-        "products": 38,
+        "products": 39,
         "combinations": 0,
         "brands": [
           "APIBAN",
@@ -155406,7 +155412,7 @@
           "Extensio",
           "Elixaban",
           "Paquix",
-          "APIQX"
+          "Preventis"
         ]
       },
       "apremilast": {
@@ -155512,7 +155518,7 @@
       },
       "azithromycin": {
         "query": "azithromycin",
-        "products": 63,
+        "products": 67,
         "combinations": 0,
         "brands": [
           "Azomyne",
@@ -155562,8 +155568,8 @@
       },
       "bempedoic-acid": {
         "query": "bempedoic",
-        "products": 1,
-        "combinations": 1,
+        "products": 2,
+        "combinations": 2,
         "brands": [
           "Averto"
         ]
@@ -155766,7 +155772,7 @@
       "calcium-carbonate": {
         "query": "calcium carbonate",
         "products": 4,
-        "combinations": 11,
+        "combinations": 12,
         "brands": [
           "Lima",
           "Tums",
@@ -155804,7 +155810,7 @@
       "candesartan": {
         "query": "candesartan",
         "products": 13,
-        "combinations": 19,
+        "combinations": 21,
         "brands": [
           "Gardia",
           "Blopress",
@@ -155954,7 +155960,7 @@
       },
       "cefdinir": {
         "query": "cefdinir",
-        "products": 26,
+        "products": 27,
         "combinations": 0,
         "brands": [
           "Omnicef",
@@ -155979,13 +155985,13 @@
       },
       "cefixime": {
         "query": "cefixime",
-        "products": 55,
+        "products": 56,
         "combinations": 0,
         "brands": [
           "Suprax",
           "Cefix",
-          "Betixim",
           "Mixif",
+          "Betixim",
           "Magnacef",
           "Suraxim",
           "Magnacef-100",
@@ -155994,13 +156000,14 @@
       },
       "cefotaxime": {
         "query": "cefotaxime",
-        "products": 8,
+        "products": 9,
         "combinations": 4,
         "brands": [
           "Primocef",
           "Taxime",
           "Cefotax",
-          "Taxime1g"
+          "Taxime1g",
+          "Clafin"
         ]
       },
       "cefoxitin": {
@@ -156073,7 +156080,7 @@
       },
       "ceftriaxone": {
         "query": "ceftriaxone",
-        "products": 38,
+        "products": 39,
         "combinations": 8,
         "brands": [
           "VERACOL",
@@ -156083,7 +156090,7 @@
           "Lebacef",
           "Axone",
           "Rocephin",
-          "EPICEPHIN"
+          "Ceftra"
         ]
       },
       "cefuroxime": {
@@ -156325,7 +156332,7 @@
       },
       "clopidogrel": {
         "query": "clopidogrel",
-        "products": 21,
+        "products": 22,
         "combinations": 0,
         "brands": [
           "Platloc",
@@ -156340,7 +156347,7 @@
       },
       "clotrimazole-topical": {
         "query": "clotrimazole",
-        "products": 22,
+        "products": 23,
         "combinations": 2,
         "brands": [
           "Clotrim",
@@ -156444,7 +156451,7 @@
       "dapagliflozin": {
         "query": "dapagliflozin",
         "products": 18,
-        "combinations": 5,
+        "combinations": 7,
         "brands": [
           "Deplazen",
           "Depafrox",
@@ -156501,19 +156508,20 @@
       },
       "denosumab": {
         "query": "denosumab",
-        "products": 4,
+        "products": 5,
         "combinations": 0,
         "brands": [
           "Xgeva",
           "Prolia",
           "Densibon",
-          "Xodema"
+          "Xodema",
+          "Osvyrti"
         ]
       },
       "desloratadine": {
         "query": "desloratadine",
-        "products": 34,
-        "combinations": 3,
+        "products": 36,
+        "combinations": 4,
         "brands": [
           "Rina",
           "Histacare",
@@ -156601,7 +156609,7 @@
       },
       "diclofenac-systemic": {
         "query": "diclofenac",
-        "products": 121,
+        "products": 124,
         "combinations": 1,
         "brands": [
           "Votrex",
@@ -156616,7 +156624,7 @@
       },
       "diclofenac-gel": {
         "query": "diclofenac",
-        "products": 45,
+        "products": 47,
         "combinations": 3,
         "brands": [
           "DICLOGESIC",
@@ -156722,11 +156730,11 @@
       },
       "donepezil": {
         "query": "donepezil",
-        "products": 24,
+        "products": 25,
         "combinations": 2,
         "brands": [
-          "Doxera",
           "Arcada",
+          "Doxera",
           "Alzancer",
           "Joswe",
           "Dementile",
@@ -156800,7 +156808,7 @@
       "dutasteride": {
         "query": "dutasteride",
         "products": 5,
-        "combinations": 2,
+        "combinations": 3,
         "brands": [
           "Exdart",
           "Dutamax",
@@ -156820,8 +156828,8 @@
       },
       "empagliflozin": {
         "query": "empagliflozin",
-        "products": 28,
-        "combinations": 34,
+        "products": 32,
+        "combinations": 50,
         "brands": [
           "Emperor",
           "Empaxa",
@@ -156853,7 +156861,7 @@
       },
       "enoxaparin": {
         "query": "enoxaparin",
-        "products": 30,
+        "products": 36,
         "combinations": 0,
         "brands": [
           "Crusia",
@@ -156861,6 +156869,8 @@
           "Clexane",
           "Joxane",
           "Medaparin",
+          "Clexaparin",
+          "Enoxan",
           "ENOXAMED"
         ]
       },
@@ -157050,7 +157060,7 @@
       "ezetimibe": {
         "query": "ezetimibe",
         "products": 4,
-        "combinations": 13,
+        "combinations": 14,
         "brands": [
           "Ezetrol",
           "Xitrol",
@@ -157134,7 +157144,7 @@
       "ferrous-fumarate": {
         "query": "ferrous fumarate",
         "products": 0,
-        "combinations": 3,
+        "combinations": 7,
         "brands": []
       },
       "ferrous-sulfate": {
@@ -157299,7 +157309,7 @@
       "folic-acid": {
         "query": "folic acid",
         "products": 8,
-        "combinations": 87,
+        "combinations": 91,
         "brands": [
           "joriver",
           "Filicine",
@@ -157563,7 +157573,7 @@
       "hydrochlorothiazide": {
         "query": "hydrochlorothiazide",
         "products": 8,
-        "combinations": 154,
+        "combinations": 156,
         "brands": [
           "Monozide",
           "Modrex",
@@ -157845,7 +157855,7 @@
       "ipratropium": {
         "query": "ipratropium",
         "products": 3,
-        "combinations": 10,
+        "combinations": 11,
         "brands": [
           "Iprovent",
           "Atrovent"
@@ -157971,12 +157981,13 @@
       },
       "lacosamide": {
         "query": "lacosamide",
-        "products": 22,
+        "products": 26,
         "combinations": 0,
         "brands": [
           "Trepadio",
           "LACOSAMIDE/GENEPHARM",
           "Vimpat",
+          "Genelac",
           "Losapil",
           "Lazure",
           "Lakoza"
@@ -158159,13 +158170,13 @@
       },
       "levothyroxine": {
         "query": "levothyroxine",
-        "products": 23,
+        "products": 34,
         "combinations": 0,
         "brands": [
           "TIROSINT",
+          "Tirosint",
           "Euthyrox",
           "Levotiron",
-          "Tirosint",
           "Eltroxin",
           "Levothyroxine"
         ]
@@ -158188,7 +158199,7 @@
       "linagliptin": {
         "query": "linagliptin",
         "products": 8,
-        "combinations": 15,
+        "combinations": 17,
         "brands": [
           "Leena",
           "Lynxelin",
@@ -158457,7 +158468,7 @@
       },
       "mesalazine": {
         "query": "mesalazine",
-        "products": 11,
+        "products": 12,
         "combinations": 0,
         "brands": [
           "Pentasa",
@@ -158478,7 +158489,7 @@
       "metformin": {
         "query": "metformin",
         "products": 55,
-        "combinations": 84,
+        "combinations": 106,
         "brands": [
           "Diaphage",
           "Mystro",
@@ -158506,17 +158517,17 @@
       },
       "methotrexate": {
         "query": "methotrexate",
-        "products": 16,
+        "products": 24,
         "combinations": 0,
         "brands": [
+          "Nordimet",
           "EMTHEXATE",
           "Methotrexat",
           "Ebetrexat",
           "METHOTREXATE",
           "Methotrexate",
           "Neometh",
-          "Cytotrexate",
-          "Mizotra"
+          "Cytotrexate"
         ]
       },
       "methoxy-polyethylene-glycol-epoetin-beta": {
@@ -158568,7 +158579,7 @@
       },
       "metoprolol": {
         "query": "metoprolol",
-        "products": 8,
+        "products": 9,
         "combinations": 0,
         "brands": [
           "Artrol",
@@ -158577,7 +158588,8 @@
           "Metomac",
           "Betaloc",
           "Mitloc",
-          "METOSWISS"
+          "METOSWISS",
+          "Motaprol"
         ]
       },
       "metronidazole": {
@@ -158651,12 +158663,13 @@
       },
       "minoxidil-systemic": {
         "query": "minoxidil",
-        "products": 4,
+        "products": 5,
         "combinations": 0,
         "brands": [
           "Regaine",
           "HAIRGROW",
-          "Alopexy"
+          "Alopexy",
+          "HairMax"
         ]
       },
       "mirabegron": {
@@ -158669,9 +158682,10 @@
       },
       "mirtazapine": {
         "query": "mirtazapine",
-        "products": 2,
+        "products": 4,
         "combinations": 0,
         "brands": [
+          "Merazin",
           "Dinertone",
           "Remeron"
         ]
@@ -158679,7 +158693,7 @@
       "montelukast": {
         "query": "montelukast",
         "products": 49,
-        "combinations": 0,
+        "combinations": 1,
         "brands": [
           "Montal",
           "Lukast",
@@ -158818,7 +158832,7 @@
       },
       "nitrofurantoin": {
         "query": "nitrofurantoin",
-        "products": 1,
+        "products": 2,
         "combinations": 0,
         "brands": [
           "NITROBACT-100"
@@ -158875,13 +158889,14 @@
       },
       "octreotide": {
         "query": "octreotide",
-        "products": 7,
+        "products": 8,
         "combinations": 0,
         "brands": [
           "Syngro",
           "Sandostatin",
           "Jintrotide",
-          "Octride"
+          "Octride",
+          "OCTREOTIDE"
         ]
       },
       "ofloxacin": {
@@ -158939,7 +158954,7 @@
       "omeprazole": {
         "query": "omeprazole",
         "products": 45,
-        "combinations": 7,
+        "combinations": 9,
         "brands": [
           "Hyposec",
           "Oprazole",
@@ -158953,17 +158968,17 @@
       },
       "ondansetron": {
         "query": "ondansetron",
-        "products": 27,
+        "products": 32,
         "combinations": 0,
         "brands": [
           "Zofran",
           "Onda",
           "Odran",
           "Zemitron",
+          "Ondafran",
           "Vomiran",
           "Setron",
-          "Onaron",
-          "Xentron"
+          "Onaron"
         ]
       },
       "oritavancin": {
@@ -159013,12 +159028,12 @@
       },
       "oxybutynin": {
         "query": "oxybutynin",
-        "products": 5,
+        "products": 6,
         "combinations": 0,
         "brands": [
           "Nobutin",
-          "DITROPAN",
-          "Dreptageed"
+          "Dreptageed",
+          "DITROPAN"
         ]
       },
       "oxycodone": {
@@ -159051,21 +159066,23 @@
       },
       "palbociclib": {
         "query": "palbociclib",
-        "products": 12,
+        "products": 14,
         "combinations": 0,
         "brands": [
           "Ibrance",
           "Papillio",
-          "Chinasi"
+          "Chinasi",
+          "Piciclib"
         ]
       },
       "paliperidone": {
         "query": "paliperidone",
-        "products": 11,
+        "products": 13,
         "combinations": 0,
         "brands": [
           "Invega",
-          "Trevicta"
+          "Trevicta",
+          "Palnova"
         ]
       },
       "palonosetron": {
@@ -159088,17 +159105,17 @@
       },
       "pantoprazole": {
         "query": "pantoprazole",
-        "products": 21,
+        "products": 24,
         "combinations": 0,
         "brands": [
           "Razon",
           "Pantover",
           "Pantoloc",
+          "Proton",
           "Pantodar",
           "Toprazole",
           "Pantomax",
-          "Pantonix",
-          "Controloc"
+          "Pantonix"
         ]
       },
       "paracetamol-iv": {
@@ -159192,12 +159209,12 @@
       },
       "perindopril": {
         "query": "perindopril",
-        "products": 7,
+        "products": 8,
         "combinations": 13,
         "brands": [
+          "Tenoryl",
           "Hiten",
           "Coversyl",
-          "Tenoryl",
           "Copryl"
         ]
       },
@@ -159330,11 +159347,12 @@
       },
       "prednisolone": {
         "query": "prednisolone",
-        "products": 7,
+        "products": 9,
         "combinations": 0,
         "brands": [
           "Prednisolon",
           "Prednisolone",
+          "Nucort",
           "COROTROPE",
           "Pred",
           "Predone"
@@ -159350,7 +159368,7 @@
       },
       "pregabalin": {
         "query": "pregabalin",
-        "products": 62,
+        "products": 63,
         "combinations": 0,
         "brands": [
           "Neurica",
@@ -159430,14 +159448,14 @@
       },
       "quetiapine": {
         "query": "quetiapine",
-        "products": 70,
+        "products": 72,
         "combinations": 0,
         "brands": [
           "Quel",
           "Joswe",
           "Quitra",
-          "Seroquel",
           "Asero",
+          "Seroquel",
           "Esperal",
           "Rezal",
           "Quitide"
@@ -159465,12 +159483,13 @@
       },
       "ranolazine": {
         "query": "ranolazine",
-        "products": 7,
+        "products": 9,
         "combinations": 0,
         "brands": [
           "Ranexa",
           "RAZINE",
-          "RANCV"
+          "RANCV",
+          "NEXOLAZ"
         ]
       },
       "remdesivir": {
@@ -159654,16 +159673,22 @@
       },
       "sacubitril-valsartan": {
         "query": "sacubitril valsartan",
-        "products": 4,
+        "products": 31,
         "combinations": 0,
         "brands": [
-          "Entresto"
+          "VALESTO",
+          "VALSAR-SC",
+          "Vatril",
+          "Entresto",
+          "Sacuval",
+          "Zyvotril",
+          "Xeresto"
         ]
       },
       "salbutamol-albuterol": {
         "query": "salbutamol",
         "products": 19,
-        "combinations": 6,
+        "combinations": 7,
         "brands": [
           "Asmanore",
           "Ventolin",
@@ -159779,7 +159804,7 @@
       },
       "simeticone": {
         "query": "simethicone",
-        "products": 15,
+        "products": 16,
         "combinations": 2,
         "brands": [
           "Deflat",
@@ -159813,7 +159838,7 @@
       },
       "sitagliptin": {
         "query": "sitagliptin",
-        "products": 12,
+        "products": 14,
         "combinations": 8,
         "brands": [
           "Sitaglin",
@@ -159829,13 +159854,13 @@
       "sodium-alginate-combinations": {
         "query": "sodium alginate",
         "products": 0,
-        "combinations": 12,
+        "combinations": 13,
         "brands": []
       },
       "sodium-bicarbonate": {
         "query": "sodium bicarbonate",
         "products": 7,
-        "combinations": 29,
+        "combinations": 31,
         "brands": [
           "Sodium",
           "8.4",
@@ -159845,18 +159870,18 @@
       "sodium-bicarbonate-antacid-combinations": {
         "query": "sodium bicarbonate",
         "products": 3,
-        "combinations": 29,
+        "combinations": 31,
         "brands": [
           "Sodium"
         ]
       },
       "sodium-phosphate-iv": {
         "query": "sodium phosphate",
-        "products": 6,
+        "products": 7,
         "combinations": 2,
         "brands": [
-          "F-Corten",
           "Dexamethasone",
+          "F-Corten",
           "Dexakam",
           "DEX"
         ]
@@ -159998,7 +160023,7 @@
       },
       "tadalafil": {
         "query": "tadalafil",
-        "products": 66,
+        "products": 68,
         "combinations": 1,
         "brands": [
           "Redex",
@@ -160008,7 +160033,7 @@
           "Tango",
           "VIMTRILE",
           "Amour",
-          "Rocktec"
+          "Link36"
         ]
       },
       "tamoxifen": {
@@ -160026,7 +160051,7 @@
       "tamsulosin": {
         "query": "tamsulosin",
         "products": 9,
-        "combinations": 2,
+        "combinations": 3,
         "brands": [
           "Prostanic",
           "Omnic",
@@ -160061,12 +160086,13 @@
       },
       "telmisartan": {
         "query": "telmisartan",
-        "products": 7,
+        "products": 9,
         "combinations": 8,
         "brands": [
           "MICARDIS",
           "Nizortan",
           "Mycardio",
+          "Telsar",
           "Letmas"
         ]
       },
@@ -160180,7 +160206,7 @@
       },
       "ticagrelor": {
         "query": "ticagrelor",
-        "products": 9,
+        "products": 10,
         "combinations": 0,
         "brands": [
           "Ticablow",
@@ -160189,7 +160215,8 @@
           "Brilinta",
           "Brelexa",
           "Tigomory",
-          "Tagbro"
+          "Tagbro",
+          "Ticaclot"
         ]
       },
       "tigecycline": {
@@ -160484,17 +160511,17 @@
       },
       "valsartan": {
         "query": "valsartan",
-        "products": 55,
-        "combinations": 96,
+        "products": 43,
+        "combinations": 123,
         "brands": [
           "Anginet",
           "Arbiten",
           "Valentine",
-          "Vatril",
-          "Sacuval",
           "Diostar",
           "Diotens",
-          "Arbaval"
+          "Arbaval",
+          "Vilasar",
+          "Tabuvan"
         ]
       },
       "vancomycin": {
@@ -160555,7 +160582,7 @@
       "vildagliptin": {
         "query": "vildagliptin",
         "products": 16,
-        "combinations": 17,
+        "combinations": 19,
         "brands": [
           "GLEPTAL",
           "Viltin",

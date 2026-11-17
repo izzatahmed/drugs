@@ -1,3 +1,10 @@
+# RenalRounds v0.23.0 · 17 November 2026
+
+- **Products in Jordan refreshed** from Dalil v0.16, which adds 175 products found in the JFDA public price search (17 November 2026) to the June 2026 JFDA workbook. Combination products written as one ingredient text are now recognised: sacubitril/valsartan now shows 31 Jordanian products (4 before), and those products no longer count as valsartan alone.
+- Clinical content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
 # RenalRounds v0.22.0 · 1 November 2026
 
 - **Tubular function** — four new calculators: potassium work-up (urine K⁺/creatinine ratio as the main result, with TTKG and its validity checks); phosphate FEPO₄, TRP and TmP/GFR (Kenny & Glen algorithm); fractional excretion of magnesium; urine anion gap and urine osmolal gap with estimated ammonium. The CALC menu now has 26 calculators.
