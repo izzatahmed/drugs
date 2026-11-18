@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kidney medication review · RenalRounds preview</title>
+<style>
+:root{--ink:#17302b;--muted:#5d6f6a;--line:#d8e2df;--bg:#f6f9f8;--card:#fff;--teal:#155d51;--teal-soft:#e4f1ee;--amber:#9a5b00;--amber-soft:#fff3dc;--red:#a32020;--red-soft:#fde8e8;--green:#256b2f;--green-soft:#e6f4e8}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:860px;margin:0 auto;padding:12px 14px 60px}
+.preview{background:var(--amber-soft);border:1px solid #e8c88a;color:#5a3a00;border-radius:10px;padding:10px 12px;font-size:14px;margin:8px 0 14px}
+h1{font-size:22px;margin:6px 0 2px}h2{font-size:17px;margin:0 0 10px}.sub{color:var(--muted);margin:0 0 12px}
+section.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.modes{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}.modes label{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:8px 12px;min-height:44px;cursor:pointer}
+.modes input{accent-color:var(--teal)}.modes label:has(input:checked){background:var(--teal-soft);border-color:var(--teal)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+label.f{display:flex;flex-direction:column;font-size:13px;color:var(--muted);gap:4px}
+input,select,button{font:inherit}input[type=number],input[type=text],input[type=search],select{min-height:44px;border:1px solid var(--line);border-radius:8px;padding:0 10px;background:#fff;color:var(--ink);width:100%}
+button{min-height:44px;border-radius:8px;border:1px solid var(--teal);background:#fff;color:var(--teal);padding:0 14px;font-weight:600;cursor:pointer}
+button.primary{background:var(--teal);color:#fff}button:disabled{opacity:.5}
+.row{display:flex;gap:8px;align-items:stretch}.row>input{flex:1;min-width:0}
+.kidney-out{margin-top:10px;font-size:14px}.kidney-out strong{font-size:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.chip{display:flex;align-items:center;gap:6px;background:var(--teal-soft);border-radius:999px;padding:4px 6px 4px 12px}
+.chip button{min-height:32px;min-width:32px;padding:0;border:0;background:transparent;font-size:18px}
+.muted{color:var(--muted)}.small{font-size:13px}.err{color:var(--red)}
+.summary{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 2px}.pill{border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600;background:#eef2f1}
+.p-adjust,.p-avoid{background:var(--red-soft);color:var(--red)}.p-caution,.p-monitor{background:var(--amber-soft);color:var(--amber)}.p-no_adjust{background:var(--green-soft);color:var(--green)}
+article.med{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:#fff;break-inside:avoid}
+article.med h3{margin:0;font-size:16px}.med-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:14px}th,td{text-align:start;vertical-align:top;border-top:1px solid var(--line);padding:6px}
+th{font-weight:600;color:var(--muted);width:38%}tr.hit td,tr.hit th{background:#fff6c7}tr.hit th::before{content:"▶ ";color:var(--amber)}
+.ind{font-weight:600;font-size:13px;margin-top:8px}.note{font-size:13px;color:var(--muted)}
+a{color:var(--teal)}.ix li{margin-bottom:6px}
+dialog{border:0;border-radius:12px;padding:14px;max-width:440px;width:92vw}dialog video{width:100%;border-radius:8px;background:#000;max-height:50vh;object-fit:cover}
+datalist{display:none}
+@media print{.preview{border:1px solid #999}.noprint{display:none!important}body{background:#fff}section.box,article.med{border-color:#bbb}}
+</style>
+</head>
+<body>
+<main>
+<div class="preview" role="note"><strong>Preview for clinical reviewers — not for patient care.</strong> Guidance is quoted from the RenalRounds entries (official labels and guidelines) and is pending clinical approval. Always check the full entry and the current label. Nothing you enter is saved or sent.</div>
+<h1>Kidney medication review</h1>
+<p class="sub">Add a patient's medicines, enter kidney function or dialysis, and see the renal guidance, interactions and Jordanian prices on one page.</p>
+
+<section class="box" aria-labelledby="k-h">
+<h2 id="k-h">1 · Kidney function</h2>
+<div class="modes" role="radiogroup" aria-label="Kidney replacement therapy">
+<label><input type="radio" name="mode" value="ckd" checked> Not on dialysis</label>
+<label><input type="radio" name="mode" value="ihd"> Haemodialysis</label>
+<label><input type="radio" name="mode" value="pd"> Peritoneal dialysis</label>
+<label><input type="radio" name="mode" value="crrt"> CRRT</label>
+</div>
+<div id="ckd-inputs">
+<div class="grid">
+<label class="f">eGFR · mL/min/1.73 m² <input type="number" id="egfr" inputmode="decimal" placeholder="enter, or calculate below"></label>
+<label class="f">CrCl · mL/min <input type="number" id="crcl" inputmode="decimal" placeholder="enter, or calculate below"></label>
+</div>
+<details class="small" style="margin-top:10px"><summary>Calculate from creatinine (CKD-EPI 2021 and Cockcroft–Gault)</summary>
+<div class="grid" style="margin-top:8px">
+<label class="f">Creatinine <input type="number" id="scr" inputmode="decimal"></label>
+<label class="f">Unit <select id="unit"><option value="umol">µmol/L</option><option value="mgdl">mg/dL</option></select></label>
+<label class="f">Age · years <input type="number" id="age" inputmode="numeric"></label>
+<label class="f">Sex <select id="sex"><option value="">Choose…</option><option value="female">Female</option><option value="male">Male</option></select></label>
+<label class="f">Weight · kg (for CrCl) <input type="number" id="wt" inputmode="decimal"></label>
+</div>
+<p class="small muted">Stable kidney function only — not in AKI, pregnancy or dialysis. CrCl uses actual body weight.</p>
+</details>
+</div>
+<div id="kidney-out" class="kidney-out" role="status" aria-live="polite"></div>
+</section>
+
+<section class="box" aria-labelledby="m-h">
+<h2 id="m-h">2 · Medicines</h2>
+<div class="row"><input type="search" id="med-q" list="med-list" placeholder="Generic or Jordanian brand name, e.g. metformin, Glucophage" autocomplete="off"><button type="button" id="add" class="primary">Add</button><button type="button" id="scan" class="noprint" aria-label="Scan a box barcode" title="Scan a box barcode">▥</button></div>
+<datalist id="med-list"></datalist>
+<p id="med-msg" class="small muted" role="status" aria-live="polite"></p>
+<div id="chips" class="chips"></div>
+</section>
+
+<section class="box" aria-labelledby="r-h">
+<div class="med-head"><h2 id="r-h">3 · Review</h2><span class="noprint"><button type="button" id="print">Print</button> <button type="button" id="clear">Clear all</button></span></div>
+<div id="report"><p class="muted">Add medicines to see the review.</p></div>
+</section>
+<p class="small muted">RenalRounds @@RRVERSION@@ · Jordanian products, prices and barcodes from Dalil @@DALILVERSION@@ (@@PRICENOTE@@). <a href="./">Open RenalRounds</a> · <a href="../dalil/">Open Dalil</a></p>
+</main>
+
+<dialog id="scan-d"><h2>Scan the box barcode</h2><video id="vid" playsinline muted hidden></video><p id="scan-msg" class="small"></p>
+<form id="scan-f" class="row"><input id="scan-code" inputmode="numeric" placeholder="or type the barcode number" autocomplete="off"><button class="primary">Find</button></form>
+<p><button type="button" id="scan-close">Close</button></p></dialog>
+
+<script>
+'use strict';
+@@RENALMATH@@
+@@INTERACTIONS@@
+const h = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const $ = id => document.getElementById(id);
+let db = null, dal = null, byId = new Map();
+const meds = []; // {id, product: {brand, strength, pack, fils, src} | null}
+const STATUS = {summarized: 'Guidance', avoid: 'Avoid', specialist: 'Specialist guidance — see the full entry', insufficient_data: 'Insufficient data', not_curated: 'Not yet curated', not_indicated: 'Not indicated'};
+const FLAG = {adjust: 'Dose adjustment', caution: 'Use with caution', monitor: 'Monitor', no_adjust: 'No renal adjustment', catalog: 'Catalogue entry'};
+const MODE = {ckd: 'not on dialysis', ihd: 'haemodialysis', pd: 'peritoneal dialysis', crrt: 'CRRT'};
+
+// ---------- kidney function ----------
+function kidney() {
+  const mode = document.querySelector('input[name=mode]:checked').value;
+  const out = {mode, egfr: null, crcl: null, msgs: []};
+  if (mode !== 'ckd') return out;
+  const e = Number($('egfr').value), c = Number($('crcl').value);
+  if ($('egfr').value.trim() && e > 0) out.egfr = e;
+  if ($('crcl').value.trim() && c > 0) out.crcl = c;
+  if ($('scr').value.trim()) {
+    const base = {context: 'stable', creatinine: $('scr').value, unit: $('unit').value, age: $('age').value, sex: $('sex').value};
+    const g = RenalMath.compute({...base, equation: 'ckdepi2021'});
+    if (g.ok) { if (out.egfr === null) { out.egfr = g.indexed; out.egfrCalc = true; } } else out.msgs.push(g.message);
+    if ($('wt').value.trim()) { const k = CrClMath.compute({...base, weight: $('wt').value}); if (k.ok) { if (out.crcl === null) { out.crcl = k.actual; out.crclCalc = true; } } else if (g.ok) out.msgs.push(k.message); }
+  }
+  return out;
+}
+function showKidney(k) {
+  $('ckd-inputs').hidden = k.mode !== 'ckd';
+  if (k.mode !== 'ckd') { $('kidney-out').innerHTML = `Showing the <strong>${MODE[k.mode]}</strong> guidance of each entry.`; return; }
+  const parts = [];
+  if (k.egfr !== null) parts.push(`eGFR <strong>${Math.round(k.egfr)}</strong> mL/min/1.73 m²${k.egfrCalc ? ' (CKD-EPI 2021)' : ''}`);
+  if (k.crcl !== null) parts.push(`CrCl <strong>${Math.round(k.crcl)}</strong> mL/min${k.crclCalc ? ' (Cockcroft–Gault, actual weight)' : ''}`);
+  $('kidney-out').innerHTML = (parts.length ? parts.join(' · ') + '. Rows that match are highlighted.' : '<span class="muted">Enter eGFR or CrCl (or calculate them) to highlight the matching rows. All rows are shown either way.</span>') + k.msgs.map(m => `<div class="err small">${h(m)}</div>`).join('');
+}
+
+// ---------- matching a table row to the patient's value ----------
+function rangeOf(ctx) {
+  const s = String(ctx).replace(/[–—]/g, '-').replace(/≥/g, '>=').replace(/≤/g, '<=').replace(/,/g, '');
+  const metric = /egfr/i.test(s) ? 'egfr' : /crcl|creatinine clearance/i.test(s) ? 'crcl' : null;
+  const n = '(\\d+(?:\\.\\d+)?)';
+  let m;
+  if ((m = s.match(new RegExp(n + '\\s*(?:-|to)\\s*<\\s*' + n)))) return {lo: +m[1], hi: +m[2], hiOpen: true, metric};
+  if ((m = s.match(new RegExp(n + '\\s*(?:-|to)\\s*' + n)))) return {lo: +m[1], hi: +m[2], metric};
+  if ((m = s.match(new RegExp('<=\\s*' + n)))) return {lo: 0, hi: +m[1], metric};
+  if ((m = s.match(new RegExp('<\\s*' + n)))) return {lo: 0, hi: +m[1], hiOpen: true, metric};
+  if ((m = s.match(new RegExp('>=\\s*' + n)))) return {lo: +m[1], hi: Infinity, metric};
+  if ((m = s.match(new RegExp('>\\s*' + n)))) return {lo: +m[1], hi: Infinity, loOpen: true, metric};
+  return null;
+}
+function drugMetric(d) { const k = JSON.stringify(d.kidneyMetric || ''); return /eGFR/.test(k) ? 'egfr' : /CrCl/.test(k) ? 'crcl' : null; }
+function rowHit(ctx, d, k) {
+  const r = rangeOf(ctx); if (!r) return null;
+  const want = r.metric || drugMetric(d);
+  let v = want === 'egfr' ? k.egfr : want === 'crcl' ? k.crcl : (k.crcl ?? k.egfr), approx = false;
+  if (v === null || v === undefined) { v = want === 'egfr' ? k.crcl : k.egfr; approx = v !== null && v !== undefined; }
+  if (v === null || v === undefined) return null;
+  const ok = (r.loOpen ? v > r.lo : v >= r.lo) && (r.hiOpen ? v < r.hi : v <= r.hi);
+  return ok ? {approx, metric: want} : false;
+}
+
+// ---------- medicines ----------
+function findMed(q) {
+  const s = q.trim().toLowerCase(); if (!s) return null;
+  const d = db.drugs.find(x => x.name.toLowerCase() === s) || db.drugs.find(x => (x.aliases || []).some(a => a.toLowerCase() === s));
+  if (d) return {ids: [d.id], product: null};
+  const p = dal.products.find(x => label(x).toLowerCase() === s) || dal.products.find(x => x[0].toLowerCase() === s);
+  if (p) return {ids: p[3].map(i => dal.drugs[i]), product: p};
+  const d2 = db.drugs.find(x => x.name.toLowerCase().startsWith(s)) || db.drugs.find(x => (x.aliases || []).some(a => a.toLowerCase().startsWith(s)));
+  return d2 ? {ids: [d2.id], product: null} : null;
+}
+const label = p => `${p[0]} · ${p[1]} · ${p[2]}`.replace(/\s+/g, ' ').trim();
+function addFound(f, how) {
+  if (!f) { $('med-msg').textContent = 'Not found. Choose a name from the suggestions, or type the generic name.'; return; }
+  const product = f.product ? {key: label(f.product), combo: f.ids.length > 1, brand: f.product[0], strength: f.product[1], pack: f.product[2], fils: f.product[4], src: dal.sources[f.product[5]] || null} : null;
+  let added = 0;
+  for (const id of f.ids) { if (!byId.has(id) || meds.some(m => m.id === id && (m.product?.brand || '') === (product?.brand || ''))) continue; meds.push({id, product}); added++; }
+  $('med-msg').textContent = added ? `${how || 'Added'}: ${f.ids.map(i => byId.get(i)?.name).filter(Boolean).join(' + ')}${product ? ` (${product.brand})` : ''}.` : 'Already in the list.';
+  $('med-q').value = ''; render();
+}
+function chips() {
+  $('chips').innerHTML = meds.map((m, i) => `<span class="chip">${h(byId.get(m.id).name)}${m.product ? ` <span class="small muted">· ${h(m.product.brand)}</span>` : ''}<button type="button" aria-label="Remove ${h(byId.get(m.id).name)}" data-rm="${i}">×</button></span>`).join('');
+}
+
+// ---------- report ----------
+function tableHtml(tables, d, k) {
+  return tables.map(t => `<div class="ind">${h(t.indication || '')}</div><table><tbody>${t.rows.map(r => { const hit = k.mode === 'ckd' ? rowHit(r.context, d, k) : null; return `<tr class="${hit ? 'hit' : ''}"><th scope="row">${h(r.context)}${hit && hit.approx ? ` <span class="small">(${hit.metric === 'crcl' ? 'CrCl not given: matched on eGFR' : 'eGFR not given: matched on CrCl'})</span>` : ''}</th><td>${h(r.dose)}</td></tr>`; }).join('')}</tbody></table>`).join('');
+}
+function medCard(m, k) {
+  const d = byId.get(m.id), sec = d.modalities?.[k.mode] || {status: 'not_curated', tables: []};
+  const price = m.product && m.product.fils ? `<div class="small"><strong>${h(m.product.brand)}</strong> ${h(m.product.strength)} · ${h(m.product.pack)} — <strong>${(m.product.fils / 1000).toFixed(2)} JD</strong>${m.product.combo ? ' <span class="muted">· combination product</span>' : ''}${m.product.src ? ` <span class="muted">(${h(m.product.src)})</span>` : ''}</div>` : m.product ? `<div class="small"><strong>${h(m.product.brand)}</strong> ${h(m.product.strength)} · ${h(m.product.pack)} — <span class="muted">no price on record</span></div>` : '';
+  return `<article class="med"><div class="med-head"><div><h3>${h(d.name)}</h3><div class="small muted">${h(d.category)}${d.routes?.length ? ' · ' + h(d.routes.join(', ')) : ''}</div></div><span class="pill p-${h(d.flag)}">${h(FLAG[d.flag] || d.flag)}</span></div>${price}
+  <div class="small" style="margin-top:6px"><strong>${h(MODE[k.mode][0].toUpperCase() + MODE[k.mode].slice(1))}:</strong> ${h(STATUS[sec.status] || sec.status)}${d.kidneyMetric && k.mode === 'ckd' ? ` <span class="muted">· ${h(typeof d.kidneyMetric === 'string' ? d.kidneyMetric : JSON.stringify(d.kidneyMetric))}</span>` : ''}</div>
+  ${d.summary ? `<p class="small" style="margin:4px 0">${h(d.summary)}</p>` : ''}${sec.tables?.length ? tableHtml(sec.tables, d, k) : ''}${sec.notes ? `<p class="note">${h(sec.notes)}</p>` : ''}
+  <p class="note">Source: ${h(typeof d.jurisdiction === 'string' ? d.jurisdiction : 'see the full entry')}. <a href="./#drug=${encodeURIComponent(d.id)}" target="_blank" rel="noopener">Full entry ↗</a></p></article>`;
+}
+function interactionsHtml() {
+  const ds = [...new Set(meds.map(m => m.id))].map(id => byId.get(id)), out = [];
+  for (let i = 0; i < ds.length; i++) for (let j = i + 1; j < ds.length; j++) {
+    const r = Interactions.check(db, ds[i], ds[j]);
+    const uniq = a => [...new Map(a.map(x => [x.text, x])).values()];
+    const items = [...uniq(r.ab).map(x => `<li><strong>${h(ds[i].name)} label:</strong> ${h(x.text)}</li>`), ...uniq(r.ba).map(x => `<li><strong>${h(ds[j].name)} label:</strong> ${h(x.text)}</li>`), ...[...new Set(r.mech)].map(x => `<li class="muted">${h(x)}</li>`)];
+    if (items.length) out.push(`<h3 style="font-size:15px;margin:10px 0 4px">${h(ds[i].name)} + ${h(ds[j].name)}</h3><ul class="ix">${items.join('')}</ul>`);
+  }
+  return ds.length < 2 ? '' : `<article class="med"><h3>Interactions between these medicines</h3>${out.length ? out.join('') : '<p class="small muted">No label-quoted interaction or FDA CYP/P-gp pairing found between these medicines. This does not exclude an interaction.</p>'}<p class="note">Selected sentences from the labels and the FDA table of substrates, inhibitors and inducers, as in the RenalRounds interaction checker.</p></article>`;
+}
+function render() {
+  const k = kidney(); showKidney(k); chips();
+  if (!meds.length) { $('report').innerHTML = '<p class="muted">Add medicines to see the review.</p>'; return; }
+  const count = {}; for (const m of meds) { const f = byId.get(m.id).flag; count[f] = (count[f] || 0) + 1; }
+  const packs = new Map(meds.filter(m => m.product?.fils).map(m => [m.product.key, m.product.fils]));
+  const total = [...packs.values()].reduce((a, b) => a + b, 0), priced = meds.filter(m => m.product?.fils).length;
+  const summary = `<div class="summary">${Object.entries(count).map(([f, n]) => `<span class="pill p-${h(f)}">${n} · ${h(FLAG[f] || f)}</span>`).join('')}</div>${priced ? `<p class="small">Listed pack prices: <strong>${(total / 1000).toFixed(2)} JD</strong> for ${priced} of ${meds.length} medicines (one pack of each product; a combination product is counted once).</p>` : ''}`;
+  $('report').innerHTML = `<p class="small muted">${meds.length} medicine${meds.length > 1 ? 's' : ''} · ${k.mode === 'ckd' ? (k.egfr !== null || k.crcl !== null ? 'kidney function entered' : 'no kidney function entered') : MODE[k.mode]}</p>${summary}${meds.map(m => medCard(m, k)).join('')}${interactionsHtml()}`;
+}
+
+// ---------- barcode ----------
+const scan = {stream: null, timer: 0};
+function stopScan() { clearInterval(scan.timer); if (scan.stream) scan.stream.getTracks().forEach(t => t.stop()); scan.stream = null; $('vid').srcObject = null; }
+function gtin(raw) { const s = String(raw || '').replace(/[\u001d\s]/g, ''); const g = s.match(/^(?:\]d2|\]C1|\]Q3)?01(\d{14})/); const d = g ? g[1] : /^\d{8,14}$/.test(s) ? s : null; return d ? d.replace(/^0+(?=\d{8})/, '') : null; }
+function byBarcode(raw) {
+  const c = gtin(raw); if (!c) { $('scan-msg').textContent = 'Not a product barcode.'; return; }
+  const list = dal.barcodes[c] || dal.barcodes[c.replace(/^0+/, '')];
+  if (!list || !list.length) { $('scan-msg').textContent = `Barcode ${c} is not in the Jordanian list. Add the medicine by name.`; return; }
+  stopScan(); $('scan-d').close();
+  for (const i of list) { const p = dal.products[i]; addFound({ids: p[3].map(x => dal.drugs[x]), product: p}, 'Scanned'); }
+}
+async function startScan() {
+  $('scan-msg').textContent = 'Point the camera at the barcode. Reading happens on this device.'; $('scan-d').showModal();
+  if (!('BarcodeDetector' in window) || !navigator.mediaDevices?.getUserMedia) { $('vid').hidden = true; $('scan-msg').textContent = 'This browser cannot read barcodes with the camera. Type the number under the barcode.'; return; }
+  try {
+    const sup = await BarcodeDetector.getSupportedFormats(); const det = new BarcodeDetector({formats: ['ean_13', 'ean_8', 'upc_a', 'upc_e', 'code_128', 'data_matrix', 'itf'].filter(f => sup.includes(f))});
+    scan.stream = await navigator.mediaDevices.getUserMedia({video: {facingMode: {ideal: 'environment'}}, audio: false}); const v = $('vid'); v.hidden = false; v.srcObject = scan.stream; await v.play();
+    scan.timer = setInterval(async () => { if (!scan.stream || v.readyState < 2) return; try { const f = await det.detect(v); if (f.length) byBarcode(f[0].rawValue); } catch (e) {} }, 300);
+  } catch (e) { stopScan(); $('vid').hidden = true; $('scan-msg').textContent = 'The camera could not be started. Type the barcode number.'; }
+}
+
+// ---------- start ----------
+(async () => {
+  try {
+    [db, dal] = await Promise.all([fetch('./database.json', {cache: 'no-cache'}).then(r => r.json()), fetch('./med-review-data.json', {cache: 'no-cache'}).then(r => r.json())]);
+  } catch (e) { $('report').innerHTML = '<p class="err">The data could not be loaded. Check the connection and reload.</p>'; return; }
+  byId = new Map(db.drugs.filter(d => d.entryType !== 'catalog').map(d => [d.id, d]));
+  const opts = [...db.drugs.map(d => d.name), ...dal.products.map(label)];
+  $('med-list').innerHTML = [...new Set(opts)].map(o => `<option value="${h(o)}"></option>`).join('');
+  $('add').addEventListener('click', () => addFound(findMed($('med-q').value)));
+  $('med-q').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addFound(findMed($('med-q').value)); } });
+  $('chips').addEventListener('click', e => { const b = e.target.closest('[data-rm]'); if (b) { meds.splice(+b.dataset.rm, 1); render(); } });
+  document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', render));
+  ['egfr', 'crcl', 'scr', 'unit', 'age', 'sex', 'wt'].forEach(id => $(id).addEventListener('input', render));
+  $('print').addEventListener('click', () => window.print());
+  $('clear').addEventListener('click', () => { meds.length = 0; ['egfr', 'crcl', 'scr', 'age', 'wt'].forEach(id => $(id).value = ''); $('sex').value = ''; render(); });
+  $('scan').addEventListener('click', startScan); $('scan-close').addEventListener('click', () => $('scan-d').close()); $('scan-d').addEventListener('close', stopScan);
+  $('scan-f').addEventListener('submit', e => { e.preventDefault(); byBarcode($('scan-code').value); });
+  window.addEventListener('pagehide', () => { meds.length = 0; stopScan(); });
+  render();
+})();
+</script>
+</body>
+</html>
