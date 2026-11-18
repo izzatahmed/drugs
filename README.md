@@ -1,6 +1,10 @@
-# RenalRounds v0.23.0 — cumulative GitHub Pages package
+# RenalRounds v0.24.0 — cumulative GitHub Pages package
 
 Compact adult CKD and kidney-replacement drug reference for **US and Jordan** use. The 727-entry inventory contains 696 partial renal profiles, 10 shared safety notes and 21 catalog entries. This remains an incomplete draft without independent clinical approval.
+
+## What changed in 0.24.0
+
+- Reviewer preview: **kidney medication review** at `med-review.html` (not linked from the app). Add medicines by generic name, Jordanian brand or box barcode, enter eGFR/CrCl (or calculate from creatinine) or choose HD/PD/CRRT, and see each medicine's guidance with the matching row highlighted, label-quoted interactions among the listed medicines, and Dalil v0.17 prices. Nothing is stored or sent. Clinical content unchanged.
 
 ## What changed in 0.23.0
 
@@ -111,7 +115,7 @@ Compact adult CKD and kidney-replacement drug reference for **US and Jordan** us
 ## Update the existing site
 
 1. Extract this ZIP and upload all its contents to the repository's publishing root, replacing matching files and keeping folders. Do not upload the ZIP itself.
-2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.23.0.
+2. Wait for GitHub Pages to redeploy, then check that the top title and footer say v0.24.0. The preview is at `https://izzatahmed.github.io/drugs/med-review.html`.
 3. If an older offline copy is still showing, open **Database & offline status** at the bottom → **Check for update** → **Load available update**.
 
 The root `index.html` embeds the full database and code: replacing `database.json` alone does not change the running app.
@@ -153,14 +157,16 @@ Run from the `source/` folder with Python 3 and Node.js; no package installation
     python3 release_v210.py
     python3 release_v220.py
     python3 release_v230.py
+    python3 release_v240.py
     python3 apply_reviews.py
     python3 build_standalone.py
+    python3 build_med_review.py
     node checks.mjs
-    node checks_v230.mjs
+    node checks_v240.mjs
     node checks_interface.mjs
     node checks_calculator.mjs
-    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.23.0_cumulative.zip
+    python3 package_github.py /absolute/path/RenalRounds_GitHub_v0.24.0_cumulative.zip
 
-Earlier version checks (checks_v05 … checks_v220) are historical. `build_dalil_links.py` is rerun only when Dalil's catalogue changes; it writes jordan_products_v200.json here and renalrounds.json for Dalil. SHA256SUMS.txt covers public root files.
+Earlier version checks (checks_v05 … checks_v230) are historical. `build_dalil_links.py` is rerun only when Dalil's catalogue changes; it writes jordan_products_v200.json here and renalrounds.json for Dalil. `build_med_review.py <dalil folder>` likewise regenerates med_review_data_v240.json only when Dalil's products, prices or barcodes change; without an argument it just assembles the page. SHA256SUMS.txt covers public root files.
 
 Software, arithmetic and layout checks do not establish clinical validity. Independent nephrology and renal-pharmacy review remains pending.
