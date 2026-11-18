@@ -1,3 +1,10 @@
+# RenalRounds v0.24.0 · 18 November 2026
+
+- **Reviewer preview: kidney medication review** at `med-review.html` (not linked from the app). Add a patient's medicines by generic name, Jordanian brand or box barcode; enter eGFR/CrCl (or calculate them from creatinine) or choose haemodialysis, PD or CRRT. The page shows each medicine's RenalRounds guidance with the matching row highlighted, label-quoted interactions between the listed medicines, and Dalil v0.17 pack prices. Nothing is stored or sent.
+- Clinical content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
 # RenalRounds v0.23.0 · 17 November 2026
 
 - **Products in Jordan refreshed** from Dalil v0.16, which adds 175 products found in the JFDA public price search (17 November 2026) to the June 2026 JFDA workbook. Combination products written as one ingredient text are now recognised: sacubitril/valsartan now shows 31 Jordanian products (4 before), and those products no longer count as valsartan alone.
