@@ -84,3 +84,6 @@ html[data-theme="dark"] .calc-measure label:has(input:checked){color:#101b20}
 .footer-tools .footer-link{font-size:13px;min-height:44px;display:inline-flex;align-items:center;color:var(--teal);text-decoration:none}.side-link[href]{text-decoration:none}.jordan-panel .dalil-link{display:inline-flex;align-items:center;min-height:44px;font-weight:600;color:var(--teal)}
 #calc-menu .calc-menu-body h3.calc-menu-group{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin:14px 2px 4px;font-weight:650}#calc-menu .calc-menu-body h3.calc-menu-group:first-child{margin-top:0}
 .voice-button{min-width:40px;min-height:40px;display:inline-flex;align-items:center;justify-content:center;color:var(--teal);border-radius:50%}.voice-button.listening{color:#fff;background:#c0392b;animation:voicepulse 1.2s ease-in-out infinite}@keyframes voicepulse{50%{box-shadow:0 0 0 6px #c0392b33}}@media(prefers-reduced-motion:reduce){.voice-button.listening{animation:none}}
+
+a.calc-menu-item{text-decoration:none}a.ix-open{display:inline-flex;align-items:center;text-decoration:none;margin-inline-start:6px}a.side-link{text-decoration:none}
+#calc-menu .calc-menu-body{grid-auto-rows:max-content;align-content:start}

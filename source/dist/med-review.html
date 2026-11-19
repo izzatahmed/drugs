@@ -3,43 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>Kidney medication review · RenalRounds preview</title>
+<meta name="description" content="Review a patient's medicines against kidney function or dialysis: renal guidance, interactions and Jordanian prices.">
+<meta name="color-scheme" content="light dark">
+<title>Kidney medication review · RenalRounds</title>
+<script>try{const t=new URLSearchParams(location.hash.slice(1)).get('theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
-:root{--ink:#17302b;--muted:#5d6f6a;--line:#d8e2df;--bg:#f6f9f8;--card:#fff;--teal:#155d51;--teal-soft:#e4f1ee;--amber:#9a5b00;--amber-soft:#fff3dc;--red:#a32020;--red-soft:#fde8e8;--green:#256b2f;--green-soft:#e6f4e8}
+:root{--ink:#17302b;--muted:#5d6f6a;--line:#d8e2df;--bg:#f6f9f8;--card:#fff;--field:#fff;--teal:#155d51;--on-teal:#fff;--teal-soft:#e4f1ee;--amber:#8a5000;--amber-soft:#fff3dc;--amber-line:#e8c88a;--note:#5a3a00;--red:#a32020;--red-soft:#fde8e8;--green:#256b2f;--green-soft:#e6f4e8;--hit:#fff3b0;--pill:#eef2f1}
+html[data-theme=dark]{--ink:#eef5f3;--muted:#b4c6c1;--line:#3a524b;--bg:#0f1c19;--card:#172824;--field:#1d302b;--teal:#8fe0cc;--on-teal:#0b2420;--teal-soft:#20403a;--amber:#ffd08a;--amber-soft:#3a2f1c;--amber-line:#6b5530;--note:#ffe2b8;--red:#ffb3b3;--red-soft:#4a2424;--green:#a8e6b0;--green-soft:#1f3d25;--hit:#4d4318;--pill:#26373a}
+@media (prefers-color-scheme:dark){html:not([data-theme=light]){--ink:#eef5f3;--muted:#b4c6c1;--line:#3a524b;--bg:#0f1c19;--card:#172824;--field:#1d302b;--teal:#8fe0cc;--on-teal:#0b2420;--teal-soft:#20403a;--amber:#ffd08a;--amber-soft:#3a2f1c;--amber-line:#6b5530;--note:#ffe2b8;--red:#ffb3b3;--red-soft:#4a2424;--green:#a8e6b0;--green-soft:#1f3d25;--hit:#4d4318;--pill:#26373a}}
 *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 main{max-width:860px;margin:0 auto;padding:12px 14px 60px}
-.preview{background:var(--amber-soft);border:1px solid #e8c88a;color:#5a3a00;border-radius:10px;padding:10px 12px;font-size:14px;margin:8px 0 14px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px}.top a{font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.preview{background:var(--amber-soft);border:1px solid var(--amber-line);color:var(--note);border-radius:10px;padding:10px 12px;font-size:14px;margin:8px 0 14px}
 h1{font-size:22px;margin:6px 0 2px}h2{font-size:17px;margin:0 0 10px}.sub{color:var(--muted);margin:0 0 12px}
 section.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
 .modes{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}.modes label{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:8px 12px;min-height:44px;cursor:pointer}
 .modes input{accent-color:var(--teal)}.modes label:has(input:checked){background:var(--teal-soft);border-color:var(--teal)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
 label.f{display:flex;flex-direction:column;font-size:13px;color:var(--muted);gap:4px}
-input,select,button{font:inherit}input[type=number],input[type=text],input[type=search],select{min-height:44px;border:1px solid var(--line);border-radius:8px;padding:0 10px;background:#fff;color:var(--ink);width:100%}
-button{min-height:44px;border-radius:8px;border:1px solid var(--teal);background:#fff;color:var(--teal);padding:0 14px;font-weight:600;cursor:pointer}
-button.primary{background:var(--teal);color:#fff}button:disabled{opacity:.5}
+input,select,button{font:inherit}input[type=number],input[type=text],input[type=search],select{min-height:44px;border:1px solid var(--line);border-radius:8px;padding:0 10px;background:var(--field);color:var(--ink);width:100%}
+button{min-height:44px;border-radius:8px;border:1px solid var(--teal);background:var(--card);color:var(--teal);padding:0 14px;font-weight:600;cursor:pointer}
+button.primary{background:var(--teal);color:var(--on-teal)}button:disabled{opacity:.5}
 .row{display:flex;gap:8px;align-items:stretch}.row>input{flex:1;min-width:0}
 .kidney-out{margin-top:10px;font-size:14px}.kidney-out strong{font-size:18px}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.chip{display:flex;align-items:center;gap:6px;background:var(--teal-soft);border-radius:999px;padding:4px 6px 4px 12px}
 .chip button{min-height:32px;min-width:32px;padding:0;border:0;background:transparent;font-size:18px}
 .muted{color:var(--muted)}.small{font-size:13px}.err{color:var(--red)}
-.summary{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 2px}.pill{border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600;background:#eef2f1}
+.summary{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 2px}.pill{border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600;background:var(--pill)}
 .p-adjust,.p-avoid{background:var(--red-soft);color:var(--red)}.p-caution,.p-monitor{background:var(--amber-soft);color:var(--amber)}.p-no_adjust{background:var(--green-soft);color:var(--green)}
-article.med{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:#fff;break-inside:avoid}
+article.med{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:var(--card);break-inside:avoid}
 article.med h3{margin:0;font-size:16px}.med-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;flex-wrap:wrap}
 table{width:100%;border-collapse:collapse;margin:8px 0;font-size:14px}th,td{text-align:start;vertical-align:top;border-top:1px solid var(--line);padding:6px}
-th{font-weight:600;color:var(--muted);width:38%}tr.hit td,tr.hit th{background:#fff6c7}tr.hit th::before{content:"▶ ";color:var(--amber)}
+th{font-weight:600;color:var(--muted);width:38%}tr.hit td,tr.hit th{background:var(--hit);color:var(--ink)}tr.hit th::before{content:"▶ ";color:var(--amber)}
 .ind{font-weight:600;font-size:13px;margin-top:8px}.note{font-size:13px;color:var(--muted)}
 a{color:var(--teal)}.ix li{margin-bottom:6px}
-dialog{border:0;border-radius:12px;padding:14px;max-width:440px;width:92vw}dialog video{width:100%;border-radius:8px;background:#000;max-height:50vh;object-fit:cover}
+dialog{border:0;border-radius:12px;background:var(--card);color:var(--ink);padding:14px;max-width:440px;width:92vw}dialog video{width:100%;border-radius:8px;background:#000;max-height:50vh;object-fit:cover}
 datalist{display:none}
-@media print{.preview{border:1px solid #999}.noprint{display:none!important}body{background:#fff}section.box,article.med{border-color:#bbb}}
+@media print{html{--ink:#000;--muted:#333;--card:#fff;--bg:#fff;--hit:#fff3b0;--line:#bbb}.preview{border:1px solid #999}.noprint{display:none!important}body{background:#fff}section.box,article.med{border-color:#bbb}}
 </style>
 </head>
 <body>
 <main>
-<div class="preview" role="note"><strong>Preview for clinical reviewers — not for patient care.</strong> Guidance is quoted from the RenalRounds entries (official labels and guidelines) and is pending clinical approval. Always check the full entry and the current label. Nothing you enter is saved or sent.</div>
+<div class="top noprint"><a href="./" id="back">← RenalRounds</a><span class="small muted">v0.25.0</span></div>
+<div class="preview" role="note"><strong>Draft clinical reference — independent review pending.</strong> Guidance is quoted from the RenalRounds entries (official labels and guidelines). Check the full entry and the current label before prescribing. Nothing you enter is saved or sent.</div>
 <h1>Kidney medication review</h1>
 <p class="sub">Add a patient's medicines, enter kidney function or dialysis, and see the renal guidance, interactions and Jordanian prices on one page.</p>
 
@@ -82,7 +88,7 @@ datalist{display:none}
 <div class="med-head"><h2 id="r-h">3 · Review</h2><span class="noprint"><button type="button" id="print">Print</button> <button type="button" id="clear">Clear all</button></span></div>
 <div id="report"><p class="muted">Add medicines to see the review.</p></div>
 </section>
-<p class="small muted">RenalRounds v0.24.0 · Jordanian products, prices and barcodes from Dalil v0.17.0 (newest listed price per pack, mostly the JFDA public search of 17 Nov 2026). <a href="./">Open RenalRounds</a> · <a href="../dalil/">Open Dalil</a></p>
+<p class="small muted">RenalRounds v0.25.0 · Jordanian products, prices and barcodes from Dalil v0.17.0 (newest listed price per pack, mostly the JFDA public search of 17 Nov 2026). <a href="./">Open RenalRounds</a> · <a href="../dalil/">Open Dalil</a></p>
 </main>
 
 <dialog id="scan-d"><h2>Scan the box barcode</h2><video id="vid" playsinline muted hidden></video><p id="scan-msg" class="small"></p>
@@ -374,6 +380,11 @@ async function startScan() {
   $('scan').addEventListener('click', startScan); $('scan-close').addEventListener('click', () => $('scan-d').close()); $('scan-d').addEventListener('close', stopScan);
   $('scan-f').addEventListener('submit', e => { e.preventDefault(); byBarcode($('scan-code').value); });
   window.addEventListener('pagehide', () => { meds.length = 0; stopScan(); });
+  // RenalRounds and Dalil open this page with #add=<entry ids>; the address is cleared at once so nothing persists in history.
+  const hp = new URLSearchParams(location.hash.slice(1)), from = hp.get('from') === 'dalil' ? 'Dalil' : 'RenalRounds';
+  const ids = (hp.get('add') || '').split(',').map(x => x.trim()).filter(x => byId.has(x)).slice(0, 10);
+  if (ids.length) addFound({ids, product: null}, `Added from ${from}`);
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
   render();
 })();
 </script>

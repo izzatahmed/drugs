@@ -43,10 +43,10 @@ const Interactions = (() => {
 
 function interactionsPanel(d) {
   const ix = d.interactions;
-  if (!ix || (!ix.statements?.length && !ix.fdaRoles?.length)) return `<details class="info-detail ix-panel"><summary>Drug interactions</summary><p class="preg-empty">Interaction statements have not been curated for this entry. Check the current label's interaction section.</p><p><button type="button" class="ix-open" data-open="interaction-checker" data-ix-drug="${h(d.id)}">Check a pair</button></p></details>`;
+  if (!ix || (!ix.statements?.length && !ix.fdaRoles?.length)) return `<details class="info-detail ix-panel"><summary>Drug interactions</summary><p class="preg-empty">Interaction statements have not been curated for this entry. Check the current label's interaction section.</p><p><button type="button" class="ix-open" data-open="interaction-checker" data-ix-drug="${h(d.id)}">Check a pair</button>${d.entryType === 'catalog' ? '' : ` <a class="ix-open mr-open" href="med-review.html#add=${encodeURIComponent(d.id)}">Add to a medication review</a>`}</p></details>`;
   const roles = ix.fdaRoles?.length ? `<div class="ix-roles"><strong>FDA CYP/transporter roles</strong> ${ix.fdaRoles.map(r => `<span class="pill">${h(r)}</span>`).join(' ')}</div>` : '';
   const list = ix.statements?.length ? `<div class="preg-block"><strong>Key interactions (quoted from label)</strong><ul class="ix-list">${ix.statements.map(s => `<li>${h(s)}.</li>`).join('')}</ul></div>` : '';
-  return `<details class="info-detail ix-panel"><summary>Drug interactions${ix.statements?.length ? ` · ${ix.statements.length} label statements` : ''}</summary>${roles}${list}<p class="preg-note">Selected sentences from the label's interaction section that name another medicine, a drug class or a CYP/P-gp pathway. Not a complete list.</p><p><button type="button" class="ix-open" data-open="interaction-checker" data-ix-drug="${h(d.id)}">Check this drug against another</button></p><div class="source-inline"><span>SOURCE</span>${(ix.sourceIds || []).map(sourceLink).join('<span>·</span>')}</div></details>`;
+  return `<details class="info-detail ix-panel"><summary>Drug interactions${ix.statements?.length ? ` · ${ix.statements.length} label statements` : ''}</summary>${roles}${list}<p class="preg-note">Selected sentences from the label's interaction section that name another medicine, a drug class or a CYP/P-gp pathway. Not a complete list.</p><p><button type="button" class="ix-open" data-open="interaction-checker" data-ix-drug="${h(d.id)}">Check this drug against another</button>${d.entryType === 'catalog' ? '' : ` <a class="ix-open mr-open" href="med-review.html#add=${encodeURIComponent(d.id)}">Add to a medication review</a>`}</p><div class="source-inline"><span>SOURCE</span>${(ix.sourceIds || []).map(sourceLink).join('<span>·</span>')}</div></details>`;
 }
 
 (function setupInteractionChecker(){
@@ -74,6 +74,12 @@ function interactionsPanel(d) {
       + (any ? '' : '<p>Neither label\'s curated interaction sentences mention the other medicine or its class, and the FDA table gives no CYP/P-gp pairing. This does not exclude an interaction.</p>')
       + (coverage.length ? `<p>Label interaction statements are not yet curated for: ${h(coverage.join(', '))}.</p>` : '') + '</div>';
   }
+  // The medication review page (med-review.html) follows the app's night theme through its address.
+  document.addEventListener('click', e => {
+    const m = e.target.closest('a.mr-open'); if (!m) return;
+    const u = new URL(m.getAttribute('href'), location.href), hp = new URLSearchParams(u.hash.slice(1));
+    hp.set('theme', document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'); u.hash = hp.toString(); m.href = u.href;
+  }, true);
   document.addEventListener('click', e => {
     const o = e.target.closest('[data-open="interaction-checker"]');
     if (!o) return;

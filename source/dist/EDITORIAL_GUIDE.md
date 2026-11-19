@@ -1,3 +1,11 @@
+# RenalRounds v0.25.0 · 19 November 2026
+
+- **Kidney medication review is now part of the app.** Open it from CALC → Medicines, the side menu, the footer, or "Add to a medication review" in any medicine's interactions panel (that medicine is added for you). Dalil v0.18 links to it from medicines that have a RenalRounds page. The page follows the night theme and keeps the draft-reference notice used across the app. Nothing entered is saved or sent.
+- CALC menu: on phones, items with two-line descriptions were squeezed so the text overlapped the next item; each item now takes the height its text needs.
+- Clinical content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
 # RenalRounds v0.24.0 · 18 November 2026
 
 - **Reviewer preview: kidney medication review** at `med-review.html` (not linked from the app). Add a patient's medicines by generic name, Jordanian brand or box barcode; enter eGFR/CrCl (or calculate them from creatinine) or choose haemodialysis, PD or CRRT. The page shows each medicine's RenalRounds guidance with the matching row highlighted, label-quoted interactions between the listed medicines, and Dalil v0.17 pack prices. Nothing is stored or sent.
