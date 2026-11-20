@@ -14,7 +14,12 @@ html[data-theme=dark]{--ink:#eef5f3;--muted:#b4c6c1;--line:#3a524b;--bg:#0f1c19;
 *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 main{max-width:860px;margin:0 auto;padding:12px 14px 60px}
 .top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px}.top a{font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
-.preview{background:var(--amber-soft);border:1px solid var(--amber-line);color:var(--note);border-radius:10px;padding:10px 12px;font-size:14px;margin:8px 0 14px}
+.ast{color:var(--amber);text-decoration:none;font-weight:700;margin-inline-start:2px}.footnote{border-top:1px solid var(--line);padding-top:8px;margin-top:14px}
+.tx-toggle{display:flex;align-items:center;gap:8px;min-height:44px;font-weight:600;margin-top:4px}.tx-toggle input{width:20px;height:20px;accent-color:var(--teal)}
+.tx-pick{min-height:40px;border-radius:999px;font-weight:500;padding:0 12px}.tx-pick[aria-pressed=true]{background:var(--teal);color:var(--on-teal)}
+.tx-alert{border:2px solid var(--red);background:var(--red-soft);color:var(--ink);border-radius:10px;padding:8px 10px;margin:8px 0;font-size:14px}.tx-alert strong{color:var(--red)}
+article.med.tx{border:2px solid var(--red)}.tx-tag{font-size:11px;font-weight:700;border-radius:6px;padding:1px 6px;background:var(--teal-soft);color:var(--teal);margin-inline-start:4px}.ok{color:var(--green)}
+#med-msg.warn{color:var(--red);font-weight:600}
 h1{font-size:22px;margin:6px 0 2px}h2{font-size:17px;margin:0 0 10px}.sub{color:var(--muted);margin:0 0 12px}
 section.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
 .modes{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}.modes label{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:8px 12px;min-height:44px;cursor:pointer}
@@ -39,15 +44,14 @@ th{font-weight:600;color:var(--muted);width:38%}tr.hit td,tr.hit th{background:v
 a{color:var(--teal)}.ix li{margin-bottom:6px}
 dialog{border:0;border-radius:12px;background:var(--card);color:var(--ink);padding:14px;max-width:440px;width:92vw}dialog video{width:100%;border-radius:8px;background:#000;max-height:50vh;object-fit:cover}
 datalist{display:none}
-@media print{html{--ink:#000;--muted:#333;--card:#fff;--bg:#fff;--hit:#fff3b0;--line:#bbb}.preview{border:1px solid #999}.noprint{display:none!important}body{background:#fff}section.box,article.med{border-color:#bbb}}
+@media print{html{--ink:#000;--muted:#333;--card:#fff;--bg:#fff;--hit:#fff3b0;--line:#bbb}.noprint{display:none!important}body{background:#fff}section.box,article.med{border-color:#bbb}}
 </style>
 </head>
 <body>
 <main>
-<div class="top noprint"><a href="./" id="back">← RenalRounds</a><span class="small muted">v0.25.0</span></div>
-<div class="preview" role="note"><strong>Draft clinical reference — independent review pending.</strong> Guidance is quoted from the RenalRounds entries (official labels and guidelines). Check the full entry and the current label before prescribing. Nothing you enter is saved or sent.</div>
-<h1>Kidney medication review</h1>
-<p class="sub">Add a patient's medicines, enter kidney function or dialysis, and see the renal guidance, interactions and Jordanian prices on one page.</p>
+<div class="top noprint"><a href="./" id="back">← RenalRounds</a></div>
+<h1>Kidney medication review<a class="ast" href="#note" title="Draft clinical reference — see the note at the end">*</a></h1>
+<p class="sub">Add a patient's medicines, enter kidney function, dialysis or transplant, and see the renal guidance, interactions and Jordanian prices on one page.</p>
 
 <section class="box" aria-labelledby="k-h">
 <h2 id="k-h">1 · Kidney function</h2>
@@ -57,6 +61,8 @@ datalist{display:none}
 <label><input type="radio" name="mode" value="pd"> Peritoneal dialysis</label>
 <label><input type="radio" name="mode" value="crrt"> CRRT</label>
 </div>
+<label class="tx-toggle"><input type="checkbox" id="tx"> Kidney transplant recipient</label>
+<div id="tx-box" hidden><p class="small" style="margin:2px 0 6px">Choose the current immunosuppressants. Every medicine you add is checked against them.</p><div id="tx-list" class="chips" role="group" aria-label="Immunosuppressants"></div></div>
 <div id="ckd-inputs">
 <div class="grid">
 <label class="f">eGFR · mL/min/1.73 m² <input type="number" id="egfr" inputmode="decimal" placeholder="enter, or calculate below"></label>
@@ -88,7 +94,8 @@ datalist{display:none}
 <div class="med-head"><h2 id="r-h">3 · Review</h2><span class="noprint"><button type="button" id="print">Print</button> <button type="button" id="clear">Clear all</button></span></div>
 <div id="report"><p class="muted">Add medicines to see the review.</p></div>
 </section>
-<p class="small muted">RenalRounds v0.25.0 · Jordanian products, prices and barcodes from Dalil v0.17.0 (newest listed price per pack, mostly the JFDA public search of 17 Nov 2026). <a href="./">Open RenalRounds</a> · <a href="../dalil/">Open Dalil</a></p>
+<p id="note" class="small footnote"><span class="ast">*</span> <strong>Draft clinical reference — independent review pending.</strong> Guidance is quoted from the RenalRounds entries (official labels and guidelines). Check the full entry and the current label before prescribing. Nothing you enter is saved or sent.</p>
+<p class="small muted">RenalRounds v0.26.0 · Jordanian products, prices and barcodes from Dalil v0.17.0 (newest listed price per pack, mostly the JFDA public search of 17 Nov 2026). <a href="./">Open RenalRounds</a> · <a href="../dalil/">Open Dalil</a></p>
 </main>
 
 <dialog id="scan-d"><h2>Scan the box barcode</h2><video id="vid" playsinline muted hidden></video><p id="scan-msg" class="small"></p>
@@ -231,7 +238,9 @@ const Interactions = (() => {
 const h = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const $ = id => document.getElementById(id);
 let db = null, dal = null, byId = new Map();
-const meds = []; // {id, product: {brand, strength, pack, fils, src} | null}
+const meds = []; // {id, product: {brand, strength, pack, fils, src} | null, tx: true for a transplant immunosuppressant}
+const TX = [['tacrolimus', 'Tacrolimus'], ['cyclosporine', 'Ciclosporin'], ['sirolimus', 'Sirolimus'], ['everolimus', 'Everolimus'], ['mycophenolate-mofetil', 'Mycophenolate mofetil'], ['mycophenolate-sodium', 'Mycophenolate sodium'], ['azathioprine', 'Azathioprine'], ['prednisolone', 'Prednisolone'], ['belatacept', 'Belatacept']];
+const txOn = () => $('tx').checked, isTx = m => txOn() && m.tx;
 const STATUS = {summarized: 'Guidance', avoid: 'Avoid', specialist: 'Specialist guidance — see the full entry', insufficient_data: 'Insufficient data', not_curated: 'Not yet curated', not_indicated: 'Not indicated'};
 const FLAG = {adjust: 'Dose adjustment', caution: 'Use with caution', monitor: 'Monitor', no_adjust: 'No renal adjustment', catalog: 'Catalogue entry'};
 const MODE = {ckd: 'not on dialysis', ihd: 'haemodialysis', pd: 'peritoneal dialysis', crrt: 'CRRT'};
@@ -301,44 +310,77 @@ function addFound(f, how) {
   if (!f) { $('med-msg').textContent = 'Not found. Choose a name from the suggestions, or type the generic name.'; return; }
   const product = f.product ? {key: label(f.product), combo: f.ids.length > 1, brand: f.product[0], strength: f.product[1], pack: f.product[2], fils: f.product[4], src: dal.sources[f.product[5]] || null} : null;
   let added = 0;
-  for (const id of f.ids) { if (!byId.has(id) || meds.some(m => m.id === id && (m.product?.brand || '') === (product?.brand || ''))) continue; meds.push({id, product}); added++; }
-  $('med-msg').textContent = added ? `${how || 'Added'}: ${f.ids.map(i => byId.get(i)?.name).filter(Boolean).join(' + ')}${product ? ` (${product.brand})` : ''}.` : 'Already in the list.';
+  for (const id of f.ids) { if (!byId.has(id) || meds.some(m => m.id === id && (m.product?.brand || '') === (product?.brand || ''))) continue; meds.push({id, product, tx: txOn() && TX.some(t => t[0] === id)}); added++; }
+  let msg = added ? `${how || 'Added'}: ${f.ids.map(i => byId.get(i)?.name).filter(Boolean).join(' + ')}${product ? ` (${product.brand})` : ''}.` : 'Already in the list.', warn = false;
+  if (added && txOn()) { const hit = [...new Set(f.ids.flatMap(id => txPartners(id)))]; if (hit.length) { msg += ` ⚠ Label interaction with ${hit.join(', ')} — see the transplant section.`; warn = true; } }
+  $('med-msg').textContent = msg; $('med-msg').classList.toggle('warn', warn);
   $('med-q').value = ''; render();
 }
 function chips() {
-  $('chips').innerHTML = meds.map((m, i) => `<span class="chip">${h(byId.get(m.id).name)}${m.product ? ` <span class="small muted">· ${h(m.product.brand)}</span>` : ''}<button type="button" aria-label="Remove ${h(byId.get(m.id).name)}" data-rm="${i}">×</button></span>`).join('');
+  $('chips').innerHTML = meds.map((m, i) => `<span class="chip">${h(byId.get(m.id).name)}${isTx(m) ? '<span class="tx-tag">Tx</span>' : ''}${m.product ? ` <span class="small muted">· ${h(m.product.brand)}</span>` : ''}<button type="button" aria-label="Remove ${h(byId.get(m.id).name)}" data-rm="${i}">×</button></span>`).join('');
 }
 
 // ---------- report ----------
 function tableHtml(tables, d, k) {
   return tables.map(t => `<div class="ind">${h(t.indication || '')}</div><table><tbody>${t.rows.map(r => { const hit = k.mode === 'ckd' ? rowHit(r.context, d, k) : null; return `<tr class="${hit ? 'hit' : ''}"><th scope="row">${h(r.context)}${hit && hit.approx ? ` <span class="small">(${hit.metric === 'crcl' ? 'CrCl not given: matched on eGFR' : 'eGFR not given: matched on CrCl'})</span>` : ''}</th><td>${h(r.dose)}</td></tr>`; }).join('')}</tbody></table>`).join('');
 }
-function medCard(m, k) {
+function medCard(m, k, pairs = []) {
   const d = byId.get(m.id), sec = d.modalities?.[k.mode] || {status: 'not_curated', tables: []};
   const price = m.product && m.product.fils ? `<div class="small"><strong>${h(m.product.brand)}</strong> ${h(m.product.strength)} · ${h(m.product.pack)} — <strong>${(m.product.fils / 1000).toFixed(2)} JD</strong>${m.product.combo ? ' <span class="muted">· combination product</span>' : ''}${m.product.src ? ` <span class="muted">(${h(m.product.src)})</span>` : ''}</div>` : m.product ? `<div class="small"><strong>${h(m.product.brand)}</strong> ${h(m.product.strength)} · ${h(m.product.pack)} — <span class="muted">no price on record</span></div>` : '';
-  return `<article class="med"><div class="med-head"><div><h3>${h(d.name)}</h3><div class="small muted">${h(d.category)}${d.routes?.length ? ' · ' + h(d.routes.join(', ')) : ''}</div></div><span class="pill p-${h(d.flag)}">${h(FLAG[d.flag] || d.flag)}</span></div>${price}
+  return `<article class="med"><div class="med-head"><div><h3>${h(d.name)}${isTx(m) ? ' <span class="tx-tag">Transplant immunosuppressant</span>' : ''}</h3><div class="small muted">${h(d.category)}${d.routes?.length ? ' · ' + h(d.routes.join(', ')) : ''}</div></div><span class="pill p-${h(d.flag)}">${h(FLAG[d.flag] || d.flag)}</span></div>${price}${txLine(m, pairs)}
   <div class="small" style="margin-top:6px"><strong>${h(MODE[k.mode][0].toUpperCase() + MODE[k.mode].slice(1))}:</strong> ${h(STATUS[sec.status] || sec.status)}${d.kidneyMetric && k.mode === 'ckd' ? ` <span class="muted">· ${h(typeof d.kidneyMetric === 'string' ? d.kidneyMetric : JSON.stringify(d.kidneyMetric))}</span>` : ''}</div>
   ${d.summary ? `<p class="small" style="margin:4px 0">${h(d.summary)}</p>` : ''}${sec.tables?.length ? tableHtml(sec.tables, d, k) : ''}${sec.notes ? `<p class="note">${h(sec.notes)}</p>` : ''}
   <p class="note">Source: ${h(typeof d.jurisdiction === 'string' ? d.jurisdiction : 'see the full entry')}. <a href="./#drug=${encodeURIComponent(d.id)}" target="_blank" rel="noopener">Full entry ↗</a></p></article>`;
 }
-function interactionsHtml() {
-  const ds = [...new Set(meds.map(m => m.id))].map(id => byId.get(id)), out = [];
-  for (let i = 0; i < ds.length; i++) for (let j = i + 1; j < ds.length; j++) {
-    const r = Interactions.check(db, ds[i], ds[j]);
-    const uniq = a => [...new Map(a.map(x => [x.text, x])).values()];
-    const items = [...uniq(r.ab).map(x => `<li><strong>${h(ds[i].name)} label:</strong> ${h(x.text)}</li>`), ...uniq(r.ba).map(x => `<li><strong>${h(ds[j].name)} label:</strong> ${h(x.text)}</li>`), ...[...new Set(r.mech)].map(x => `<li class="muted">${h(x)}</li>`)];
-    if (items.length) out.push(`<h3 style="font-size:15px;margin:10px 0 4px">${h(ds[i].name)} + ${h(ds[j].name)}</h3><ul class="ix">${items.join('')}</ul>`);
+function pairItems(a, b) {
+  const r = Interactions.check(db, a, b), uniq = x => [...new Map(x.map(y => [y.text, y])).values()], mech = [...new Set(r.mech)];
+  const items = [...uniq(r.ab).map(x => `<li><strong>${h(a.name)} label:</strong> ${h(x.text)}</li>`), ...uniq(r.ba).map(x => `<li><strong>${h(b.name)} label:</strong> ${h(x.text)}</li>`), ...mech.map(x => `<li class="muted">${h(x)}</li>`)];
+  return {a, b, items, pk: mech.length > 0};
+}
+function txPartners(id) {
+  const d = byId.get(id); if (!d) return [];
+  return meds.filter(m => m.tx && m.id !== id).map(m => byId.get(m.id)).filter(t => pairItems(d, t).items.length).map(t => t.name);
+}
+function allPairs() {
+  const ids = [...new Set(meds.map(m => m.id))], txIds = new Set(meds.filter(isTx).map(m => m.id)), out = [];
+  for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) {
+    let [a, b] = [ids[i], ids[j]]; if (txIds.has(b) && !txIds.has(a)) [a, b] = [b, a]; // immunosuppressant first
+    const p = pairItems(byId.get(a), byId.get(b)); p.tx = txIds.has(a) || txIds.has(b); out.push(p);
   }
-  return ds.length < 2 ? '' : `<article class="med"><h3>Interactions between these medicines</h3>${out.length ? out.join('') : '<p class="small muted">No label-quoted interaction or FDA CYP/P-gp pairing found between these medicines. This does not exclude an interaction.</p>'}<p class="note">Selected sentences from the labels and the FDA table of substrates, inhibitors and inducers, as in the RenalRounds interaction checker.</p></article>`;
+  return out;
+}
+const pairHtml = p => `<h3 style="font-size:15px;margin:10px 0 4px">${h(p.a.name)} + ${h(p.b.name)}${p.pk ? ' <span class="pill p-adjust">CYP/P-gp</span>' : ''}</h3><ul class="ix">${p.items.join('')}</ul>`;
+const IX_NOTE = '<p class="note">Selected sentences from the labels and the FDA table of substrates, inhibitors and inducers, as in the RenalRounds interaction checker. Additive effects (such as nephrotoxicity, hyperkalaemia or myelosuppression) appear only when a label sentence names the pair; no result does not exclude an interaction.</p>';
+function txSection(pairs) {
+  const chosen = meds.filter(isTx).map(m => byId.get(m.id).name);
+  if (!chosen.length) return '<div class="tx-alert">Kidney transplant: choose the immunosuppressants in section 1 to check every medicine against them.</div>';
+  const others = meds.filter(m => !isTx(m)).length, hits = pairs.filter(p => p.tx && p.items.length).sort((x, y) => y.pk - x.pk);
+  return `<article class="med tx"><h3>Transplant: interactions with ${h(chosen.join(', '))}</h3>${hits.length ? hits.map(pairHtml).join('') : `<p class="small">${others ? 'No label-quoted interaction or FDA CYP/P-gp pairing found with the immunosuppressants.' : 'Add the other medicines to check them against the immunosuppressants.'}</p>`}${IX_NOTE}</article>`;
+}
+function otherSection(pairs) {
+  const rest = pairs.filter(p => !(txOn() && p.tx)), hits = rest.filter(p => p.items.length);
+  if (!rest.length) return '';
+  return `<article class="med"><h3>Interactions between ${txOn() ? 'the other ' : 'these '}medicines</h3>${hits.length ? hits.map(pairHtml).join('') : '<p class="small muted">No label-quoted interaction or FDA CYP/P-gp pairing found between these medicines. This does not exclude an interaction.</p>'}${txOn() ? '' : IX_NOTE}</article>`;
+}
+function txLine(m, pairs) {
+  if (!txOn() || m.tx || !meds.some(isTx)) return '';
+  const with_ = pairs.filter(p => p.tx && p.items.length && (p.a.id === m.id || p.b.id === m.id)).map(p => p.a.id === m.id ? p.b.name : p.a.name);
+  return with_.length ? `<div class="tx-alert"><strong>⚠ Transplant:</strong> label interaction with ${h(with_.join(', '))} — see the transplant section.</div>` : '<p class="small ok">No label-quoted interaction with the selected immunosuppressants.</p>';
+}
+function txPicker() {
+  $('tx-box').hidden = !txOn();
+  $('tx-list').innerHTML = TX.filter(([id]) => byId.has(id)).map(([id, name]) => `<button type="button" class="tx-pick" data-tx="${id}" aria-pressed="${meds.some(m => m.tx && m.id === id)}">${h(name)}</button>`).join('');
 }
 function render() {
-  const k = kidney(); showKidney(k); chips();
+  const k = kidney(); showKidney(k); txPicker(); chips();
+  if (!meds.length && txOn()) { $('report').innerHTML = txSection([]); return; }
   if (!meds.length) { $('report').innerHTML = '<p class="muted">Add medicines to see the review.</p>'; return; }
   const count = {}; for (const m of meds) { const f = byId.get(m.id).flag; count[f] = (count[f] || 0) + 1; }
   const packs = new Map(meds.filter(m => m.product?.fils).map(m => [m.product.key, m.product.fils]));
   const total = [...packs.values()].reduce((a, b) => a + b, 0), priced = meds.filter(m => m.product?.fils).length;
   const summary = `<div class="summary">${Object.entries(count).map(([f, n]) => `<span class="pill p-${h(f)}">${n} · ${h(FLAG[f] || f)}</span>`).join('')}</div>${priced ? `<p class="small">Listed pack prices: <strong>${(total / 1000).toFixed(2)} JD</strong> for ${priced} of ${meds.length} medicines (one pack of each product; a combination product is counted once).</p>` : ''}`;
-  $('report').innerHTML = `<p class="small muted">${meds.length} medicine${meds.length > 1 ? 's' : ''} · ${k.mode === 'ckd' ? (k.egfr !== null || k.crcl !== null ? 'kidney function entered' : 'no kidney function entered') : MODE[k.mode]}</p>${summary}${meds.map(m => medCard(m, k)).join('')}${interactionsHtml()}`;
+  const pairs = allPairs(), ordered = [...meds.filter(m => !isTx(m)), ...meds.filter(isTx)];
+  $('report').innerHTML = `<p class="small muted">${meds.length} medicine${meds.length > 1 ? 's' : ''} · ${k.mode === 'ckd' ? (k.egfr !== null || k.crcl !== null ? 'kidney function entered' : 'no kidney function entered') : MODE[k.mode]}${txOn() ? ' · kidney transplant' : ''}</p>${summary}${txOn() ? txSection(pairs) : ''}${ordered.map(m => medCard(m, k, pairs)).join('')}${otherSection(pairs)}`;
 }
 
 // ---------- barcode ----------
@@ -373,10 +415,16 @@ async function startScan() {
   $('add').addEventListener('click', () => addFound(findMed($('med-q').value)));
   $('med-q').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addFound(findMed($('med-q').value)); } });
   $('chips').addEventListener('click', e => { const b = e.target.closest('[data-rm]'); if (b) { meds.splice(+b.dataset.rm, 1); render(); } });
+  $('tx').addEventListener('change', () => { if (!txOn()) for (let i = meds.length - 1; i >= 0; i--) if (meds[i].tx) { if (meds[i].product) meds[i].tx = false; else meds.splice(i, 1); } render(); });
+  $('tx-list').addEventListener('click', e => {
+    const b = e.target.closest('[data-tx]'); if (!b) return; const id = b.dataset.tx, i = meds.findIndex(m => m.tx && m.id === id);
+    if (i >= 0) { if (meds[i].product) meds[i].tx = false; else meds.splice(i, 1); } else { const j = meds.findIndex(m => m.id === id); if (j >= 0) meds[j].tx = true; else meds.push({id, product: null, tx: true}); }
+    $('med-msg').textContent = ''; $('med-msg').classList.remove('warn'); render();
+  });
   document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', render));
   ['egfr', 'crcl', 'scr', 'unit', 'age', 'sex', 'wt'].forEach(id => $(id).addEventListener('input', render));
   $('print').addEventListener('click', () => window.print());
-  $('clear').addEventListener('click', () => { meds.length = 0; ['egfr', 'crcl', 'scr', 'age', 'wt'].forEach(id => $(id).value = ''); $('sex').value = ''; render(); });
+  $('clear').addEventListener('click', () => { meds.length = 0; $('tx').checked = false; $('med-msg').textContent = ''; ['egfr', 'crcl', 'scr', 'age', 'wt'].forEach(id => $(id).value = ''); $('sex').value = ''; render(); });
   $('scan').addEventListener('click', startScan); $('scan-close').addEventListener('click', () => $('scan-d').close()); $('scan-d').addEventListener('close', stopScan);
   $('scan-f').addEventListener('submit', e => { e.preventDefault(); byBarcode($('scan-code').value); });
   window.addEventListener('pagehide', () => { meds.length = 0; stopScan(); });

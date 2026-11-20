@@ -1,3 +1,11 @@
+# RenalRounds v0.26.0 · 20 November 2026
+
+- **Kidney medication review: kidney transplant.** Tick "Kidney transplant recipient" and choose the current immunosuppressants (tacrolimus, ciclosporin, sirolimus, everolimus, mycophenolate, azathioprine, prednisolone, belatacept). Every medicine added afterwards is checked against them: a warning appears as it is added, on its card, and in a transplant section at the top of the review. The check uses the same label sentences and FDA CYP/P-gp roles as the interaction checker; no interaction data were added.
+- The draft-reference notice on the review page is now an asterisk on the title with the full note at the end of the page (and on prints).
+- Clinical content is unchanged (drug content version 0.19.0).
+
+## Earlier release record
+
 # RenalRounds v0.25.0 · 19 November 2026
 
 - **Kidney medication review is now part of the app.** Open it from CALC → Medicines, the side menu, the footer, or "Add to a medication review" in any medicine's interactions panel (that medicine is added for you). Dalil v0.18 links to it from medicines that have a RenalRounds page. The page follows the night theme and keeps the draft-reference notice used across the app. Nothing entered is saved or sent.
